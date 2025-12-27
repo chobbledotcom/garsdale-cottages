@@ -10,6 +10,7 @@
 		"watch": "node scripts/watch.js",
 		"update-pages": "node scripts/update-pages.js",
 		"fetch-google-reviews": "node scripts/fetch-google-reviews.js",
+		"import-sykes": "node scripts/import-sykes-property.js",
 		"clean": "rm -rf .build _site"
 	},
 	"devDependencies": {}
