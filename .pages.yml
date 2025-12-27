@@ -364,6 +364,123 @@ content:
           - { name: answer, type: string, label: Answer, required: true }
           - { name: order, type: number, label: Order }
 
+  - name: walks
+    label: Walks
+    path: walks
+    type: collection
+    subfolders: false
+    filename: "{primary}.md"
+    view:
+      fields: [title, distance, difficulty]
+      primary: title
+      sort: [title]
+    fields:
+      - { name: title, type: string, label: Walk Name }
+      - { name: subtitle, type: string, label: Short Description }
+      - { name: thumbnail, type: image, label: Thumbnail }
+      - { name: header_image, type: image, label: Header Image }
+      - { name: featured, type: boolean, label: Featured }
+      - { name: distance, type: string, label: Distance (e.g. "5 miles") }
+      - { name: duration, type: string, label: Duration (e.g. "2-3 hours") }
+      - name: difficulty
+        type: string
+        label: Difficulty
+        options:
+          values: [Easy, Moderate, Challenging]
+      - { name: start_point, type: string, label: Start Point }
+      - { name: terrain, type: string, label: Terrain, list: true }
+      - { name: features, type: string, label: Features, list: true }
+      - name: locations
+        label: Locations
+        type: reference
+        options:
+          collection: locations
+          multiple: true
+          search: "title"
+          value: "{path}"
+          label: "{title}"
+      - name: gallery
+        type: image
+        label: Gallery
+        options: { multiple: true }
+      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
+      - {
+          name: meta_description,
+          type: string,
+          label: Meta Description,
+          maxlength: 155,
+        }
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - { name: question, type: string, label: Question, required: true }
+          - { name: answer, type: string, label: Answer, required: true }
+          - { name: order, type: number, label: Order }
+
+  - name: activities
+    label: Things To Do
+    path: activities
+    type: collection
+    subfolders: false
+    filename: "{primary}.md"
+    view:
+      fields: [title, subtitle]
+      primary: title
+      sort: [title]
+    fields:
+      - { name: title, type: string, label: Activity Name }
+      - { name: subtitle, type: string, label: Short Description }
+      - { name: thumbnail, type: image, label: Thumbnail }
+      - { name: header_image, type: image, label: Header Image }
+      - { name: featured, type: boolean, label: Featured }
+      - name: categories
+        label: Categories
+        type: reference
+        options:
+          collection: categories
+          multiple: true
+          search: "title"
+          value: "{path}"
+          label: "{title}"
+      - name: locations
+        label: Locations
+        type: reference
+        options:
+          collection: locations
+          multiple: true
+          search: "title"
+          value: "{path}"
+          label: "{title}"
+      - { name: address, type: string, label: Address }
+      - { name: website, type: string, label: Website }
+      - { name: phone, type: string, label: Phone Number }
+      - { name: opening_hours, type: string, label: Opening Hours }
+      - { name: price_info, type: string, label: Price Information }
+      - { name: features, type: string, label: Features, list: true }
+      - name: gallery
+        type: image
+        label: Gallery
+        options: { multiple: true }
+      - { name: body, label: Body, type: code, options: { language: markdown } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
+      - {
+          name: meta_description,
+          type: string,
+          label: Meta Description,
+          maxlength: 155,
+        }
+      - name: faqs
+        label: FAQs
+        type: object
+        list: true
+        fields:
+          - { name: question, type: string, label: Question, required: true }
+          - { name: answer, type: string, label: Answer, required: true }
+          - { name: order, type: number, label: Order }
+
   - name: snippets
     label: Snippets
     path: snippets

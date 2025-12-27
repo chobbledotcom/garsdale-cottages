@@ -1,0 +1,8 @@
+---
+layout: base.html
+---
+
+{{- content -}}
+
+{%- assign walks = collections.walk -%}
+{%- include "items.html", items: walks -%}
