@@ -251,6 +251,63 @@ function extractGalleryImages(html) {
 }
 
 /**
+ * Extract image alt tags from the page
+ */
+function extractImageAltTags(html) {
+  const altTags = [];
+  const seen = new Set();
+
+  // Match img tags with alt and src attributes
+  // Pattern: alt="..." followed by src="..." or src="..." followed by alt="..."
+  const imgMatches = html.matchAll(
+    /<img[^>]*\s+alt=["']([^"']+)["'][^>]*\s+src=["']([^"']+)["'][^>]*>/gi
+  );
+
+  for (const match of imgMatches) {
+    const alt = decodeHtmlEntities(match[1].trim());
+    let src = match[2];
+
+    // Only include Sykes CDN images
+    if (!src.includes("images-cdn.sykesassets.co.uk")) continue;
+
+    // Normalize to consistent size
+    src = src.replace(/\/\d+x\d+\//, "/976x732/");
+
+    // Deduplicate by base URL
+    const baseUrl = src.split("?")[0];
+    if (seen.has(baseUrl)) continue;
+    seen.add(baseUrl);
+
+    if (alt && alt.length > 10) {
+      altTags.push({ path: src, alt: alt });
+    }
+  }
+
+  // Also try src before alt pattern
+  const imgMatches2 = html.matchAll(
+    /<img[^>]*\s+src=["']([^"']+)["'][^>]*\s+alt=["']([^"']+)["'][^>]*>/gi
+  );
+
+  for (const match of imgMatches2) {
+    let src = match[1];
+    const alt = decodeHtmlEntities(match[2].trim());
+
+    if (!src.includes("images-cdn.sykesassets.co.uk")) continue;
+
+    src = src.replace(/\/\d+x\d+\//, "/976x732/");
+    const baseUrl = src.split("?")[0];
+    if (seen.has(baseUrl)) continue;
+    seen.add(baseUrl);
+
+    if (alt && alt.length > 10) {
+      altTags.push({ path: src, alt: alt });
+    }
+  }
+
+  return altTags;
+}
+
+/**
  * Extract the full property description
  */
 function extractDescription(html) {
@@ -516,6 +573,51 @@ async function fetchWithRetry(url, retries = 3) {
 }
 
 /**
+ * Write or update alt-tags.json file
+ */
+function writeAltTagsFile(altTags, outputDir) {
+  const dataDir = join(outputDir, "_data");
+  const filepath = join(dataDir, "alt-tags.json");
+
+  if (!existsSync(dataDir)) {
+    mkdirSync(dataDir, { recursive: true });
+  }
+
+  // Load existing alt-tags if file exists
+  let existingData = { images: [] };
+  if (existsSync(filepath)) {
+    try {
+      const content = readFileSync(filepath, "utf8");
+      existingData = JSON.parse(content);
+      if (!existingData.images) {
+        existingData.images = [];
+      }
+    } catch (e) {
+      // If parsing fails, start fresh
+      existingData = { images: [] };
+    }
+  }
+
+  // Create a map of existing images by path for deduplication
+  const existingPaths = new Set(existingData.images.map((img) => img.path));
+
+  // Add new alt tags that don't already exist
+  let addedCount = 0;
+  for (const tag of altTags) {
+    if (!existingPaths.has(tag.path)) {
+      existingData.images.push(tag);
+      existingPaths.add(tag.path);
+      addedCount++;
+    }
+  }
+
+  // Write the updated file
+  writeFileSync(filepath, JSON.stringify(existingData, null, 2) + "\n", "utf8");
+
+  return { filepath, addedCount, totalCount: existingData.images.length };
+}
+
+/**
  * Write review files to disk
  */
 function writeReviewFiles(reviews, propertySlug, outputDir) {
@@ -539,6 +641,7 @@ function writeReviewFiles(reviews, propertySlug, outputDir) {
 
     // Build front matter matching the reviews schema
     const frontMatter = {
+      title: review.headline || "",
       name: review.name,
       rating: review.rating,
       // url: null, // Not available from Sykes
@@ -546,13 +649,8 @@ function writeReviewFiles(reviews, propertySlug, outputDir) {
       // products: [], // Reference field - properties use different collection
     };
 
-    // Build body content - include headline as a quote if different from body
-    let bodyContent = "";
-    if (review.headline && review.body !== review.headline) {
-      bodyContent = `> "${review.headline}"\n\n${review.body}`;
-    } else {
-      bodyContent = review.body;
-    }
+    // Build body content
+    let bodyContent = review.body || "";
 
     // Add date as a note
     if (review.date) {
@@ -705,6 +803,9 @@ Examples:
   console.log("\nExtracting reviews...");
   const reviews = extractReviews(html, property.title);
 
+  console.log("\nExtracting image alt tags...");
+  const altTags = extractImageAltTags(html);
+
   console.log(`\nExtracted property:`);
   console.log(`  Title: ${property.title}`);
   console.log(`  Subtitle: ${property.subtitle || "Not found"}`);
@@ -724,6 +825,7 @@ Examples:
   if (reviews.length > 0) {
     console.log(`    First review: "${reviews[0].headline.substring(0, 50)}..." by ${reviews[0].name}`);
   }
+  console.log(`  Image alt tags: ${altTags.length} found`);
 
   const propertySlug = slugify(property.title);
 
@@ -753,6 +855,12 @@ Examples:
         console.log(`  - ${slugify(`${propertySlug}-${reviews[i].name}-${i + 1}`)}.md`);
       }
     }
+
+    if (altTags.length > 0) {
+      console.log(`\nWould add ${altTags.length} alt tags to _data/alt-tags.json`);
+      console.log("Sample alt tag:");
+      console.log(`  ${altTags[0].alt.substring(0, 80)}...`);
+    }
   } else {
     console.log(`\nWriting to: ${outputDir}`);
     const filepath = writePropertyFile(property, outputDir);
@@ -761,6 +869,11 @@ Examples:
     if (reviews.length > 0) {
       const reviewFiles = writeReviewFiles(reviews, propertySlug, outputDir);
       console.log(`✓ Created ${reviewFiles.length} review files in reviews/`);
+    }
+
+    if (altTags.length > 0) {
+      const altResult = writeAltTagsFile(altTags, outputDir);
+      console.log(`✓ Added ${altResult.addedCount} alt tags to ${altResult.filepath} (${altResult.totalCount} total)`);
     }
   }
 }
