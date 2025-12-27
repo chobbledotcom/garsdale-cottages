@@ -12,6 +12,7 @@
 		"fetch-google-reviews": "node scripts/fetch-google-reviews.js",
 		"import-sykes": "node scripts/import-sykes-property.js",
 		"full-import": "node scripts/full-import.js",
+		"organize-images": "node scripts/organize-images.js",
 		"clean": "rm -rf .build _site"
 	},
 	"devDependencies": {}
