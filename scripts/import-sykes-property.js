@@ -4,16 +4,18 @@
  * Sykes Property Importer
  *
  * Fetches a Sykes Cottages listing page and converts it to a property
- * markdown file with YAML front matter.
+ * markdown file with YAML front matter matching the chobble-template schema.
  *
  * Usage:
  *   node scripts/import-sykes-property.js <sykes-url> [--output-dir <dir>]
+ *   node scripts/import-sykes-property.js --file <local.html> [--output-dir <dir>]
  *
  * Example:
  *   node scripts/import-sykes-property.js https://www.sykescottages.co.uk/cottage/Lake-District-Yorkshire-Dales-South-Far-Ho/The-Old-Cart-House-1167031.html
+ *   node scripts/import-sykes-property.js --file example.html
  */
 
-const { writeFileSync, mkdirSync, existsSync } = require("fs");
+const { readFileSync, writeFileSync, mkdirSync, existsSync } = require("fs");
 const { join } = require("path");
 
 /**
@@ -33,15 +35,18 @@ function slugify(text) {
  * Escape special characters in YAML strings
  */
 function escapeYaml(str) {
-  if (!str) return "";
+  if (!str) return '""';
+  const s = String(str);
   if (
-    /[:#\[\]{}|>&*!?,\n]/.test(str) ||
-    str.includes('"') ||
-    str.includes("'")
+    /[:#\[\]{}|>&*!?,\n]/.test(s) ||
+    s.includes('"') ||
+    s.includes("'") ||
+    s.startsWith(" ") ||
+    s.endsWith(" ")
   ) {
-    return `"${str.replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\n/g, "\\n")}"`;
+    return `"${s.replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\n/g, "\\n")}"`;
   }
-  return str;
+  return s;
 }
 
 /**
@@ -57,12 +62,22 @@ function generateFrontMatter(data) {
       if (value.length === 0) continue;
       yaml += `${key}:\n`;
       for (const item of value) {
-        yaml += `  - ${escapeYaml(String(item))}\n`;
+        if (typeof item === "object" && item !== null) {
+          // Handle objects like FAQs
+          yaml += "  -\n";
+          for (const [k, v] of Object.entries(item)) {
+            yaml += `    ${k}: ${escapeYaml(v)}\n`;
+          }
+        } else {
+          yaml += `  - ${escapeYaml(item)}\n`;
+        }
       }
     } else if (typeof value === "number") {
       yaml += `${key}: ${value}\n`;
+    } else if (typeof value === "boolean") {
+      yaml += `${key}: ${value}\n`;
     } else {
-      yaml += `${key}: ${escapeYaml(String(value))}\n`;
+      yaml += `${key}: ${escapeYaml(value)}\n`;
     }
   }
 
@@ -71,97 +86,19 @@ function generateFrontMatter(data) {
 }
 
 /**
- * Convert HTML to Markdown (basic conversion)
+ * Decode HTML entities
  */
-function htmlToMarkdown(html) {
-  if (!html) return "";
-
-  let md = html;
-
-  // Remove style and class attributes
-  md = md.replace(/\s*style="[^"]*"/gi, "");
-  md = md.replace(/\s*class="[^"]*"/gi, "");
-
-  // Convert headers
-  md = md.replace(/<h1[^>]*>(.*?)<\/h1>/gi, "# $1\n\n");
-  md = md.replace(/<h2[^>]*>(.*?)<\/h2>/gi, "## $1\n\n");
-  md = md.replace(/<h3[^>]*>(.*?)<\/h3>/gi, "### $1\n\n");
-  md = md.replace(/<h4[^>]*>(.*?)<\/h4>/gi, "#### $1\n\n");
-
-  // Convert paragraphs
-  md = md.replace(/<p[^>]*>(.*?)<\/p>/gis, "$1\n\n");
-
-  // Convert bold/strong
-  md = md.replace(/<strong[^>]*>(.*?)<\/strong>/gi, "**$1**");
-  md = md.replace(/<b[^>]*>(.*?)<\/b>/gi, "**$1**");
-
-  // Convert italic/em
-  md = md.replace(/<em[^>]*>(.*?)<\/em>/gi, "*$1*");
-  md = md.replace(/<i[^>]*>(.*?)<\/i>/gi, "*$1*");
-
-  // Convert links
-  md = md.replace(/<a[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>/gi, "[$2]($1)");
-
-  // Convert unordered lists
-  md = md.replace(/<ul[^>]*>/gi, "\n");
-  md = md.replace(/<\/ul>/gi, "\n");
-  md = md.replace(/<li[^>]*>(.*?)<\/li>/gis, "- $1\n");
-
-  // Convert ordered lists
-  md = md.replace(/<ol[^>]*>/gi, "\n");
-  md = md.replace(/<\/ol>/gi, "\n");
-
-  // Convert line breaks
-  md = md.replace(/<br\s*\/?>/gi, "\n");
-
-  // Remove remaining HTML tags
-  md = md.replace(/<div[^>]*>/gi, "");
-  md = md.replace(/<\/div>/gi, "\n");
-  md = md.replace(/<span[^>]*>/gi, "");
-  md = md.replace(/<\/span>/gi, "");
-  md = md.replace(/<[^>]+>/g, "");
-
-  // Clean up whitespace
-  md = md.replace(/\n{3,}/g, "\n\n");
-  md = md.replace(/^\s+|\s+$/g, "");
-
-  // Decode HTML entities
-  md = md.replace(/&amp;/g, "&");
-  md = md.replace(/&lt;/g, "<");
-  md = md.replace(/&gt;/g, ">");
-  md = md.replace(/&quot;/g, '"');
-  md = md.replace(/&#39;/g, "'");
-  md = md.replace(/&nbsp;/g, " ");
-
-  return md;
-}
-
-/**
- * Extract JSON-LD structured data from HTML
- */
-function extractJsonLd(html) {
-  const jsonLdMatches = html.match(
-    /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi
-  );
-
-  if (!jsonLdMatches) return [];
-
-  const results = [];
-  for (const match of jsonLdMatches) {
-    const jsonMatch = match.match(
-      /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/i
-    );
-    if (jsonMatch && jsonMatch[1]) {
-      try {
-        const data = JSON.parse(jsonMatch[1].trim());
-        results.push(data);
-      } catch (e) {
-        // Skip invalid JSON
-      }
-    }
-  }
-
-  return results;
+function decodeHtmlEntities(text) {
+  if (!text) return "";
+  return text
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#163;/g, "£")
+    .replace(/&#(\d+);/g, (_, num) => String.fromCharCode(num));
 }
 
 /**
@@ -170,246 +107,308 @@ function extractJsonLd(html) {
 function extractMetaTags(html) {
   const meta = {};
 
-  // Open Graph tags
+  // Open Graph tags - property before content
   const ogMatches = html.matchAll(
-    /<meta[^>]*property=["']og:([^"']+)["'][^>]*content=["']([^"']*)["'][^>]*\/?>/gi
+    /<meta\s+property=["']og:([^"']+)["']\s+content=["']([^"']*)["'][^>]*\/?>/gi
   );
   for (const match of ogMatches) {
-    meta[`og:${match[1]}`] = match[2];
+    meta[`og:${match[1]}`] = decodeHtmlEntities(match[2]);
   }
 
-  // Also try content before property
+  // Open Graph tags - content before property
   const ogMatches2 = html.matchAll(
-    /<meta[^>]*content=["']([^"']*)["'][^>]*property=["']og:([^"']+)["'][^>]*\/?>/gi
+    /<meta\s+content=["']([^"']*)["']\s+property=["']og:([^"']+)["'][^>]*\/?>/gi
   );
   for (const match of ogMatches2) {
-    meta[`og:${match[2]}`] = match[1];
+    if (!meta[`og:${match[2]}`]) {
+      meta[`og:${match[2]}`] = decodeHtmlEntities(match[1]);
+    }
   }
 
-  // Standard meta tags
+  // Standard meta tags - name before content
   const standardMatches = html.matchAll(
-    /<meta[^>]*name=["']([^"']+)["'][^>]*content=["']([^"']*)["'][^>]*\/?>/gi
+    /<meta\s+name=["']([^"']+)["']\s+content=["']([^"']*)["'][^>]*\/?>/gi
   );
   for (const match of standardMatches) {
-    meta[match[1]] = match[2];
+    meta[match[1]] = decodeHtmlEntities(match[2]);
   }
 
-  // Also try content before name
+  // Standard meta tags - content before name
   const standardMatches2 = html.matchAll(
-    /<meta[^>]*content=["']([^"']*)["'][^>]*name=["']([^"']+)["'][^>]*\/?>/gi
+    /<meta\s+content=["']([^"']*)["']\s+name=["']([^"']+)["'][^>]*\/?>/gi
   );
   for (const match of standardMatches2) {
-    meta[match[2]] = match[1];
+    if (!meta[match[2]]) {
+      meta[match[2]] = decodeHtmlEntities(match[1]);
+    }
   }
 
   return meta;
 }
 
 /**
- * Extract property ID from Sykes URL
+ * Extract sleeps/bedrooms/bathrooms from at-a-glance section
  */
-function extractPropertyId(url) {
-  // Pattern: The-Old-Cart-House-1167031.html -> 1167031
-  const match = url.match(/-(\d+)\.html$/);
-  return match ? match[1] : null;
+function extractAtAGlance(html) {
+  const result = { sleeps: null, bedrooms: null, bathrooms: null, pets: false };
+
+  // Match: <li class='sleeps'><p><b>2</b> Guests</p></li>
+  const sleepsMatch = html.match(
+    /<li\s+class=['"]sleeps['"][^>]*>[\s\S]*?<b>(\d+)<\/b>/i
+  );
+  if (sleepsMatch) {
+    result.sleeps = parseInt(sleepsMatch[1], 10);
+  }
+
+  // Match: <li class='bedrooms'><p><b>1</b> Bedroom</p></li>
+  const bedroomsMatch = html.match(
+    /<li\s+class=['"]bedrooms['"][^>]*>[\s\S]*?<b>(\d+)<\/b>/i
+  );
+  if (bedroomsMatch) {
+    result.bedrooms = parseInt(bedroomsMatch[1], 10);
+  }
+
+  // Match: <li class='bathrooms'><p><b>1</b> Bathroom</p></li>
+  const bathroomsMatch = html.match(
+    /<li\s+class=['"]bathrooms['"][^>]*>[\s\S]*?<b>(\d+)<\/b>/i
+  );
+  if (bathroomsMatch) {
+    result.bathrooms = parseInt(bathroomsMatch[1], 10);
+  }
+
+  // Match: <li class='pets'><p>Pets: <strong>Yes</strong></p></li>
+  const petsMatch = html.match(
+    /<li\s+class=['"]pets['"][^>]*>[\s\S]*?<strong>Yes<\/strong>/i
+  );
+  result.pets = !!petsMatch;
+
+  return result;
+}
+
+/**
+ * Extract features from cottage_features section
+ */
+function extractFeatures(html) {
+  const features = [];
+
+  // Find the cottage_features section
+  const sectionMatch = html.match(
+    /<section\s+class=['"]cottage_features['"][^>]*>([\s\S]*?)<\/section>/i
+  );
+
+  if (sectionMatch) {
+    // Extract each feature from <li class="secondary_feature ...">Feature Name</li>
+    const featureMatches = sectionMatch[1].matchAll(
+      /<li\s+class=["'][^"']*secondary_feature[^"']*["'][^>]*>([\s\S]*?)<\/li>/gi
+    );
+
+    for (const match of featureMatches) {
+      // Clean up the feature text
+      let feature = match[1]
+        .replace(/<[^>]+>/g, "") // Remove HTML tags
+        .replace(/\s+/g, " ") // Normalize whitespace
+        .trim();
+
+      feature = decodeHtmlEntities(feature);
+
+      if (feature && !features.includes(feature)) {
+        features.push(feature);
+      }
+    }
+  }
+
+  return features;
+}
+
+/**
+ * Extract gallery images
+ */
+function extractGalleryImages(html) {
+  const images = [];
+  const seen = new Set();
+
+  // Match high-quality gallery images: src='https://images-cdn.sykesassets.co.uk/images/property_images/976x732/...'
+  const imgMatches = html.matchAll(
+    /src=['"]([^'"]*images-cdn\.sykesassets\.co\.uk\/images\/property_images\/\d+x\d+\/[^'"]+)['"]/gi
+  );
+
+  for (const match of imgMatches) {
+    let url = match[1];
+
+    // Normalize to consistent size (use 976x732 for gallery)
+    url = url.replace(/\/\d+x\d+\//, "/976x732/");
+
+    // Remove query params for deduplication
+    const baseUrl = url.split("?")[0];
+
+    if (!seen.has(baseUrl)) {
+      seen.add(baseUrl);
+      images.push(url);
+    }
+  }
+
+  return images;
+}
+
+/**
+ * Extract the full property description
+ */
+function extractDescription(html) {
+  // Find the description article: <article class="property" itemprop="description" id="description">
+  const articleMatch = html.match(
+    /<article[^>]*id=["']description["'][^>]*>([\s\S]*?)<\/article>/i
+  );
+
+  if (!articleMatch) return "";
+
+  const content = articleMatch[1];
+  const parts = [];
+
+  // Extract "The property" section with paragraphs
+  const propertySection = content.match(
+    /<h2>The property<\/h2>[\s\S]*?<div[^>]*class=["']columns["'][^>]*>([\s\S]*?)<\/div>/i
+  );
+
+  if (propertySection) {
+    // Extract all paragraphs
+    const paragraphs = propertySection[1].matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi);
+    for (const p of paragraphs) {
+      let text = p[1]
+        .replace(/<[^>]+>/g, "") // Remove HTML tags
+        .replace(/\s+/g, " ") // Normalize whitespace
+        .trim();
+      text = decodeHtmlEntities(text);
+      if (text) {
+        parts.push(text);
+      }
+    }
+  }
+
+  return parts.join("\n\n");
+}
+
+/**
+ * Extract amenities list
+ */
+function extractAmenities(html) {
+  const amenities = [];
+
+  // Find the amenities list: <ul class="amenities">
+  const listMatch = html.match(
+    /<ul\s+class=["']amenities["'][^>]*>([\s\S]*?)<\/ul>/i
+  );
+
+  if (listMatch) {
+    const itemMatches = listMatch[1].matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi);
+    for (const item of itemMatches) {
+      let text = item[1]
+        .replace(/<[^>]+>/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+      text = decodeHtmlEntities(text);
+      if (text) {
+        amenities.push(text);
+      }
+    }
+  }
+
+  return amenities;
+}
+
+/**
+ * Extract property ID from URL or HTML
+ */
+function extractPropertyId(url, html) {
+  // From URL: The-Old-Cart-House-1167031.html -> 1167031
+  const urlMatch = url.match(/-(\d+)\.html$/);
+  if (urlMatch) return urlMatch[1];
+
+  // From HTML: var propertyID = '1167031';
+  const htmlMatch = html.match(/propertyID\s*=\s*['"](\d+)['"]/);
+  if (htmlMatch) return htmlMatch[1];
+
+  return null;
+}
+
+/**
+ * Extract location from title
+ */
+function extractLocation(html, metaTags) {
+  // Title format: "The Old Cart House | Sedbergh | Far Ho | Self Catering Holiday Cottage"
+  const titleMatch = html.match(/<title>([^<]+)<\/title>/i);
+  if (titleMatch) {
+    const parts = titleMatch[1].split("|").map((p) => p.trim());
+    if (parts.length >= 2) {
+      // Return the location part (usually second segment)
+      return parts[1];
+    }
+  }
+  return "";
 }
 
 /**
  * Parse Sykes property page and extract data
  */
 function parseSykesPage(html, url) {
-  const jsonLdData = extractJsonLd(html);
   const metaTags = extractMetaTags(html);
-  const propertyId = extractPropertyId(url);
+  const atAGlance = extractAtAGlance(html);
+  const features = extractFeatures(html);
+  const images = extractGalleryImages(html);
+  const description = extractDescription(html);
+  const amenities = extractAmenities(html);
+  const propertyId = extractPropertyId(url, html);
+  const location = extractLocation(html, metaTags);
 
-  // Find the LodgingBusiness or VacationRental schema
-  let lodgingData = null;
-  for (const data of jsonLdData) {
-    if (data["@type"] === "LodgingBusiness" || data["@type"] === "VacationRental") {
-      lodgingData = data;
-      break;
-    }
-    // Check for @graph array
-    if (data["@graph"]) {
-      for (const item of data["@graph"]) {
-        if (item["@type"] === "LodgingBusiness" || item["@type"] === "VacationRental") {
-          lodgingData = item;
-          break;
-        }
-      }
-    }
-  }
-
-  // Extract title
-  let title = "";
-  if (lodgingData && lodgingData.name) {
-    title = lodgingData.name;
-  } else if (metaTags["og:title"]) {
-    title = metaTags["og:title"].replace(/ \| Sykes.*$/, "");
-  } else {
-    const titleMatch = html.match(/<title>([^<]+)<\/title>/i);
+  // Title from og:title or page title
+  let title = metaTags["og:title"] || "";
+  if (!title) {
+    const titleMatch = html.match(/<title>([^|<]+)/i);
     if (titleMatch) {
-      title = titleMatch[1].replace(/ \| Sykes.*$/, "");
+      title = titleMatch[1].trim();
     }
   }
 
-  // Extract description
-  let description = "";
-  if (lodgingData && lodgingData.description) {
-    description = lodgingData.description;
-  } else if (metaTags["og:description"]) {
-    description = metaTags["og:description"];
-  } else if (metaTags["description"]) {
-    description = metaTags["description"];
+  // Meta description
+  const metaDescription = metaTags["description"] || "";
+
+  // Combine features from cottage_features section
+  // Add pet-friendly if pets are allowed
+  if (atAGlance.pets && !features.some((f) => /pet/i.test(f))) {
+    features.push("Pet friendly");
   }
 
-  // Extract location
-  let location = "";
-  if (lodgingData && lodgingData.address) {
-    const addr = lodgingData.address;
-    const parts = [];
-    if (addr.addressLocality) parts.push(addr.addressLocality);
-    if (addr.addressRegion) parts.push(addr.addressRegion);
-    location = parts.join(", ");
+  // Get the main header image (og:image or first gallery image)
+  const headerImage = metaTags["og:image"] || images[0] || "";
+
+  // Build the full body content
+  let body = "";
+  if (description) {
+    body = description;
   }
 
-  // Extract images
-  const images = [];
-  if (lodgingData && lodgingData.image) {
-    if (Array.isArray(lodgingData.image)) {
-      images.push(...lodgingData.image);
-    } else {
-      images.push(lodgingData.image);
-    }
-  }
-  if (metaTags["og:image"] && !images.includes(metaTags["og:image"])) {
-    images.unshift(metaTags["og:image"]);
-  }
-
-  // Extract property details from HTML patterns
-  // Sykes typically shows "Sleeps X" and "X Bedrooms" in the page
-  let sleeps = null;
-  let bedrooms = null;
-  let bathrooms = null;
-
-  const sleepsMatch = html.match(/sleeps?\s*(\d+)/i);
-  if (sleepsMatch) sleeps = parseInt(sleepsMatch[1], 10);
-
-  const bedroomsMatch = html.match(/(\d+)\s*bedroom/i);
-  if (bedroomsMatch) bedrooms = parseInt(bedroomsMatch[1], 10);
-
-  const bathroomsMatch = html.match(/(\d+)\s*bathroom/i);
-  if (bathroomsMatch) bathrooms = parseInt(bathroomsMatch[1], 10);
-
-  // Extract features/amenities
-  const features = [];
-
-  // Look for common amenity patterns
-  const amenityPatterns = [
-    /\bwifi\b/i,
-    /\bwi-fi\b/i,
-    /\bparking\b/i,
-    /\bpet[s]?\s*(?:friendly|welcome|allowed)\b/i,
-    /\bgarden\b/i,
-    /\bopen\s*fire\b/i,
-    /\bwood\s*(?:burning|burner)\b/i,
-    /\bdishwasher\b/i,
-    /\bwashing\s*machine\b/i,
-    /\bhot\s*tub\b/i,
-    /\bpool\b/i,
-    /\bking[- ]?size\b/i,
-    /\bensuite\b/i,
-    /\ben-suite\b/i,
-    /\bcentral\s*heating\b/i,
-    /\belectric\s*heating\b/i,
-  ];
-
-  for (const pattern of amenityPatterns) {
-    const match = html.match(pattern);
-    if (match) {
-      // Normalize the feature name
-      let feature = match[0].toLowerCase().replace(/[-\s]+/g, " ").trim();
-      feature = feature.charAt(0).toUpperCase() + feature.slice(1);
-      if (!features.includes(feature)) {
-        features.push(feature);
-      }
-    }
-  }
-
-  // Look for features in data attributes or JSON
-  const featuresMatch = html.match(
-    /(?:features|amenities|facilities)["']?\s*:\s*\[([^\]]+)\]/i
-  );
-  if (featuresMatch) {
-    const featureItems = featuresMatch[1].match(/["']([^"']+)["']/g);
-    if (featureItems) {
-      for (const item of featureItems) {
-        const feature = item.replace(/["']/g, "").trim();
-        if (feature && !features.includes(feature)) {
-          features.push(feature);
-        }
-      }
-    }
-  }
-
-  // Extract price if available
-  let priceFrom = null;
-  const priceMatch = html.match(/(?:from|price)[:\s]*[£$]?\s*(\d+(?:,\d{3})*(?:\.\d{2})?)/i);
-  if (priceMatch) {
-    priceFrom = `£${priceMatch[1].replace(/,/g, "")}`;
-  }
-
-  // Extract property type
-  let propertyType = "Cottage";
-  if (/\bapartment\b/i.test(html)) propertyType = "Apartment";
-  else if (/\bhouse\b/i.test(html)) propertyType = "House";
-  else if (/\bbarn\b/i.test(html)) propertyType = "Barn";
-  else if (/\bfarmhouse\b/i.test(html)) propertyType = "Farmhouse";
-  else if (/\blodge\b/i.test(html)) propertyType = "Lodge";
-  else if (/\bchalet\b/i.test(html)) propertyType = "Chalet";
-  else if (/\bbungalow\b/i.test(html)) propertyType = "Bungalow";
-  else if (/\bcart\s*house\b/i.test(html)) propertyType = "Cart House";
-
-  // Extract full description from the page
-  let fullDescription = "";
-
-  // Try to find the main description section
-  const descPatterns = [
-    /<div[^>]*class="[^"]*description[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
-    /<section[^>]*class="[^"]*description[^"]*"[^>]*>([\s\S]*?)<\/section>/i,
-    /<div[^>]*id="[^"]*description[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
-    /<div[^>]*data-section="description"[^>]*>([\s\S]*?)<\/div>/i,
-  ];
-
-  for (const pattern of descPatterns) {
-    const match = html.match(pattern);
-    if (match) {
-      fullDescription = htmlToMarkdown(match[1]);
-      break;
-    }
-  }
-
-  // Fall back to meta description if no body description found
-  if (!fullDescription) {
-    fullDescription = description;
+  // Add amenities as a list if we have them
+  if (amenities.length > 0) {
+    if (body) body += "\n\n";
+    body += "## At a glance\n\n";
+    body += amenities.map((a) => `- ${a}`).join("\n");
   }
 
   return {
     title,
-    subtitle: location || propertyType,
-    location,
-    sleeps,
-    bedrooms,
-    bathrooms,
-    propertyType,
+    subtitle: location,
+    thumbnail: headerImage,
+    headerImage,
+    featured: false,
+    bedrooms: atAGlance.bedrooms,
+    bathrooms: atAGlance.bathrooms,
+    sleeps: atAGlance.sleeps,
+    pricePerNight: null, // Not reliably extractable from static HTML
     features,
-    images,
-    priceFrom,
-    description: fullDescription,
-    metaDescription: description,
-    metaTitle: title,
-    sykesUrl: url,
-    sykesId: propertyId,
+    gallery: images,
+    body,
+    metaTitle: title.substring(0, 55),
+    metaDescription: metaDescription.substring(0, 155),
+    sykesPropertyId: propertyId,
   };
 }
 
@@ -453,27 +452,32 @@ function writePropertyFile(property, outputDir) {
   const filename = `${slug}.md`;
   const filepath = join(propertiesDir, filename);
 
+  // Build front matter matching the chobble-template properties schema
   const frontMatter = {
     title: property.title,
     subtitle: property.subtitle,
-    location: property.location,
-    sleeps: property.sleeps,
+    thumbnail: property.thumbnail,
+    header_image: property.headerImage,
+    featured: property.featured,
+    // locations: [], // Reference field - would need manual setup
     bedrooms: property.bedrooms,
     bathrooms: property.bathrooms,
-    property_type: property.propertyType,
+    sleeps: property.sleeps,
+    // price_per_night: property.pricePerNight, // Omit if null
     features: property.features,
-    header_image: property.images[0] || null,
-    gallery: property.images.slice(1),
-    price_from: property.priceFrom,
-    sykes_url: property.sykesUrl,
-    sykes_id: property.sykesId,
-    header_text: property.title,
-    meta_description: property.metaDescription,
+    gallery: property.gallery,
     meta_title: property.metaTitle,
+    meta_description: property.metaDescription,
+    // faqs: [], // Could be populated if we extract Q&A content
   };
 
+  // Only include price if we have it
+  if (property.pricePerNight) {
+    frontMatter.price_per_night = property.pricePerNight;
+  }
+
   const content =
-    generateFrontMatter(frontMatter) + "\n" + (property.description || "") + "\n";
+    generateFrontMatter(frontMatter) + "\n" + (property.body || "") + "\n";
 
   writeFileSync(filepath, content, "utf8");
   return filepath;
@@ -493,82 +497,119 @@ Fetches a Sykes Cottages listing and converts it to a property page.
 
 Usage:
   node scripts/import-sykes-property.js <sykes-url> [options]
+  node scripts/import-sykes-property.js --file <local.html> [options]
 
 Options:
+  --file <path>       Read from a local HTML file instead of fetching
   --output-dir <dir>  Output directory (default: .)
   --dry-run           Show what would be created without writing files
   --help, -h          Show this help message
 
-Example:
-  node scripts/import-sykes-property.js https://www.sykescottages.co.uk/cottage/Lake-District-Yorkshire-Dales-South-Far-Ho/The-Old-Cart-House-1167031.html
+Examples:
+  node scripts/import-sykes-property.js https://www.sykescottages.co.uk/cottage/.../The-Old-Cart-House-1167031.html
+  node scripts/import-sykes-property.js --file example.html --dry-run
 `);
     process.exit(0);
   }
 
-  const url = args[0];
+  let url = "";
+  let localFile = null;
   let outputDir = ".";
   let dryRun = false;
 
   // Parse arguments
-  for (let i = 1; i < args.length; i++) {
+  for (let i = 0; i < args.length; i++) {
     if (args[i] === "--output-dir" && args[i + 1]) {
       outputDir = args[++i];
     } else if (args[i] === "--dry-run") {
       dryRun = true;
+    } else if (args[i] === "--file" && args[i + 1]) {
+      localFile = args[++i];
+    } else if (!args[i].startsWith("-")) {
+      url = args[i];
     }
   }
 
-  // Validate URL
-  if (!url.includes("sykescottages.co.uk")) {
-    console.error("Error: URL must be a Sykes Cottages listing URL");
-    process.exit(1);
+  let html;
+
+  if (localFile) {
+    // Read from local file
+    console.log(`Reading from file: ${localFile}`);
+    try {
+      html = readFileSync(localFile, "utf8");
+      console.log(`Read ${html.length} bytes`);
+      // Use a placeholder URL if reading from file
+      if (!url) {
+        url = `file://${localFile}`;
+      }
+    } catch (error) {
+      console.error(`Error reading file: ${error.message}`);
+      process.exit(1);
+    }
+  } else {
+    // Fetch from URL
+    if (!url) {
+      console.error("Error: Must provide a URL or --file <path>");
+      process.exit(1);
+    }
+
+    if (!url.includes("sykescottages.co.uk")) {
+      console.error("Error: URL must be a Sykes Cottages listing URL");
+      process.exit(1);
+    }
+
+    console.log(`Fetching: ${url}`);
+
+    try {
+      html = await fetchWithRetry(url);
+      console.log(`Fetched ${html.length} bytes`);
+    } catch (error) {
+      console.error(`Error fetching: ${error.message}`);
+      process.exit(1);
+    }
   }
 
-  console.log(`Fetching: ${url}`);
+  console.log("\nParsing property data...");
+  const property = parseSykesPage(html, url);
 
-  try {
-    const html = await fetchWithRetry(url);
-    console.log(`Fetched ${html.length} bytes`);
-
-    console.log("\nParsing property data...");
-    const property = parseSykesPage(html, url);
-
-    console.log(`\nExtracted property:`);
-    console.log(`  Title: ${property.title}`);
-    console.log(`  Location: ${property.location || "Not found"}`);
-    console.log(`  Sleeps: ${property.sleeps || "Not found"}`);
-    console.log(`  Bedrooms: ${property.bedrooms || "Not found"}`);
-    console.log(`  Bathrooms: ${property.bathrooms || "Not found"}`);
-    console.log(`  Type: ${property.propertyType}`);
-    console.log(`  Features: ${property.features.length} found`);
-    console.log(`  Images: ${property.images.length} found`);
-    console.log(`  Sykes ID: ${property.sykesId || "Not found"}`);
-
-    if (dryRun) {
-      console.log("\n--- DRY RUN ---");
-      console.log(`\nWould create: properties/${slugify(property.title)}.md`);
-      console.log("\nFront matter preview:");
-      console.log(
-        generateFrontMatter({
-          title: property.title,
-          subtitle: property.subtitle,
-          location: property.location,
-          sleeps: property.sleeps,
-          bedrooms: property.bedrooms,
-          bathrooms: property.bathrooms,
-          property_type: property.propertyType,
-          features: property.features.slice(0, 5),
-          sykes_id: property.sykesId,
-        })
-      );
-    } else {
-      console.log(`\nWriting to: ${outputDir}`);
-      const filepath = writePropertyFile(property, outputDir);
-      console.log(`\n✓ Created: ${filepath}`);
+  console.log(`\nExtracted property:`);
+  console.log(`  Title: ${property.title}`);
+  console.log(`  Subtitle: ${property.subtitle || "Not found"}`);
+  console.log(`  Sleeps: ${property.sleeps || "Not found"}`);
+  console.log(`  Bedrooms: ${property.bedrooms || "Not found"}`);
+  console.log(`  Bathrooms: ${property.bathrooms || "Not found"}`);
+  console.log(`  Features: ${property.features.length} found`);
+  if (property.features.length > 0) {
+    console.log(`    - ${property.features.slice(0, 5).join("\n    - ")}`);
+    if (property.features.length > 5) {
+      console.log(`    ... and ${property.features.length - 5} more`);
     }
-  } catch (error) {
-    console.error(`\nError: ${error.message}`);
-    process.exit(1);
+  }
+  console.log(`  Gallery images: ${property.gallery.length} found`);
+  console.log(`  Description: ${property.body.length} characters`);
+
+  if (dryRun) {
+    console.log("\n--- DRY RUN ---");
+    console.log(`\nWould create: properties/${slugify(property.title)}.md`);
+    console.log("\nFront matter preview:");
+    console.log(
+      generateFrontMatter({
+        title: property.title,
+        subtitle: property.subtitle,
+        bedrooms: property.bedrooms,
+        bathrooms: property.bathrooms,
+        sleeps: property.sleeps,
+        features: property.features,
+        meta_title: property.metaTitle,
+        meta_description: property.metaDescription,
+      })
+    );
+    console.log("\nBody preview (first 500 chars):");
+    console.log(property.body.substring(0, 500) + "...");
+  } else {
+    console.log(`\nWriting to: ${outputDir}`);
+    const filepath = writePropertyFile(property, outputDir);
+    console.log(`\n✓ Created: ${filepath}`);
   }
 }
 
