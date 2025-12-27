@@ -1,0 +1,8 @@
+---
+layout: base.html
+---
+
+{{- content -}}
+
+{%- assign activities = collections.activity -%}
+{%- include "items.html", items: activities -%}
