@@ -3,6 +3,8 @@ header_text: Our Cottages
 subtitle: Book direct with local property owners
 meta_title: Holiday Cottages in Garsdale | Book Direct
 meta_description: "*Description of the cottage cooperative and booking direct goes here*"
+layout: properties.html
+permalink: /properties/
 eleventyNavigation:
   key: Our Cottages
   order: 2
@@ -29,17 +31,3 @@ eleventyNavigation:
 *Details about how booking direct supports the local community goes here*
 
 ## Our Properties
-
-*Brief overview of the types of properties available goes here - cottages, converted barns, etc.*
-
-## What to Expect
-
-*Details about typical property features go here - character properties, countryside views, modern amenities*
-
-## Booking Information
-
-*Details about how to book go here*
-
-## Frequently Asked Questions
-
-*FAQs about booking, check-in, pets, etc. go here*
