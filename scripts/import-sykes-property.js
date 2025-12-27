@@ -316,6 +316,83 @@ function extractAmenities(html) {
 }
 
 /**
+ * Extract customer reviews from the page
+ */
+function extractReviews(html, propertyTitle) {
+  const reviews = [];
+
+  // Find the customer reviews section
+  const sectionMatch = html.match(
+    /<section\s+id=["']customer_reviews["'][^>]*>([\s\S]*?)<\/section>/i
+  );
+
+  if (!sectionMatch) return reviews;
+
+  // Extract each review from <li class="customer-review">
+  const reviewMatches = sectionMatch[1].matchAll(
+    /<li\s+class=["'][^"']*customer-review[^"']*["'][^>]*>([\s\S]*?)<\/li>/gi
+  );
+
+  for (const match of reviewMatches) {
+    const reviewHtml = match[1];
+
+    // Skip empty search message
+    if (reviewHtml.includes("empty_search_message")) continue;
+
+    // Extract headline from <h3>"..."</h3>
+    const headlineMatch = reviewHtml.match(/<h3[^>]*>"?([^<]+)"?<\/h3>/i);
+    const headline = headlineMatch
+      ? decodeHtmlEntities(headlineMatch[1].replace(/^"|"$/g, "").trim())
+      : "";
+
+    // Extract body from <p class='quote'>...</p>
+    const bodyMatch = reviewHtml.match(
+      /<p\s+class=['"]quote['"][^>]*>([\s\S]*?)<\/p>/i
+    );
+    let body = "";
+    if (bodyMatch) {
+      body = bodyMatch[1]
+        .replace(/<[^>]+>/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+      body = decodeHtmlEntities(body);
+    }
+
+    // Extract author info: Reviewed by NAME<strong class="review_score">RATING</strong><span>DATE</span>
+    const authorMatch = reviewHtml.match(
+      /<p\s+class=["']author["'][^>]*>[\s\S]*?Reviewed by\s+([^<]+)<strong\s+class=["']review_score["'][^>]*>([0-9.]+)/i
+    );
+
+    let name = "";
+    let rating = null;
+    if (authorMatch) {
+      name = authorMatch[1].trim();
+      rating = parseFloat(authorMatch[2]);
+    }
+
+    // Extract date
+    const dateMatch = reviewHtml.match(
+      /<p\s+class=["']author["'][^>]*>[\s\S]*?<\/strong><span>([^<]+)<\/span>/i
+    );
+    const date = dateMatch ? dateMatch[1].trim() : "";
+
+    // Only include reviews with at least a name or body
+    if (name || body || headline) {
+      reviews.push({
+        name: name || "Anonymous",
+        rating: rating,
+        headline: headline,
+        body: body || headline, // Use headline as body if no quote
+        date: date,
+        propertyTitle: propertyTitle,
+      });
+    }
+  }
+
+  return reviews;
+}
+
+/**
  * Extract property ID from URL or HTML
  */
 function extractPropertyId(url, html) {
@@ -436,6 +513,59 @@ async function fetchWithRetry(url, retries = 3) {
       await new Promise((r) => setTimeout(r, 1000 * (i + 1)));
     }
   }
+}
+
+/**
+ * Write review files to disk
+ */
+function writeReviewFiles(reviews, propertySlug, outputDir) {
+  const reviewsDir = join(outputDir, "reviews");
+
+  if (!existsSync(reviewsDir)) {
+    mkdirSync(reviewsDir, { recursive: true });
+  }
+
+  const writtenFiles = [];
+
+  for (let i = 0; i < reviews.length; i++) {
+    const review = reviews[i];
+
+    // Create a unique slug for each review
+    const reviewSlug = slugify(
+      `${propertySlug}-${review.name}-${i + 1}`
+    );
+    const filename = `${reviewSlug}.md`;
+    const filepath = join(reviewsDir, filename);
+
+    // Build front matter matching the reviews schema
+    const frontMatter = {
+      name: review.name,
+      rating: review.rating,
+      // url: null, // Not available from Sykes
+      // thumbnail: null, // Not available from Sykes
+      // products: [], // Reference field - properties use different collection
+    };
+
+    // Build body content - include headline as a quote if different from body
+    let bodyContent = "";
+    if (review.headline && review.body !== review.headline) {
+      bodyContent = `> "${review.headline}"\n\n${review.body}`;
+    } else {
+      bodyContent = review.body;
+    }
+
+    // Add date as a note
+    if (review.date) {
+      bodyContent += `\n\n*Reviewed: ${review.date}*`;
+    }
+
+    const content = generateFrontMatter(frontMatter) + "\n" + bodyContent + "\n";
+
+    writeFileSync(filepath, content, "utf8");
+    writtenFiles.push(filepath);
+  }
+
+  return writtenFiles;
 }
 
 /**
@@ -572,6 +702,9 @@ Examples:
   console.log("\nParsing property data...");
   const property = parseSykesPage(html, url);
 
+  console.log("\nExtracting reviews...");
+  const reviews = extractReviews(html, property.title);
+
   console.log(`\nExtracted property:`);
   console.log(`  Title: ${property.title}`);
   console.log(`  Subtitle: ${property.subtitle || "Not found"}`);
@@ -587,10 +720,16 @@ Examples:
   }
   console.log(`  Gallery images: ${property.gallery.length} found`);
   console.log(`  Description: ${property.body.length} characters`);
+  console.log(`  Reviews: ${reviews.length} found`);
+  if (reviews.length > 0) {
+    console.log(`    First review: "${reviews[0].headline.substring(0, 50)}..." by ${reviews[0].name}`);
+  }
+
+  const propertySlug = slugify(property.title);
 
   if (dryRun) {
     console.log("\n--- DRY RUN ---");
-    console.log(`\nWould create: properties/${slugify(property.title)}.md`);
+    console.log(`\nWould create: properties/${propertySlug}.md`);
     console.log("\nFront matter preview:");
     console.log(
       generateFrontMatter({
@@ -606,10 +745,23 @@ Examples:
     );
     console.log("\nBody preview (first 500 chars):");
     console.log(property.body.substring(0, 500) + "...");
+
+    if (reviews.length > 0) {
+      console.log(`\nWould create ${reviews.length} review files in reviews/`);
+      console.log("Sample review filenames:");
+      for (let i = 0; i < Math.min(3, reviews.length); i++) {
+        console.log(`  - ${slugify(`${propertySlug}-${reviews[i].name}-${i + 1}`)}.md`);
+      }
+    }
   } else {
     console.log(`\nWriting to: ${outputDir}`);
     const filepath = writePropertyFile(property, outputDir);
     console.log(`\n✓ Created: ${filepath}`);
+
+    if (reviews.length > 0) {
+      const reviewFiles = writeReviewFiles(reviews, propertySlug, outputDir);
+      console.log(`✓ Created ${reviewFiles.length} review files in reviews/`);
+    }
   }
 }
 
