@@ -1,0 +1,15 @@
+{
+  "has_products_filter": true,
+  "has_properties_filter": true,
+  "contact_form_target": "https://auto.chobble.com/webhooks/flows/6589697f-8b39-4555-9afa-bb27fc1a82c4",
+  "botpoison_public_key": null,
+  "sticky_mobile_nav": true,
+  "horizontal_nav": true,
+  "template_repo_url": "https://github.com/chobbledotcom/chobble-template",
+  "chobble_link": "https://chobble.com/services/chobble-template/",
+  "products": {
+    "item_widths": "240,480,640"
+  },
+  "timezone": "Europe/London",
+  "reviews_truncate_limit": 10
+}
