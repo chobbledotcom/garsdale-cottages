@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: What a fabulous time we had at Roger Pot.
 name: Rachel
 rating: 5

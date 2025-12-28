@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: We all really loved our stay over Christmas.
 name: Steven
 rating: 5

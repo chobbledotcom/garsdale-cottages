@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: A lovely stay in a beautiful location.
 name: Helen
 rating: 5

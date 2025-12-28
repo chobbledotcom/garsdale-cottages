@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: We spent a wonderful 14 days at Roger Pot.
 name: Nina
 rating: 5

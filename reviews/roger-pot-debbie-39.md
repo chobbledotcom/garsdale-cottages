@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Beautiful accommodation in a very peaceful setting.
 name: Debbie
 rating: 5

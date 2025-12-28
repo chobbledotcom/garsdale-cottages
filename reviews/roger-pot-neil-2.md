@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Absolutely lovely cottage….
 name: Neil
 rating: 5

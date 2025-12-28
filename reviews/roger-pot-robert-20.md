@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Just an great place in beautiful surroundings, couldn't wish for more."
 name: Robert
 rating: 5

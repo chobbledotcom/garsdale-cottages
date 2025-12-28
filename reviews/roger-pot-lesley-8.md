@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: We found that Roger Pot served us brilliantly as a base to explore the wonderful countryside of Yorkshire and Cumbria.
 name: Lesley
 rating: 5

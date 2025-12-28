@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Had a fabulous stay.
 name: Wal
 rating: 5

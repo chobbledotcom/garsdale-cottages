@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "The Roger Pot exceeded our expectations in every way!"
 name: Sophie
 rating: 5

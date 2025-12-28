@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: We stayed at the Roger Pot over New Year.
 name: Jennifer
 rating: 5

@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Roger Pot is the nicest cottage we have stayed in.
 name: Paul
 rating: 5

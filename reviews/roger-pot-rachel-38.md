@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: This is a beautiful holiday cottage.
 name: Rachel
 rating: 5

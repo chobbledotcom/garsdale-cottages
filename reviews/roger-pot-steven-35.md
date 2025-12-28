@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Rodger pot cottage is a lovely warm welcoming cottage, everything you need for a comfortable stay is there, the owners are very informative with regards to local knowledge and only there if you need them."
 name: Steven
 rating: 5

@@ -1,4 +1,5 @@
 ---
+property: properties/the-old-cart-house.md
 title: "A lovely, cosy cottage."
 name: Philippa
 rating: 5

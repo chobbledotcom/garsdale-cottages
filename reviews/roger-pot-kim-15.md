@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Wonderful, peaceful stay !"
 name: Kim
 rating: 5

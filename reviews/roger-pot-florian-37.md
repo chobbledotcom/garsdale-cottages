@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Beautiful cottage with stunning views.
 name: Florian
 rating: 5

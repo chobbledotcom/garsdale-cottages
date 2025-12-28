@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "I should preface my review by saying that our opinion of Roger Pot and our week there is coloured by the wet, windy and misty weather through the whole early October week we were there."
 name: Michael
 rating: 4

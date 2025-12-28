@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: A beautiful property in a gorgeous setting.
 name: Caroline
 rating: 5

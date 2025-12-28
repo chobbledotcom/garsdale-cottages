@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Magical property, friendly owner and the views are spectacular."
 name: Emma
 rating: 5

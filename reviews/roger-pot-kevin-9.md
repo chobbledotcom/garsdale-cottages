@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: This property was outstanding with great views and the hosts were well very friendly and approachable if you had any problems.
 name: Kevin
 rating: 5

@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Roger Pot is a lovely cottage in a beautiful location, and we would happily return."
 name: Carol
 rating: 5

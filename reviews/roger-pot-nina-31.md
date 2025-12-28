@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Absolutely stunning property, we couldn't fault anything at all."
 name: Nina
 rating: 5

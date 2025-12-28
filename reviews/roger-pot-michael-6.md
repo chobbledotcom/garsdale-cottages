@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "A lovely house modernised to a very high standard by the owner, a very friendly host always willing to answer any questions."
 name: Michael
 rating: 5

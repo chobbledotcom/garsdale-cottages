@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Great location with wonderful views and beautiful house.
 name: Paula
 rating: 4

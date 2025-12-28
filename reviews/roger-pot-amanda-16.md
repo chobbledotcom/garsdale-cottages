@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Beautiful property in every way, made even better by great hosts Paul & Karen."
 name: Amanda
 rating: 5

@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Made to feel very welcome by the owner.
 name: Jenny
 rating: 5

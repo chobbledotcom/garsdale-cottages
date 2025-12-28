@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: The owners were very friendly and helpful.
 name: Sue
 rating: 5

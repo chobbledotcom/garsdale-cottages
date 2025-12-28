@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: We had a lovely stay in this fabulous cottage.
 name: Carolyn
 rating: 5

@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Lovely cottage in a beautiful setting.
 name: Rachel
 rating: 5

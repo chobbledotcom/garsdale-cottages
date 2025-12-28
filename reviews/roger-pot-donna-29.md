@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: What a beautiful place Roger Pot is with fabulous hosting from Paul and Karen.
 name: Donna
 rating: 5

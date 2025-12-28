@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Lovely chilled four night stay, lovely hosts."
 name: Alexa
 rating: 5

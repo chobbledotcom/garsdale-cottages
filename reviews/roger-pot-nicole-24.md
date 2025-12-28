@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: We had an enjoyable stay at Roger Pot.
 name: Nicole
 rating: 5

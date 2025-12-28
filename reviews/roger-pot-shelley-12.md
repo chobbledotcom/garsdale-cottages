@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Paul & Karen were lovely owners!"
 name: Shelley
 rating: 5

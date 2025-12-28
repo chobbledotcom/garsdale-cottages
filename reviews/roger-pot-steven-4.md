@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Absolutely stunning holiday home and everything you could ask for and more.
 name: Steven
 rating: 5

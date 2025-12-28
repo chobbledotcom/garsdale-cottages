@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: Amazing welcome package after a 6 hour journey was simply amazing.
 name: Dawn
 rating: 5

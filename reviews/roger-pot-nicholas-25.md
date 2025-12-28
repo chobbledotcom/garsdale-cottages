@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: This cottage certainly lived up to its reviews.
 name: Nicholas
 rating: 5

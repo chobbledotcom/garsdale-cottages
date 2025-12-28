@@ -1,4 +1,5 @@
 ---
+property: properties/roger-pot.md
 title: "Paul & Karen are fantastic hosts who went above and beyond for us during our stay."
 name: Stephen
 rating: 5
