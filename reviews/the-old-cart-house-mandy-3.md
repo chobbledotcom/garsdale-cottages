@@ -1,4 +1,5 @@
 ---
+property: properties/the-old-cart-house.md
 title: Peaceful accommodation for 2 people.
 name: Mandy
 rating: 5

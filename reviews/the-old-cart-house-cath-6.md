@@ -1,4 +1,5 @@
 ---
+property: properties/the-old-cart-house.md
 title: "Excellent property, as described and with everything you need for your stay."
 name: Cath
 rating: 5

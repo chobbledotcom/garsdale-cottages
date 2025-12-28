@@ -1,4 +1,5 @@
 ---
+property: properties/the-old-cart-house.md
 title: "We had the most magical pre-Christmas stay!"
 name: Joshua
 rating: 5

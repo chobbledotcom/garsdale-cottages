@@ -1,4 +1,5 @@
 ---
+property: properties/the-old-cart-house.md
 title: A lovely quirky cottage - immaculately clean and very well equipped.
 name: Angela
 rating: 5
