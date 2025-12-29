@@ -1,6 +1,6 @@
 ---
 title: The Old Cart House
-subtitle: Sedbergh
+subtitle: Cottage in Sedbergh
 thumbnail: "/images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg"
 header_image: "/images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg"
 featured: false

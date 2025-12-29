@@ -1,6 +1,6 @@
 ---
 title: Roger Pot
-subtitle: Sedbergh
+subtitle: Cottage in Sedbergh
 thumbnail: "/images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg"
 header_image: "/images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg"
 featured: false
