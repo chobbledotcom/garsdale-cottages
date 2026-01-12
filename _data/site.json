@@ -21,7 +21,8 @@
 			"reviews",
 			"locations",
 			"properties",
-			"guides"
+			"guide-categories",
+			"guide-pages"
 		],
 		"features": {
 			"permalinks": false,
