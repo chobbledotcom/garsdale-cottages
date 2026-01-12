@@ -28,7 +28,8 @@ jobs:
           sparse-checkout: |
             .eleventy.js
             package.json
-            pnpm-lock.yaml
+            bun.lock
+            bunfig.toml
             flake.nix
             flake.lock
             bin
@@ -55,7 +56,7 @@ jobs:
             --exclude=".*" \
             --exclude="README.md" \
             --exclude="package.json" \
-            --exclude="pnpm-lock.yaml" \
+            --exclude="bun.lock" \
             source/ \
             combined/src/
 
@@ -87,15 +88,8 @@ jobs:
           name: combined-files
           path: combined
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: latest
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Restore cache
         uses: actions/cache@v4
@@ -107,11 +101,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}
 
-      - name: Build with Node
+      - name: Build with Bun
         run: |
           cd combined
-          pnpm install --frozen-lockfile
-          pnpm exec eleventy
+          bun install --frozen-lockfile
+          bun run eleventy
           mkdir -p ../_site
           mv _site/* ../_site/
 
@@ -153,4 +147,3 @@ jobs:
         with:
           url: 'https://ntfy.sh'
           topic: ${{ secrets.NTFY_TOPIC }}
-
