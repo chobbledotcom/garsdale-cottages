@@ -16,6 +16,7 @@
 		"collections": [
 			"pages",
 			"news",
+			"events",
 			"team",
 			"reviews",
 			"locations",
