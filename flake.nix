@@ -1,45 +1,61 @@
 {
-  outputs = _: {
-    devShells.x86_64-linux.default =
-      let
-        pkgs = import <nixpkgs> { };
-        pnpmScripts = pkgs.symlinkJoin {
-          name = "pnpm-scripts";
-          paths = map (cmd: pkgs.writeShellScriptBin cmd "pnpm run ${cmd}") [
-            "serve"
-            "build"
-            "prepare-dev"
-            "sync-files"
-            "watch"
-            "update-pages"
-            "fetch-google-reviews"
-            "clean"
-          ];
-        };
-      in
-      pkgs.mkShell {
-        buildInputs = [
-          pkgs.nodejs_24
-          pkgs.pnpm
-          pnpmScripts
-        ];
-        shellHook = ''
-          cat <<EOF
+  inputs = { };
 
-          Available commands:
-           serve               - Start development server
-           build               - Build the project
-           prepare-dev         - Prepare development environment
-           sync-files          - Synchronize files
-           watch               - Watch for changes
-           update-pages        - Update pages
-           fetch-google-reviews - Fetch Google Maps reviews
-           clean               - Clean build directory
+  outputs =
+    { ... }:
+    let
+      forAllSystems = f: { x86_64-linux = f "x86_64-linux"; };
+    in
+    {
+      devShells = forAllSystems (
+        system:
+        let
+          pkgs = import <nixpkgs> { inherit system; };
+          bunScripts = pkgs.symlinkJoin {
+            name = "bun-scripts";
+            paths = map (cmd: pkgs.writeShellScriptBin cmd "bun run ${cmd} -- \"$@\"") [
+              "serve"
+              "build"
+              "prepare-dev"
+              "sync-files"
+              "watch"
+              "update-pages"
+              "fetch-google-reviews"
+              "clean"
+              "test"
+            ];
+          };
+        in
+        {
+          default = pkgs.mkShell {
+            packages = with pkgs; [
+              bun
+              vips
+              stdenv.cc.cc.lib
+              bunScripts
+            ];
 
-          EOF
-          pnpm install
-          git pull
-        '';
-      };
-  };
+            shellHook = ''
+              export LD_LIBRARY_PATH="${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH"
+
+              cat <<EOF
+
+              Available commands:
+               serve               - Start development server
+               build               - Build the project
+               prepare-dev         - Prepare development environment
+               sync-files          - Synchronize files
+               watch               - Watch for changes
+               update-pages        - Update pages
+               fetch-google-reviews - Fetch Google Maps reviews
+               clean               - Clean build directory
+               test                - Run tests
+
+              EOF
+              git pull
+            '';
+          };
+        }
+      );
+    };
 }

@@ -1,19 +1,19 @@
 {
 	"name": "chobble-client",
 	"version": "1.0.0",
+	"type": "module",
+	"packageManager": "bun@1.2.13",
 	"description": "Chobble.com client website",
 	"scripts": {
-		"serve": "node scripts/serve.js",
-		"build": "node scripts/build.js",
-		"prepare-dev": "node scripts/prepare-dev.js",
-		"sync-files": "node scripts/sync-files.js",
-		"watch": "node scripts/watch.js",
-		"update-pages": "node scripts/update-pages.js",
-		"fetch-google-reviews": "node scripts/fetch-google-reviews.js",
-		"import-sykes": "node scripts/import-sykes-property.js",
-		"full-import": "node scripts/full-import.js",
-		"organize-images": "node scripts/organize-images.js",
-		"clean": "rm -rf .build _site"
-	},
-	"devDependencies": {}
+		"preinstall": "node -e \"if(!process.env.npm_config_user_agent.startsWith('bun')){console.error('Use bun, not npm/yarn/pnpm');process.exit(1)}\"",
+		"serve": "bun scripts/serve.js",
+		"build": "bun scripts/build.js",
+		"prepare-dev": "bun scripts/prepare-dev.js",
+		"sync-files": "bun scripts/sync-files.js",
+		"watch": "bun scripts/watch.js",
+		"update-pages": "bun scripts/update-pages.js",
+		"fetch-google-reviews": "bun scripts/fetch-google-reviews.js",
+		"clean": "rm -rf .build _site",
+		"test": "bun scripts/test.js"
+	}
 }
