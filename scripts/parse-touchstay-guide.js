@@ -34,16 +34,16 @@ const DEFAULT_ICON = "icons/touchstay/sightseeing.svg";
 
 // Map pin icon type to local SVG filename
 const MAP_ICON_MAP = {
-  "vacation_rental": "vacation_rental.svg",
-  "key_collection": "key_collection.svg",
-  "sightseeing": "sightseeing.svg",
-  "luggage_storage": "luggage_storage.svg",
-  "restaurants": "restaurants.svg",
-  "hiking": "hiking.svg",
-  "coffee_shop": "coffee_shop.svg",
-  "swimming": "swimming.svg",
-  "train": "train.svg",
-  "taxi": "taxi.svg",
+  vacation_rental: "vacation_rental.svg",
+  key_collection: "key_collection.svg",
+  sightseeing: "sightseeing.svg",
+  luggage_storage: "luggage_storage.svg",
+  restaurants: "restaurants.svg",
+  hiking: "hiking.svg",
+  coffee_shop: "coffee_shop.svg",
+  swimming: "swimming.svg",
+  train: "train.svg",
+  taxi: "taxi.svg",
 };
 
 /**
@@ -95,8 +95,14 @@ function htmlToMarkdown(html) {
   md = md.replace(/<a[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>/gi, "[$2]($1)");
 
   // Convert images - extract src and alt
-  md = md.replace(/<img[^>]*src="([^"]*)"[^>]*alt="([^"]*)"[^>]*\/?>/gi, "![$2]($1)");
-  md = md.replace(/<img[^>]*alt="([^"]*)"[^>]*src="([^"]*)"[^>]*\/?>/gi, "![$1]($2)");
+  md = md.replace(
+    /<img[^>]*src="([^"]*)"[^>]*alt="([^"]*)"[^>]*\/?>/gi,
+    "![$2]($1)",
+  );
+  md = md.replace(
+    /<img[^>]*alt="([^"]*)"[^>]*src="([^"]*)"[^>]*\/?>/gi,
+    "![$1]($2)",
+  );
   md = md.replace(/<img[^>]*src="([^"]*)"[^>]*\/?>/gi, "![]($1)");
 
   // Convert unordered lists
@@ -116,7 +122,10 @@ function htmlToMarkdown(html) {
     /<iframe[^>]*src="([^"]*youtube[^"]*)"[^>]*><\/iframe>/gi,
     "\n[Watch Video]($1)\n",
   );
-  md = md.replace(/<iframe[^>]*src="([^"]*)"[^>]*><\/iframe>/gi, "\n[Embedded Content]($1)\n");
+  md = md.replace(
+    /<iframe[^>]*src="([^"]*)"[^>]*><\/iframe>/gi,
+    "\n[Embedded Content]($1)\n",
+  );
 
   // Remove remaining HTML tags
   md = md.replace(/<div[^>]*>/gi, "");
@@ -145,7 +154,11 @@ function htmlToMarkdown(html) {
 function escapeYaml(str) {
   if (!str) return "";
   // If the string contains special characters, wrap in quotes
-  if (/[:#\[\]{}|>&*!?,\n]/.test(str) || str.includes('"') || str.includes("'")) {
+  if (
+    /[:#\[\]{}|>&*!?,\n]/.test(str) ||
+    str.includes('"') ||
+    str.includes("'")
+  ) {
     return `"${str.replace(/"/g, '\\"').replace(/\n/g, "\\n")}"`;
   }
   return str;
@@ -196,7 +209,8 @@ function parseTouchStayGuide(jsonData) {
   const infoContent = jsonData.content?.info_content || [];
 
   infoContent.forEach((category, categoryIndex) => {
-    const categoryTitle = category.title_translations?.en || `Category ${categoryIndex + 1}`;
+    const categoryTitle =
+      category.title_translations?.en || `Category ${categoryIndex + 1}`;
     const categorySlug = slugify(categoryTitle);
     const categoryIcon = ICON_MAP[category.icon] || DEFAULT_ICON;
 
@@ -217,7 +231,8 @@ function parseTouchStayGuide(jsonData) {
     let pageOrder = 1;
 
     subcategories.forEach((subcategory) => {
-      const subcategoryTitle = subcategory.title_translations?.en || "Untitled Section";
+      const subcategoryTitle =
+        subcategory.title_translations?.en || "Untitled Section";
       const topics = subcategory.topics || [];
 
       topics.forEach((topic) => {
@@ -278,7 +293,9 @@ function extractMapPlaces(jsonData) {
     iconTypes[icon.type] = {
       label: icon.translations?.en || icon.type,
       originalUrl: icon.url,
-      localIcon: MAP_ICON_MAP[icon.type] ? `icons/touchstay/${MAP_ICON_MAP[icon.type]}` : null,
+      localIcon: MAP_ICON_MAP[icon.type]
+        ? `icons/touchstay/${MAP_ICON_MAP[icon.type]}`
+        : null,
     };
   }
 
@@ -299,7 +316,8 @@ function extractMapPlaces(jsonData) {
         lng: marker.location?.lng,
       },
       directionsUrl: marker.get_directions_url || null,
-      icon: iconTypes[markerType]?.localIcon || `icons/touchstay/${markerType}.svg`,
+      icon:
+        iconTypes[markerType]?.localIcon || `icons/touchstay/${markerType}.svg`,
       iconUrl: marker.icon?.url || null,
     });
   }
@@ -338,8 +356,8 @@ function writeMapPlaces(places, iconTypes, outputDir) {
  * Write guide categories and pages to disk
  */
 function writeGuideFiles(categories, pages, outputDir) {
-  const categoriesDir = join(outputDir, "guide_categories");
-  const pagesDir = join(outputDir, "guide_pages");
+  const categoriesDir = join(outputDir, "guide-categories");
+  const pagesDir = join(outputDir, "guide-pages");
 
   // Ensure directories exist
   if (!existsSync(categoriesDir)) {
@@ -354,7 +372,11 @@ function writeGuideFiles(categories, pages, outputDir) {
   for (const category of categories) {
     const filename = `${category.slug}.md`;
     const filepath = join(categoriesDir, filename);
-    const content = generateFrontMatter(category.frontMatter) + "\n" + category.content + "\n";
+    const content =
+      generateFrontMatter(category.frontMatter) +
+      "\n" +
+      category.content +
+      "\n";
 
     writeFileSync(filepath, content, "utf8");
     writtenCategories.push(filepath);
@@ -366,7 +388,8 @@ function writeGuideFiles(categories, pages, outputDir) {
   for (const page of pages) {
     const filename = `${page.slug}.md`;
     const filepath = join(pagesDir, filename);
-    const content = generateFrontMatter(page.frontMatter) + "\n" + page.content + "\n";
+    const content =
+      generateFrontMatter(page.frontMatter) + "\n" + page.content + "\n";
 
     writeFileSync(filepath, content, "utf8");
     writtenPages.push(filepath);
@@ -431,7 +454,9 @@ Example:
   const { categories, pages } = parseTouchStayGuide(jsonData);
   const { places, iconTypes } = extractMapPlaces(jsonData);
 
-  console.log(`\nFound ${categories.length} categories and ${pages.length} pages`);
+  console.log(
+    `\nFound ${categories.length} categories and ${pages.length} pages`,
+  );
   console.log(`Found ${places.length} map places`);
 
   if (dryRun) {
@@ -445,10 +470,16 @@ Example:
     console.log("\nNo files were written (dry run mode)");
   } else {
     console.log(`\nWriting files to: ${outputDir}`);
-    const { writtenCategories, writtenPages } = writeGuideFiles(categories, pages, outputDir);
+    const { writtenCategories, writtenPages } = writeGuideFiles(
+      categories,
+      pages,
+      outputDir,
+    );
     writeMapPlaces(places, iconTypes, outputDir);
 
-    console.log(`\n✓ Successfully created ${writtenCategories.length} categories`);
+    console.log(
+      `\n✓ Successfully created ${writtenCategories.length} categories`,
+    );
     console.log(`✓ Successfully created ${writtenPages.length} pages`);
   }
 }
