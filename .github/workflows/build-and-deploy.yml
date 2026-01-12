@@ -97,15 +97,15 @@ jobs:
           path: |
             combined/node_modules
             combined/.image-cache
-          key: ${{ runner.os }}
+          key: ${{ runner.os }}-bun-${{ hashFiles('combined/bun.lock') }}
           restore-keys: |
-            ${{ runner.os }}
+            ${{ runner.os }}-bun-
 
       - name: Build with Bun
         run: |
           cd combined
           bun install --frozen-lockfile
-          bun run eleventy
+          bun --bun run eleventy
           mkdir -p ../_site
           mv _site/* ../_site/
 
