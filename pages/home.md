@@ -17,16 +17,16 @@ blocks:
 
   - type: features
     items:
-      - icon: '<img src="/images/icons/discount-tag.svg" alt="">'
+      - icon: /images/icons/discount-tag.svg
         title: Better Prices
         description: "No agency fees or booking commissions - you pay less, we receive more. Everyone wins."
-      - icon: '<img src="/images/icons/customer-service.svg" alt="">'
+      - icon: /images/icons/customer-service.svg
         title: Personal Service
         description: "Deal directly with the cottage owners who know their properties inside out."
-      - icon: '<img src="/images/icons/compass.svg" alt="">'
+      - icon: /images/icons/compass.svg
         title: Local Knowledge
         description: "Get insider tips on walks, pubs, hidden gems and the best the Yorkshire Dales has to offer."
-      - icon: '<img src="/images/icons/agreement.svg" alt="">'
+      - icon: /images/icons/agreement.svg
         title: No Middlemen
         description: "Book with confidence directly through us - straightforward, simple, personal."
 
