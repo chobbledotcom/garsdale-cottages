@@ -31,46 +31,46 @@ blocks:
         description: "Book with confidence directly through us - straightforward, simple, personal."
 
   - type: section-header
-    title: Why Garsdale?
-    subtitle: "Escape to the remote beauty of the Yorkshire Dales"
-    level: 2
-    align: center
-
-  - type: features
-    items:
-      - icon: "&#127956;"
-        title: Peace & Tranquillity
-        description: "Remote Yorkshire Dales location, far from the crowds - just you, the hills and the sky."
-      - icon: "&#129413;"
-        title: Wildlife
-        description: "Red squirrels, upland birds, roe deer and more in this unspoilt corner of England."
-      - icon: "&#129406;"
-        title: Walking Paradise
-        description: "Howgill Fells, Dales Way, Pennine Bridleway - miles of spectacular walks from the doorstep."
-      - icon: "&#128646;"
-        title: Settle-Carlisle Railway
-        description: "One of England's most scenic railways, with Garsdale station just minutes away."
-
-  - type: section-header
     title: Our Cottages
     subtitle: "Two charming properties to choose from"
     level: 2
     align: center
 
-  - type: features
+  - type: image-cards
     items:
-      - icon: "&#127969;"
+      - image: "/images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg"
         title: Roger Pot
         description: "Sleeps 6 | 3 bedrooms | Traditional stone cottage with woodburning stove, garden views and space to relax."
-      - icon: "&#128738;"
+        link: "/properties/roger-pot/"
+      - image: "/images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg"
         title: The Old Cart House
         description: "Sleeps 2 | 1 bedroom | Cosy romantic retreat with character features, perfect for couples."
+        link: "/properties/the-old-cart-house/"
 
-  - type: markdown
-    content: |
-      <p style="text-align: center; margin-top: 1rem;">
-        <a href="/our-cottages/" class="button">View Our Cottages</a>
-      </p>
+  - type: section-header
+    title: Why Garsdale?
+    subtitle: "Escape to the remote beauty of the Yorkshire Dales"
+    level: 2
+    align: center
+
+  - type: image-cards
+    items:
+      - image: "/images/placeholders/blue.svg"
+        title: Peace & Tranquillity
+        description: "Remote Yorkshire Dales location, far from the crowds - just you, the hills and the sky."
+        link: "/about-garsdale/"
+      - image: "/images/placeholders/green.svg"
+        title: Wildlife
+        description: "Red squirrels, upland birds, roe deer and more in this unspoilt corner of England."
+        link: "/things-to-do/red-squirrel-watching/"
+      - image: "/images/placeholders/orange.svg"
+        title: Walking Paradise
+        description: "Howgill Fells, Dales Way, Pennine Bridleway - miles of spectacular walks from the doorstep."
+        link: "/walks/"
+      - image: "/images/placeholders/purple.svg"
+        title: Settle-Carlisle Railway
+        description: "One of England's most scenic railways, with Garsdale station just minutes away."
+        link: "/things-to-do/settle-carlisle-railway/"
 
   - type: section-header
     title: Explore the Area
@@ -78,25 +78,18 @@ blocks:
     level: 2
     align: center
 
-  - type: features
+  - type: image-cards
     items:
-      - icon: "&#128506;"
+      - image: "/images/placeholders/pink.svg"
         title: Things To Do
         description: "Walking, wildlife watching, visiting market towns, rainy day activities and family adventures."
-      - icon: "&#127958;"
+        link: "/things-to-do/"
+      - image: "/images/placeholders/yellow.svg"
         title: The Local Area
         description: "Sedbergh, Hawes, Dent, Kirkby Stephen - charming market towns all within easy reach."
-      - icon: "&#129406;"
+        link: "/local-area/"
+      - image: "/images/placeholders/blue.svg"
         title: Walks
         description: "From gentle strolls to challenging fell walks - routes for all abilities from your doorstep."
-
-  - type: markdown
-    content: |
-      <p style="text-align: center; margin-top: 1rem;">
-        <a href="/things-to-do/" class="button">Explore Things To Do</a>
-        &nbsp;&nbsp;
-        <a href="/local-area/" class="button">Discover the Local Area</a>
-        &nbsp;&nbsp;
-        <a href="/walks/" class="button">Find Walks</a>
-      </p>
+        link: "/walks/"
 ---
