@@ -1,0 +1,71 @@
+---
+layout: base
+---
+
+{%- if blocks -%}
+  {%- include "design-system/blocks.html", blocks: blocks -%}
+{%- endif -%}
+
+{{ content }}
+
+{%- assign menus = collections.menus | sort: 'data.order' -%}
+{%- if homepage.show_menus and menus.size > 0 -%}
+  <hr />
+  {%- render_snippet "homepage-menus-header", "<h3>Our Menus</h3>" -%}
+  {%- include "items.html", items: menus -%}
+{%- endif -%}
+
+{%- if homepage.show_news and collections.news.size > 0 -%}
+  <hr />
+  {%- render_snippet "homepage-news-header", "<h3>Latest Posts</h3>" -%}
+
+  {%- assign all_have_images = true -%}
+  {%- for post in collections.news -%}
+    {%- unless post.data.header_image -%}
+      {%- assign all_have_images = false -%}
+      {%- break -%}
+    {%- endunless -%}
+  {%- endfor -%}
+
+  {%- if all_have_images -%}
+    {%- assign posts = collections.news | slice: 0, 2 -%}
+    {%- include "items.html", items: posts -%}
+  {%- else -%}
+    {% include "news-post-list.html", limit: 2 %}
+  {%- endif -%}
+{%- endif -%}
+
+{%- assign categories = collections.categories | getFeaturedCategories -%}
+{%- if homepage.show_products and categories.size > 0 -%}
+  <hr>
+  {%- render_snippet "homepage-categories-header", "<h3>Product Categories</h3>" -%}
+  {%- include "items.html", items: categories -%}
+{%- endif -%}
+
+{%- assign products = collections.products | getFeaturedProducts -%}
+{%- if homepage.show_featured_products and products.size > 0 -%}
+  <hr>
+  {%- render_snippet "homepage-products-header", "<h3>Featured Products</h3>" -%}
+  {%- include "items.html", items: products -%}
+{%- endif -%}
+
+{%- assign recurring_events = collections.events | where: "data.recurring_date" -%}
+{%- if homepage.show_recurring_events and recurring_events.size > 0 -%}
+  <hr>
+  {%- render_snippet "homepage-events-header", "<h3>Regular Events</h3>" -%}
+  {% include "recurring-events-list.html" %}
+{%- endif -%}
+
+{%- assign featured_properties = collections.properties | getFeaturedProperties -%}
+{%- if homepage.show_featured_properties and featured_properties.size > 0 -%}
+  <hr>
+  {%- render_snippet "homepage-properties-header", "<h3>Featured Properties</h3>" -%}
+  {%- include "items.html", items: featured_properties -%}
+{%- endif -%}
+
+{%- assign latest_reviews = collections.reviews | slice: 0, homepage.reviews_limit -%}
+{%- if homepage.show_reviews and latest_reviews.size > 0 -%}
+  <hr>
+  {%- render_snippet "homepage-reviews-header", "<h3>Recent Reviews</h3>" -%}
+  {%- include "reviews-list.html", reviews: latest_reviews, product_links: true -%}
+{%- endif -%}
