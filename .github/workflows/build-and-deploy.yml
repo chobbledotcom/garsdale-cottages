@@ -44,7 +44,6 @@ jobs:
             --delete \
             --exclude=".git" \
             --exclude="*.md" \
-            --exclude="images" \
             template/ \
             combined/
 
