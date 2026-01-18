@@ -9,7 +9,7 @@ bathrooms: 2
 sleeps: 6
 features:
   - Off road parking
-  - Open multifuel fire
+  - Wood burning stove in lounge
   - Garden
   - Highchair available
   - Washing machine/Dryer
@@ -17,6 +17,7 @@ features:
   - Broadband / WiFi
   - Pet friendly
   - Air Fryer
+  - Ironing board and iron
 gallery:
   - /images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg
   - /images/properties/roger-pot/a-stone-house-with-a-round-table-and-chairs-on-grass-overloo.jpeg
@@ -125,7 +126,7 @@ All of this and so much more with a stay at the charming Roger Pot.
 - Bed linen and towels inc. in charges
 - Off-road parking
 - Enclosed side garden with lawn and furniture
-- maximum of two well-behaved dog welcome but must not be left unattended at any time
+- Maximum of two well-behaved dog welcome but must not be left unattended at any time
 - Sorry, no smoking within the house
 - Shop Sedbergh 6.7 miles, pub 6.3 miles, river 0.1 miles
 - Access - the property is accessed via a 400m rural farm track with 2 (sometimes 3) gates to open due to owners
