@@ -9,8 +9,8 @@ bathrooms: 2
 sleeps: 6
 features:
   - Off road parking
-  - Open fire
-  - Garden / Patio
+  - Open multifuel fire
+  - Garden
   - Highchair available
   - Washing machine/Dryer
   - Dishwasher
@@ -105,9 +105,16 @@ For a day at the coast visit Arnside and Silverdale Area of Outstanding Natural 
 
 All of this and so much more with a stay at the charming Roger Pot.
 
-## At a glance
 
-- Three bedrooms: 1 x super-size with TV and en-suite walk-in shower, basin and WC, 1 x double, 1 x twin (which can be set up as super-king-size on request, please let the owner know your preference in advance)
+
+## Touch Stay property Guide 
+
+- The following provides a brief outline of the property and its local amenities. This information and fuller detailed information can be found by reviewing and/or uploading the properties Touch Stay App on https://guide.touchstay.com/guest/bGZFYR05qutsz/info/898565#1991624. This guide provides great information on finding us, contact details, accommodation including appliance instuctions, local area guide/shops, wifi and great walk suggestions. Simply review on your computer or add the app to your phone (simple instructions are included on the site)
+
+## At a glance
+  
+- Three bedrooms: 1 x super-size with TV and en-suite walk-in shower, basin and WC, 1 x double, 1 x twin (which
+  can be set up as super-king-size on request, please let the owner know your preference in advance)
 - Bathroom with bath, shower over, basin, heated towel rail and WC
 - Utility with basin and enclosed WC
 - Kitchen
@@ -120,12 +127,18 @@ All of this and so much more with a stay at the charming Roger Pot.
 - Bed linen and towels inc. in charges
 - Off-road parking
 - Enclosed side garden with lawn and furniture
-- One well-behaved dog welcome but must not be left unattended
-- Sorry, no smoking
+- maximum of two well-behaved dog welcome but must not be left unattended at any time
+- Sorry, no smoking within the house
 - Shop Sedbergh 6.7 miles, pub 6.3 miles, river 0.1 miles
-- Please note: the property is accessed via a 400m rural farm track with 2-3 gates to open due to owners horses. 
-- The track is steep and uneven in parts due to necessary drainage channels. Its entirely navigable with a normal car but very low profile car owners may prefer to leave their cars on the road
-- As the track is single width, we run a simple texting system with guests to ensure we know when either party is travelling up the track.
-- Guests have on-site river access for fishing, nestled within the owner's 4 acres of land; please supervise children at all times
+- Access - the property is accessed via a 400m rural farm track with 2 (sometimes 3) gates to open due to owners
+  horses. 
+- The track is steep and uneven in parts due to necessary drainage channels. It's entirely navigable with a
+  normal car but very low profile car owners may prefer to leave their cars on the road
+- As the track is single width, we run a simple texting system with guests to ensure we know when either party
+  is travelling up the track.
+- Guests have on-site river access for fishing, nestled within the owner's 4 acres of land; please supervise
+  children at all times
 - The owners do live on site in an adjacent separate barn
-- Water - Whilst the water supply at Roger Pot is tested and treated annually, it is sourced from a nearby well and cannot realistically be guaranteed. We therefore supply bottled water for you to use for drinking and cooking if you prefer. Top ups are available free of charge during your stay if required.
+- Water - Whilst the water supply at Roger Pot is tested and treated annually, it is sourced from a nearby well
+  and cannot realistically be guaranteed. We therefore supply bottled water for you to use for drinking and
+  cooking if you prefer. Top ups are available free of charge during your stay
