@@ -51,10 +51,14 @@ Good, comforable walking shoes, a walking stick and suitable clothing for change
 
 ## Walking with Dogs
 
-*Details about dog-friendly walks go here - sheep farming area, dogs must be kept on leads at all times*
+*Garsdale is a lovely area for short or slightly longer walks whih are safe if countryside rules are followed.
+There is no street lighting in Garsdale so the nights, particularly in winter are long and very dark. 
+Bring a good torch with you to use if the on-comming night cathes you out.
+Try to walk on the right hand side of the road that way you can see on-comming vehicles and they can see you.
+Garsdale and the wider area is a sheep farming area so dogs must be kept on leads at all times and field gates must be closed as you pass through.*
 
 ## Guided Walks
 
-*Details about any guided walk programmes go here*
+*Garsdale does not have an organisation that does guided walks but please talk to the holiday let owners for information on the routes of those local walks that suit your needs.*
 
 ## Our Walk Guides
