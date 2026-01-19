@@ -2,63 +2,53 @@
 header_text: Local Walks
 subtitle: Walking routes from Garsdale and the surrounding area
 meta_title: Walks Near Garsdale | Yorkshire Dales Walking Routes
-meta_description: "*Description of walking routes near Garsdale goes here*"
+meta_description: "*Walks we actually do*"
 layout: walks.html
 permalink: /walks/
 eleventyNavigation:
   key: Walks
   order: 4
 ---
-## Walking in and around Garsdale
 
-*Introduction to walking in the area goes here - open access land, moorland, riverside paths, some of England's finest walking country*
+## Walking from Garsdale
 
-## Long Distance Paths
+*Write about walking here in your own words. What's it like? What should people know before they set off?*
 
-The area is crossed by several major long-distance routes: 
+*You don't need to write detailed route guides - other websites do that. The value you can add is saying which walks YOU do and what they're actually like.*
 
-- **The Dales Way** - *Brief description goes here - 85 miles from Ilkley to Bowness, passes through Dentdale.https://www.dalesway.org/route.html *
-  
-- 
-- **Coast to Coast** -
-- For those of you who like a challenge the Coast to Coast walk passes through Kirby Stephen. A short drive from The Old Cart House would allow you, at least, a sample trek along this iconic path.
-https://tmbtent.com/coast-to-coast-walk/
+## Walks We'd Recommend
 
-- **The Pennine Way** http://brians-walks.co.uk/pennine-way-transport.html
-  The pennine way walk passes through Hawes, Muker and Keld wihich, all, in their own way are well worth a visit. A 15 minute drive to Hawes
+*List walks you've actually done. You don't need many - three or four genuine recommendations beat a long list of things you've researched.*
 
-## Walking Tips
-Best to plan your route in advance of setting off for the day. 
-Carry some water and food and a good map of your planned route.
-Make sure that your mobile phone is fully charged and if walking alone tell a family member or friend what your plans are and when you expect to return to your base.
-Good, comforable walking shoes, a walking stick and suitable clothing for changeable weather conditions is always advisable.
+*For each one, write what you know:*
+- *What's it like?*
+- *How long/hard?*
+- *Who would enjoy it?*
+- *Any tips?*
 
-### Weather
+*If you know good external links for route details, include them.*
 
-*Check the weather conditions for your planned walking period. Use a reputable weather app e.g. BBC weather.*
+## From the Doorstep
 
-### What to Bring
+*Can guests walk straight from the cottages? Where do the paths lead? What can they do without getting in a car?*
 
-*Boots, waterproofs, map, food, mobile and water*
+## Practical Stuff
 
-### Maps
+Best to plan your route in advance. Carry water, food, and a map. Make sure your phone is charged. If walking alone, tell someone your plans.
 
-*Details about recommended maps go here - OS Explorer OL19 Howgill Fells, OL2 Yorkshire Dales Southern and Western*
+Good walking shoes, a stick if you use one, and layers for changeable weather.
 
-### Safety
+Garsdale and the surrounding area is sheep farming country - dogs must be kept on leads and gates closed.
 
-*Always tell someone of your plans for the proposed walk*
+There's no street lighting, so in winter it gets dark early. Bring a torch.
 
-## Walking with Dogs
+*Add anything else you know from experience - weather, terrain, navigation, phone signal, etc. Only write what you actually know.*
 
-*Garsdale is a lovely area for short or slightly longer walks whih are safe if countryside rules are followed.
-There is no street lighting in Garsdale so the nights, particularly in winter are long and very dark. 
-Bring a good torch with you to use if the on-comming night cathes you out.
-Try to walk on the right hand side of the road that way you can see on-comming vehicles and they can see you.
-Garsdale and the wider area is a sheep farming area so dogs must be kept on leads at all times and field gates must be closed as you pass through.*
+## Useful Links
 
-## Guided Walks
+*Link to external walking resources you'd recommend. Let other websites provide comprehensive route guides - your job is to point people in the right direction.*
 
-*Garsdale does not have an organisation that does guided walks but please talk to the holiday let owners for information on the routes of those local walks that suit your needs.*
+- [Walking in the Yorkshire Dales](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm)
+- [Dales Way](https://www.dalesway.org/route.html)
 
-## Our Walk Guides
+*Add any others you find useful.*
