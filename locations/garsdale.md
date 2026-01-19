@@ -5,7 +5,7 @@ meta_title: Garsdale | Yorkshire Dales
 meta_description: "*What Garsdale is like*"
 ---
 ## Garsdale
-Garsdale is a little known area in the Yorkshire Dales. There is a scattering of farms and houses nestled amongst the hills and valley with a small hamlet locally known as 'the street'.
+Garsdale is a relatively little known area in the Yorkshire Dales. There is a scattering of farms and houses nestled amongst the hills and valley with a small hamlet locally known as 'the street'.
 Garsdale is a beautiful peaceful area with many walks, lovely scenery and a sense of being very close to nature and perhaps, a quieter way of life.
 As a nature lover it is ideal, always some birds to see, animals to watch, wild flowers, rivers and waterfalls. 
 The weather can be exciting at times, with some beautiful sunshine and glorious days but also some serious rainfall and wild winds blowing, when it snows it looks wonderful. Spring is the best time, when the land begins to waken up, the seasons are very evident here and winter nights are very dark but on a clear night , every star can be seen, magnificent.
