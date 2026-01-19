@@ -17,8 +17,9 @@ eleventyNavigation:
 
 The area is crossed by several major long-distance routes: 
 
-- **The Dales Way** - *Brief description goes here - 85 miles from Ilkley to Bowness, passes through Dentdale*
-- **Pennine Bridleway** - *Brief description goes here*
+- **The Dales Way** - *Brief description goes here - 85 miles from Ilkley to Bowness, passes through Dentdale.https://www.dalesway.org/route.html *
+  
+- 
 - **Coast to Coast** -
 - For those of you who like a challenge the Coast to Coast walk passes through Kirby Stephen. A short drive from The Old Cart House would allow you, at least, a sample trek along this iconic path.
 https://tmbtent.com/coast-to-coast-walk/
@@ -27,14 +28,18 @@ https://tmbtent.com/coast-to-coast-walk/
   The pennine way walk passes through Hawes, Muker and Keld wihich, all, in their own way are well worth a visit. A 15 minute drive to Hawes
 
 ## Walking Tips
+Best to plan your route in advance of setting off for the day. 
+Carry some water and food and a good map of your planned route.
+Make sure that your mobile phone is fully charged and if walking alone tell a family member or friend what your plans are and when you expect to return to your base.
+Good, comforable walking shoes, a walking stick and suitable clothing for changeable weather conditions is always advisable.
 
 ### Weather
 
-*Details about weather considerations go here - exposed moorland, changeable conditions, check forecasts*
+*Check the weather conditions for your planned walking period. Use a reputable weather app e.g. BBC weather.*
 
 ### What to Bring
 
-*List of walking essentials goes here - boots, waterproofs, map, food and water*
+*Boots, waterproofs, map, food, mobile and water*
 
 ### Maps
 
@@ -42,7 +47,7 @@ https://tmbtent.com/coast-to-coast-walk/
 
 ### Safety
 
-*Safety information for walkers goes here*
+*Always tell someone of your plans for the proposed walk*
 
 ## Walking with Dogs
 
