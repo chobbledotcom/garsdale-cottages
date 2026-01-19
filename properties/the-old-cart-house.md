@@ -79,7 +79,7 @@ locations:
 ---
 Sedbergh 6.4 miles.
 
-Enjoy a stay in The Old Cart House, a delightful detached stone property with a rich history as a former cart house. 
+Enjoy a stay in The Old Cart House, a delightful detached stone property with a rich history as a former cart house and stables. 
 Nestled in the picturesque rural hamlet of Garsdale, Cumbria, The Old Cart House offers breath-taking countryside views and many local, short or longer, country walks in the quiet valley of Garsdale. 
 
 This charming retreat is perfectly suited for couples, solo travellers, or small families (two adults and one small child is the maximum family size possible) eager to discover the natural splendour of the Yorkshire Dales National Park.
@@ -106,11 +106,11 @@ Don't forget to bring your camera, where you might spot red squirrels darting th
 
 A short drive will take you to Sedbergh, where you can wander through many independent bookshops, or perhaps visit Farfield Mill with its local art, crafts, and heritage at this restored Victorian woollen mill.
 
-Stock up on the essentials at one of the convenience stores for some home-cooking, before savouring a refreshing pint at The Red Lion.
+Stock up on the essentials at one of the convenience stores for some home-cooking, before savouring a refreshing pint and lunch at The Red Lion or Dalesman pubs.
 
 For those keen on hiking, a short trek leads to the breath-taking Cotter Force in Hardraw, a serene waterfall where you can unwind and take in the beauty of nature, especially after conquering the trails around Great Shunner Fell.
 
-This serene market town is well-worth a visit, with its artisan shops and traditional pubs.
+The serene market town of Hawes is well-worth a visit, with its artisan shops and traditional pubs.
 
 The Lake District National Park is also within reach, where you can explore some of the iconic lakes, offering a chance to explore landmarks like Windermere, Ambleside and Coniston Water.
 
