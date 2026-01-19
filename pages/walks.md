@@ -9,19 +9,22 @@ eleventyNavigation:
   key: Walks
   order: 4
 ---
-
 ## Walking in and around Garsdale
 
 *Introduction to walking in the area goes here - open access land, moorland, riverside paths, some of England's finest walking country*
 
 ## Long Distance Paths
 
-The area is crossed by several major long-distance routes:
+The area is crossed by several major long-distance routes: 
 
 - **The Dales Way** - *Brief description goes here - 85 miles from Ilkley to Bowness, passes through Dentdale*
 - **Pennine Bridleway** - *Brief description goes here*
-- **Coast to Coast** - *Brief description goes here - passes through Kirkby Stephen*
-- **The Pennine Way** - *Brief description goes here - passes near Hawes*
+- **Coast to Coast** -
+- For those of you who like a challenge the Coast to Coast walk passes through Kirby Stephen. A short drive from The Old Cart House would allow you, at least, a sample trek along this iconic path.
+https://tmbtent.com/coast-to-coast-walk/
+
+- **The Pennine Way** http://brians-walks.co.uk/pennine-way-transport.html
+  The pennine way walk passes through Hawes, Muker and Keld wihich, all, in their own way are well worth a visit. A 15 minute drive to Hawes
 
 ## Walking Tips
 
