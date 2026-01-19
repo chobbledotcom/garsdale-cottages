@@ -110,7 +110,7 @@ Stock up on the essentials at one of the convenience stores for some home-cookin
 
 For those keen on hiking, a short trek leads to the breath-taking Cotter Force in Hardraw, a serene waterfall where you can unwind and take in the beauty of nature, especially after conquering the trails around Great Shunner Fell.
 
-The serene market town of Hawes is well-worth a visit, with its artisan shops and traditional pubs.
+The serene market town of Hawes is well-worth a visit, with its artisan and antique shops and traditional pubs.
 
 The Lake District National Park is also within reach, where you can explore some of the iconic lakes, offering a chance to explore landmarks like Windermere, Ambleside and Coniston Water.
 
