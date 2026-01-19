@@ -2,118 +2,50 @@
 header_text: Local Area
 subtitle: Explore the Yorkshire Dales and beyond
 meta_title: Local Area Guide | Garsdale and Yorkshire Dales
-meta_description: "*Description of the local area around Garsdale goes here*"
+meta_description: "*The local area - from people who live here*"
 eleventyNavigation:
   key: Local Area
   order: 5
 ---
 
-## Exploring the Local Area
+## The Local Area
 
-*Introduction to the local area goes here - Yorkshire Dales, Howgill Fells, nearby market towns*
+*Write this like you're telling a friend what's nearby. Only write about places you actually go and things you actually know.*
 
-## Garsdale
+## The Nearby Towns
 
-*Overview of Garsdale itself goes here - with link to About Garsdale page*
+*Write about whichever towns you know. You don't have to cover them all - just the ones you can say something genuine about.*
 
-## Nearby Towns and Villages
+*What do you use each one for? What's it like? Where do you go there?*
 
-### Sedbergh
+## Places We Go
 
-*Details about Sedbergh go here - 6 miles away, England's Book Town, market town at foot of Howgill Fells, Farfield Mill, pubs and cafes*
+*The pubs, cafes, shops, and spots you'd actually recommend. Write about them because you know them - not because they're on a list somewhere.*
 
-[More about Sedbergh](/locations/sedbergh/)
+## Food and Drink
 
-### Hawes
+*Where do you eat and drink? Any favourites?*
 
-*Details about Hawes go here - 9 miles away, highest market town in England, Wensleydale Creamery, Tuesday market*
+## Day Trips
 
-[More about Hawes](/locations/hawes/)
+*Anywhere you go for a day out that you'd recommend? Only include places you've actually been.*
 
-### Dent
+## Practical Information
 
-*Details about Dent go here - cobbled streets, chocolate box village, Dent Brewery, St Andrew's Church*
+*The stuff visitors need:*
 
-[More about Dent](/locations/dent/)
+*Shops - where's the nearest? What can you get locally?*
 
-### Kirkby Stephen
+*Petrol - where?*
 
-*Details about Kirkby Stephen go here - historic market town, Cathedral of the Dales, Frank's Bridge, gateway to Eden Valley*
+*Cash - needed? Where from?*
 
-[More about Kirkby Stephen](/locations/kirkby-stephen/)
+*Phone signal - honest assessment?*
 
-## The Howgill Fells
+*Medical - nearest doctor, pharmacy, hospital?*
 
-*Details about the Howgill Fells go here - distinctive rounded hills, Cautley Spout waterfall, wild horses*
+*Write what you know.*
 
-[More about the Howgill Fells](/locations/howgill-fells/)
+## Links
 
-## The Yorkshire Dales National Park
-
-*Details about the National Park go here*
-
-## Further Afield
-
-### The Lake District
-
-*Details about Lake District day trips go here - Windermere, Coniston, Kendal about 17 miles*
-
-### Morecambe Bay
-
-*Details about the coast go here*
-
-### The North Pennines
-
-*Details about North Pennines AONB go here*
-
-## Eating and Drinking
-
-*Overview of local pubs and restaurants goes here*
-
-### The Moorcock Inn
-
-*Details about the only pub between Sedbergh and Hawes go here*
-
-### Pubs in Sedbergh
-
-*List of pubs goes here - The Dalesman, The Black Bull, The Red Lion*
-
-### Pubs in Hawes
-
-*List of pubs goes here*
-
-### Cafes and Tea Rooms
-
-*List of cafes goes here - Smatt's Duo, Cross Keys Temperance Inn, Stone Close in Dent*
-
-## Shopping
-
-### Sedbergh Bookshops
-
-*Details about Sedbergh as England's Book Town go here*
-
-### Local Produce
-
-*Details about local food producers go here - Wensleydale cheese, Dent Brewery ales*
-
-### Weekly Markets
-
-*Details about market days go here - Hawes Tuesday, Kirkby Stephen Monday, Sedbergh Wednesday*
-
-## Services
-
-### Supermarkets and Convenience Stores
-
-*List of local shops goes here*
-
-### Petrol Stations
-
-*Nearest petrol stations go here*
-
-### Banks and Cash Machines
-
-*ATM locations go here*
-
-### Medical Services
-
-*Doctors, pharmacies, hospitals go here*
+*If there are good external websites about the area, link to them. It's fine to let other sites be comprehensive.*

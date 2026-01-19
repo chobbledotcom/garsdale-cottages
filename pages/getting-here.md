@@ -2,97 +2,54 @@
 header_text: Getting Here
 subtitle: How to reach Garsdale
 meta_title: Getting to Garsdale | Travel Information
-meta_description: "*Description of how to travel to Garsdale goes here*"
+meta_description: "*How to find us*"
 eleventyNavigation:
   key: Getting Here
   order: 6
 ---
+
 ## Getting to Garsdale
 
-*Introduction to travelling to Garsdale goes here - remote location but accessible by road and rail*
-The Old Cart House is in a very rural location but is easily accessible by road and/or rail.
+The Old Cart House is in a very rural location but easily accessible by road and rail.
 
 ## By Car
 
-*Details about driving to Garsdale go here*
-For our guests travelling by car, and using a sat nav, the post code LA10 5PQ will bring you directly to us.
-Without a sat nav:
+Sat nav postcode: **LA10 5PQ** for The Old Cart House.
 
-
+*Add Roger Pot postcode if different.*
 
 ### From the M6
 
-*Directions from the M6 go here - Junction 37, A684 east through Sedbergh*
-take junction 37 M6 towards Sedbergh (5mls) through Sedbergh town centre follwing singns for Kirby Stephen 500 mtrs out of Sedbergh take a right (A684) towards Garsdale/Hawes. drive 5.5 mies and we are here on tyhe right about 300 yards east of St James's chu
+Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre following signs for Kirkby Stephen. 500 metres out of Sedbergh take a right (A684) towards Garsdale/Hawes. 5.5 miles and we're on the right, about 300 yards east of St James's Church.
 
-### From the A1
+*Add other directions if you can write them accurately - from the A1, Leeds, Manchester, etc. Only include routes you're confident about.*
 
-*Directions from the A1 go here*
-take the junction ? on the A1 at Bedale....
-rch.
+### The Final Approach
 
-### From Leeds/Bradford
-
-*Directions from West Yorkshire go here*
-
-### From Manchester
-
-*Directions from Manchester go here*
-
-### Driving Times
-
-*Approximate driving times from major cities go here*
-From Manchester 1Hour 30 minutes
-
-### Sat Nav Postcodes
-
-*Postcode information for sat nav go here*
-LA10 5PQ
+*What should people expect for the last bit? Farm tracks? Narrow lanes? Anything that might worry them?*
 
 ## By Train
 
-*Details about train travel go here*
+*If you know about the Settle-Carlisle Railway and arriving at Garsdale Station, write about it. How does it work? How do guests get from station to cottage?*
 
-### The Settle-Carlisle Railway
-
-*Details about the scenic Settle-Carlisle line go here - direct trains to Garsdale Station from Leeds, Settle, Carlisle*
-
-### Garsdale Station
-
-*Details about Garsdale Station go here - facilities, parking, accessibility*
-
-### Connecting Services
-
-*Details about connections go here - Leeds to Settle, west coast mainline to Carlisle*
-
-### Timetables and Booking
-
-*Information about where to check timetables and book tickets goes here*
-
-## By Bus
-
-### The Little White Bus
-
-*Details about the community bus service go here - connects Garsdale Station to Hawes*
-
-### Regional Bus Services
-
-*Details about other bus services go here*
-
-## Electric Vehicle Charging
-
-*Details about EV charging points in the area go here - some properties have EV charging*
-The Old Cart House is fully equiped with an EV charger. Guest are asked to discuss their EV needs with the owners as there may be a small cost incurred for EV use.
+*If you don't know the details, just link to the railway website.*
 
 ## Taxis
 
-*Details about local taxi services go here*
-Normally, there are no taxis available in Garsdale. The nearest taxi service may be in Hawes but guests are advised to
+Normally there are no taxis in Garsdale.
 
-## Cycling to Garsdale
+*Be honest about this. Where's the nearest taxi service? How do guests without cars manage?*
 
-*Details about cycling routes go here*
+## EV Charging
 
-## Maps
+The Old Cart House has an EV charger. Guests should discuss their needs with the owners.
 
-*Details about maps and navigation go here*
+*Add info about Roger Pot if relevant.*
+
+## Before You Arrive
+
+*Anything guests should know or do before arriving? Stock up on shopping? Download offline maps? Anything practical?*
+
+## Contact Us
+
+*If people get lost or need help, how should they reach you?*
