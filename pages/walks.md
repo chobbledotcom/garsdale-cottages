@@ -42,7 +42,21 @@ Garsdale and the surrounding area is sheep farming country - dogs must be kept o
 
 There's no street lighting, so in winter it gets dark early. Bring a torch.
 
+Try to walk on the right hand side of the road that way you can see on-comming vehicles and they can see you.
+
 *Add anything else you know from experience - weather, terrain, navigation, phone signal, etc. Only write what you actually know.*
+
+## Guided Walks
+
+Garsdale does not have an organisation that does guided walks but please talk to the holiday let owners for information on the routes of those local walks that suit your needs.
+
+## Long Distance Paths
+
+**Coast to Coast** - For those of you who like a challenge the Coast to Coast walk passes through Kirby Stephen. A short drive from The Old Cart House would allow you, at least, a sample trek along this iconic path.
+https://tmbtent.com/coast-to-coast-walk/
+
+**The Pennine Way** - The pennine way walk passes through Hawes, Muker and Keld wihich, all, in their own way are well worth a visit. A 15 minute drive to Hawes
+http://brians-walks.co.uk/pennine-way-transport.html
 
 ## Useful Links
 
