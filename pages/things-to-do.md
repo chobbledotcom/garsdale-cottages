@@ -64,11 +64,52 @@ Some useful walking resources:
 
 ## Rainy Days
 
-*What do you actually do when it rains? Be honest - if the answer is "stay in and read" that's valid. If there are genuinely good indoor options you've tried, mention them.*
+As you know, the Lake Ditrict has so many lakes because of the ample rain fall, so there are some lovely indoor places to visit on a rainy day.
+
+https://www.farfieldmill.org/
+https://www.dalescountrysidemuseum.org.uk/
+https://www.wensleydale.co.uk/
+
+https://www.breweryarts.co.uk/
+https://www.zeffirellis.com/film
 
 ## With Children
 
-*Only write this section if you have experience of entertaining children here. What works? What doesn't? What ages?*
+The following links give details of family/ child friendly activities in the area:
+
+https://www.theforbiddencorner.co.uk/
+
+https://whitescarcave.co.uk/
+
+https://www.wensleydale.co.uk/yorkshire-wensleydale-cheese-experience-i122
+
+https://www.dalescountrysidemuseum.org.uk/
+
+https://www.ingletonwaterfallstrail.co.uk/
+
+https://boltoncastle.co.uk/
+
+## Waterfalls, Castles and Villages
+
+There are many waterfalls nearby. most are free to visit, Hardraw force has a small entrance fee but is a lovely walk. There are also a number of castles and National Trust properties as well as beautiful historic villages.
+
+https://www.visitcumbria.com/national-trust-in-cumbria/
+
+https://www.levenshall.co.uk/
+
+https://www.visitcumbria.com/evnp/pendragon-castle/
+
+https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/kendal-
+
+https://www.yorkshiredales.org.uk/places/dent/
+
+https://www.yorkshire.com/muker
+
+http://hardrawforce.com/waterfall.html
+
+https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force
+
+https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/
 
 ## Links to Other Resources
 

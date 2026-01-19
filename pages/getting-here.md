@@ -18,6 +18,10 @@ Sat nav postcode: **LA10 5PQ** for The Old Cart House.
 
 *Add Roger Pot postcode if different.*
 
+### Driving Times
+
+From Manchester 1Hour 30 minutes
+
 ### From the M6
 
 Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre following signs for Kirkby Stephen. 500 metres out of Sedbergh take a right (A684) towards Garsdale/Hawes. 5.5 miles and we're on the right, about 300 yards east of St James's Church.
@@ -36,9 +40,7 @@ Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre follow
 
 ## Taxis
 
-Normally there are no taxis in Garsdale.
-
-*Be honest about this. Where's the nearest taxi service? How do guests without cars manage?*
+Normally there are no taxis in Garsdale. The nearest taxi service may be in Hawes but guests are advised to check in advance.
 
 ## EV Charging
 
