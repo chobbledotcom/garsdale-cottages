@@ -4,7 +4,6 @@ subtitle: Book Again information and guides
 order: 10
 icon: icons/touchstay/sightseeing.svg
 ---
-
 # Book Again
 
-Explore the guides in this section to learn more.
+We would love to have you stay again! Please get in touch anytime to check availability or special offers.
