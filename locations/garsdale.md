@@ -35,7 +35,7 @@ Garsdale Station is on the Settle Carlisle route so crosses some beautiful scene
 ## Staying Here
 Staying in Garsdale is perfect for those who enjoy the countryside and the peace and calm of the area. It is an ideal spot for birdwatching, cycling and walking holidays , or for those who prefer countryside drives to villages, country pubs and gentle strolls, this too is here.
 A clear night can be wonderful with a perfect view of the stars, the area is Dark Sky friendly.
-For aeroplane enthusiasts there are almost daily high speed Eurofighter Typhoon jet fly pasts, which can be ear splitting but exciting to watch,if you are hill walking you may be able to look down on them as the fly along the valley. Along with these we see the occasional low flying Chinook helicopters and also what appear to be very elderly RAF planes too.
+For aeroplane enthusiasts there are occasional high speed Eurofighter Typhoon jet fly pasts, which can be loud but exciting to watch,if you are hill walking you may be able to look down on them as the fly along the valley. Along with these we see the occasional low flying Chinook helicopters and also what appear to be very elderly RAF planes too.
 
 *What's it like to stay in Garsdale? The quiet, the dark skies, the pace? Help people understand what they're coming to.*
 
