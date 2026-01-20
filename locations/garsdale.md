@@ -23,7 +23,7 @@ The difference  in the seasons can be heard, Spring comes with the curlews and c
 *What is Garsdale? What does it look, sound, and feel like?*
 
 ## What's Here
-Garsdale is quiet, the peace and tranquility of the place is to love. There are walks, rivers, waterfalls, hills. The nearest pubs are the Green Dragon in Hardraw and the Sportsman in Cowgill near Dent. There are a number of churches in the valley and the services rotate between the different churches. There is a village hall and some local events such as quiz night, beetle drive, bonfire night are held there with notifications on the farm doors in the village.
+Garsdale is quiet, the peace and tranquility of the place is to love. There are walks, rivers, waterfalls, hills. The nearest pubs are the Green Dragon in Hardraw and the Sportsman in Cowgill near Dent, and there are several pubs and eating places in Sedbergh and Hawes.There are a number of churches in the valley and the services rotate between the different churches. There is a village hall and some local events such as quiz night, beetle drive, bonfire night are held there with notifications on the farm doors in the village.
 Garsdale Station is on the Settle Carlisle route so crosses some beautiful scenery and a trip to the Ribblehead Viaduct is well worth a visit.
 
 *What will guests find in Garsdale itself? The station? The pub? The church? Be honest if there isn't much - the remoteness is part of the appeal.*
