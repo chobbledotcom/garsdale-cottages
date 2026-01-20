@@ -14,7 +14,7 @@ eleventyNavigation:
 ## The Nearby Towns
 Sedbergh is the nearest town and is about 6 miles away. Sedbergh has a range of shops, cafes, pubs and has a small weekly market on Wednesday mornings. Over summer there are artisan markets each month and these are well worth a visit.
 Groceries can be bought from the Spar shop and also Powells has a good selection along with fruit and vegetables. There are craft and gift shops as well as book shops , hardware and charity shop.
-The Hald and Half bar has an acoustic night once a month and regular music and other events.
+The Half and Half bar has an acoustic night once a month and regular music and other events.
 
 Hawes is about 9 miles away and it  is well worth a visit. There are many cafes, pubs and restaurants as well as craft and art shops, antiques and clothing. The small market is on Tuesday mornings and often there are craft fairs in the market hall. Hawes also has the Dales Countryside museum and Wensleydale Creamery where you can see cheesemaking demonstrations at the cheese experience, there is a cafe, cheese and gift shop.
 
