@@ -36,6 +36,7 @@ Kendal is the closest 'big town' with many shops, large supermarkets, cafes and 
 
 ## Places We Go
 
+
 *The pubs, cafes, shops, and spots you'd actually recommend. Write about them because you know them - not because they're on a list somewhere.*
 
 ## Food and Drink
