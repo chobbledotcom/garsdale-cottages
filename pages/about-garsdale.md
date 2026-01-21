@@ -60,8 +60,10 @@ The river attracts herons, dippers, mallards , goosander and if we are very luck
 *Details about rare plants go here - mention melancholy thistle on road verges in summer, botanical richness*
 
 ## History
+Garsdale has been a hill farming community but hand knitting was also a craft and there was coal mining on Baugh Fell and quarrying limestone, sandstone and marble in the mid 19th century
 
-*Details about the history of Garsdale go here*
+The population was rising from 571 in 1801 to peak of 911 in 1871 during building of Settle-Carlisle railway; then steady decline to 202 in 2001.
+Garsdale school was endowed by Thomas Dawson 1634; rebuilt as National school on new site in 1842, becoming Garsdale Primary School. This was closed in 1985 and was converted to village hall.
 
 ## Getting to Garsdale
 
