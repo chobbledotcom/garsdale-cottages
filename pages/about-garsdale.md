@@ -7,26 +7,41 @@ eleventyNavigation:
   key: About Garsdale
   order: 1
 ---
-
 ## Welcome to Garsdale
+Garsdale is a quiet valley within the Yorkshire Dales National Park with a scattering of farms and farm cottages. The area is mainly sheep farming with woodlands, hills and the river Clough running through it, with many streams and becks leading to the river.
+The are great expanses of wild moorland, hills to climb, woodlands and countryside footpaths to follow including the Pennine Way.
+Visitors to Garsdale may enjoy an outing on the Settle/ Carlisle railway which passes through Garsdale Station and would offer breath taking views of the countryside.
 
-*Introductory paragraph about Garsdale as a destination goes here - mention it's a remote dale in the Yorkshire Dales National Park, known for wild open landscapes*
+
 
 ## Location
+Garsdale sits along the A684 about 6 miles from Sedbergh and 9 miles from Hawes.It is in Cumbria within the Yorkshire Dale National Park close to the border of Richmondshire in North Yorkshire.
 
-*Details about Garsdale's location go here - between Sedbergh and Hawes, in Cumbria but within the Yorkshire Dales National Park*
+
 
 ## Why Visit Garsdale?
+Garsdale is an ideal location for walking, cycling, bird watching or just having time to enjoy the peace and tranquility and the beautiful countryside.
+Garsdale has remained unspoilt and has changed little for over more than a hundred years. Many of the farms and buildings are listed to protect the heritage of the area, (there is 62 listed buildings in Garsdale) and some of the houses date back to 16 and 17th century.
 
-*Summary of reasons to visit goes here*
+
+
+
 
 ### Peace and Tranquillity
+Garsdale is Dark Sky friendly so the sky on a clear night is spectacular.
+The area is a haven of calm and peace, there is very little traffic and minimal background noise so there is calm to hear the river, the birdsong, the breeze in the trees, insects buzzing in the flowers.
+We are 6 miles from the nearest town, so the area can feel untroubled by some of the problems of the world and this can feel like a weight is lifted from your shoulders.
 
-*Details about the quiet, remote nature of the dale go here*
+
 
 ### Wildlife
+Garsdale is a haven for red squirrels and they can be regular visitors to the garden at times in the year but can be seen in the nearby woodlands frequently and on the banks of the river Clough in amongst the trees.
+Roe deer can be found in the fields and woodlands and brown hares are a common sight , along with an abuandance of rabbits, moles, voles and mice. Foxes, badgers, weasels and stoats are also at home here and hedgehogs are regularly seen.
+There are a huge number of birds to be spotted with upland birds such as oystercatchers and curlews, lapwings and meadow pipits and the occasional skylark. In summer we have cucckoos and swallows and Sedbergh has the good fortune of swifts making their summer home there.
+The bird feeders have regular visits from numerous birds such as nuthatches, great tits , robins siskins, blue tits , long tailed tits, dunnocks and the garden is visited by willow warblers, gold crests, spotted flycatchers,redpolls and we also have the winter visitors such as redwings and fieldfares  and many others. Grouse , pheasants and partridges can be found in the fields and moorlands and we have tawny owls, barn owls and short eared owls along with kestrels , buzzards and sparrowhawks regularly seen.
+The river attracts herons, dippers, mallards , goosander and if we are very lucky , a glimpse of a kingfisher.
 
-*Details about wildlife go here - mention red squirrels, upland birds including curlew, lapwing, oystercatcher, meadow pipits, skylarks, roe deer*
+
 
 ### Walking and Outdoor Activities
 
