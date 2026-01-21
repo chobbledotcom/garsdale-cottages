@@ -60,11 +60,14 @@ The river attracts herons, dippers, mallards , goosander and if we are very luck
 *Details about rare plants go here - mention melancholy thistle on road verges in summer, botanical richness*
 
 ## History
-Garsdale has been a hill farming community but hand knitting was also a craft and there was coal mining on Baugh Fell and quarrying limestone, sandstone and marble in the mid 19th century
+Garsdale was part of West Yorkshire until 1974 when it was transferred to Cumbria.
 
-The population was rising from 571 in 1801 to peak of 911 in 1871 during building of Settle-Carlisle railway; then steady decline to 202 in 2001.
+Garsdale has been a hill farming community but hand knitting was also a local craft and there was coal mining on Baugh Fell and quarrying limestone, sandstone and marble in the mid 19th century.Garsdale has 18 working farms with many Swaledale pedigree sheep
+
+The population was rising from 571 in 1801 to peak of 911 in 1871 during building of Settle-Carlisle railway; then a steady decline to 197 presently. A number of the houses and churches date from the time of the building of the railway.
 Garsdale school was endowed by Thomas Dawson 1634; rebuilt as National school on new site in 1842, becoming Garsdale Primary School. This was closed in 1985 and was converted to village hall.
 
+At the railway station stands a statue of a collie dog, who was found on the fell in 1990 at the side of his owner who had died some 11 weeks earlier, in an emaciated and starving state. It had to be carried off the fell and he was awarded a medal for vigilance but died shortly after his owner’s funeral. 
 ## Getting to Garsdale
 
 *Details about transport go here - A684 road, Garsdale Station on Settle-Carlisle line*
