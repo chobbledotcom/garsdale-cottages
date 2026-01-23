@@ -1,7 +1,7 @@
 ---
 title: Crackpot Hall and Upper Swaledale
 subtitle: Great walk suggestions from Countryfile
-guide_category: your-local-area-guide-to-getting-about-walking-sho
+guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 2
 ---
 

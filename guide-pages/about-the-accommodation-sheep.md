@@ -1,7 +1,7 @@
 ---
 title: Sheep
 subtitle: Other Useful Information
-guide_category: about-the-accommodation
+guide-category: about-the-accommodation
 order: 18
 ---
 

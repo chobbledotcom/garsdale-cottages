@@ -1,7 +1,7 @@
 ---
 title: Starting you off
 subtitle: We will provide
-guide_category: before-you-leave-home
+guide-category: before-you-leave-home
 order: 4
 ---
 

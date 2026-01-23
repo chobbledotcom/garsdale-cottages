@@ -254,7 +254,7 @@ function parseTouchStayGuide(jsonData) {
         const frontMatter = {
           title: topicTitle,
           subtitle: subtitle,
-          guide_category: categorySlug,
+          "guide-category": categorySlug,
           order: pageOrder,
         };
 

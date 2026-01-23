@@ -1,7 +1,7 @@
 ---
 title: Garsdale
 subtitle: A little history
-guide_category: about-the-accommodation
+guide-category: about-the-accommodation
 order: 19
 ---
 

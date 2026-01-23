@@ -1,7 +1,7 @@
 ---
 title: Contacting Us
 subtitle: Our Contact Details
-guide_category: arrival-information
+guide-category: arrival-information
 order: 3
 ---
 

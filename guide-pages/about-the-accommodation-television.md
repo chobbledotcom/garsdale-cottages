@@ -1,7 +1,7 @@
 ---
 title: Television
 subtitle: Enjoying Your Time Inside
-guide_category: about-the-accommodation
+guide-category: about-the-accommodation
 order: 7
 ---
 

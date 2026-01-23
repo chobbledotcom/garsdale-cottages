@@ -1,7 +1,7 @@
 ---
 title: Mobile coverage
 subtitle: Mobile phone coverage
-guide_category: wifi-internetmobile-details
+guide-category: wifi-internetmobile-details
 order: 2
 ---
 

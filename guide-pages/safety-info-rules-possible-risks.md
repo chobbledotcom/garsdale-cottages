@@ -1,7 +1,7 @@
 ---
 title: Possible risks
 subtitle: Safety Information
-guide_category: safety-info-rules
+guide-category: safety-info-rules
 order: 6
 ---
 

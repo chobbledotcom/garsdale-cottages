@@ -1,7 +1,7 @@
 ---
 title: Wirlygig
 subtitle: Enjoying Your Time Outside
-guide_category: about-the-accommodation
+guide-category: about-the-accommodation
 order: 13
 ---
 

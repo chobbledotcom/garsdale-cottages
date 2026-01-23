@@ -1,7 +1,7 @@
 ---
 title: Power
 subtitle: Utilities
-guide_category: about-the-accommodation
+guide-category: about-the-accommodation
 order: 21
 ---
 

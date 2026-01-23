@@ -1,7 +1,7 @@
 ---
 title: Check-in Time
 subtitle: Planning Your Arrival
-guide_category: arrival-information
+guide-category: arrival-information
 order: 2
 ---
 
