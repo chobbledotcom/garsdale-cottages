@@ -77,8 +77,9 @@ For some reason, on a number of our visits to Cautley Spout, the weather has cha
 Another easy walk to a waterfall is Cotter force which is on the way to Hawes. There is a parking area nearby and the walk  to the waterfall is flat and a tidy pathway.
 Hawes is a lovely town to visit as is Dent which can be got to over , what is locally called, the Coal Road, passing Garsdale Station. This is a very scenic route, passes Dent Station and is a very quaint, pretty village, with some lovely cafes and walks.
 Ambleside is about 45 minutes drive but is lovely to visit, has some great eating places , particularly we enjoy Zefferellis , which has the cinema and vegetarian restaurant and always good food.
+https://www.zeffirellis.com/film
 We also enjoy travelling over the Buttertubs pass from Hawes to Thwaite, this is a very high wild road with fantastic views of the hills and valleys. From Thwaite we would go to Muker which is beside the river Swale and there are some beautiful walks from the village. There are also some lovely cafes for lunch.
-Farfield Mill on the road to Sedbergh is an interesting place  to spend a few hours particularly on a rainy day, it has exhibitions and art and craft work as well as a good cafe.
+
 
 *This is the heart of the page. What are the places you'd genuinely recommend - pubs, cafes, shops, attractions, viewpoints, anything? Write about them because you know them, not because they're on a list.*
 
@@ -91,34 +92,38 @@ Farfield Mill on the road to Sedbergh is an interesting place  to spend a few ho
 
 ## Rainy Days
 
-As you know, the Lake Ditrict has so many lakes because of the ample rain fall, so there are some lovely indoor places to visit on a rainy day.
+As you know, the Lake Ditrict has so many lakes because of the ample rain fall, so there are some lovely indoor places to visit on a rainy day. The closest to Garsdale is Farfield Mill, this is on the road to Sedbergh and is an interesting place  to spend a few hours and has exhibitions and art and craft work as well as a good cafe.
 
 https://www.farfieldmill.org/
+IN hawes there is the Dales Countryside Museum and the Wensleydale Creamery which has a cafe, cheese shop , where you can taste all of the cheeses and the cheesemaking experience.
 https://www.dalescountrysidemuseum.org.uk/
 https://www.wensleydale.co.uk/
-
+IN Kendal there is the Brewery Arts Centre, which has a cinema, holds music and comedy nights and also has childrens day time events.
 https://www.breweryarts.co.uk/
-https://www.zeffirellis.com/film
 
 ## With Children
 
-The following links give details of family/ child friendly activities in the area:
-
+There are a number of child friendly activities within travelling distance , for example, The forbidden Corner in Middleham, Leyburn  is a delightful experience for children and has been featured on CBBC shows.
 https://www.theforbiddencorner.co.uk/
 
+Ingleton has the White Scar Caves which is the longest show cave in Britain and has  guided tours taking about 80 minutes 
 https://whitescarcave.co.uk/
 
-https://www.wensleydale.co.uk/yorkshire-wensleydale-cheese-experience-i122
+Children will enjoy the Wensleydale Cheese experience at the Wensleydale Creamery and you can see the Yorkshire Wensleydale Cheese being made by hand and the cheese shop has many cheeses to taste.
 
+https://www.wensleydale.co.uk/yorkshire-wensleydale-cheese-experience-i122
+Hawes also has the Dales Countryside Museum which has many family friendly events throughout the year.
 https://www.dalescountrysidemuseum.org.uk/
 
-https://www.ingletonwaterfallstrail.co.uk/
-
-https://boltoncastle.co.uk/
+The Ingleton Waterfalls trail is 4 and a half miles circular route and can take between two and half hours to 4 hours to complete and is suitable for older children and requires sturdy footwear.
+https://www.ingletonwaterfallstrail.co.
 
 ## Waterfalls, Castles and Villages
 
 There are many waterfalls nearby. most are free to visit, Hardraw force has a small entrance fee but is a lovely walk. There are also a number of castles and National Trust properties as well as beautiful historic villages.
+
+https://boltoncastle.co.uk/
+
 
 https://www.visitcumbria.com/national-trust-in-cumbria/
 
