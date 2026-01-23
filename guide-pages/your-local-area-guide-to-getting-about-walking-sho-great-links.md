@@ -1,7 +1,7 @@
 ---
 title: Great links
 subtitle: Yorkshire Dales National Park
-guide_category: your-local-area-guide-to-getting-about-walking-sho
+guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 1
 featured_image: "https://hub.touchstay.com/media/cache/bc/b0/bcb02344b2f76d6447f1294c81286522.jpg?timestamp=20240825160407"
 ---

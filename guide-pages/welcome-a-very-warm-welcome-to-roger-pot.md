@@ -1,7 +1,7 @@
 ---
 title: "A Very warm welcome to Roger Pot!"
 subtitle: Welcome
-guide_category: welcome
+guide-category: welcome
 order: 1
 ---
 

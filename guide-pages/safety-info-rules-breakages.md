@@ -1,7 +1,7 @@
 ---
 title: Breakages
 subtitle: "Rules & Regulations"
-guide_category: safety-info-rules
+guide-category: safety-info-rules
 order: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Print out the Guide
 subtitle: Add This Guide To Your Phone
-guide_category: before-you-leave-home
+guide-category: before-you-leave-home
 order: 2
 ---
 

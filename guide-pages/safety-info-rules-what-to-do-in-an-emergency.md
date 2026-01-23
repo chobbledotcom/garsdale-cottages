@@ -1,7 +1,7 @@
 ---
 title: What to do in an Emergency
 subtitle: Safety Information
-guide_category: safety-info-rules
+guide-category: safety-info-rules
 order: 5
 featured_image: "https://hub.touchstay.com/media/cache/39/4b/394b095724f58abddb3d49ca06077364.jpg?timestamp=20240821204356"
 ---

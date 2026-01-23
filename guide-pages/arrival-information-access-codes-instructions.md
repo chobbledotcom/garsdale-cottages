@@ -1,7 +1,7 @@
 ---
 title: Access Codes / Instructions
 subtitle: Planning Your Arrival
-guide_category: arrival-information
+guide-category: arrival-information
 order: 1
 ---
 

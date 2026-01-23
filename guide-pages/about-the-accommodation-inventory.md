@@ -1,7 +1,7 @@
 ---
 title: Inventory
 subtitle: About the Accommodation
-guide_category: about-the-accommodation
+guide-category: about-the-accommodation
 order: 24
 ---
 

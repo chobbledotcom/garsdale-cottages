@@ -1,7 +1,7 @@
 ---
 title: Septic Tank
 subtitle: Appliance Instructions / Information
-guide_category: about-the-accommodation
+guide-category: about-the-accommodation
 order: 6
 ---
 

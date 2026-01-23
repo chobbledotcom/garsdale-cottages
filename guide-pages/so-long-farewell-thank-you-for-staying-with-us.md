@@ -1,7 +1,7 @@
 ---
 title: Thank You For Staying With Us
 subtitle: Thank You
-guide_category: so-long-farewell
+guide-category: so-long-farewell
 order: 1
 featured_image: "https://hub.touchstay.com/media/cache/73/ac/73ac137363df0ed6ee0cf86915518755.jpg?timestamp=20240821204357"
 ---

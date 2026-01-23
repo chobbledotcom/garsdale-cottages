@@ -1,7 +1,7 @@
 ---
 title: WiFi / Internet Details
 subtitle: WiFi / Internet/Mobile details
-guide_category: wifi-internetmobile-details
+guide-category: wifi-internetmobile-details
 order: 1
 featured_image: "https://hub.touchstay.com/media/cache/dd/76/dd762266a8641c04403b15fbbff9ab36.jpg?timestamp=20240821204356"
 ---

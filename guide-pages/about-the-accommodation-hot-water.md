@@ -1,7 +1,7 @@
 ---
 title: Hot water
 subtitle: Appliance Instructions / Information
-guide_category: about-the-accommodation
+guide-category: about-the-accommodation
 order: 5
 ---
 

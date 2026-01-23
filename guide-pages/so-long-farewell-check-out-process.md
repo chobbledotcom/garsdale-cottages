@@ -1,7 +1,7 @@
 ---
 title: Check-out Process
 subtitle: Departure Information
-guide_category: so-long-farewell
+guide-category: so-long-farewell
 order: 3
 ---
 

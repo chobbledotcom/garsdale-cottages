@@ -1,7 +1,7 @@
 ---
 title: Add This Guide To Your Phone
 subtitle: Before You Leave Home
-guide_category: before-you-leave-home
+guide-category: before-you-leave-home
 order: 1
 featured_image: "https://hub.touchstay.com/media/cache/61/c6/61c6c383006180729d8053722b285d79.jpg?timestamp=20240821204358"
 ---

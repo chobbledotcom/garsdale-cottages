@@ -1,7 +1,7 @@
 ---
 title: "What we love!"
 subtitle: Welcome
-guide_category: welcome
+guide-category: welcome
 order: 2
 ---
 

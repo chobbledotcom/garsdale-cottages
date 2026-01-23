@@ -1,7 +1,7 @@
 ---
 title: Booking Terms and Conditions
 subtitle: Booking with us
-guide_category: booking-with-us
+guide-category: booking-with-us
 order: 1
 ---
 

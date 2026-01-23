@@ -1,7 +1,7 @@
 ---
 title: What you said you love
 subtitle: "What you said you love!"
-guide_category: welcome
+guide-category: welcome
 order: 3
 ---
 

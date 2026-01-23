@@ -1,7 +1,7 @@
 ---
 title: Main LPG stop valve
 subtitle: Utilities
-guide_category: about-the-accommodation
+guide-category: about-the-accommodation
 order: 20
 ---
 
