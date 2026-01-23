@@ -9,7 +9,6 @@ eleventyNavigation:
   key: Things To Do
   order: 3
 ---
-
 ## Things To Do Near Garsdale
 
 *Write this page as if a friend asked "what should we do while we're staying?" Write only about places you've actually been and things you've actually done. If you haven't been somewhere, don't include it - there are plenty of other websites listing attractions.*
@@ -47,11 +46,39 @@ Some useful walking resources:
 
 ## The Nearby Towns
 
+Sedbergh is the nearest town and is about 6 miles away. Sedbergh has a range of shops, cafes, pubs and has a small weekly market on Wednesday mornings. Over summer there are artisan markets each month and these are well worth a visit.
+Groceries can be bought from the Spar shop and also Powells has a good selection along with fruit and vegetables. There are craft and gift shops as well as book shops , hardware and charity shop.
+The Half and Half bar has an acoustic night once a month and regular music and other events.
+
+Hawes is about 9 miles away and it  is well worth a visit. There are many cafes, pubs and restaurants as well as craft and art shops, antiques and clothing. The small market is on Tuesday mornings and often there are craft fairs in the market hall. Hawes also has the Dales Countryside museum and Wensleydale Creamery where you can see cheesemaking demonstrations at the cheese experience, there is a cafe, cheese and gift shop.
+
+Kirkby Stephen is an old market town with a good range of shops, cafes and pubs. The White Hare Cafe has an acoustic night once a month open to musicians, singers and poets to attend and take part.
+
+
+Kirkby Lonsdale is a lovely town with some great shops, bakery, clothes shops and several good pubs and restaurants. It also has the famous Devils bridge and Ruskins View.
+https://www.kirkbylonsdale.co.uk/discover/
+
+Dent is a small town in the next valley Dentdale. It has a cobbled main street and some lovely walks directly from the village.There are a good range of cafes and pubs and tea rooms. Dent station is some distance from Dent but is said to be the highest main line station in England and is on the Settle/ Carlisle line.
+
+Kendal is the closest 'big town' with many shops, large supermarkets, cafes and eating places and a weekly market on Wednesday and Saturdays. It also has a castle and the Brewery Arts Theatre has cinema, music, theatre and comedy events.
+
+
+
 *Write a sentence or two about each town you actually visit. What do you go there for? Skip any you don't really know.*
 
 *Sedbergh, Hawes, Dent, Kirkby Stephen are the obvious ones - but only write about them if you have something genuine to say. "Sedbergh has bookshops" is less useful than "We go to Sedbergh for X" or "The thing about Hawes is..."*
 
 ## Places We Actually Go
+Some favourite places of ours to visit with friends and family:
+Hardraw force in Hardraw near to Hawes. The walk to the falls is behind the Green Dragon Pub, which is also well worth a visit for food and their regular Wednesday music night.
+There is a small entrance fee to go to the waterfall but it can be lovely particularly if there has been rain . The walk to the falls is fairly flat and is well laid out with pathways , some seating and lovely views as well as the waterfall itself.
+Cautley Spout is another waterfall, again behind a temperance pub called the Cross Keys in Cautley, which also has good food. Cautley is a longer walk and some inclines, but it can  be seen without climbing too high, though you can climb to the top if you are enthusiastic.
+For some reason, on a number of our visits to Cautley Spout, the weather has changed mid walk and turned to rain or snow, so be prepared.
+Another easy walk to a waterfall is Cotter force which is on the way to Hawes. There is a parking area nearby and the walk  to the waterfall is flat and a tidy pathway.
+Hawes is a lovely town to visit as is Dent which can be got to over , what is locally called, the Coal Road, passing Garsdale Station. This is a very scenic route, passes Dent Station and is a very quaint, pretty village, with some lovely cafes and walks.
+Ambleside is about 45 minutes drive but is lovely to visit, has some great eating places , particularly we enjoy Zefferellis , which has the cinema and vegetarian restaurant and always good food.
+We also enjoy travelling over the Buttertubs pass from Hawes to Thwaite, this is a very high wild road with fantastic views of the hills and valleys. From Thwaite we would go to Muker which is beside the river Swale and there are some beautiful walks from the village. There are also some lovely cafes for lunch.
+Farfield Mill on the road to Sedbergh is an interesting place  to spend a few hours particularly on a rainy day, it has exhibitions and art and craft work as well as a good cafe.
 
 *This is the heart of the page. What are the places you'd genuinely recommend - pubs, cafes, shops, attractions, viewpoints, anything? Write about them because you know them, not because they're on a list.*
 
