@@ -46,6 +46,7 @@ The Sportsman in Cowgill, Dent.
 Stone Close tea room in Dent.
 Zefferellis in Ambleside- vegetarian restaurant
 Doi Intanon Thai restaurant in Ambleside.
+The White Hare cafe in Kirkby Stephen also has an acoustic night once a month.
 
 
 *Where do you eat and drink? Any favourites?*
