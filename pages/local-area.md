@@ -64,6 +64,12 @@ There is a cash machine in Sedbergh at the Spar shop and another in the village 
 *Phone signal - honest assessment?* The phone signal is good and the internet connection is good
 
 *Medical - nearest doctor, pharmacy, hospital?* 
+The local GP is Sedbergh Medical Centre, next  to Spar in Sedbergh- phone 01539 718191
+
+The nearest hospital is Westmorland General, Burton Road, Kendal LA9 7RG. This is for urgent but not life threatening treatment and is open every day between 8am and 10pm.
+
+The nearest A and E is Lancaster Royal Infirmary which is open 24 hours
+Ashton Road, Lancaster, Lancashire, LA1 4RP        01524 65944
 
 *Write what you know.*
 
