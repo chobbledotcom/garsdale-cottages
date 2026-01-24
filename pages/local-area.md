@@ -38,6 +38,15 @@ Kendal is the closest 'big town' with many shops, large supermarkets, cafes and 
 *The pubs, cafes, shops, and spots you'd actually recommend. Write about them because you know them - not because they're on a list somewhere.*
 
 ## Food and Drink
+There are a number of good eating places in and around Sedbergh but some that we use more often are:
+The Cross Keys at Cautley
+The Green Dragon at Hardraw
+The White Hart in Hawes
+The Sportsman in Cowgill, Dent.
+Stone Close tea room in Dent.
+Zefferellis in Ambleside- vegetarian restaurant
+Doi Intanon Thai restaurant in Ambleside.
+
 
 *Where do you eat and drink? Any favourites?*
 
