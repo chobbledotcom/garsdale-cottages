@@ -40,13 +40,14 @@ Kendal is the closest 'big town' with many shops, large supermarkets, cafes and 
 ## Food and Drink
 There are a number of good eating places in and around Sedbergh but some that we use more often are:
 The Cross Keys at Cautley
-The Green Dragon at Hardraw
+The Green Dragon at Hardraw, also has regular events and a music night every Wednesday.
 The White Hart in Hawes
 The Sportsman in Cowgill, Dent.
 Stone Close tea room in Dent.
 Zefferellis in Ambleside- vegetarian restaurant
 Doi Intanon Thai restaurant in Ambleside.
 The White Hare cafe in Kirkby Stephen also has an acoustic night once a month.
+Half and Half in Sedbergh has a variety of events and a music night once a month.
 
 
 *Where do you eat and drink? Any favourites?*
