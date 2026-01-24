@@ -14,7 +14,7 @@ eleventyNavigation:
 ## General Enquiries
 
 *Contact details for general enquiries go here*
-Hi and thanks for looking at The Old Cart House. For futher enquiries, information about booking your stay with us please contact Jack or Loraine at loraineutterworth@hotmail.com or phone Loraine on 07905 637690
+Hi and thanks for looking at The Old Cart House. For futher enquiries, information about booking your stay with us please contact Jack or Loraine at lorainebutterworth@hotmail.com or phone Loraine on 07905 637690
 
 ## Booking Enquiries
 
