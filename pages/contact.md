@@ -14,7 +14,7 @@ eleventyNavigation:
 ## General Enquiries
 
 *Contact details for general enquiries go here*
-Hi and thanks for looking at The Old Cart House. For futher enquiries, information about booking your stay with us please contact Jack or Loraine at jackbutterworth@hotmail.com or phone Jack on 07982235493
+Hi and thanks for looking at The Old Cart House. For futher enquiries, information about booking your stay with us please contact Jack or Loraine at loraineutterworth@hotmail.com or phone Loraine on 07905 637690
 
 ## Booking Enquiries
 
@@ -24,7 +24,7 @@ To book your stay at The Old Cart House please go to freetobook.com
 ## Property Owners
 
 *Information for property owners interested in joining the cooperative goes here*
-If you are interested in joining Garsdale Cottages cooperative please contact jack or loraine at jackbutterworth@hotmail.com or phone Jack on 07982235493
+If you are interested in joining Garsdale Cottages cooperative please contact Jack or Loraine at jackbutterworth@hotmail.com or phone Jack on 07982235493
 
 ## For Guests
 
