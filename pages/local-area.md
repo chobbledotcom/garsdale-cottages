@@ -30,9 +30,7 @@ Kendal is the closest 'big town' with many shops, large supermarkets, cafes and 
 
 
 
-*Write about whichever towns you know. You don't have to cover them all - just the ones you can say something genuine about.*
 
-*What do you use each one for? What's it like? Where do you go there?*
 
 ## Places We Go
 
@@ -52,17 +50,31 @@ Kendal is the closest 'big town' with many shops, large supermarkets, cafes and 
 *The stuff visitors need:*
 
 *Shops - where's the nearest? What can you get locally?*
+The nearest shops are Sedbergh and the Spar shop and Powells have most groceries you would need. There is a chemist in Sedbergh and also in Hawes. The post office in Sedbergh is in the Spar shop.
+There are also carft shops, cafes and pubs and a couple of book shops.
+
+Hawes is a little further but has a Spar shop, bakery , butchers and a range of clothing, books, antiques and crafts shops as well as cafes and pubs.There is a post office in Hawes.
 
 *Petrol - where?*
+There are two garages in Sedbergh both selling petrol and one garage in Hawes,
 
 *Cash - needed? Where from?*
+There is a cash machine in Sedbergh at the Spar shop and another in the village close to Powells fruit and veg shop.
 
-*Phone signal - honest assessment?*
+*Phone signal - honest assessment?* The phone signal is good and the internet connection is good
 
-*Medical - nearest doctor, pharmacy, hospital?*
+*Medical - nearest doctor, pharmacy, hospital?* 
 
 *Write what you know.*
 
 ## Links
+
+https://www.sedbergh.org.uk/
+
+https://www.yorkshire.com/hawes
+
+https://www.sedbergh.org.uk/events/
+
+https://www.visitcumbria.com/whats-on/
 
 *If there are good external websites about the area, link to them. It's fine to let other sites be comprehensive.*
