@@ -55,7 +55,9 @@ https://settle-carlisle.co.uk/sites/default/files/2025-07/train-timetable-2025.p
 https://www.visitlakedistrict.com/
 
 https://visitnorthyorkshire.com/
-Garsdale Station is one of the wildest stations on the line. At the station is a statue of Ruswarp the dog, who, when his owner, a railway worker died, Ruswarp waited 11 weeks at the station for his master to return. The full story can be found here. https://www.doglopedix.com/2026/01/ruswarp-dog-who-waited-11-weeks-for-his.html
+Garsdale Station is one of the wildest stations on the line. At the railway station stands a statue of Ruswarp, a collie dog, who was found on the fell in 1990 at the side of his owner who had died some 11 weeks earlier, in an emaciated and starving state. It had to be carried off the fell and he was awarded a medal for vigilance but died shortly after his owner’s funeral.
+
+
 Garsdale Station has a connection to Hawes via Little White Bus.
 
 ## The Dale
