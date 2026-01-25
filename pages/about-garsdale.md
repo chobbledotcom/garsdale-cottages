@@ -48,12 +48,22 @@ The river attracts herons, dippers, mallards , goosander and if we are very luck
 *Details about walking opportunities go here - Pennine Bridleway, Dales Way, open access land*
 
 ### The Settle-Carlisle Railway
+The Settle Carlisle is one of the most scenic railway journes and passes through Garsdale Station along with places such as Appleby, Kirkby Stephen,Dent ,Ribblehead viaduct and Skipton .
 
-*Details about Garsdale Station go here - one of the wildest stations on the line, Ruswarp the dog statue, connection to Hawes via Little White Bus*
+https://settle-carlisle.co.uk/sites/default/files/2025-07/train-timetable-2025.pdf
+
+https://www.visitlakedistrict.com/
+
+https://visitnorthyorkshire.com/
+Garsdale Station is one of the wildest stations on the line. At the station is a statue of Ruswarp the dog, who, when his owner, a railway worker died, Ruswarp waited 11 weeks at the station for his master to return. The full story can be found here. https://www.doglopedix.com/2026/01/ruswarp-dog-who-waited-11-weeks-for-his.html
+Garsdale Station has a connection to Hawes via Little White Bus.
 
 ## The Dale
+Garsdale lies on the western slopes of the Pennines, between Baugh Fell to the north and Rise Hill to the south. It is within the Yorkshire Dales National Park. The dale is the valley of the Clough River, which rises on the north eastern slopes of Baugh Fell and flows through Grisedale, the Dale that Died, as Grisedale Beck until it becomes the Clough River at Garsdale Head.
 
-*Description of the dale itself goes here - wild moorland, Grisedale as sister dale, Longstone Fell viewpoint, the Coal Road to Dent*
+The dale forms the civil parish of Garsdale, although the last mile and a half of the course of the Clough river, before its confluence with the Rawthey, is part of the parish of Sedbergh. Small settlements lie along the main Northallerton to Kendal road (the A684) which runs through the dale for 7 miles (11 km), with frequent bridges in the upper part of the dale. The largest settlement, known as "The Street", lies 6 miles (9.7 km) east of Sedbergh and 10 miles (16 km) west of Hawes. The other hamlet in Garsdale is Garsdale Head, also called Hawes Junction, the old name for Garsdale station, after the former Wensleydale branch on the Settle to Carlisle railway.
+
+At Longstone Fell, locally known, and spoken as Langst'n Fell, the A684 road rises to a well-known view-point looking over the Howgill Fells, and the river descends to Danny Bridge, the site of a 17th-century mill on the "old road", before joining the River Rawthey near Sedbergh
 
 ## Flora and Fauna
 
@@ -69,5 +79,8 @@ Garsdale school was endowed by Thomas Dawson 1634; rebuilt as National school on
 
 At the railway station stands a statue of a collie dog, who was found on the fell in 1990 at the side of his owner who had died some 11 weeks earlier, in an emaciated and starving state. It had to be carried off the fell and he was awarded a medal for vigilance but died shortly after his owner’s funeral. 
 ## Getting to Garsdale
+Garsdale Station is on the Settle to Carlisle train line.
+Travelling by car from the A1, take the Leeming interchange to the A 684 to Bedale following for Leyburn, Aysgath, Hawes to Garsdale. You will see a sign welcoming you to Garsdale, approx half a mile on the left side, opposite the river is The Old Cart House and Roger Pot is a little further, after the village hall and just after the bridge on the right side is the entrance tot he lane leading to Roger Pot.
+Travelling by car from the M6, take junction 37 for Sedbergh on the A684 , stay on the A684 to Hawes/Northallerton direction, pass Farfield Mill and travel approximately 5 miles to Garsdale. Roger Pot is to the left just before the bridge with a sign for Garsdale and The Old Cart House is a little further on past St Johns church on the left and  the post box and is on the right side of the road opposite the river Clough.
 
-*Details about transport go here - A684 road, Garsdale Station on Settle-Carlisle line*
+
