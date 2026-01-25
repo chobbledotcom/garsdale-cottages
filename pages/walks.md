@@ -9,8 +9,8 @@ eleventyNavigation:
   key: Walks
   order: 4
 ---
-
 ## Walking from Garsdale
+
 
 *Write about walking here in your own words. What's it like? What should people know before they set off?*
 
@@ -64,5 +64,6 @@ http://brians-walks.co.uk/pennine-way-transport.html
 
 - [Walking in the Yorkshire Dales](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm)
 - [Dales Way](https://www.dalesway.org/route.html)
+- https://where2walk.co.uk/walk/hidden-semer-water-walk/
 
 *Add any others you find useful.*
