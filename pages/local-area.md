@@ -28,6 +28,10 @@ Dent is a small town in the next valley Dentdale. It has a cobbled main street a
 
 Kendal is the closest 'big town' with many shops, large supermarkets, cafes and eating places and a weekly market on Wednesday and Saturdays. It also has a castle and the Brewery Arts Theatre has cinema, music, theatre and comedy events.
 
+Semerwater is the closest lake to Garsdale and is one of two remaining natural glacial lakes in the Yorkshire Dales. It is in the valley of Raydale, close to Countersett village. There are footpaths and walks from and around the lake with some fantastic views.
+https://www.yorkshiredales.org.uk/places/semer_water/
+https://where2walk.co.uk/walk/hidden-semer-water-walk/
+
 
 
 
