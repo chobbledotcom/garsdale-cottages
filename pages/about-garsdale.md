@@ -81,7 +81,7 @@ Garsdale school was endowed by Thomas Dawson 1634; rebuilt as National school on
 
 At the railway station stands a statue of a collie dog, who was found on the fell in 1990 at the side of his owner who had died some 11 weeks earlier, in an emaciated and starving state. It had to be carried off the fell and he was awarded a medal for vigilance but died shortly after his owner’s funeral. 
 ## Getting to Garsdale
-Garsdale Station is on the Settle to Carlisle train line.
+Garsdale Station is on the Settle to Carlisle train line and there are regular trains Monday to Saturday.
 Travelling by car from the A1, take the Leeming interchange to the A 684 to Bedale following for Leyburn, Aysgath, Hawes to Garsdale. You will see a sign welcoming you to Garsdale, approx half a mile on the left side, opposite the river is The Old Cart House and Roger Pot is a little further, after the village hall and just after the bridge on the right side is the entrance tot he lane leading to Roger Pot.
 Travelling by car from the M6, take junction 37 for Sedbergh on the A684 , stay on the A684 to Hawes/Northallerton direction, pass Farfield Mill and travel approximately 5 miles to Garsdale. Roger Pot is to the left just before the bridge with a sign for Garsdale and The Old Cart House is a little further on past St Johns church on the left and  the post box and is on the right side of the road opposite the river Clough.
 
