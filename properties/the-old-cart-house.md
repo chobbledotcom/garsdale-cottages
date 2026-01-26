@@ -27,6 +27,7 @@ features:
     secure but  lively dogs can escpe over the walls and gates if not under
     control.
 gallery:
+  - /images/scenery/rose-cottage-and-the-cart-house.jpeg
   - /images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg
   - /images/properties/the-old-cart-house/stone-exterior-of-a-house-with-green-door-and-windows-and-po.jpeg
   - /images/properties/the-old-cart-house/a-stone-building-entrance-with-a-light-green-door-and-window.jpeg
