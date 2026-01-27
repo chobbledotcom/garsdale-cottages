@@ -55,22 +55,22 @@ blocks:
 
   - type: image-cards
     items:
-      - image: "/images/placeholders/blue.svg"
+      - image: "/images/scenery/moon-over-langstone-fell.jpeg"
         title: Peace & Tranquillity
         description: "Remote Yorkshire Dales location, far from the crowds - just you, the hills and the sky."
         link: "/about-garsdale/"
-      - image: "/images/placeholders/green.svg"
+      - image: "/images/wildlife/red-squirrel-1.jpeg"
         title: Wildlife
         description: "Red squirrels, upland birds, roe deer and more in this unspoilt corner of England."
-        link: "/things-to-do/red-squirrel-watching/"
-      - image: "/images/placeholders/orange.svg"
+        link: "/things-to-do/"
+      - image: "/images/scenery/fellside.jpeg"
         title: Walking Paradise
         description: "Howgill Fells, Dales Way, Pennine Bridleway - miles of spectacular walks from the doorstep."
         link: "/walks/"
-      - image: "/images/placeholders/purple.svg"
+      - image: "/images/scenery/garsdale-in-winter.jpeg"
         title: Settle-Carlisle Railway
         description: "One of England's most scenic railways, with Garsdale station just minutes away."
-        link: "/things-to-do/settle-carlisle-railway/"
+        link: "/about-garsdale/"
 
   - type: section-header
     title: Explore the Area
@@ -80,15 +80,15 @@ blocks:
 
   - type: image-cards
     items:
-      - image: "/images/placeholders/pink.svg"
+      - image: "/images/places of interest/IMG_3021.jpeg"
         title: Things To Do
         description: "Walking, wildlife watching, visiting market towns, rainy day activities and family adventures."
         link: "/things-to-do/"
-      - image: "/images/placeholders/yellow.svg"
+      - image: "/images/scenery/rose-cottage-and-the-cart-house.jpeg"
         title: The Local Area
         description: "Sedbergh, Hawes, Dent, Kirkby Stephen - charming market towns all within easy reach."
         link: "/local-area/"
-      - image: "/images/placeholders/blue.svg"
+      - image: "/images/wildlife/brown-hare.jpeg"
         title: Walks
         description: "From gentle strolls to challenging fell walks - routes for all abilities from your doorstep."
         link: "/walks/"
