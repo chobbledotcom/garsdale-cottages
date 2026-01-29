@@ -91,7 +91,7 @@ Step into a delightful open-plan living space brimming with character, where exp
 
 Sink into the seating, perfectly positioned in front of the coal effect fire, making it an idyllic spot to enjoy a coffee while planning your day’s adventures.
 
-When it’s time to prepare a meal, the quaint yet well-equipped kitchen area beckons, cleverly designed with amenities neatly tucked under the staircase, including a washing machine for added convenience during longer stays.
+When it’s time to prepare a meal, there is a quaint yet well-equipped kitchen area , cleverly designed with amenities neatly tucked under the staircase, including a washing machine for added convenience during longer stays.
 
 Dine at the intimate table set for two, or, if the weather is kind, take your culinary creations outside and enjoy an alfresco meal.
 
@@ -105,7 +105,7 @@ Explore the breath-taking landscapes of the Yorkshire Dales National Park right 
 
 Don't forget to bring your camera, where you might spot red squirrels darting through the trees, graceful roe deer grazing in the meadows, and a variety of bird species.
 
-A short drive will take you to Sedbergh, where you can wander through many independent bookshops, or perhaps visit Farfield Mill with its local art, crafts, and heritage at this restored Victorian woollen mill.
+A short drive will take you to Sedbergh, where you can wander through independent craft and bookshops, or perhaps visit Farfield Mill with its local art, crafts, and heritage at this restored Victorian woollen mill.
 
 Stock up on the essentials at one of the convenience stores for some home-cooking, before savouring a refreshing pint and lunch at The Red Lion or Dalesman pubs.
 
