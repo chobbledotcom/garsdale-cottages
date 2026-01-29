@@ -109,13 +109,13 @@ A short drive will take you to Sedbergh, where you can wander through many indep
 
 Stock up on the essentials at one of the convenience stores for some home-cooking, before savouring a refreshing pint and lunch at The Red Lion or Dalesman pubs.
 
-For those keen on hiking, a short trek leads to the breath-taking Cotter Force in Hardraw, a serene waterfall where you can unwind and take in the beauty of nature, especially after conquering the trails around Great Shunner Fell.
+For those keen on hiking, a short trek leads to the breath-taking Cotter Force in Hardraw, a beautiful waterfall where you can unwind and take in the beauty of nature, especially after conquering the trails around Great Shunner Fell.
 
-The serene market town of Hawes is well-worth a visit, with its artisan and antique shops and traditional pubs.
+The market town of Hawes is well-worth a visit, with its artisan and antique shops and traditional pubs.
 
 The Lake District National Park is also within reach, where you can explore some of the iconic lakes, offering a chance to explore landmarks like Windermere, Ambleside and Coniston Water.
 
-Whether you’re an outdoor enthusiast, history buff, or seeking relaxation in a serene setting, The Old Cart House offers something for everyone.
+Whether you’re an outdoor enthusiast, history buff, or seeking relaxation in a picturesque setting, The Old Cart House offers something for everyone.
 
 The property is approx 9 miles from Hawes and 17 miles from Kendal.
 
@@ -134,11 +134,11 @@ The property is approx 9 miles from Hawes and 17 miles from Kendal.
 - Rear garden with patio and furniture
 - 1 well-behaved pet welcome
 - Sorry, no smoking
-- Shop 6.4 miles, pub 3.8 miles
-- Note: There is a Good Housekeeping Bond of £150
+- Shop and pubs 6.4 miles.
+  
 - Note: Children up to age 3 accepted but must be supervised due to the stairs
 - Note: There are steps down to the patio and garden from the bedroom exit, please take care.
 - Note: Whist the water supply at The Old Cart House is tested regularly, it is sourced from a nearby spring and, whilst fully treated, cannot realistically be guaranteed, we therefore supply bottled water for you to use for drinking and cooking if you prefer
 - Note: Top ups are available free of charge during your stay if required, we are told that washing with water with any degree of contaminate (should it occur) is very, very low risk and should be of little concern to you unless you have some form of auto-immune deficiency (where your doctor see’s a risk) or an open wound
-- Note: This property has a Good Housekeeping bond of £150
+
 - Please Note: The garden is not fully enclosed, so dogs cannot be left unsupervised, As the property is located in a sheep farming area, dogs must be kept on a lead at all times while out walking.
