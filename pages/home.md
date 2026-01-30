@@ -37,6 +37,7 @@ blocks:
     align: center
 
   - type: image-cards
+    image_aspect_ratio: "4/3"
     items:
       - image: "/images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg"
         title: Roger Pot
@@ -54,6 +55,7 @@ blocks:
     align: center
 
   - type: image-cards
+    image_aspect_ratio: "4/3"
     items:
       - image: "/images/scenery/moon-over-langstone-fell.jpeg"
         title: Peace & Tranquillity
@@ -79,6 +81,7 @@ blocks:
     align: center
 
   - type: image-cards
+    image_aspect_ratio: "4/3"
     items:
       - image: "/images/places of interest/IMG_3021.jpeg"
         title: Things To Do
