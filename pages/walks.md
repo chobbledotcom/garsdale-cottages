@@ -19,7 +19,7 @@ eleventyNavigation:
 ## Walks We'd Recommend
 A pleasant walk is to Hardraw force in Hardraw, the walk begins behind the Green Dragon and there is a small charge to enter the waterfall walk. 
 Travelling towards Hawes there is a parking area for a short walk to Cotter force, which has a good flat pathway beside the river leading to the water falls.
-A longer waterfall walk is to Cautley Spout in Cautley. This walk starts by the Cross Keys Temperance pub and the path cros
+A longer waterfall walk is to Cautley Spout in Cautley. This walk starts by the Cross Keys Temperance pub and the path crossing the river.
 
 *List walks you've actually done. You don't need many - three or four genuine recommendations beat a long list of things you've researched.*
 
