@@ -17,6 +17,9 @@ eleventyNavigation:
 *You don't need to write detailed route guides - other websites do that. The value you can add is saying which walks YOU do and what they're actually like.*
 
 ## Walks We'd Recommend
+A pleasant walk is to Hardraw force in Hardraw, the walk begins behind the Green Dragon and there is a small charge to enter the waterfall walk. 
+Travelling towards Hawes there is a parking area for a short walk to Cotter force, which has a good flat pathway beside the river leading to the water falls.
+A longer waterfall walk is to Cautley Spout in Cautley. This walk starts by the Cross Keys Temperance pub and the path cros
 
 *List walks you've actually done. You don't need many - three or four genuine recommendations beat a long list of things you've researched.*
 
@@ -29,6 +32,8 @@ eleventyNavigation:
 *If you know good external links for route details, include them.*
 
 ## From the Doorstep
+There are a number of marked footpaths in Garsdale so guests can take a walk directly from the cottage without needing their car. For the adventurous , there is a pathway across the moors to Dent, this would start following the pathway by Dandra Garth.
+There are also walks around nearby  Grisedale and behind the old Moorcock pub there is a pathway leading tot he Pennine Bridleway with walks in the direction of Kirkby Stephen and the opposite direction towards Cotter force.
 
 *Can guests walk straight from the cottages? Where do the paths lead? What can they do without getting in a car?*
 
