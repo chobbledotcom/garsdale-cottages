@@ -118,6 +118,7 @@ The Lake District National Park is also within reach, where you can explore some
 Whether you’re an outdoor enthusiast, history buff, or seeking relaxation in a picturesque setting, The Old Cart House offers something for everyone.
 
 The property is approx 9 miles from Hawes and 17 miles from Kendal.
+The Old Cart house has an Ordnance Survey benchmark cut into the stonework and this dates back to the survey in 1845 and at that time the property was listed as J Davis' stable.
 
 ## At a glance
 
