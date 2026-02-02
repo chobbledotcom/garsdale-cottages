@@ -57,10 +57,11 @@ The Old Cart House has an EV charger. Guests should discuss their needs with the
 *Add info about Roger Pot if relevant.*
 
 ## Before You Arrive
-As the closest shops are about 6 miles away in Sedbergh, we would suggest bringing groceries for the first day or two
+As the closest shops are about 6 miles away in Sedbergh, we would suggest bringing groceries for the first day or two. A welcome basket is provided for guests with some regional produce etc.
 
 *Anything guests should know or do before arriving? Stock up on shopping? Download offline maps? Anything practical?*
 
 ## Contact Us
+Please contact via our mobile numbers if you have any difficulties and we will assist as we can.
 
 *If people get lost or need help, how should they reach you?*
