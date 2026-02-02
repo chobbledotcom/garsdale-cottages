@@ -7,7 +7,6 @@ eleventyNavigation:
   key: Getting Here
   order: 6
 ---
-
 ## Getting to Garsdale
 
 The Old Cart House is in a very rural location but easily accessible by road and rail.
@@ -29,6 +28,7 @@ Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre follow
 *Add other directions if you can write them accurately - from the A1, Leeds, Manchester, etc. Only include routes you're confident about.*
 
 ### The Final Approach
+Travelling to Garsdale from the Sedbergh direction you will pass Blades Farm on  your left, this has a small certified campsite,a little further on you will see the Garsdale village sign by the bridge. The lane to Roger Pot is here, through the gate. To continue to the Old Cart House ,pass over the bridge and along past the village hall. You will then go around a sharp bend with a farm on the right hand side, pass the church , the letter  box and there is a row of houses on the right side of the road, opposite the river, and the Old Cart House is there.
 
 *What should people expect for the last bit? Farm tracks? Narrow lanes? Anything that might worry them?*
 
