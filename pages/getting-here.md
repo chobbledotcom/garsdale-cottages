@@ -30,6 +30,8 @@ Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre follow
 ### The Final Approach
 Travelling to Garsdale from the Sedbergh direction you will pass Blades Farm on  your left, this has a small certified campsite,a little further on you will see the Garsdale village sign by the bridge. The lane to Roger Pot is here, through the gate. To continue to the Old Cart House ,pass over the bridge and along past the village hall. You will then go around a sharp bend with a farm on the right hand side, pass the church , the letter  box and there is a row of houses on the right side of the road, opposite the river, and the Old Cart House is there.
 
+Travelling to Garsdale from Hawes direction, pass under the railway viaduct and you will see a sign for Garsdale Parish , drive a further 3 miles and you will pass the stone plinth with 'Welcome to Garsdale', drive past a farm called East Little Town on your left and follow the road passing Dandra Garth on your left with the river on your right. You will then approach the area known locally as 'the street'. the Police House is the first house and a few houses later you will reach Rose Cottage and the Old Cart House. To travel to Roger Pot follow the road further past the church and the sharp bend, passing the village hall and immediately over the bridge is a track to the right which will lead through the gate and up to Roger Pot.
+
 *What should people expect for the last bit? Farm tracks? Narrow lanes? Anything that might worry them?*
 
 ## By Train
