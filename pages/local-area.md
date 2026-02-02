@@ -57,6 +57,17 @@ Half and Half in Sedbergh has a variety of events and a music night once a month
 *Where do you eat and drink? Any favourites?*
 
 ## Day Trips
+Some favourite places of ours to visit with friends and family:
+Hardraw force in Hardraw near to Hawes. The walk to the falls is behind the Green Dragon Pub, which is also well worth a visit for food and their regular Wednesday music night.
+There is a small entrance fee to go to the waterfall but it can be lovely particularly if there has been rain . The walk to the falls is fairly flat and is well laid out with pathways , some seating and lovely views as well as the waterfall itself.
+Cautley Spout is another waterfall, again behind a temperance pub called the Cross Keys in Cautley, which also has good food. Cautley is a longer walk and some inclines, but it can  be seen without climbing too high, though you can climb to the top if you are enthusiastic.
+For some reason, on a number of our visits to Cautley Spout, the weather has changed mid walk and turned to rain or snow, so be prepared.
+Another easy walk to a waterfall is Cotter force which is on the way to Hawes. There is a parking area nearby and the walk  to the waterfall is flat and a tidy pathway.
+Hawes is a lovely town to visit as is Dent which can be got to over , what is locally called, the Coal Road, passing Garsdale Station. This is a very scenic route, passes Dent Station and is a very quaint, pretty village, with some lovely cafes and walks.
+Ambleside is about 45 minutes drive but is lovely to visit, has some great eating places , particularly we enjoy Zefferellis , which has the cinema and vegetarian restaurant and always good food.
+https://www.zeffirellis.com/film
+We also enjoy travelling over the Buttertubs pass from Hawes to Thwaite, this is a very high wild road with fantastic views of the hills and valleys. From Thwaite we would go to Muker which is beside the river Swale and there are some beautiful walks from the village. There are also some lovely cafes for lunch.
+
 
 *Anywhere you go for a day out that you'd recommend? Only include places you've actually been.*
 
