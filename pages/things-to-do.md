@@ -92,18 +92,18 @@ We also enjoy travelling over the Buttertubs pass from Hawes to Thwaite, this is
 
 ## Rainy Days
 
-As you know, the Lake Ditrict has so many lakes because of the ample rain fall, so there are some lovely indoor places to visit on a rainy day. The closest to Garsdale is Farfield Mill, this is on the road to Sedbergh and is an interesting place  to spend a few hours and has exhibitions and art and craft work as well as a good cafe.
+As you know, the Lake District has so many lakes because of the ample rain fall, so there are some lovely indoor places to visit on a rainy day. The closest to Garsdale is Farfield Mill, this is on the road to Sedbergh and is an interesting place  to spend a few hours and has exhibitions and art and craft work as well as a good cafe.
 
 https://www.farfieldmill.org/
-IN hawes there is the Dales Countryside Museum and the Wensleydale Creamery which has a cafe, cheese shop , where you can taste all of the cheeses and the cheesemaking experience.
+Hawes has the Dales Countryside Museum and the Wensleydale Creamery which has a cafe and cheese shop, where you can taste all of the cheeses and the cheesemaking experience.
 https://www.dalescountrysidemuseum.org.uk/
-https://www.wensleydale.co.uk/
-IN Kendal there is the Brewery Arts Centre, which has a cinema, holds music and comedy nights and also has childrens day time events.
+https://www.wensleydale.co.uk/ 
+Kendal has the Brewery Arts Centre, which has a cinema, holds music and comedy nights and also has childrens day time events.
 https://www.breweryarts.co.uk/
 
 ## With Children
 
-There are a number of child friendly activities within travelling distance , for example, The forbidden Corner in Middleham, Leyburn  is a delightful experience for children and has been featured on CBBC shows.
+There are a number of child friendly activities within travelling distance , for example, The Forbidden Corner in Middleham, Leyburn  is a delightful experience for children and has been featured on CBBC shows.
 https://www.theforbiddencorner.co.uk/
 
 Ingleton has the White Scar Caves which is the longest show cave in Britain and has  guided tours taking about 80 minutes 
