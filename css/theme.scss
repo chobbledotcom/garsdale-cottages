@@ -18,6 +18,9 @@
   --color-bg: #fafafa;
   --color-text: #333;
   --font-family-heading: "Leckerli One", sans-serif;
+  --border: 2px solid var(--color-text);
+  --border-radius: 3px;
+  --box-shadow: none;
 }
 
 body {
