@@ -4,6 +4,8 @@ subtitle: Cottage in Sedbergh
 thumbnail: /images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg
 header_image: /images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg
 featured: false
+freetobook_id: "50739"
+freetobook_token: "R5E73eM95Xl5BGJW0D8OQTzkbMSRLi46YKg0Le5ybvAhmE4UGjs0VI991DOB6"
 bedrooms: 1
 bathrooms: 1
 sleeps: 2
