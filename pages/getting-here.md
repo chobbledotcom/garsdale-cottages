@@ -9,7 +9,7 @@ eleventyNavigation:
 ---
 ## Getting to Garsdale
 
-The Old Cart House is in a very rural location but easily accessible by road and rail.
+The Old Cart House and Roger Pot are in a very rural location in the Yorkshire Dales but easily accessible by road and rail.
 
 ## By Car
 
