@@ -9,7 +9,7 @@ eleventyNavigation:
 ---
 ## The Local Area
 
-*Write this like you're telling a friend what's nearby. Only write about places you actually go and things you actually know.*
+
 
 ## The Nearby Towns
 Sedbergh is the nearest town and is about 6 miles away. Sedbergh has a range of shops, cafes, pubs and has a small weekly market on Wednesday mornings. Over summer there are artisan markets each month and these are well worth a visit.
