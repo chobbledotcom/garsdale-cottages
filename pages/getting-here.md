@@ -19,7 +19,7 @@ Sat nav postcode: **LA10 5PQ** for The Old Cart House.
 
 ### Driving Times
 
-From Manchester 1Hour 30 minutes
+From Manchester 1Hour 45 minutes
 
 ### From the M6
 
@@ -32,7 +32,7 @@ Travelling to Garsdale from the Sedbergh direction you will pass Blades Farm on 
 
 Travelling to Garsdale from Hawes direction, pass under the railway viaduct and you will see a sign for Garsdale Parish , drive a further 3 miles and you will pass the stone plinth with 'Welcome to Garsdale', drive past a farm called East Little Town on your left and follow the road passing Dandra Garth on your left with the river on your right. You will then approach the area known locally as 'the street'. the Police House is the first house and a few houses later you will reach Rose Cottage and the Old Cart House. To travel to Roger Pot follow the road further past the church and the sharp bend, passing the village hall and immediately over the bridge is a track to the right which will lead through the gate and up to Roger Pot.The  farm track to Roger Pot is narrow so care does need to be taken.
 
-*What should people expect for the last bit? Farm tracks? Narrow lanes? Anything that might worry them?*
+
 
 ## By Train
 
@@ -40,9 +40,6 @@ The Settle Carlise Railway arrives at Garsdale Station and train times and infor
 
 https://settle-carlisle.co.uk/
 
-*If you know about the Settle-Carlisle Railway and arriving at Garsdale Station, write about it. How does it work? How do guests get from station to cottage?*
-
-*If you don't know the details, just link to the railway website.*
 
 ## Taxis
 
@@ -59,7 +56,6 @@ The Old Cart House has an EV charger. Guests should discuss their needs with the
 ## Before You Arrive
 As the closest shops are about 6 miles away in Sedbergh, we would suggest bringing groceries for the first day or two. A welcome basket is provided for guests with some regional produce etc.
 
-*Anything guests should know or do before arriving? Stock up on shopping? Download offline maps? Anything practical?*
 
 ## Contact Us
 Please contact via our mobile numbers if you have any difficulties and we will assist as we can.
