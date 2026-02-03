@@ -11,9 +11,7 @@ eleventyNavigation:
 ---
 ## Things To Do Near Garsdale
 
-*Write this page as if a friend asked "what should we do while we're staying?" Write only about places you've actually been and things you've actually done. If you haven't been somewhere, don't include it - there are plenty of other websites listing attractions.*
 
-*Don't feel obliged to be comprehensive. A few genuine recommendations are worth more than a long list of places you've only heard of.*
 
 Garsdale is set in the Yorkshire Dales National Park in the county of Cumbria. It is an ideal setting for walking and there are walks directly from the hamlet with many marked footpaths.
 
@@ -37,12 +35,13 @@ The hedgerows have an abundance of fruit in the summer, with raspberries and bla
 
 For detailed walking routes, see our [Walks](/walks/) page. The area offers world-class walking on the Howgill Fells, along the Dales Way, and through beautiful Dentdale.
 
+
 Some useful walking resources:
 - [Walking in the Yorkshire Dales](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm)
 - [Hawes-Garsdale bridleway](https://www.yorkshiredales.org.uk/progress-on-hawes-garsdale-bridleway/)
 - [Garsdale Station to The High Way](https://www.nydwalks.co.uk/post/garsdale-station-to-the-high-way-hellgill)
 
-*What's your favourite walk? Not necessarily the most famous - the one you actually do and enjoy.*
+
 
 ## The Nearby Towns
 
@@ -64,9 +63,7 @@ Kendal is the closest 'big town' with many shops, large supermarkets, cafes and 
 
 
 
-*Write a sentence or two about each town you actually visit. What do you go there for? Skip any you don't really know.*
 
-*Sedbergh, Hawes, Dent, Kirkby Stephen are the obvious ones - but only write about them if you have something genuine to say. "Sedbergh has bookshops" is less useful than "We go to Sedbergh for X" or "The thing about Hawes is..."*
 
 ## Places We Actually Go
 Some favourite places of ours to visit with friends and family:
@@ -81,14 +78,7 @@ https://www.zeffirellis.com/film
 We also enjoy travelling over the Buttertubs pass from Hawes to Thwaite, this is a very high wild road with fantastic views of the hills and valleys. From Thwaite we would go to Muker which is beside the river Swale and there are some beautiful walks from the village. There are also some lovely cafes for lunch.
 
 
-*This is the heart of the page. What are the places you'd genuinely recommend - pubs, cafes, shops, attractions, viewpoints, anything? Write about them because you know them, not because they're on a list.*
 
-*Some questions to prompt you:*
-- *Where do you take visitors when they come to stay?*
-- *Where do you go for a treat meal? A casual lunch? A coffee?*
-- *Any shops you always end up in?*
-- *Anywhere you've discovered that isn't in the guidebooks?*
-- *Any places that are famous but you think are overrated? (It's okay to say so)*
 
 ## Rainy Days
 
@@ -120,10 +110,11 @@ https://www.ingletonwaterfallstrail.co.
 
 ## Waterfalls, Castles and Villages
 
-There are many waterfalls nearby. most are free to visit, Hardraw force has a small entrance fee but is a lovely walk. There are also a number of castles and National Trust properties as well as beautiful historic villages.
+There are many waterfalls nearby. most are free to visit, Hardraw force has a small entrance fee but is a lovely walk. There are also a number of castles and National Trust properties as well as beautiful historic villages. Bolton Castle, Pendragon Castle, Brough Castle and Kendal Castle are all within easy driving distance and some are free to enter.
 
 https://boltoncastle.co.uk/
 
+https://www.english-heritage.org.uk/visit/places/brough-castle/
 
 https://www.visitcumbria.com/national-trust-in-cumbria/
 
@@ -143,6 +134,4 @@ https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force
 
 https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/
 
-## Links to Other Resources
 
-*If there are good external websites for finding things to do, link to them here. It's fine to point people elsewhere rather than trying to replicate everything.*
