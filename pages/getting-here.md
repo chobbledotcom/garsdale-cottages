@@ -13,9 +13,9 @@ The Old Cart House is in a very rural location but easily accessible by road and
 
 ## By Car
 
-Sat nav postcode: **LA10 5PQ** for The Old Cart House.
+Sat nav postcode: **LA10 5PQ** for The Old Cart House and Roger Pot.
 
-*Add Roger Pot postcode if different.*
+
 
 ### Driving Times
 
