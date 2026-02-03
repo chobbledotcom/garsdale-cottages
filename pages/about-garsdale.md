@@ -71,10 +71,12 @@ The dale forms the civil parish of Garsdale, although the last mile and a half o
 At Longstone Fell, locally known, and spoken as Langst'n Fell, the A684 road rises to a well-known view-point looking over the Howgill Fells, and the river descends to Danny Bridge, the site of a 17th-century mill on the "old road", before joining the River Rawthey near Sedbergh
 
 ## Flora and Fauna
+The Garsdale area is full of wildlife and flowers and some beautiful wildflower meadows. The Quaker burial ground in Garsdale is a wildflower haven in summertime and there are many areas where wildflowers are protected and left to bloom. Flowers, such as meadowsweet,teasel,ox eye daisies,dog rose and melancholy thistle , which was once used to treat 'melancholia', are abundant. Numerous lichens  and mosses grow on the walls and trees, the clean, fresh air encourages their growth.
+There are heather and bilberry covered hill sides and grouse moors and work is ongoing to restore the peat bogs.
+https://www.wildgarsdalepike.org.uk/#land
 
 https://www.cumbriabotany.co.uk/cumbrian-landscape-and-flora/
 
-*Details about rare plants go here - mention melancholy thistle on road verges in summer, botanical richness*
 
 ## History
 Garsdale was part of West Yorkshire until 1974 when it was transferred to Cumbria.
