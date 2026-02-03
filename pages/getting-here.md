@@ -21,11 +21,13 @@ Sat nav postcode: **LA10 5PQ** for The Old Cart House.
 
 From Manchester 1Hour 45 minutes
 
-### From the M6
+### From the M6 and from the A1
 
 Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre following signs for Kirkby Stephen. 500 metres out of Sedbergh take a right (A684) towards Garsdale/Hawes. 5.5 miles and we're on the right, about 300 yards east of St James's Church.
 
-*Add other directions if you can write them accurately - from the A1, Leeds, Manchester, etc. Only include routes you're confident about.*
+Travelling by car from the A1, take the Leeming interchange to the A 684 to Bedale following for Leyburn, Aysgath, Hawes to Garsdale. You will see a sign welcoming you to Garsdale, approx half a mile on the left side, opposite the river is The Old Cart House and Roger Pot is a little further, after the village hall and just after the bridge on the right side is the entrance to the lane leading to Roger Pot.
+
+
 
 ### The Final Approach
 Travelling to Garsdale from the Sedbergh direction you will pass Blades Farm on  your left, this has a small certified campsite,a little further on you will see the Garsdale village sign by the bridge. The lane to Roger Pot is here, through the gate. To continue to the Old Cart House ,pass over the bridge and along past the village hall. You will then go around a sharp bend with a farm on the right hand side, pass the church , the letter  box and there is a row of houses on the right side of the road, opposite the river, and the Old Cart House is there.
