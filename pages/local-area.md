@@ -39,7 +39,7 @@ https://where2walk.co.uk/walk/hidden-semer-water-walk/
 ## Places We Go
 
 
-*The pubs, cafes, shops, and spots you'd actually recommend. Write about them because you know them - not because they're on a list somewhere.*
+
 
 ## Food and Drink
 There are a number of good eating places in and around Sedbergh but some that we use more often are:
@@ -54,7 +54,7 @@ The White Hare cafe in Kirkby Stephen also has an acoustic night once a month.
 Half and Half in Sedbergh has a variety of events and a music night once a month.
 
 
-*Where do you eat and drink? Any favourites?*
+
 
 ## Day Trips
 Some favourite places of ours to visit with friends and family:
@@ -69,27 +69,27 @@ https://www.zeffirellis.com/film
 We also enjoy travelling over the Buttertubs pass from Hawes to Thwaite, this is a very high wild road with fantastic views of the hills and valleys. From Thwaite we would go to Muker which is beside the river Swale and there are some beautiful walks from the village. There are also some lovely cafes for lunch.
 
 
-*Anywhere you go for a day out that you'd recommend? Only include places you've actually been.*
+
 
 ## Practical Information
 
-*The stuff visitors need:*
 
-*Shops - where's the nearest? What can you get locally?*
+
+
 The nearest shops are Sedbergh and the Spar shop and Powells have most groceries you would need. There is a chemist in Sedbergh and also in Hawes. The post office in Sedbergh is in the Spar shop.
 There are also carft shops, cafes and pubs and a couple of book shops.
 
-Hawes is a little further but has a Spar shop, bakery , butchers and a range of clothing, books, antiques and crafts shops as well as cafes and pubs.There is a post office in Hawes.
+Hawes is a little further but has a Spar shop, bakery , butchers and a range of clothing, books, antiques and crafts shops as well as cafes and pubs.There is a post office in Hawes and a market on Tuesday morning each week.
 
-*Petrol - where?*
-There are two garages in Sedbergh both selling petrol and one garage in Hawes,
 
-*Cash - needed? Where from?*
-There is a cash machine in Sedbergh at the Spar shop and another in the village close to Powells fruit and veg shop.
+There are two garages in Sedbergh both selling petrol and one garage in Hawes. There are EV chargin points in the car parks in Sedbergh and also Gayle Lance car park in Hawes.
 
-*Phone signal - honest assessment?* The phone signal is good and the internet connection is good
 
-*Medical - nearest doctor, pharmacy, hospital?* 
+There is a cash machine in Sedbergh at the Spar shop and another in the village close to Powells fruit and veg shop.There is also a cash machine in Hawes close to the Cafe Curva.
+
+The phone signal is good and the internet connection is good
+
+
 The local GP is Sedbergh Medical Centre, next  to Spar in Sedbergh- phone 01539 718191
 
 The nearest hospital is Westmorland General, Burton Road, Kendal LA9 7RG. This is for urgent but not life threatening treatment and is open every day between 8am and 10pm.
@@ -97,7 +97,7 @@ The nearest hospital is Westmorland General, Burton Road, Kendal LA9 7RG. This i
 The nearest A and E is Lancaster Royal Infirmary which is open 24 hours
 Ashton Road, Lancaster, Lancashire, LA1 4RP        01524 65944
 
-*Write what you know.*
+
 
 ## Links
 
@@ -109,4 +109,4 @@ https://www.sedbergh.org.uk/events/
 
 https://www.visitcumbria.com/whats-on/
 
-*If there are good external websites about the area, link to them. It's fine to let other sites be comprehensive.*
+
