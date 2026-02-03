@@ -44,8 +44,11 @@ The river attracts herons, dippers, mallards , goosander and if we are very luck
 
 
 ### Walking and Outdoor Activities
+Garsdale is ideal for walking, cycling and hiking. There are numerous footpaths and walking routes , such as the Pennine Bridleway and the Dales way, as well as local footpaths in the area and across the fells.
+https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm
+https://www.gps-routes.co.uk/routes/home.nsf/RoutesLinksWalks/garsdale-walking-route
+www.gps-routes.co.uk/routes/home.nsf/osmapdisp?readform&route=garsdale-walking-route
 
-*Details about walking opportunities go here - Pennine Bridleway, Dales Way, open access land*
 
 ### The Settle-Carlisle Railway
 The Settle Carlisle is one of the most scenic railway journes and passes through Garsdale Station along with places such as Appleby, Kirkby Stephen,Dent ,Ribblehead viaduct and Skipton .
