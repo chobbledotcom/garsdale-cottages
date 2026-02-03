@@ -13,7 +13,7 @@ eleventyNavigation:
 
 ## General Enquiries
 
-*Contact details for general enquiries go here*
+
 Hi and thanks for looking at The Old Cart House. For futher enquiries, information about booking your stay with us please contact Jack or Loraine at lorainebutterworth@hotmail.com or phone Loraine on 07905 637690
 
 ## Booking Enquiries
@@ -22,13 +22,11 @@ Hi and thanks for looking at The Old Cart House. For futher enquiries, informati
 To book your stay at The Old Cart House please go to freetobook.com
 
 ## Property Owners
-
-*Information for property owners interested in joining the cooperative goes here*
 If you are interested in joining Garsdale Cottages cooperative please contact Jack or Loraine at jackbutterworth@hotmail.com or phone Jack on 07982235493
 
 ## For Guests
 
-*Information for current guests needing assistance goes here*
+
 Just a little bit of information that may be useful to you.
 The local GP is Sedbergh Medical Centre, next  to Spar in Sedbergh- phone 01539 718191 alternatively you can call 111 for medical advice.
 
