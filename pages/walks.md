@@ -20,22 +20,17 @@ eleventyNavigation:
 A pleasant walk is to Hardraw force in Hardraw, the walk begins behind the Green Dragon and there is a small charge to enter the waterfall walk. 
 Travelling towards Hawes there is a parking area for a short walk to Cotter force, which has a good flat pathway beside the river leading to the water falls.
 A longer waterfall walk is to Cautley Spout in Cautley. This walk starts by the Cross Keys Temperance pub and the path crossing the river.
+For a walk from Garsdale village, follow the bridleway beside Dandra Garth through the woods and gate and this will take you to the pathway which , eventually would lead to Cowgill, Dent. The ground can be boggy if it has been raining so caution is needed and good boots , but the views from here are fantastic.
+Another walk is following the pathway behind the old Moorcock pub, now tearooms. Once you have crossed the bridge follow the path up the hillside and at the top is the Pennine bridleway, take left to head in the Kirkby Stephen direction and right is in the Cotter force direction. Both are great walks with lovely scenery and often grouse can be heard , and sometimes seen, in the heather.
 
-*List walks you've actually done. You don't need many - three or four genuine recommendations beat a long list of things you've researched.*
 
-*For each one, write what you know:*
-- *What's it like?*
-- *How long/hard?*
-- *Who would enjoy it?*
-- *Any tips?*
 
-*If you know good external links for route details, include them.*
+*
 
 ## From the Doorstep
 There are a number of marked footpaths in Garsdale so guests can take a walk directly from the cottage without needing their car. For the adventurous , there is a pathway across the moors to Dent, this would start following the pathway by Dandra Garth.
-There are also walks around nearby  Grisedale and behind the old Moorcock pub there is a pathway leading tot he Pennine Bridleway with walks in the direction of Kirkby Stephen and the opposite direction towards Cotter force.
+There are also walks around nearby  Grisedale and behind the old Moorcock pub there is a pathway leading to the Pennine Bridleway with walks in the direction of Kirkby Stephen and the opposite direction towards Cotter force.
 
-*Can guests walk straight from the cottages? Where do the paths lead? What can they do without getting in a car?*
 
 ## Practical Stuff
 
@@ -49,7 +44,7 @@ There's no street lighting, so in winter it gets dark early. Bring a torch.
 
 Try to walk on the right hand side of the road that way you can see on-comming vehicles and they can see you.
 
-*Add anything else you know from experience - weather, terrain, navigation, phone signal, etc. Only write what you actually know.*
+
 
 ## Guided Walks
 
@@ -65,10 +60,10 @@ http://brians-walks.co.uk/pennine-way-transport.html
 
 ## Useful Links
 
-*Link to external walking resources you'd recommend. Let other websites provide comprehensive route guides - your job is to point people in the right direction.*
 
 - [Walking in the Yorkshire Dales](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm)
 - [Dales Way](https://www.dalesway.org/route.html)
 - https://where2walk.co.uk/walk/hidden-semer-water-walk/
+- https://benthamfootpathgroup.co.uk/grisedale-and-garsdale/
 
-*Add any others you find useful.*
+
