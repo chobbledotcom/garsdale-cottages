@@ -53,7 +53,7 @@ https://www.taxi-register.com/North_Yorkshire/Hawes/
 
 The Old Cart House has an EV charger. Guests should discuss their needs with the owners.
 
-*Add info about Roger Pot if relevant.*
+
 
 ## Before You Arrive
 As the closest shops are about 6 miles away in Sedbergh, we would suggest bringing groceries for the first day or two. A welcome basket is provided for guests with some regional produce etc.
@@ -62,4 +62,4 @@ As the closest shops are about 6 miles away in Sedbergh, we would suggest bringi
 ## Contact Us
 Please contact via our mobile numbers if you have any difficulties and we will assist as we can.
 
-*If people get lost or need help, how should they reach you?*
+
