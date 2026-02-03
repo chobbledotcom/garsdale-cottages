@@ -19,7 +19,7 @@ Sat nav postcode: **LA10 5PQ** for The Old Cart House and Roger Pot.
 
 ### Driving Times
 
-From Manchester 1Hour 45 minutes
+From Manchester 1 Hour 45 minutes
 
 ### From the M6 and from the A1
 
