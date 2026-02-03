@@ -35,7 +35,7 @@ The nearest hospital is Westmorland General, Burton Road, Kendal LA9 7RG. This i
 The nearest A and E is Lancaster Royal Infirmary which is open 24 hours
 Ashton Road, Lancaster, Lancashire, LA1 4RP        01524 65944
 
-The property is not on mains water and sewage and  has a septic tank/ water treatment plant . It is very important that nothing is flushed down the toilet except for pee, pooh and toilet paper, anything else can block the system and cause a problem. All sanitary towels, tampons, nappies etc must be put into the dustbin and no wet wipes can be flushed down the toilet as they will cause a blockage.
+The properties are not on mains water and sewage and  has a septic tank/ water treatment plant . It is very important that nothing is flushed down the toilet except for pee, pooh and toilet paper, anything else can block the system and cause a problem. All sanitary towels, tampons, nappies etc must be put into the dustbin and no wet wipes can be flushed down the toilet as they will cause a blockage.
 
 The water is regularly tested and is safe to drink but can sometimes be a little discoloured as there is a lot of peat in the area, you may prefer to boil the water.  There is bottled water available if you prefer to drink this.
 
