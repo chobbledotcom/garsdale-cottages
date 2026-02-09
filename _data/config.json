@@ -12,5 +12,11 @@
 		"item_list_aspect_ratio": "4/3"
 	},
 	"timezone": "Europe/London",
-	"reviews_truncate_limit": 10
+	"reviews_truncate_limit": 10,
+	"search_collections": [
+		"pages",
+		"guide-categories",
+		"guide-pages",
+		"properties"
+	]
 }
