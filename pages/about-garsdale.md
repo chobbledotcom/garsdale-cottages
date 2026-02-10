@@ -95,4 +95,4 @@ Travelling by car from the M6, take junction 37 for Sedbergh on the A684 , stay 
 Photograph credits:
 https://www.geograph.org.uk/photo/418133
 https://co-curate.ncl.ac.uk/resources/view/118505/
-facebook
+
