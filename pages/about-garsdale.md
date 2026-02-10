@@ -92,4 +92,6 @@ Garsdale Station is on the Settle to Carlisle train line and there are regular t
 Travelling by car from the A1, take the Leeming interchange to the A 684 to Bedale following for Leyburn, Aysgath, Hawes to Garsdale. You will see a sign welcoming you to Garsdale, approx half a mile on the left side, opposite the river is The Old Cart House and Roger Pot is a little further, after the village hall and just after the bridge on the right side is the entrance to the lane leading to Roger Pot.
 Travelling by car from the M6, take junction 37 for Sedbergh on the A684 , stay on the A684 to Hawes/Northallerton direction, pass Farfield Mill and travel approximately 5 miles to Garsdale. Roger Pot is to the left just before the bridge with a sign for Garsdale and The Old Cart House is a little further on past St Johns church on the left and  the post box and is on the right side of the road opposite the river Clough.
 
-
+Photograph credits:
+https://www.geograph.org.uk/photo/418133
+https://co-curate.ncl.ac.uk/resources/view/118505/
