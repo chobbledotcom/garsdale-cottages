@@ -1,87 +1,115 @@
-import { chromium } from "playwright";
-import { path, fs, bun } from "./utils.js";
-import { prep } from "./prepare-dev.js";
-import { spawn } from "node:child_process";
+import { cpSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+import { setupTemplate } from "./template-utils.js";
+import { bun, fs, path } from "./utils.js";
 
-const screenshotsDir = path("screenshots");
-const siteDir = path("_site");
+const USAGE = `
+Usage: bun run screenshot [options] [page-paths...]
 
-// Parse command line arguments
-const args = process.argv.slice(2);
-const pagesToCapture = args.length > 0 ? args : ["/"];
+Take screenshots of your site pages.
 
-async function startServer() {
-  // Build the site first
+Options:
+  -v, --viewport <name>   Viewport to use: mobile, tablet, desktop, full-page (default: desktop)
+  -a, --all-viewports     Capture all viewport variants for each page
+  -d, --output-dir <dir>  Output directory (default: ./screenshots)
+  -h, --help              Show this help message
+
+Examples:
+  bun run screenshot                           # Screenshot homepage at desktop viewport
+  bun run screenshot /about /contact           # Screenshot multiple pages
+  bun run screenshot -a /                      # Screenshot homepage at all viewports
+  bun run screenshot -v mobile /products       # Screenshot products page at mobile viewport
+  bun run screenshot -d ./my-screenshots /     # Save to custom directory
+
+Page paths should start with / (e.g., /, /about, /products/item-1)
+`;
+
+const buildSite = (tempDir) => {
   console.log("Building site...");
-  prep();
-  fs.rm(siteDir);
-  const devDir = path(".build", "dev");
-  bun.run("build", devDir);
-  const { join } = await import("node:path");
-  fs.mv(join(devDir, "_site"), siteDir);
+  const result = bun.run("build", tempDir);
+  if (result.exitCode !== 0) {
+    throw new Error("Failed to build site");
+  }
+  console.log("Build complete.");
+};
 
-  // Start a simple HTTP server
-  console.log("Starting server...");
-  const server = Bun.serve({
-    port: 3456,
-    fetch(req) {
-      const url = new URL(req.url);
-      let filepath = url.pathname;
-      if (filepath === "/" || filepath.endsWith("/")) {
-        filepath = filepath + "index.html";
-      }
-      const file = Bun.file(path("_site", filepath.slice(1)));
-      return new Response(file);
-    },
-  });
-  return server;
-}
+const runScreenshots = async (tempDir, args) => {
+  const siteDir = join(tempDir, "_site");
+  const tempOutputDir = join(tempDir, "screenshots");
 
-async function takeScreenshots(pages) {
-  const browser = await chromium.launch({
-    headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-  });
-
-  fs.mkdir(screenshotsDir);
-
-  for (const pagePath of pages) {
-    const page = await browser.newPage();
-    await page.setViewportSize({ width: 1280, height: 800 });
-
-    const url = `http://localhost:3456${pagePath}`;
-    console.log(`Capturing ${url}...`);
-
-    try {
-      await page.goto(url, { waitUntil: "networkidle", timeout: 30000 });
-
-      // Generate filename from path
-      const filename =
-        pagePath === "/" ? "homepage" : pagePath.replace(/\//g, "-").replace(/^-|-$/g, "");
-      const screenshotPath = path("screenshots", `${filename}.png`);
-
-      // Take full page screenshot
-      await page.screenshot({ path: screenshotPath, fullPage: true });
-      console.log(`Saved: ${screenshotPath}`);
-    } catch (err) {
-      console.error(`Failed to capture ${pagePath}: ${err.message}`);
-    }
-
-    await page.close();
+  // Determine final output directory
+  let finalOutputDir = path("screenshots");
+  const outputIdx = args.findIndex((a) => a === "-d" || a === "--output-dir");
+  if (outputIdx !== -1 && args[outputIdx + 1]) {
+    const outputPath = args[outputIdx + 1];
+    finalOutputDir = outputPath.startsWith("/") ? outputPath : path(outputPath);
   }
 
-  await browser.close();
-}
+  // Build args for template's screenshot script (using relative path within temp dir)
+  const scriptArgs = ["-s", siteDir, "-d", "screenshots"];
 
-async function main() {
-  const server = await startServer();
+  // Pass through relevant args
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    if (arg === "-d" || arg === "--output-dir") {
+      i++; // Skip, already handled
+    } else if (arg === "-v" || arg === "--viewport") {
+      scriptArgs.push("-v", args[++i]);
+    } else if (arg === "-a" || arg === "--all-viewports") {
+      scriptArgs.push("-a");
+    } else if (arg.startsWith("/")) {
+      scriptArgs.push(arg);
+    }
+  }
+
+  // Default to homepage if no pages specified
+  const hasPages = args.some((a) => a.startsWith("/"));
+  if (!hasPages) {
+    scriptArgs.push("/");
+  }
+
+  console.log("Taking screenshots...");
+  const proc = Bun.spawn(["bun", "scripts/screenshot.js", ...scriptArgs], {
+    cwd: tempDir,
+    stdio: ["inherit", "inherit", "inherit"],
+  });
+
+  const code = await proc.exited;
+  if (code !== 0) {
+    throw new Error(`Screenshot process exited with code ${code}`);
+  }
+
+  // Copy screenshots to final output directory
+  fs.mkdir(finalOutputDir);
+  const files = readdirSync(tempOutputDir);
+  for (const file of files) {
+    cpSync(join(tempOutputDir, file), join(finalOutputDir, file));
+  }
+  console.log(`Screenshots saved to ${finalOutputDir}`);
+};
+
+const main = async () => {
+  const args = process.argv.slice(2);
+
+  if (args.includes("-h") || args.includes("--help")) {
+    console.log(USAGE);
+    return;
+  }
+
+  console.log("Setting up template environment...");
+  const { tempDir, cleanup } = await setupTemplate();
 
   try {
-    await takeScreenshots(pagesToCapture);
+    buildSite(tempDir);
+    await runScreenshots(tempDir, args);
   } finally {
-    server.stop();
-    console.log("Done!");
+    cleanup();
   }
-}
 
-main().catch(console.error);
+  console.log("Done!");
+};
+
+main().catch((err) => {
+  console.error("Error:", err.message);
+  process.exit(1);
+});

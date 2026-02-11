@@ -12,13 +12,21 @@
 		"sync-files": "bun scripts/sync-files.js",
 		"watch": "bun scripts/watch.js",
 		"update-pages": "bun scripts/update-pages.js",
+		"update-scripts": "bun scripts/update-scripts.js",
 		"fetch-google-reviews": "bun scripts/fetch-google-reviews.js",
 		"screenshot": "bun scripts/screenshot.js",
 		"clean": "rm -rf .build _site",
-		"test": "bun scripts/test.js"
+		"test": "bun scripts/test.js",
+		"precommit": "bun scripts/precommit.js",
+		"lint": "bunx @biomejs/biome check --config-path=biome.json --error-on-warnings scripts/",
+		"lint:fix": "bunx @biomejs/biome check --config-path=biome.json --write scripts/",
+		"cpd": "bunx jscpd"
 	},
-	"dependencies": {
-		"playwright": "^1.57.0",
-		"puppeteer-core": "^24.35.0"
+	"imports": {
+		"#fp": "@chobble/js-toolkit/fp",
+		"#fp/*": "@chobble/js-toolkit/fp/*"
+	},
+	"devDependencies": {
+		"@chobble/js-toolkit": "file:./chobble-template/packages/js-toolkit"
 	}
 }

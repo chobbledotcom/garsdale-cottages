@@ -20,6 +20,7 @@
               "sync-files"
               "watch"
               "update-pages"
+              "update-scripts"
               "fetch-google-reviews"
               "clean"
               "test"
@@ -41,15 +42,16 @@
               cat <<EOF
 
               Available commands:
-               serve               - Start development server
-               build               - Build the project
-               prepare-dev         - Prepare development environment
-               sync-files          - Synchronize files
-               watch               - Watch for changes
-               update-pages        - Update pages
+               serve                - Start development server
+               build                - Build the project
+               prepare-dev          - Prepare development environment
+               sync-files           - Synchronize files
+               watch                - Watch for changes
+               update-pages         - Update pages
+               update-scripts       - Update chobble-client scripts
                fetch-google-reviews - Fetch Google Maps reviews
-               clean               - Clean build directory
-               test                - Run tests
+               clean                - Clean build directory
+               test                 - Run tests
 
               EOF
               git pull

@@ -1,9 +1,7 @@
 import { join } from "node:path";
-import { mkdtempSync } from "node:fs";
-import { tmpdir } from "node:os";
-import { fs, git, bun, read, write, exists, path } from "./utils.js";
+import { setupTemplate } from "./template-utils.js";
+import { bun, exists, fs, path, read, write } from "./utils.js";
 
-const TEMPLATE_REPO = "https://github.com/chobbledotcom/chobble-template.git";
 const TEMPLATE_RAW_URL =
   "https://raw.githubusercontent.com/chobbledotcom/chobble-template/refs/heads/main/.pages.yml";
 
@@ -18,57 +16,61 @@ const fetchPages = async () => {
 };
 
 const customisePages = async () => {
-  const tempDir = mkdtempSync(join(tmpdir(), "chobble-template-"));
+  const { tempDir, cleanup } = await setupTemplate({ mergeSite: false });
 
-  console.log("Cloning chobble-template...");
-  const clone = git.clone(TEMPLATE_REPO, tempDir);
-  if (clone.exitCode !== 0) throw new Error("Failed to clone chobble-template");
+  try {
+    // Remove template's page-layouts to avoid interference with customisation
+    // (but keep an empty directory so pageLayouts.js doesn't fail)
+    const templatePageLayouts = join(tempDir, "src", "_data", "page-layouts");
+    fs.rm(templatePageLayouts);
+    fs.mkdir(templatePageLayouts);
 
-  console.log("Installing dependencies...");
-  const install = bun.install(tempDir);
-  if (install.exitCode !== 0) {
-    fs.rm(tempDir);
-    throw new Error("Failed to install dependencies");
+    // Copy local site.json and .pages.yml to the template so customise-cms uses them as defaults
+    const localSiteJson = path("_data", "site.json");
+    const localPagesYml = path(".pages.yml");
+    const templateSiteJson = join(tempDir, "src", "_data", "site.json");
+    const templatePagesYml = join(tempDir, ".pages.yml");
+
+    if (await exists(localSiteJson)) {
+      console.log("Copying local site.json to template...");
+      await write(templateSiteJson, await read(localSiteJson));
+    }
+    if (await exists(localPagesYml)) {
+      console.log("Copying local .pages.yml to template...");
+      // Add src/ prefix back when copying to template
+      await write(
+        templatePagesYml,
+        (await read(localPagesYml)).replace(
+          /^(\s+folder:\s*)(?!src\/)/gm,
+          "$1src/",
+        ),
+      );
+    }
+
+    console.log("\nStarting CMS customisation TUI...\n");
+
+    const proc = bun.spawn("customise-cms", tempDir);
+    const code = await proc.exited;
+
+    if (code !== 0) {
+      throw new Error(`customise-cms exited with code ${code}`);
+    }
+
+    if (!(await exists(templatePagesYml))) {
+      throw new Error("No .pages.yml found after customisation");
+    }
+
+    // Copy amended files back
+    await write(
+      ".pages.yml",
+      (await read(templatePagesYml)).replace(/src\//g, ""),
+    );
+    await write(localSiteJson, await read(templateSiteJson));
+
+    console.log("Updated .pages.yml and site.json with your customisations");
+  } finally {
+    cleanup();
   }
-
-  // Copy local site.json and .pages.yml to the template so customise-cms uses them as defaults
-  const localSiteJson = path("_data", "site.json");
-  const localPagesYml = path(".pages.yml");
-  const templateSiteJson = join(tempDir, "src", "_data", "site.json");
-  const templatePagesYml = join(tempDir, ".pages.yml");
-
-  if (await exists(localSiteJson)) {
-    console.log("Copying local site.json to template...");
-    await write(templateSiteJson, await read(localSiteJson));
-  }
-  if (await exists(localPagesYml)) {
-    console.log("Copying local .pages.yml to template...");
-    // Add src/ prefix back when copying to template
-    await write(templatePagesYml, (await read(localPagesYml)).replace(/^(\s+folder:\s*)(?!src\/)/gm, "$1src/"));
-  }
-
-  console.log("\nStarting CMS customisation TUI...\n");
-
-  const proc = bun.spawn("customise-cms", tempDir);
-  const code = await proc.exited;
-
-  if (code !== 0) {
-    fs.rm(tempDir);
-    throw new Error(`customise-cms exited with code ${code}`);
-  }
-
-  if (!(await exists(templatePagesYml))) {
-    fs.rm(tempDir);
-    throw new Error("No .pages.yml found after customisation");
-  }
-
-  // Copy amended files back
-  await write(".pages.yml", (await read(templatePagesYml)).replace(/src\//g, ""));
-  await write(localSiteJson, await read(templateSiteJson));
-
-  console.log("\nCleaning up...");
-  fs.rm(tempDir);
-  console.log("Updated .pages.yml and site.json with your customisations");
 };
 
 const updatePages = async ({ customise = false } = {}) =>
