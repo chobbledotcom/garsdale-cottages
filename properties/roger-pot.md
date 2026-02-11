@@ -7,6 +7,8 @@ featured: false
 bedrooms: 3
 bathrooms: 2
 sleeps: 6
+freetobook_id: "56260"
+freetobook_token: "5IWTgrO9GsqetF0H2oPAJlv6xrxYrP4ADqVWy22spAQzG9KIDMXwrLXBPpQpm"
 features:
   - Off road parking
   - Wood burning stove in lounge
@@ -76,6 +78,7 @@ order: 0
 locations:
   - locations/garsdale.md
 ---
+
 Sedbergh 6.3 miles. Hawes 10 miles.
 
 Boasting incredible countryside views, Roger Pot is a fantastic isolated stone-built property with ample off-road parking and an attached garden, nestled into the rural hamlet of Garsdale near Sedbergh; the property is ideal for friends or families looking to explore Cumbria.
@@ -106,12 +109,12 @@ For a day at the coast visit Arnside and Silverdale Area of Outstanding Natural 
 
 All of this and so much more with a stay at the charming Roger Pot.
 
-## Touch Stay property Guide 
+## Touch Stay property Guide
 
 - The following 'At a Glance' profile provides a brief outline of the property and its local amenities. This information and fuller detailed information can be found by reviewing and/or uploading the properties Touch Stay App on https://guide.touchstay.com/guest/bGZFYR05qutsz/info/898565#1991624. This guide provides great information on finding us, contact details, accommodation including appliance instuctions, local area guide/shops, wifi and great walk suggestions. Simply review on your computer or more conveniently add the app to your phone and any of your guests (simple instructions are included on the site)
 
 ## At a glance
-  
+
 - Three bedrooms: 1 x super-size with TV and en-suite walk-in shower, basin and WC, 1 x double, 1 x twin (which
   can be set up as super-king-size on request, please let the owner know your preference in advance)
 - Bathroom with bath, shower over, basin, heated towel rail and WC
@@ -130,7 +133,7 @@ All of this and so much more with a stay at the charming Roger Pot.
 - Sorry, no smoking within the house
 - Shop Sedbergh 6.7 miles, pub 6.3 miles, river 0.1 miles
 - Access - the property is accessed via a 400m rural farm track with 2 (sometimes 3) gates to open due to owners
-  horses. 
+  horses.
 - The track is steep and uneven in parts due to necessary drainage channels. It's entirely navigable with a
   normal car but very low profile car owners may prefer to leave their cars on the road
 - As the track is single width, we run a simple texting system with guests to ensure we know when either party
