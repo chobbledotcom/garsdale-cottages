@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 
 import { join } from "node:path";
-import { path, exists, readJson, write, fs, loadEnv } from "./utils.js";
+import { exists, fs, loadEnv, path, readJson, write } from "./utils.js";
 
 await loadEnv();
 
@@ -30,7 +30,9 @@ const fetchReviews = async (placeId, opts = {}) => {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      startUrls: [{ url: `https://www.google.com/maps/place/?q=place_id:${placeId}` }],
+      startUrls: [
+        { url: `https://www.google.com/maps/place/?q=place_id:${placeId}` },
+      ],
       maxReviews: opts.maxReviews || CONFIG.maxReviews,
       reviewsSort: opts.sort || "newest",
       language: opts.language || "en",
@@ -60,14 +62,17 @@ const saveReview = async (review, dir) => {
 
   if (await exists(filepath)) return false;
 
-  await write(filepath, `---
+  await write(
+    filepath,
+    `---
 name: ${review.author}
 url: ${review.authorUrl}
 rating: ${review.rating}
 ---
 
 ${review.content}
-`);
+`,
+  );
 
   console.log(`${filename} (${review.rating}/5 stars)`);
   return true;
@@ -96,11 +101,13 @@ const main = async () => {
   const reviews = await fetchReviews(siteConfig.google_place_id);
   console.log(`Found ${reviews.length} reviews`);
 
-  const saved = (await Promise.all(
-    reviews.map((r) => saveReview(r, CONFIG.reviewsDir))
-  )).filter(Boolean).length;
+  const saved = (
+    await Promise.all(reviews.map((r) => saveReview(r, CONFIG.reviewsDir)))
+  ).filter(Boolean).length;
 
-  console.log(`\nSaved ${saved} new reviews (${reviews.length - saved} already existed)`);
+  console.log(
+    `\nSaved ${saved} new reviews (${reviews.length - saved} already existed)`,
+  );
 };
 
 if (import.meta.main) {
