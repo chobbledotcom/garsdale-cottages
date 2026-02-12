@@ -43,7 +43,9 @@ blocks:
 
       [Sedbergh Red Squirrels](https://sedberghredsquirrels.org.uk/)
     figure_type: image
-    figure_content: /images/wildlife/red-squirrel-2.jpeg
+    figure_content:
+      src: /images/wildlife/red-squirrel-2.jpeg
+      alt: Red squirrel
 
   - type: split
     content: |
@@ -53,7 +55,9 @@ blocks:
 
       The hedgerows have an abundance of fruit in the summer, with raspberries and blackberries, but also sloes and hazelnuts as autumn arrives.
     figure_type: image
-    figure_content: /images/wildlife/robin.jpeg
+    figure_content:
+      src: /images/wildlife/robin.jpeg
+      alt: Robin on a branch
     reverse: true
 
   - type: section-header

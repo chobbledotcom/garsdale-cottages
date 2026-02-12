@@ -55,7 +55,9 @@ blocks:
 
       There are also walks around nearby Grisedale and behind the old Moorcock pub there is a pathway leading to the Pennine Bridleway with walks in the direction of Kirkby Stephen and the opposite direction towards Cotter Force.
     figure_type: image
-    figure_content: /images/scenery/moon-over-langstone-fell.jpeg
+    figure_content:
+      src: /images/scenery/moon-over-langstone-fell.jpeg
+      alt: View over Langstone Fell
 
   - type: section-header
     title: Long Distance Paths
@@ -67,10 +69,10 @@ blocks:
       - icon: hugeicons:route-01
         title: Coast to Coast
         description: "For those who like a challenge, the Coast to Coast walk passes through Kirkby Stephen. A short drive from The Old Cart House would allow you, at least, a sample trek along this iconic path."
-      - icon: hugeicons:mountain-01
+      - icon: hugeicons:mountain
         title: The Pennine Way
         description: "The Pennine Way passes through Hawes, Muker and Keld which, all, in their own way are well worth a visit. A 15 minute drive to Hawes."
-      - icon: hugeicons:path-tool
+      - icon: hugeicons:path
         title: The Dales Way
         description: "A long distance footpath running from Ilkley to Bowness-on-Windermere, passing through the heart of the Yorkshire Dales."
 
@@ -81,13 +83,13 @@ blocks:
 
   - type: features
     items:
-      - icon: hugeicons:map-01
+      - icon: hugeicons:map-pin
         title: Plan Ahead
         description: "Best to plan your route in advance. Carry water, food, and a map. Make sure your phone is charged. If walking alone, tell someone your plans."
-      - icon: hugeicons:jacket
+      - icon: hugeicons:t-shirt
         title: Dress for the Weather
         description: "Good walking shoes, a stick if you use one, and layers for changeable weather."
-      - icon: hugeicons:dog
+      - icon: hugeicons:alert-circle
         title: Livestock
         description: "Garsdale and the surrounding area is sheep farming country - dogs must be kept on leads and gates closed."
       - icon: hugeicons:flashlight
