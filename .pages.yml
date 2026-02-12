@@ -16,20 +16,17 @@ content:
     subfolders: false
     view:
       fields:
-        - permalink
         - meta_title
       primary: meta_title
       sort:
         - meta_title
     exclude:
-      - about.md
-      - chobble-template.md
-      - services.md
       - contact.md
-      - things-to-do.md
-      - cottages.md
       - walks.md
       - getting-here.md
+      - things-to-do.md
+      - cottages.md
+      - about.md
     fields:
       - { name: subtitle, type: string, label: Subtitle }
       - { name: body, type: rich-text, label: Body }
@@ -45,16 +42,6 @@ content:
           - { name: key, type: string }
           - { name: order, type: number }
       - { name: layout, type: string }
-      - { name: no_index, type: boolean, label: Hide from listings }
-      - name: videos
-        label: Videos
-        type: object
-        list: true
-        fields:
-          - { name: id, type: string, label: YouTube Video ID, required: true }
-          - { name: title, type: string, label: Title, required: true }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
       - name: faqs
         label: FAQs
         type: object
@@ -67,237 +54,15 @@ content:
         label: Gallery
         options:
           multiple: true
-  - name: products
-    label: Products
-    path: products
-    type: collection
-    subfolders: false
-    fields:
-      - { name: title, type: string, label: Title }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: thumbnail, type: image, label: Thumbnail }
-      - { name: order, type: number, label: Order }
-      - name: categories
-        label: Categories
-        type: reference
-        options:
-          collection: categories
-          multiple: true
-          search: title
-          value: "{path}"
-          label: "{title}"
-      - name: events
-        label: Events
-        type: reference
-        options:
-          collection: events
-          multiple: true
-          search: title
-          value: "{path}"
-          label: "{title}"
-      - name: options
-        label: Product Options
-        type: object
-        list: true
-        fields:
-          - { name: name, type: string, label: Option Name, required: true }
-          - name: max_quantity
-            type: number
-            label: Max Quantity
-            default: 10
-          - name: unit_price
-            type: number
-            label: Unit Price (£)
-            required: true
-          - { name: days, type: number, label: Days (for hire products) }
-      - { name: features, type: string, label: Features, list: true }
-      - { name: keywords, type: string, label: Search Keywords, list: true }
-      - name: filter_attributes
-        label: Filter Attributes
-        type: object
-        list: true
-        fields:
-          - { name: name, type: string, label: Name, required: true }
-          - { name: value, type: string, label: Value, required: true }
-      - { name: body, type: rich-text, label: Body }
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
-      - name: specs
-        label: Specifications
-        type: object
-        list: true
-        fields:
-          - { name: name, type: string, label: Name, required: true }
-          - { name: value, type: string, label: Value, required: true }
-      - name: add_ons
-        label: Add-ons
-        type: object
-        fields:
-          - { name: intro, type: rich-text, label: Intro }
-          - name: options
-            label: Add-on Options
-            type: object
-            list: true
-            fields:
-              - { name: name, type: string, label: Name, required: true }
-              - { name: price, type: number, label: Price, required: true }
-      - name: tabs
-        label: Tabs
-        type: object
-        list: true
-        fields:
-          - { name: title, type: string, label: Title, required: true }
-          - { name: image, type: image, label: Image }
-          - { name: body, type: rich-text, label: Body, required: true }
-  - name: categories
-    label: Categories
-    path: categories
+  - name: snippets
+    label: Snippets
+    path: snippets
     type: collection
     subfolders: false
     filename: "{primary}.md"
     fields:
-      - { name: title, type: string, label: Title }
-      - { name: thumbnail, type: image, label: Thumbnail }
-      - name: parent
-        label: Parent Category
-        type: reference
-        options:
-          collection: categories
-          multiple: false
-          search: title
-          value: "{path}"
-          label: "{title}"
+      - { name: name, type: string, label: Name }
       - { name: body, type: rich-text, label: Body }
-      - { name: featured, type: boolean, label: Featured }
-      - { name: keywords, type: string, label: Search Keywords, list: true }
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
-  - name: news
-    label: News
-    path: news
-    type: collection
-    subfolders: false
-    fields:
-      - { name: title, type: string, label: Title }
-      - { name: date, label: Date, type: date }
-      - name: author
-        label: Author
-        type: reference
-        options:
-          collection: team
-          multiple: false
-          search: title
-          value: "{path}"
-          label: "{title}"
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: body, type: rich-text, label: Body }
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - { name: no_index, type: boolean, label: Hide from listings }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
-  - name: events
-    label: Events
-    path: events
-    type: collection
-    subfolders: false
-    filename: "{primary}.md"
-    view:
-      fields:
-        - thumbnail
-        - title
-        - event_date
-        - recurring_date
-        - event_location
-      primary: title
-      sort:
-        - title
-    fields:
-      - { name: title, type: string, label: Title }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: thumbnail, type: image, label: Thumbnail }
-      - { name: order, type: number, label: Order }
-      - { name: featured, type: boolean, label: Featured }
-      - { name: event_date, label: Event Date, type: date, required: false }
-      - name: recurring_date
-        type: string
-        label: Recurring Date (e.g. "Every Friday at 2 PM")
-        required: false
-      - { name: event_location, type: string, label: Event Location }
-      - name: map_embed_src
-        type: string
-        label: Map Embed URL
-        required: false
-      - { name: body, type: rich-text, label: Body }
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
   - name: team
     label: Team
     path: team
@@ -310,8 +75,6 @@ content:
       - { name: snippet, type: string, label: Role }
       - { name: image, type: image, label: Profile Image }
       - { name: body, type: rich-text, label: Biography }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
       - name: faqs
         label: FAQs
         type: object
@@ -335,17 +98,6 @@ content:
       - { name: rating, type: number, label: Rating }
       - { name: thumbnail, type: image, label: Reviewer Photo }
       - { name: body, type: rich-text, label: Body }
-      - name: products
-        label: Products
-        type: reference
-        options:
-          collection: products
-          multiple: true
-          search: title
-          value: "{path}"
-          label: "{title}"
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
       - name: faqs
         label: FAQs
         type: object
@@ -372,23 +124,12 @@ content:
       - { name: subtitle, type: string, label: Subtitle }
       - { name: thumbnail, type: image, label: Thumbnail }
       - { name: order, type: number, label: Order }
-      - name: categories
-        label: Categories
-        type: reference
-        options:
-          collection: categories
-          multiple: true
-          search: title
-          value: "{path}"
-          label: "{title}"
       - { name: body, type: rich-text, label: Body }
       - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
         maxlength: 155
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
       - name: faqs
         label: FAQs
         type: object
@@ -443,8 +184,6 @@ content:
         type: string
         label: Meta Description
         maxlength: 155
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
       - name: faqs
         label: FAQs
         type: object
@@ -483,9 +222,16 @@ content:
       - { name: subtitle, type: string, label: Subtitle }
       - { name: order, type: number, label: Order }
       - { name: icon, type: image, label: Icon }
+      - name: property
+        label: Property
+        type: reference
+        options:
+          collection: properties
+          multiple: false
+          search: title
+          value: "{path}"
+          label: "{title}"
       - { name: body, type: rich-text, label: Body }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
       - name: faqs
         label: FAQs
         type: object
@@ -513,8 +259,6 @@ content:
           label: "{title}"
       - { name: order, type: number, label: Order }
       - { name: body, type: rich-text, label: Body }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
       - name: faqs
         label: FAQs
         type: object
@@ -527,118 +271,10 @@ content:
         label: Gallery
         options:
           multiple: true
-  - name: menus
-    label: Menus
-    path: menus
-    type: collection
-    subfolders: false
-    fields:
-      - { name: title, type: string, label: Title }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: thumbnail, type: image, label: Thumbnail }
-      - { name: order, type: number, label: Order }
-      - { name: body, type: rich-text, label: Body }
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
-  - name: menu-categories
-    label: Menu Categories
-    path: menu-categories
-    type: collection
-    subfolders: false
-    fields:
-      - { name: name, type: string, label: Name }
-      - { name: thumbnail, type: image, label: Thumbnail }
-      - { name: order, type: number, label: Order }
-      - name: menus
-        label: Menus
-        type: reference
-        options:
-          collection: menus
-          multiple: true
-          search: title
-          value: "{path}"
-          label: "{title}"
-      - { name: body, type: rich-text, label: Body }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
-  - name: menu-items
-    label: Menu Items
-    path: menu-items
-    type: collection
-    subfolders: false
-    fields:
-      - { name: name, type: string, label: Name }
-      - { name: thumbnail, type: image, label: Thumbnail }
-      - { name: price, type: string, label: Price }
-      - { name: is_vegan, type: boolean, label: Is Vegan }
-      - { name: is_gluten_free, type: boolean, label: Is Gluten Free }
-      - name: menu_categories
-        label: Menu Categories
-        type: reference
-        options:
-          collection: menu-categories
-          multiple: true
-          search: name
-          value: "{path}"
-          label: "{name}"
-      - { name: description, type: string, label: Description }
-      - { name: body, type: rich-text, label: Body }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: redirect_from, type: string, label: Redirect From, list: true }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
-  - name: snippets
-    label: Snippets
-    path: snippets
-    type: collection
-    subfolders: false
-    filename: "{primary}.md"
-    fields:
-      - { name: name, type: string, label: Name }
-      - { name: body, type: rich-text, label: Body }
-  - name: page-about
-    label: About Page
+  - name: page-contact
+    label: Contact Page
     type: file
-    path: pages/about.md
+    path: pages/contact.md
     fields:
       - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
@@ -647,28 +283,92 @@ content:
         maxlength: 155
       - name: blocks
         label: Content Blocks
-        type: object
+        type: block
         list: true
-        fields:
-          - name: type
-            type: string
-            label: Block Type
-            default: section-header
-          - { name: title, type: string, label: Title, required: true }
-          - { name: subtitle, type: string, label: Subtitle }
-          - name: items
-            type: object
-            label: Features
-            list: true
+        blockKey: type
+        blocks:
+          - name: section-header
+            label: Section Header
             fields:
-              - name: icon
-                type: string
-                label: Icon (Iconify ID or HTML entity)
-              - { name: title, type: string, label: Title, required: true }
-              - name: description
-                type: string
-                label: Description
-                required: true
+              - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
+          - name: contact_form
+            label: Contact Form
+            fields:
+              - { name: content, type: string, label: Introduction Text }
+          - name: features
+            label: Features
+            fields:
+              - name: items
+                type: array
+                label: Contact Details
+                fields:
+                  - { name: icon, type: string, label: Icon }
+                  - { name: title, type: string, label: Title }
+                  - { name: description, type: string, label: Description }
+          - name: markdown
+            label: Markdown
+            fields:
+              - { name: content, type: string, label: Content }
+      - { name: body, type: rich-text, label: Body }
+  - name: page-walks
+    label: Walks Page
+    type: file
+    path: pages/walks.md
+    fields:
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
+      - name: meta_description
+        type: string
+        label: Meta Description
+        maxlength: 155
+      - name: blocks
+        label: Content Blocks
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: image-background
+            label: Image Background
+            fields:
+              - { name: image, type: image, label: Hero Image }
+              - { name: image_alt, type: string, label: Image Alt Text }
+              - { name: content, type: string, label: Hero Content }
+          - name: section-header
+            label: Section Header
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
+          - name: markdown
+            label: Markdown
+            fields:
+              - { name: content, type: string, label: Content }
+          - name: split
+            label: Split
+            fields:
+              - { name: content, type: string, label: Content }
+              - { name: figure_type, type: string, label: Figure Type }
+              - { name: figure_content, type: string, label: Figure Content }
+          - name: features
+            label: Features
+            fields:
+              - name: items
+                type: array
+                label: Features
+                fields:
+                  - { name: icon, type: string, label: Icon }
+                  - { name: title, type: string, label: Title }
+                  - { name: description, type: string, label: Description }
+          - name: cta
+            label: Cta
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: description, type: string, label: Description }
+              - name: button
+                type: object
+                label: Button
+                fields:
+                  - { name: text, type: string, label: Text }
+                  - { name: href, type: string, label: URL }
       - { name: body, type: rich-text, label: Body }
   - name: page-getting-here
     label: Getting Here Page
@@ -682,31 +382,45 @@ content:
         maxlength: 155
       - name: blocks
         label: Content Blocks
-        type: object
+        type: block
         list: true
-        fields:
-          - name: type
-            type: string
-            label: Block Type
-            default: image-background
-          - { name: image, type: image, label: Hero Image }
-          - { name: image_alt, type: string, label: Image Alt Text }
-          - { name: content, type: string, label: Hero Content }
-          - { name: title, type: string, label: Title }
-          - { name: subtitle, type: string, label: Subtitle }
-          - { name: figure_type, type: string, label: Figure Type }
-          - { name: figure_content, type: string, label: Figure Content }
-          - { name: reverse, type: boolean, label: Reverse Layout }
-          - { name: description, type: string, label: Description }
-          - name: button
-            type: object
-            label: Button
+        blockKey: type
+        blocks:
+          - name: image-background
+            label: Image Background
             fields:
-              - { name: text, type: string, label: Text }
-              - { name: href, type: string, label: URL }
-      - name: body
-        type: rich-text
-        label: Body
+              - { name: image, type: image, label: Hero Image }
+              - { name: image_alt, type: string, label: Image Alt Text }
+              - { name: content, type: string, label: Hero Content }
+          - name: section-header
+            label: Section Header
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
+          - name: markdown
+            label: Markdown
+            fields:
+              - { name: content, type: string, label: Content }
+          - name: split
+            label: Split
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: content, type: string, label: Content }
+              - { name: figure_type, type: string, label: Figure Type }
+              - { name: figure_content, type: string, label: Figure Content }
+              - { name: reverse, type: boolean, label: Reverse Layout }
+          - name: cta
+            label: Cta
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: description, type: string, label: Description }
+              - name: button
+                type: object
+                label: Button
+                fields:
+                  - { name: text, type: string, label: Text }
+                  - { name: href, type: string, label: URL }
+      - { name: body, type: rich-text, label: Body }
   - name: page-things-to-do
     label: Things To Do Page
     type: file
@@ -719,31 +433,44 @@ content:
         maxlength: 155
       - name: blocks
         label: Content Blocks
-        type: object
+        type: block
         list: true
-        fields:
-          - name: type
-            type: string
-            label: Block Type
-            default: image-background
-          - { name: image, type: image, label: Hero Image }
-          - { name: image_alt, type: string, label: Image Alt Text }
-          - { name: content, type: string, label: Hero Content }
-          - { name: title, type: string, label: Title }
-          - { name: subtitle, type: string, label: Subtitle }
-          - { name: figure_type, type: string, label: Figure Type }
-          - { name: figure_content, type: string, label: Figure Content }
-          - { name: reverse, type: boolean, label: Reverse Layout }
-          - { name: description, type: string, label: Description }
-          - name: button
-            type: object
-            label: Button
+        blockKey: type
+        blocks:
+          - name: image-background
+            label: Image Background
             fields:
-              - { name: text, type: string, label: Text }
-              - { name: href, type: string, label: URL }
-      - name: body
-        type: rich-text
-        label: Body
+              - { name: image, type: image, label: Hero Image }
+              - { name: image_alt, type: string, label: Image Alt Text }
+              - { name: content, type: string, label: Hero Content }
+          - name: section-header
+            label: Section Header
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
+          - name: split
+            label: Split
+            fields:
+              - { name: content, type: string, label: Content }
+              - { name: figure_type, type: string, label: Figure Type }
+              - { name: figure_content, type: string, label: Figure Content }
+              - { name: reverse, type: boolean, label: Reverse Layout }
+          - name: markdown
+            label: Markdown
+            fields:
+              - { name: content, type: string, label: Content }
+          - name: cta
+            label: Cta
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: description, type: string, label: Description }
+              - name: button
+                type: object
+                label: Button
+                fields:
+                  - { name: text, type: string, label: Text }
+                  - { name: href, type: string, label: URL }
+      - { name: body, type: rich-text, label: Body }
   - name: page-cottages
     label: Cottages Page
     type: file
@@ -756,86 +483,65 @@ content:
         maxlength: 155
       - name: blocks
         label: Content Blocks
-        type: object
+        type: block
         list: true
-        fields:
-          - name: type
-            type: string
-            label: Block Type
-            default: image-background
-          - { name: image, type: image, label: Hero Image }
-          - { name: image_alt, type: string, label: Image Alt Text }
-          - { name: content, type: string, label: Hero Content }
-          - { name: title, type: string, label: Title }
-          - { name: subtitle, type: string, label: Subtitle }
-          - name: image_aspect_ratio
-            type: string
-            label: Image Aspect Ratio
-          - name: items
-            type: array
-            label: Property Cards
+        blockKey: type
+        blocks:
+          - name: image-background
+            label: Image Background
             fields:
-              - { name: image, type: image, label: Image }
+              - { name: image, type: image, label: Hero Image }
+              - { name: image_alt, type: string, label: Image Alt Text }
+              - { name: content, type: string, label: Hero Content }
+          - name: section-header
+            label: Section Header
+            fields:
               - { name: title, type: string, label: Title }
-              - { name: description, type: string, label: Description }
-              - { name: link, type: string, label: Link }
-          - { name: description, type: string, label: Description }
-          - name: button
-            type: object
-            label: Button
+              - { name: subtitle, type: string, label: Subtitle }
+          - name: markdown
+            label: Markdown
             fields:
-              - { name: text, type: string, label: Text }
-              - { name: href, type: string, label: URL }
-      - name: body
-        type: rich-text
-        label: Body
-  - name: page-walks
-    label: Walks Page
-    type: file
-    path: pages/walks.md
-    fields:
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - name: blocks
-        label: Content Blocks
-        type: object
-        list: true
-        fields:
-          - name: type
-            type: string
-            label: Block Type
-            default: image-background
-          - { name: image, type: image, label: Hero Image }
-          - { name: image_alt, type: string, label: Image Alt Text }
-          - { name: content, type: string, label: Hero Content }
-          - { name: title, type: string, label: Title }
-          - { name: subtitle, type: string, label: Subtitle }
-          - { name: figure_type, type: string, label: Figure Type }
-          - { name: figure_content, type: string, label: Figure Content }
-          - name: items
-            type: array
+              - { name: content, type: string, label: Content }
+          - name: image-cards
+            label: Image Cards
+            fields:
+              - name: image_aspect_ratio
+                type: string
+                label: Image Aspect Ratio
+              - name: items
+                type: array
+                label: Property Cards
+                fields:
+                  - { name: image, type: image, label: Image }
+                  - { name: title, type: string, label: Title }
+                  - { name: description, type: string, label: Description }
+                  - { name: link, type: string, label: Link }
+          - name: features
             label: Features
             fields:
-              - { name: icon, type: string, label: Icon }
+              - name: items
+                type: array
+                label: Features
+                fields:
+                  - { name: icon, type: string, label: Icon }
+                  - { name: title, type: string, label: Title }
+                  - { name: description, type: string, label: Description }
+          - name: cta
+            label: Cta
+            fields:
               - { name: title, type: string, label: Title }
               - { name: description, type: string, label: Description }
-          - { name: description, type: string, label: Description }
-          - name: button
-            type: object
-            label: Button
-            fields:
-              - { name: text, type: string, label: Text }
-              - { name: href, type: string, label: URL }
-      - name: body
-        type: rich-text
-        label: Body
-  - name: page-contact
-    label: Contact Page
+              - name: button
+                type: object
+                label: Button
+                fields:
+                  - { name: text, type: string, label: Text }
+                  - { name: href, type: string, label: URL }
+      - { name: body, type: rich-text, label: Body }
+  - name: page-about
+    label: About Page
     type: file
-    path: pages/contact.md
+    path: pages/about.md
     fields:
       - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
@@ -844,169 +550,45 @@ content:
         maxlength: 155
       - name: blocks
         label: Content Blocks
-        type: object
+        type: block
         list: true
-        fields:
-          - name: type
-            type: string
-            label: Block Type
-            default: section-header
-          - { name: title, type: string, label: Title }
-          - { name: subtitle, type: string, label: Subtitle }
-          - { name: content, type: string, label: Introduction Text }
-          - name: items
-            type: array
-            label: Contact Details
+        blockKey: type
+        blocks:
+          - name: image-background
+            label: Image Background
             fields:
-              - { name: icon, type: string, label: Icon }
+              - { name: image, type: image, label: Hero Image }
+              - { name: image_alt, type: string, label: Image Alt Text }
+              - { name: content, type: string, label: Hero Content }
+          - name: section-header
+            label: Section Header
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
+          - name: markdown
+            label: Markdown
+            fields:
+              - { name: content, type: string, label: Content }
+          - name: split
+            label: Split
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: content, type: string, label: Content }
+              - { name: figure_type, type: string, label: Figure Type }
+              - { name: figure_content, type: string, label: Figure Content }
+              - { name: reverse, type: boolean, label: Reverse Layout }
+          - name: cta
+            label: Cta
+            fields:
               - { name: title, type: string, label: Title }
               - { name: description, type: string, label: Description }
-      - name: body
-        type: rich-text
-        label: Body
-  - name: page-chobble-template
-    label: Chobble Template Page
-    type: file
-    path: pages/chobble-template.md
-    fields:
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - name: blocks
-        label: Content Blocks
-        type: object
-        list: true
-        fields:
-          - { name: type, type: string, label: Block Type, default: hero }
-          - { name: full_width, type: boolean, label: Full Width }
-          - { name: class, type: string, label: CSS Class }
-          - { name: badge, type: string, label: Badge Text }
-          - { name: title, type: string, label: Title, required: true }
-          - { name: lead, type: string, label: Lead Text }
-          - name: buttons
-            type: object
-            label: Buttons
-            list: true
-            fields:
-              - { name: text, type: string, label: Button Text, required: true }
-              - { name: href, type: string, label: URL, required: true }
-              - { name: variant, type: string, label: Variant }
-              - { name: size, type: string, label: Size }
-          - name: video_id
-            type: string
-            label: Video Embed URL
-            required: true
-          - { name: video_title, type: string, label: Video Title }
-          - { name: aspect_ratio, type: string, label: Aspect Ratio }
-          - { name: content, type: rich-text, label: Overlay Content }
-          - { name: section_class, type: string, label: Section Class }
-          - name: items
-            type: object
-            label: Statistics
-            list: true
-            fields:
-              - { name: value, type: string, label: Value, required: true }
-              - { name: label, type: string, label: Label, required: true }
-          - { name: header_title, type: string, label: Header Title }
-          - { name: header_subtitle, type: string, label: Header Subtitle }
-          - { name: grid_class, type: string, label: Grid Class }
-          - { name: heading_level, type: number, label: Heading Level }
-          - { name: variant, type: string, label: Variant }
-          - { name: reveal_left, type: string, label: Reveal Left Animation }
-          - { name: reveal_right, type: string, label: Reveal Right Animation }
-          - { name: left_title, type: string, label: Left Title }
-          - { name: left_content, type: rich-text, label: Left Content }
-          - name: left_button
-            type: object
-            label: Left Button
-            fields:
-              - { name: text, type: string, label: Button Text, required: true }
-              - { name: href, type: string, label: URL, required: true }
-              - { name: variant, type: string, label: Variant }
-          - { name: right_title, type: string, label: Right Title }
-          - { name: right_content, type: rich-text, label: Right Content }
-          - { name: reverse, type: boolean, label: Reverse Layout }
-          - { name: reveal_content, type: string, label: Reveal Animation }
-          - name: button
-            type: object
-            label: Button
-            fields:
-              - { name: text, type: string, label: Button Text, required: true }
-              - { name: href, type: string, label: URL, required: true }
-              - { name: variant, type: string, label: Variant }
-              - { name: size, type: string, label: Size }
-          - name: figure_type
-            type: string
-            label: Figure Type (html or code)
-          - { name: figure_content, type: rich-text, label: Figure Content }
-          - name: collection
-            type: string
-            label: Collection Name
-            required: true
-          - { name: intro, type: rich-text, label: Intro Content (Markdown) }
-          - { name: horizontal, type: boolean, label: Horizontal Slider }
-          - { name: description, type: string, label: Description }
+              - name: button
+                type: object
+                label: Button
+                fields:
+                  - { name: text, type: string, label: Text }
+                  - { name: href, type: string, label: URL }
       - { name: body, type: rich-text, label: Body }
-  - name: page-services
-    label: Services Page
-    type: file
-    path: pages/services.md
-    fields:
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - name: blocks
-        label: Content Blocks
-        type: object
-        list: true
-        fields:
-          - name: type
-            type: string
-            label: Block Type
-            default: section-header
-          - { name: title, type: string, label: Title, required: true }
-          - { name: subtitle, type: string, label: Subtitle }
-          - name: items
-            type: object
-            label: Features
-            list: true
-            fields:
-              - name: icon
-                type: string
-                label: Icon (Iconify ID or HTML entity)
-              - { name: title, type: string, label: Title, required: true }
-              - name: description
-                type: string
-                label: Description
-                required: true
-          - { name: filename, type: string, label: Filename, required: true }
-          - { name: code, type: string, label: Code, required: true }
-      - { name: body, type: rich-text, label: Body }
-  - name: homepage
-    label: Homepage Settings
-    type: file
-    path: _data/homepage.json
-    fields:
-      - name: show_products
-        type: boolean
-        label: Show Products Section
-        default: true
-      - name: show_menus
-        type: boolean
-        label: Show Menus Section
-        default: true
-      - name: show_news
-        type: boolean
-        label: Show News Section
-        default: true
-      - name: show_recurring_events
-        type: boolean
-        label: Show Recurring Events
-        default: true
   - name: site
     label: Site Configuration
     type: file

@@ -1,7 +1,7 @@
 import { cpSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { setupTemplate } from "./template-utils.js";
-import { bun, exists, fs, path, read, spawn, write } from "./utils.js";
+import { bun, exists, fs, path, read, write } from "./utils.js";
 
 const TEMPLATE_RAW_URL =
   "https://raw.githubusercontent.com/chobbledotcom/chobble-template/refs/heads/main/.pages.yml";
@@ -35,7 +35,7 @@ const fetchPages = async () => {
   console.log("Updated .pages.yml from chobble-template (with src/ removed)");
 };
 
-const customisePages = async (cmsArgs = []) => {
+const customisePages = async () => {
   const { tempDir, cleanup } = await setupTemplate({ mergeSite: false });
 
   try {
@@ -68,15 +68,9 @@ const customisePages = async (cmsArgs = []) => {
       );
     }
 
-    if (cmsArgs.length > 0) {
-      console.log(`\nRunning customise-cms with args: ${cmsArgs.join(" ")}\n`);
-    } else {
-      console.log("\nStarting CMS customisation TUI...\n");
-    }
+    console.log("\nStarting CMS customisation TUI...\n");
 
-    const proc = spawn(["bun", "run", "customise-cms", ...cmsArgs], {
-      cwd: tempDir,
-    });
+    const proc = bun.spawn("customise-cms", tempDir);
     const code = await proc.exited;
 
     if (code !== 0) {
@@ -100,31 +94,28 @@ const customisePages = async (cmsArgs = []) => {
   }
 };
 
-const updatePages = async ({ customise = false, cmsArgs = [] } = {}) =>
-  customise ? customisePages(cmsArgs) : fetchPages();
+const updatePages = async ({ customise = false } = {}) =>
+  customise ? customisePages() : fetchPages();
 
 if (import.meta.main) {
   const args = process.argv.slice(2);
 
   if (args.includes("--help") || args.includes("-h")) {
-    console.log(`Usage: bun run update-pages [options] [-- customise-cms-args...]
+    console.log(`Usage: bun run update-pages [options]
 
 Options:
-  --customise, -c  Run the CMS customisation (interactive or with args)
+  --customise, -c  Run the interactive CMS customisation TUI
   --help, -h       Show this help message
 
 Without options, fetches the latest .pages.yml from chobble-template.
-With --customise, clones chobble-template and runs customise-cms.
-Pass args after -- to run customise-cms non-interactively, e.g.:
-  bun run update-pages -c -- --collections pages,properties --enable galleries`);
+With --customise, clones chobble-template and runs the customise-cms TUI
+to let you select which collections to include.`);
     process.exit(0);
   }
 
   const customise = args.includes("--customise") || args.includes("-c");
-  const separatorIdx = args.indexOf("--");
-  const cmsArgs = separatorIdx >= 0 ? args.slice(separatorIdx + 1) : [];
 
-  updatePages({ customise, cmsArgs }).catch((err) => {
+  updatePages({ customise }).catch((err) => {
     console.error("Error:", err.message);
     process.exit(1);
   });

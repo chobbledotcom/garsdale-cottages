@@ -16,28 +16,32 @@
 		"collections": [
 			"pages",
 			"snippets",
+			"team",
+			"reviews",
+			"locations",
 			"properties",
 			"guide-categories",
 			"guide-pages"
 		],
 		"features": {
-			"permalinks": true,
+			"permalinks": false,
 			"redirects": false,
 			"faqs": true,
-			"specs": true,
-			"features": true,
 			"galleries": true,
-			"add_ons": false,
 			"header_images": false,
 			"external_navigation_urls": false,
+			"use_visual_editor": true,
+			"specs": true,
+			"features": true,
 			"external_purchases": false,
-			"event_locations_and_dates": false,
-			"use_visual_editor": false,
+			"add_ons": false,
+			"event_locations_and_dates": true,
 			"no_index": false,
+			"keywords": false,
 			"parent_categories": false,
 			"videos": false
 		},
-		"hasSrcFolder": true,
-		"customHomePage": false
+		"hasSrcFolder": false,
+		"customHomePage": true
 	}
 }
