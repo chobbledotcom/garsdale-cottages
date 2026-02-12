@@ -15,28 +15,29 @@
 	"cms_config": {
 		"collections": [
 			"pages",
-			"news",
-			"events",
-			"team",
-			"reviews",
-			"locations",
+			"snippets",
 			"properties",
 			"guide-categories",
 			"guide-pages"
 		],
 		"features": {
-			"permalinks": false,
+			"permalinks": true,
 			"redirects": false,
 			"faqs": true,
-			"galleries": true,
-			"header_images": false,
-			"external_navigation_urls": false,
 			"specs": true,
 			"features": true,
+			"galleries": true,
+			"add_ons": false,
+			"header_images": false,
+			"external_navigation_urls": false,
 			"external_purchases": false,
-			"event_locations_and_dates": false
+			"event_locations_and_dates": false,
+			"use_visual_editor": false,
+			"no_index": false,
+			"parent_categories": false,
+			"videos": false
 		},
-		"hasSrcFolder": false,
-		"customHomePage": true
+		"hasSrcFolder": true,
+		"customHomePage": false
 	}
 }

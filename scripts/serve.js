@@ -1,5 +1,5 @@
-import { path, bun, spawn } from "./utils.js";
 import { prep } from "./prepare-dev.js";
+import { bun, path, spawn } from "./utils.js";
 
 const dev = path(".build", "dev");
 
