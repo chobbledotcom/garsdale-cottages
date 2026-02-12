@@ -39,6 +39,48 @@ content:
           - { name: key, type: string }
           - { name: order, type: number }
       - { name: layout, type: string }
+      - { name: permalink, type: string, label: Permalink }
+      - name: blocks
+        label: Blocks
+        type: object
+        list: true
+        fields:
+          - { name: type, type: string, label: Block Type, required: true }
+          - { name: title, type: string, label: Title }
+          - { name: subtitle, type: string, label: Subtitle }
+          - name: content
+            type: code
+            label: Content
+            options:
+              language: markdown
+          - { name: image, type: image, label: Image }
+          - { name: image_alt, type: string, label: Image Alt Text }
+          - { name: full_width, type: boolean, label: Full Width }
+          - { name: parallax, type: boolean, label: Parallax }
+          - { name: level, type: number, label: Heading Level }
+          - { name: align, type: string, label: Alignment }
+          - { name: figure_type, type: string, label: Figure Type }
+          - { name: figure_content, type: string, label: Figure Content }
+          - { name: reverse, type: boolean, label: Reverse Layout }
+          - { name: image_aspect_ratio, type: string, label: Image Aspect Ratio }
+          - name: items
+            label: Items
+            type: object
+            list: true
+            fields:
+              - { name: icon, type: string, label: Icon }
+              - { name: title, type: string, label: Title }
+              - { name: description, type: string, label: Description }
+              - { name: image, type: image, label: Image }
+              - { name: link, type: string, label: Link }
+          - { name: description, type: string, label: Description }
+          - name: button
+            label: Button
+            type: object
+            fields:
+              - { name: text, type: string, label: Text }
+              - { name: href, type: string, label: URL }
+          - { name: section_class, type: string, label: Section Class }
       - name: faqs
         label: FAQs
         type: object

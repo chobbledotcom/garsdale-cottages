@@ -1,0 +1,71 @@
+{
+  "label": "Cottages Page",
+  "blocks": [
+    {
+      "type": "image-background",
+      "fields": {
+        "image": { "type": "image", "label": "Hero Image" },
+        "image_alt": { "type": "string", "label": "Image Alt Text" },
+        "content": { "type": "string", "label": "Hero Content" }
+      }
+    },
+    {
+      "type": "section-header",
+      "fields": {
+        "title": { "type": "string", "label": "Title" },
+        "subtitle": { "type": "string", "label": "Subtitle" }
+      }
+    },
+    {
+      "type": "markdown",
+      "fields": {
+        "content": { "type": "string", "label": "Content" }
+      }
+    },
+    {
+      "type": "image-cards",
+      "fields": {
+        "image_aspect_ratio": { "type": "string", "label": "Image Aspect Ratio" },
+        "items": {
+          "type": "array",
+          "label": "Property Cards",
+          "fields": {
+            "image": { "type": "image", "label": "Image" },
+            "title": { "type": "string", "label": "Title" },
+            "description": { "type": "string", "label": "Description" },
+            "link": { "type": "string", "label": "Link" }
+          }
+        }
+      }
+    },
+    {
+      "type": "features",
+      "fields": {
+        "items": {
+          "type": "array",
+          "label": "Features",
+          "fields": {
+            "icon": { "type": "string", "label": "Icon" },
+            "title": { "type": "string", "label": "Title" },
+            "description": { "type": "string", "label": "Description" }
+          }
+        }
+      }
+    },
+    {
+      "type": "cta",
+      "fields": {
+        "title": { "type": "string", "label": "Title" },
+        "description": { "type": "string", "label": "Description" },
+        "button": {
+          "type": "object",
+          "label": "Button",
+          "fields": {
+            "text": { "type": "string", "label": "Text" },
+            "href": { "type": "string", "label": "URL" }
+          }
+        }
+      }
+    }
+  ]
+}

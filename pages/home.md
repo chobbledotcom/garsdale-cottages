@@ -98,9 +98,9 @@ blocks:
         description: "Walking, wildlife watching, visiting market towns, rainy day activities and family adventures."
         link: "/things-to-do/"
       - image: "/images/scenery/rose-cottage-and-the-cart-house.jpeg"
-        title: The Local Area
-        description: "Sedbergh, Hawes, Dent, Kirkby Stephen - charming market towns all within easy reach."
-        link: "/local-area/"
+        title: About Garsdale
+        description: "A quiet valley in the Yorkshire Dales - discover the history, wildlife and beauty of the dale."
+        link: "/about-garsdale/"
       - image: "/images/wildlife/brown-hare.jpeg"
         title: Walks
         description: "From gentle strolls to challenging fell walks - routes for all abilities from your doorstep."

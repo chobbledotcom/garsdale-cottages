@@ -2,61 +2,43 @@
 header_text: Contact Us
 subtitle: Get in touch with Garsdale Cottages
 meta_title: Contact Garsdale Cottages
-meta_description: "*Description of how to contact Garsdale Cottages goes here*"
+meta_description: "Get in touch with Garsdale Cottages to book your holiday in the Yorkshire Dales. Contact the property owners directly."
+layout: design-system-base.html
+permalink: /contact/
 eleventyNavigation:
   key: Contact
   order: 7
+blocks:
+  - type: section-header
+    title: Contact Us
+    subtitle: "Get in touch to book your stay or ask us anything about Garsdale"
+    level: 2
+    align: center
+
+  - type: contact_form
+    content: |
+      Hi and thanks for looking at Garsdale Cottages. For enquiries, information about booking your stay or any questions about the area, please get in touch using the form or the contact details below.
+
+  - type: section-header
+    title: Contact Details
+    level: 2
+    align: center
+
+  - type: features
+    items:
+      - icon: hugeicons:home-01
+        title: The Old Cart House
+        description: "For enquiries and bookings contact Jack or Loraine. Email: lorainebutterworth@hotmail.com. Loraine: 07905 637690. Jack: 07982 235493."
+      - icon: hugeicons:home-01
+        title: Roger Pot
+        description: "For enquiries and bookings contact the property owners directly via the property page."
+
+  - type: section-header
+    title: Property Owners
+    level: 3
+    align: left
+
+  - type: markdown
+    content: |
+      If you are interested in joining the Garsdale Cottages cooperative please contact Jack or Loraine at jackbutterworth@hotmail.com or phone Jack on 07982 235493.
 ---
-## Contact Us
-
-*Introduction to contacting Garsdale Cottages goes here*
-
-## General Enquiries
-
-
-Hi and thanks for looking at The Old Cart House. For futher enquiries, information about booking your stay with us please contact Jack or Loraine at lorainebutterworth@hotmail.com or phone Loraine on 07905 637690
-
-## Booking Enquiries
-
-*Details about how to make booking enquiries go here - direct contact with property owners*
-To book your stay at The Old Cart House please go to freetobook.com
-
-## Property Owners
-If you are interested in joining Garsdale Cottages cooperative please contact Jack or Loraine at jackbutterworth@hotmail.com or phone Jack on 07982235493
-
-## For Guests
-
-
-Just a little bit of information that may be useful to you.
-The local GP is Sedbergh Medical Centre, next  to Spar in Sedbergh- phone 01539 718191 alternatively you can call 111 for medical advice.
-
-The nearest hospital is Westmorland General, Burton Road, Kendal LA9 7RG. This is for urgent but not life threatening treatment and is open every day between 8am and 10pm.
-
-The nearest A and E is Lancaster Royal Infirmary which is open 24 hours
-Ashton Road, Lancaster, Lancashire, LA1 4RP        01524 65944
-
-The properties are not on mains water and sewage and  has a septic tank/ water treatment plant . It is very important that nothing is flushed down the toilet except for pee, pooh and toilet paper, anything else can block the system and cause a problem. All sanitary towels, tampons, nappies etc must be put into the dustbin and no wet wipes can be flushed down the toilet as they will cause a blockage.
-
-The water is regularly tested and is safe to drink but can sometimes be a little discoloured as there is a lot of peat in the area, you may prefer to boil the water.  There is bottled water available if you prefer to drink this.
-
-
-Be careful of having the windows open and the lights on particularly in the summer as there are a lot of insects and they will come in.
-
-Loraine mobile 07905 637690
-
-Jack mobile 07982235493
-
-There is a hard copy information and welcome pack in The Old Cart House and this has all contact details.
-
-## Find Us
-
-*Location information goes here*
-The Old Cart house is advertised on???? and can be found can be found at:
-Map location ???
-What3words (WTW) ???
-
-
-## Social Media
-
-*Social media links go here*
-On ???

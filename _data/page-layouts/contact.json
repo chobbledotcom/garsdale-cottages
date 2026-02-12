@@ -1,0 +1,38 @@
+{
+  "label": "Contact Page",
+  "blocks": [
+    {
+      "type": "section-header",
+      "fields": {
+        "title": { "type": "string", "label": "Title" },
+        "subtitle": { "type": "string", "label": "Subtitle" }
+      }
+    },
+    {
+      "type": "contact_form",
+      "fields": {
+        "content": { "type": "string", "label": "Introduction Text" }
+      }
+    },
+    {
+      "type": "features",
+      "fields": {
+        "items": {
+          "type": "array",
+          "label": "Contact Details",
+          "fields": {
+            "icon": { "type": "string", "label": "Icon" },
+            "title": { "type": "string", "label": "Title" },
+            "description": { "type": "string", "label": "Description" }
+          }
+        }
+      }
+    },
+    {
+      "type": "markdown",
+      "fields": {
+        "content": { "type": "string", "label": "Content" }
+      }
+    }
+  ]
+}
