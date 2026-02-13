@@ -346,8 +346,15 @@ content:
             label: Split
             fields:
               - { name: content, type: string, label: Content }
-              - { name: figure_type, type: string, label: Figure Type }
-              - { name: figure_content, type: string, label: Figure Content }
+              - name: figure
+                type: block
+                label: Figure
+                blocks:
+                  - name: image
+                    label: Image
+                    fields:
+                      - { name: src, type: image, label: Image, required: true }
+                      - { name: alt, type: string, label: Alt Text }
           - name: features
             label: Features
             fields:
@@ -406,8 +413,15 @@ content:
             fields:
               - { name: title, type: string, label: Title }
               - { name: content, type: string, label: Content }
-              - { name: figure_type, type: string, label: Figure Type }
-              - { name: figure_content, type: string, label: Figure Content }
+              - name: figure
+                type: block
+                label: Figure
+                blocks:
+                  - name: image
+                    label: Image
+                    fields:
+                      - { name: src, type: image, label: Image, required: true }
+                      - { name: alt, type: string, label: Alt Text }
               - { name: reverse, type: boolean, label: Reverse Layout }
           - name: cta
             label: Cta
@@ -452,8 +466,15 @@ content:
             label: Split
             fields:
               - { name: content, type: string, label: Content }
-              - { name: figure_type, type: string, label: Figure Type }
-              - { name: figure_content, type: string, label: Figure Content }
+              - name: figure
+                type: block
+                label: Figure
+                blocks:
+                  - name: image
+                    label: Image
+                    fields:
+                      - { name: src, type: image, label: Image, required: true }
+                      - { name: alt, type: string, label: Alt Text }
               - { name: reverse, type: boolean, label: Reverse Layout }
           - name: markdown
             label: Markdown
@@ -574,8 +595,15 @@ content:
             fields:
               - { name: title, type: string, label: Title }
               - { name: content, type: string, label: Content }
-              - { name: figure_type, type: string, label: Figure Type }
-              - { name: figure_content, type: string, label: Figure Content }
+              - name: figure
+                type: block
+                label: Figure
+                blocks:
+                  - name: image
+                    label: Image
+                    fields:
+                      - { name: src, type: image, label: Image, required: true }
+                      - { name: alt, type: string, label: Alt Text }
               - { name: reverse, type: boolean, label: Reverse Layout }
           - name: cta
             label: Cta

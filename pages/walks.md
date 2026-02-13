@@ -54,8 +54,8 @@ blocks:
       For the adventurous, there is a pathway across the moors to Dent. This would start following the pathway by Dandra Garth.
 
       There are also walks around nearby Grisedale and behind the old Moorcock pub there is a pathway leading to the Pennine Bridleway with walks in the direction of Kirkby Stephen and the opposite direction towards Cotter Force.
-    figure_type: image
-    figure_content:
+    figure:
+      type: image
       src: /images/scenery/moon-over-langstone-fell.jpeg
       alt: View over Langstone Fell
 

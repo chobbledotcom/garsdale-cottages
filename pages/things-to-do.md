@@ -42,8 +42,8 @@ blocks:
       We are fortunate to be able to see brown hares in the fields nearby throughout the year and often will see roe deer in the fields and on the hillside. Stoats and weasels can also be seen along with the very many mice and voles and occasionally badgers, foxes and hedgehogs.
 
       [Sedbergh Red Squirrels](https://sedberghredsquirrels.org.uk/)
-    figure_type: image
-    figure_content:
+    figure:
+      type: image
       src: /images/wildlife/red-squirrel-2.jpeg
       alt: Red squirrel
 
@@ -54,8 +54,8 @@ blocks:
       In spring the curlews arrive from the coast to nest and can be heard calling, and we have regular visits from cuckoos in the spring and summer. Pheasants and grouse are everywhere and on a walk up to Grisedale in the spring and early summer, short-eared owls can be seen in the early evening scouring for mice and chicks.
 
       The hedgerows have an abundance of fruit in the summer, with raspberries and blackberries, but also sloes and hazelnuts as autumn arrives.
-    figure_type: image
-    figure_content:
+    figure:
+      type: image
       src: /images/wildlife/robin.jpeg
       alt: Robin on a branch
     reverse: true

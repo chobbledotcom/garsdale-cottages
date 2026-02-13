@@ -27,8 +27,7 @@
       "fields": {
         "title": { "type": "string", "label": "Title" },
         "content": { "type": "string", "label": "Content" },
-        "figure_type": { "type": "string", "label": "Figure Type" },
-        "figure_content": { "type": "string", "label": "Figure Content" },
+        "figure": { "type": "object", "label": "Figure" },
         "reverse": { "type": "boolean", "label": "Reverse Layout" }
       }
     },
@@ -43,8 +42,7 @@
       "type": "split",
       "fields": {
         "content": { "type": "string", "label": "Content" },
-        "figure_type": { "type": "string", "label": "Figure Type" },
-        "figure_content": { "type": "string", "label": "Figure Content" }
+        "figure": { "type": "object", "label": "Figure" }
       }
     },
     {
