@@ -55,9 +55,8 @@ blocks:
 
       There are also walks around nearby Grisedale and behind the old Moorcock pub there is a pathway leading to the Pennine Bridleway with walks in the direction of Kirkby Stephen and the opposite direction towards Cotter Force.
     figure_type: image
-    figure_content:
-      src: /images/scenery/moon-over-langstone-fell.jpeg
-      alt: View over Langstone Fell
+    figure_src: /images/scenery/moon-over-langstone-fell.jpeg
+    figure_alt: View over Langstone Fell
 
   - type: section-header
     title: Long Distance Paths

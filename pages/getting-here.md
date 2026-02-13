@@ -43,18 +43,16 @@ blocks:
 
       Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre following signs for Kirkby Stephen. 500 metres out of Sedbergh take a right (A684) towards Garsdale/Hawes. 5.5 miles and we're on the right, about 300 yards east of St John the Baptist Church.
     figure_type: image
-    figure_content:
-      src: /images/scenery/fellside.jpeg
-      alt: View across Garsdale fellside in the Yorkshire Dales
+    figure_src: /images/scenery/fellside.jpeg
+    figure_alt: View across Garsdale fellside in the Yorkshire Dales
 
   - type: split
     title: From the A1
     content: |
       Take the Leeming interchange to the A684 to Bedale following for Leyburn, Aysgarth, Hawes to Garsdale. You will see a sign welcoming you to Garsdale, approximately half a mile on the left side. Opposite the river is The Old Cart House. Roger Pot is a little further, after the village hall and just after the bridge on the right side is the entrance to the lane leading to Roger Pot.
     figure_type: image
-    figure_content:
-      src: /images/scenery/moon-over-langstone-fell.jpeg
-      alt: View over Langstone Fell at moonrise
+    figure_src: /images/scenery/moon-over-langstone-fell.jpeg
+    figure_alt: View over Langstone Fell at moonrise
     reverse: true
 
   - type: section-header
@@ -80,9 +78,8 @@ blocks:
 
       Normally there are no taxis in Garsdale. The nearest taxi service may be in Hawes but guests are advised to check in advance.
     figure_type: image
-    figure_content:
-      src: /images/scenery/roger-pot-and-rose-cottage.jpeg
-      alt: Roger Pot and Rose Cottage
+    figure_src: /images/scenery/roger-pot-and-rose-cottage.jpeg
+    figure_alt: Roger Pot and Rose Cottage
 
   - type: section-header
     title: Before You Arrive

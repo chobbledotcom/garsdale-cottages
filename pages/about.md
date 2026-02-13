@@ -38,9 +38,8 @@ blocks:
 
       Garsdale is an ideal location for walking, cycling, bird watching or just having time to enjoy the peace and tranquility and the beautiful countryside.
     figure_type: image
-    figure_content:
-      src: /images/scenery/moon-over-langstone-fell.jpeg
-      alt: View over Langstone Fell at moonrise
+    figure_src: /images/scenery/moon-over-langstone-fell.jpeg
+    figure_alt: View over Langstone Fell at moonrise
 
   - type: split
     title: Peace and Tranquillity
@@ -51,9 +50,8 @@ blocks:
 
       We are 6 miles from the nearest town, so the area can feel untroubled by some of the problems of the world and this can feel like a weight is lifted from your shoulders.
     figure_type: image
-    figure_content:
-      src: /images/scenery/garsdale-in-winter.jpeg
-      alt: Garsdale in winter
+    figure_src: /images/scenery/garsdale-in-winter.jpeg
+    figure_alt: Garsdale in winter
     reverse: true
 
   - type: section-header
@@ -68,9 +66,8 @@ blocks:
 
       Roe deer can be found in the fields and woodlands and brown hares are a common sight, along with an abundance of rabbits, moles, voles and mice. Foxes, badgers, weasels and stoats are also at home here and hedgehogs are regularly seen.
     figure_type: image
-    figure_content:
-      src: /images/wildlife/red-squirrel-1.jpeg
-      alt: Red squirrel in Garsdale
+    figure_src: /images/wildlife/red-squirrel-1.jpeg
+    figure_alt: Red squirrel in Garsdale
 
   - type: split
     content: |
@@ -80,9 +77,8 @@ blocks:
 
       Grouse, pheasants and partridges can be found in the fields and moorlands and we have tawny owls, barn owls and short eared owls along with kestrels, buzzards and sparrowhawks regularly seen. The river attracts herons, dippers, mallards, goosander and if we are very lucky, a glimpse of a kingfisher.
     figure_type: image
-    figure_content:
-      src: /images/wildlife/owl.jpeg
-      alt: Owl in Garsdale
+    figure_src: /images/wildlife/owl.jpeg
+    figure_alt: Owl in Garsdale
     reverse: true
 
   - type: section-header
@@ -100,9 +96,8 @@ blocks:
 
       The population was rising from 571 in 1801 to a peak of 911 in 1871 during the building of the Settle-Carlisle railway, then a steady decline to 197 presently. Garsdale school was endowed by Thomas Dawson 1634; rebuilt as National school on new site in 1842, becoming Garsdale Primary School. This was closed in 1985 and was converted to village hall.
     figure_type: image
-    figure_content:
-      src: "/images/old Garsdale/Garsdale_in_2007.jpeg"
-      alt: Garsdale in 2007
+    figure_src: "/images/old Garsdale/Garsdale_in_2007.jpeg"
+    figure_alt: Garsdale in 2007
 
   - type: split
     title: The Valley
@@ -111,9 +106,8 @@ blocks:
 
       The largest settlement, known as "The Street", lies 6 miles east of Sedbergh and 10 miles west of Hawes. At Longstone Fell, locally known and spoken as Langst'n Fell, the A684 road rises to a well-known viewpoint looking over the Howgill Fells, and the river descends to Danny Bridge, the site of a 17th-century mill on the "old road", before joining the River Rawthey near Sedbergh.
     figure_type: image
-    figure_content:
-      src: /images/scenery/rose-cottage-and-the-cart-house.jpeg
-      alt: Rose Cottage and The Old Cart House in Garsdale
+    figure_src: /images/scenery/rose-cottage-and-the-cart-house.jpeg
+    figure_alt: Rose Cottage and The Old Cart House in Garsdale
     reverse: true
 
   - type: section-header
@@ -141,9 +135,8 @@ blocks:
 
       Garsdale Station has a connection to Hawes via the Little White Bus.
     figure_type: image
-    figure_content:
-      src: /images/scenery/roger-pot-and-rose-cottage.jpeg
-      alt: Roger Pot and Rose Cottage
+    figure_src: /images/scenery/roger-pot-and-rose-cottage.jpeg
+    figure_alt: Roger Pot and Rose Cottage
 
   - type: cta
     title: Stay in Garsdale
