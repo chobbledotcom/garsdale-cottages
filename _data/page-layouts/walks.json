@@ -26,8 +26,15 @@
       "type": "split",
       "fields": {
         "content": { "type": "string", "label": "Content" },
-        "figure_type": { "type": "string", "label": "Figure Type" },
-        "figure_content": { "type": "string", "label": "Figure Content" }
+        "figure_type": { "type": "string", "label": "Figure Type (image, video, code, html)" },
+        "figure_src": { "type": "image", "label": "Figure Image" },
+        "figure_alt": { "type": "string", "label": "Figure Alt Text" },
+        "figure_caption": { "type": "string", "label": "Figure Caption" },
+        "figure_video_id": { "type": "string", "label": "Figure Video ID or URL" },
+        "figure_filename": { "type": "string", "label": "Figure Code Filename" },
+        "figure_code": { "type": "string", "label": "Figure Code Content" },
+        "figure_language": { "type": "string", "label": "Figure Code Language" },
+        "figure_html": { "type": "rich-text", "label": "Figure HTML Content" }
       }
     },
     {
