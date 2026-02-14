@@ -7,7 +7,7 @@ featured: false
 bedrooms: 3
 bathrooms: 2
 sleeps: 6
-freetobook_id: "56260"
+freetobook_id: "50805"
 freetobook_token: "5IWTgrO9GsqetF0H2oPAJlv6xrxYrP4ADqVWy22spAQzG9KIDMXwrLXBPpQpm"
 features:
   - Off road parking
