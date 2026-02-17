@@ -108,7 +108,7 @@ blocks:
     content: |
       **Hardraw Force** in Hardraw near to Hawes. The walk to the falls is behind the Green Dragon Pub, which is also well worth a visit for food and their regular Wednesday music night. There is a small entrance fee to go to the waterfall but it can be lovely particularly if there has been rain. The walk to the falls is fairly flat and is well laid out with pathways, some seating and lovely views as well as the waterfall itself.
 
-      **Cautley Spout** is another waterfall, again behind a temperance pub called the Cross Keys in Cautley, which also has good food. Cautley is a longer walk and some inclines, but it can be seen without climbing too high, though you can climb to the top if you are enthusiastic. For some reason, on a number of our visits to Cautley Spout, the weather has changed mid walk and turned to rain or snow, so be prepared.
+      **Cautley Spout** is another waterfall, again behind a temperance pub called [the Cross Keys in Cautley](https://www.cautleyspout.co.uk/), which also has good food. Cautley is a longer walk and some inclines, but it can be seen without climbing too high, though you can climb to the top if you are enthusiastic. For some reason, on a number of our visits to Cautley Spout, the weather has changed mid walk and turned to rain or snow, so be prepared.
 
       **Cotter Force** - another easy walk to a waterfall on the way to Hawes. There is a parking area nearby and the walk to the waterfall is flat and a tidy pathway.
 
