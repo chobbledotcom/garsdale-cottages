@@ -287,18 +287,16 @@ content:
         list: true
         blockKey: type
         blocks:
-          - name: section-header
-            label: Section Header
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: subtitle, type: string, label: Subtitle }
           - name: contact_form
             label: Contact Form
             fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
               - { name: content, type: string, label: Introduction Text }
           - name: features
             label: Features
             fields:
+              - { name: header_title, type: string, label: Header Title }
               - name: items
                 type: array
                 label: Contact Details
@@ -309,6 +307,7 @@ content:
           - name: markdown
             label: Markdown
             fields:
+              - { name: header_title, type: string, label: Header Title }
               - { name: content, type: string, label: Content }
       - { name: body, type: rich-text, label: Body }
   - name: page-walks
@@ -333,18 +332,17 @@ content:
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
-          - name: section-header
-            label: Section Header
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: subtitle, type: string, label: Subtitle }
           - name: markdown
             label: Markdown
             fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
               - { name: content, type: string, label: Content }
           - name: split
             label: Split
             fields:
+              - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
               - { name: content, type: string, label: Content }
               - { name: figure_type, type: string, label: "Figure Type (image, video, code, html)" }
               - { name: figure_src, type: image, label: Figure Image }
@@ -358,6 +356,8 @@ content:
           - name: features
             label: Features
             fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
               - name: items
                 type: array
                 label: Features
@@ -399,19 +399,17 @@ content:
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
-          - name: section-header
-            label: Section Header
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: subtitle, type: string, label: Subtitle }
           - name: markdown
             label: Markdown
             fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
               - { name: content, type: string, label: Content }
           - name: split
             label: Split
             fields:
               - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
               - { name: content, type: string, label: Content }
               - { name: figure_type, type: string, label: "Figure Type (image, video, code, html)" }
               - { name: figure_src, type: image, label: Figure Image }
@@ -457,14 +455,11 @@ content:
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
-          - name: section-header
-            label: Section Header
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: subtitle, type: string, label: Subtitle }
           - name: split
             label: Split
             fields:
+              - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
               - { name: content, type: string, label: Content }
               - { name: figure_type, type: string, label: "Figure Type (image, video, code, html)" }
               - { name: figure_src, type: image, label: Figure Image }
@@ -479,6 +474,8 @@ content:
           - name: markdown
             label: Markdown
             fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
               - { name: content, type: string, label: Content }
           - name: cta
             label: Cta
@@ -514,18 +511,17 @@ content:
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
-          - name: section-header
-            label: Section Header
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: subtitle, type: string, label: Subtitle }
           - name: markdown
             label: Markdown
             fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
               - { name: content, type: string, label: Content }
           - name: image-cards
             label: Image Cards
             fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
               - name: image_aspect_ratio
                 type: string
                 label: Image Aspect Ratio
@@ -540,6 +536,8 @@ content:
           - name: features
             label: Features
             fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
               - name: items
                 type: array
                 label: Features
@@ -581,19 +579,17 @@ content:
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
-          - name: section-header
-            label: Section Header
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: subtitle, type: string, label: Subtitle }
           - name: markdown
             label: Markdown
             fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
               - { name: content, type: string, label: Content }
           - name: split
             label: Split
             fields:
               - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
               - { name: content, type: string, label: Content }
               - { name: figure_type, type: string, label: "Figure Type (image, video, code, html)" }
               - { name: figure_src, type: image, label: Figure Image }
