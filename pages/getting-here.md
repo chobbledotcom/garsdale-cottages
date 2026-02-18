@@ -20,9 +20,11 @@ blocks:
       How to reach Garsdale in the Yorkshire Dales
 
   - type: markdown
-    header_title: Getting to Garsdale
-    header_subtitle: "Easily accessible by road and rail"
     content: |
+      ## Getting to Garsdale
+
+      Easily accessible by road and rail
+
       The Old Cart House and Roger Pot are in a very rural location in the Yorkshire Dales but easily accessible by road and rail.
 
   - type: split
@@ -48,8 +50,9 @@ blocks:
     reverse: true
 
   - type: markdown
-    header_title: The Final Approach
     content: |
+      ## The Final Approach
+
       Travelling to Garsdale from the **Sedbergh direction** you will pass Blades Farm on your left, which has a small certified campsite. A little further on you will see the Garsdale village sign by the bridge. The lane to Roger Pot is here, through the gate. To continue to The Old Cart House, pass over the bridge and along past the village hall. You will then go around a sharp bend with a farm on the right hand side, pass the church, the letter box and there is a row of houses on the right side of the road, opposite the river, and The Old Cart House is there.
 
       Travelling to Garsdale from the **Hawes direction**, pass under the railway viaduct and you will see a sign for Garsdale Parish. Drive a further 3 miles and you will pass the stone plinth with 'Welcome to Garsdale'. Drive past a farm called East Little Town on your left and follow the road passing Dandra Garth on your left with the river on your right. You will then approach the area known locally as 'the street'. The Police House is the first house and a few houses later you will reach Rose Cottage and The Old Cart House. To travel to Roger Pot follow the road further past the church and the sharp bend, passing the village hall and immediately over the bridge is a track to the right which will lead through the gate and up to Roger Pot. The farm track to Roger Pot is narrow so care does need to be taken.
@@ -66,8 +69,9 @@ blocks:
     figure_alt: Roger Pot and Rose Cottage
 
   - type: markdown
-    header_title: Before You Arrive
     content: |
+      ## Before You Arrive
+
       **EV Charging** - The Old Cart House has an EV charger. Guests should discuss their needs with the owners.
 
       As the closest shops are about 6 miles away in Sedbergh, we would suggest bringing groceries for the first day or two. A welcome basket is provided for guests with some regional produce.

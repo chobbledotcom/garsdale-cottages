@@ -20,9 +20,11 @@ blocks:
       Activities and attractions in the Yorkshire Dales
 
   - type: markdown
-    header_title: Things To Do Near Garsdale
-    header_subtitle: "From wildlife watching to market towns, waterfalls to rainy day retreats"
     content: |
+      ## Things To Do Near Garsdale
+
+      From wildlife watching to market towns, waterfalls to rainy day retreats
+
       Garsdale is set in the Yorkshire Dales National Park in the county of Cumbria. It is an ideal setting for walking and there are walks directly from the hamlet with many marked footpaths. For detailed walking routes, see our [Walks](/walks/) page.
 
   - type: split
@@ -51,8 +53,9 @@ blocks:
     reverse: true
 
   - type: markdown
-    header_title: The Nearby Towns
     content: |
+      ## The Nearby Towns
+
       **Sedbergh** is the nearest town and is about 6 miles away. Sedbergh has a range of shops, cafes, pubs and has a small weekly market on Wednesday mornings. Over summer there are artisan markets each month and these are well worth a visit. Groceries can be bought from the Spar shop and also Powells has a good selection along with fruit and vegetables. There are craft and gift shops as well as book shops, hardware and charity shop. The Half and Half bar has an acoustic night once a month and regular music and other events.
 
       **Hawes** is about 9 miles away and it is well worth a visit. There are many cafes, pubs and restaurants as well as craft and art shops, antiques and clothing. The small market is on Tuesday mornings and often there are craft fairs in the market hall. Hawes also has the [Dales Countryside Museum](https://www.dalescountrysidemuseum.org.uk/) and [Wensleydale Creamery](https://www.wensleydale.co.uk/) where you can see cheesemaking demonstrations at the cheese experience, there is a cafe, cheese and gift shop.
@@ -68,8 +71,9 @@ blocks:
       **Semerwater** is the closest lake to Garsdale and is one of two remaining natural glacial lakes in the Yorkshire Dales. It is in the valley of Raydale, close to Countersett village. There are footpaths and walks from and around the lake with some fantastic views.
 
   - type: markdown
-    header_title: Food and Drink
     content: |
+      ## Food and Drink
+
       There are a number of good eating places in and around Sedbergh but some that we use more often are:
 
       - The Cross Keys at Cautley
@@ -83,9 +87,11 @@ blocks:
       - Half and Half in Sedbergh - has a variety of events and a music night once a month
 
   - type: markdown
-    header_title: Places We Actually Go
-    header_subtitle: "Some favourite places of ours to visit with friends and family"
     content: |
+      ## Places We Actually Go
+
+      Some favourite places of ours to visit with friends and family
+
       **Hardraw Force** in Hardraw near to Hawes. The walk to the falls is behind the Green Dragon Pub, which is also well worth a visit for food and their regular Wednesday music night. There is a small entrance fee to go to the waterfall but it can be lovely particularly if there has been rain. The walk to the falls is fairly flat and is well laid out with pathways, some seating and lovely views as well as the waterfall itself.
 
       **Cautley Spout** is another waterfall, again behind a temperance pub called [the Cross Keys in Cautley](https://www.cautleyspout.co.uk/), which also has good food. Cautley is a longer walk and some inclines, but it can be seen without climbing too high, though you can climb to the top if you are enthusiastic. For some reason, on a number of our visits to Cautley Spout, the weather has changed mid walk and turned to rain or snow, so be prepared.
@@ -99,8 +105,9 @@ blocks:
       We also enjoy travelling over the **Buttertubs Pass** from Hawes to Thwaite, this is a very high wild road with fantastic views of the hills and valleys. From Thwaite we would go to Muker which is beside the river Swale and there are some beautiful walks from the village. There are also some lovely cafes for lunch.
 
   - type: markdown
-    header_title: Rainy Days
     content: |
+      ## Rainy Days
+
       As you know, the Lake District has so many lakes because of the ample rainfall, so there are some lovely indoor places to visit on a rainy day.
 
       The closest to Garsdale is [Farfield Mill](https://www.farfieldmill.org/), this is on the road to Sedbergh and is an interesting place to spend a few hours and has exhibitions and art and craft work as well as a good cafe.
@@ -110,8 +117,9 @@ blocks:
       Kendal has the [Brewery Arts Centre](https://www.breweryarts.co.uk/), which has a cinema, holds music and comedy nights and also has children's daytime events.
 
   - type: markdown
-    header_title: With Children
     content: |
+      ## With Children
+
       There are a number of child friendly activities within travelling distance:
 
       [The Forbidden Corner](https://www.theforbiddencorner.co.uk/) in Middleham, Leyburn is a delightful experience for children and has been featured on CBBC shows.
@@ -125,8 +133,9 @@ blocks:
       The [Ingleton Waterfalls Trail](https://ingletonwaterfallstrail.co.uk/) is a 4 and a half mile circular route and can take between two and a half hours to 4 hours to complete. It is suitable for older children and requires sturdy footwear.
 
   - type: markdown
-    header_title: Waterfalls, Castles and Villages
     content: |
+      ## Waterfalls, Castles and Villages
+
       There are many waterfalls nearby. Most are free to visit; [Hardraw Force](http://hardrawforce.com/waterfall.html) has a small entrance fee but is a lovely walk. [Cautley Spout](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/) and [Cotter Force](https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force) are also well worth a visit.
 
       There are also a number of castles and National Trust properties as well as beautiful historic villages. [Bolton Castle](https://boltoncastle.co.uk/), [Pendragon Castle](https://www.visitcumbria.com/evnp/pendragon-castle/), [Brough Castle](https://www.english-heritage.org.uk/visit/places/brough-castle/) and [Kendal Castle](https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/) are all within easy driving distance and some are free to enter.

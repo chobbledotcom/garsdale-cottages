@@ -26,7 +26,8 @@ blocks:
         description: "For enquiries and bookings contact the property owners directly via the property page."
 
   - type: markdown
-    header_title: Property Owners
     content: |
+      ## Property Owners
+
       If you are interested in joining the Garsdale Cottages cooperative please contact Jack or Loraine at jackbutterworth@hotmail.com or phone Jack on 07982 235493.
 ---

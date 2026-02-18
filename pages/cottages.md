@@ -20,9 +20,11 @@ blocks:
       Book direct with local property owners
 
   - type: markdown
-    header_title: Holiday Cottages in Garsdale
-    header_subtitle: "A cooperative of holiday lets - book directly for better prices and personal service"
     content: |
+      ## Holiday Cottages in Garsdale
+
+      A cooperative of holiday lets - book directly for better prices and personal service
+
       Garsdale Cottages is a cooperative of holiday cottages in the Garsdale area. The website enables those visiting Garsdale to have a great understanding of what is available locally, to experience the beauty and tranquillity of the area and to have one place to find all the information to make their holiday a memorable experience.
 
   - type: image-cards

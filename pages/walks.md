@@ -20,9 +20,11 @@ blocks:
       Walking routes from Garsdale and the surrounding area
 
   - type: markdown
-    header_title: Walking from Garsdale
-    header_subtitle: "From gentle strolls to challenging fell walks"
     content: |
+      ## Walking from Garsdale
+
+      From gentle strolls to challenging fell walks
+
       ### Walks We'd Recommend
 
       A pleasant walk is to Hardraw Force in Hardraw. The walk begins behind the Green Dragon and there is a small charge to enter the waterfall walk.
@@ -77,13 +79,15 @@ blocks:
         description: "There's no street lighting, so in winter it gets dark early. Bring a torch. Try to walk on the right hand side of the road so you can see oncoming vehicles and they can see you."
 
   - type: markdown
-    header_title: Guided Walks
     content: |
+      ## Guided Walks
+
       Garsdale does not have an organisation that does guided walks but please talk to the holiday let owners for information on the routes of those local walks that suit your needs.
 
   - type: markdown
-    header_title: Useful Links
     content: |
+      ## Useful Links
+
       - [Walking in the Yorkshire Dales - Moorcock area](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm)
       - [The Dales Way](https://www.dalesway.org/route.html)
       - [Grisedale and Garsdale walks](https://benthamfootpathgroup.co.uk/grisedale-and-garsdale/)
