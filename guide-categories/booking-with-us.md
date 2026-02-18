@@ -3,6 +3,7 @@ title: Booking with us
 subtitle: Booking with us information and guides
 order: 2
 icon: icons/touchstay/sightseeing.svg
+property: properties/roger-pot.md
 ---
 # Booking with us
 
