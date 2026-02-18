@@ -20,9 +20,11 @@ blocks:
       A hidden gem in the Yorkshire Dales
 
   - type: markdown
-    header_title: Welcome to Garsdale
-    header_subtitle: "A quiet valley within the Yorkshire Dales National Park"
     content: |
+      ## Welcome to Garsdale
+
+      A quiet valley within the Yorkshire Dales National Park
+
       Garsdale is a quiet valley within the Yorkshire Dales National Park with a scattering of farms and farm cottages. The area is mainly sheep farming with woodlands, hills and the river Clough running through it, with many streams and becks leading to the river.
 
       There are great expanses of wild moorland, hills to climb, woodlands and countryside footpaths to follow including the Pennine Way.
@@ -98,8 +100,9 @@ blocks:
     reverse: true
 
   - type: markdown
-    header_title: Flora and Fauna
     content: |
+      ## Flora and Fauna
+
       The Garsdale area is full of wildlife and flowers and some beautiful wildflower meadows. The Quaker burial ground in Garsdale is a wildflower haven in summertime and there are many areas where wildflowers are protected and left to bloom. Flowers such as meadowsweet, teasel, ox eye daisies, dog rose and melancholy thistle, which was once used to treat 'melancholia', are abundant. Numerous lichens and mosses grow on the walls and trees, the clean, fresh air encourages their growth.
 
       There are heather and bilberry covered hillsides and grouse moors and work is ongoing to restore the peat bogs.
