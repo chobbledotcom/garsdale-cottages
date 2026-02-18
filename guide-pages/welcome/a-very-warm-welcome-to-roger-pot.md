@@ -3,6 +3,7 @@ title: "A Very warm welcome to Roger Pot!"
 subtitle: Welcome
 guide-category: welcome
 order: 1
+icon: hugeicons:home-01
 ---
 
 ![sc_1685979100_1131260_15.jpg](https://hub.touchstay.com/v3api/photo/1684243/thumbnail/?size=600)

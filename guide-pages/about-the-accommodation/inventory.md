@@ -3,6 +3,7 @@ title: Inventory
 subtitle: About the Accommodation
 guide-category: about-the-accommodation
 order: 24
+icon: hugeicons:book-open-01
 ---
 
 The following items will be in Roger Pot when you arrive. Please do let us know if anything is missing or if you feel there is anything we should add

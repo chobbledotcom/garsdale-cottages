@@ -3,6 +3,7 @@ title: The Black Bull Inn
 subtitle: Pub Restaurants
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 35
+icon: hugeicons:restaurant-01
 featured_image: "https://lh3.googleusercontent.com/places/ANXAkqFkfgnByvf0HXB2tifLw4HHA7Ms7nOOqNtWT1QNF6IAeaFtz2_yMLfk65Ruqmgb9VZ93y17vmAQeta5lZYUCq98N41fFqmRAHA=s1600-w2000"
 ---
 

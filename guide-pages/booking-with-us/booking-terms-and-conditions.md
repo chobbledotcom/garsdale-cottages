@@ -3,6 +3,7 @@ title: Booking Terms and Conditions
 subtitle: Booking with us
 guide-category: booking-with-us
 order: 1
+icon: hugeicons:agreement-02
 ---
 
 You will be very welcome guests of Roger Pot and we hope that you will enjoy, as we do, the glorious peace and tranquillity of the Yorkshire Dales Garsdale Valley. Our Terms and Conditions are to protect us and you, the guest and your party, so please read and adhere to them. By paying your deposit, you are agreeing to the terms set out below:

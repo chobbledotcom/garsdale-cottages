@@ -3,6 +3,7 @@ title: Smardale Beck
 subtitle: Great walk suggestions from Countryfile
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 12
+icon: hugeicons:walking
 ---
 
 ![Smardale-eeb1fb7-e1662559144741.jpg](https://hub.touchstay.com/v3api/photo/1687473/thumbnail/?size=600)

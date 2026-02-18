@@ -2,7 +2,7 @@
 title: Arrival Information
 subtitle: Arrival Information information and guides
 order: 4
-icon: icons/touchstay/key_collection.svg
+icon: hugeicons:key-01
 property: properties/roger-pot.md
 ---
 # Arrival Information

@@ -3,6 +3,7 @@ title: Contacting Us
 subtitle: Our Contact Details
 guide-category: arrival-information
 order: 3
+icon: hugeicons:telephone
 ---
 
 If you need to get in touch with us, (whether it's about a delay or you're lost - or anything else!) you can either phone us, text us, or email us using the details below:

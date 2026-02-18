@@ -3,6 +3,7 @@ title: What you said you love
 subtitle: "What you said you love!"
 guide-category: welcome
 order: 3
+icon: hugeicons:star
 ---
 
 ***The reviews tell their story (no edits honest! Not even their spelling!)***

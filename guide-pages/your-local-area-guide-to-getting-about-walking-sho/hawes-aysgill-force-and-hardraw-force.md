@@ -3,6 +3,7 @@ title: "Hawes, Aysgill Force and Hardraw Force"
 subtitle: Great walk suggestions from Countryfile
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 5
+icon: hugeicons:walking
 ---
 
 ![Hardraw-Force-North-Yorkshire-e12b73f-scaled.jpg](https://hub.touchstay.com/v3api/photo/1687456/thumbnail/?size=600)

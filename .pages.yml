@@ -221,7 +221,7 @@ content:
       - { name: title, type: string, label: Title }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: order, type: number, label: Order }
-      - { name: icon, type: image, label: Icon }
+      - { name: icon, type: string, label: Icon }
       - name: property
         label: Property
         type: reference
@@ -258,6 +258,7 @@ content:
           value: "{path}"
           label: "{title}"
       - { name: order, type: number, label: Order }
+      - { name: icon, type: string, label: Icon }
       - { name: body, type: rich-text, label: Body }
       - name: faqs
         label: FAQs

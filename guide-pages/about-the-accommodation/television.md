@@ -3,6 +3,7 @@ title: Television
 subtitle: Enjoying Your Time Inside
 guide-category: about-the-accommodation
 order: 7
+icon: hugeicons:television-table
 ---
 
 **Lounge TV**

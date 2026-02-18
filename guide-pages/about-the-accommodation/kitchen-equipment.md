@@ -3,6 +3,7 @@ title: Kitchen Equipment
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
 order: 1
+icon: hugeicons:kitchen-utensils
 featured_image: "https://hub.touchstay.com/media/cache/9d/a5/9da574343f150530bd69df96a8d97f61.jpg?timestamp=20240822113250"
 ---
 

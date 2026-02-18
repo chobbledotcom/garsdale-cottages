@@ -3,6 +3,7 @@ title: Lighting a fire
 subtitle: Enjoying Your Time Inside
 guide-category: about-the-accommodation
 order: 9
+icon: hugeicons:fire
 ---
 
 Lighting a fire adds a very cosy feel to the house and it warms all the rooms too!

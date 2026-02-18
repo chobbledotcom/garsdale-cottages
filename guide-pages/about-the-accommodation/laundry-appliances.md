@@ -3,6 +3,7 @@ title: Laundry Appliances
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
 order: 3
+icon: hugeicons:washing-machine
 featured_image: "https://hub.touchstay.com/media/cache/f1/46/f1464920a13d42d1bd9b431eb6465c20.jpg?timestamp=20240822113317"
 ---
 

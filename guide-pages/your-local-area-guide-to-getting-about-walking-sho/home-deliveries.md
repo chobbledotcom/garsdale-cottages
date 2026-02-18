@@ -3,6 +3,7 @@ title: Home deliveries
 subtitle: Grocery Shopping
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 28
+icon: hugeicons:truck-delivery
 featured_image: "https://hub.touchstay.com/media/cache/65/14/6514cdca3ba812fc89d8cb0a2ed2c92c.jpg?timestamp=20240826180805"
 ---
 
