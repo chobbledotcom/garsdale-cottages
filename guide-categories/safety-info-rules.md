@@ -3,6 +3,7 @@ title: Safety Info & Rules
 subtitle: Safety Info & Rules information and guides
 order: 8
 icon: icons/touchstay/sightseeing.svg
+property: properties/roger-pot.md
 ---
 # Safety Info & Rules
 
