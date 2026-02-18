@@ -10,15 +10,10 @@
       }
     },
     {
-      "type": "section-header",
-      "fields": {
-        "title": { "type": "string", "label": "Title" },
-        "subtitle": { "type": "string", "label": "Subtitle" }
-      }
-    },
-    {
       "type": "markdown",
       "fields": {
+        "header_title": { "type": "string", "label": "Header Title" },
+        "header_subtitle": { "type": "string", "label": "Header Subtitle" },
         "content": { "type": "string", "label": "Content" }
       }
     },
@@ -26,6 +21,7 @@
       "type": "split",
       "fields": {
         "title": { "type": "string", "label": "Title" },
+        "subtitle": { "type": "string", "label": "Subtitle" },
         "content": { "type": "string", "label": "Content" },
         "figure_type": { "type": "string", "label": "Figure Type (image, video, code, html)" },
         "figure_src": { "type": "image", "label": "Figure Image" },
