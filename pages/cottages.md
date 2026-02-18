@@ -19,13 +19,9 @@ blocks:
 
       Book direct with local property owners
 
-  - type: section-header
-    title: Holiday Cottages in Garsdale
-    subtitle: "A cooperative of holiday lets - book directly for better prices and personal service"
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: Holiday Cottages in Garsdale
+    header_subtitle: "A cooperative of holiday lets - book directly for better prices and personal service"
     content: |
       Garsdale Cottages is a cooperative of holiday cottages in the Garsdale area. The website enables those visiting Garsdale to have a great understanding of what is available locally, to experience the beauty and tranquillity of the area and to have one place to find all the information to make their holiday a memorable experience.
 
@@ -41,13 +37,9 @@ blocks:
         description: "Sleeps 2 | 1 bedroom | Cosy romantic retreat with character features, perfect for couples."
         link: "/properties/the-old-cart-house/"
 
-  - type: section-header
-    title: Why Book Direct?
-    subtitle: "Booking directly with the individual holiday cottages enables guests to access great prices without the additional costs of expensive booking fees"
-    level: 2
-    align: center
-
   - type: features
+    header_title: Why Book Direct?
+    header_subtitle: "Booking directly with the individual holiday cottages enables guests to access great prices without the additional costs of expensive booking fees"
     items:
       - icon: hugeicons:discount-tag-02
         title: Better Prices

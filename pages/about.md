@@ -19,13 +19,9 @@ blocks:
 
       A hidden gem in the Yorkshire Dales
 
-  - type: section-header
-    title: Welcome to Garsdale
-    subtitle: "A quiet valley within the Yorkshire Dales National Park"
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: Welcome to Garsdale
+    header_subtitle: "A quiet valley within the Yorkshire Dales National Park"
     content: |
       Garsdale is a quiet valley within the Yorkshire Dales National Park with a scattering of farms and farm cottages. The area is mainly sheep farming with woodlands, hills and the river Clough running through it, with many streams and becks leading to the river.
 
@@ -54,13 +50,9 @@ blocks:
     figure_alt: Garsdale in winter
     reverse: true
 
-  - type: section-header
+  - type: split
     title: Wildlife
     subtitle: "A haven for red squirrels and upland birds"
-    level: 2
-    align: center
-
-  - type: split
     content: |
       Garsdale is a haven for red squirrels and they can be regular visitors to the garden at times in the year but can be seen in the nearby woodlands frequently and on the banks of the river Clough in amongst the trees.
 
@@ -81,14 +73,9 @@ blocks:
     figure_alt: Owl in Garsdale
     reverse: true
 
-  - type: section-header
+  - type: split
     title: The Dale
     subtitle: "Heritage and history in this unspoilt corner of the Dales"
-    level: 2
-    align: center
-
-  - type: split
-    title: History and Heritage
     content: |
       Garsdale has remained unspoilt and has changed little for more than a hundred years. Many of the farms and buildings are listed to protect the heritage of the area (there are 62 listed buildings in Garsdale) and some of the houses date back to the 16th and 17th century.
 
@@ -110,24 +97,16 @@ blocks:
     figure_alt: Rose Cottage and The Old Cart House in Garsdale
     reverse: true
 
-  - type: section-header
-    title: Flora and Fauna
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: Flora and Fauna
     content: |
       The Garsdale area is full of wildlife and flowers and some beautiful wildflower meadows. The Quaker burial ground in Garsdale is a wildflower haven in summertime and there are many areas where wildflowers are protected and left to bloom. Flowers such as meadowsweet, teasel, ox eye daisies, dog rose and melancholy thistle, which was once used to treat 'melancholia', are abundant. Numerous lichens and mosses grow on the walls and trees, the clean, fresh air encourages their growth.
 
       There are heather and bilberry covered hillsides and grouse moors and work is ongoing to restore the peat bogs.
 
-  - type: section-header
+  - type: split
     title: The Settle-Carlisle Railway
     subtitle: "One of England's most scenic railway journeys"
-    level: 2
-    align: center
-
-  - type: split
     content: |
       Visitors to Garsdale may enjoy an outing on the [Settle-Carlisle railway](https://settle-carlisle.co.uk/) which passes through Garsdale Station along with places such as Appleby, Kirkby Stephen, Dent, Ribblehead viaduct and Skipton.
 
