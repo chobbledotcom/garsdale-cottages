@@ -2,21 +2,17 @@
   "label": "Contact Page",
   "blocks": [
     {
-      "type": "section-header",
-      "fields": {
-        "title": { "type": "string", "label": "Title" },
-        "subtitle": { "type": "string", "label": "Subtitle" }
-      }
-    },
-    {
       "type": "contact_form",
       "fields": {
+        "header_title": { "type": "string", "label": "Header Title" },
+        "header_subtitle": { "type": "string", "label": "Header Subtitle" },
         "content": { "type": "string", "label": "Introduction Text" }
       }
     },
     {
       "type": "features",
       "fields": {
+        "header_title": { "type": "string", "label": "Header Title" },
         "items": {
           "type": "array",
           "label": "Contact Details",
@@ -31,6 +27,7 @@
     {
       "type": "markdown",
       "fields": {
+        "header_title": { "type": "string", "label": "Header Title" },
         "content": { "type": "string", "label": "Content" }
       }
     }

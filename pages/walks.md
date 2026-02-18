@@ -19,19 +19,12 @@ blocks:
 
       Walking routes from Garsdale and the surrounding area
 
-  - type: section-header
-    title: Walking from Garsdale
-    subtitle: "From gentle strolls to challenging fell walks"
-    level: 2
-    align: center
-
-  - type: section-header
-    title: Walks We'd Recommend
-    level: 3
-    align: left
-
   - type: markdown
+    header_title: Walking from Garsdale
+    header_subtitle: "From gentle strolls to challenging fell walks"
     content: |
+      ### Walks We'd Recommend
+
       A pleasant walk is to Hardraw Force in Hardraw. The walk begins behind the Green Dragon and there is a small charge to enter the waterfall walk.
 
       Travelling towards Hawes there is a parking area for a short walk to Cotter Force, which has a good flat pathway beside the river leading to the waterfalls.
@@ -42,12 +35,8 @@ blocks:
 
       Another walk is following the pathway behind the old Moorcock pub, now tearooms. Once you have crossed the bridge follow the path up the hillside and at the top is the Pennine Bridleway. Take left to head in the Kirkby Stephen direction and right is in the Cotter Force direction. Both are great walks with lovely scenery and often grouse can be heard, and sometimes seen, in the heather.
 
-  - type: section-header
-    title: From the Doorstep
-    level: 3
-    align: left
-
   - type: split
+    title: From the Doorstep
     content: |
       There are a number of marked footpaths in Garsdale so guests can take a walk directly from the cottage without needing their car.
 
@@ -58,12 +47,8 @@ blocks:
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell
 
-  - type: section-header
-    title: Long Distance Paths
-    level: 2
-    align: center
-
   - type: features
+    header_title: Long Distance Paths
     items:
       - icon: hugeicons:route-01
         title: Coast to Coast
@@ -75,12 +60,8 @@ blocks:
         title: The Dales Way
         description: "A long distance footpath running from Ilkley to Bowness-on-Windermere, passing through the heart of the Yorkshire Dales."
 
-  - type: section-header
-    title: Practical Stuff
-    level: 2
-    align: center
-
   - type: features
+    header_title: Practical Stuff
     items:
       - icon: hugeicons:map-pin
         title: Plan Ahead
@@ -95,21 +76,13 @@ blocks:
         title: Winter Walking
         description: "There's no street lighting, so in winter it gets dark early. Bring a torch. Try to walk on the right hand side of the road so you can see oncoming vehicles and they can see you."
 
-  - type: section-header
-    title: Guided Walks
-    level: 3
-    align: left
-
   - type: markdown
+    header_title: Guided Walks
     content: |
       Garsdale does not have an organisation that does guided walks but please talk to the holiday let owners for information on the routes of those local walks that suit your needs.
 
-  - type: section-header
-    title: Useful Links
-    level: 3
-    align: left
-
   - type: markdown
+    header_title: Useful Links
     content: |
       - [Walking in the Yorkshire Dales - Moorcock area](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm)
       - [The Dales Way](https://www.dalesway.org/route.html)

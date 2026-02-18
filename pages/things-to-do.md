@@ -19,23 +19,15 @@ blocks:
 
       Activities and attractions in the Yorkshire Dales
 
-  - type: section-header
-    title: Things To Do Near Garsdale
-    subtitle: "From wildlife watching to market towns, waterfalls to rainy day retreats"
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: Things To Do Near Garsdale
+    header_subtitle: "From wildlife watching to market towns, waterfalls to rainy day retreats"
     content: |
       Garsdale is set in the Yorkshire Dales National Park in the county of Cumbria. It is an ideal setting for walking and there are walks directly from the hamlet with many marked footpaths. For detailed walking routes, see our [Walks](/walks/) page.
 
-  - type: section-header
+  - type: split
     title: Wildlife
     subtitle: "Red squirrels, brown hares, upland birds and more"
-    level: 2
-    align: center
-
-  - type: split
     content: |
       Garsdale is a haven for wildlife - in particular, the red squirrel. They are frequently spotted if you follow the path beside Dandra Garth into the woodland, or on the bank of the river opposite Dandra Garth, or on the banks of the river opposite the Old Cart House, or below Roger Pot. We do have occasional red squirrel visitors to the garden and they enjoy the nuts and seeds in the feeders.
 
@@ -58,12 +50,8 @@ blocks:
     figure_alt: Robin on a branch
     reverse: true
 
-  - type: section-header
-    title: The Nearby Towns
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: The Nearby Towns
     content: |
       **Sedbergh** is the nearest town and is about 6 miles away. Sedbergh has a range of shops, cafes, pubs and has a small weekly market on Wednesday mornings. Over summer there are artisan markets each month and these are well worth a visit. Groceries can be bought from the Spar shop and also Powells has a good selection along with fruit and vegetables. There are craft and gift shops as well as book shops, hardware and charity shop. The Half and Half bar has an acoustic night once a month and regular music and other events.
 
@@ -79,12 +67,8 @@ blocks:
 
       **Semerwater** is the closest lake to Garsdale and is one of two remaining natural glacial lakes in the Yorkshire Dales. It is in the valley of Raydale, close to Countersett village. There are footpaths and walks from and around the lake with some fantastic views.
 
-  - type: section-header
-    title: Food and Drink
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: Food and Drink
     content: |
       There are a number of good eating places in and around Sedbergh but some that we use more often are:
 
@@ -98,13 +82,9 @@ blocks:
       - The White Hare Cafe in Kirkby Stephen - also has an acoustic night once a month
       - Half and Half in Sedbergh - has a variety of events and a music night once a month
 
-  - type: section-header
-    title: Places We Actually Go
-    subtitle: "Some favourite places of ours to visit with friends and family"
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: Places We Actually Go
+    header_subtitle: "Some favourite places of ours to visit with friends and family"
     content: |
       **Hardraw Force** in Hardraw near to Hawes. The walk to the falls is behind the Green Dragon Pub, which is also well worth a visit for food and their regular Wednesday music night. There is a small entrance fee to go to the waterfall but it can be lovely particularly if there has been rain. The walk to the falls is fairly flat and is well laid out with pathways, some seating and lovely views as well as the waterfall itself.
 
@@ -118,12 +98,8 @@ blocks:
 
       We also enjoy travelling over the **Buttertubs Pass** from Hawes to Thwaite, this is a very high wild road with fantastic views of the hills and valleys. From Thwaite we would go to Muker which is beside the river Swale and there are some beautiful walks from the village. There are also some lovely cafes for lunch.
 
-  - type: section-header
-    title: Rainy Days
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: Rainy Days
     content: |
       As you know, the Lake District has so many lakes because of the ample rainfall, so there are some lovely indoor places to visit on a rainy day.
 
@@ -133,12 +109,8 @@ blocks:
 
       Kendal has the [Brewery Arts Centre](https://www.breweryarts.co.uk/), which has a cinema, holds music and comedy nights and also has children's daytime events.
 
-  - type: section-header
-    title: With Children
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: With Children
     content: |
       There are a number of child friendly activities within travelling distance:
 
@@ -152,12 +124,8 @@ blocks:
 
       The [Ingleton Waterfalls Trail](https://ingletonwaterfallstrail.co.uk/) is a 4 and a half mile circular route and can take between two and a half hours to 4 hours to complete. It is suitable for older children and requires sturdy footwear.
 
-  - type: section-header
-    title: Waterfalls, Castles and Villages
-    level: 2
-    align: center
-
   - type: markdown
+    header_title: Waterfalls, Castles and Villages
     content: |
       There are many waterfalls nearby. Most are free to visit; [Hardraw Force](http://hardrawforce.com/waterfall.html) has a small entrance fee but is a lovely walk. [Cautley Spout](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/) and [Cotter Force](https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force) are also well worth a visit.
 

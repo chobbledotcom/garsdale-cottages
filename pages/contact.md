@@ -9,22 +9,14 @@ eleventyNavigation:
   key: Contact
   order: 7
 blocks:
-  - type: section-header
-    title: Contact Us
-    subtitle: "Get in touch to book your stay or ask us anything about Garsdale"
-    level: 2
-    align: center
-
   - type: contact_form
+    header_title: Contact Us
+    header_subtitle: "Get in touch to book your stay or ask us anything about Garsdale"
     content: |
       Hi and thanks for looking at Garsdale Cottages. For enquiries, information about booking your stay or any questions about the area, please get in touch using the form or the contact details below.
 
-  - type: section-header
-    title: Contact Details
-    level: 2
-    align: center
-
   - type: features
+    header_title: Contact Details
     items:
       - icon: hugeicons:home-01
         title: The Old Cart House
@@ -33,12 +25,8 @@ blocks:
         title: Roger Pot
         description: "For enquiries and bookings contact the property owners directly via the property page."
 
-  - type: section-header
-    title: Property Owners
-    level: 3
-    align: left
-
   - type: markdown
+    header_title: Property Owners
     content: |
       If you are interested in joining the Garsdale Cottages cooperative please contact Jack or Loraine at jackbutterworth@hotmail.com or phone Jack on 07982 235493.
 ---
