@@ -3,6 +3,7 @@ title: Driving Directions
 subtitle: Arrival Information
 guide-category: arrival-information
 order: 4
+icon: hugeicons:car-01
 featured_image: "https://hub.touchstay.com/media/cache/9b/4a/9b4ad6977b58862c286e1c8767288402.jpg?timestamp=20240821204358"
 ---
 

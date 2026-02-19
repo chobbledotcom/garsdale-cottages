@@ -3,6 +3,7 @@ title: Check-in Time
 subtitle: Planning Your Arrival
 guide-category: arrival-information
 order: 2
+icon: hugeicons:clock-02
 ---
 
 Your check-in time is 16.00

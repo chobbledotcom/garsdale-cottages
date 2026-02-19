@@ -3,6 +3,7 @@ title: Pets
 subtitle: "Rules & Regulations"
 guide-category: safety-info-rules
 order: 4
+icon: hugeicons:bone-01
 ---
 
 We welcome pets as per your booking, please respect these following simple requests to keep our home enjoyable for everybody 

@@ -3,6 +3,7 @@ title: Buses
 subtitle: Getting Around
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 25
+icon: hugeicons:bus-01
 featured_image: "https://hub.touchstay.com/media/cache/18/d5/18d5c1e1a786f5fa71755e71ae730108.jpg?timestamp=20240826175902"
 ---
 

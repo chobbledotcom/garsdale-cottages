@@ -3,6 +3,7 @@ title: Grassington
 subtitle: Great walk suggestions from Countryfile
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 4
+icon: hugeicons:walking
 ---
 
 ![Grassington-Yorkshire-Dales2-78fbf22.jpg](https://hub.touchstay.com/v3api/photo/1687466/thumbnail/?size=600)

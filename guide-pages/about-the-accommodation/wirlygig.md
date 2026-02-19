@@ -3,6 +3,7 @@ title: Wirlygig
 subtitle: Enjoying Your Time Outside
 guide-category: about-the-accommodation
 order: 13
+icon: hugeicons:clothes
 ---
 
 Feel free to use the wirlygig but please do remember to put the cover back on when not in use. Thanks

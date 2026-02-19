@@ -3,6 +3,7 @@ title: Septic Tank
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
 order: 6
+icon: hugeicons:water-pump
 ---
 
 The property has benefited from a recently installed septic tank/treatment plant. This requires minimal maintenance providing people follow one simple request:

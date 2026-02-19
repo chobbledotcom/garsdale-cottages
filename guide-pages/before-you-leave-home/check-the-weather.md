@@ -3,6 +3,7 @@ title: Check the Weather
 subtitle: Local Weather
 guide-category: before-you-leave-home
 order: 5
+icon: hugeicons:sun-cloud-01
 featured_image: "https://hub.touchstay.com/media/cache/f6/34/f6349af64a910bdadd5411dc13760a90.jpg?timestamp=20240821204359"
 ---
 

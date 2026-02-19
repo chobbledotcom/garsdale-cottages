@@ -2,7 +2,7 @@
 title: Before You Leave Home
 subtitle: Before You Leave Home information and guides
 order: 3
-icon: icons/touchstay/luggage_storage.svg
+icon: hugeicons:luggage-01
 property: properties/roger-pot.md
 ---
 # Before You Leave Home

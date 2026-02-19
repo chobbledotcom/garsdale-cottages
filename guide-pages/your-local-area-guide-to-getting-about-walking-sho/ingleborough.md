@@ -3,6 +3,7 @@ title: Ingleborough
 subtitle: Great walk suggestions from Countryfile
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 7
+icon: hugeicons:mountain
 ---
 
 ![Ingleborough-dfd81e7-scaled.jpg](https://hub.touchstay.com/v3api/photo/1687469/thumbnail/?size=600)

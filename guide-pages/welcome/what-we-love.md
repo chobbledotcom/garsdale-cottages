@@ -3,6 +3,7 @@ title: "What we love!"
 subtitle: Welcome
 guide-category: welcome
 order: 2
+icon: hugeicons:heart-add
 ---
 
 ***The dales outside our window***

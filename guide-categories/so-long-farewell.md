@@ -2,7 +2,7 @@
 title: So Long, Farewell!
 subtitle: So Long, Farewell! information and guides
 order: 9
-icon: icons/touchstay/luggage_storage.svg
+icon: hugeicons:waving-hand-02
 property: properties/roger-pot.md
 ---
 # So Long, Farewell!

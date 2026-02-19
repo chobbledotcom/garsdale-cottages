@@ -2,7 +2,7 @@
 title: WiFi / Internet/Mobile details
 subtitle: WiFi / Internet/Mobile details information and guides
 order: 7
-icon: icons/touchstay/coffee_shop.svg
+icon: hugeicons:wifi-connected-01
 property: properties/roger-pot.md
 ---
 # WiFi / Internet/Mobile details

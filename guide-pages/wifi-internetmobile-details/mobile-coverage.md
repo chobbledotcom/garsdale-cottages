@@ -3,6 +3,7 @@ title: Mobile coverage
 subtitle: Mobile phone coverage
 guide-category: wifi-internetmobile-details
 order: 2
+icon: hugeicons:signal
 ---
 
 Ofcom rate mobile coverage for voice and data as follows

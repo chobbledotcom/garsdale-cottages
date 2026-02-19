@@ -3,6 +3,7 @@ title: Heating
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
 order: 2
+icon: hugeicons:thermometer
 ---
 
 **LPG heating** – The LPG boiler is no longer in use. The bolier should not be touched please

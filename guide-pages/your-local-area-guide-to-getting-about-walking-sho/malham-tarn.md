@@ -3,6 +3,7 @@ title: Malham Tarn
 subtitle: Great walk suggestions from Countryfile
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 9
+icon: hugeicons:walking
 ---
 
 ![Malham20tarn_0-f652028.jpg](https://hub.touchstay.com/v3api/photo/1687461/thumbnail/?size=600)

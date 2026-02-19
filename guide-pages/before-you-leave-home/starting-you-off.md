@@ -3,6 +3,7 @@ title: Starting you off
 subtitle: We will provide
 guide-category: before-you-leave-home
 order: 4
+icon: hugeicons:shopping-basket-01
 ---
 
 For your convenience we will provide:

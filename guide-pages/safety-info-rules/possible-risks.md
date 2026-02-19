@@ -3,6 +3,7 @@ title: Possible risks
 subtitle: Safety Information
 guide-category: safety-info-rules
 order: 6
+icon: hugeicons:alert-circle
 ---
 
 Roger Pot is safe but like any home there are things to be aware of...

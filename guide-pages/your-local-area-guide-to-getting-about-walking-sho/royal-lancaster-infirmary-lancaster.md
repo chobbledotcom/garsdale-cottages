@@ -3,6 +3,7 @@ title: "Royal Lancaster Infirmary, Lancaster"
 subtitle: Hospitals
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 59
+icon: hugeicons:hospital-01
 featured_image: "https://lh3.googleusercontent.com/places/ANXAkqH6CrpyPP2LbN6_kph0ifloj_z5R-kKIJCpVmLeBKsobrN8oMwFZ_q641HByLZZt5jhjD2xgijQu_9T78kNVIvD8bDSNGbhNKw=s1600-w1600"
 ---
 

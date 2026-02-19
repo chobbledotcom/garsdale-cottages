@@ -3,6 +3,7 @@ title: Upper Wharfedale
 subtitle: Great walk suggestions from Countryfile
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 13
+icon: hugeicons:walking
 ---
 
 ![Wharfdale.jpg](https://hub.touchstay.com/v3api/photo/1687472/thumbnail/?size=600)

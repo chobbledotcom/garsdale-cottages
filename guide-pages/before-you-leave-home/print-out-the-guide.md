@@ -3,6 +3,7 @@ title: Print out the Guide
 subtitle: Add This Guide To Your Phone
 guide-category: before-you-leave-home
 order: 2
+icon: hugeicons:printer
 ---
 
 **Print or Save a PDF**

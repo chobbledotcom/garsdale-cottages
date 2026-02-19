@@ -3,6 +3,7 @@ title: Howgill Fells
 subtitle: Great walk suggestions from Countryfile
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 6
+icon: hugeicons:walking
 ---
 
 ![Howgills.jpg](https://hub.touchstay.com/v3api/photo/1687446/thumbnail/?size=600)

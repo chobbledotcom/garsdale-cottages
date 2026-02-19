@@ -3,6 +3,7 @@ title: Things To Bring
 subtitle: "Don't Forget To Bring"
 guide-category: before-you-leave-home
 order: 3
+icon: hugeicons:luggage-02
 featured_image: "https://hub.touchstay.com/media/cache/6f/49/6f49536dcfad657642e4c0b2dae7cc6d.jpg?timestamp=20240821204359"
 ---
 
