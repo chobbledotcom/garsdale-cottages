@@ -1,82 +1,70 @@
+/**
+ * Validates .pages.yml against the Pages CMS source code and frontmatter.
+ *
+ * Checks:
+ * 1. All field types are valid (fetched from Pages CMS GitHub repo)
+ * 2. All field properties are valid (fetched from Pages CMS types/field.ts)
+ * 3. No use of unsupported 'type: array'
+ * 4. All frontmatter fields in content files have matching .pages.yml definitions
+ *
+ * Requires: yaml package in tests/node_modules (run: cd tests && bun add yaml)
+ */
+
 import { describe, test, expect, beforeAll } from "bun:test";
-import { readFileSync, readdirSync, existsSync } from "node:fs";
-import { spawnSync } from "node:child_process";
+import { readFileSync, readdirSync, existsSync, cpSync, mkdirSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const root = resolve(import.meta.dir, "..");
+const testsDir = import.meta.dir;
 
-// --- YAML parsing via Python (has yaml built-in) ---
-// Batch multiple YAML documents in a single Python call for performance
+// --- Ensure yaml package is available ---
 
-function parseYaml(text) {
-  const result = spawnSync(
-    "python3",
-    [
-      "-c",
-      "import sys, yaml, json; print(json.dumps(yaml.safe_load(sys.stdin.read())))",
-    ],
-    { input: text, encoding: "utf8" },
+const yamlModulePath = join(testsDir, "node_modules", "yaml");
+if (!existsSync(yamlModulePath)) {
+  // Try to copy from Bun's global cache
+  const bunCache = join(
+    process.env.HOME || "/root",
+    ".bun",
+    "install",
+    "cache",
   );
-  if (result.status !== 0) {
-    throw new Error(`YAML parse failed: ${result.stderr}`);
+  if (existsSync(bunCache)) {
+    const yamlDirs = readdirSync(bunCache).filter((d) =>
+      d.startsWith("yaml@"),
+    );
+    if (yamlDirs.length > 0) {
+      mkdirSync(join(testsDir, "node_modules"), { recursive: true });
+      cpSync(join(bunCache, yamlDirs[0]), yamlModulePath, { recursive: true });
+    }
   }
-  return JSON.parse(result.stdout);
+
+  if (!existsSync(yamlModulePath)) {
+    console.error(
+      'yaml package not found. Install it:\n  cd tests && bun add yaml',
+    );
+    process.exit(1);
+  }
+}
+
+const { parse: parseYaml } = await import(
+  join(yamlModulePath, "dist", "index.js")
+);
+
+// --- YAML / Frontmatter parsing ---
+
+function parseFrontmatter(filepath) {
+  const content = readFileSync(filepath, "utf8");
+  const match = content.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return null;
+  return parseYaml(match[1]);
 }
 
 function parseFrontmatterBatch(filepaths) {
-  // Parse all frontmatter in a single Python call for performance
-  const separator = "\n---SEPARATOR---\n";
-  const yamlTexts = [];
-
-  for (const filepath of filepaths) {
-    const content = readFileSync(filepath, "utf8");
-    const match = content.match(/^---\n([\s\S]*?)\n---/);
-    yamlTexts.push(match ? match[1] : "null");
-  }
-
-  const batchInput = yamlTexts.join(separator);
-  const result = spawnSync(
-    "python3",
-    [
-      "-c",
-      `import sys, yaml, json
-input_text = sys.stdin.read()
-docs = input_text.split("\\n---SEPARATOR---\\n")
-results = []
-for doc in docs:
-    try:
-        results.append(yaml.safe_load(doc))
-    except:
-        results.append(None)
-print(json.dumps(results))`,
-    ],
-    { input: batchInput, encoding: "utf8" },
-  );
-  if (result.status !== 0) {
-    throw new Error(`YAML batch parse failed: ${result.stderr}`);
-  }
-  const parsed = JSON.parse(result.stdout);
   const resultMap = {};
-  for (let i = 0; i < filepaths.length; i++) {
-    resultMap[filepaths[i]] = parsed[i];
+  for (const filepath of filepaths) {
+    resultMap[filepath] = parseFrontmatter(filepath);
   }
   return resultMap;
-}
-
-function parseFrontmatter(filepath) {
-  const content = readFileSync(filepath, "utf8");
-  const match = content.match(/^---\n([\s\S]*?)\n---/);
-  if (!match) return null;
-  return parseYaml(match[1]);
-}
-
-// --- Frontmatter parsing ---
-
-function parseFrontmatter(filepath) {
-  const content = readFileSync(filepath, "utf8");
-  const match = content.match(/^---\n([\s\S]*?)\n---/);
-  if (!match) return null;
-  return parseYaml(match[1]);
 }
 
 // --- Fetch valid field types and properties from Pages CMS source ---
@@ -119,8 +107,6 @@ async function fetchFieldTypeDefinition() {
 }
 
 function extractFieldProperties(fieldTypeSrc) {
-  // Extract property names from the TypeScript Field type definition
-  // Matches patterns like: name: string, name?: string, name: Type | null
   const props = new Set();
   const propRegex = /^\s+(\w+)\??:/gm;
   let match;
@@ -182,7 +168,7 @@ function collectFieldPropertyErrors(fields, validProps, path = "") {
     for (const key of Object.keys(field)) {
       if (!validProps.has(key)) {
         errors.push(
-          `Unknown field property "${key}" at ${fieldPath} (valid: ${[...validProps].sort().join(", ")})`,
+          `Unknown field property "${key}" at ${fieldPath}`,
         );
       }
     }
@@ -226,7 +212,6 @@ function findMissingFields(frontmatterObj, configFields, path = "") {
   for (const [key, value] of Object.entries(frontmatterObj)) {
     const fieldPath = path ? `${path}.${key}` : key;
 
-    // Skip 'body' as it maps to markdown content, not frontmatter
     if (key === "body") continue;
 
     if (!configNames.has(key)) {
@@ -237,17 +222,18 @@ function findMissingFields(frontmatterObj, configFields, path = "") {
     const fieldConfig = configFields.find((f) => f.name === key);
     if (!fieldConfig) continue;
 
-    // Recurse into nested objects
     if (fieldConfig.type === "object" && fieldConfig.fields && value) {
       if (fieldConfig.list && Array.isArray(value)) {
         for (let i = 0; i < value.length; i++) {
-          missing.push(
-            ...findMissingFields(
-              value[i],
-              fieldConfig.fields,
-              `${fieldPath}[${i}]`,
-            ),
-          );
+          if (value[i] && typeof value[i] === "object") {
+            missing.push(
+              ...findMissingFields(
+                value[i],
+                fieldConfig.fields,
+                `${fieldPath}[${i}]`,
+              ),
+            );
+          }
         }
       } else if (typeof value === "object" && !Array.isArray(value)) {
         missing.push(
@@ -256,7 +242,6 @@ function findMissingFields(frontmatterObj, configFields, path = "") {
       }
     }
 
-    // Recurse into block fields
     if (fieldConfig.type === "block" && Array.isArray(value)) {
       const bKey = fieldConfig.blockKey || "type";
       for (let i = 0; i < value.length; i++) {
@@ -280,7 +265,6 @@ function findMissingFields(frontmatterObj, configFields, path = "") {
             missing.push(bFieldPath);
           }
 
-          // Recurse into nested objects within blocks
           const bFieldConfig = blockDef.fields?.find(
             (f) => f.name === bFieldKey,
           );
@@ -291,13 +275,15 @@ function findMissingFields(frontmatterObj, configFields, path = "") {
           ) {
             if (bFieldConfig.list && Array.isArray(bFieldValue)) {
               for (let j = 0; j < bFieldValue.length; j++) {
-                missing.push(
-                  ...findMissingFields(
-                    bFieldValue[j],
-                    bFieldConfig.fields,
-                    `${bFieldPath}[${j}]`,
-                  ),
-                );
+                if (bFieldValue[j] && typeof bFieldValue[j] === "object") {
+                  missing.push(
+                    ...findMissingFields(
+                      bFieldValue[j],
+                      bFieldConfig.fields,
+                      `${bFieldPath}[${j}]`,
+                    ),
+                  );
+                }
               }
             } else if (
               typeof bFieldValue === "object" &&
