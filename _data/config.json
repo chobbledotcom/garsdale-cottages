@@ -18,5 +18,25 @@
 		"guide-categories",
 		"guide-pages",
 		"properties"
+	],
+	"property_link_button": {
+		"text": "Check Availability / Book Online",
+		"href": "#freetobook",
+		"size": null
+	},
+	"property_order": [
+		"property/header.html",
+		"property/freetobook.html",
+		"property/gallery.html",
+		"property/content.html",
+		"property/link-button.html",
+		"property/features.html",
+		"property/guides.html",
+		"property/specs.html",
+		"property/tabs.html",
+		"property/map.html",
+		"property/reviews.html",
+		"faqs.html",
+		"property/contact.html"
 	]
 }
