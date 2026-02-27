@@ -19,6 +19,11 @@
 		"guide-pages",
 		"properties"
 	],
+	"property_link_button": {
+		"text": "Check Availability / Book Online",
+		"href": "#freetobook",
+		"size": null
+	},
 	"property_order": [
 		"property/header.html",
 		"property/freetobook.html",
