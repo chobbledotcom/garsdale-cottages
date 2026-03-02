@@ -1,7 +1,7 @@
 ---
 header_text: Garsdale Cottages
-subtitle: Holiday lets in the Yorkshire Dales - book direct with property owners
-meta_title: Garsdale Cottages | Holiday Lets in the Yorkshire Dales
+subtitle: Holiday cottages in Garsdale, Yorkshire Dales - book direct with property owners
+meta_title: Garsdale Cottages | Holiday Cottages in Garsdale
 meta_description: "Book direct with cottage owners in Garsdale, Yorkshire Dales. Two charming holiday cottages - Roger Pot (sleeps 6) and The Old Cart House (sleeps 2). No middlemen, no agency fees."
 layout: design-system-base.html
 permalink: /
@@ -17,11 +17,11 @@ blocks:
     content: |
       # Garsdale Cottages
 
-      Holiday lets in the Yorkshire Dales - book direct with property owners
+      Holiday cottages in Garsdale, Yorkshire Dales - book direct with property owners
 
   - type: section-header
     title: Welcome to Garsdale Cottages
-    subtitle: "A cooperative of holiday lets in Garsdale - book directly with property owners for better prices and personal service"
+    subtitle: "A cooperative of holiday cottages in Garsdale - book directly with property owners for better prices and personal service"
     level: 2
     align: center
 
