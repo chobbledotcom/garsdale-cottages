@@ -82,7 +82,7 @@ blocks:
     content: |
       ## Guided Walks
 
-      Garsdale does not have an organisation that does guided walks but please talk to the holiday let owners for information on the routes of those local walks that suit your needs.
+      Garsdale does not have an organisation that does guided walks but please talk to the cottage owners for information on the routes of those local walks that suit your needs.
 
   - type: markdown
     content: |
