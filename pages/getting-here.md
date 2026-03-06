@@ -90,26 +90,11 @@ blocks:
     figure_alt: Roger Pot and Rose Cottage
     reverse: false
   - type: markdown
-    content: >
-      ## Before You Arrive
-
-
-      **EV Charging** - The Old Cart House has an EV charger. Guests should
-      discuss their needs with the owners.
-
-
-      As the closest shops are about 6 miles away in Sedbergh, we would suggest
-      bringing groceries for the first day or two. A welcome basket is provided
-      for guests with some regional produce.
-
-
-      Please contact via our mobile numbers if you have any difficulties and we
-      will assist as we can.
-
-
-      - Loraine: 07905 637690
-
-      - Jack: 07982 235493
+    content: "## Before You Arrive*As the closest shops are about 6 miles away in
+      Sedbergh, we would suggest bringing groceries for the first day or two. A
+      welcome basket is provided for guests with some regional produce.Please
+      contact via our mobile numbers if you have any difficulties and we will
+      assist as we can.- Loraine: 07905 637690- Jack: 07982 235493"
   - type: cta
     title: Stay in Garsdale
     description: Book direct with local cottage owners for better prices and
