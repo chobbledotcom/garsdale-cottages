@@ -184,7 +184,12 @@
         (place.categoryLabel || catLookup[place.category] || place.category) +
         "</p>";
       if (place.description) {
-        popupHtml += '<div class="description">' + place.description + "</div>";
+        var tmp = document.createElement("div");
+        tmp.innerHTML = place.description;
+        var text = tmp.textContent.trim();
+        if (text) {
+          popupHtml += '<div class="description">' + text + "</div>";
+        }
       }
       popupHtml +=
         '<a href="' +
