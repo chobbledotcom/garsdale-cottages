@@ -351,13 +351,26 @@
         btn.classList.toggle("active", btn.dataset.category === activeCategory);
       });
 
+      var visibleLatLngs = [];
+
       markers.forEach(function (item) {
         if (activeCategory === "all" || item.category === activeCategory) {
           item.marker.addTo(map);
+          visibleLatLngs.push(item.marker.getLatLng());
         } else {
           map.removeLayer(item.marker);
         }
       });
+
+      if (visibleLatLngs.length > 0) {
+        var bounds = L.latLngBounds(visibleLatLngs);
+        if (!map.getBounds().contains(bounds)) {
+          map.setView([centreLat, centreLng], 11);
+          if (!map.getBounds().contains(bounds)) {
+            map.fitBounds(bounds, { padding: [40, 40] });
+          }
+        }
+      }
     });
   })();
   </script>
