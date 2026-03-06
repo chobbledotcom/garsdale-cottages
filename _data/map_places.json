@@ -45,7 +45,7 @@
       "directionsUrl": "https://www.google.com/maps/dir//54.30457719999999,-2.1922861",
       "icon": "icons/touchstay/museums.svg",
       "iconUrl": "https://hub.touchstay.com/static/pins/museums.svg?v=4",
-      "iconify": "hugeicons:museum",
+      "iconify": "hugeicons:building-03",
       "color": "#5E35B1"
     },
     {
@@ -605,7 +605,7 @@
       "directionsUrl": "https://www.google.com/maps/dir//54.3241276,-2.5255781",
       "icon": "icons/touchstay/electric_charging_station.svg",
       "iconUrl": "https://hub.touchstay.com/static/pins/electric_charging_station.svg?v=4",
-      "iconify": "hugeicons:charging",
+      "iconify": "hugeicons:ev-charging",
       "color": "#00897B"
     },
     {
@@ -838,7 +838,7 @@
       "type": "adventure_activities",
       "label": "Adventure activities",
       "icon": null,
-      "iconify": "hugeicons:rock-climbing",
+      "iconify": "hugeicons:mountain",
       "color": "#E65100"
     },
     {
@@ -859,7 +859,7 @@
       "type": "arts_and_culture",
       "label": "Arts and culture",
       "icon": null,
-      "iconify": "hugeicons:theatre",
+      "iconify": "hugeicons:mask-theater-01",
       "color": "#6A1B9A"
     },
     {
@@ -922,7 +922,7 @@
       "type": "camping",
       "label": "Camping",
       "icon": null,
-      "iconify": "hugeicons:tent-01",
+      "iconify": "hugeicons:tree-06",
       "color": "#33691E"
     },
     {
@@ -978,7 +978,7 @@
       "type": "electric_charging_station",
       "label": "Electric charging point",
       "icon": null,
-      "iconify": "hugeicons:charging",
+      "iconify": "hugeicons:ev-charging",
       "color": "#00897B"
     },
     {
@@ -1160,7 +1160,7 @@
       "type": "museums",
       "label": "Museums",
       "icon": null,
-      "iconify": "hugeicons:museum",
+      "iconify": "hugeicons:building-03",
       "color": "#5E35B1"
     },
     {
@@ -1195,7 +1195,7 @@
       "type": "parks_and_nature",
       "label": "Parks and nature",
       "icon": null,
-      "iconify": "hugeicons:park",
+      "iconify": "hugeicons:tree-01",
       "color": "#2E7D32"
     },
     {
@@ -1300,7 +1300,7 @@
       "type": "sightseeing",
       "label": "Sightseeing",
       "icon": "icons/touchstay/sightseeing.svg",
-      "iconify": "hugeicons:binocular",
+      "iconify": "hugeicons:binoculars",
       "color": "#00695C"
     },
     {
@@ -1328,7 +1328,7 @@
       "type": "spa_beauty",
       "label": "Spa/beauty",
       "icon": null,
-      "iconify": "hugeicons:spa",
+      "iconify": "hugeicons:wellness",
       "color": "#EC407A"
     },
     {
