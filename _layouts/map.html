@@ -116,6 +116,7 @@
     .category-marker-icon svg {
       width: 18px;
       height: 18px;
+      color: #fff;
     }
     .map-filters button .filter-dot {
       display: inline-block;
@@ -248,9 +249,16 @@
     });
 
     function createCategoryIcon(color, iconifyId) {
-      var iconName = iconifyId ? iconifyId.replace(":", "--") : "hugeicons--location-04";
+      var name = iconifyId || "hugeicons:location-04";
+      var svgHtml = "";
+      if (window.Iconify && Iconify.renderHTML) {
+        svgHtml = Iconify.renderHTML(name, { width: 18, height: 18 });
+      }
+      if (!svgHtml) {
+        svgHtml = '<span class="iconify" data-icon="' + name + '" data-width="18" data-height="18" style="color:#fff;"></span>';
+      }
       var html = '<div class="category-marker-icon" style="background:' + color + ';">' +
-        '<span class="iconify" data-icon="' + (iconifyId || "hugeicons:location-04") + '" data-width="18" data-height="18" style="color:#fff;"></span>' +
+        svgHtml +
         '</div>';
       return L.divIcon({
         className: "",
@@ -261,91 +269,112 @@
       });
     }
 
-    var markers = [];
+    // Collect all unique icon names needed
+    var iconNames = [];
+    var iconNameSet = {};
     places.forEach(function (place) {
       var catInfo = catIconLookup[place.category] || {};
-      var color = place.color || catInfo.color || "#757575";
-      var iconifyId = place.iconify || catInfo.iconify || "hugeicons:location-04";
-      var icon = createCategoryIcon(color, iconifyId);
-      var marker = L.marker([place.location.lat, place.location.lng], { icon: icon });
-
-      var popupEl = document.createElement("div");
-      popupEl.className = "place-popup";
-
-      var h3 = document.createElement("h3");
-      h3.textContent = place.title;
-      popupEl.appendChild(h3);
-
-      var catP = document.createElement("p");
-      catP.className = "category";
-      catP.textContent = place.categoryLabel || catLookup[place.category] || place.category;
-      popupEl.appendChild(catP);
-
-      if (place.description) {
-        var tmp = document.createElement("div");
-        tmp.innerHTML = place.description;
-        var text = tmp.textContent.trim();
-        if (text) {
-          var descDiv = document.createElement("div");
-          descDiv.className = "description";
-          descDiv.textContent = text;
-          popupEl.appendChild(descDiv);
-        }
+      var name = place.iconify || catInfo.iconify || "hugeicons:location-04";
+      if (!iconNameSet[name]) {
+        iconNameSet[name] = true;
+        iconNames.push(name);
       }
-
-      var select = document.createElement("select");
-      var defaultOpt = document.createElement("option");
-      defaultOpt.textContent = "Directions from\u2026";
-      defaultOpt.value = "";
-      select.appendChild(defaultOpt);
-      properties.forEach(function (prop) {
-        var opt = document.createElement("option");
-        opt.textContent = prop.name;
-        opt.value = "https://www.google.com/maps/dir/" + prop.lat + "," + prop.lng + "/" + place.location.lat + "," + place.location.lng;
-        select.appendChild(opt);
-      });
-      select.addEventListener("change", function () {
-        if (select.value) {
-          window.open(select.value, "_blank", "noopener");
-          select.selectedIndex = 0;
-        }
-      });
-      popupEl.appendChild(select);
-
-      marker.bindPopup(popupEl);
-      marker.addTo(map);
-      markers.push({ marker: marker, category: place.category });
     });
 
-    // Trigger Iconify to render icons in map markers
-    if (window.Iconify) {
-      window.Iconify.scan();
+    function addMarkers() {
+      var markers = [];
+      places.forEach(function (place) {
+        var catInfo = catIconLookup[place.category] || {};
+        var color = place.color || catInfo.color || "#757575";
+        var iconifyId = place.iconify || catInfo.iconify || "hugeicons:location-04";
+        var icon = createCategoryIcon(color, iconifyId);
+        var marker = L.marker([place.location.lat, place.location.lng], { icon: icon });
+
+        var popupEl = document.createElement("div");
+        popupEl.className = "place-popup";
+
+        var h3 = document.createElement("h3");
+        h3.textContent = place.title;
+        popupEl.appendChild(h3);
+
+        var catP = document.createElement("p");
+        catP.className = "category";
+        catP.textContent = place.categoryLabel || catLookup[place.category] || place.category;
+        popupEl.appendChild(catP);
+
+        if (place.description) {
+          var tmp = document.createElement("div");
+          tmp.innerHTML = place.description;
+          var text = tmp.textContent.trim();
+          if (text) {
+            var descDiv = document.createElement("div");
+            descDiv.className = "description";
+            descDiv.textContent = text;
+            popupEl.appendChild(descDiv);
+          }
+        }
+
+        var select = document.createElement("select");
+        var defaultOpt = document.createElement("option");
+        defaultOpt.textContent = "Directions from\u2026";
+        defaultOpt.value = "";
+        select.appendChild(defaultOpt);
+        properties.forEach(function (prop) {
+          var opt = document.createElement("option");
+          opt.textContent = prop.name;
+          opt.value = "https://www.google.com/maps/dir/" + prop.lat + "," + prop.lng + "/" + place.location.lat + "," + place.location.lng;
+          select.appendChild(opt);
+        });
+        select.addEventListener("change", function () {
+          if (select.value) {
+            window.open(select.value, "_blank", "noopener");
+            select.selectedIndex = 0;
+          }
+        });
+        popupEl.appendChild(select);
+
+        marker.bindPopup(popupEl);
+        marker.addTo(map);
+        markers.push({ marker: marker, category: place.category });
+      });
+      return markers;
     }
 
-    var activeCategory = "all";
-
-    filtersEl.addEventListener("click", function (e) {
-      var btn = e.target.closest("button");
-      if (!btn) return;
-
-      activeCategory = btn.dataset.category;
-
-      filtersEl.querySelectorAll("button").forEach(function (btn) {
-        btn.classList.toggle("active", btn.dataset.category === activeCategory);
+    // Preload icon data then create markers so renderHTML works
+    var markers = [];
+    if (window.Iconify && Iconify.loadIcons) {
+      Iconify.loadIcons(iconNames, function () {
+        markers = addMarkers();
+        bindFilters(markers);
       });
+    } else {
+      markers = addMarkers();
+      if (window.Iconify) { Iconify.scan(); }
+      bindFilters(markers);
+    }
 
-      markers.forEach(function (item) {
-        if (activeCategory === "all" || item.category === activeCategory) {
-          item.marker.addTo(map);
-        } else {
-          map.removeLayer(item.marker);
-        }
+    function bindFilters(markers) {
+      var activeCategory = "all";
+
+      filtersEl.addEventListener("click", function (e) {
+        var btn = e.target.closest("button");
+        if (!btn) return;
+
+        activeCategory = btn.dataset.category;
+
+        filtersEl.querySelectorAll("button").forEach(function (btn) {
+          btn.classList.toggle("active", btn.dataset.category === activeCategory);
+        });
+
+        markers.forEach(function (item) {
+          if (activeCategory === "all" || item.category === activeCategory) {
+            item.marker.addTo(map);
+          } else {
+            map.removeLayer(item.marker);
+          }
+        });
       });
-
-      if (window.Iconify) {
-        window.Iconify.scan();
-      }
-    });
+    }
   })();
   </script>
 {% endraw %}
