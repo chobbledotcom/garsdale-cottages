@@ -161,9 +161,11 @@
 
     var map = L.map("map").setView([centreLat, centreLng], 11);
 
+    var osmLink = document.createElement("a");
+    osmLink.href = "https://www.openstreetmap.org/copyright";
+    osmLink.textContent = "OpenStreetMap";
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution: "\u00A9 " + osmLink.outerHTML + " contributors",
       maxZoom: 19
     }).addTo(map);
 
@@ -171,27 +173,38 @@
     places.forEach(function (place) {
       var marker = L.marker([place.location.lat, place.location.lng]);
 
-      var popupHtml = '<div class="place-popup">';
-      popupHtml += "<h3>" + place.title + "</h3>";
-      popupHtml +=
-        '<p class="category">' +
-        (place.categoryLabel || catLookup[place.category] || place.category) +
-        "</p>";
+      var popupEl = document.createElement("div");
+      popupEl.className = "place-popup";
+
+      var h3 = document.createElement("h3");
+      h3.textContent = place.title;
+      popupEl.appendChild(h3);
+
+      var catP = document.createElement("p");
+      catP.className = "category";
+      catP.textContent = place.categoryLabel || catLookup[place.category] || place.category;
+      popupEl.appendChild(catP);
+
       if (place.description) {
         var tmp = document.createElement("div");
         tmp.innerHTML = place.description;
         var text = tmp.textContent.trim();
         if (text) {
-          popupHtml += '<div class="description">' + text + "</div>";
+          var descDiv = document.createElement("div");
+          descDiv.className = "description";
+          descDiv.textContent = text;
+          popupEl.appendChild(descDiv);
         }
       }
-      popupHtml +=
-        '<a href="' +
-        place.directionsUrl +
-        '" target="_blank" rel="noopener">Get directions</a>';
-      popupHtml += "</div>";
 
-      marker.bindPopup(popupHtml);
+      var link = document.createElement("a");
+      link.href = place.directionsUrl;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "Get directions";
+      popupEl.appendChild(link);
+
+      marker.bindPopup(popupEl);
       marker.addTo(map);
       markers.push({ marker: marker, category: place.category });
     });
