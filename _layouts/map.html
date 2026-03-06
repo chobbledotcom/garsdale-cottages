@@ -86,13 +86,10 @@
     .place-popup a {
       font-size: 0.85rem;
     }
-    .place-popup select {
+    .place-popup .directions-link {
+      display: block;
       font-size: 0.85rem;
-      padding: 0.3rem 0.4rem;
-      border-radius: 4px;
-      border: 1px solid #ccc;
-      width: 100%;
-      cursor: pointer;
+      margin-top: 0.4rem;
     }
     .property-marker-icon {
       background: #d32f2f;
@@ -246,6 +243,15 @@
       popupAnchor: [0, -8]
     });
 
+    var propLatSum = 0;
+    var propLngSum = 0;
+    properties.forEach(function (p) {
+      propLatSum += p.lat;
+      propLngSum += p.lng;
+    });
+    var garsdaleLat = propLatSum / properties.length;
+    var garsdaleLng = propLngSum / properties.length;
+
     properties.forEach(function (prop) {
       var marker = L.marker([prop.lat, prop.lng], { icon: propertyIcon });
       var popupEl = document.createElement("div");
@@ -315,24 +321,13 @@
         }
       }
 
-      var select = document.createElement("select");
-      var defaultOpt = document.createElement("option");
-      defaultOpt.textContent = "Directions from\u2026";
-      defaultOpt.value = "";
-      select.appendChild(defaultOpt);
-      properties.forEach(function (prop) {
-        var opt = document.createElement("option");
-        opt.textContent = prop.name;
-        opt.value = "https://www.google.com/maps/dir/" + prop.lat + "," + prop.lng + "/" + place.location.lat + "," + place.location.lng;
-        select.appendChild(opt);
-      });
-      select.addEventListener("change", function () {
-        if (select.value) {
-          window.open(select.value, "_blank", "noopener");
-          select.selectedIndex = 0;
-        }
-      });
-      popupEl.appendChild(select);
+      var dirLink = document.createElement("a");
+      dirLink.textContent = "Directions from Garsdale";
+      dirLink.href = "https://www.google.com/maps/dir/" + garsdaleLat + "," + garsdaleLng + "/" + place.location.lat + "," + place.location.lng;
+      dirLink.target = "_blank";
+      dirLink.rel = "noopener";
+      dirLink.className = "directions-link";
+      popupEl.appendChild(dirLink);
 
       marker.bindPopup(popupEl);
       marker.addTo(map);
