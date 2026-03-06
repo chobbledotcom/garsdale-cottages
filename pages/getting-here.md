@@ -55,32 +55,25 @@ blocks:
     figure_alt: View over Langstone Fell at moonrise
     reverse: true
   - type: markdown
-    content: >
-      ## The Final Approach
-
-
-      Travelling to Garsdale from the **Sedbergh direction** you will pass
-      Blades Farm on your left, which has a small certified campsite. A little
-      further on you will see the Garsdale village sign by the bridge. The lane
-      to Roger Pot is here, through the gate. To continue to The Old Cart House,
-      pass over the bridge and along past the village hall. You will then go
-      around a sharp bend with a farm on the right hand side, pass the church,
-      the letter box and there is a row of houses on the right side of the road,
-      opposite the river, and The Old Cart House is there.
-
-
-      Travelling to Garsdale from the **Hawes direction**, pass under the
-      railway viaduct and you will see a sign for Garsdale Parish. Drive a
-      further 3 miles and you will pass the stone plinth with 'Welcome to
-      Garsdale'. Drive past a farm called East Little Town on your left and
-      follow the road passing Dandra Garth on your left with the river on your
-      right. You will then approach the area known locally as 'the street'. The
-      Police House is the first house and a few houses later you will reach Rose
-      Cottage and The Old Cart House. To travel to Roger Pot follow the road
-      further past the church and the sharp bend, passing the village hall and
-      immediately over the bridge is a track to the right which will lead
-      through the gate and up to Roger Pot. The farm track to Roger Pot is
-      narrow so care does need to be taken.
+    content: "## The Final ApproachTravelling to Garsdale from the **Sedbergh
+      direction** you will pass Blades Farm on your left, which has a small
+      certified campsite. A little further on you will see the Garsdale village
+      sign by the bridge. The lane to Roger Pot is here, through the gate. To
+      continue to The Old Cart House, pass over the bridge and along past the
+      village hall. You will then go around a sharp bend with a farm on the
+      right hand side, pass the church on the left, the letter box and there is
+      a row of houses on the right side of the road, opposite the river, and The
+      Old Cart House is there.Travelling to Garsdale from the **Hawes
+      direction**, pass under the railway viaduct and you will see a sign for
+      Garsdale Parish. Drive a further 3 miles and you will pass the stone
+      plinth with 'Welcome to Garsdale'. Drive past a farm called East Little
+      Town on your left and follow the road passing Dandra Garth on your left
+      with the river on your right. You will then approach the area known
+      locally as 'the street'. The Police House is the first house and a few
+      houses later you will reach Rose Cottage and The Old Cart House. To travel
+      to Roger Pot follow the road a little further past the church and the
+      sharp bend, passing the village hall and immediately over the bridge is a
+      track to the right which will lead through the gate and up to Roger Pot."
   - type: split
     title: By Train
     subtitle: On the Settle-Carlisle railway
