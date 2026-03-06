@@ -125,6 +125,20 @@
     .map-filters button.active .filter-dot {
       border: 1px solid rgba(255,255,255,0.6);
     }
+    .map-filters button .filter-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0.35rem;
+      vertical-align: middle;
+    }
+    .map-filters button .filter-icon svg {
+      width: 16px;
+      height: 16px;
+    }
+    .map-filters button.active .filter-icon {
+      color: #fff !important;
+    }
   </style>
 </head>
 <body class="design-system {{ layout | getBodyClasses: config }}">
@@ -200,13 +214,28 @@
       return a.label.localeCompare(b.label);
     });
 
+    // Build icon SVG lookup from build-time rendered templates
+    var iconSvgLookup = {};
+    document.querySelectorAll("#map-icons template[data-icon]").forEach(function (t) {
+      iconSvgLookup[t.dataset.icon] = t.innerHTML.trim();
+    });
+
     var filtersEl = document.getElementById("map-filters");
     usedCategories.forEach(function (cat) {
       var btn = document.createElement("button");
-      var dot = document.createElement("span");
-      dot.className = "filter-dot";
-      dot.style.backgroundColor = cat.color;
-      btn.appendChild(dot);
+      var iconify = (catIconLookup[cat.type] || {}).iconify;
+      if (iconify && iconSvgLookup[iconify]) {
+        var iconSpan = document.createElement("span");
+        iconSpan.className = "filter-icon";
+        iconSpan.style.color = cat.color;
+        iconSpan.innerHTML = iconSvgLookup[iconify];
+        btn.appendChild(iconSpan);
+      } else {
+        var dot = document.createElement("span");
+        dot.className = "filter-dot";
+        dot.style.backgroundColor = cat.color;
+        btn.appendChild(dot);
+      }
       btn.appendChild(document.createTextNode(cat.label));
       btn.dataset.category = cat.type;
       filtersEl.appendChild(btn);
@@ -265,12 +294,6 @@
       popupEl.appendChild(catP);
       marker.bindPopup(popupEl);
       marker.addTo(map);
-    });
-
-    // Build icon SVG lookup from build-time rendered templates
-    var iconSvgLookup = {};
-    document.querySelectorAll("#map-icons template[data-icon]").forEach(function (t) {
-      iconSvgLookup[t.dataset.icon] = t.innerHTML.trim();
     });
 
     function createCategoryIcon(color, iconifyId) {
@@ -340,7 +363,12 @@
       var btn = e.target.closest("button");
       if (!btn) return;
 
-      activeCategory = btn.dataset.category;
+      // Toggle: clicking the already-active category deselects it (back to "all")
+      if (btn.dataset.category === activeCategory && activeCategory !== "all") {
+        activeCategory = "all";
+      } else {
+        activeCategory = btn.dataset.category;
+      }
 
       filtersEl.querySelectorAll("button").forEach(function (btn) {
         btn.classList.toggle("active", btn.dataset.category === activeCategory);
