@@ -270,12 +270,13 @@
     function createCategoryIcon(color, iconifyId) {
       var name = iconifyId || "hugeicons:location-04";
       var svgHtml = iconSvgLookup[name] || "";
-      var html = '<div class="category-marker-icon" style="background:' + color + ';">' +
-        svgHtml +
-        '</div>';
+      var el = document.createElement("div");
+      el.className = "category-marker-icon";
+      el.style.background = color;
+      el.innerHTML = svgHtml;
       return L.divIcon({
         className: "",
-        html: html,
+        html: el,
         iconSize: [32, 32],
         iconAnchor: [16, 16],
         popupAnchor: [0, -18]
