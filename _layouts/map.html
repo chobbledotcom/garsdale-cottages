@@ -86,6 +86,22 @@
     .place-popup a {
       font-size: 0.85rem;
     }
+    .place-popup select {
+      font-size: 0.85rem;
+      padding: 0.3rem 0.4rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      width: 100%;
+      cursor: pointer;
+    }
+    .property-marker-icon {
+      background: #d32f2f;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      width: 14px !important;
+      height: 14px !important;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    }
   </style>
 </head>
 <body class="design-system {{ layout | getBodyClasses: config }}">
@@ -169,6 +185,33 @@
       maxZoom: 19
     }).addTo(map);
 
+    var properties = [
+      { name: "The Old Cart House", lat: 54.301567363302105, lng: -2.3884263433724717 },
+      { name: "Roger Pot", lat: 54.30236605935729, lng: -2.3889289241208953 }
+    ];
+
+    var propertyIcon = L.divIcon({
+      className: "property-marker-icon",
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+      popupAnchor: [0, -8]
+    });
+
+    properties.forEach(function (prop) {
+      var marker = L.marker([prop.lat, prop.lng], { icon: propertyIcon });
+      var popupEl = document.createElement("div");
+      popupEl.className = "place-popup";
+      var h3 = document.createElement("h3");
+      h3.textContent = prop.name;
+      popupEl.appendChild(h3);
+      var catP = document.createElement("p");
+      catP.className = "category";
+      catP.textContent = "Our property";
+      popupEl.appendChild(catP);
+      marker.bindPopup(popupEl);
+      marker.addTo(map);
+    });
+
     var markers = [];
     places.forEach(function (place) {
       var marker = L.marker([place.location.lat, place.location.lng]);
@@ -197,12 +240,24 @@
         }
       }
 
-      var link = document.createElement("a");
-      link.href = place.directionsUrl;
-      link.target = "_blank";
-      link.rel = "noopener";
-      link.textContent = "Get directions";
-      popupEl.appendChild(link);
+      var select = document.createElement("select");
+      var defaultOpt = document.createElement("option");
+      defaultOpt.textContent = "Directions from\u2026";
+      defaultOpt.value = "";
+      select.appendChild(defaultOpt);
+      properties.forEach(function (prop) {
+        var opt = document.createElement("option");
+        opt.textContent = prop.name;
+        opt.value = "https://www.google.com/maps/dir/" + prop.lat + "," + prop.lng + "/" + place.location.lat + "," + place.location.lng;
+        select.appendChild(opt);
+      });
+      select.addEventListener("change", function () {
+        if (select.value) {
+          window.open(select.value, "_blank", "noopener");
+          select.selectedIndex = 0;
+        }
+      });
+      popupEl.appendChild(select);
 
       marker.bindPopup(popupEl);
       marker.addTo(map);
