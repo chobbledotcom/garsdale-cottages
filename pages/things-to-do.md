@@ -126,35 +126,15 @@ blocks:
       Raydale, close to Countersett village. There are footpaths and walks from
       and around the lake with some fantastic views.
   - type: markdown
-    content: >
-      ## Food and Drink
-
-
-      There are a number of good eating places in and around Sedbergh but some
-      that we use more often are:
-
-
-      - The Cross Keys at Cautley
-
-      - The Green Dragon at Hardraw - also has regular events and a music night
-      every Wednesday
-
-      - The White Hart in Hawes
-
-      - The Sportsman in Cowgill, Dent
-
-      - Stone Close tea room in Dent
-
-      - [Zeffirellis](https://www.zeffirellis.com/film) in Ambleside -
-      vegetarian restaurant
-
-      - Doi Intanon Thai restaurant in Ambleside
-
-      - The White Hare Cafe in Kirkby Stephen - also has an acoustic night once
-      a month
-
-      - Half and Half in Sedbergh - has a variety of events and a music night
-      once a month
+    content: "## Food and DrinkThere are a number of good eating places in and
+      around Sedbergh but some that we use more often are:- The Cross Keys at
+      Cautley (a no alcohol temperance inn) - The Green Dragon at Hardraw - also
+      has regular events and a music night every Wednesday- The White Hart in
+      Hawes- The Sportsman in Cowgill, Dent- Stone Close tea room in Dent-
+      [Zeffirellis](https://www.zeffirellis.com/film) in Ambleside - vegetarian
+      restaurant- Doi Intanon Thai restaurant in Ambleside- The White Hare Cafe
+      in Kirkby Stephen - also has an acoustic night once a month- Half and Half
+      in Sedbergh - has a variety of events and a music night once a month"
   - type: markdown
     content: "## Places We GoSome favourite places of ours to visit with friends and
       family**Hardraw Force** in Hardraw near to Hawes. The walk to the falls is
