@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {%- include "head-meta.html" -%}
+
+  <link
+    rel="stylesheet"
+    href="{{ '/css/design-system-bundle.css' | cacheBust }}"
+  >
+
+  {%- include "js-config-script.html" -%}
+
+  <script
+    type="module"
+    src="{{ '/assets/js/bundle.js' | cacheBust }}"
+  ></script>
+
+  {%- include "head-schema.html" -%}
+
+  <link
+    rel="stylesheet"
+    href="/assets/leaflet/leaflet.css"
+  >
+  <script src="/assets/leaflet/leaflet.js"></script>
+
+  <style>
+    .map-page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    .map-page h1 {
+      margin-bottom: 0.5rem;
+    }
+    .map-page p.map-subtitle {
+      margin-bottom: 1rem;
+      color: var(--text-secondary, #666);
+    }
+    #map {
+      width: 100%;
+      height: 70vh;
+      min-height: 400px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color, #ddd);
+    }
+    .map-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .map-filters button {
+      padding: 0.4rem 0.8rem;
+      border: 1px solid var(--border-color, #ddd);
+      border-radius: 4px;
+      background: var(--bg-secondary, #f5f5f5);
+      color: var(--text-primary, #333);
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .map-filters button:hover {
+      background: var(--bg-hover, #e8e8e8);
+    }
+    .map-filters button.active {
+      background: var(--accent, #2563eb);
+      color: #fff;
+      border-color: var(--accent, #2563eb);
+    }
+    .leaflet-popup-content-wrapper {
+      border-radius: 6px;
+    }
+    .place-popup h3 {
+      margin: 0 0 0.25rem;
+      font-size: 1rem;
+    }
+    .place-popup .category {
+      font-size: 0.8rem;
+      color: #666;
+      margin: 0 0 0.5rem;
+    }
+    .place-popup .description {
+      font-size: 0.85rem;
+      margin: 0 0 0.5rem;
+    }
+    .place-popup a {
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body class="design-system {{ layout | getBodyClasses: config }}">
+  {%- include "body-scripts.html" -%}
+  {%- unless no_navigation -%}
+    {%- include "navigation.html" -%}
+  {%- endunless -%}
+  <main{% if pagefind_body %} data-pagefind-body{% endif %}>
+    <div class="map-page">
+      <h1>{{ header_text }}</h1>
+      {% if subtitle %}<p class="map-subtitle">{{ subtitle }}</p>{% endif %}
+
+      <div class="map-filters" id="map-filters">
+        <button class="active" data-category="all">All</button>
+      </div>
+
+      <div id="map"></div>
+    </div>
+  </main>
+  {%- include "design-system/footer.html" -%}
+  {%- include "image-popup.html" -%}
+  {%- include "client-templates.html" -%}
+  {%- include "theme-switcher.html" -%}
+  {%- include "cart-icon.html" -%}
+  {%- include "cart-overlay.html" -%}
+
+  <script id="map-places-data" type="application/json">
+  {{ map_places | json }}
+  </script>
+
+{% raw %}
+  <script>
+  (function () {
+    var dataEl = document.getElementById("map-places-data");
+    var data = JSON.parse(dataEl.textContent);
+    var places = data.places;
+    var categories = data.categories;
+
+    var catLookup = {};
+    categories.forEach(function (c) { catLookup[c.type] = c.label; });
+
+    var usedCategories = [];
+    var seen = {};
+    places.forEach(function (p) {
+      if (!seen[p.category]) {
+        seen[p.category] = true;
+        usedCategories.push({
+          type: p.category,
+          label: p.categoryLabel || catLookup[p.category] || p.category
+        });
+      }
+    });
+    usedCategories.sort(function (a, b) {
+      return a.label.localeCompare(b.label);
+    });
+
+    var filtersEl = document.getElementById("map-filters");
+    usedCategories.forEach(function (cat) {
+      var btn = document.createElement("button");
+      btn.textContent = cat.label;
+      btn.dataset.category = cat.type;
+      filtersEl.appendChild(btn);
+    });
+
+    var latSum = 0;
+    var lngSum = 0;
+    places.forEach(function (p) {
+      latSum += p.location.lat;
+      lngSum += p.location.lng;
+    });
+    var centreLat = latSum / places.length;
+    var centreLng = lngSum / places.length;
+
+    var map = L.map("map").setView([centreLat, centreLng], 11);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19
+    }).addTo(map);
+
+    var markers = [];
+    places.forEach(function (place) {
+      var marker = L.marker([place.location.lat, place.location.lng]);
+
+      var popupHtml = '<div class="place-popup">';
+      popupHtml += "<h3>" + place.title + "</h3>";
+      popupHtml +=
+        '<p class="category">' +
+        (place.categoryLabel || catLookup[place.category] || place.category) +
+        "</p>";
+      if (place.description) {
+        var tmp = document.createElement("div");
+        tmp.innerHTML = place.description;
+        var text = tmp.textContent.trim();
+        if (text) {
+          popupHtml += '<div class="description">' + text + "</div>";
+        }
+      }
+      popupHtml +=
+        '<a href="' +
+        place.directionsUrl +
+        '" target="_blank" rel="noopener">Get directions</a>';
+      popupHtml += "</div>";
+
+      marker.bindPopup(popupHtml);
+      marker.addTo(map);
+      markers.push({ marker: marker, category: place.category });
+    });
+
+    var activeCategory = "all";
+
+    filtersEl.addEventListener("click", function (e) {
+      if (e.target.tagName !== "BUTTON") return;
+
+      activeCategory = e.target.dataset.category;
+
+      filtersEl.querySelectorAll("button").forEach(function (btn) {
+        btn.classList.toggle("active", btn.dataset.category === activeCategory);
+      });
+
+      markers.forEach(function (item) {
+        if (activeCategory === "all" || item.category === activeCategory) {
+          item.marker.addTo(map);
+        } else {
+          map.removeLayer(item.marker);
+        }
+      });
+    });
+  })();
+  </script>
+{% endraw %}
+</body>
+</html>
