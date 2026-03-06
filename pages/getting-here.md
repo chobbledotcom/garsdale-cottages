@@ -76,15 +76,15 @@ blocks:
       track to the right which will lead through the gate and up to Roger Pot."
   - type: split
     title: By Train
-    subtitle: On the Settle-Carlisle railway
-    content: >
-      The [Settle-Carlisle Railway](https://settle-carlisle.co.uk/) arrives at
-      Garsdale Station. There is no public transport from the station into
-      Garsdale and Sedbergh, but the Little White Bus service does run to Hawes.
-
-
-      Normally there are no taxis in Garsdale. The nearest taxi service may be
-      in Hawes but guests are advised to check in advance.
+    subtitle: On the Settle-Carlisle railway or by Main Line train to Kendals
+      Oxenholme Statiom
+    content: The [Settle-Carlisle Railway](https://settle-carlisle.co.uk/) arrives
+      at Garsdale Station. There is no public transport from the station into
+      Garsdale and Sedbergh, but the Little White Bus service does run to
+      Hawes.Normally there are no taxis in Garsdale. The nearest taxi service
+      may be in Hawes but guests are advised to check in advance. If you want to
+      use the Main Line, Oxenholme offers a convenient main line option with
+      cabs regularly available at the station
     figure_type: image
     figure_src: /images/scenery/roger-pot-and-rose-cottage.jpeg
     figure_alt: Roger Pot and Rose Cottage
