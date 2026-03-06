@@ -187,39 +187,25 @@ blocks:
       which has a cinema, holds music and comedy nights and also has children's
       daytime events.
   - type: markdown
-    content: >
-      ## With Children
-
-
-      There are a number of child friendly activities within travelling
-      distance:
-
-
-      [The Forbidden Corner](https://www.theforbiddencorner.co.uk/) in
-      Middleham, Leyburn is a delightful experience for children and has been
-      featured on CBBC shows.
-
-
-      Ingleton has the [White Scar Caves](https://whitescarcave.co.uk/) which is
-      the longest show cave in Britain and has guided tours taking about 80
-      minutes.
-
-
-      Children will enjoy the Wensleydale Cheese experience at the [Wensleydale
-      Creamery](https://www.wensleydale.co.uk/) and you can see the Yorkshire
-      Wensleydale Cheese being made by hand and the cheese shop has many cheeses
-      to taste.
-
-
-      Hawes also has the [Dales Countryside
+    content: "## With ChildrenThere are a number of child friendly activities within
+      travelling distance:[The Forbidden
+      Corner](https://www.theforbiddencorner.co.uk/) in Middleham, Leyburn is a
+      delightful experience for children and has been featured on CBBC
+      shows.Ingleton has the [White Scar Caves](https://whitescarcave.co.uk/)
+      which is the longest show cave in Britain and has guided tours taking
+      about 80 minutes.Children will enjoy the Wensleydale Cheese experience at
+      the [Wensleydale Creamery](https://www.wensleydale.co.uk/) and you can see
+      the Yorkshire Wensleydale Cheese being made by hand and the cheese shop
+      has many cheeses to taste.Hawes also has the [Dales Countryside
       Museum](https://www.dalescountrysidemuseum.org.uk/) which has many family
-      friendly events throughout the year.
-
-
-      The [Ingleton Waterfalls Trail](https://ingletonwaterfallstrail.co.uk/) is
-      a 4 and a half mile circular route and can take between two and a half
-      hours to 4 hours to complete. It is suitable for older children and
-      requires sturdy footwear.
+      friendly events throughout the year.The [Ingleton Waterfalls
+      Trail](https://ingletonwaterfallstrail.co.uk/) is a 4 and a half mile
+      circular route and can take between two and a half hours to 4 hours to
+      complete. It is suitable for older children and requires sturdy footwear.
+      The more adventurous might consider a trip to Honister Slate Mine for a
+      mine experience or a go at their new zip line or you might consider a Go
+      Ape experience at Grisedale Forest or even challenge yourself on their
+      woodland Orienteering course "
   - type: markdown
     content: >
       ## Waterfalls, Castles and Villages
