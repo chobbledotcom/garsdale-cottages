@@ -22,6 +22,7 @@
     href="/assets/leaflet/leaflet.css"
   >
   <script src="/assets/leaflet/leaflet.js"></script>
+  <script src="/assets/iconify/iconify.min.js"></script>
 
   <style>
     .map-page {
@@ -102,6 +103,31 @@
       height: 14px !important;
       box-shadow: 0 1px 4px rgba(0,0,0,0.4);
     }
+    .category-marker-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px !important;
+      height: 32px !important;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+    }
+    .category-marker-icon svg {
+      width: 18px;
+      height: 18px;
+    }
+    .map-filters button .filter-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 0.35rem;
+      vertical-align: middle;
+    }
+    .map-filters button.active .filter-dot {
+      border: 1px solid rgba(255,255,255,0.6);
+    }
   </style>
 </head>
 <body class="design-system {{ layout | getBodyClasses: config }}">
@@ -141,7 +167,11 @@
     var categories = data.categories;
 
     var catLookup = {};
-    categories.forEach(function (c) { catLookup[c.type] = c.label; });
+    var catIconLookup = {};
+    categories.forEach(function (c) {
+      catLookup[c.type] = c.label;
+      catIconLookup[c.type] = { iconify: c.iconify, color: c.color };
+    });
 
     var usedCategories = [];
     var seen = {};
@@ -150,7 +180,8 @@
         seen[p.category] = true;
         usedCategories.push({
           type: p.category,
-          label: p.categoryLabel || catLookup[p.category] || p.category
+          label: p.categoryLabel || catLookup[p.category] || p.category,
+          color: (catIconLookup[p.category] || {}).color || "#757575"
         });
       }
     });
@@ -161,7 +192,11 @@
     var filtersEl = document.getElementById("map-filters");
     usedCategories.forEach(function (cat) {
       var btn = document.createElement("button");
-      btn.textContent = cat.label;
+      var dot = document.createElement("span");
+      dot.className = "filter-dot";
+      dot.style.backgroundColor = cat.color;
+      btn.appendChild(dot);
+      btn.appendChild(document.createTextNode(cat.label));
       btn.dataset.category = cat.type;
       filtersEl.appendChild(btn);
     });
@@ -212,9 +247,27 @@
       marker.addTo(map);
     });
 
+    function createCategoryIcon(color, iconifyId) {
+      var iconName = iconifyId ? iconifyId.replace(":", "--") : "hugeicons--location-04";
+      var html = '<div class="category-marker-icon" style="background:' + color + ';">' +
+        '<span class="iconify" data-icon="' + (iconifyId || "hugeicons:location-04") + '" data-width="18" data-height="18" style="color:#fff;"></span>' +
+        '</div>';
+      return L.divIcon({
+        className: "",
+        html: html,
+        iconSize: [32, 32],
+        iconAnchor: [16, 16],
+        popupAnchor: [0, -18]
+      });
+    }
+
     var markers = [];
     places.forEach(function (place) {
-      var marker = L.marker([place.location.lat, place.location.lng]);
+      var catInfo = catIconLookup[place.category] || {};
+      var color = place.color || catInfo.color || "#757575";
+      var iconifyId = place.iconify || catInfo.iconify || "hugeicons:location-04";
+      var icon = createCategoryIcon(color, iconifyId);
+      var marker = L.marker([place.location.lat, place.location.lng], { icon: icon });
 
       var popupEl = document.createElement("div");
       popupEl.className = "place-popup";
@@ -264,12 +317,18 @@
       markers.push({ marker: marker, category: place.category });
     });
 
+    // Trigger Iconify to render icons in map markers
+    if (window.Iconify) {
+      window.Iconify.scan();
+    }
+
     var activeCategory = "all";
 
     filtersEl.addEventListener("click", function (e) {
-      if (e.target.tagName !== "BUTTON") return;
+      var btn = e.target.closest("button");
+      if (!btn) return;
 
-      activeCategory = e.target.dataset.category;
+      activeCategory = btn.dataset.category;
 
       filtersEl.querySelectorAll("button").forEach(function (btn) {
         btn.classList.toggle("active", btn.dataset.category === activeCategory);
@@ -282,6 +341,10 @@
           map.removeLayer(item.marker);
         }
       });
+
+      if (window.Iconify) {
+        window.Iconify.scan();
+      }
     });
   })();
   </script>
