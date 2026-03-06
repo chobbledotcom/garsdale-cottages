@@ -22,7 +22,6 @@
     href="/assets/leaflet/leaflet.css"
   >
   <script src="/assets/leaflet/leaflet.js"></script>
-  <script src="/assets/iconify/iconify.min.js"></script>
 
   <style>
     .map-page {
@@ -116,6 +115,7 @@
     .category-marker-icon svg {
       width: 18px;
       height: 18px;
+      color: #fff;
     }
     .map-filters button .filter-dot {
       display: inline-block;
@@ -157,6 +157,20 @@
   <script id="map-places-data" type="application/json">
   {{ map_places | json }}
   </script>
+
+  <div id="map-icons" hidden>
+    <template data-icon="hugeicons:location-04">{{ "hugeicons:location-04" | icon }}</template>
+    {%- for cat in map_places.categories -%}
+      {%- if cat.iconify -%}
+        <template data-icon="{{ cat.iconify }}">{{ cat.iconify | icon }}</template>
+      {%- endif -%}
+    {%- endfor -%}
+    {%- for place in map_places.places -%}
+      {%- if place.iconify -%}
+        <template data-icon="{{ place.iconify }}">{{ place.iconify | icon }}</template>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
 
 {% raw %}
   <script>
@@ -247,10 +261,17 @@
       marker.addTo(map);
     });
 
+    // Build icon SVG lookup from build-time rendered templates
+    var iconSvgLookup = {};
+    document.querySelectorAll("#map-icons template[data-icon]").forEach(function (t) {
+      iconSvgLookup[t.dataset.icon] = t.innerHTML.trim();
+    });
+
     function createCategoryIcon(color, iconifyId) {
-      var iconName = iconifyId ? iconifyId.replace(":", "--") : "hugeicons--location-04";
+      var name = iconifyId || "hugeicons:location-04";
+      var svgHtml = iconSvgLookup[name] || "";
       var html = '<div class="category-marker-icon" style="background:' + color + ';">' +
-        '<span class="iconify" data-icon="' + (iconifyId || "hugeicons:location-04") + '" data-width="18" data-height="18" style="color:#fff;"></span>' +
+        svgHtml +
         '</div>';
       return L.divIcon({
         className: "",
@@ -317,11 +338,6 @@
       markers.push({ marker: marker, category: place.category });
     });
 
-    // Trigger Iconify to render icons in map markers
-    if (window.Iconify) {
-      window.Iconify.scan();
-    }
-
     var activeCategory = "all";
 
     filtersEl.addEventListener("click", function (e) {
@@ -341,10 +357,6 @@
           map.removeLayer(item.marker);
         }
       });
-
-      if (window.Iconify) {
-        window.Iconify.scan();
-      }
     });
   })();
   </script>
