@@ -83,7 +83,7 @@
     {
       "id": 1993534,
       "title": "Morecambe Beach",
-      "description": "<p>A dog friendly beach is also available at Morecombe at Marine Road East, Morecombe LA4 5AH. </p>",
+      "description": "A dog friendly beach is also available at Morecombe at Marine Road East, Morecombe LA4 5AH.",
       "category": "beaches",
       "categoryLabel": "Beaches",
       "location": {
@@ -211,7 +211,7 @@
     {
       "id": 1993426,
       "title": "Powells Fruit Merchants",
-      "description": "<p>Great greengrocers</p>",
+      "description": "Great greengrocers",
       "category": "grocery_shopping",
       "categoryLabel": "Grocery shopping",
       "location": {
@@ -275,7 +275,7 @@
     {
       "id": 1997319,
       "title": "Sedbergh market",
-      "description": "<p>Farmers Market every Wednesday 8.30am to 12.30pm </p>\n<p>Artisan Market Saturday once a month during summer months (keep an eye out)</p>\n<p> </p>",
+      "description": "Farmers Market every Wednesday 8.30am to 12.30pm\nArtisan Market Saturday once a month during summer months (keep an eye out)",
       "category": "farm_shop_market",
       "categoryLabel": "Farm shop/farmers market",
       "location": {
@@ -291,7 +291,7 @@
     {
       "id": 1997320,
       "title": "The Market House Hawes",
-      "description": "<p>Indoor market first Saturday every month</p>",
+      "description": "Indoor market first Saturday every month",
       "category": "events",
       "categoryLabel": "Events",
       "location": {
@@ -307,7 +307,7 @@
     {
       "id": 1993449,
       "title": "The Black Bull Inn",
-      "description": "<p>Dog friendly pub restaurant. </p>\n<p class=\"\">'At The Black Bull in Sedbergh you’ll find an exciting and unique menu,</p>\n<p class=\"\">designed with influences taken from Japanese and German cuisine'</p>",
+      "description": "Dog friendly pub restaurant.\n'At The Black Bull in Sedbergh you’ll find an exciting and unique menu,\ndesigned with influences taken from Japanese and German cuisine'",
       "category": "gastro_pub",
       "categoryLabel": "Gastropubs",
       "location": {
@@ -323,7 +323,7 @@
     {
       "id": 1993447,
       "title": "The Dalesman Country Inn",
-      "description": "<p>Pub restaurant. No site parking. Not dog friendly</p>",
+      "description": "Pub restaurant. No site parking. Not dog friendly",
       "category": "gastro_pub",
       "categoryLabel": "Gastropubs",
       "location": {
@@ -339,7 +339,7 @@
     {
       "id": 1993443,
       "title": "The Green Dragon Inn",
-      "description": "<p>Excellent old pub/restaurant. Fronts on to Hardraw force waterfall. Parking on site. Dog Friendly</p>",
+      "description": "Excellent old pub/restaurant. Fronts on to Hardraw force waterfall. Parking on site. Dog Friendly",
       "category": "gastro_pub",
       "categoryLabel": "Gastropubs",
       "location": {
@@ -355,7 +355,7 @@
     {
       "id": 1993441,
       "title": "The White Hart Inn, Hawes",
-      "description": "<p>Excellent pub/restaurant and very dog friendly. Park in town and walk to venue</p>",
+      "description": "Excellent pub/restaurant and very dog friendly. Park in town and walk to venue",
       "category": "gastro_pub",
       "categoryLabel": "Gastropubs",
       "location": {
@@ -403,7 +403,7 @@
     {
       "id": 1993501,
       "title": "The Chippie",
-      "description": "<p>Best you'll find around</p>",
+      "description": "Best you'll find around",
       "category": "take_out",
       "categoryLabel": "Take out/away",
       "location": {
@@ -579,7 +579,7 @@
     {
       "id": 1993425,
       "title": "The Meat Hook Sedbergh",
-      "description": "<p>Butchers</p>",
+      "description": "Butchers",
       "category": "other",
       "categoryLabel": "Other",
       "location": {
@@ -675,7 +675,7 @@
     {
       "id": 1993506,
       "title": "Royal Lancaster Infirmary, Lancaster",
-      "description": "<p>The Royal Lancaster Infirmary (RLI) has a range of 'general hospital' services, including a full Accident &amp; Emergency Department, Critical Care unit and Consultant led beds. RLI also provides a range of planned care including outpatients, diagnostics, therapies, day-case and inpatient surgery. </p>",
+      "description": "The Royal Lancaster Infirmary (RLI) has a range of 'general hospital' services, including a full Accident & Emergency Department, Critical Care unit and Consultant led beds. RLI also provides a range of planned care including outpatients, diagnostics, therapies, day-case and inpatient surgery.",
       "category": "other",
       "categoryLabel": "Other",
       "location": {
@@ -691,7 +691,7 @@
     {
       "id": 1993505,
       "title": "Westmorland General Hospital, Kendal",
-      "description": "<p>This houses an Urgent Treatment Centre. Use this department if you need urgent medical attention, but it's not a life-threatening situation.</p>",
+      "description": "This houses an Urgent Treatment Centre. Use this department if you need urgent medical attention, but it's not a life-threatening situation.",
       "category": "other",
       "categoryLabel": "Other",
       "location": {
@@ -755,7 +755,7 @@
     {
       "id": 1993440,
       "title": "Dalehead Garage, Hawes",
-      "description": "<p>Community owned petrol station</p>",
+      "description": "Community owned petrol station",
       "category": "gas_station",
       "categoryLabel": "Gas/petrol station",
       "location": {
