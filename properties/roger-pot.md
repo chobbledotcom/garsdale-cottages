@@ -78,7 +78,7 @@ order: 0
 locations:
   - locations/garsdale.md
 ---
-Sedbergh 6.3 miles. Hawes 10 miles.
+Sedbergh 6.3 miles. Hawes 9 miles.
 
 Boasting incredible countryside views, Roger Pot is a fantastic isolated stone-built property with ample off-road parking and an attached garden, nestled into the rural hamlet of Garsdale near Sedbergh; the property is ideal for friends or families looking to explore Cumbria.
 
@@ -92,13 +92,13 @@ Here there is a lovely exposed stone shelf adding character, and a lovely attach
 
 Ascend the stairs to find a spacious and airy family bathroom where guests can enjoy a soak amongst the bubbles or a refreshing shower, and here you will also find three bedrooms.
 
-Choose between a cosy double, a twin zip/link that can be set up as a super-king-size on request, with the added feature of a window seat, and finally a beautiful master bedroom, spacious with a superkig-size bed, wooden roofbeams and an en-suite.
+Choose between a cosy double, a twin zip/link that can be set up as a super-king-size on request, with the added feature of a window seat, and finally a beautiful master bedroom, spacious with a superking-size bed, wooden roofbeams and an en-suite.
 
-Outside, make the most of the fresh air and countryside views by dining alfresco, with the chance to spot some of the resident red and grey squirrels, or travel through the 4-acres of land surrounding the property, to fish in the nearby river.
+Outside, make the most of the fresh air and countryside views by dining alfresco, with the chance to spot some of the resident red and grey squirrels, or travel through the 4-acres of land surrounding the property, to paddle or fish in the nearby river.
 
 Garsdale is a rural hamlet resting beside the Clough River, with beautiful countryside framing the village.
 
-To stock up on amenities or to have a tipple and a hot meal, head over to the village of Sedbergh where there is a local shop, eateries and a pub, as well as a golf course where you can try out a game or two, whilst Hawes, a wonderful town is a must-visit, with plenty of shops, welcoming pubs, a fish and chip shop, and the Wensleydale Cheese Factory, offering guided tours and an on-site shop.
+To stock up on amenities or to have a tipple and a hot meal, head over to the village of Sedbergh where there is a local shop, eateries and a few pub, as well as a golf course where you can try out a game or two, whilst Hawes, a wonderful town is a must-visit, with plenty of shops, welcoming pubs, a fish and chip shop, and the Wensleydale Cheese Factory, offering guided tours and an on-site shop.
 
 There are more tasty eateries and independent shops at nearby Hawes which you can browse at your leisure.
 
@@ -131,7 +131,7 @@ All of this and so much more with a stay at the charming Roger Pot.
     
 *   Electric oven with induction hob, microwave, fridge/freezer, washer/dryer, dishwasher, air fryer
     
-*   2 x TV, WiFi
+*   2 x TV, WiFi with Superfast Broadband
     
 *   Fuel and power inc. in charges
     
