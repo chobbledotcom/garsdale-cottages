@@ -1,4 +1,5 @@
 ---
+layout: design-system-base
 header_text: Contact Us
 subtitle: Get in touch with Garsdale Cottages
 meta_title: Contact Garsdale Cottages
@@ -25,7 +26,8 @@ blocks:
           235493."
       - icon: hugeicons:home-01
         title: Roger Pot
-        description: For enquiries and bookings contact the property owners directly via
+        description:
+          For enquiries and bookings contact the property owners directly via
           the property page, call Paul 0n 07917454791 or email
           pbenson434@gmail.com
   - type: markdown
