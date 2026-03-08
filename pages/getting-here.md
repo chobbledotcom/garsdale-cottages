@@ -1,5 +1,6 @@
 ---
 header_text: Getting Here
+layout: design-system-base
 subtitle: How to reach Garsdale
 meta_title: Getting to Garsdale | Travel Information
 meta_description: How to reach Garsdale in the Yorkshire Dales by car and by
@@ -30,7 +31,8 @@ blocks:
   - type: split
     title: By Car
     subtitle: From the M6
-    content: "Sat nav postcode: **LA10 5PQ** for The Old Cart House and Roger Pot.
+    content:
+      "Sat nav postcode: **LA10 5PQ** for The Old Cart House and Roger Pot.
       Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre
       following signs for Kirkby Stephen. 500 metres out of Sedbergh take a
       right (A684) towards Garsdale/Hawes. 5.5 miles and you enter Garsdale
@@ -78,7 +80,8 @@ blocks:
     title: By Train
     subtitle: On the Settle-Carlisle railway or by Main Line train to Kendals
       Oxenholme Statiom
-    content: The [Settle-Carlisle Railway](https://settle-carlisle.co.uk/) arrives
+    content:
+      The [Settle-Carlisle Railway](https://settle-carlisle.co.uk/) arrives
       at Garsdale Station. There is no public transport from the station into
       Garsdale and Sedbergh, but the Little White Bus service does run to
       Hawes.Normally there are no taxis in Garsdale. The nearest taxi service
@@ -90,7 +93,8 @@ blocks:
     figure_alt: Roger Pot and Rose Cottage
     reverse: false
   - type: markdown
-    content: "## Before You Arrive*As the closest shops are about 6 miles away in
+    content:
+      "## Before You Arrive*As the closest shops are about 6 miles away in
       Sedbergh, we would suggest bringing groceries for the first day or two. A
       welcome basket is provided for guests with some regional produce.Please
       contact via our mobile numbers if you have any difficulties and we will

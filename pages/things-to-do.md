@@ -1,5 +1,6 @@
 ---
 header_text: Things To Do
+layout: design-system-base
 subtitle: Activities and attractions in the Yorkshire Dales
 meta_title: Things To Do in Garsdale and the Yorkshire Dales
 meta_description: Walking, wildlife watching, visiting market towns, rainy day
@@ -136,7 +137,8 @@ blocks:
       in Kirkby Stephen - also has an acoustic night once a month- Half and Half
       in Sedbergh - has a variety of events and a music night once a month"
   - type: markdown
-    content: "## Places We GoSome favourite places of ours to visit with friends and
+    content:
+      "## Places We GoSome favourite places of ours to visit with friends and
       family**Hardraw Force** in Hardraw near to Hawes. The walk to the falls is
       behind the Green Dragon Pub, which is also well worth a visit for food and
       their regular Wednesday music night. There is a small entrance fee to go
@@ -187,7 +189,8 @@ blocks:
       which has a cinema, holds music and comedy nights and also has children's
       daytime events.
   - type: markdown
-    content: "## With ChildrenThere are a number of child friendly activities within
+    content:
+      "## With ChildrenThere are a number of child friendly activities within
       travelling distance:[The Forbidden
       Corner](https://www.theforbiddencorner.co.uk/) in Middleham, Leyburn is a
       delightful experience for children and has been featured on CBBC

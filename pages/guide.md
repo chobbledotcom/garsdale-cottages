@@ -3,9 +3,6 @@ title: Guide
 subtitle: Browse our knowledge base
 layout: guide-index.html
 permalink: /guide/
-eleventyNavigation:
-  key: Guide
-  order: 50
 ---
 
 # Guides

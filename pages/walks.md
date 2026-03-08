@@ -1,5 +1,6 @@
 ---
 header_text: Local Walks
+layout: design-system-base
 subtitle: Walking routes from Garsdale and the surrounding area
 meta_title: Walks Near Garsdale | Yorkshire Dales Walking Routes
 meta_description: Walking routes from Garsdale in the Yorkshire Dales - from
@@ -40,7 +41,8 @@ blocks:
       sometimes seen, in the heather."
   - type: split
     title: From the Doorstep
-    content: There are a number of marked footpaths in Garsdale so guests can take a
+    content:
+      There are a number of marked footpaths in Garsdale so guests can take a
       walk directly from any of the properties without needing their car.For the
       adventurous, there is a pathway across the moors to Dent. This would start
       following the pathway by Dandra Garth.There are also walks around nearby
@@ -56,12 +58,14 @@ blocks:
     items:
       - icon: hugeicons:route-01
         title: Coast to Coast
-        description: For those who like a challenge, the Coast to Coast walk passes
+        description:
+          For those who like a challenge, the Coast to Coast walk passes
           through Kirkby Stephen. A short drive from The Old Cart House would
           allow you, at least, a sample trek along this iconic path.
       - icon: hugeicons:mountain
         title: The Pennine Way
-        description: The Pennine Way passes through Hawes, Muker and Keld which, all, in
+        description:
+          The Pennine Way passes through Hawes, Muker and Keld which, all, in
           their own way are well worth a visit. A 15 minute drive to Hawes.
       - icon: hugeicons:path
         title: The Dales Way
@@ -73,7 +77,8 @@ blocks:
     items:
       - icon: hugeicons:map-pin
         title: Plan Ahead
-        description: Best to plan your route in advance. Carry water, food, and a map.
+        description:
+          Best to plan your route in advance. Carry water, food, and a map.
           Make sure your phone is charged. If walking alone, tell someone your
           plans.
       - icon: hugeicons:t-shirt
@@ -82,11 +87,13 @@ blocks:
           changeable weather.
       - icon: hugeicons:alert-circle
         title: Livestock
-        description: Garsdale and the surrounding area is sheep farming country - dogs
+        description:
+          Garsdale and the surrounding area is sheep farming country - dogs
           must be kept on leads and gates closed.
       - icon: hugeicons:flashlight
         title: Winter Walking
-        description: There's no street lighting, so in winter it gets dark early. Bring
+        description:
+          There's no street lighting, so in winter it gets dark early. Bring
           a torch. Try to walk on the right hand side of the road so you can see
           oncoming vehicles and they can see you.
   - type: markdown

@@ -1,5 +1,6 @@
 ---
 header_text: About Garsdale
+layout: design-system-base
 subtitle: A hidden gem in the Yorkshire Dales
 meta_title: About Garsdale | Yorkshire Dales Holiday Cottages
 meta_description: Garsdale is a quiet valley within the Yorkshire Dales National
@@ -153,7 +154,8 @@ blocks:
     figure_alt: Rose Cottage and The Old Cart House in Garsdale
     reverse: true
   - type: markdown
-    content: "## Flora and FaunaThe Garsdale area is full of wildlife and flowers
+    content:
+      "## Flora and FaunaThe Garsdale area is full of wildlife and flowers
       and some beautiful wildflower meadows. The Quaker burial ground in
       Garsdale is a wildflower haven in summertime and there are many areas
       where wildflowers are protected and left to bloom. Flowers such as
