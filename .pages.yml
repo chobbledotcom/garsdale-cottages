@@ -22,33 +22,26 @@ content:
         - meta_title
     exclude:
       - contact.md
-      - walks.md
-      - getting-here.md
-      - things-to-do.md
-      - cottages.md
       - about.md
-      - home.md
+      - getting-here.md
+      - walks.md
+      - cottages.md
+      - things-to-do.md
     fields:
-      - { name: title, type: string, label: Title }
-      - { name: header_text, type: string, label: Header Text }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: body, type: rich-text, label: Body }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
-        options:
-          maxlength: 155
-      - { name: layout, type: string, hidden: true }
-      - { name: permalink, type: string, hidden: true }
-      - { name: no_index, type: boolean, hidden: true }
-      - { name: navigationParent, type: string, hidden: true }
+        maxlength: 155
       - name: eleventyNavigation
         label: Navigation
         type: object
         fields:
           - { name: key, type: string }
           - { name: order, type: number }
+      - { name: layout, type: string }
       - name: faqs
         label: FAQs
         type: object
@@ -100,16 +93,6 @@ content:
     type: collection
     subfolders: false
     fields:
-      - name: property
-        label: Property
-        type: reference
-        options:
-          collection: properties
-          multiple: false
-          search: title
-          value: "{path}"
-          label: "{title}"
-      - { name: title, type: string, label: Title }
       - { name: name, type: string, label: Name }
       - { name: url, type: string, label: URL }
       - { name: rating, type: number, label: Rating }
@@ -142,12 +125,11 @@ content:
       - { name: thumbnail, type: image, label: Thumbnail }
       - { name: order, type: number, label: Order }
       - { name: body, type: rich-text, label: Body }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
-        options:
-          maxlength: 155
+        maxlength: 155
       - name: faqs
         label: FAQs
         type: object
@@ -180,11 +162,8 @@ content:
       - { name: title, type: string, label: Title }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: thumbnail, type: image, label: Thumbnail }
-      - { name: header_image, type: image, label: Header Image }
       - { name: order, type: number, label: Order }
       - { name: featured, type: boolean, label: Featured }
-      - { name: freetobook_id, type: string, label: Freetobook ID }
-      - { name: freetobook_token, type: string, label: Freetobook Token }
       - name: locations
         label: Locations
         type: reference
@@ -200,12 +179,11 @@ content:
       - { name: price_per_night, type: number, label: Price Per Night }
       - { name: features, type: string, label: Features, list: true }
       - { name: body, type: rich-text, label: Body }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
-        options:
-          maxlength: 155
+        maxlength: 155
       - name: faqs
         label: FAQs
         type: object
@@ -243,7 +221,7 @@ content:
       - { name: title, type: string, label: Title }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: order, type: number, label: Order }
-      - { name: icon, type: string, label: Icon }
+      - { name: icon, type: image, label: Icon }
       - name: property
         label: Property
         type: reference
@@ -280,8 +258,6 @@ content:
           value: "{path}"
           label: "{title}"
       - { name: order, type: number, label: Order }
-      - { name: icon, type: string, label: Icon }
-      - { name: featured_image, type: string, label: Featured Image }
       - { name: body, type: rich-text, label: Body }
       - name: faqs
         label: FAQs
@@ -300,22 +276,11 @@ content:
     type: file
     path: pages/contact.md
     fields:
-      - { name: layout, type: string, hidden: true }
-      - { name: permalink, type: string, hidden: true }
-      - name: eleventyNavigation
-        label: Navigation
-        type: object
-        fields:
-          - { name: key, type: string, label: Key }
-          - { name: order, type: number, label: Order }
-      - { name: header_text, type: string, label: Header Text }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
-        options:
-          maxlength: 155
+        maxlength: 155
       - name: blocks
         label: Content Blocks
         type: block
@@ -333,9 +298,8 @@ content:
             fields:
               - { name: header_title, type: string, label: Header Title }
               - name: items
-                type: object
+                type: array
                 label: Contact Details
-                list: true
                 fields:
                   - { name: icon, type: string, label: Icon }
                   - { name: title, type: string, label: Title }
@@ -344,29 +308,18 @@ content:
             label: Markdown
             fields:
               - { name: header_title, type: string, label: Header Title }
-              - { name: content, type: string, label: Content }
+              - { name: content, type: rich-text, label: Content }
       - { name: body, type: rich-text, label: Body }
-  - name: page-walks
-    label: Walks Page
+  - name: page-about
+    label: About Page
     type: file
-    path: pages/walks.md
+    path: pages/about.md
     fields:
-      - { name: layout, type: string, hidden: true }
-      - { name: permalink, type: string, hidden: true }
-      - name: eleventyNavigation
-        label: Navigation
-        type: object
-        fields:
-          - { name: key, type: string, label: Key }
-          - { name: order, type: number, label: Order }
-      - { name: header_text, type: string, label: Header Text }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
-        options:
-          maxlength: 155
+        maxlength: 155
       - name: blocks
         label: Content Blocks
         type: block
@@ -376,8 +329,6 @@ content:
           - name: image-background
             label: Image Background
             fields:
-              - { name: full_width, type: boolean, label: Full Width }
-              - { name: parallax, type: boolean, label: Parallax }
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
@@ -386,36 +337,33 @@ content:
             fields:
               - { name: header_title, type: string, label: Header Title }
               - { name: header_subtitle, type: string, label: Header Subtitle }
-              - { name: content, type: string, label: Content }
+              - { name: content, type: rich-text, label: Content }
           - name: split
             label: Split
             fields:
               - { name: title, type: string, label: Title }
               - { name: subtitle, type: string, label: Subtitle }
               - { name: content, type: string, label: Content }
-              - { name: figure_type, type: string, label: "Figure Type (image, video, code, html)" }
+              - name: figure_type
+                type: string
+                label: Figure Type (image, video, code, html)
               - { name: figure_src, type: image, label: Figure Image }
               - { name: figure_alt, type: string, label: Figure Alt Text }
               - { name: figure_caption, type: string, label: Figure Caption }
-              - { name: figure_video_id, type: string, label: Figure Video ID or URL }
-              - { name: figure_filename, type: string, label: Figure Code Filename }
+              - name: figure_video_id
+                type: string
+                label: Figure Video ID or URL
+              - name: figure_filename
+                type: string
+                label: Figure Code Filename
               - { name: figure_code, type: string, label: Figure Code Content }
-              - { name: figure_language, type: string, label: Figure Code Language }
-              - { name: figure_html, type: rich-text, label: Figure HTML Content }
+              - name: figure_language
+                type: string
+                label: Figure Code Language
+              - name: figure_html
+                type: rich-text
+                label: Figure HTML Content
               - { name: reverse, type: boolean, label: Reverse Layout }
-          - name: features
-            label: Features
-            fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
-              - name: items
-                type: object
-                label: Features
-                list: true
-                fields:
-                  - { name: icon, type: string, label: Icon }
-                  - { name: title, type: string, label: Title }
-                  - { name: description, type: string, label: Description }
           - name: cta
             label: Cta
             fields:
@@ -433,22 +381,11 @@ content:
     type: file
     path: pages/getting-here.md
     fields:
-      - { name: layout, type: string, hidden: true }
-      - { name: permalink, type: string, hidden: true }
-      - name: eleventyNavigation
-        label: Navigation
-        type: object
-        fields:
-          - { name: key, type: string, label: Key }
-          - { name: order, type: number, label: Order }
-      - { name: header_text, type: string, label: Header Text }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
-        options:
-          maxlength: 155
+        maxlength: 155
       - name: blocks
         label: Content Blocks
         type: block
@@ -458,8 +395,6 @@ content:
           - name: image-background
             label: Image Background
             fields:
-              - { name: full_width, type: boolean, label: Full Width }
-              - { name: parallax, type: boolean, label: Parallax }
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
@@ -468,22 +403,32 @@ content:
             fields:
               - { name: header_title, type: string, label: Header Title }
               - { name: header_subtitle, type: string, label: Header Subtitle }
-              - { name: content, type: string, label: Content }
+              - { name: content, type: rich-text, label: Content }
           - name: split
             label: Split
             fields:
               - { name: title, type: string, label: Title }
               - { name: subtitle, type: string, label: Subtitle }
               - { name: content, type: string, label: Content }
-              - { name: figure_type, type: string, label: "Figure Type (image, video, code, html)" }
+              - name: figure_type
+                type: string
+                label: Figure Type (image, video, code, html)
               - { name: figure_src, type: image, label: Figure Image }
               - { name: figure_alt, type: string, label: Figure Alt Text }
               - { name: figure_caption, type: string, label: Figure Caption }
-              - { name: figure_video_id, type: string, label: Figure Video ID or URL }
-              - { name: figure_filename, type: string, label: Figure Code Filename }
+              - name: figure_video_id
+                type: string
+                label: Figure Video ID or URL
+              - name: figure_filename
+                type: string
+                label: Figure Code Filename
               - { name: figure_code, type: string, label: Figure Code Content }
-              - { name: figure_language, type: string, label: Figure Code Language }
-              - { name: figure_html, type: rich-text, label: Figure HTML Content }
+              - name: figure_language
+                type: string
+                label: Figure Code Language
+              - name: figure_html
+                type: rich-text
+                label: Figure HTML Content
               - { name: reverse, type: boolean, label: Reverse Layout }
           - name: cta
             label: Cta
@@ -497,27 +442,16 @@ content:
                   - { name: text, type: string, label: Text }
                   - { name: href, type: string, label: URL }
       - { name: body, type: rich-text, label: Body }
-  - name: page-things-to-do
-    label: Things To Do Page
+  - name: page-walks
+    label: Walks Page
     type: file
-    path: pages/things-to-do.md
+    path: pages/walks.md
     fields:
-      - { name: layout, type: string, hidden: true }
-      - { name: permalink, type: string, hidden: true }
-      - name: eleventyNavigation
-        label: Navigation
-        type: object
-        fields:
-          - { name: key, type: string, label: Key }
-          - { name: order, type: number, label: Order }
-      - { name: header_text, type: string, label: Header Text }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
-        options:
-          maxlength: 155
+        maxlength: 155
       - name: blocks
         label: Content Blocks
         type: block
@@ -527,33 +461,52 @@ content:
           - name: image-background
             label: Image Background
             fields:
-              - { name: full_width, type: boolean, label: Full Width }
-              - { name: parallax, type: boolean, label: Parallax }
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
+          - name: markdown
+            label: Markdown
+            fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: content, type: rich-text, label: Content }
           - name: split
             label: Split
             fields:
               - { name: title, type: string, label: Title }
               - { name: subtitle, type: string, label: Subtitle }
               - { name: content, type: string, label: Content }
-              - { name: figure_type, type: string, label: "Figure Type (image, video, code, html)" }
+              - name: figure_type
+                type: string
+                label: Figure Type (image, video, code, html)
               - { name: figure_src, type: image, label: Figure Image }
               - { name: figure_alt, type: string, label: Figure Alt Text }
               - { name: figure_caption, type: string, label: Figure Caption }
-              - { name: figure_video_id, type: string, label: Figure Video ID or URL }
-              - { name: figure_filename, type: string, label: Figure Code Filename }
+              - name: figure_video_id
+                type: string
+                label: Figure Video ID or URL
+              - name: figure_filename
+                type: string
+                label: Figure Code Filename
               - { name: figure_code, type: string, label: Figure Code Content }
-              - { name: figure_language, type: string, label: Figure Code Language }
-              - { name: figure_html, type: rich-text, label: Figure HTML Content }
-              - { name: reverse, type: boolean, label: Reverse Layout }
-          - name: markdown
-            label: Markdown
+              - name: figure_language
+                type: string
+                label: Figure Code Language
+              - name: figure_html
+                type: rich-text
+                label: Figure HTML Content
+          - name: features
+            label: Features
             fields:
               - { name: header_title, type: string, label: Header Title }
               - { name: header_subtitle, type: string, label: Header Subtitle }
-              - { name: content, type: string, label: Content }
+              - name: items
+                type: array
+                label: Features
+                fields:
+                  - { name: icon, type: string, label: Icon }
+                  - { name: title, type: string, label: Title }
+                  - { name: description, type: string, label: Description }
           - name: cta
             label: Cta
             fields:
@@ -571,22 +524,11 @@ content:
     type: file
     path: pages/cottages.md
     fields:
-      - { name: layout, type: string, hidden: true }
-      - { name: permalink, type: string, hidden: true }
-      - name: eleventyNavigation
-        label: Navigation
-        type: object
-        fields:
-          - { name: key, type: string, label: Key }
-          - { name: order, type: number, label: Order }
-      - { name: header_text, type: string, label: Header Text }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
-        options:
-          maxlength: 155
+        maxlength: 155
       - name: blocks
         label: Content Blocks
         type: block
@@ -596,8 +538,6 @@ content:
           - name: image-background
             label: Image Background
             fields:
-              - { name: full_width, type: boolean, label: Full Width }
-              - { name: parallax, type: boolean, label: Parallax }
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
@@ -606,7 +546,7 @@ content:
             fields:
               - { name: header_title, type: string, label: Header Title }
               - { name: header_subtitle, type: string, label: Header Subtitle }
-              - { name: content, type: string, label: Content }
+              - { name: content, type: rich-text, label: Content }
           - name: image-cards
             label: Image Cards
             fields:
@@ -616,9 +556,8 @@ content:
                 type: string
                 label: Image Aspect Ratio
               - name: items
-                type: object
+                type: array
                 label: Property Cards
-                list: true
                 fields:
                   - { name: image, type: image, label: Image }
                   - { name: title, type: string, label: Title }
@@ -630,9 +569,8 @@ content:
               - { name: header_title, type: string, label: Header Title }
               - { name: header_subtitle, type: string, label: Header Subtitle }
               - name: items
-                type: object
+                type: array
                 label: Features
-                list: true
                 fields:
                   - { name: icon, type: string, label: Icon }
                   - { name: title, type: string, label: Title }
@@ -649,27 +587,16 @@ content:
                   - { name: text, type: string, label: Text }
                   - { name: href, type: string, label: URL }
       - { name: body, type: rich-text, label: Body }
-  - name: page-about
-    label: About Page
+  - name: page-things-to-do
+    label: Things To Do Page
     type: file
-    path: pages/about.md
+    path: pages/things-to-do.md
     fields:
-      - { name: layout, type: string, hidden: true }
-      - { name: permalink, type: string, hidden: true }
-      - name: eleventyNavigation
-        label: Navigation
-        type: object
-        fields:
-          - { name: key, type: string, label: Key }
-          - { name: order, type: number, label: Order }
-      - { name: header_text, type: string, label: Header Text }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
-        options:
-          maxlength: 155
+        maxlength: 155
       - name: blocks
         label: Content Blocks
         type: block
@@ -679,33 +606,41 @@ content:
           - name: image-background
             label: Image Background
             fields:
-              - { name: full_width, type: boolean, label: Full Width }
-              - { name: parallax, type: boolean, label: Parallax }
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: string, label: Hero Content }
-          - name: markdown
-            label: Markdown
-            fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
-              - { name: content, type: string, label: Content }
           - name: split
             label: Split
             fields:
               - { name: title, type: string, label: Title }
               - { name: subtitle, type: string, label: Subtitle }
               - { name: content, type: string, label: Content }
-              - { name: figure_type, type: string, label: "Figure Type (image, video, code, html)" }
+              - name: figure_type
+                type: string
+                label: Figure Type (image, video, code, html)
               - { name: figure_src, type: image, label: Figure Image }
               - { name: figure_alt, type: string, label: Figure Alt Text }
               - { name: figure_caption, type: string, label: Figure Caption }
-              - { name: figure_video_id, type: string, label: Figure Video ID or URL }
-              - { name: figure_filename, type: string, label: Figure Code Filename }
+              - name: figure_video_id
+                type: string
+                label: Figure Video ID or URL
+              - name: figure_filename
+                type: string
+                label: Figure Code Filename
               - { name: figure_code, type: string, label: Figure Code Content }
-              - { name: figure_language, type: string, label: Figure Code Language }
-              - { name: figure_html, type: rich-text, label: Figure HTML Content }
+              - name: figure_language
+                type: string
+                label: Figure Code Language
+              - name: figure_html
+                type: rich-text
+                label: Figure HTML Content
               - { name: reverse, type: boolean, label: Reverse Layout }
+          - name: markdown
+            label: Markdown
+            fields:
+              - { name: header_title, type: string, label: Header Title }
+              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: content, type: rich-text, label: Content }
           - name: cta
             label: Cta
             fields:
@@ -718,75 +653,27 @@ content:
                   - { name: text, type: string, label: Text }
                   - { name: href, type: string, label: URL }
       - { name: body, type: rich-text, label: Body }
-  - name: page-home
-    label: Home Page
+  - name: homepage
+    label: Homepage Settings
     type: file
-    path: pages/home.md
+    path: _data/homepage.json
     fields:
-      - { name: layout, type: string, hidden: true }
-      - { name: permalink, type: string, hidden: true }
-      - name: eleventyNavigation
-        label: Navigation
-        type: object
-        fields:
-          - { name: key, type: string, label: Key }
-          - { name: order, type: number, label: Order }
-      - { name: header_text, type: string, label: Header Text }
-      - { name: subtitle, type: string, label: Subtitle }
-      - { name: meta_title, type: string, label: Meta Title, options: { maxlength: 55 } }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        options:
-          maxlength: 155
-      - name: blocks
-        label: Content Blocks
-        type: block
-        list: true
-        blockKey: type
-        blocks:
-          - name: image-background
-            label: Image Background
-            fields:
-              - { name: full_width, type: boolean, label: Full Width }
-              - { name: parallax, type: boolean, label: Parallax }
-              - { name: image, type: image, label: Hero Image }
-              - { name: image_alt, type: string, label: Image Alt Text }
-              - { name: content, type: string, label: Hero Content }
-          - name: section-header
-            label: Section Header
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: subtitle, type: string, label: Subtitle }
-              - { name: level, type: number, label: Heading Level }
-              - { name: align, type: string, label: Alignment }
-          - name: features
-            label: Features
-            fields:
-              - name: items
-                type: object
-                label: Features
-                list: true
-                fields:
-                  - { name: icon, type: string, label: Icon }
-                  - { name: title, type: string, label: Title }
-                  - { name: description, type: string, label: Description }
-          - name: image-cards
-            label: Image Cards
-            fields:
-              - name: image_aspect_ratio
-                type: string
-                label: Image Aspect Ratio
-              - name: items
-                type: object
-                label: Cards
-                list: true
-                fields:
-                  - { name: image, type: image, label: Image }
-                  - { name: title, type: string, label: Title }
-                  - { name: description, type: string, label: Description }
-                  - { name: link, type: string, label: Link }
-      - { name: body, type: rich-text, label: Body }
+      - name: show_products
+        type: boolean
+        label: Show Products Section
+        default: true
+      - name: show_menus
+        type: boolean
+        label: Show Menus Section
+        default: true
+      - name: show_news
+        type: boolean
+        label: Show News Section
+        default: true
+      - name: show_recurring_events
+        type: boolean
+        label: Show Recurring Events
+        default: true
   - name: site
     label: Site Configuration
     type: file

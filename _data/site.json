@@ -39,9 +39,10 @@
 			"no_index": false,
 			"keywords": false,
 			"parent_categories": false,
-			"videos": false
+			"videos": false,
+			"below_products": false
 		},
 		"hasSrcFolder": false,
-		"customHomePage": true
+		"customHomePage": false
 	}
 }
