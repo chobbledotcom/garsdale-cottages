@@ -154,18 +154,22 @@ blocks:
     figure_alt: Rose Cottage and The Old Cart House in Garsdale
     reverse: true
   - type: markdown
-    content:
-      "## Flora and FaunaThe Garsdale area is full of wildlife and flowers
-      and some beautiful wildflower meadows. The Quaker burial ground in
-      Garsdale is a wildflower haven in summertime and there are many areas
-      where wildflowers are protected and left to bloom. Flowers such as
-      meadowsweet, teasel, ox eye daisies, dog rose and melancholy thistle,
-      which was once used to treat 'melancholia', are abundant. Numerous lichens
-      and mosses grow on the walls and trees, the clean, fresh air encourages
-      their growth.There are heather and bilberry covered hillsides and grouse
-      moors and work is ongoing to restore the peat bogs. There are a number of
-      Meadow Flower walks within the area including the spectacular Meadows at
-      Muker"
+    content: >
+      ## Flora and Fauna
+
+
+      The Garsdale area is full of wildlife and flowers and some beautiful
+      wildflower meadows. The Quaker burial ground in Garsdale is a wildflower
+      haven in summertime and there are many areas where wildflowers are
+      protected and left to bloom. Flowers such as meadowsweet, teasel, ox eye
+      daisies, dog rose and melancholy thistle, which was once used to treat
+      'melancholia', are abundant. Numerous lichens and mosses grow on the
+      walls and trees, the clean, fresh air encourages their growth.
+
+
+      There are heather and bilberry covered hillsides and grouse moors and
+      work is ongoing to restore the peat bogs. There are a number of Meadow
+      Flower walks within the area including the spectacular Meadows at Muker.
   - type: split
     title: The Settle-Carlisle Railway
     subtitle: One of England's most scenic railway journeys

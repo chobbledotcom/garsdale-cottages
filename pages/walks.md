@@ -20,35 +20,59 @@ blocks:
 
       Walking routes from Garsdale and the surrounding area
   - type: markdown
-    content: "## Walking from GarsdaleFrom gentle strolls to challenging fell
-      walks### Walks We'd RecommendA pleasant walk is to travel over to Hardraw
-      Force in Hardraw. The walk begins behind the Green Dragon and there is a
-      small charge to enter the waterfall walk.Travelling towards Hawes there is
-      a parking area for a short walk to Cotter Force, which has a good flat
-      pathway beside the river leading to the waterfalls.A longer waterfall walk
-      is to Cautley Spout in Cautley. This walk starts by the Cross Keys
-      Temperance Inn and the bridge crossing the river.For a walk from Garsdale
-      village, follow the bridleway beside Dandra Garth through the woods and
-      gate and this will take you to the pathway which, eventually, would lead
-      to Cowgill, Dent (or take a right and follow the path over Rise Hill to
-      the Langstone Fell. The ground can be boggy if it has been raining so
-      caution is needed and good boots, but the views from here are
-      fantastic.Another walk is following the pathway behind the old Moorcock
-      pub. Once you have crossed the bridge follow the path up the hillside and
-      at the top is the Pennine Bridleway. Take left to head in the Kirkby
-      Stephen direction and right is in the Cotter Force direction. Both are
-      great walks with lovely scenery and often grouse can be heard, and
-      sometimes seen, in the heather."
+    content: >
+      ## Walking from Garsdale
+
+
+      From gentle strolls to challenging fell walks
+
+
+      ### Walks We'd Recommend
+
+
+      A pleasant walk is to travel over to Hardraw Force in Hardraw. The walk
+      begins behind the Green Dragon and there is a small charge to enter the
+      waterfall walk.
+
+
+      Travelling towards Hawes there is a parking area for a short walk to
+      Cotter Force, which has a good flat pathway beside the river leading to
+      the waterfalls.
+
+
+      A longer waterfall walk is to Cautley Spout in Cautley. This walk starts
+      by the Cross Keys Temperance Inn and the bridge crossing the river.
+
+
+      For a walk from Garsdale village, follow the bridleway beside Dandra
+      Garth through the woods and gate and this will take you to the pathway
+      which, eventually, would lead to Cowgill, Dent (or take a right and
+      follow the path over Rise Hill to the Langstone Fell. The ground can be
+      boggy if it has been raining so caution is needed and good boots, but
+      the views from here are fantastic.
+
+
+      Another walk is following the pathway behind the old Moorcock pub. Once
+      you have crossed the bridge follow the path up the hillside and at the
+      top is the Pennine Bridleway. Take left to head in the Kirkby Stephen
+      direction and right is in the Cotter Force direction. Both are great
+      walks with lovely scenery and often grouse can be heard, and sometimes
+      seen, in the heather.
   - type: split
     title: From the Doorstep
-    content:
+    content: >
       There are a number of marked footpaths in Garsdale so guests can take a
-      walk directly from any of the properties without needing their car.For the
-      adventurous, there is a pathway across the moors to Dent. This would start
-      following the pathway by Dandra Garth.There are also walks around nearby
-      Grisedale and behind the old Moorcock pub there is a pathway leading to
-      the Pennine Bridleway with walks in the direction of Kirkby Stephen and
-      the opposite direction towards Cotter Force.
+      walk directly from any of the properties without needing their car.
+
+
+      For the adventurous, there is a pathway across the moors to Dent. This
+      would start following the pathway by Dandra Garth.
+
+
+      There are also walks around nearby Grisedale and behind the old Moorcock
+      pub there is a pathway leading to the Pennine Bridleway with walks in
+      the direction of Kirkby Stephen and the opposite direction towards
+      Cotter Force.
     figure_type: image
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell
