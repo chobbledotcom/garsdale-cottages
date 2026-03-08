@@ -10,8 +10,6 @@ eleventyNavigation:
   order: 6
 blocks:
   - type: image-background
-    full_width: true
-    parallax: true
     image: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     image_alt: Rose Cottage and The Old Cart House in Garsdale
     content: |
@@ -19,7 +17,7 @@ blocks:
 
       How to reach Garsdale in the Yorkshire Dales
   - type: markdown
-    content: >
+    content: >-
       ## Getting to Garsdale
 
 
@@ -31,8 +29,7 @@ blocks:
   - type: split
     title: By Car
     subtitle: From the M6
-    content:
-      "Sat nav postcode: **LA10 5PQ** for The Old Cart House and Roger Pot.
+    content: "Sat nav postcode: **LA10 5PQ** for The Old Cart House and Roger Pot.
       Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre
       following signs for Kirkby Stephen. 500 metres out of Sedbergh take a
       right (A684) towards Garsdale/Hawes. 5.5 miles and you enter Garsdale
@@ -57,33 +54,36 @@ blocks:
     figure_alt: View over Langstone Fell at moonrise
     reverse: true
   - type: markdown
-    content: >
+    content: >-
       ## The Final Approach
 
-      Travelling to Garsdale from the **Sedbergh direction** you will pass Blades Farm on your left, which has a small certified campsite. A little further on you will see the Garsdale village
-      sign by the bridge. The lane to Roger Pot is here, through the gate. To
-      continue to The Old Cart House, pass over the bridge and along past the
-      village hall. You will then go around a sharp bend with a farm on the
-      right hand side, pass the church on the left, the letter box and there is
-      a row of houses on the right side of the road, opposite the river, and The
-      Old Cart House is there.
 
-      Travelling to Garsdale from the **Hawes direction**, pass under the railway viaduct and you will see a sign for
-      Garsdale Parish. Drive a further 3 miles and you will pass the stone
-      plinth with 'Welcome to Garsdale'. Drive past a farm called East Little
-      Town on your left and follow the road passing Dandra Garth on your left
-      with the river on your right. You will then approach the area known
-      locally as 'the street'. The Police House is the first house and a few
-      houses later you will reach Rose Cottage and The Old Cart House. To travel
-      to Roger Pot follow the road a little further past the church and the
-      sharp bend, passing the village hall and immediately over the bridge is a
-      track to the right which will lead through the gate and up to Roger Pot."
+      Travelling to Garsdale from the **Sedbergh direction** you will pass
+      Blades Farm on your left, which has a small certified campsite. A little
+      further on you will see the Garsdale village sign by the bridge. The lane
+      to Roger Pot is here, through the gate. To continue to The Old Cart House,
+      pass over the bridge and along past the village hall. You will then go
+      around a sharp bend with a farm on the right hand side, pass the church on
+      the left, the letter box and there is a row of houses on the right side of
+      the road, opposite the river, and The Old Cart House is there.
+
+
+      Travelling to Garsdale from the **Hawes direction**, pass under the
+      railway viaduct and you will see a sign for Garsdale Parish. Drive a
+      further 3 miles and you will pass the stone plinth with 'Welcome to
+      Garsdale'. Drive past a farm called East Little Town on your left and
+      follow the road passing Dandra Garth on your left with the river on your
+      right. You will then approach the area known locally as 'the street'. The
+      Police House is the first house and a few houses later you will reach Rose
+      Cottage and The Old Cart House. To travel to Roger Pot follow the road a
+      little further past the church and the sharp bend, passing the village
+      hall and immediately over the bridge is a track to the right which will
+      lead through the gate and up to Roger Pot."
   - type: split
     title: By Train
     subtitle: On the Settle-Carlisle railway or by Main Line train to Kendals
       Oxenholme Statiom
-    content:
-      The [Settle-Carlisle Railway](https://settle-carlisle.co.uk/) arrives
+    content: The [Settle-Carlisle Railway](https://settle-carlisle.co.uk/) arrives
       at Garsdale Station. There is no public transport from the station into
       Garsdale and Sedbergh, but the Little White Bus service does run to
       Hawes.Normally there are no taxis in Garsdale. The nearest taxi service
@@ -95,13 +95,14 @@ blocks:
     figure_alt: Roger Pot and Rose Cottage
     reverse: false
   - type: markdown
-    content: "## Before You Arrive
+    content: >-
+      ## Before You Arrive
 
-      As the closest shops are about 6 miles away in
-      Sedbergh, we would suggest bringing groceries for the first day or two. A
-      welcome basket is provided for guests with some regional produce.Please
-      contact via our mobile numbers if you have any difficulties and we will
-      assist as we can.- Loraine: 07905 637690- Jack: 07982 235493"
+
+      As the closest shops are about 6 miles away in Sedbergh, we would suggest
+      bringing groceries for the first day or two. A welcome basket is provided
+      for guests with some regional produce. Please contact your property owner
+      if you have any difficulties and we will assist as we can.
   - type: cta
     title: Stay in Garsdale
     description: Book direct with local cottage owners for better prices and
