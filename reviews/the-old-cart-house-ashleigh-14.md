@@ -3,8 +3,7 @@ property: properties/the-old-cart-house.md
 title: "An amazing stay!"
 name: Ashleigh
 rating: 5
+date: 2024-12-01
 ---
 
 The property and its features are beautiful! You made us feel very welcome and everything was made clear about how to use appliances etc! We will be recommending and would definitely return!
-
-*Reviewed: Dec 2024*
