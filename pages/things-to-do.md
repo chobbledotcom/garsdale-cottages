@@ -33,17 +33,22 @@ blocks:
   - type: split
     title: Wildlife
     subtitle: Red squirrels, brown hares, upland birds and more
-    content: Garsdale is a haven for wildlife - in particular, the red squirrel.
+    content: >
+      Garsdale is a haven for wildlife - in particular, the red squirrel.
       They are frequently spotted if you follow the path beside Dandra Garth
       into the woodland, or on the bank of the river opposite Dandra Garth, or
-      on the banks of the river opposite the Old Cart House, or below Roger Pot.
-      We do have occasional red squirrel visitors to the gardens and they enjoy
-      the nuts and seeds in the feeders.We are fortunate to be able to see brown
-      hares in the fields nearby throughout the year and often will see roe deer
-      in the fields and on the hillside. Stoats and weasels can also be seen
-      along with the very many mice and voles and occasionally badgers, foxes
-      and hedgehogs.[Sedbergh Red
-      Squirrels](https://sedberghredsquirrels.org.uk/)
+      on the banks of the river opposite the Old Cart House, or below Roger
+      Pot. We do have occasional red squirrel visitors to the gardens and they
+      enjoy the nuts and seeds in the feeders.
+
+
+      We are fortunate to be able to see brown hares in the fields nearby
+      throughout the year and often will see roe deer in the fields and on the
+      hillside. Stoats and weasels can also be seen along with the very many
+      mice and voles and occasionally badgers, foxes and hedgehogs.
+
+
+      [Sedbergh Red Squirrels](https://sedberghredsquirrels.org.uk/)
     figure_type: image
     figure_src: /images/wildlife/red-squirrel-2.jpeg
     figure_alt: Red squirrel
@@ -127,43 +132,81 @@ blocks:
       Raydale, close to Countersett village. There are footpaths and walks from
       and around the lake with some fantastic views.
   - type: markdown
-    content: "## Food and DrinkThere are a number of good eating places in and
-      around Sedbergh but some that we use more often are:- The Cross Keys at
-      Cautley (a no alcohol temperance inn) - The Green Dragon at Hardraw - also
-      has regular events and a music night every Wednesday- The White Hart in
-      Hawes- The Sportsman in Cowgill, Dent- Stone Close tea room in Dent-
-      [Zeffirellis](https://www.zeffirellis.com/film) in Ambleside - vegetarian
-      restaurant- Doi Intanon Thai restaurant in Ambleside- The White Hare Cafe
-      in Kirkby Stephen - also has an acoustic night once a month- Half and Half
-      in Sedbergh - has a variety of events and a music night once a month"
+    content: >
+      ## Food and Drink
+
+
+      There are a number of good eating places in and around Sedbergh but some
+      that we use more often are:
+
+
+      - The Cross Keys at Cautley (a no alcohol temperance inn)
+
+      - The Green Dragon at Hardraw - also has regular events and a music night
+      every Wednesday
+
+      - The White Hart in Hawes
+
+      - The Sportsman in Cowgill, Dent
+
+      - Stone Close tea room in Dent
+
+      - [Zeffirellis](https://www.zeffirellis.com/film) in Ambleside -
+      vegetarian restaurant
+
+      - Doi Intanon Thai restaurant in Ambleside
+
+      - The White Hare Cafe in Kirkby Stephen - also has an acoustic night once
+      a month
+
+      - Half and Half in Sedbergh - has a variety of events and a music night
+      once a month
   - type: markdown
-    content:
-      "## Places We GoSome favourite places of ours to visit with friends and
-      family**Hardraw Force** in Hardraw near to Hawes. The walk to the falls is
-      behind the Green Dragon Pub, which is also well worth a visit for food and
-      their regular Wednesday music night. There is a small entrance fee to go
-      to the waterfall but it can be lovely particularly if there has been rain.
-      The walk to the falls is fairly flat and is well laid out with pathways,
-      some seating and lovely views as well as the waterfall itself.**Cautley
-      Spout** is another waterfall, again behind a temperance pub called [the
-      Cross Keys in Cautley](https://www.cautleyspout.co.uk/), which also has
-      good food. Cautley is a longer walk and some inclines, but it can be seen
-      without climbing too high, though you can climb to the top if you are
-      enthusiastic. For some reason, on a number of our visits to Cautley Spout,
-      the weather has changed mid walk and turned to rain or snow, so be
-      prepared.**Cotter Force** - another easy walk to a waterfall on the way to
-      Hawes. There is a parking area nearby and the walk to the waterfall is
-      flat and a tidy pathway.**Dent** can be got to over what is locally called
-      the Coal Road, passing Garsdale Station. This is a very scenic route,
-      passes Dent Station and is a very quaint, pretty village, with some lovely
-      cafes and walks.**Ambleside** is about 45 minutes drive but is lovely to
-      visit, has some great eating places, particularly we enjoy Zeffirellis,
-      which has the cinema and vegetarian restaurant and always good food.We
-      also enjoy travelling over the **Buttertubs Pass** from Hawes to Thwaite,
-      this is a very high wild road with fantastic views of the hills and
-      valleys. From Thwaite we would go to Muker which is beside the river Swale
-      and there are some beautiful walks from the village. There are also some
-      lovely cafes for lunch."
+    content: >
+      ## Places We Go
+
+
+      Some favourite places of ours to visit with friends and family
+
+
+      **Hardraw Force** in Hardraw near to Hawes. The walk to the falls is
+      behind the Green Dragon Pub, which is also well worth a visit for food
+      and their regular Wednesday music night. There is a small entrance fee to
+      go to the waterfall but it can be lovely particularly if there has been
+      rain. The walk to the falls is fairly flat and is well laid out with
+      pathways, some seating and lovely views as well as the waterfall itself.
+
+
+      **Cautley Spout** is another waterfall, again behind a temperance pub
+      called [the Cross Keys in
+      Cautley](https://www.cautleyspout.co.uk/), which also has good food.
+      Cautley is a longer walk and some inclines, but it can be seen without
+      climbing too high, though you can climb to the top if you are
+      enthusiastic. For some reason, on a number of our visits to Cautley
+      Spout, the weather has changed mid walk and turned to rain or snow, so
+      be prepared.
+
+
+      **Cotter Force** - another easy walk to a waterfall on the way to Hawes.
+      There is a parking area nearby and the walk to the waterfall is flat and
+      a tidy pathway.
+
+
+      **Dent** can be got to over what is locally called the Coal Road, passing
+      Garsdale Station. This is a very scenic route, passes Dent Station and
+      is a very quaint, pretty village, with some lovely cafes and walks.
+
+
+      **Ambleside** is about 45 minutes drive but is lovely to visit, has some
+      great eating places, particularly we enjoy Zeffirellis, which has the
+      cinema and vegetarian restaurant and always good food.
+
+
+      We also enjoy travelling over the **Buttertubs Pass** from Hawes to
+      Thwaite, this is a very high wild road with fantastic views of the hills
+      and valleys. From Thwaite we would go to Muker which is beside the river
+      Swale and there are some beautiful walks from the village. There are also
+      some lovely cafes for lunch.
   - type: markdown
     content: >
       ## Rainy Days
@@ -189,26 +232,42 @@ blocks:
       which has a cinema, holds music and comedy nights and also has children's
       daytime events.
   - type: markdown
-    content:
-      "## With ChildrenThere are a number of child friendly activities within
-      travelling distance:[The Forbidden
-      Corner](https://www.theforbiddencorner.co.uk/) in Middleham, Leyburn is a
-      delightful experience for children and has been featured on CBBC
-      shows.Ingleton has the [White Scar Caves](https://whitescarcave.co.uk/)
-      which is the longest show cave in Britain and has guided tours taking
-      about 80 minutes.Children will enjoy the Wensleydale Cheese experience at
-      the [Wensleydale Creamery](https://www.wensleydale.co.uk/) and you can see
+    content: >
+      ## With Children
+
+
+      There are a number of child friendly activities within travelling
+      distance:
+
+
+      [The Forbidden Corner](https://www.theforbiddencorner.co.uk/) in
+      Middleham, Leyburn is a delightful experience for children and has been
+      featured on CBBC shows.
+
+
+      Ingleton has the [White Scar Caves](https://whitescarcave.co.uk/) which
+      is the longest show cave in Britain and has guided tours taking about 80
+      minutes.
+
+
+      Children will enjoy the Wensleydale Cheese experience at the
+      [Wensleydale Creamery](https://www.wensleydale.co.uk/) and you can see
       the Yorkshire Wensleydale Cheese being made by hand and the cheese shop
-      has many cheeses to taste.Hawes also has the [Dales Countryside
+      has many cheeses to taste.
+
+
+      Hawes also has the [Dales Countryside
       Museum](https://www.dalescountrysidemuseum.org.uk/) which has many family
-      friendly events throughout the year.The [Ingleton Waterfalls
-      Trail](https://ingletonwaterfallstrail.co.uk/) is a 4 and a half mile
-      circular route and can take between two and a half hours to 4 hours to
-      complete. It is suitable for older children and requires sturdy footwear.
-      The more adventurous might consider a trip to Honister Slate Mine for a
-      mine experience or a go at their new zip line or you might consider a Go
-      Ape experience at Grisedale Forest or even challenge yourself on their
-      woodland Orienteering course "
+      friendly events throughout the year.
+
+
+      The [Ingleton Waterfalls Trail](https://ingletonwaterfallstrail.co.uk/)
+      is a 4 and a half mile circular route and can take between two and a half
+      hours to 4 hours to complete. It is suitable for older children and
+      requires sturdy footwear. The more adventurous might consider a trip to
+      Honister Slate Mine for a mine experience or a go at their new zip line
+      or you might consider a Go Ape experience at Grisedale Forest or even
+      challenge yourself on their woodland Orienteering course.
   - type: markdown
     content: >
       ## Waterfalls, Castles and Villages
