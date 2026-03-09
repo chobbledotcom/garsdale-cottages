@@ -177,7 +177,7 @@ blocks:
       text: Contact Us
       href: /contact/
 ---
-Garsdale is perfect for those interested in wildlife and bird watching. Many garden birds can be seen every day, for example: blue tits, great tits,rens, robins, thrushes, blackbirds, long tailed tits, gold finches and nuthatches are regular visitors to the garden. Great spotted woodpeckers will frequent the bird feeders .
+Garsdale is perfect for those interested in wildlife and bird watching. Many garden birds can be seen every day, for example: blue tits, great tits,long tailed tits,wrens, robins, thrushes, blackbirds, dunnocks, gold finches and nuthatches are regular visitors to the garden. Great spotted woodpeckers will frequent the bird feeders .
 
 In Spring siskins, redpolls, blackcaps, goldcrests , spotted and pied flycatchers and occasionally redstarts will be seen around the village. Spring will also bring cuckoos, swallows, swifts and house martins. Curlews and oystercatchers will move to the moorland from the coast for nesting and this will then bring short eared owls searching for prey, scouring the moorland.
 
@@ -192,3 +192,5 @@ The river also is a home to herons, dippers, the occasional kingfisher but also 
 Driving from Garsdale to Kirkby Stephen across the open moorland and by the river you may hear meadow pipits, skylarks,sandpipers, lapwings, along with greylag and Canada geese.
 
 There are a number of birds of prey to be seen locally: buzzards and kestrels are often around but also sparrowhawks and red kites.
+
+I have found the Merlin Bird ID app is essential in helping to identify birds by their song and is lovely to use whilst out walking or just sitting enjoying the day.
