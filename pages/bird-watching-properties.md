@@ -179,7 +179,7 @@ blocks:
 ---
 Garsdale is perfect for those interested in wildlife and bird watching. Many garden birds can be seen every day, for example: blue tits, great tits,long tailed tits,wrens, robins, thrushes, blackbirds, dunnocks, gold finches and nuthatches are regular visitors to the garden. Great spotted woodpeckers will frequent the bird feeders .
 
-In Spring siskins, redpolls, blackcaps, goldcrests , spotted and pied flycatchers and occasionally redstarts will be seen around the village. Spring will also bring cuckoos, swallows, swifts and house martins. Curlews and oystercatchers will move to the moorland from the coast for nesting and this will then bring short eared owls searching for prey, scouring the moorland.
+In Spring siskins, redpolls, blackcaps, goldcrests , spotted and pied flycatchers and occasionally redstarts will be seen around the village. Spring will also bring cuckoos, swallows, swifts and house martins. Curlews and oystercatchers will move to the moorland from the coast for nesting and this will then bring short eared owls searching for prey, scouring the moorland. A number of local properties have put up swift boxes to encourage swifts to nest and Sedbergh does have a small swift nesting colony during the summer.
 
 Moorland birds such as pheasants, grouse and partridges are all year round residents. A trip to Grisedale or Cotterdale nearby is ideal for birdwatching , particularly early evening as dusk is falling.
 
