@@ -176,6 +176,12 @@ blocks:
     button:
       text: Contact Us
       href: /contact/
+gallery:
+  - /images/Pasted image (11).png
+  - /images/wildlife/male-pheasant.jpeg
+  - /images/wildlife/robin.jpeg
+  - /images/wildlife/jay.jpeg
+  - /images/wildlife/young-pheasants.jpeg
 ---
 Garsdale is perfect for those interested in wildlife and bird watching. Many garden birds can be seen every day, for example: blue tits, great tits,long tailed tits,wrens, robins, thrushes, blackbirds, dunnocks, gold finches and nuthatches are regular visitors to the garden. Great spotted woodpeckers will frequent the bird feeders .
 
