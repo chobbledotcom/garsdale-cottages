@@ -189,7 +189,7 @@ Winter migrant birds arrive in great flocks: redwings and fieldfares will be see
 
 The river also is a home to herons, dippers, the occasional kingfisher but also mallards and goosander . Pied and yellow wagtails will feed on the gnats above the river .
 
-Driving from Garsdale to Kirkby Stephen across the open moorland and by the river you may hear meadow pipits, skylarks,sandpipers, lapwings, along with greylag and Canada geese.
+Driving from Garsdale to Kirkby Stephen across the open moorland and by the river you may hear meadow pipits, skylarks,sandpipers, lapwings, along with Greylag and Canada geese.
 
 There are a number of birds of prey to be seen locally: buzzards and kestrels are often around but also sparrowhawks and red kites.
 
