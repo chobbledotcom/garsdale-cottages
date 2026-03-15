@@ -1,6 +1,6 @@
 ---
 title: The Old Cart House
-subtitle: Cottage in Sedbergh
+subtitle: A cosy one-bedroom cottage perfect for couples and small families
 thumbnail: /images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg
 header_image: /images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg
 featured: false
@@ -80,10 +80,11 @@ meta_description: The Old Cart House - The Old Cart House is a charming detached
 locations:
   - locations/dent.md
 ---
+
 Sedbergh 6.4 miles.
 
-Enjoy a stay in The Old Cart House, a delightful detached stone property with a rich history as a former cart house and stables. 
-Nestled in the picturesque rural hamlet of Garsdale, Cumbria, The Old Cart House offers breath-taking countryside views and many local, short or longer, country walks in the quiet valley of Garsdale. 
+Enjoy a stay in The Old Cart House, a delightful detached stone property with a rich history as a former cart house and stables.
+Nestled in the picturesque rural hamlet of Garsdale, Cumbria, The Old Cart House offers breath-taking countryside views and many local, short or longer, country walks in the quiet valley of Garsdale.
 
 This charming retreat is perfectly suited for couples, solo travellers, or small families (two adults and one small child is the maximum family size possible) eager to discover the natural splendour of the Yorkshire Dales National Park.
 
@@ -138,7 +139,6 @@ The Old Cart house has an Ordnance Survey benchmark cut into the stonework and t
 - 1 well-behaved pet welcome
 - Sorry, no smoking
 - Shop and pubs 6.4 miles.
-  
 - Note: Children up to age 3 accepted but must be supervised due to the stairs
 - Note: There are steps down to the patio and garden from the bedroom exit, please take care.
 - Note: Whist the water supply at The Old Cart House is tested regularly, it is sourced from a nearby spring and, whilst fully treated, cannot realistically be guaranteed, we therefore supply bottled water for you to use for drinking and cooking if you prefer

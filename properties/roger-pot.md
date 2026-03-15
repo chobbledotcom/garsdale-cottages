@@ -1,6 +1,6 @@
 ---
 title: Roger Pot
-subtitle: Cottage in Sedbergh
+subtitle: A three bedroom property ideal for families
 thumbnail: /images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg
 header_image: /images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg
 featured: false
@@ -78,6 +78,7 @@ order: 0
 locations:
   - locations/garsdale.md
 ---
+
 Sedbergh 6.3 miles. Hawes 9 miles.
 
 Boasting incredible countryside views, Roger Pot is a fantastic isolated stone-built property with ample off-road parking and an attached garden, nestled into the rural hamlet of Garsdale near Sedbergh; the property is ideal for friends or families looking to explore Cumbria.
@@ -110,51 +111,29 @@ All of this and so much more with a stay at the charming Roger Pot.
 
 ## Touch Stay property Guide
 
-*   The following 'At a Glance' profile provides a brief outline of the property and its local amenities. This information and fuller detailed information can be found by reviewing and/or uploading the properties Touch Stay App on [https://guide.touchstay.com/guest/bGZFYR05qutsz/info/898565#1991624](https://guide.touchstay.com/guest/bGZFYR05qutsz/info/898565#1991624). This guide provides great information on finding us, contact details, accommodation including appliance instructions, local area guide/shops, wifi and great walk suggestions. Simply review on your computer or more conveniently add the App to your phone and any of your guests (simple instructions are included on the site)
-    
+- The following 'At a Glance' profile provides a brief outline of the property and its local amenities. This information and fuller detailed information can be found by reviewing and/or uploading the properties Touch Stay App on [https://guide.touchstay.com/guest/bGZFYR05qutsz/info/898565#1991624](https://guide.touchstay.com/guest/bGZFYR05qutsz/info/898565#1991624). This guide provides great information on finding us, contact details, accommodation including appliance instructions, local area guide/shops, wifi and great walk suggestions. Simply review on your computer or more conveniently add the App to your phone and any of your guests (simple instructions are included on the site)
 
 ## At a glance
 
-*   Three bedrooms: 1 x super-size with TV and en-suite walk-in shower, basin and WC, 1 x double, 1 x twin (which can be set up as super-king-size on request, please let the owner know your preference in advance)
-    
-*   Bathroom with bath, shower over, basin, heated towel rail and WC
-    
-*   Utility with basin and enclosed WC
-    
-*   Kitchen
-    
-*   Dining room
-    
-*   Utility
-    
-*   Sitting room with woodburning stove
-    
-*   Electric oven with induction hob, microwave, fridge/freezer, washer/dryer, dishwasher, air fryer
-    
-*   2 x TV, WiFi with Superfast Broadband
-    
-*   Fuel and power inc. in charges
-    
-*   Bed linen and towels inc. in charges
-    
-*   Off-road parking
-    
-*   Enclosed side garden with lawn and furniture
-    
-*   Maximum of two well-behaved dog welcome but must not be left unattended at any time
-    
-*   Sorry, no smoking within the house
-    
-*   Shop Sedbergh 6.7 miles, pub 6.3 miles, river 0.1 miles
-    
-*   Access - the property is accessed via a 400m rural farm track with 2 (sometimes 3) gates to open due to owners horses.
-    
-*   The track is steep and uneven in parts due to necessary drainage channels. It's entirely navigable with a normal car but very low profile car owners may prefer to leave their cars on the road
-    
-*   As the track is single width, we run a simple texting system with guests to ensure we know when either party is travelling up the track.
-    
-*   Guests have on-site river access for fishing, nestled within the owner's 4 acres of land; please supervise children at all times
-    
-*   The owners do live on site in an adjacent separate barn
-    
-*   Water - Whilst the water supply at Roger Pot is tested and treated annually, it is sourced from a nearby well and cannot realistically be guaranteed. We therefore supply bottled water for you to use for drinking and cooking if you prefer. Top ups are available free of charge during your stay
+- Three bedrooms: 1 x super-size with TV and en-suite walk-in shower, basin and WC, 1 x double, 1 x twin (which can be set up as super-king-size on request, please let the owner know your preference in advance)
+- Bathroom with bath, shower over, basin, heated towel rail and WC
+- Utility with basin and enclosed WC
+- Kitchen
+- Dining room
+- Utility
+- Sitting room with woodburning stove
+- Electric oven with induction hob, microwave, fridge/freezer, washer/dryer, dishwasher, air fryer
+- 2 x TV, WiFi with Superfast Broadband
+- Fuel and power inc. in charges
+- Bed linen and towels inc. in charges
+- Off-road parking
+- Enclosed side garden with lawn and furniture
+- Maximum of two well-behaved dog welcome but must not be left unattended at any time
+- Sorry, no smoking within the house
+- Shop Sedbergh 6.7 miles, pub 6.3 miles, river 0.1 miles
+- Access - the property is accessed via a 400m rural farm track with 2 (sometimes 3) gates to open due to owners horses.
+- The track is steep and uneven in parts due to necessary drainage channels. It's entirely navigable with a normal car but very low profile car owners may prefer to leave their cars on the road
+- As the track is single width, we run a simple texting system with guests to ensure we know when either party is travelling up the track.
+- Guests have on-site river access for fishing, nestled within the owner's 4 acres of land; please supervise children at all times
+- The owners do live on site in an adjacent separate barn
+- Water - Whilst the water supply at Roger Pot is tested and treated annually, it is sourced from a nearby well and cannot realistically be guaranteed. We therefore supply bottled water for you to use for drinking and cooking if you prefer. Top ups are available free of charge during your stay

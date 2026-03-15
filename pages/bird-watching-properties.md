@@ -28,6 +28,10 @@ blocks:
       minimal background noise, the birdsong here is extraordinary. Whether you
       are a seasoned birder or simply enjoy watching wildlife, our two cottages
       put you right in the middle of it all.
+
+  - type: items
+    collection: properties
+
   - type: split
     title: Birds on Your Doorstep
     subtitle: Over 50 species spotted in and around the cottages
@@ -109,21 +113,7 @@ blocks:
       Both properties are ideally placed for bird watching, with feeders
       attracting a wide variety of species and the surrounding countryside
       offering diverse habitats to explore.
-  - type: image-cards
-    image_aspect_ratio: 4/3
-    items:
-      - image: /images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg
-        title: Roger Pot
-        description: Sleeps 6 | 3 bedrooms | Set up a farm track with 4 acres of land,
-          river access and views across open moorland - perfect for dawn and
-          dusk birding walks.
-        link: /properties/roger-pot/
-      - image: /images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg
-        title: The Old Cart House
-        description: Sleeps 2 | 1 bedroom | A cosy retreat with the river nearby and
-          woodland walks from the door - ideal for a quiet birding break for
-          couples.
-        link: /properties/the-old-cart-house/
+
   - type: markdown
     content: >
       ## Birding Walks from Garsdale
@@ -150,12 +140,14 @@ blocks:
       reserve
   - type: features
     header_title: Why Garsdale for Bird Watching?
-    header_subtitle: A combination of habitats, peace and proximity to nature that
+    header_subtitle:
+      A combination of habitats, peace and proximity to nature that
       is hard to match
     items:
       - icon: hugeicons:leaf-04
         title: Diverse Habitats
-        description: Upland moor, river valley, ancient woodland and hay meadows all
+        description:
+          Upland moor, river valley, ancient woodland and hay meadows all
           within walking distance of both cottages.
       - icon: hugeicons:volume-off
         title: Peace and Quiet
@@ -163,12 +155,18 @@ blocks:
           birdsong, the river, the breeze in the trees.
       - icon: hugeicons:moon-02
         title: Dawn to Dusk
-        description: Early morning curlew calls, daytime feeder visits, evening owl
+        description:
+          Early morning curlew calls, daytime feeder visits, evening owl
           hunts - every hour brings something to see and hear.
       - icon: hugeicons:compass
         title: Local Knowledge
-        description: Our cottage owners live locally and can point you to the best spots
+        description:
+          Our cottage owners live locally and can point you to the best spots
           for the species you're hoping to see.
+
+  - type: items
+    collection: properties
+
   - type: cta
     title: Book Your Birding Break
     description: Ready to explore one of the Yorkshire Dales' best-kept birding
@@ -183,6 +181,7 @@ gallery:
   - /images/wildlife/jay.jpeg
   - /images/wildlife/young-pheasants.jpeg
 ---
+
 Garsdale is perfect for those interested in wildlife and bird watching. Many garden birds can be seen every day, for example: blue tits, great tits,long tailed tits,wrens, robins, thrushes, blackbirds, dunnocks, gold finches and nuthatches are regular visitors to the garden. Great spotted woodpeckers will frequent the bird feeders .
 
 In Spring siskins, redpolls, blackcaps, goldcrests , spotted and pied flycatchers and occasionally redstarts will be seen around the village. Spring will also bring cuckoos, swallows, swifts and house martins. Curlews and oystercatchers will move to the moorland from the coast for nesting and this will then bring short eared owls searching for prey, scouring the moorland. A number of local properties have put up swift boxes to encourage swifts to nest and Sedbergh does have a small swift nesting colony during the summer.

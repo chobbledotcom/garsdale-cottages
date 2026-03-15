@@ -50,6 +50,11 @@ nav,
   --color-bg: rgba(255, 255, 255, 0.9);
 }
 
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
 article#content {
   --color-bg: rgba(255, 255, 255, 0.9);
 }
@@ -87,4 +92,10 @@ article#content {
     fill: white;
     flex-shrink: 0;
   }
+}
+
+.book-now {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
 }

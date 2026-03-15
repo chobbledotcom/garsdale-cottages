@@ -22,8 +22,12 @@ blocks:
   - type: section-header
     title: Welcome to Garsdale Cottages
     subtitle: "A cooperative of holiday cottages in Garsdale - book directly with property owners for better prices and personal service"
-    level: 2
+    level: 1
     align: center
+
+  - type: items
+    collection: properties
+    intro: Two charming cottages in Garsdale, near Sedbergh, in the Yorkshire Dales
 
   - type: features
     items:
@@ -39,24 +43,6 @@ blocks:
       - icon: hugeicons:agreement-02
         title: No Middlemen
         description: "Book with confidence directly through us - straightforward, simple, personal."
-
-  - type: section-header
-    title: Our Cottages
-    subtitle: "Two charming properties to choose from"
-    level: 2
-    align: center
-
-  - type: image-cards
-    image_aspect_ratio: "4/3"
-    items:
-      - image: "/images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg"
-        title: Roger Pot
-        description: "Sleeps 6 | 3 bedrooms | Traditional stone cottage with woodburning stove, garden views and space to relax."
-        link: "/properties/roger-pot/"
-      - image: "/images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg"
-        title: The Old Cart House
-        description: "Sleeps 2 | 1 bedroom | Cosy romantic retreat with character features, perfect for couples."
-        link: "/properties/the-old-cart-house/"
 
   - type: section-header
     title: Why Garsdale?
