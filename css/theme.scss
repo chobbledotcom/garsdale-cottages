@@ -21,7 +21,8 @@
   font-style: normal;
   font-weight: 400;
   src:
-    url(/assets/fonts/berkshire-swash-latin-ext-400-normal.woff2) format("woff2"),
+    url(/assets/fonts/berkshire-swash-latin-ext-400-normal.woff2)
+      format("woff2"),
     url(/assets/fonts/berkshire-swash-latin-ext-400-normal.woff) format("woff");
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -30,8 +31,20 @@
 }
 
 :root {
-  --color-bg: #fafafa;
-  --color-text: #333;
+  --beige: #f0ead2;
+  --light-green: #e2eec7;
+  --dark-green: #34430d;
+  --light-brown: #a58368;
+  --dark-brown: #462c1c;
+
+  --body-background: var(--beige);
+  --body-background-alt: var(--light-green);
+  --color-tint: var(--dark-green);
+  --color-text: var(--dark-brown);
+  --color-card-bg: #f4f1e5;
+  --color-text-muted: var(--light-brown);
+  --color-link: var(--dark-green);
+
   --font-family-heading: "Berkshire Swash", sans-serif;
   --border: 2px solid var(--color-text);
   --border-radius: 3px;
@@ -98,4 +111,5 @@ article#content {
   position: fixed;
   bottom: 2rem;
   left: 2rem;
+  z-index: 2;
 }
