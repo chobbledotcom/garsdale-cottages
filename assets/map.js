@@ -18,7 +18,7 @@
       seen[p.category] = true;
       usedCategories.push({
         type: p.category,
-        label: p.categoryLabel || catLookup[p.category] || p.category,
+        label: catLookup[p.category] || p.category,
         color: (catIconLookup[p.category] || {}).color || "#757575"
       });
     }
@@ -128,8 +128,8 @@
   var markers = [];
   places.forEach(function (place) {
     var catInfo = catIconLookup[place.category] || {};
-    var color = place.color || catInfo.color || "#757575";
-    var iconifyId = place.iconify || catInfo.iconify || "hugeicons:location-04";
+    var color = catInfo.color || "#757575";
+    var iconifyId = catInfo.iconify || "hugeicons:location-04";
     var icon = createCategoryIcon(color, iconifyId);
     var marker = L.marker([place.location.lat, place.location.lng], { icon: icon });
 
@@ -142,7 +142,7 @@
 
     var catP = document.createElement("p");
     catP.className = "category";
-    catP.textContent = place.categoryLabel || catLookup[place.category] || place.category;
+    catP.textContent = catLookup[place.category] || place.category;
     popupEl.appendChild(catP);
 
     if (place.description) {

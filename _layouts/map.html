@@ -182,11 +182,6 @@
         <template data-icon="{{ cat.iconify }}">{{ cat.iconify | icon }}</template>
       {%- endif -%}
     {%- endfor -%}
-    {%- for place in map_places.places -%}
-      {%- if place.iconify -%}
-        <template data-icon="{{ place.iconify }}">{{ place.iconify | icon }}</template>
-      {%- endif -%}
-    {%- endfor -%}
   </div>
 
   <script src="/assets/map.js"></script>

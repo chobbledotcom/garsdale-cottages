@@ -751,36 +751,45 @@ content:
         type: object
         list: true
         fields:
-          - { name: id, type: number, label: ID }
           - { name: title, type: string, label: Title }
           - { name: description, type: string, label: Description }
-          - { name: category, type: string, label: Category }
-          - { name: categoryLabel, type: string, label: Category Label }
+          - name: category
+            type: select
+            label: Category
+            options:
+              values:
+                - { value: bank, label: Bank }
+                - { value: beaches, label: Beaches }
+                - { value: bike_rental, label: Bike rentals }
+                - { value: coffee_shop, label: Coffee shops }
+                - { value: electric_charging_station, label: Electric charging point }
+                - { value: entertainment_and_activities, label: Entertainment and activities }
+                - { value: events, label: Events }
+                - { value: farm_shop_market, label: Farm shop/farmers market }
+                - { value: fitness_exercise, label: Fitness/exercise }
+                - { value: gas_station, label: Gas/petrol station }
+                - { value: gastro_pub, label: Gastropubs }
+                - { value: grocery_shopping, label: Grocery shopping }
+                - { value: horse_riding, label: Horse riding }
+                - { value: museums, label: Museums }
+                - { value: other, label: Other }
+                - { value: pharmacy, label: Pharmacy }
+                - { value: retail_therapy, label: Retail shops/stores }
+                - { value: souvenirs, label: Souvenirs }
+                - { value: take_out, label: Take out/away }
+                - { value: taxi, label: Taxi rank }
+                - { value: train, label: Train station }
+                - { value: vehicle_repair, label: Vehicle/auto repair }
           - name: location
             type: object
             label: Location
             fields:
               - { name: lat, type: number, label: Latitude }
               - { name: lng, type: number, label: Longitude }
-          - { name: directionsUrl, type: string, label: Directions URL }
-          - { name: icon, type: string, label: Icon Path }
-          - { name: iconUrl, type: string, label: Icon URL }
-          - { name: iconify, type: string, label: Iconify ID }
-          - { name: color, type: string, label: Color }
           - name: w3w
             type: string
             label: what3words
             comment: "three word address e.g. filled.count.soap"
-      - name: categories
-        label: Categories
-        type: object
-        list: true
-        fields:
-          - { name: type, type: string, label: Type }
-          - { name: label, type: string, label: Label }
-          - { name: icon, type: string, label: Icon Path }
-          - { name: iconify, type: string, label: Iconify ID }
-          - { name: color, type: string, label: Color }
   - name: alt-tags
     label: Image Alt Tags
     type: file
