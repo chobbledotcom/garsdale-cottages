@@ -165,6 +165,16 @@
     dirLink.className = "directions-link";
     popupEl.appendChild(dirLink);
 
+    if (place.w3w) {
+      var w3wLink = document.createElement("a");
+      w3wLink.textContent = "///" + place.w3w;
+      w3wLink.href = "https://what3words.com/" + place.w3w;
+      w3wLink.target = "_blank";
+      w3wLink.rel = "noopener";
+      w3wLink.className = "w3w-link";
+      popupEl.appendChild(w3wLink);
+    }
+
     marker.bindPopup(popupEl);
     marker.addTo(map);
     markers.push({ marker: marker, category: place.category });

@@ -741,6 +741,46 @@ content:
                 type: string
                 label: Available Languages
                 list: true
+  - name: map-places
+    label: Map Places
+    type: file
+    path: _data/map_places.json
+    fields:
+      - name: places
+        label: Places
+        type: object
+        list: true
+        fields:
+          - { name: id, type: number, label: ID }
+          - { name: title, type: string, label: Title }
+          - { name: description, type: string, label: Description }
+          - { name: category, type: string, label: Category }
+          - { name: categoryLabel, type: string, label: Category Label }
+          - name: location
+            type: object
+            label: Location
+            fields:
+              - { name: lat, type: number, label: Latitude }
+              - { name: lng, type: number, label: Longitude }
+          - { name: directionsUrl, type: string, label: Directions URL }
+          - { name: icon, type: string, label: Icon Path }
+          - { name: iconUrl, type: string, label: Icon URL }
+          - { name: iconify, type: string, label: Iconify ID }
+          - { name: color, type: string, label: Color }
+          - name: w3w
+            type: string
+            label: what3words
+            comment: "three word address e.g. filled.count.soap"
+      - name: categories
+        label: Categories
+        type: object
+        list: true
+        fields:
+          - { name: type, type: string, label: Type }
+          - { name: label, type: string, label: Label }
+          - { name: icon, type: string, label: Icon Path }
+          - { name: iconify, type: string, label: Iconify ID }
+          - { name: color, type: string, label: Color }
   - name: alt-tags
     label: Image Alt Tags
     type: file
