@@ -128,6 +128,12 @@ blocks:
       comedy events.
 
 
+      **Farfield Mill** is on the road between Garsdale and Sedbergh and is
+      an arts and heritage centre with exhibitions, craft work and a good
+      cafe. A pleasant way to spend a few hours, particularly on a rainy
+      day.
+
+
       **Semerwater** is the closest lake to Garsdale and is one of two remaining
       natural glacial lakes in the Yorkshire Dales. It is in the valley of
       Raydale, close to Countersett village. There are footpaths and walks from
@@ -208,6 +214,44 @@ blocks:
       and valleys. From Thwaite we would go to Muker which is beside the river
       Swale and there are some beautiful walks from the village. There are also
       some lovely cafes for lunch.
+  - type: markdown
+    content: >
+      ## Exploring the Dale
+
+
+      There is plenty to discover in and around Garsdale itself without
+      driving anywhere:
+
+
+      - **Otters on the River Clough** -- otters have naturally recolonised
+      the river. You are unlikely to see one, but look for spraints (otter
+      droppings) on rocks at the waterside.
+
+      - **Dark skies** -- with no street lighting, the stargazing from
+      Garsdale is remarkable. On a clear night, the Milky Way is visible
+      to the naked eye. Baugh Fell, visible to the north, is a
+      particularly good backdrop.
+
+      - **Dry stone walls** -- Garsdale has a fine collection of walls, all
+      visible from the road. Each has a distinctive style that identifies
+      the waller who built it.
+
+      - **[Garsdale dialect](/garsdale-dialect/)** -- the dale has its
+      own traditional vocabulary, rooted in Old Norse. Ask a local what
+      "thrang" or "heeaf" means.
+
+      - **[Tom Croft Cave and Dovecote Cave](/caves-and-geological-features/)** --
+      local caves to explore with a torch.
+
+      - **[The Sedgwick Geological Trail](/the-sedgwick-geological-trail/)** --
+      a short walk along the River Clough at Danny Bridge tracing the
+      ancient Dent Fault, named after the geologist Adam Sedgwick who was
+      born in nearby Dent.
+
+      - **[Grisedale](/grisedale/)** -- the neighbouring valley known
+      as "The Dale that Died," which has quietly come back to life. A
+      walk into Grisedale is one of the most atmospheric things you can do
+      from here.
   - type: markdown
     content: >
       ## Rainy Days

@@ -58,6 +58,24 @@ blocks:
       direction and right is in the Cotter Force direction. Both are great
       walks with lovely scenery and often grouse can be heard, and sometimes
       seen, in the heather.
+
+
+      The **Rise Hill Ridge** walk follows the Coal Road up from Garsdale
+      village towards Langstone Fell, with outstanding views in every
+      direction. On a clear day you can see the Howgill Fells, Baugh Fell
+      and across into Dentdale.
+
+
+      **Cotterdale Force** is a waterfall in the quiet valley of Cotterdale,
+      between Garsdale Head and Hawes. It was sketched by the painter
+      J.M.W. Turner and is a lovely, uncrowded walk.
+
+
+      A traditional annual walk into [Grisedale](/grisedale/) is
+      organised from Mount Zion Chapel, usually in July or August, followed
+      by tea back at the chapel. During summer months, evening walks are
+      also organised from the Village Hall, sometimes followed by a
+      ploughman's supper or barbecue.
   - type: split
     title: From the Doorstep
     content: >
