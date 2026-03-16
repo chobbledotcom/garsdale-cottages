@@ -10,7 +10,13 @@ The number of places of worship tucked into this quiet dale is striking. At one 
 
 ## St John the Baptist
 
-The Anglican church sits between The Street and Garsdale Hall, roughly six miles from Sedbergh. A chapel of ease to Dent was recorded here in the mid-1500s, and the present building dates from 1861, when it was rebuilt alongside the site of the medieval original. Services still take place here and rotate between the dale's churches. More information is available from the [Western Dales Mission Community](https://www.westerndales.org.uk/st-johns-garsdale).
+The Anglican church sits between The Street and Garsdale Hall, roughly six miles from Sedbergh. A chapel of ease to Dent was recorded here in the mid-1500s, and the present building dates from 1861, when it was rebuilt alongside the site of the medieval original. The church is always open to visitors and features a fine stained-glass east window by the renowned Victorian artist C.E. Kempe.
+
+In 1799, William Wordsworth wrote to Samuel Taylor Coleridge describing a walk through Garsdale with his sister Dorothy, mentioning "we rested in a tempting inn, close by a lowly house of prayer in a charming little valley." The inn was Garsdale Hall (then the George and Dragon coaching inn) and the house of prayer was this church.
+
+Each spring, an annual united lambing service is held here. Lambs are brought into the church for the occasion, which is as charming as it sounds.
+
+Services rotate between the dale's churches. More information is available from the [Western Dales Mission Community](https://www.westerndales.org.uk/st-johns-garsdale).
 
 ## The Quaker Connection
 
@@ -26,4 +32,6 @@ Methodism arrived in Garsdale from Kendal and Sedbergh, where John Wesley himsel
 
 **Garsdale Street Chapel** is a Grade II listed Primitive Methodist chapel, built in 1841 on the main A684. It was probably constructed by two stonemason brothers, working on a plot of just ten yards square. The interior remains remarkably unchanged, with its original painted box-like tiered seating.
 
-**Mount Zion Chapel** at Garsdale Head opened in 1876, the same year the Settle-Carlisle railway began carrying passengers. It served both the local farming families and the community of railway workers living at the station.
+**Mount Zion Chapel** at Garsdale Head opened in 1876, the same year the Settle-Carlisle railway began carrying passengers. Remarkably, it was built by the railway contractors Groves and Woodiwiss, and Reuben Alton laid the foundation stone on the very day of the first passenger train. The chapel is painted in Midland Railway colours of maroon and cream, and is thought to be the only place of worship in the country built by railway contractors. From its windows there are views of Garsdale Station and the Dandrymire Viaduct. The extension won an award from the Yorkshire Dales National Park Authority. Mount Zion can be hired as a base for walkers, with toilet, disabled access, kettles and water boiler. A "Railways and Religion in the Western Dales" leaflet is available in the chapels.
+
+All four of Garsdale's places of worship, St John's and the three Methodist chapels, are open to visitors.

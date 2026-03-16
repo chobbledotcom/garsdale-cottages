@@ -12,6 +12,8 @@ Garsdale's combination of upland moorland, river valley, ancient woodland and ha
 
 The native red squirrel is the star resident. Garsdale is one of the key strongholds for this endangered species in England. They can be spotted along the woodland paths, by the river, and occasionally in the cottage gardens. [More about red squirrels in Garsdale](/guide/red-squirrels-in-garsdale/).
 
+Otters have returned to the River Clough. The Environment Agency confirmed their presence through spraints and footprints during surveys, and their numbers across the wider Lune catchment have increased dramatically in recent years. They recolonised naturally rather than being reintroduced, which is a good sign for the health of the river. You are unlikely to see an otter, but knowing they are there adds to the sense of a river system in good shape.
+
 Brown hares are seen in the fields throughout the year, and roe deer appear regularly on the hillside and in the fields. Stoats and weasels hunt along the walls and hedgerows, and the fields support large numbers of mice and voles. Badgers, foxes and hedgehogs are also present, though less frequently seen.
 
 ## Birds
@@ -21,6 +23,12 @@ The birdlife here is exceptional. Over fifty species have been recorded in and a
 In spring, curlews arrive from the coast to nest on the moorland, and their evocative calls become the soundtrack to the dale. Cuckoos visit, swallows return, and short-eared owls can be seen hunting over Grisedale in the early evening. Winter brings large flocks of redwings and fieldfares.
 
 For more detail, see our [Bird Watching in Garsdale](/bird-watching-properties/) page.
+
+## The River Clough
+
+The Clough has benefited from conservation work in recent years. A large culvert was installed at Winterscales Farm, funded by the Lune Rivers Trust, to replace an easily blocked pipe bridge and allow migratory fish and eels to pass upstream. The return of otters and the improving fish population are signs of a river recovering well.
+
+Walkers along the riverbanks may notice Himalayan Balsam, an attractive pink-flowered plant that has spread along the Clough. It is invasive but hard to miss in late summer.
 
 ## Wildflowers and Hedgerows
 

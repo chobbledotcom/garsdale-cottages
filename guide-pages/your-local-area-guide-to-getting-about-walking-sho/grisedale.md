@@ -18,10 +18,14 @@ In 1975, Yorkshire Television producer Barry Cockcroft made a documentary about 
 
 ## A Dale That Refused to Die
 
-In the years since, Grisedale has quietly come back to life. People seeking rural solitude have bought and restored the old farmhouses, drawn from all over Britain. Farming continues too. Joe Gibson's grandson Matthew still keeps Swaledale sheep at Mouse Syke, maintaining the family's connection to this remote place.
+The houses of Grisedale, each with a story of its own, include Blakemire, Mouse Syke, Chapel House, Beck House, Reachey, Aldershaw, Moor Rigg, East House and Fea Fow. A local history book, *Bell Pratt of Grisdale*, tells the story of a man born in the dale in 1910, covering farming life, army service, Methodist lay preaching and the farming year. It gives a real feel for what life in Grisedale was like.
+
+In the years since the documentary, the dale has quietly come back to life. People seeking rural solitude have bought and restored the old farmhouses, drawn from all over Britain. Farming continues too. Joe Gibson's grandson Matthew still keeps Swaledale sheep at Mouse Syke, maintaining the family's connection to this remote place.
 
 Nearly fifty years after that documentary, Grisedale is perhaps better described as the dale that refused to die.
 
 ## Walking to Grisedale
 
 Grisedale is accessible on foot from Garsdale and makes for a rewarding walk of varying length depending on how far you venture in. The dale is a cul-de-sac, nearly three miles long, so you retrace your steps coming back. In spring and early summer, the birdlife is remarkable. Keep an eye out for short-eared owls quartering the moorland in the evening, and listen for curlews, lapwings and skylarks.
+
+A traditional annual walk into Grisedale is organised from Mount Zion Chapel, usually in July or August, followed by tea back at the chapel. If your visit coincides with this, it is a lovely way to explore the dale in company and hear local stories along the way.

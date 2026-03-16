@@ -15,7 +15,9 @@ Garsdale is the only station on the Settle-Carlisle line with a fully operationa
 
 Sixteen Midland Railway cottages were built for the railway workers and their families. These are now in private hands. The station's waiting rooms served double duty in the community. The northbound platform waiting room hosted church services, while the ladies' waiting room contained a lending library of around 150 books. Even the stone base of the water tower was pressed into service as a makeshift village hall.
 
-The turntable that once stood here has been removed and restored at the Keighley and Worth Valley Railway.
+The turntable that once stood here has been removed and restored at the Keighley and Worth Valley Railway. Junction Cottage at Garsdale Head was formerly the Junction Inn, serving travellers and railway workers.
+
+Nearby, the Dandrymire Viaduct (also known as the Moorcock Viaduct) carries the railway across the head of the dale and is visible from Mount Zion Chapel. It is one of the notable engineering features of the Settle-Carlisle line. Mount Zion Chapel itself was built in the same year as the railway by the very contractors building the line, and its foundation stone was laid on the day of the first passenger train.
 
 ## Getting There
 
