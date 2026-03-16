@@ -1,0 +1,102 @@
+---
+header_text: Garsdale Station
+layout: design-system-base
+subtitle: On the Settle-Carlisle line at the top of the dale
+meta_title: Garsdale Train Station | Settle-Carlisle Railway
+meta_description: Garsdale station on the Settle-Carlisle railway line, with its
+  signal box, Ruswarp statue, Dandrymire Viaduct and connections to Hawes.
+blocks:
+  - type: image-background
+    full_width: true
+    parallax: true
+    image: /images/places of interest/IMG_3418.jpeg
+    image_alt: View from Garsdale Head
+    content: |
+      # Garsdale Station
+
+      On the Settle-Carlisle line at the top of the dale
+  - type: markdown
+    content: >
+      Garsdale station sits high on the Settle-Carlisle line at the top of
+      the dale, where the railway crosses from Dentdale into Mallerstang.
+      Originally called Hawes Junction, it once connected to a branch line
+      running six miles down to Hawes in Wensleydale.
+  - type: split
+    title: The Station
+    content: >
+      Garsdale is the only station on the Settle-Carlisle line with a fully
+      operational signal box. The line opened on 1 May 1876, and the station
+      served both as a transport hub and a focal point for the small
+      community that grew up around it.
+
+
+      Sixteen Midland Railway cottages were built for the railway workers
+      and their families. These are now in private hands. The station's
+      waiting rooms served double duty in the community. The northbound
+      platform waiting room hosted church services, while the ladies'
+      waiting room contained a lending library of around 150 books. Even
+      the stone base of the water tower was pressed into service as a
+      makeshift village hall.
+    figure_type: image
+    figure_src: /images/places of interest/IMG_3781.jpeg
+    figure_alt: View along the Settle-Carlisle railway
+    reverse: false
+  - type: split
+    content: >
+      The turntable that once stood here has been removed and restored at
+      the Keighley and Worth Valley Railway. Junction Cottage at Garsdale
+      Head was formerly the Junction Inn, serving travellers and railway
+      workers.
+
+
+      Nearby, the Dandrymire Viaduct (also known as the Moorcock Viaduct)
+      carries the railway across the head of the dale and is visible from
+      Mount Zion Chapel. It is one of the notable engineering features of
+      the Settle-Carlisle line. Mount Zion Chapel itself was built in the
+      same year as the railway by the very contractors building the line,
+      and its foundation stone was laid on the day of the first passenger
+      train.
+    figure_type: image
+    figure_src: /images/places of interest/IMG_3782.jpeg
+    figure_alt: Railway viaduct in the Yorkshire Dales
+    reverse: true
+  - type: features
+    header_title: Practical Information
+    items:
+      - icon: hugeicons:car-01
+        title: Getting There
+        description:
+          The station is reached via the Coal Road from Garsdale village,
+          which continues over to Dent station. There is a car park at the
+          station.
+      - icon: hugeicons:bus
+        title: The Little White Bus
+        description:
+          The Little White Bus runs a shuttle service between Garsdale
+          station and Hawes, timed to meet certain trains. Check
+          littlewhitebus.co.uk for current timetables.
+      - icon: hugeicons:dog
+        title: The Ruswarp Statue
+        description:
+          On the platform you will find a bronze statue of Ruswarp, the
+          Border Collie who helped save the Settle-Carlisle line from
+          closure.
+  - type: markdown
+    content: >
+      ## The Settle-Carlisle Line Today
+
+
+      The line runs 73 miles through some of the most dramatic scenery in
+      England, crossing the famous Ribblehead Viaduct and climbing to over
+      1,100 feet. Regular services run from Leeds to Carlisle, and it is
+      one of the great railway journeys of the north. Visit
+      [settle-carlisle.co.uk](https://settle-carlisle.co.uk/) for
+      timetables and information.
+  - type: cta
+    title: Stay in Garsdale
+    description: Book direct with local cottage owners for better prices and
+      personal service.
+    button:
+      text: View Our Cottages
+      href: /properties/
+---

@@ -247,7 +247,7 @@ blocks:
       ancient Dent Fault, named after the geologist Adam Sedgwick who was
       born in nearby Dent.
 
-      - **[Grisedale](/guide/grisedale/)** -- the neighbouring valley known
+      - **[Grisedale](/grisedale/)** -- the neighbouring valley known
       as "The Dale that Died," which has quietly come back to life. A
       walk into Grisedale is one of the most atmospheric things you can do
       from here.

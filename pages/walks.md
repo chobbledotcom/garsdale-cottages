@@ -71,7 +71,7 @@ blocks:
       J.M.W. Turner and is a lovely, uncrowded walk.
 
 
-      A traditional annual walk into [Grisedale](/guide/grisedale/) is
+      A traditional annual walk into [Grisedale](/grisedale/) is
       organised from Mount Zion Chapel, usually in July or August, followed
       by tea back at the chapel. During summer months, evening walks are
       also organised from the Village Hall, sometimes followed by a
