@@ -70,7 +70,7 @@ gallery:
   - /images/properties/roger-pot/a-dirt-path-with-metal-gates-and-stone-walls-surrounded-by-g.jpeg
   - /images/properties/roger-pot/a-grassy-hillside-with-scattered-trees-and-a-stone-wall-at-r.jpeg
   - /images/properties/roger-pot/a-grassy-area-with-trees-next-to-a-rocky-stream-at-roger-pot.jpeg
-meta_title: Roger Pot | Holiday Cottage in Garsdale
+meta_title: Roger Pot | Holiday Cottage near Sedbergh, Garsdale
 meta_description: "Roger Pot - A beautiful, detached house resting in the
   countryside of Garsdale near Sedbergh, Cumbria. Pet-friendly. Countryside
   views. Woodburning stove. "

@@ -3,8 +3,9 @@ layout: design-system-base
 header_text: Contact Us
 subtitle: Get in touch with Garsdale Cottages
 meta_title: Contact Garsdale Cottages
-meta_description: Get in touch with Garsdale Cottages to book your holiday in
-  the Yorkshire Dales. Contact the property owners directly.
+meta_description: Get in touch with Garsdale Cottages to book your holiday
+  cottage near Sedbergh in the Yorkshire Dales. Contact the property owners
+  directly.
 eleventyNavigation:
   key: Contact
   order: 7

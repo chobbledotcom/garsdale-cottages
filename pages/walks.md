@@ -2,10 +2,10 @@
 header_text: Local Walks
 layout: design-system-base
 subtitle: Walking routes from Garsdale and the surrounding area
-meta_title: Walks Near Garsdale | Yorkshire Dales Walking Routes
-meta_description: Walking routes from Garsdale in the Yorkshire Dales - from
-  gentle strolls to challenging fell walks, with routes for all abilities from
-  your doorstep.
+meta_title: Walks near Sedbergh and Garsdale | Yorkshire Dales Walking Routes
+meta_description: Walking routes near Sedbergh and Garsdale in the Yorkshire
+  Dales - from gentle strolls to challenging fell walks, with routes for all
+  abilities from your doorstep.
 eleventyNavigation:
   key: Walks
   order: 4

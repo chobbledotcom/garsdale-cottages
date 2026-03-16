@@ -1,8 +1,8 @@
 ---
 header_text: Our Cottages
 subtitle: Book direct with local property owners
-meta_title: Holiday Cottages in Garsdale | Book Direct
-meta_description: "Two charming holiday cottages in Garsdale, Yorkshire Dales. Book direct with local property owners for better prices and personal service."
+meta_title: Holiday Cottages near Sedbergh, Garsdale | Book Direct
+meta_description: "Holiday cottages near Sedbergh in Garsdale, Yorkshire Dales. Book direct with local property owners for better prices and personal service."
 layout: design-system-base.html
 permalink: /properties/
 eleventyNavigation:
@@ -21,11 +21,11 @@ blocks:
 
   - type: markdown
     content: |
-      ## Holiday Cottages in Garsdale
+      ## Holiday Cottages near Sedbergh
 
-      A cooperative of holiday cottages in Garsdale - book directly for better prices and personal service
+      A cooperative of holiday cottages near Sedbergh in Garsdale - book directly for better prices and personal service
 
-      Garsdale Cottages is a cooperative of holiday cottages in the Garsdale area. The website enables those visiting Garsdale to have a great understanding of what is available locally, to experience the beauty and tranquillity of the area and to have one place to find all the information to make their holiday a memorable experience.
+      Garsdale Cottages is a cooperative of holiday cottages near Sedbergh in the Garsdale area of the Yorkshire Dales. The website enables those visiting Sedbergh and Garsdale to have a great understanding of what is available locally, to experience the beauty and tranquillity of the area and to have one place to find all the information to make their holiday a memorable experience.
 
   - type: image-cards
     image_aspect_ratio: "4/3"
@@ -58,7 +58,7 @@ blocks:
 
   - type: cta
     title: Get in Touch
-    description: "Ready to book your stay in Garsdale? Contact us directly."
+    description: "Ready to book your stay near Sedbergh? Contact us directly."
     button:
       text: Contact Us
       href: /contact/

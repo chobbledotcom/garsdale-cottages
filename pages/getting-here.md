@@ -2,9 +2,10 @@
 header_text: Getting Here
 layout: design-system-base
 subtitle: How to reach Garsdale
-meta_title: Getting to Garsdale | Travel Information
-meta_description: How to reach Garsdale in the Yorkshire Dales by car and by
-  train on the Settle-Carlisle railway.
+meta_title: Getting to Garsdale near Sedbergh | Travel Information
+meta_description: How to reach our holiday cottages near Sedbergh in Garsdale,
+  Yorkshire Dales - by car from the M6 or by train on the Settle-Carlisle
+  railway.
 eleventyNavigation:
   key: Getting Here
   order: 6
