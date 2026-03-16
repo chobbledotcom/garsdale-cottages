@@ -235,11 +235,11 @@ blocks:
       visible from the road. Each has a distinctive style that identifies
       the waller who built it.
 
-      - **[Garsdale dialect](/guide/garsdale-dialect/)** -- the dale has its
+      - **[Garsdale dialect](/garsdale-dialect/)** -- the dale has its
       own traditional vocabulary, rooted in Old Norse. Ask a local what
       "thrang" or "heeaf" means.
 
-      - **[Tom Croft Cave and Dovecote Cave](/guide/caves-and-geological-features/)** --
+      - **[Tom Croft Cave and Dovecote Cave](/caves-and-geological-features/)** --
       local caves to explore with a torch.
 
       - **[The Sedgwick Geological Trail](/guide/the-sedgwick-geological-trail/)** --
