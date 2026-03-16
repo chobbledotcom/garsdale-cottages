@@ -1,8 +1,8 @@
 ---
 header_text: Garsdale Cottages
-subtitle: Holiday cottages in Garsdale, Yorkshire Dales - book direct with property owners
-meta_title: Garsdale Cottages | Holiday Cottages in Garsdale
-meta_description: "Book direct with cottage owners in Garsdale, Yorkshire Dales. Two charming holiday cottages - Roger Pot (sleeps 6) and The Old Cart House (sleeps 2). No middlemen, no agency fees."
+subtitle: Holiday cottages near Sedbergh in the Yorkshire Dales - book direct with property owners
+meta_title: Garsdale Cottages | Holiday Cottages near Sedbergh, Yorkshire Dales
+meta_description: "Holiday cottages near Sedbergh in the Yorkshire Dales. Book direct with cottage owners in Garsdale - Roger Pot (sleeps 6) and The Old Cart House (sleeps 2). No middlemen, no agency fees."
 layout: design-system-base.html
 permalink: /
 eleventyNavigation:
@@ -17,17 +17,17 @@ blocks:
     content: |
       # Garsdale Cottages
 
-      Holiday cottages in Garsdale, Yorkshire Dales - book direct with property owners
+      Holiday cottages near Sedbergh in the Yorkshire Dales - book direct with property owners
 
   - type: section-header
     title: Welcome to Garsdale Cottages
-    subtitle: "A cooperative of holiday cottages in Garsdale - book directly with property owners for better prices and personal service"
+    subtitle: "A cooperative of holiday cottages near Sedbergh in Garsdale - book directly with property owners for better prices and personal service"
     level: 1
     align: center
 
   - type: items
     collection: properties
-    intro: Two charming cottages in Garsdale, near Sedbergh, in the Yorkshire Dales
+    intro: Two charming holiday cottages near Sedbergh, in Garsdale, Yorkshire Dales
 
   - type: features
     items:

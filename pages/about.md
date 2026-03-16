@@ -2,9 +2,9 @@
 header_text: About Garsdale
 layout: design-system-base
 subtitle: A hidden gem in the Yorkshire Dales
-meta_title: About Garsdale | Yorkshire Dales Holiday Cottages
-meta_description: Garsdale is a quiet valley within the Yorkshire Dales National
-  Park - a haven for red squirrels, upland birds and unspoilt countryside.
+meta_title: About Garsdale near Sedbergh | Yorkshire Dales Holiday Cottages
+meta_description: Garsdale is a quiet valley near Sedbergh in the Yorkshire Dales
+  National Park - a haven for red squirrels, upland birds and unspoilt countryside.
 eleventyNavigation:
   key: About Garsdale
   order: 1

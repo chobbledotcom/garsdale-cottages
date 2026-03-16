@@ -2,9 +2,10 @@
 header_text: Things To Do
 layout: design-system-base
 subtitle: Activities and attractions in the Yorkshire Dales
-meta_title: Things To Do in Garsdale and the Yorkshire Dales
-meta_description: Walking, wildlife watching, visiting market towns, rainy day
-  activities and family adventures in the Yorkshire Dales.
+meta_title: Things To Do near Sedbergh and Garsdale | Yorkshire Dales
+meta_description: Things to do near Sedbergh and Garsdale - walking, wildlife
+  watching, visiting market towns, rainy day activities and family adventures in
+  the Yorkshire Dales.
 eleventyNavigation:
   key: Things To Do
   order: 3

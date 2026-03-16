@@ -73,10 +73,10 @@ gallery:
   - /images/properties/the-old-cart-house/a-snowy-field-with-footprints-leading-to-a-gate-and-hills-in.jpeg
   - /images/properties/the-old-cart-house/a-road-with-a-yorkshire-dales-national-park-sign-and-fields-.jpeg
   - /images/properties/the-old-cart-house/a-countryside-landscape-with-rolling-hills-fields-trees-and-.jpeg
-meta_title: The Old Cart House | Holiday Cottage in Garsdale
-meta_description: The Old Cart House - The Old Cart House is a charming detached
-  cottage with a toasty electric fire, in the heart of the Yorkshire Dales
-  National Park in Gars
+meta_title: The Old Cart House | Holiday Cottage near Sedbergh, Garsdale
+meta_description: The Old Cart House - a charming detached holiday cottage near
+  Sedbergh in Garsdale, Yorkshire Dales. Cosy retreat for couples with
+  countryside views. Book direct.
 locations:
   - locations/dent.md
 ---
