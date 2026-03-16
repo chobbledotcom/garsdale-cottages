@@ -81,7 +81,7 @@ blocks:
   - type: features
     header_title: Community Services
     items:
-      - icon: hugeicons:government
+      - icon: hugeicons:court-house
         title: Parish Council
         description:
           Garsdale has its own parish council which meets several times a

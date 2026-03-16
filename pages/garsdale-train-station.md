@@ -69,13 +69,13 @@ blocks:
           The station is reached via the Coal Road from Garsdale village,
           which continues over to Dent station. There is a car park at the
           station.
-      - icon: hugeicons:bus
+      - icon: hugeicons:bus-01
         title: The Little White Bus
         description:
           The Little White Bus runs a shuttle service between Garsdale
           station and Hawes, timed to meet certain trains. Check
           littlewhitebus.co.uk for current timetables.
-      - icon: hugeicons:dog
+      - icon: hugeicons:bone-01
         title: The Ruswarp Statue
         description:
           On the platform you will find a bronze statue of Ruswarp, the
