@@ -242,7 +242,7 @@ blocks:
       - **[Tom Croft Cave and Dovecote Cave](/caves-and-geological-features/)** --
       local caves to explore with a torch.
 
-      - **[The Sedgwick Geological Trail](/guide/the-sedgwick-geological-trail/)** --
+      - **[The Sedgwick Geological Trail](/the-sedgwick-geological-trail/)** --
       a short walk along the River Clough at Danny Bridge tracing the
       ancient Dent Fault, named after the geologist Adam Sedgwick who was
       born in nearby Dent.

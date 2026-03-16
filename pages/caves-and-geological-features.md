@@ -48,7 +48,7 @@ blocks:
       side.
 
 
-      The [Sedgwick Geological Trail](/guide/the-sedgwick-geological-trail/)
+      The [Sedgwick Geological Trail](/the-sedgwick-geological-trail/)
       along the River Clough at Danny Bridge follows this fault line, with
       information boards explaining what you are seeing. It is named after
       Adam Sedgwick, born in Dent in 1785, who was one of the founders of
