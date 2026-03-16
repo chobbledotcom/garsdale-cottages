@@ -258,8 +258,8 @@ blocks:
       rainfall, so there are some lovely indoor places to visit on a rainy day.
 
 
-      The closest to Garsdale is [Farfield Mill](https://www.farfieldmill.org/),
-      this is on the road to Sedbergh and is an interesting place to spend a few
+      Close to Garsdale is [Farfield Mill](https://www.farfieldmill.org/), this
+      is on the road to Sedbergh and is an interesting place to spend a few
       hours and has exhibitions and art and craft work as well as a good cafe.
 
 
