@@ -91,6 +91,12 @@
       font-size: 0.85rem;
       margin-top: 0.4rem;
     }
+    .place-popup .w3w-link {
+      display: block;
+      font-size: 0.85rem;
+      margin-top: 0.25rem;
+      color: #E11F26;
+    }
     .property-marker-icon {
       background: #d32f2f;
       border: 2px solid #fff;
@@ -174,11 +180,6 @@
     {%- for cat in map_places.categories -%}
       {%- if cat.iconify -%}
         <template data-icon="{{ cat.iconify }}">{{ cat.iconify | icon }}</template>
-      {%- endif -%}
-    {%- endfor -%}
-    {%- for place in map_places.places -%}
-      {%- if place.iconify -%}
-        <template data-icon="{{ place.iconify }}">{{ place.iconify | icon }}</template>
       {%- endif -%}
     {%- endfor -%}
   </div>

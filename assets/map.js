@@ -18,7 +18,7 @@
       seen[p.category] = true;
       usedCategories.push({
         type: p.category,
-        label: p.categoryLabel || catLookup[p.category] || p.category,
+        label: catLookup[p.category] || p.category,
         color: (catIconLookup[p.category] || {}).color || "#757575"
       });
     }
@@ -128,8 +128,8 @@
   var markers = [];
   places.forEach(function (place) {
     var catInfo = catIconLookup[place.category] || {};
-    var color = place.color || catInfo.color || "#757575";
-    var iconifyId = place.iconify || catInfo.iconify || "hugeicons:location-04";
+    var color = catInfo.color || "#757575";
+    var iconifyId = catInfo.iconify || "hugeicons:location-04";
     var icon = createCategoryIcon(color, iconifyId);
     var marker = L.marker([place.location.lat, place.location.lng], { icon: icon });
 
@@ -142,7 +142,7 @@
 
     var catP = document.createElement("p");
     catP.className = "category";
-    catP.textContent = place.categoryLabel || catLookup[place.category] || place.category;
+    catP.textContent = catLookup[place.category] || place.category;
     popupEl.appendChild(catP);
 
     if (place.description) {
@@ -164,6 +164,16 @@
     dirLink.rel = "noopener";
     dirLink.className = "directions-link";
     popupEl.appendChild(dirLink);
+
+    if (place.w3w) {
+      var w3wLink = document.createElement("a");
+      w3wLink.textContent = "///" + place.w3w;
+      w3wLink.href = "https://what3words.com/" + place.w3w;
+      w3wLink.target = "_blank";
+      w3wLink.rel = "noopener";
+      w3wLink.className = "w3w-link";
+      popupEl.appendChild(w3wLink);
+    }
 
     marker.bindPopup(popupEl);
     marker.addTo(map);
