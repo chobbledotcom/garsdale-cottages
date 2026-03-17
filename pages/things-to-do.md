@@ -33,7 +33,8 @@ blocks:
     title: Wildlife
     subtitle: Red squirrels, brown hares, upland birds and more
     content: >
-      Garsdale is a haven for wildlife - in particular, the red squirrel. They
+      Garsdale is a haven for [wildlife](/garsdale-wildlife/) - in particular,
+      the red squirrel. They
       are frequently spotted if you follow the path beside Dandra Garth into the
       woodland, or on the bank of the river opposite Dandra Garth, or on the
       banks of the river opposite the Old Cart House, or below Roger Pot. We do
@@ -140,8 +141,9 @@ blocks:
       ## Food and Drink
 
 
-      There are a number of good eating places in and around Sedbergh but some
-      that we use more often are:
+      There are a number of good [eating and drinking
+      places](/eating-and-drinking-in-garsdale/) in and around Sedbergh but
+      some that we use more often are:
 
 
       *   The Cross Keys at Cautley (a no alcohol temperance inn)
@@ -249,6 +251,22 @@ blocks:
       *   **[Grisedale](/grisedale/)** -- the neighbouring valley known as "The
       Dale that Died," which has quietly come back to life. A walk into
       Grisedale is one of the most atmospheric things you can do from here.
+
+      *   **[Churches and Chapels](/churches-and-chapels/)** -- Garsdale has an
+      Anglican church, Quaker meeting houses and three Methodist chapels,
+      reflecting centuries of faith and independent thinking.
+
+      *   **[The History of Garsdale](/garsdale-history/)** -- from Viking
+      settlement and medieval monasteries to the Great Flood of 1889 and the
+      building of the Settle-Carlisle railway.
+
+      *   **[Farming in Garsdale](/farming-in-garsdale/)** -- the dale is a
+      working hill farming community with Swaledale sheep and a farming
+      calendar that shapes the rhythm of life here.
+
+      *   **[The Village Hall](/garsdale-village-hall-and-community/)** -- the
+      social heart of the dale, with community events throughout the year
+      including quiz nights, beetle drives and bonfire celebrations.
   - type: markdown
     content: >-
       ## Rainy Days

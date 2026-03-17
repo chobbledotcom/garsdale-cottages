@@ -78,9 +78,9 @@ blocks:
       - icon: hugeicons:bone-01
         title: The Ruswarp Statue
         description:
-          On the platform you will find a bronze statue of Ruswarp, the
-          Border Collie who helped save the Settle-Carlisle line from
-          closure.
+          On the platform you will find a bronze statue of
+          [Ruswarp](/ruswarp-and-the-settle-carlisle/), the Border Collie
+          who helped save the Settle-Carlisle line from closure.
   - type: markdown
     content: >
       ## The Settle-Carlisle Line Today

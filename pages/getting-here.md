@@ -85,9 +85,10 @@ blocks:
     subtitle: On the Settle-Carlisle railway or by Main Line train to Kendals
       Oxenholme Statiom
     content: The [Settle-Carlisle Railway](https://settle-carlisle.co.uk/) arrives
-      at Garsdale Station. There is no public transport from the station into
-      Garsdale and Sedbergh, but the Little White Bus service does run to
-      Hawes.Normally there are no taxis in Garsdale. The nearest taxi service
+      at [Garsdale Station](/garsdale-train-station/). There is no public
+      transport from the station into Garsdale and Sedbergh, but the Little
+      White Bus service does run to Hawes. Normally there are no taxis in
+      Garsdale. The nearest taxi service
       may be in Hawes but guests are advised to check in advance. If you want to
       use the Main Line, Oxenholme offers a convenient main line option with
       cabs regularly available at the station
