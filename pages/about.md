@@ -71,9 +71,11 @@ blocks:
     title: Wildlife
     subtitle: A haven for red squirrels and upland birds
     content: >
-      Garsdale is a haven for red squirrels and they can be regular visitors to
-      the garden at times in the year but can be seen in the nearby woodlands
-      frequently and on the banks of the river Clough in amongst the trees.
+      Garsdale is a haven for [red squirrels](/red-squirrels-in-garsdale/) and
+      they can be regular visitors to the garden at times in the year but can be
+      seen in the nearby woodlands frequently and on the banks of the river
+      Clough in amongst the trees. Read more about [wildlife in
+      Garsdale](/garsdale-wildlife/).
 
 
       Roe deer can be found in the fields and woodlands and brown hares are a
@@ -115,20 +117,23 @@ blocks:
       Garsdale has remained unspoilt and has changed little for more than a
       hundred years. Many of the farms and buildings are listed to protect the
       heritage of the area (there are 62 listed buildings in Garsdale) and some
-      of the houses date back to the 16th and 17th century.
+      of the houses date back to the 16th and 17th century. Learn more about
+      [the history of Garsdale](/garsdale-history/).
 
 
-      Garsdale has been a hill farming community but hand knitting was also a
-      local craft and there was coal mining on Baugh Fell and quarrying
-      limestone, sandstone and marble in the mid 19th century. Garsdale has 18
-      working farms with many Swaledale pedigree sheep.
+      Garsdale has been a [hill farming](/farming-in-garsdale/) community but
+      hand knitting was also a local craft and there was coal mining on Baugh
+      Fell and quarrying limestone, sandstone and marble in the mid 19th
+      century. Garsdale has 18 working farms with many Swaledale pedigree
+      sheep.
 
 
       The population was rising from 571 in 1801 to a peak of 911 in 1871 during
       the building of the Settle-Carlisle railway, then a steady decline to 197
       presently. Garsdale school was endowed by Thomas Dawson 1634; rebuilt as
       National school on new site in 1842, becoming Garsdale Primary School.
-      This was closed in 1985 and was converted to village hall.
+      This was closed in 1985 and was converted to [village
+      hall](/garsdale-village-hall-and-community/).
     figure_type: image
     figure_src: /images/old Garsdale/Garsdale_in_2007.jpeg
     figure_alt: Garsdale in 2007
@@ -159,8 +164,9 @@ blocks:
 
 
       The Garsdale area is full of wildlife and flowers and some beautiful
-      wildflower meadows. The Quaker burial ground in Garsdale is a wildflower
-      haven in summertime and there are many areas where wildflowers are
+      wildflower meadows. The Quaker burial ground (one of several [churches
+      and chapels](/churches-and-chapels/) in the dale) is a wildflower haven
+      in summertime and there are many areas where wildflowers are
       protected and left to bloom. Flowers such as meadowsweet, teasel, ox eye
       daisies, dog rose and melancholy thistle, which was once used to treat
       'melancholia', are abundant. Numerous lichens and mosses grow on the
@@ -175,17 +181,17 @@ blocks:
     subtitle: One of England's most scenic railway journeys
     content: >
       Visitors to Garsdale may enjoy an outing on the [Settle-Carlisle
-      railway](https://settle-carlisle.co.uk/) which passes through Garsdale
-      Station along with places such as Appleby, Kirkby Stephen, Dent,
-      Ribblehead viaduct and Skipton.
+      railway](https://settle-carlisle.co.uk/) which passes through [Garsdale
+      Station](/garsdale-train-station/) along with places such as Appleby,
+      Kirkby Stephen, Dent, Ribblehead viaduct and Skipton.
 
 
       Garsdale Station is one of the wildest stations on the line. At the
-      railway station stands a statue of Ruswarp, a collie dog, who was found on
-      the fell in 1990 at the side of his owner who had died some 11 weeks
-      earlier, in an emaciated and starving state. It had to be carried off the
-      fell and he was awarded a medal for vigilance but died shortly after his
-      owner's funeral.
+      railway station stands a statue of [Ruswarp](/ruswarp-and-the-settle-carlisle/),
+      a collie dog, who was found on the fell in 1990 at the side of his owner
+      who had died some 11 weeks earlier, in an emaciated and starving state.
+      It had to be carried off the fell and he was awarded a medal for vigilance
+      but died shortly after his owner's funeral.
 
 
       Garsdale Station has a connection to Hawes via the Little White Bus.

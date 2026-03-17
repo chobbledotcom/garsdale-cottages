@@ -18,8 +18,9 @@ blocks:
       The Border Collie who helped save a railway
   - type: markdown
     content: >
-      At Garsdale station, a bronze statue of a Border Collie sits on the
-      platform, gazing northwards towards the hills. This is Ruswarp
+      At [Garsdale station](/garsdale-train-station/), a bronze statue of a
+      Border Collie sits on the platform, gazing northwards towards the
+      hills. This is Ruswarp
       (pronounced Russup), and his story is one of the most moving tales
       connected to this corner of the Dales.
   - type: split

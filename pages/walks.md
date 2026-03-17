@@ -74,7 +74,8 @@ blocks:
       A traditional annual walk into [Grisedale](/grisedale/) is
       organised from Mount Zion Chapel, usually in July or August, followed
       by tea back at the chapel. During summer months, evening walks are
-      also organised from the Village Hall, sometimes followed by a
+      also organised from the [Village
+      Hall](/garsdale-village-hall-and-community/), sometimes followed by a
       ploughman's supper or barbecue.
   - type: split
     title: From the Doorstep
