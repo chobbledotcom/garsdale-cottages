@@ -10,8 +10,8 @@ blocks:
   - type: image-background
     full_width: true
     parallax: true
-    image: /images/old Garsdale/Garsdale_in_2007.jpeg
-    image_alt: Garsdale valley landscape
+    image: /images/old Garsdale/garsdale-old-garage.jpeg
+    image_alt: Historic garage and road in Garsdale
     content: |
       # The History of Garsdale
 

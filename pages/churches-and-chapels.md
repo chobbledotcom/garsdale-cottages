@@ -86,7 +86,7 @@ blocks:
       square. The interior remains remarkably unchanged, with its original
       painted box-like tiered seating.
     figure_type: image
-    figure_src: /images/scenery/fellside.jpeg
+    figure_src: /images/places of interest/IMG_3782.jpeg
     figure_alt: The fells above Garsdale
     reverse: true
   - type: markdown

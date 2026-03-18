@@ -12,8 +12,8 @@ blocks:
   - type: image-background
     full_width: true
     parallax: true
-    image: /images/scenery/fellside.jpeg
-    image_alt: View across Garsdale fellside in the Yorkshire Dales
+    image: /images/places of interest/IMG_3022.jpeg
+    image_alt: Rainbow over stone cottages in Garsdale
     content: |
       # About Garsdale
 
