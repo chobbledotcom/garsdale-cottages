@@ -38,8 +38,8 @@ blocks:
       and the Carthouse is a little further on the right, about 300 yards east
       of St John the Baptist Church."
     figure_type: image
-    figure_src: /images/scenery/fellside.jpeg
-    figure_alt: View across Garsdale fellside in the Yorkshire Dales
+    figure_src: /images/scenery/garsdale-in-winter.jpeg
+    figure_alt: View across Garsdale in winter
     reverse: false
   - type: split
     title: From the A1

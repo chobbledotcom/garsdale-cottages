@@ -9,7 +9,7 @@ blocks:
   - type: image-background
     full_width: true
     parallax: true
-    image: /images/scenery/fellside.jpeg
+    image: /images/places of interest/IMG_3782.jpeg
     image_alt: Fields and fells above Garsdale
     content: |
       # Farming in Garsdale

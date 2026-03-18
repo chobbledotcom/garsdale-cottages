@@ -61,7 +61,7 @@ blocks:
         title: Wildlife
         description: "Red squirrels, upland birds, roe deer and more in this unspoilt corner of England."
         link: "/things-to-do/"
-      - image: "/images/scenery/fellside.jpeg"
+      - image: "/images/places of interest/IMG_3781.jpeg"
         title: Walking Paradise
         description: "Howgill Fells, Dales Way, Pennine Bridleway - miles of spectacular walks from the doorstep."
         link: "/walks/"
