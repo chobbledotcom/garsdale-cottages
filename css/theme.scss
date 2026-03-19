@@ -113,6 +113,9 @@ article#content {
   backdrop-filter: blur(4px);
   padding: 0.5rem 1rem;
   border-radius: var(--border-radius);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .book-now {
