@@ -644,6 +644,39 @@ content:
                   - { name: text, type: string, label: Text }
                   - { name: href, type: string, label: URL }
       - { name: body, type: rich-text, label: Body }
+  - name: page-local-events
+    label: Local Events Page
+    type: file
+    path: events/local-events.md
+    fields:
+      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
+      - name: meta_description
+        type: string
+        label: Meta Description
+        maxlength: 155
+      - name: blocks
+        label: Content Blocks
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: markdown
+            label: Markdown
+            fields:
+              - { name: header_intro, type: rich-text, label: Header Intro }
+              - { name: content, type: rich-text, label: Content }
+          - name: cta
+            label: Cta
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: description, type: string, label: Description }
+              - name: button
+                type: object
+                label: Button
+                fields:
+                  - { name: text, type: string, label: Text }
+                  - { name: href, type: string, label: URL }
+      - { name: body, type: rich-text, label: Body }
   - name: homepage
     label: Homepage Settings
     type: file
