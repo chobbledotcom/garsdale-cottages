@@ -80,7 +80,7 @@ blocks:
       group in the country, and the line itself carries more passengers than
       ever. You can visit the statue any time you are at Garsdale station.
       More information about the line and its history can be found at
-      [Friends of the Settle-Carlisle Line](https://www.foscl.org.uk/).
+      Friends of the Settle-Carlisle Line ([foscl.org.uk](https://www.foscl.org.uk/)).
   - type: cta
     title: Stay in Garsdale
     description: Book direct with local cottage owners for better prices and
@@ -88,4 +88,18 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Friends of the Settle-Carlisle Line ([foscl.org.uk](https://www.foscl.org.uk/))
+
+      - Ruswarp (dog) — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Ruswarp_(dog)))
+
+      - Settle–Carlisle line — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
+
+      - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
+
+      - RSPCA — Royal Society for the Prevention of Cruelty to Animals ([rspca.org.uk](https://www.rspca.org.uk/))
 ---

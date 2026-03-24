@@ -64,4 +64,12 @@ blocks:
     button:
       text: Contact Us
       href: /contact/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
+
+      - Sedbergh and District — visitor information ([sedbergh.org.uk](https://www.sedbergh.org.uk/))
 ---

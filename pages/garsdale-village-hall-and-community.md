@@ -109,4 +109,14 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+
+      - Garsdale Parish Council ([garsdaleparishcouncil.com](https://garsdaleparishcouncil.com/))
+
+      - Sedbergh and District Community First Responders ([communityfirstresponders.org.uk](https://www.communityfirstresponders.org.uk/))
 ---

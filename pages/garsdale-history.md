@@ -169,4 +169,24 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+
+      - Easby Abbey — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Easby_Abbey))
+
+      - Bolton Castle — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Bolton_Castle))
+
+      - Settle–Carlisle line — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
+
+      - William Wordsworth — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/William_Wordsworth))
+
+      - The Death of Grass by John Christopher — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/The_Death_of_Grass))
+
+      - Aspects of Love — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Aspects_of_Love))
+
+      - Sedbergh and District History Society ([sedberghhistory.org](https://www.sedberghhistory.org/))
 ---

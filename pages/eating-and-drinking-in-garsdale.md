@@ -107,4 +107,18 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Wensleydale Creamery ([wensleydale.co.uk](https://www.wensleydale.co.uk/))
+
+      - Hardraw Force — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hardraw_Force))
+
+      - Cross Keys Temperance Inn, Cautley ([cautleyspout.co.uk](https://www.cautleyspout.co.uk/))
+
+      - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
+
+      - Little White Bus, Hawes ([littlewhitebus.co.uk](https://www.littlewhitebus.co.uk/))
 ---

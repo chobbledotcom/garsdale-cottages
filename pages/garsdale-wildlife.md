@@ -124,4 +124,20 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Red Squirrels Northern England ([rsne.org](https://rsne.org))
+
+      - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
+
+      - Lune Rivers Trust ([luneriverstrust.org.uk](https://www.luneriverstrust.org.uk/))
+
+      - Red squirrel — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Red_squirrel))
+
+      - Eurasian otter — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Eurasian_otter))
+
+      - Yorkshire Dales National Park — Dark Skies ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/enjoy-the-dales/dark-skies/))
 ---

@@ -49,7 +49,7 @@ blocks:
       mice and voles and occasionally badgers, foxes and hedgehogs.
 
 
-      [Sedbergh Red Squirrels](https://sedberghredsquirrels.org.uk/)
+      Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
     figure_type: image
     figure_src: /images/wildlife/red-squirrel-2.jpeg
     figure_alt: Red squirrel
@@ -96,9 +96,9 @@ blocks:
       **Hawes** is about 9 miles away and it is well worth a visit. There are
       many cafes, pubs and restaurants as well as craft and art shops, antiques
       and clothing. The small market is on Tuesday mornings and often there are
-      craft fairs in the market hall. Hawes also has the [Dales Countryside
-      Museum](https://www.dalescountrysidemuseum.org.uk/) and [Wensleydale
-      Creamery](https://www.wensleydale.co.uk/) where you can see cheesemaking
+      craft fairs in the market hall. Hawes also has the Dales Countryside
+      Museum ([dalescountrysidemuseum.org.uk](https://www.dalescountrysidemuseum.org.uk/)) and the Wensleydale
+      Creamery ([wensleydale.co.uk](https://www.wensleydale.co.uk/)) where you can see cheesemaking
       demonstrations at the cheese experience, there is a cafe, cheese and gift
       shop. W.R. Outhwaite & Son, the traditional rope makers on the high street,
       are also well worth a visit.
@@ -111,8 +111,8 @@ blocks:
 
       **Kirkby Lonsdale** is a lovely town with some great shops, bakery,
       clothes shops and several good pubs and restaurants. It also has the
-      famous [Devils Bridge and Ruskins
-      View](https://www.kirkbylonsdale.co.uk/discover/).
+      famous Devils Bridge and Ruskins
+      View ([kirkbylonsdale.co.uk](https://www.kirkbylonsdale.co.uk/discover/)).
 
 
       **Dent** is a small town in the next valley Dentdale. It has a cobbled
@@ -124,8 +124,8 @@ blocks:
 
       **Kendal** is the closest 'big town' with many shops, large supermarkets,
       cafes and eating places and a weekly market on Wednesday and Saturdays. It
-      also has a castle and the [Brewery Arts
-      Centre](https://www.breweryarts.co.uk/) has cinema, music, theatre and
+      also has a castle and the Brewery Arts
+      Centre ([breweryarts.co.uk](https://www.breweryarts.co.uk/)) has cinema, music, theatre and
       comedy events. Kendal is also home to the famous Kendal Mintcake, the
       high-energy mint sugar bar long favoured by walkers and climbers.
 
@@ -165,7 +165,7 @@ blocks:
 
       *   Stone Close tea room in Dent
 
-      *   [Zeffirellis](https://www.zeffirellis.com/film) in Ambleside -
+      *   Zeffirellis ([zeffirellis.com](https://www.zeffirellis.com/film)) in Ambleside -
       vegetarian restaurant
 
       *   Doi Intanon Thai restaurant in Ambleside
@@ -192,7 +192,7 @@ blocks:
 
 
       **Cautley Spout** is another waterfall, again behind a temperance pub
-      called [the Cross Keys in Cautley](https://www.cautleyspout.co.uk/), which
+      called the Cross Keys in Cautley ([cautleyspout.co.uk](https://www.cautleyspout.co.uk/)), which
       also has good food. Cautley is a longer walk and some inclines, but it can
       be seen without climbing too high, though you can climb to the top if you
       are enthusiastic. For some reason, on a number of our visits to Cautley
@@ -284,19 +284,19 @@ blocks:
       rainfall, so there are some lovely indoor places to visit on a rainy day.
 
 
-      Close to Garsdale is [Farfield Mill](https://www.farfieldmill.org/), this
+      Close to Garsdale is Farfield Mill ([farfieldmill.org](https://www.farfieldmill.org/)), this
       is on the road to Sedbergh and is an interesting place to spend a few
       hours and has exhibitions and art and craft work as well as a good cafe.
 
 
-      Hawes has the [Dales Countryside
-      Museum](https://www.dalescountrysidemuseum.org.uk/) and the [Wensleydale
-      Creamery](https://www.wensleydale.co.uk/) which has a cafe and cheese
+      Hawes has the Dales Countryside
+      Museum ([dalescountrysidemuseum.org.uk](https://www.dalescountrysidemuseum.org.uk/)) and the Wensleydale
+      Creamery ([wensleydale.co.uk](https://www.wensleydale.co.uk/)) which has a cafe and cheese
       shop, where you can taste all of the cheeses and the cheesemaking
       experience.
 
 
-      Kendal has the [Brewery Arts Centre](https://www.breweryarts.co.uk/),
+      Kendal has the Brewery Arts Centre ([breweryarts.co.uk](https://www.breweryarts.co.uk/)),
       which has a cinema, holds music and comedy nights and also has children's
       daytime events.
   - type: markdown
@@ -308,28 +308,28 @@ blocks:
       distance:
 
 
-      [The Forbidden Corner](https://www.theforbiddencorner.co.uk/) in
+      The Forbidden Corner ([theforbiddencorner.co.uk](https://www.theforbiddencorner.co.uk/)) in
       Middleham, Leyburn is a delightful experience for children and has been
       featured on CBBC shows.
 
 
-      Ingleton has the [White Scar Caves](https://whitescarcave.co.uk/) which is
+      Ingleton has the White Scar Cave ([whitescarcave.co.uk](https://whitescarcave.co.uk/)) which is
       the longest show cave in Britain and has guided tours taking about 80
       minutes.
 
 
-      Children will enjoy the Wensleydale Cheese experience at the [Wensleydale
-      Creamery](https://www.wensleydale.co.uk/) and you can see the Yorkshire
+      Children will enjoy the Wensleydale Cheese experience at the Wensleydale
+      Creamery ([wensleydale.co.uk](https://www.wensleydale.co.uk/)) and you can see the Yorkshire
       Wensleydale Cheese being made by hand and the cheese shop has many cheeses
       to taste.
 
 
-      Hawes also has the [Dales Countryside
-      Museum](https://www.dalescountrysidemuseum.org.uk/) which has many family
+      Hawes also has the Dales Countryside
+      Museum ([dalescountrysidemuseum.org.uk](https://www.dalescountrysidemuseum.org.uk/)) which has many family
       friendly events throughout the year.
 
 
-      The [Ingleton Waterfalls Trail](https://ingletonwaterfallstrail.co.uk/) is
+      The Ingleton Waterfalls Trail ([ingletonwaterfallstrail.co.uk](https://ingletonwaterfallstrail.co.uk/)) is
       a 4 and a half mile circular route and can take between two and a half
       hours to 4 hours to complete. It is suitable for older children and
       requires sturdy footwear. The more adventurous might consider a trip to
@@ -341,40 +341,40 @@ blocks:
       ## Waterfalls, Castles and Villages
 
 
-      There are many waterfalls nearby. Most are free to visit; [Hardraw
-      Force](http://hardrawforce.com/waterfall.html) has a small entrance fee
+      There are many waterfalls nearby. Most are free to visit; Hardraw
+      Force ([hardrawforce.com](http://hardrawforce.com/waterfall.html)) has a small entrance fee
       but is a lovely walk — and film fans may recognise it as the setting for
-      the famous waterfall scene in *Robin Hood: Prince of Thieves*. [Cautley
-      Spout](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/)
-      and [Cotter
-      Force](https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force)
-      are also well worth a visit, as are [Aysgarth
-      Falls](https://www.yorkshiredales.org.uk/places/aysgarth-falls/) in
+      the famous waterfall scene in *Robin Hood: Prince of Thieves*. Cautley
+      Spout ([sedbergh.org.uk](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/))
+      and Cotter
+      Force ([yorkshire.com](https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force))
+      are also well worth a visit, as are Aysgarth
+      Falls ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/aysgarth-falls/)) in
       Wensleydale — a must-see for anyone new to the area.
 
 
       There are also a number of castles and National Trust properties as well
-      as beautiful historic villages. [Bolton
-      Castle](https://boltoncastle.co.uk/) is an impressive sight — particularly
+      as beautiful historic villages. Bolton
+      Castle ([boltoncastle.co.uk](https://boltoncastle.co.uk/)) is an impressive sight — particularly
       at night when it is lit up and visible from miles around — and by day it is
       well worth a visit as the site where Mary Queen of Scots was once held
-      prisoner. [Pendragon
-      Castle](https://www.visitcumbria.com/evnp/pendragon-castle/) in
-      Mallerstang is said to have connections to King Arthur. [Brough
-      Castle](https://www.english-heritage.org.uk/visit/places/brough-castle/)
-      and [Kendal
-      Castle](https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/)
+      prisoner. Pendragon
+      Castle ([visitcumbria.com](https://www.visitcumbria.com/evnp/pendragon-castle/)) in
+      Mallerstang is said to have connections to King Arthur. Brough
+      Castle ([english-heritage.org.uk](https://www.english-heritage.org.uk/visit/places/brough-castle/))
+      and Kendal
+      Castle ([visit-kendal.co.uk](https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/))
       are all within easy driving distance and some are free to enter.
 
 
-      [Levens Hall](https://www.levenshall.co.uk/) and other [National Trust
+      Levens Hall ([levenshall.co.uk](https://www.levenshall.co.uk/)) and other National Trust
       properties in
-      Cumbria](https://www.visitcumbria.com/national-trust-in-cumbria/) are also
+      Cumbria ([visitcumbria.com](https://www.visitcumbria.com/national-trust-in-cumbria/)) are also
       within reach.
 
 
-      The villages of [Dent](https://www.yorkshiredales.org.uk/places/dent/) and
-      [Muker](https://www.yorkshire.com/muker) are beautiful and well worth
+      The villages of Dent ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/dent/)) and
+      Muker ([yorkshire.com](https://www.yorkshire.com/muker)) are beautiful and well worth
       exploring.
   - type: cta
     title: Stay in Garsdale
@@ -383,4 +383,58 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
+
+      - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
+
+      - Dales Countryside Museum, Hawes ([dalescountrysidemuseum.org.uk](https://www.dalescountrysidemuseum.org.uk/))
+
+      - Wensleydale Creamery ([wensleydale.co.uk](https://www.wensleydale.co.uk/))
+
+      - Devils Bridge and Ruskins View, Kirkby Lonsdale ([kirkbylonsdale.co.uk](https://www.kirkbylonsdale.co.uk/discover/))
+
+      - Brewery Arts Centre, Kendal ([breweryarts.co.uk](https://www.breweryarts.co.uk/))
+
+      - Zeffirellis, Ambleside ([zeffirellis.com](https://www.zeffirellis.com/film))
+
+      - Cross Keys Temperance Inn, Cautley ([cautleyspout.co.uk](https://www.cautleyspout.co.uk/))
+
+      - Farfield Mill, Sedbergh ([farfieldmill.org](https://www.farfieldmill.org/))
+
+      - The Forbidden Corner, Middleham ([theforbiddencorner.co.uk](https://www.theforbiddencorner.co.uk/))
+
+      - White Scar Cave, Ingleton ([whitescarcave.co.uk](https://whitescarcave.co.uk/))
+
+      - Ingleton Waterfalls Trail ([ingletonwaterfallstrail.co.uk](https://ingletonwaterfallstrail.co.uk/))
+
+      - Hardraw Force ([hardrawforce.com](http://hardrawforce.com/waterfall.html))
+
+      - Cautley Spout walking route ([sedbergh.org.uk](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/))
+
+      - Cotter Force ([yorkshire.com](https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force))
+
+      - Aysgarth Falls ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/aysgarth-falls/))
+
+      - Bolton Castle ([boltoncastle.co.uk](https://boltoncastle.co.uk/))
+
+      - Pendragon Castle ([visitcumbria.com](https://www.visitcumbria.com/evnp/pendragon-castle/))
+
+      - Brough Castle ([english-heritage.org.uk](https://www.english-heritage.org.uk/visit/places/brough-castle/))
+
+      - Kendal Castle ([visit-kendal.co.uk](https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/))
+
+      - Levens Hall and Gardens ([levenshall.co.uk](https://www.levenshall.co.uk/))
+
+      - National Trust properties in Cumbria ([visitcumbria.com](https://www.visitcumbria.com/national-trust-in-cumbria/))
+
+      - Dent village ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/dent/))
+
+      - Muker village ([yorkshire.com](https://www.yorkshire.com/muker))
+
+      - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
 ---

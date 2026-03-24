@@ -89,10 +89,10 @@ blocks:
       proportion of the conservation work across northern England.
 
 
-      [Red Squirrels Northern England](https://rsne.org) coordinates the
+      Red Squirrels Northern England ([rsne.org](https://rsne.org)) coordinates the
       broader strategy, working with volunteer groups, landowners and the
       Yorkshire Dales National Park Authority. The
-      [Sedbergh Red Squirrels](https://sedberghredsquirrels.org.uk/) group
+      Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/)) group
       covers the local area.
     figure_type: image
     figure_src: /images/wildlife/red-squirrel-2.jpeg
@@ -104,7 +104,7 @@ blocks:
 
 
       The
-      [Snaizeholme Red Squirrel Trail](https://www.yorkshire.com/walkshire/snaizeholme-red-squirrel-trail/)
+      Snaizeholme Red Squirrel Trail ([yorkshire.com](https://www.yorkshire.com/walkshire/snaizeholme-red-squirrel-trail/))
       near Hawes is one of seventeen designated Red Squirrel Refuges in
       northern England. It is a managed woodland area with feeding stations
       and hides, making it a reliable place to see reds if you want a
@@ -117,4 +117,22 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Red Squirrels Northern England ([rsne.org](https://rsne.org))
+
+      - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
+
+      - Snaizeholme Red Squirrel Trail ([yorkshire.com](https://www.yorkshire.com/walkshire/snaizeholme-red-squirrel-trail/))
+
+      - Red squirrel — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Red_squirrel))
+
+      - Eastern grey squirrel — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Eastern_grey_squirrel))
+
+      - Squirrelpox — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Squirrelpox))
+
+      - Yorkshire Dales National Park Authority ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
 ---

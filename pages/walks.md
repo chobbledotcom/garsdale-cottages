@@ -152,22 +152,22 @@ blocks:
       ## Useful Links
 
 
-      - [Walking in the Yorkshire Dales - Moorcock
-      area](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm)
+      - Walking in the Yorkshire Dales - Moorcock
+      area ([walkingintheyorkshiredales.co.uk](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm))
 
-      - [The Dales Way](https://www.dalesway.org/route.html)
+      - The Dales Way ([dalesway.org](https://www.dalesway.org/route.html))
 
-      - [Grisedale and Garsdale
-      walks](https://benthamfootpathgroup.co.uk/grisedale-and-garsdale/)
+      - Grisedale and Garsdale
+      walks ([benthamfootpathgroup.co.uk](https://benthamfootpathgroup.co.uk/grisedale-and-garsdale/))
 
-      - [Hawes-Garsdale
-      bridleway](https://www.yorkshiredales.org.uk/progress-on-hawes-garsdale-bridleway/)
+      - Hawes-Garsdale
+      bridleway ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/progress-on-hawes-garsdale-bridleway/))
 
-      - [Garsdale Station to The High
-      Way](https://www.nydwalks.co.uk/post/garsdale-station-to-the-high-way-hellgill)
+      - Garsdale Station to The High
+      Way ([nydwalks.co.uk](https://www.nydwalks.co.uk/post/garsdale-station-to-the-high-way-hellgill))
 
-      - [Semer Water
-      walk](https://where2walk.co.uk/walk/hidden-semer-water-walk/)
+      - Semer Water
+      walk ([where2walk.co.uk](https://where2walk.co.uk/walk/hidden-semer-water-walk/))
   - type: cta
     title: Stay in Garsdale
     description: Book direct with local cottage owners for better prices and
@@ -175,4 +175,28 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Walking in the Yorkshire Dales - Moorcock area ([walkingintheyorkshiredales.co.uk](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm))
+
+      - The Dales Way ([dalesway.org](https://www.dalesway.org/route.html))
+
+      - Grisedale and Garsdale walks ([benthamfootpathgroup.co.uk](https://benthamfootpathgroup.co.uk/grisedale-and-garsdale/))
+
+      - Hawes-Garsdale bridleway ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/progress-on-hawes-garsdale-bridleway/))
+
+      - Garsdale Station to The High Way ([nydwalks.co.uk](https://www.nydwalks.co.uk/post/garsdale-station-to-the-high-way-hellgill))
+
+      - Semer Water walk ([where2walk.co.uk](https://where2walk.co.uk/walk/hidden-semer-water-walk/))
+
+      - Coast to Coast Walk — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Coast_to_Coast_Walk))
+
+      - Pennine Way — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Way))
+
+      - Dales Way — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dales_Way))
+
+      - Pennine Bridleway — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Bridleway))
 ---

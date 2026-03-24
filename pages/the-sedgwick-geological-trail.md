@@ -95,4 +95,20 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Adam Sedgwick — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
+
+      - Dent Fault — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dent_Fault))
+
+      - Cambrian period — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cambrian))
+
+      - Devonian period — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Devonian))
+
+      - Roderick Murchison — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Roderick_Murchison))
+
+      - Sedgwick Museum of Earth Sciences, Cambridge ([sedgwickmuseum.org](https://www.sedgwickmuseum.org/))
 ---

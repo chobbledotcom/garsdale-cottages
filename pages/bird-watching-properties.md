@@ -174,6 +174,24 @@ blocks:
     button:
       text: Contact Us
       href: /contact/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - RSPB — Royal Society for the Protection of Birds ([rspb.org.uk](https://www.rspb.org.uk/))
+
+      - BTO — British Trust for Ornithology ([bto.org](https://www.bto.org/))
+
+      - Yorkshire Dales National Park — wildlife ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/about-the-dales/wildlife/))
+
+      - Red squirrel — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Red_squirrel))
+
+      - Eurasian curlew — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Eurasian_curlew))
+
+      - Short-eared owl — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Short-eared_owl))
+
+      - Merlin Bird ID app ([merlin.allaboutbirds.org](https://merlin.allaboutbirds.org/))
 gallery:
   - /images/Pasted image (11).png
   - /images/wildlife/male-pheasant.jpeg
