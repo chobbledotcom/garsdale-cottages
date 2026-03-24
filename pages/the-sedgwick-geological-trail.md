@@ -70,7 +70,7 @@ blocks:
     figure_alt: Evening light over the fells near Sedbergh
     reverse: true
   - type: features
-    header_title: Getting There
+    header_intro: "## Getting There"
     items:
       - icon: hugeicons:map-pin
         title: Location

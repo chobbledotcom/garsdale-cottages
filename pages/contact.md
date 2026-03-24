@@ -11,14 +11,16 @@ eleventyNavigation:
   order: 7
 blocks:
   - type: contact_form
-    header_title: Contact Us
-    header_subtitle: Get in touch to book your stay or ask us anything about Garsdale
+    header_intro: |
+      ## Contact Us
+
+      Get in touch to book your stay or ask us anything about Garsdale
     content: >
       Hi and thanks for looking at Garsdale Cottages. For enquiries, information
       about booking your stay or any questions about the area, please get in
       touch using the form or the contact details below.
   - type: features
-    header_title: Contact Details
+    header_intro: "## Contact Details"
     items:
       - icon: hugeicons:home-01
         title: The Old Cart House

@@ -63,7 +63,7 @@ blocks:
     figure_alt: Railway viaduct in the Yorkshire Dales
     reverse: true
   - type: features
-    header_title: Practical Information
+    header_intro: "## Practical Information"
     items:
       - icon: hugeicons:car-01
         title: Getting There

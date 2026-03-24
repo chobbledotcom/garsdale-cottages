@@ -79,7 +79,7 @@ blocks:
       - **Carols by Candlelight** at Mount Zion Chapel, with supper
       afterwards
   - type: features
-    header_title: Community Services
+    header_intro: "## Community Services"
     items:
       - icon: hugeicons:court-house
         title: Parish Council

@@ -139,10 +139,10 @@ blocks:
       spotting sparrowhawks, buzzards and treecreepers in this national nature
       reserve
   - type: features
-    header_title: Why Garsdale for Bird Watching?
-    header_subtitle:
-      A combination of habitats, peace and proximity to nature that
-      is hard to match
+    header_intro: |
+      ## Why Garsdale for Bird Watching?
+
+      A combination of habitats, peace and proximity to nature that is hard to match
     items:
       - icon: hugeicons:leaf-04
         title: Diverse Habitats
