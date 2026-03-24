@@ -4,15 +4,14 @@
     {
       "type": "contact_form",
       "fields": {
-        "header_title": { "type": "string", "label": "Header Title" },
-        "header_subtitle": { "type": "string", "label": "Header Subtitle" },
+        "header_intro": { "type": "string", "label": "Header Intro (Markdown)" },
         "content": { "type": "string", "label": "Introduction Text" }
       }
     },
     {
       "type": "features",
       "fields": {
-        "header_title": { "type": "string", "label": "Header Title" },
+        "header_intro": { "type": "string", "label": "Header Intro (Markdown)" },
         "items": {
           "type": "array",
           "label": "Contact Details",
@@ -27,7 +26,7 @@
     {
       "type": "markdown",
       "fields": {
-        "header_title": { "type": "string", "label": "Header Title" },
+        "header_intro": { "type": "string", "label": "Header Intro (Markdown)" },
         "content": { "type": "string", "label": "Content" }
       }
     }

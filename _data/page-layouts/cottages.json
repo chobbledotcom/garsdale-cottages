@@ -12,16 +12,14 @@
     {
       "type": "markdown",
       "fields": {
-        "header_title": { "type": "string", "label": "Header Title" },
-        "header_subtitle": { "type": "string", "label": "Header Subtitle" },
+        "header_intro": { "type": "string", "label": "Header Intro (Markdown)" },
         "content": { "type": "string", "label": "Content" }
       }
     },
     {
       "type": "image-cards",
       "fields": {
-        "header_title": { "type": "string", "label": "Header Title" },
-        "header_subtitle": { "type": "string", "label": "Header Subtitle" },
+        "header_intro": { "type": "string", "label": "Header Intro (Markdown)" },
         "image_aspect_ratio": { "type": "string", "label": "Image Aspect Ratio" },
         "items": {
           "type": "array",
@@ -38,8 +36,7 @@
     {
       "type": "features",
       "fields": {
-        "header_title": { "type": "string", "label": "Header Title" },
-        "header_subtitle": { "type": "string", "label": "Header Subtitle" },
+        "header_intro": { "type": "string", "label": "Header Intro (Markdown)" },
         "items": {
           "type": "array",
           "label": "Features",

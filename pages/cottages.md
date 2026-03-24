@@ -40,8 +40,10 @@ blocks:
         link: "/properties/the-old-cart-house/"
 
   - type: features
-    header_title: Why Book Direct?
-    header_subtitle: "Booking directly with the individual holiday cottages enables guests to access great prices without the additional costs of expensive booking fees"
+    header_intro: |
+      ## Why Book Direct?
+
+      Booking directly with the individual holiday cottages enables guests to access great prices without the additional costs of expensive booking fees
     items:
       - icon: hugeicons:discount-tag-02
         title: Better Prices

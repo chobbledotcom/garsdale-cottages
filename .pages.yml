@@ -290,13 +290,12 @@ content:
           - name: contact_form
             label: Contact Form
             fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - { name: content, type: string, label: Introduction Text }
           - name: features
             label: Features
             fields:
-              - { name: header_title, type: string, label: Header Title }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - name: items
                 type: array
                 label: Contact Details
@@ -307,7 +306,7 @@ content:
           - name: markdown
             label: Markdown
             fields:
-              - { name: header_title, type: string, label: Header Title }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - { name: content, type: rich-text, label: Content }
       - { name: body, type: rich-text, label: Body }
   - name: page-about
@@ -335,8 +334,7 @@ content:
           - name: markdown
             label: Markdown
             fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - { name: content, type: rich-text, label: Content }
           - name: split
             label: Split
@@ -401,8 +399,7 @@ content:
           - name: markdown
             label: Markdown
             fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - { name: content, type: rich-text, label: Content }
           - name: split
             label: Split
@@ -467,8 +464,7 @@ content:
           - name: markdown
             label: Markdown
             fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - { name: content, type: rich-text, label: Content }
           - name: split
             label: Split
@@ -498,8 +494,7 @@ content:
           - name: features
             label: Features
             fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - name: items
                 type: array
                 label: Features
@@ -544,14 +539,12 @@ content:
           - name: markdown
             label: Markdown
             fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - { name: content, type: rich-text, label: Content }
           - name: image-cards
             label: Image Cards
             fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - name: image_aspect_ratio
                 type: string
                 label: Image Aspect Ratio
@@ -566,8 +559,7 @@ content:
           - name: features
             label: Features
             fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - name: items
                 type: array
                 label: Features
@@ -638,8 +630,7 @@ content:
           - name: markdown
             label: Markdown
             fields:
-              - { name: header_title, type: string, label: Header Title }
-              - { name: header_subtitle, type: string, label: Header Subtitle }
+              - { name: header_intro, type: rich-text, label: Header Intro }
               - { name: content, type: rich-text, label: Content }
           - name: cta
             label: Cta

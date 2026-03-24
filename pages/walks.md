@@ -97,7 +97,7 @@ blocks:
     figure_alt: View over Langstone Fell
     reverse: false
   - type: features
-    header_title: Long Distance Paths
+    header_intro: "## Long Distance Paths"
     items:
       - icon: hugeicons:route-01
         title: Coast to Coast
@@ -116,7 +116,7 @@ blocks:
           Bowness-on-Windermere, passing through the heart of the Yorkshire
           Dales.
   - type: features
-    header_title: Practical Stuff
+    header_intro: "## Practical Stuff"
     items:
       - icon: hugeicons:map-pin
         title: Plan Ahead
