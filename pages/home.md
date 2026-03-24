@@ -20,10 +20,11 @@ blocks:
       Holiday cottages near Sedbergh in the Yorkshire Dales - book direct with property owners
 
   - type: section-header
-    title: Welcome to Garsdale Cottages
-    subtitle: "A cooperative of holiday cottages near Sedbergh in Garsdale - book directly with property owners for better prices and personal service"
-    level: 1
     align: center
+    intro: |
+      # Welcome to Garsdale Cottages
+
+      A cooperative of holiday cottages near Sedbergh in Garsdale - book directly with property owners for better prices and personal service
 
   - type: items
     collection: properties
@@ -45,10 +46,11 @@ blocks:
         description: "Book with confidence directly through us - straightforward, simple, personal."
 
   - type: section-header
-    title: Why Garsdale?
-    subtitle: "Escape to the remote beauty of the Yorkshire Dales"
-    level: 2
     align: center
+    intro: |
+      ## Why Garsdale?
+
+      Escape to the remote beauty of the Yorkshire Dales
 
   - type: image-cards
     image_aspect_ratio: "4/3"
@@ -71,10 +73,11 @@ blocks:
         link: "/about-garsdale/"
 
   - type: section-header
-    title: Explore the Area
-    subtitle: "Discover what makes Garsdale and the Yorkshire Dales so special"
-    level: 2
     align: center
+    intro: |
+      ## Explore the Area
+
+      Discover what makes Garsdale and the Yorkshire Dales so special
 
   - type: image-cards
     image_aspect_ratio: "4/3"
