@@ -92,7 +92,7 @@ blocks:
       England, crossing the famous Ribblehead Viaduct and climbing to over
       1,100 feet. Regular services run from Leeds to Carlisle, and it is
       one of the great railway journeys of the north. Visit
-      [settle-carlisle.co.uk](https://settle-carlisle.co.uk/) for
+      Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/)) for
       timetables and information.
   - type: cta
     title: Stay in Garsdale
@@ -101,4 +101,22 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
+
+      - Friends of the Settle-Carlisle Line ([foscl.org.uk](https://www.foscl.org.uk/))
+
+      - Garsdale station — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale_railway_station))
+
+      - Settle–Carlisle line — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
+
+      - Dandrymire Viaduct — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dandry_Mire_Viaduct))
+
+      - Keighley and Worth Valley Railway ([kwvr.co.uk](https://kwvr.co.uk/))
+
+      - Little White Bus, Hawes ([littlewhitebus.co.uk](https://www.littlewhitebus.co.uk/))
 ---

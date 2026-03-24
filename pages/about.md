@@ -180,8 +180,8 @@ blocks:
     title: The Settle-Carlisle Railway
     subtitle: One of England's most scenic railway journeys
     content: >
-      Visitors to Garsdale may enjoy an outing on the [Settle-Carlisle
-      railway](https://settle-carlisle.co.uk/) which passes through [Garsdale
+      Visitors to Garsdale may enjoy an outing on the Settle-Carlisle
+      railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/)) which passes through [Garsdale
       Station](/garsdale-train-station/) along with places such as Appleby,
       Kirkby Stephen, Dent, Ribblehead viaduct and Skipton.
 
@@ -206,4 +206,24 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
+
+      - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
+
+      - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+
+      - Yorkshire Dales National Park — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Yorkshire_Dales_National_Park))
+
+      - Pennine Way — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Way))
+
+      - Red squirrel conservation in northern England ([rsne.org](https://rsne.org))
+
+      - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
+
+      - Adam Sedgwick — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
 ---

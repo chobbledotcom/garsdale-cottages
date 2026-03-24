@@ -97,4 +97,16 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Grisedale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Grisedale,_Eden))
+
+      - Jervaulx Abbey — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Jervaulx_Abbey))
+
+      - Easby Abbey — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Easby_Abbey))
+
+      - Barry Cockcroft — Yorkshire Television documentary maker ([en.wikipedia.org](https://en.wikipedia.org/wiki/Barry_Cockcroft))
 ---

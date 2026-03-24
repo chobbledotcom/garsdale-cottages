@@ -47,7 +47,7 @@ blocks:
 
       Services rotate between the dale's churches. More information is
       available from the
-      [Western Dales Mission Community](https://www.westerndales.org.uk/st-johns-garsdale).
+      Western Dales Mission Community ([westerndales.org.uk](https://www.westerndales.org.uk/st-johns-garsdale)).
     figure_type: image
     figure_src: /images/wildlife/lamb.jpeg
     figure_alt: Lamb by a dry stone wall in Garsdale
@@ -114,4 +114,20 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Western Dales Mission Community — St John's, Garsdale ([westerndales.org.uk](https://www.westerndales.org.uk/st-johns-garsdale))
+
+      - Brigflatts Meeting House — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Brigflatts_Meeting_House))
+
+      - George Fox — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/George_Fox))
+
+      - 1652 Country — Quaker heritage in the north-west ([1652country.org.uk](http://www.1652country.org.uk/))
+
+      - C. E. Kempe — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Charles_Eamer_Kempe))
+
+      - Garsdale Street Chapel, Grade II listed — Historic England ([historicengland.org.uk](https://historicengland.org.uk/listing/the-list/list-entry/1087148))
 ---

@@ -83,4 +83,16 @@ blocks:
     button:
       text: View Our Cottages
       href: /properties/
+  - type: markdown
+    content: >
+      ## References
+
+
+      - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+
+      - Yorkshire dialect — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Yorkshire_dialect_and_accent))
+
+      - Old Norse influence on English — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Scandinavian_York#Language))
+
+      - Hefted stock — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hefted_stock))
 ---
