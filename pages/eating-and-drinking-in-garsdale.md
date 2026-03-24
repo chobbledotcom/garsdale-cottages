@@ -28,10 +28,26 @@ blocks:
     title: The Moorcock Inn
     content: >
       The Moorcock sits right at the head of the dale, at the junction of
-      the A684 and B6259, just into Richmondshire. It serves food and has
-      accommodation. Pub quiz nights have been a regular fixture on Tuesday
-      evenings, and it is the closest thing Garsdale has to a local.
-      Tel: 01969 667 488.
+      the A684 and B6259, just into Richmondshire — on the gateway to both
+      the Yorkshire Dales and the Lake District. It serves food and has
+      accommodation, making it a useful base whether you are after a
+      relaxing retreat or a walking holiday. Pub quiz nights have been a
+      regular fixture on Tuesday evenings, and it is the closest thing
+      Garsdale has to a local. Tel: 01969 667 488.
+
+
+      The Dandrymire Viaduct (also known as the Moorcock Viaduct) is
+      visible from the pub and only a short walk away. With 12 arches,
+      standing 50 feet high and 227 yards long, it is a spectacular sight
+      and carries the Settle-Carlisle line, including regular steam-hauled
+      services.
+
+
+      For those arriving by train at Garsdale Station, the Little White
+      Bus runs a shuttle timed to meet arriving trains and will take you
+      to the Moorcock and into Hawes. There is also a taxi service available
+      from the B&B next door, taking up to 8 passengers. Telephone numbers
+      for both services can be obtained from the Moorcock staff.
     figure_type: image
     figure_src: /images/places of interest/IMG_3021.jpeg
     figure_alt: View of the Yorkshire Dales landscape
