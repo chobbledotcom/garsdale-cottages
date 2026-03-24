@@ -1,0 +1,297 @@
+@charset "utf-8";
+* /*Set's border, padding and margin to 0 for all values*/
+{
+padding: 0;
+margin: 0;
+border: 0;
+}
+body, html {
+color: #000; 
+font-family: Verdana, Arial, Tahoma, sans-serif;
+height: 100%;
+background: url(assets/left-bga.gif) repeat-y #fff;  /*** This is the left column background "faked" with an image. You can also position the image using left top repeat-y also. The background color #fff (white) will be the background color for our content ***/
+}
+body {
+font-size: 70%;
+min-width: 760px;
+}
+p {
+	padding: 7px 0 7px 0;
+	color: #203276;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+}
+a {
+color: #000099;
+}
+a:hover{
+color: #0000FF;
+text-decoration: none;
+}
+h1, h2, h3 {
+	font-weight: bold;
+	padding-bottom: 5px;
+	color: #203276;
+}
+h1 {
+	font-size: 1.6em;
+	text-align: center;
+}
+h2 {
+	font-size: 1.4em;
+	color: #203276;
+}
+h3 {
+	font-size: 1.2em;
+	color: #203276;
+	text-align: left;
+}
+h1 a, #header h2{
+color: #fff;
+}
+.clear { clear: both; }
+#mainContainer {
+	min-height: 100%;
+	background: url(assets/right-bga.gif) repeat-y 100% 0;
+	color: #FFF;
+}
+* html #mainContainer {
+height: 100%; /*** IE doesn't support min-height, but instead it handles height as min-height so we need to hack the height ***/
+}
+/**************************
+HEADER
+**************************/
+#header {
+	background: #6699ff;
+	padding: 10px;
+	color: #FFFFFF;
+}
+/**************************
+CONTENT AND COLUMNS
+**************************/
+.outer {
+padding-left: 165px; /*** Same width as margin-left for the float-wrap div ***/
+padding-right: 150px; /*** Our right column width ***/
+}
+.inner {
+	width: 100%;
+	padding-bottom: 45px; /*** Padding-bottom value is the same value as the total height of the footer ***/
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+/*** div.inner is wider than its container, div.outer, and so overlaps to the right, pushing
+div.right into the proper position. IE expands div.outer instead, requiring a Tan hack to avoid 
+blowing the layout apart. IE gets the original 100% width as in the Livingstone layout.
+***/
+.float-wrap {
+float: left;
+width: 100%;
+margin-left: -165px; /*** Same length as .outer padding-left but with negative value ***/
+}
+
+#content {
+	float: right;
+	margin-right: -165px; /*** Same length as .outer padding-left but with negative value ***/
+	width: 100%;
+	background: url(assets/t-2a.gif) 100% 0 no-repeat; /*** Our upper right rounded image to create the rounded content look ***/
+	border-top: 10px solid #6699ff; /*** We have used border top here to push the content down, but other solutions can also be used ***/
+	position: relative;
+}
+
+.contentWrap{
+	padding: 5px 15px 5px 5px;
+}
+.contentWrap ol, .contentWrap ul {
+margin: 3px 0 5px 35px;
+}
+.contentWrap li {
+padding-bottom: 2px;
+}
+/**************************
+LEFT COLUMN
+**************************/
+/*** div.left is in div.float-wrap, and when div.float-wrap is neg margined to the left, 
+div.left is carried over into the proper position. 
+***/
+#navigation
+ {
+float: left;
+width: 155px;
+padding: 5px;
+border-top: 10px solid #6699ff; /*** We have used border top here to push the left column content down, but other solutions can also be used ***/
+background: url(assets/t-1a.gif) 100% 0 no-repeat; /*** Our upper left rounded image to create the rounded content look ***/
+position: relative; /*** IE needs this  ***/
+}
+#navigation ul {
+list-style: none;
+padding-bottom: 4px;
+}
+#navigation li {
+	padding-bottom: 2px;
+	font-size: 16px;
+}
+/*************************
+RIGHT COLUMN
+**************************/
+#rightnav
+ {
+float: right; 
+width: 150px;
+padding: 5px 0 0 10px;
+position: relative; /*** IE needs this  ***/
+margin-right: -150px; /** This negative margin-right value is in this example the same as the right column width. ***/
+border-top: 10px solid #6699ff;
+position: relative; /*** IE needs this  ***/
+}
+#rightnav  ul {
+	list-style: none;
+	padding-bottom: 4px;
+	}
+#rightnav  li {
+padding-bottom: 2px;
+}
+/**************************
+FOOTER
+**************************/
+#footer {
+height: 60px; /*** The drawback with this solution is that the height of the footer can't be flexible. If you add so much content to the footer that it extends 45px, you will get a vertical scrollbar and the content will overflow the footer if you don't set overflow to hidden ***/
+margin-top: -60px; /*** By using a negative margin-top we now moves the footer up the same amount as the footer height to avoid vertical scrolling. Remember, if you use borders and padding on your footer you will have to calculate this in your negative margin-top value also. ***/
+text-align: center;
+background: url(assets/b-bga.gif) repeat-x #6699ff; /*** The lower part of the rounded content look ***/
+}
+#footerLeft, #footerRight {
+height: 15px; 
+background: #6699ff;
+}
+#footerLeft {
+float: left; 
+width: 165px; /*** Same length as .outer padding-left ***/
+background: url(assets/b-1a.gif) 100% 0 no-repeat #6699ff; /*** Our left bottom part of the rounded content look ***/
+}
+#footerRight {
+float: right;
+width: 165px; /*** Same length as right plus some padding. If you get a horisontal scrollbar try to adjust this value. ***/
+background: url(assets/b-2a.gif) no-repeat #6699ff; /*** Our right bottom part of the rounded content look ***/
+}
+#footer p {
+clear: both;
+}
+.bluebg a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	clip: rect(auto,auto,auto,auto);
+}
+.bluebg a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 12px;
+}
+.bluebg a:hover {
+	color: #FFFF00;
+	text-decoration: underline;
+}
+table {
+	margin: 0.5em auto;
+	border-spacing: 0;
+	text-align: left;
+	width: 95%;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 130%;
+}
+thead th, tbody th {
+	background: #2442b1 url(assets/accom-table/left_corner.gif) no-repeat;
+	color: #fff;
+	font-weight: bold;
+	padding: .2em .7em .2em .8em;
+	text-align: left;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #c6cdd8;
+	border-bottom: 1px solid #c6cdd8;
+	border-left: 1px solid #fff;
+}
+
+thead th {
+	font-size: 1em;
+}
+
+tbody th {
+	background: #dee2e9 url(assets/accom-table/bg_col1.gif) repeat-x;
+}
+
+tbody tr.odd th {
+	background: #e2e2e2;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+tbody th a, tbody th a:link, tbody th a:visited, tbody th a:hover, tbody th a:active {
+	color: #2442b1;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+
+tbody th a:hover {
+	text-decoration: underline;
+}
+
+td a:link {
+	color: #203276;
+}
+
+tbody th a:visited, td a:visited {
+	color: #203276;
+}
+
+th a:hover, td a:hover {
+	text-decoration: none;
+	text-align: center;
+}
+
+td {
+	background: #f3f8fd url(assets/accom-table/bg_col2.gif) repeat-x;
+	color: #203276;
+	padding: 1em 0.5em 0.8em 0.8em;
+	border: 1.5px solid #c6cdd8;
+	text-align: center;
+}
+
+/***td:hover {
+	background: #f3f8fd;
+} ***/
+
+tr.odd td {
+	background: #f8f8f8 url(assets/accom-table/bg_col3.gif) repeat-x;
+	color: #444;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+tr.odd td:hover {
+	background: #f8f8f8;
+}
+
+tfoot th, tfoot td {
+	background: #444 !important;
+	padding: .5em .5em .5em .5em !important;
+	color: #fff;
+}
+
+.acomtable table {
+	margin: 1em auto;
+	font: 12px/130% Tahoma, Arial, Helvetica, sans-serif;
+	border-spacing: 0;
+	text-align: left;
+	background-image: none;
+}
+.titlemenu {
+	color: #FFF;
+}
+#mainContainer #header .titlemenu {
+}
+   
