@@ -100,7 +100,8 @@ blocks:
       Museum](https://www.dalescountrysidemuseum.org.uk/) and [Wensleydale
       Creamery](https://www.wensleydale.co.uk/) where you can see cheesemaking
       demonstrations at the cheese experience, there is a cafe, cheese and gift
-      shop.
+      shop. W.R. Outhwaite & Son, the traditional rope makers on the high street,
+      are also well worth a visit.
 
 
       **Kirkby Stephen** is an old market town with a good range of shops, cafes
@@ -125,7 +126,13 @@ blocks:
       cafes and eating places and a weekly market on Wednesday and Saturdays. It
       also has a castle and the [Brewery Arts
       Centre](https://www.breweryarts.co.uk/) has cinema, music, theatre and
-      comedy events.
+      comedy events. Kendal is also home to the famous Kendal Mintcake, the
+      high-energy mint sugar bar long favoured by walkers and climbers.
+
+
+      **Askrigg** in Wensleydale is of particular interest to James Herriot fans
+      — the village served as the setting for the TV series *All Creatures Great
+      and Small*, filmed here in the 1970s and 1980s.
 
 
       **Farfield Mill** is on the road between Garsdale and Sedbergh and is an
@@ -336,17 +343,24 @@ blocks:
 
       There are many waterfalls nearby. Most are free to visit; [Hardraw
       Force](http://hardrawforce.com/waterfall.html) has a small entrance fee
-      but is a lovely walk. [Cautley
+      but is a lovely walk — and film fans may recognise it as the setting for
+      the famous waterfall scene in *Robin Hood: Prince of Thieves*. [Cautley
       Spout](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/)
       and [Cotter
       Force](https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force)
-      are also well worth a visit.
+      are also well worth a visit, as are [Aysgarth
+      Falls](https://www.yorkshiredales.org.uk/places/aysgarth-falls/) in
+      Wensleydale — a must-see for anyone new to the area.
 
 
       There are also a number of castles and National Trust properties as well
       as beautiful historic villages. [Bolton
-      Castle](https://boltoncastle.co.uk/), [Pendragon
-      Castle](https://www.visitcumbria.com/evnp/pendragon-castle/), [Brough
+      Castle](https://boltoncastle.co.uk/) is an impressive sight — particularly
+      at night when it is lit up and visible from miles around — and by day it is
+      well worth a visit as the site where Mary Queen of Scots was once held
+      prisoner. [Pendragon
+      Castle](https://www.visitcumbria.com/evnp/pendragon-castle/) in
+      Mallerstang is said to have connections to King Arthur. [Brough
       Castle](https://www.english-heritage.org.uk/visit/places/brough-castle/)
       and [Kendal
       Castle](https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/)

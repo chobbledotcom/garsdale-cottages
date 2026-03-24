@@ -51,11 +51,13 @@ blocks:
 
       Nearby, the Dandrymire Viaduct (also known as the Moorcock Viaduct)
       carries the railway across the head of the dale and is visible from
-      Mount Zion Chapel. It is one of the notable engineering features of
-      the Settle-Carlisle line. Mount Zion Chapel itself was built in the
-      same year as the railway by the very contractors building the line,
-      and its foundation stone was laid on the day of the first passenger
-      train.
+      Mount Zion Chapel. With its 12 arches it stands 50 feet high and
+      stretches 227 yards — a spectacular feat of Victorian engineering.
+      It is one of the notable features of the Settle-Carlisle line, which
+      also carries regular steam-hauled services. Mount Zion Chapel itself
+      was built in the same year as the railway by the very contractors
+      building the line, and its foundation stone was laid on the day of
+      the first passenger train.
     figure_type: image
     figure_src: /images/places of interest/IMG_3782.jpeg
     figure_alt: Railway viaduct in the Yorkshire Dales
