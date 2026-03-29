@@ -100,6 +100,48 @@ blocks:
       In autumn, the harvest festivals at each of the dale's chapels often
       include a supper and sale of produce, which is a lovely community
       occasion if your visit coincides.
+  - type: markdown
+    content: >
+      ## Cumbrian Food Traditions
+
+
+      Garsdale sits in Cumbria, and the county has a number of distinctive
+      food traditions well worth seeking out during your stay.
+
+
+      **Cumberland Sausage** is the region's most famous product. In 2011 it
+      was granted Protected Geographical Indication status — to carry the PGI
+      mark, the sausage must be produced in Cumbria with at least 80% meat
+      content, chopped rather than minced, and flavoured predominantly with
+      pepper. It appears on most pub and cafe menus across the area and is an
+      excellent choice for a barbecue at the cottage.
+
+
+      **Kendal Mint Cake** was first made in 1869 by Joseph Wiper in a small
+      factory in Kendal. Prized for its energy-giving properties, it was
+      included in the supplies for the 1953 Everest expedition and several
+      polar expeditions. It remains a favourite with walkers and climbers
+      and can be bought from shops in Kendal and Sedbergh.
+
+
+      **Damsons** are grown in the Lyth Valley south of Kendal. The
+      orchards are a mass of white blossom in April and the fruit ripens in
+      September, when it appears in local shops and roadside stalls. Damson
+      gin, made from the fruit blended with London gin, is a popular local
+      tipple.
+
+
+      **Cumberland Rum Butter** is a traditional recipe of lightly spiced
+      butter with dark rum, usually served with Christmas pudding and mince
+      pies. Historically it was also given with oatcakes to visitors who
+      called to see a new baby.
+
+
+      Beyond Wensleydale, the region produces a range of cheeses including
+      Kendal Crumbly, a tangy crumbly cheese good with a ploughman's lunch,
+      Eden Valley Organic Brie made with Cumbrian organic milk, and
+      Cumberland Farmhouse, a strong hard cheese that pairs well with a
+      glass of wine.
   - type: cta
     title: Stay in Garsdale
     description: Book direct with local cottage owners for better prices and
@@ -121,4 +163,10 @@ blocks:
       - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
 
       - Little White Bus, Hawes ([littlewhitebus.co.uk](https://www.littlewhitebus.co.uk/))
+
+      - Cumberland Sausage PGI — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cumberland_sausage))
+
+      - Kendal Mint Cake — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Kendal_Mint_Cake))
+
+      - Lyth Valley Damsons ([lythdamsons.org.uk](https://www.lythdamsons.org.uk/))
 ---
