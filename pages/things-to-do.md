@@ -126,8 +126,10 @@ blocks:
       cafes and eating places and a weekly market on Wednesday and Saturdays. It
       also has a castle and the Brewery Arts
       Centre ([breweryarts.co.uk](https://www.breweryarts.co.uk/)) has cinema, music, theatre and
-      comedy events. Kendal is also home to the famous Kendal Mintcake, the
-      high-energy mint sugar bar long favoured by walkers and climbers.
+      comedy events. Kendal is also home to the famous Kendal Mint Cake,
+      first made in 1869 by Joseph Wiper. Prized for its energy-giving
+      properties, it was carried on the 1953 Everest expedition and remains
+      a favourite with walkers and climbers.
 
 
       **Askrigg** in Wensleydale is of particular interest to James Herriot fans

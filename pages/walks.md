@@ -102,9 +102,11 @@ blocks:
       - icon: hugeicons:route-01
         title: Coast to Coast
         description:
-          For those who like a challenge, the Coast to Coast walk passes
-          through Kirkby Stephen. A short drive from The Old Cart House would
-          allow you, at least, a sample trek along this iconic path.
+          Devised in 1973 by Alfred Wainwright, this 190-mile route crosses
+          from St Bees to Robin Hood's Bay via the Lake District, the
+          Yorkshire Dales and the North York Moors. It passes through Kirkby
+          Stephen, a short drive from Garsdale, making it easy to sample a
+          section. Allow 10 to 14 days for the full route.
       - icon: hugeicons:mountain
         title: The Pennine Way
         description:
@@ -112,9 +114,11 @@ blocks:
           their own way are well worth a visit. A 15 minute drive to Hawes.
       - icon: hugeicons:path
         title: The Dales Way
-        description: A long distance footpath running from Ilkley to
-          Bowness-on-Windermere, passing through the heart of the Yorkshire
-          Dales.
+        description: An 84-mile recreational footpath running from Ilkley to
+          Bowness-on-Windermere. The route passes through Sedbergh — regarded
+          by many as the ideal base camp — and on through Dent before crossing
+          into the Yorkshire Dales National Park. Not considered a demanding
+          walk, though there are a few steep sections in the Dales.
   - type: features
     header_intro: "## Practical Stuff"
     items:
