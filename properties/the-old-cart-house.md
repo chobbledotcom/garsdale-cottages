@@ -79,10 +79,10 @@ contact_links:
     - icon: "hugeicons:mail-01"
       text: "lorainebutterworth@hotmail.com"
       url: "mailto:lorainebutterworth@hotmail.com"
-    - icon: "hugeicons:phone"
+    - icon: "hugeicons:telephone"
       text: "Loraine: 07905 637690"
       url: "tel:07905637690"
-    - icon: "hugeicons:phone"
+    - icon: "hugeicons:telephone"
       text: "Jack: 07982 235493"
       url: "tel:07982235493"
 meta_title: The Old Cart House | Holiday Cottage near Sedbergh, Garsdale

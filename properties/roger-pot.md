@@ -76,7 +76,7 @@ contact_links:
     - icon: "hugeicons:mail-01"
       text: "pbenson434@gmail.com"
       url: "mailto:pbenson434@gmail.com"
-    - icon: "hugeicons:phone"
+    - icon: "hugeicons:telephone"
       text: "Paul: 07917 454791"
       url: "tel:07917454791"
 meta_title: Roger Pot | Holiday Cottage near Sedbergh, Garsdale
