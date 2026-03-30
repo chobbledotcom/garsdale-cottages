@@ -124,3 +124,7 @@ article#content {
   left: 2rem;
   z-index: 2;
 }
+
+.design-system .cta {
+  background: linear-gradient(135deg, var(--color-link) 0%, #231a1a 100%);
+}
