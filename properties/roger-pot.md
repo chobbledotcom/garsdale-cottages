@@ -70,6 +70,15 @@ gallery:
   - /images/properties/roger-pot/a-dirt-path-with-metal-gates-and-stone-walls-surrounded-by-g.jpeg
   - /images/properties/roger-pot/a-grassy-hillside-with-scattered-trees-and-a-stone-wall-at-r.jpeg
   - /images/properties/roger-pot/a-grassy-area-with-trees-next-to-a-rocky-stream-at-roger-pot.jpeg
+contact_links:
+  intro: "## Contact Details"
+  items:
+    - icon: "hugeicons:mail-01"
+      text: "pbenson434@gmail.com"
+      url: "mailto:pbenson434@gmail.com"
+    - icon: "hugeicons:phone"
+      text: "Paul: 07917 454791"
+      url: "tel:07917454791"
 meta_title: Roger Pot | Holiday Cottage near Sedbergh, Garsdale
 meta_description: "Roger Pot - A beautiful, detached house resting in the
   countryside of Garsdale near Sedbergh, Cumbria. Pet-friendly. Countryside
