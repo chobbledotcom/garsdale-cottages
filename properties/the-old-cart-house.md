@@ -73,6 +73,18 @@ gallery:
   - /images/properties/the-old-cart-house/a-snowy-field-with-footprints-leading-to-a-gate-and-hills-in.jpeg
   - /images/properties/the-old-cart-house/a-road-with-a-yorkshire-dales-national-park-sign-and-fields-.jpeg
   - /images/properties/the-old-cart-house/a-countryside-landscape-with-rolling-hills-fields-trees-and-.jpeg
+contact_links:
+  intro: "## Contact Details"
+  items:
+    - icon: "hugeicons:mail-01"
+      text: "lorainebutterworth@hotmail.com"
+      url: "mailto:lorainebutterworth@hotmail.com"
+    - icon: "hugeicons:telephone"
+      text: "Loraine: 07905 637690"
+      url: "tel:07905637690"
+    - icon: "hugeicons:telephone"
+      text: "Jack: 07982 235493"
+      url: "tel:07982235493"
 meta_title: The Old Cart House | Holiday Cottage near Sedbergh, Garsdale
 meta_description: The Old Cart House - a charming detached holiday cottage near
   Sedbergh in Garsdale, Yorkshire Dales. Cosy retreat for couples with
