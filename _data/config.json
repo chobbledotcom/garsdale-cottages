@@ -1,7 +1,7 @@
 {
 	"has_products_filter": true,
 	"has_properties_filter": true,
-	"contact_form_target": "https://auto.chobble.com/webhooks/flows/6589697f-8b39-4555-9afa-bb27fc1a82c4",
+	"contact_form_target": "https://auto.chobble.com/webhooks/flows/6589697f-8b39-4555-9afa-bb27fc1a82c4/sync",
 	"botpoison_public_key": null,
 	"sticky_mobile_nav": true,
 	"horizontal_nav": true,
