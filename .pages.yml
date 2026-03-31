@@ -2,6 +2,7 @@ media:
   input: images
   output: /images
   path: images
+  rename: true
   categories:
     - image
 settings:
