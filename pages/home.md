@@ -19,15 +19,13 @@ blocks:
 
       Holiday cottages near Sedbergh in the Yorkshire Dales - book direct with property owners
 
-  - type: section-header
-    align: center
-    intro: |
+  - type: items
+    collection: properties
+    header_intro: |
       # Welcome to Garsdale Cottages
 
       A cooperative of holiday cottages near Sedbergh in Garsdale - book directly with property owners for better prices and personal service
-
-  - type: items
-    collection: properties
+    header_align: center
     intro: Two charming holiday cottages near Sedbergh, in Garsdale, Yorkshire Dales
 
   - type: features
@@ -69,14 +67,11 @@ blocks:
         description: "One of England's most scenic railways, with Garsdale station just minutes away."
         link: "/about-garsdale/"
 
-  - type: section-header
-    align: center
-    intro: |
+  - type: image-cards
+    header_intro: |
       ## Explore the Area
 
       Discover what makes Garsdale and the Yorkshire Dales so special
-
-  - type: image-cards
     image_aspect_ratio: "4/3"
     items:
       - image: "/images/places of interest/IMG_3021.jpeg"
