@@ -45,14 +45,11 @@ blocks:
         title: No Middlemen
         description: "Book with confidence directly through us - straightforward, simple, personal."
 
-  - type: section-header
-    align: center
-    intro: |
+  - type: image-cards
+    header_intro: |
       ## Why Garsdale?
 
       Escape to the remote beauty of the Yorkshire Dales
-
-  - type: image-cards
     image_aspect_ratio: "4/3"
     items:
       - image: "/images/scenery/moon-over-langstone-fell.jpeg"
