@@ -31,7 +31,7 @@ blocks:
         title: Roger Pot
         description:
           For enquiries and bookings contact the property owners directly via
-          the property page, call Paul 0n 07917454791 or email
+          the property page, call Paul 0n 07342200780 or email
           pbenson434@gmail.com
   - type: markdown
     content: >
@@ -41,5 +41,5 @@ blocks:
       If you are interested in joining the Garsdale Cottages cooperative please
       contact Jack at jackbutterworth@hotmail.com. Paul on
       pbenson434@gmail.com or phone Jack on 07982 235493 or Paul on
-      07917 454791.
+      07342 200780.
 ---

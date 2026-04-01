@@ -78,8 +78,8 @@ contact_links:
       text: "pbenson434@gmail.com"
       url: "mailto:pbenson434@gmail.com"
     - icon: "hugeicons:telephone"
-      text: "Paul: 07917 454791"
-      url: "tel:07917454791"
+      text: "Paul: 07342 200780"
+      url: "tel:07342200780"
 meta_title: Roger Pot | Holiday Cottage near Sedbergh, Garsdale
 meta_description: "Roger Pot - A beautiful, detached house resting in the
   countryside of Garsdale near Sedbergh, Cumbria. Pet-friendly. Countryside
