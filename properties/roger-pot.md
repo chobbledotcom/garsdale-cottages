@@ -91,33 +91,21 @@ locations:
 
 Sedbergh 6.3 miles. Hawes 9 miles.
 
-Boasting incredible countryside views, Roger Pot is a fantastic isolated stone-built property with ample off-road parking and an attached garden, nestled into the rural hamlet of Garsdale near Sedbergh; the property is ideal for friends or families looking to explore Cumbria.
+Roger Pot is a detached stone cottage set a quarter of a mile up a farm track in [Garsdale](/about-garsdale/), within the Yorkshire Dales National Park. It sleeps six across three bedrooms and is well suited to families or groups of friends looking for somewhere quiet, with open countryside views and space to spread out.
 
-Roger Pot is located in a fantastic off road location some quarter of a mile up a traditional rustic farm track.
+The sitting room has exposed stone walls, wooden roof beams and a woodburning stove. There is a well-equipped kitchen with a separate dining room, plus a utility room with washer/dryer for dealing with muddy walking gear.
 
-Park off-road and be welcomed into a charming sitting room with exposed stone, wooden roof beams and ample furniture nestled before a woodburning stove, a lovely space to relax in with a coffee as you plan the day ahead of you.
+Upstairs there are three bedrooms: a double, a twin zip/link (which can be set up as a super-king on request) with a window seat, and a master bedroom with a super-king bed, wooden roof beams and an en-suite shower room. The family bathroom has a bath with shower over.
 
-When mealtimes call, the beautifully presented kitchen welcomes you to cook up a storm using the ample amenities, which are hidden neatly into contemporary furniture.
+Outside, the enclosed garden has a table and chairs for eating outdoors. The property sits within 4 acres of land, and guests have access to a stretch of the river for paddling or fishing. This is also good territory for spotting [red squirrels](/red-squirrels-in-garsdale/) — one of England's last strongholds for reds — as well as roe deer, brown hares and a wide range of [birds](/garsdale-wildlife/).
 
-Here there is a lovely exposed stone shelf adding character, and a lovely attached dining room where guests can enjoy a hearty meal, whilst the handy utility takes care of all of your muddy clothes.
+There are [walks directly from the door](/walks/) — through the woodland by Dandra Garth, over the moors towards Dent, or up to the Pennine Bridleway. [Grisedale](/grisedale/), the neighbouring valley known as "The Dale That Died," is one of the most atmospheric walks in the area.
 
-Ascend the stairs to find a spacious and airy family bathroom where guests can enjoy a soak amongst the bubbles or a refreshing shower, and here you will also find three bedrooms.
+Sedbergh (6.3 miles) has shops, [pubs and cafes](/eating-and-drinking-in-garsdale/), a weekly market on Wednesdays, and Farfield Mill arts centre on the road between Garsdale and town. Hawes (9 miles) has the Wensleydale Creamery, the Dales Countryside Museum, ropemakers, and a good range of [eating and drinking](/eating-and-drinking-in-garsdale/) options. See our [things to do](/things-to-do/) page for more, including waterfalls, castles, and family activities.
 
-Choose between a cosy double, a twin zip/link that can be set up as a super-king-size on request, with the added feature of a window seat, and finally a beautiful master bedroom, spacious with a superking-size bed, wooden roofbeams and an en-suite.
+[Garsdale Station](/garsdale-train-station/) on the Settle-Carlisle line is nearby — one of England's most scenic railways, with connections to Leeds and Carlisle.
 
-Outside, make the most of the fresh air and countryside views by dining alfresco, with the chance to spot some of the resident red and grey squirrels, or travel through the 4-acres of land surrounding the property, to paddle or fish in the nearby river.
-
-Garsdale is a rural hamlet resting beside the Clough River, with beautiful countryside framing the village.
-
-To stock up on amenities or to have a tipple and a hot meal, head over to the village of Sedbergh where there is a local shop, eateries and a few pub, as well as a golf course where you can try out a game or two, whilst Hawes, a wonderful town is a must-visit, with plenty of shops, welcoming pubs, a fish and chip shop, and the Wensleydale Cheese Factory, offering guided tours and an on-site shop.
-
-There are more tasty eateries and independent shops at nearby Hawes which you can browse at your leisure.
-
-From here, enjoy the scenery of the Yorkshire Dales at Hardraw Force Waterfall, Gastack Beck Waterfall, and Ribblehead Viaduct, or many of the other incredible sites, or learn more about the local history and heritage at Dales Countryside Museum. For the more adventurous, the three peaks are attainable.
-
-For a day at the coast visit Arnside and Silverdale Area of Outstanding Natural Beauty or venture into the Lake District National Park, where there is an abundance of incredible trails, numerous wild swimming opportunities and watersports activities, whilst steam train spotters will enjoy visiting Garsdale train station, running along the Carlisle and Leeds line via Settle.
-
-All of this and so much more with a stay at the charming Roger Pot.
+**Book direct through this site and you deal directly with the property owner — no agency fees, no booking commissions, and the personal service that comes from speaking to someone who knows the property and the area inside out.** When you book through sites like Booking.com or Sykes, they take a significant cut of the price, which either inflates what you pay or reduces what the owner receives. Booking here means a better deal for everyone.
 
 ## Touch Stay property Guide
 
