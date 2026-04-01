@@ -94,47 +94,23 @@ locations:
   - locations/dent.md
 ---
 
-Sedbergh 6.4 miles.
+Sedbergh 6.4 miles. Hawes 9 miles. Kendal 17 miles.
 
-Enjoy a stay in The Old Cart House, a delightful detached stone property with a rich history as a former cart house and stables.
-Nestled in the picturesque rural hamlet of Garsdale, Cumbria, The Old Cart House offers breath-taking countryside views and many local, short or longer, country walks in the quiet valley of Garsdale.
+The Old Cart House is a detached stone cottage in [Garsdale](/about-garsdale/), within the Yorkshire Dales National Park. It was originally a cart house and stables — there is an Ordnance Survey benchmark cut into the stonework from the 1845 survey, when it was listed as J Davis’ stable.
 
-This charming retreat is perfectly suited for couples, solo travellers, or small families (two adults and one small child is the maximum family size possible) eager to discover the natural splendour of the Yorkshire Dales National Park.
+It sleeps two (a couple, or two adults with one small child up to age 3), with roadside parking and countryside views up the valley.
 
-With convenient roadside parking and a welcoming ambience, it’s an ideal base for your next countryside escape.
+Downstairs is an open-plan living space with exposed wooden beams and a vaulted ceiling. There is an electric fire, a dining table for two, and a kitchen area fitted under the staircase with an oven, hob, microwave, fridge/freezer and washing machine. The timber staircase leads to a window seat on the half-landing with views over the dale.
 
-Step into a delightful open-plan living space brimming with character, where exposed wooden beams and vaulted ceilings create a warm and inviting atmosphere.
+The king-size bedroom has exposed wood and a reclaimed stable door opening onto an en-suite shower room. There is also a rear door from the bedroom leading via stone steps down to the garden patio, where you can eat outside.
 
-Sink into the seating, perfectly positioned in front of the coal effect fire, making it an idyllic spot to enjoy a coffee while planning your day’s adventures.
+[Walks start from the door](/walks/) — the Pennine Bridleway and Dales Way are both nearby, and there are marked footpaths through the dale. The riverbanks opposite the cottage are a good spot for [red squirrels](/red-squirrels-in-garsdale/), and you may also see roe deer, brown hares and a wide range of [birds](/garsdale-wildlife/). On clear nights, the [dark skies](/about-garsdale/) here are remarkable — no street lighting, and the Milky Way is visible to the naked eye.
 
-When it’s time to prepare a meal, there is a quaint yet well-equipped kitchen area , cleverly designed with amenities neatly tucked under the staircase, including a washing machine for added convenience during longer stays.
+Sedbergh (6.4 miles) has independent bookshops, craft shops, [pubs and cafes](/eating-and-drinking-in-garsdale/), a weekly Wednesday market, and Farfield Mill arts centre on the road between here and town. Hawes (9 miles) has the Wensleydale Creamery, the Dales Countryside Museum, and plenty of [places to eat](/eating-and-drinking-in-garsdale/). [Garsdale Station](/garsdale-train-station/) on the Settle-Carlisle line is a short drive up the dale. See our [things to do](/things-to-do/) page for waterfalls, castles, caves, family activities and more.
 
-Dine at the intimate table set for two, or, if the weather is kind, take your culinary creations outside and enjoy an alfresco meal.
+The nearby [Sedgwick Geological Trail](/the-sedgwick-geological-trail/) at Danny Bridge traces the ancient Dent Fault along the River Clough — named after the geologist Adam Sedgwick, who was born in nearby Dent. The Lake District is also within reach for a day trip, with Ambleside about 45 minutes’ drive.
 
-Climb the timber staircase to discover a charming window seat, the perfect nook for soaking in the breath-taking countryside views in peaceful solitude.
-
-The light and airy king-size bedroom awaits, offering a tranquil retreat adorned with rustic exposed wood and a re-claimed stable door that opens to a contemporary en-suite shower room.
-
-Here, you can refresh under the sleek shower before slipping into your pyjamas and sinking into the sumptuous bed to catch your rest.
-
-Explore the breath-taking landscapes of the Yorkshire Dales National Park right from your doorstep, with popular trails like the Pennine Bridleway and Dales Way nearby.
-
-Don't forget to bring your camera, where you might spot red squirrels darting through the trees, graceful roe deer grazing in the meadows, and a variety of bird species.
-
-A short drive will take you to Sedbergh, where you can wander through independent craft and bookshops, or perhaps visit Farfield Mill with its local art, crafts, and heritage at this restored Victorian woollen mill.
-
-Stock up on the essentials at one of the convenience stores for some home-cooking, before savouring a refreshing pint and lunch at The Red Lion or Dalesman pubs.
-
-For those keen on hiking, a short trek leads to the breath-taking Cotter Force in Hardraw, a beautiful waterfall where you can unwind and take in the beauty of nature, especially after conquering the trails around Great Shunner Fell.
-
-The market town of Hawes is well-worth a visit, with its artisan and antique shops and traditional pubs.
-
-The Lake District National Park is also within reach, where you can explore some of the iconic lakes, offering a chance to explore landmarks like Windermere, Ambleside and Coniston Water.
-
-Whether you’re an outdoor enthusiast, history buff, or seeking relaxation in a picturesque setting, The Old Cart House offers something for everyone.
-
-The property is approx 9 miles from Hawes and 17 miles from Kendal.
-The Old Cart house has an Ordnance Survey benchmark cut into the stonework and this dates back to the survey in 1845 and at that time the property was listed as J Davis' stable.
+**Book direct through this site and you deal directly with the property owners, Jack and Loraine — no agency fees, no booking commissions, and the personal service that comes from speaking to people who know the cottage and the area inside out.** When you book through sites like Booking.com or Sykes, they take a significant cut of the price, which either inflates what you pay or reduces what the owner receives. Booking here means a better deal for everyone.
 
 ## At a glance
 
