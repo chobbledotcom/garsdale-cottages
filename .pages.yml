@@ -29,20 +29,115 @@ content:
       - cottages.md
       - things-to-do.md
     fields:
+      - { name: header_text, type: string, label: Header Text }
+      - { name: title, type: string, label: Title }
       - { name: subtitle, type: string, label: Subtitle }
-      - { name: body, type: rich-text, label: Body }
       - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
       - name: meta_description
         type: string
         label: Meta Description
         maxlength: 155
+      - { name: layout, type: string, label: Layout }
+      - { name: permalink, type: string, label: Permalink }
+      - { name: no_index, type: boolean, label: No Index }
+      - { name: pagefind_body, type: boolean, label: Pagefind Body }
+      - { name: navigationParent, type: string, label: Navigation Parent }
       - name: eleventyNavigation
         label: Navigation
         type: object
         fields:
           - { name: key, type: string }
           - { name: order, type: number }
-      - { name: layout, type: string }
+      - name: blocks
+        label: Content Blocks
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: image-background
+            label: Image Background
+            fields:
+              - { name: image, type: image, label: Hero Image }
+              - { name: image_alt, type: string, label: Image Alt Text }
+              - { name: content, type: string, label: Hero Content }
+              - { name: full_width, type: boolean, label: Full Width }
+              - { name: parallax, type: boolean, label: Parallax }
+          - name: markdown
+            label: Markdown
+            fields:
+              - { name: header_intro, type: rich-text, label: Header Intro }
+              - { name: content, type: rich-text, label: Content }
+          - name: split
+            label: Split
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: subtitle, type: string, label: Subtitle }
+              - { name: content, type: string, label: Content }
+              - name: figure_type
+                type: string
+                label: Figure Type (image, video, code, html)
+              - { name: figure_src, type: image, label: Figure Image }
+              - { name: figure_alt, type: string, label: Figure Alt Text }
+              - { name: figure_caption, type: string, label: Figure Caption }
+              - name: figure_video_id
+                type: string
+                label: Figure Video ID or URL
+              - name: figure_filename
+                type: string
+                label: Figure Code Filename
+              - { name: figure_code, type: string, label: Figure Code Content }
+              - name: figure_language
+                type: string
+                label: Figure Code Language
+              - name: figure_html
+                type: rich-text
+                label: Figure HTML Content
+              - { name: reverse, type: boolean, label: Reverse Layout }
+          - name: features
+            label: Features
+            fields:
+              - { name: header_intro, type: rich-text, label: Header Intro }
+              - name: items
+                type: array
+                label: Features
+                fields:
+                  - { name: icon, type: string, label: Icon }
+                  - { name: title, type: string, label: Title }
+                  - { name: description, type: string, label: Description }
+          - name: image-cards
+            label: Image Cards
+            fields:
+              - { name: header_intro, type: rich-text, label: Header Intro }
+              - name: image_aspect_ratio
+                type: string
+                label: Image Aspect Ratio
+              - name: items
+                type: array
+                label: Cards
+                fields:
+                  - { name: image, type: image, label: Image }
+                  - { name: title, type: string, label: Title }
+                  - { name: description, type: string, label: Description }
+                  - { name: link, type: string, label: Link }
+          - name: items
+            label: Items
+            fields:
+              - { name: collection, type: string, label: Collection }
+              - { name: header_intro, type: rich-text, label: Header Intro }
+              - { name: header_align, type: string, label: Header Align }
+              - { name: intro, type: string, label: Intro }
+          - name: cta
+            label: Cta
+            fields:
+              - { name: title, type: string, label: Title }
+              - { name: description, type: string, label: Description }
+              - name: button
+                type: object
+                label: Button
+                fields:
+                  - { name: text, type: string, label: Text }
+                  - { name: href, type: string, label: URL }
+      - { name: body, type: rich-text, label: Body }
       - name: faqs
         label: FAQs
         type: object
