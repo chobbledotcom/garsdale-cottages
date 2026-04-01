@@ -52,7 +52,7 @@ content:
             fields:
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
-              - { name: content, type: string, label: Hero Content }
+              - { name: content, type: rich-text, label: Hero Content }
               - { name: full_width, type: boolean, label: Full Width }
               - { name: parallax, type: boolean, label: Parallax }
           - name: markdown
@@ -65,7 +65,7 @@ content:
             fields:
               - { name: title, type: string, label: Title }
               - { name: subtitle, type: string, label: Subtitle }
-              - { name: content, type: string, label: Content }
+              - { name: content, type: rich-text, label: Content }
               - name: figure_type
                 type: string
                 label: Figure Type (image, video, code, html)
@@ -116,14 +116,14 @@ content:
             label: Contact Form
             fields:
               - { name: header_intro, type: rich-text, label: Header Intro }
-              - { name: content, type: string, label: Introduction Text }
+              - { name: content, type: rich-text, label: Introduction Text }
           - name: items
             label: Items
             fields:
               - { name: collection, type: string, label: Collection }
               - { name: header_intro, type: rich-text, label: Header Intro }
               - { name: header_align, type: string, label: Header Align }
-              - { name: intro, type: string, label: Intro }
+              - { name: intro, type: rich-text, label: Intro }
           - name: cta
             label: Cta
             fields:
