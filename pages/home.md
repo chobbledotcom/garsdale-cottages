@@ -53,7 +53,7 @@ blocks:
       - image: "/images/scenery/moon-over-langstone-fell.jpeg"
         title: Peace & Tranquillity
         description: "Remote Yorkshire Dales location, far from the crowds - just you, the hills and the sky."
-        link: "/about-garsdale/"
+        link: "/about/"
       - image: "/images/wildlife/red-squirrel-1.jpeg"
         title: Wildlife
         description: "Red squirrels, upland birds, roe deer and more in this unspoilt corner of England."
@@ -65,7 +65,7 @@ blocks:
       - image: "/images/scenery/garsdale-in-winter.jpeg"
         title: Settle-Carlisle Railway
         description: "One of England's most scenic railways, with Garsdale station just minutes away."
-        link: "/about-garsdale/"
+        link: "/about/"
 
   - type: image-cards
     header_intro: |
@@ -81,7 +81,7 @@ blocks:
       - image: "/images/scenery/rose-cottage-and-the-cart-house.jpeg"
         title: About Garsdale
         description: "A quiet valley in the Yorkshire Dales - discover the history, wildlife and beauty of the dale."
-        link: "/about-garsdale/"
+        link: "/about/"
       - image: "/images/wildlife/brown-hare.jpeg"
         title: Walks
         description: "From gentle strolls to challenging fell walks - routes for all abilities from your doorstep."
