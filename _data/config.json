@@ -6,7 +6,7 @@
 	"sticky_mobile_nav": true,
 	"horizontal_nav": true,
 	"template_repo_url": "https://github.com/chobbledotcom/chobble-template",
-	"chobble_link": "https://chobble.com/services/chobble-template/",
+	"chobble_link": "https://chobble.com/examples/garsdale-cottages/",
 	"products": {
 		"item_widths": "240,480,640",
 		"item_list_aspect_ratio": "4/3"
