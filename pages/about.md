@@ -135,7 +135,7 @@ blocks:
       This was closed in 1985 and was converted to [village
       hall](/garsdale-village-hall-and-community/).
     figure_type: image
-    figure_src: /images/old Garsdale/Garsdale_in_2007.jpeg
+    figure_src: /images/old-garsdale/Garsdale_in_2007.jpeg
     figure_alt: Garsdale in 2007
     reverse: false
   - type: split

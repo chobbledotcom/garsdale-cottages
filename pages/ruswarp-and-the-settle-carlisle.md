@@ -95,7 +95,7 @@ blocks:
 
       - Friends of the Settle-Carlisle Line ([foscl.org.uk](https://www.foscl.org.uk/))
 
-      - Ruswarp (dog) — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Ruswarp_(dog)))
+      - Ruswarp — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Ruswarp))
 
       - Settle–Carlisle line — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
 

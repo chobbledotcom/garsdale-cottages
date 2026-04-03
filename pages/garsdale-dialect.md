@@ -94,5 +94,5 @@ blocks:
 
       - Old Norse influence on English — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Scandinavian_York#Language))
 
-      - Hefted stock — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hefted_stock))
+      - Hefted stock — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hefted))
 ---

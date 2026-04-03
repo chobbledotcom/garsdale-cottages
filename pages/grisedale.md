@@ -102,7 +102,7 @@ blocks:
       ## References
 
 
-      - Grisedale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Grisedale,_Eden))
+      - Grisedale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Grisedale))
 
       - Jervaulx Abbey — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Jervaulx_Abbey))
 

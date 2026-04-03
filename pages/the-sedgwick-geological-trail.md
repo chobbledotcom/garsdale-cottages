@@ -110,5 +110,5 @@ blocks:
 
       - Roderick Murchison — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Roderick_Murchison))
 
-      - Sedgwick Museum of Earth Sciences, Cambridge ([sedgwickmuseum.org](https://www.sedgwickmuseum.org/))
+      - Sedgwick Museum of Earth Sciences, Cambridge ([sedgwickmuseum.cam.ac.uk](https://sedgwickmuseum.cam.ac.uk/))
 ---
