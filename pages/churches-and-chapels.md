@@ -125,7 +125,7 @@ blocks:
 
       - George Fox — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/George_Fox))
 
-      - 1652 Country — Quaker heritage in the north-west ([1652country.org.uk](http://www.1652country.org.uk/))
+      - 1652 Country — Quaker heritage in the north-west ([discoveringquakers.org.uk](https://www.discoveringquakers.org.uk/blog/1652))
 
       - C. E. Kempe — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Charles_Eamer_Kempe))
 

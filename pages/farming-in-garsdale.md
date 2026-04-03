@@ -88,7 +88,7 @@ blocks:
 
       - Yorkshire Dales National Park — farming ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/about-the-dales/farming/))
 
-      - Hefted stock — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hefted_stock))
+      - Hefted stock — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hefted))
 
       - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
 ---
