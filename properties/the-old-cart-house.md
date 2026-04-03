@@ -96,7 +96,7 @@ locations:
 
 Sedbergh 6.4 miles. Hawes 9 miles. Kendal 17 miles.
 
-The Old Cart House is a detached stone cottage in [Garsdale](/about-garsdale/), within the Yorkshire Dales National Park. It was originally a cart house and stables — there is an Ordnance Survey benchmark cut into the stonework from the 1845 survey, when it was listed as J Davis’ stable.
+The Old Cart House is a detached stone cottage in [Garsdale](/about/), within the Yorkshire Dales National Park. It was originally a cart house and stables — there is an Ordnance Survey benchmark cut into the stonework from the 1845 survey, when it was listed as J Davis’ stable.
 
 It sleeps two (a couple, or two adults with one small child up to age 3), with roadside parking and countryside views up the valley.
 
@@ -104,7 +104,7 @@ Downstairs is an open-plan living space with exposed wooden beams and a vaulted 
 
 The king-size bedroom has exposed wood and a reclaimed stable door opening onto an en-suite shower room. There is also a rear door from the bedroom leading via stone steps down to the garden patio, where you can eat outside.
 
-[Walks start from the door](/walks/) — the Pennine Bridleway and Dales Way are both nearby, and there are marked footpaths through the dale. The riverbanks opposite the cottage are a good spot for [red squirrels](/red-squirrels-in-garsdale/), and you may also see roe deer, brown hares and a wide range of [birds](/garsdale-wildlife/). On clear nights, the [dark skies](/about-garsdale/) here are remarkable — no street lighting, and the Milky Way is visible to the naked eye.
+[Walks start from the door](/walks/) — the Pennine Bridleway and Dales Way are both nearby, and there are marked footpaths through the dale. The riverbanks opposite the cottage are a good spot for [red squirrels](/red-squirrels-in-garsdale/), and you may also see roe deer, brown hares and a wide range of [birds](/garsdale-wildlife/). On clear nights, the [dark skies](/about/) here are remarkable — no street lighting, and the Milky Way is visible to the naked eye.
 
 Sedbergh (6.4 miles) has independent bookshops, craft shops, [pubs and cafes](/eating-and-drinking-in-garsdale/), a weekly Wednesday market, and Farfield Mill arts centre on the road between here and town. Hawes (9 miles) has the Wensleydale Creamery, the Dales Countryside Museum, and plenty of [places to eat](/eating-and-drinking-in-garsdale/). [Garsdale Station](/garsdale-train-station/) on the Settle-Carlisle line is a short drive up the dale. See our [things to do](/things-to-do/) page for waterfalls, castles, caves, family activities and more.
 

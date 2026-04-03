@@ -91,7 +91,7 @@ locations:
 
 Sedbergh 6.3 miles. Hawes 9 miles.
 
-Roger Pot is a detached stone cottage set a quarter of a mile up a farm track in [Garsdale](/about-garsdale/), within the Yorkshire Dales National Park. It sleeps six across three bedrooms and is well suited to families or groups of friends looking for somewhere quiet, with open countryside views and space to spread out.
+Roger Pot is a detached stone cottage set a quarter of a mile up a farm track in [Garsdale](/about/), within the Yorkshire Dales National Park. It sleeps six across three bedrooms and is well suited to families or groups of friends looking for somewhere quiet, with open countryside views and space to spread out.
 
 The sitting room has exposed stone walls, wooden roof beams and a woodburning stove. There is a well-equipped kitchen with a separate dining room, plus a utility room with washer/dryer for dealing with muddy walking gear.
 
