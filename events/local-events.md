@@ -46,7 +46,7 @@ blocks:
           Eleven days of concerts, recitals and open-air performances in
           venues across the town. See
           [sedberghmusicfestival.com](https://sedberghmusicfestival.com/).
-      - icon: hugeicons:sheep
+      - icon: hugeicons:award-01
         title: Killington Sheepdog Trials — 29 May
         description:
           Traditional sheepdog trials and country sports at Killington,
@@ -56,12 +56,12 @@ blocks:
         description:
           Sedbergh's much-loved celebration of the local sheep industry
           with painted sheep sculptures, craft stalls and family events.
-      - icon: hugeicons:flower-01
+      - icon: hugeicons:flower
         title: Wensleydale Show — 29 August
         description:
           The biggest country show in the upper dales, held at Leyburn
           with livestock, crafts, food stalls and show jumping.
-      - icon: hugeicons:pottery
+      - icon: hugeicons:paint-brush-02
         title: Potfest in the Park — 24–26 July
         description:
           Over 150 ceramicists exhibit at Hutton in the Forest for one
