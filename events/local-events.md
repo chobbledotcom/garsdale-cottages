@@ -27,6 +27,14 @@ blocks:
       local calendar — for a full week-by-week listing, pick up a copy of
       the Sedbergh & District Lookaround magazine in the Spar shop or read
       it online at [sedberghlookaround.org.uk](https://sedberghlookaround.org.uk/).
+      For more Sedbergh-specific listings see
+      [sedbergh.org.uk/events](https://www.sedbergh.org.uk/events/).
+
+
+      Throughout the year there are also regular exhibitions and events
+      at **Farfield Mill**, the restored Victorian woollen mill on the
+      edge of Sedbergh, and Sedbergh's much-loved **Christmas late-night
+      shopping** evening rounds off the calendar each December.
   - type: features
     header_intro: "## Headline Dates for 2026"
     items:
@@ -108,12 +116,12 @@ blocks:
 
 
       Cumbria has many annual events in the nearby towns of Kendal,
-      Ambleside, Bowness and Windermere, including the Westmorland
+      Ambleside, Bowness and Windermere, for example the Westmorland
       County Show, Barbon Sheep Show and music festivals such as
-      Kendal Calling. A little further north,
+      Kendal Calling, and slightly further away such as
       [Potfest in the Park](https://potfest.co.uk/visit/potfest-in-the-park/)
-      runs 24-26 July at Hutton in the Forest, and Keswick hosts its
-      annual Film Festival each spring. For more see
+      24–26 July at Hutton in the Forest and the Keswick Film Festival.
+      For more see
       [What's on in Cumbria](https://www.visitcumbria.com/whats-on/).
   - type: markdown
     content: >
@@ -122,7 +130,8 @@ blocks:
 
       We are on the border of North Yorkshire so we have the benefit of
       regular country fairs throughout the summer in towns and villages
-      across the dales — the Muker Show, Moorcock Show and many more
+      across the dales — the Muker Show, Barbon Sheep Show, Moorcock
+      Show, Wensleydale Show, Potfest, Westmorland Show and many more
       besides those listed above. See
       [country shows and festivals](https://www.lakedistrict.gov.uk/visiting/things-to-do/beyond-the-trails/country-shows-and-festivals)
       for listings, and [Visit North Yorkshire](https://visitnorthyorkshire.com/)
