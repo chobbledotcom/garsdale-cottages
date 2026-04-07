@@ -23,7 +23,9 @@ blocks:
     content: >
       From hill races and sheepdog trials to music festivals and artisan
       markets, there is always something happening within a short drive of
-      our cottages. The list below highlights the biggest dates in the
+      our cottages. If you'd rather build your stay around peace and quiet
+      than a packed events calendar, see our
+      [Wellness Retreats](/wellness-retreats/) page instead. The list below highlights the biggest dates in the
       local calendar — for a full week-by-week listing, pick up a copy of
       the Sedbergh & District Lookaround magazine in the Spar shop or read
       it online at [sedberghlookaround.org.uk](https://sedberghlookaround.org.uk/).

@@ -1,10 +1,10 @@
 ---
 header_text: Wellness and Retreat Breaks in the Yorkshire Dales
 subtitle: Slow down, breathe deeply and reconnect in one of England's quietest valleys
-meta_title: Wellness and Yoga Retreat Cottages in Garsdale | Yorkshire Dales
+meta_title: Wellness Retreat Cottages in Garsdale | Yorkshire Dales
 meta_description: Garsdale holiday cottages for wellness and retreat breaks near
-  Sedbergh — yoga, Ayurvedic massage, wood-fired saunas, forest bathing and
-  dark-sky stargazing in the Yorkshire Dales National Park.
+  Sedbergh — dark-sky stargazing, waterfalls, forest bathing and slow travel
+  by train in the heart of the Yorkshire Dales National Park.
 layout: design-system-base.html
 permalink: /wellness-retreats/
 eleventyNavigation:
@@ -29,25 +29,30 @@ blocks:
       Garsdale is one of the quietest corners of the Yorkshire Dales
       National Park. There is no through traffic to speak of, no street
       lights, no light pollution and, most nights, nothing louder than
-      an owl or the River Clough. For guests looking for a wellness
-      break, a digital detox or a gentle yoga and walking holiday, both
-      our cottages make an ideal base.
+      an owl or the River Clough. It is a haven for
+      [red squirrels](/red-squirrels-in-garsdale/),
+      [otters and upland birds](/garsdale-wildlife/), and for guests
+      looking for a wellness break, a digital detox or a gentle
+      walking holiday, both our cottages make an ideal base.
   - type: split
-    title: Yoga, Massage and Sauna Nearby
-    subtitle: Bloom with Berry at Howgills Hideaway
+    title: Cautley Spout and the Cross Keys
+    subtitle: A temperance inn at the foot of the waterfall
     content: >
-      A short drive from Garsdale, **Bloom with Berry** offers one-to-one
-      and small-group yoga sessions, Ayurvedic massage treatments and a
-      beautiful wood-fired barrel sauna set on the Howgills Hideaway
-      glamping site near Sedbergh. You can book a single treatment as a
-      mid-week treat or combine several sessions across your stay for a
-      longer retreat experience. The sauna is a particular favourite
-      after a day on the fells — a proper, body-softening heat with
-      views out across the Howgills.
+      A short drive from Garsdale brings you to the **Cross Keys** at
+      Cautley — a National Trust-owned temperance inn serving no
+      alcohol, only good home-cooked food and tea. It sits at the foot
+      of **Cautley Spout**, a spectacular 650-foot cascade down the
+      eastern flank of the Howgill Fells and one of the longest
+      waterfalls in England. The walk to the base of the falls is
+      gentle and rewarding; a steeper path continues up onto the
+      Howgills for those who want more.
 
 
-      We're happy to point you to Berry directly, or to help you plan a
-      few days built around walks, treatments and plenty of rest.
+      It's the sort of place that was made for a slow wellness day:
+      a long walk in, cold air off the water, a pot of tea and a
+      properly unhurried lunch with no bar in sight. See our
+      [eating and drinking](/eating-and-drinking-in-garsdale/) page
+      for details.
     figure_type: image
     figure_src: /images/scenery/garsdale-in-winter.jpeg
     figure_alt: Garsdale valley in winter light
@@ -66,15 +71,15 @@ blocks:
       - icon: hugeicons:moon-02
         title: Dark Skies
         description:
-          Part of the Yorkshire Dales International Dark Sky Reserve —
-          on a clear night the Milky Way is visible from the garden.
+          Garsdale is Dark Sky friendly — on a clear night the Milky
+          Way is visible to the naked eye from the garden.
       - icon: hugeicons:leaf-04
         title: Forest Bathing
         description:
-          Ancient woodland along the River Clough, with riverside paths
-          for slow, unhurried walks among oak, ash and hazel.
+          Ancient woodland along the River Clough, with riverside
+          paths for slow, unhurried walks among oak, ash and hazel.
       - icon: hugeicons:drop
-        title: River and Waterfalls
+        title: Rivers and Waterfalls
         description:
           Fall asleep to the sound of the beck. Clough Force and the
           waterfalls above Garsdale Head are a short walk away.
@@ -88,52 +93,95 @@ blocks:
         title: Slow Mornings
         description:
           Wake to birdsong, a cup of tea and nothing on the schedule.
-          Both cottages have comfortable window seats looking out over
-          the fells.
+          Both cottages have comfortable window seats looking out
+          over the fells.
   - type: split
     title: Walks for Mind and Body
     subtitle: Gentle routes and bigger days on the fells
     content: >
       For a slow morning walk, the riverside path along the River
       Clough is flat, quiet and full of birdsong. For something a
-      little more demanding, head up into Grisedale — "the dale that
-      died" — a deeply peaceful side valley that rarely sees another
-      walker. The Howgill Fells above Sedbergh offer open, smooth-topped
-      summits with some of the best views in northern England, and the
-      Sedgwick Geological Trail makes a perfect gentle half-day.
+      little more demanding, head up into [Grisedale](/grisedale/) —
+      "the dale that died" — a deeply peaceful side valley that
+      rarely sees another walker. The Howgill Fells above Sedbergh
+      offer open, smooth-topped summits with some of the best views
+      in northern England, and [The Sedgwick Geological
+      Trail](/the-sedgwick-geological-trail/) along the River Clough
+      at Danny Bridge makes a perfect gentle half-day. Our
+      [walks](/walks/) page has many more routes for every level.
 
 
       A short drive over the Coal Road brings you into Dentdale — on
-      the far side of Aye Gill Pike, 26 minutes by car — for riverside
-      walks from the village of Dent and a pot of tea in one of its
-      tea rooms.
+      the far side of Aye Gill Pike, 26 minutes by car — for
+      riverside walks from the village of Dent and a pot of tea in
+      one of its tea rooms.
     figure_type: image
     figure_src: /images/scenery/fellside.jpeg
     figure_alt: Howgill fells near Sedbergh
     reverse: true
+  - type: split
+    title: Dark Skies Over Baugh Fell
+    subtitle: One of the best stargazing spots in England
+    content: >
+      Garsdale sits within the Yorkshire Dales, which together with
+      the North York Moors forms the largest area of protected dark
+      sky in England. With no street lighting anywhere in the dale,
+      the night sky is remarkable. On a clear night the Milky Way is
+      visible to the naked eye, and **Baugh Fell** to the north makes
+      a particularly dramatic backdrop for stargazing. Meteor showers,
+      satellites and the occasional aurora are all possible from the
+      garden of either cottage — no drive, no crowd, no compromise.
+
+
+      Our [Garsdale Wildlife](/garsdale-wildlife/) page has more on
+      the dale's skies, birds and mammals.
+    figure_type: image
+    figure_src: /images/scenery/moon-over-langstone-fell.jpeg
+    figure_alt: Moon rising over Langstone Fell
+    reverse: false
   - type: features
-    header_intro: "## Building Your Own Retreat"
+    header_intro: |
+      ## Building Your Own Retreat
+
+      A simple rhythm for a few days of real rest
     items:
-      - icon: hugeicons:yoga-01
-        title: Morning Yoga
+      - icon: hugeicons:sun-03
+        title: Slow Morning
         description:
-          Roll a mat out in the living room or garden, or book a private
-          session with Bloom with Berry at Howgills Hideaway.
-      - icon: hugeicons:sauna
-        title: Afternoon Sauna
+          Tea in the window seat, birdsong and a riverside wander
+          along the River Clough before breakfast.
+      - icon: hugeicons:mountain
+        title: A Day on the Fells
         description:
-          Round off a day on the fells with a wood-fired sauna session
-          — book directly with Berry ahead of your stay.
-      - icon: hugeicons:plant-02
-        title: Evening Walk
+          Up onto the Howgills, into
+          [Grisedale](/grisedale/), or along the
+          [Sedgwick Geological Trail](/the-sedgwick-geological-trail/).
+      - icon: hugeicons:tea
+        title: Tea at Cautley
         description:
-          A slow wander along the river at dusk to listen for owls and
-          watch the bats come out.
+          Walk in to Cautley Spout and stop at the Cross Keys
+          temperance inn for a pot of tea and home cooking.
       - icon: hugeicons:star
-        title: Night Sky
+        title: Dark Sky Night
         description:
           Step outside after dark with a mug of something warm and
           look up — no light pollution, no interruptions.
+  - type: split
+    title: Arrive the Slow Way
+    subtitle: By train to Garsdale Station
+    content: >
+      Perhaps the gentlest way to start a retreat is to leave the car
+      behind. [Garsdale Station](/garsdale-train-station/) sits on
+      the Settle–Carlisle line — one of the most scenic railway
+      journeys in Britain — and is only a short walk from our
+      cottages. Arrive on the train, step off onto an almost
+      deserted platform, and you are already on holiday. The statue
+      of [Ruswarp](/ruswarp-and-the-settle-carlisle/), the Border
+      Collie who helped save the line, will be there to meet you.
+    figure_type: image
+    figure_src: "/images/places of interest/IMG_3781.jpeg"
+    figure_alt: View along the Settle-Carlisle railway
+    reverse: true
   - type: items
     collection: properties
   - type: split
@@ -146,9 +194,8 @@ blocks:
       than make up for it.
 
 
-      For treatments at Bloom with Berry we'd recommend booking before
-      you arrive, as slots fill quickly during school holidays and over
-      the summer.
+      For a full picture of what's on your doorstep, see our
+      [Things to Do](/things-to-do/) page.
     figure_type: image
     figure_src: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     figure_alt: Rose Cottage and The Old Cart House in Garsdale

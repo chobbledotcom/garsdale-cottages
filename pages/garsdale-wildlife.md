@@ -116,7 +116,9 @@ blocks:
       With no street lighting and very little light pollution, Garsdale
       offers remarkable stargazing. The area is Dark Sky friendly, and on a
       clear night the Milky Way is visible to the naked eye. Winter
-      evenings, though cold, can be extraordinary.
+      evenings, though cold, can be extraordinary. See our
+      [Wellness Retreats](/wellness-retreats/) page for more on slow,
+      restorative breaks under the dark sky.
   - type: cta
     title: Stay in Garsdale
     description: Book direct with local cottage owners for better prices and
