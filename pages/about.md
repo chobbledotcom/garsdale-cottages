@@ -10,7 +10,7 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3022.jpeg
     image_alt: Rainbow over stone cottages in Garsdale

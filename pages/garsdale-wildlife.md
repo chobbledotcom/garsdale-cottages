@@ -7,7 +7,7 @@ meta_description: Wildlife in Garsdale including red squirrels, otters, brown ha
   upland birds, wildflowers and dark skies for stargazing.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/wildlife/red-squirrel-2.jpeg
     image_alt: Red squirrel in Garsdale

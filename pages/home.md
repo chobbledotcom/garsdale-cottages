@@ -10,7 +10,7 @@ eleventyNavigation:
   order: 0
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /assets/background.webp
     image_alt: Scenic view of Garsdale in the Yorkshire Dales

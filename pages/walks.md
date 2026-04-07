@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 4
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3781.jpeg
     image_alt: Snow-capped fells above Garsdale in the Yorkshire Dales

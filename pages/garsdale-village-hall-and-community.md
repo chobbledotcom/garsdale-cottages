@@ -7,7 +7,7 @@ meta_description: Community life in Garsdale, including the village hall, annual
   events calendar, parish council and how visitors can get involved.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     image_alt: Stone cottages in Garsdale

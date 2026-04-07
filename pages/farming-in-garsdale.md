@@ -7,7 +7,7 @@ meta_description: Farming in Garsdale - Swaledale sheep, the farming year, and w
   visitors should expect when staying in a working agricultural dale.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3782.jpeg
     image_alt: Fields and fells above Garsdale

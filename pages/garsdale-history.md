@@ -8,7 +8,7 @@ meta_description: The history of Garsdale in the Yorkshire Dales, from Viking
   Flood of 1889.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/old-garsdale/garsdale-old-garage.jpeg
     image_alt: Historic garage and road in Garsdale
