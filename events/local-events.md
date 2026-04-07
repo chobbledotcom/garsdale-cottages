@@ -46,7 +46,7 @@ blocks:
           Eleven days of concerts, recitals and open-air performances in
           venues across the town. See
           [sedberghmusicfestival.com](https://sedberghmusicfestival.com/).
-      - icon: hugeicons:sheep
+      - icon: hugeicons:award-01
         title: Killington Sheepdog Trials — 29 May
         description:
           Traditional sheepdog trials and country sports at Killington,
