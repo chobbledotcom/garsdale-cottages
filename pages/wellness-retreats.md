@@ -86,9 +86,8 @@ blocks:
       - icon: hugeicons:book-open-01
         title: No Interruptions
         description:
-          Mobile reception is patchy and there is no television — a
-          natural invitation to switch off. Wi-Fi is available if you
-          need it.
+          Mobile reception is patchy — a natural invitation to switch
+          off. Wi-Fi is available if you need it.
       - icon: hugeicons:tea
         title: Slow Mornings
         description:
@@ -187,8 +186,9 @@ blocks:
   - type: split
     title: Good to Know
     content: >
-      Both cottages are small (sleeping 6 and 4 respectively), which
-      makes them well suited to individual guests, couples or a small
+      Both cottages are small — Roger Pot sleeps 6 across three
+      bedrooms, and The Old Cart House sleeps 2 — which makes them
+      well suited to individual guests, couples, families or a small
       group of friends travelling together for a quiet few days.
       There's no hot tub — but the peace, dark skies and river more
       than make up for it.
