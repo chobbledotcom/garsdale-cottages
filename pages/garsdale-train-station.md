@@ -91,8 +91,11 @@ blocks:
       The line runs 73 miles through some of the most dramatic scenery in
       England, crossing the famous Ribblehead Viaduct and climbing to over
       1,100 feet. Regular services run from Leeds to Carlisle, and it is
-      one of the great railway journeys of the north. Visit
-      Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/)) for
+      one of the great railway journeys of the north. Arriving by rail
+      is the gentlest way to start a stay — see our
+      [Wellness Retreats](/wellness-retreats/) page for more on slow
+      travel into the dale. Visit Settle-Carlisle Railway
+      ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/)) for
       timetables and information.
   - type: cta
     title: Stay in Garsdale

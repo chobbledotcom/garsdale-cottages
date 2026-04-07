@@ -70,7 +70,8 @@ blocks:
 
 
       **The Cross Keys** at Cautley is a temperance inn (no alcohol), but the
-      food is good and the setting at the foot of Cautley Spout is beautiful.
+      food is good and the setting at the foot of Cautley Spout is beautiful —
+      a natural fit for a [wellness or retreat break](/wellness-retreats/).
 
 
       **The Sportsman** at Cowgill in Dentdale is accessible over the Coal

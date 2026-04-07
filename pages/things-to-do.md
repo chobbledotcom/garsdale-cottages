@@ -239,7 +239,8 @@ blocks:
       *   **Dark skies** -- with no street lighting, the stargazing from
       Garsdale is remarkable. On a clear night, the Milky Way is visible to the
       naked eye. Baugh Fell, visible to the north, is a particularly good
-      backdrop.
+      backdrop. See our [Wellness Retreats](/wellness-retreats/) page for more
+      on slow, restorative breaks in the dale.
 
       *   **Dry stone walls** -- Garsdale has a fine collection of walls, all
       visible from the road. Each has a distinctive style that identifies the
