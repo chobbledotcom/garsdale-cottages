@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 5
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/scenery/fellside.jpeg
     image_alt: View across the fells near Garsdale

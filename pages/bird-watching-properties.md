@@ -9,7 +9,7 @@ layout: design-system-base.html
 permalink: /bird-watching-properties/
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/wildlife/owl.jpeg
     image_alt: Owl in Garsdale, Yorkshire Dales

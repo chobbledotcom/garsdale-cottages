@@ -8,7 +8,7 @@ meta_description: The Sedgwick Geological Trail at Danny Bridge follows the Dent
   nearby Dent.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/Personal Photos Paul and Karen/Ingleborough-dfd81e7-scaled.jpg
     image_alt: Limestone landscape in the Yorkshire Dales

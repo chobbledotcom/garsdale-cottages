@@ -7,7 +7,7 @@ meta_description: Grisedale, the neighbouring valley to Garsdale known as The Da
   That Died, with walking routes, wildlife and local history.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/places of interest/IMG_2621.jpeg
     image_alt: View across the fells towards Grisedale

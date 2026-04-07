@@ -7,7 +7,7 @@ meta_description: Pubs, restaurants and local food near Garsdale in the Yorkshir
   Dales, including the Moorcock Inn, the Green Dragon and Wensleydale cheese.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3022.jpeg
     image_alt: Rainbow over a Garsdale farm with dry stone walls and fields

@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 3
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     image: /images/places of interest/IMG_3021.jpeg
     image_alt: Scenic view of the Yorkshire Dales
     content: |

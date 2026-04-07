@@ -8,7 +8,7 @@ meta_description: The story of Ruswarp the Border Collie, whose loyalty helped s
   station.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3781.jpeg
     image_alt: The Settle-Carlisle railway line through the Yorkshire Dales

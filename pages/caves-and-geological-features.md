@@ -7,7 +7,7 @@ meta_description: Caves, geological features and waterfalls near Garsdale in the
   Yorkshire Dales, including the Dent Fault, White Scar Cave and Cotterdale Force.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/Personal Photos Paul and Karen/Ingleborough-dfd81e7-scaled.jpg
     image_alt: Ingleborough with limestone pavement in the Yorkshire Dales

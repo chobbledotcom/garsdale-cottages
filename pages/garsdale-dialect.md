@@ -7,7 +7,7 @@ meta_description: A glossary of traditional Garsdale dialect words rooted in Old
   Norse, and the story of heeafed sheep in the Yorkshire Dales.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/scenery/garsdale-in-winter.jpeg
     image_alt: Garsdale in winter with snow-covered fields and dry stone walls

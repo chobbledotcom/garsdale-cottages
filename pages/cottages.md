@@ -10,7 +10,7 @@ eleventyNavigation:
   order: 2
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: "/images/properties/roger-pot/a-stone-house-with-a-round-table-and-chairs-on-grass-overloo.jpeg"
     image_alt: Holiday cottage in Garsdale with views over the Yorkshire Dales

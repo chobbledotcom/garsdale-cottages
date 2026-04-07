@@ -7,7 +7,7 @@ meta_description: Garsdale station on the Settle-Carlisle railway line, with its
   signal box, Ruswarp statue, Dandrymire Viaduct and connections to Hawes.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3418.jpeg
     image_alt: View from Garsdale Head

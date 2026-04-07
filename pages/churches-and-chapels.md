@@ -7,7 +7,7 @@ meta_description: The churches and chapels of Garsdale, from the Anglican church
   St John the Baptist to Quaker meeting houses and three Methodist chapels.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/scenery/roger-pot-and-rose-cottage.jpeg
     image_alt: View across Garsdale with stone cottages and green hills

@@ -7,7 +7,7 @@ meta_description: Garsdale is one of the most important areas in England for the
   native red squirrel. Where to see them, how they are protected, and nearby trails.
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/wildlife/red-squirrel-3.jpeg
     image_alt: Red squirrel in Garsdale woodland

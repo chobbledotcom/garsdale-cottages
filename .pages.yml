@@ -53,7 +53,7 @@ content:
               - { name: image, type: image, label: Hero Image }
               - { name: image_alt, type: string, label: Image Alt Text }
               - { name: content, type: rich-text, label: Hero Content }
-              - { name: full_width, type: boolean, label: Full Width }
+              - { name: container_width, type: select, label: Container Width, options: { values: [default, full] } }
               - { name: parallax, type: boolean, label: Parallax }
           - name: markdown
             label: Markdown

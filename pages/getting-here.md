@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 6
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     image: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     image_alt: Rose Cottage and The Old Cart House in Garsdale
     content: |

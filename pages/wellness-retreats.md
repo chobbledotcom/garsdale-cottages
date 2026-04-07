@@ -13,7 +13,7 @@ eleventyNavigation:
   order: 8
 blocks:
   - type: image-background
-    full_width: true
+    container_width: full
     parallax: true
     image: /images/scenery/moon-over-langstone-fell.jpeg
     image_alt: Moon rising over Langstone Fell in Garsdale
