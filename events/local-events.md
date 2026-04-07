@@ -40,7 +40,7 @@ blocks:
   - type: features
     header_intro: "## Headline Dates for 2026"
     items:
-      - icon: hugeicons:musical-note-01
+      - icon: hugeicons:music-note-01
         title: Sedbergh Music Festival — 14–26 June
         description:
           Eleven days of concerts, recitals and open-air performances in
