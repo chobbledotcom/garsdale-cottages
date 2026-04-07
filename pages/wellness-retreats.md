@@ -78,7 +78,7 @@ blocks:
         description:
           Ancient woodland along the River Clough, with riverside
           paths for slow, unhurried walks among oak, ash and hazel.
-      - icon: hugeicons:drop
+      - icon: hugeicons:droplet
         title: Rivers and Waterfalls
         description:
           Fall asleep to the sound of the beck. Clough Force and the
