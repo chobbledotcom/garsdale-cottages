@@ -10,7 +10,7 @@ eleventyNavigation:
   key: Contact
   order: 7
 blocks:
-  - type: contact_form
+  - type: contact-form
     header_intro: |
       ## Contact Us
 
