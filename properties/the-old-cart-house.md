@@ -86,6 +86,9 @@ contact_links:
     - icon: "hugeicons:telephone"
       text: "Jack: 07982 235493"
       url: "tel:07982235493"
+review_link:
+  text: Leave a Review
+  href: "https://www.google.co.uk/maps/place/The+Old+Cart+House,+Rose+Cottage,+Garsdale,+Sedbergh+LA10+5PQ/@54.301558,-2.388425,17z/data=!4m6!3m5!1s0x487c6435546ffa41:0xb25969ac704bf6f2!8m2!3d54.301558!4d-2.388425!16s%2Fg%2F11xcm2tqtb?g_ep=Eg1tbF8yMDI2MDQwNl8wIOC7DCoASAJQAg%3D%3D"
 meta_title: The Old Cart House | Holiday Cottage near Sedbergh, Garsdale
 meta_description: The Old Cart House - a charming detached holiday cottage near
   Sedbergh in Garsdale, Yorkshire Dales. Cosy retreat for couples with
