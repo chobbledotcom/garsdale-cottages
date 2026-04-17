@@ -44,7 +44,7 @@ blocks:
     figure_src: /images/wildlife/red-squirrel-4.jpeg
     figure_alt: Red squirrel close-up
     reverse: false
-  - type: split-image
+  - type: split-video
     title: Seeing Red Squirrels
     content: >
       Guests at our cottages regularly spot red squirrels. The path beside
@@ -59,8 +59,8 @@ blocks:
       Garsdale Head, Banks, East Littletown, Paradise, Dandra Garth, Coat
       Weggs, The Hive, The Firs, Rackenthwaite, Fold Gill, Whitbeck and
       Nether House.
-    figure_src: /images/wildlife/red-squirrel-1.jpeg
-    figure_alt: Red squirrel foraging on the ground
+    figure_video_id: https://player.mediadelivery.net/embed/639870/5ddd8a3e-d9cf-4e13-aa32-c86396b03a16?autoplay=true&loop=true&muted=true&preload=true&responsive=true
+    figure_alt: Red squirrel filmed in Garsdale woodland
     reverse: true
   - type: markdown
     content: >
@@ -73,6 +73,21 @@ blocks:
       they are most active. They are smaller and more agile than greys, with
       distinctive ear tufts and bushy red-brown tails. In winter, their ear
       tufts become more prominent and their coats can look quite dark.
+  - type: split-callout
+    title: A Core Area for Reds
+    content: >
+      Garsdale sits within what conservationists call a core area for red
+      squirrels, sometimes referred to as the Greenfields Stronghold. Fewer
+      than 30,000 red squirrels are thought to survive in England today,
+      and most of those are in the north. The combination of suitable
+      coniferous woodland, active grey squirrel control and dedicated local
+      volunteers has helped the reds hold on here, and recent monitoring
+      suggests their range in the Yorkshire Dales may even be expanding.
+    figure_icon: hugeicons:leaf-04
+    figure_title: Under 30,000
+    figure_subtitle: Red squirrels thought to survive in England today, most of them in the north
+    figure_variant: primary
+    reverse: true
   - type: split-image
     title: Conservation Efforts
     content: >

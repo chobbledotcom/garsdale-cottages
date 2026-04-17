@@ -6,10 +6,10 @@ meta_title: Farming in Garsdale | Yorkshire Dales
 meta_description: Farming in Garsdale - Swaledale sheep, the farming year, and what
   visitors should expect when staying in a working agricultural dale.
 blocks:
-  - type: image-background
-    parallax: true
-    image: /images/places of interest/IMG_3782.jpeg
-    image_alt: Fields and fells above Garsdale
+  - type: bunny-video-background
+    video_url: https://player.mediadelivery.net/embed/639870/0bf676b8-fd77-4e60-a1bc-c5f1211c77dd?autoplay=true&loop=true&muted=true&preload=true&responsive=true
+    thumbnail_url: /images/wildlife/lamb.jpeg
+    video_title: Spring lambs in a Garsdale field
     content: |
       # Farming in Garsdale
   - type: markdown

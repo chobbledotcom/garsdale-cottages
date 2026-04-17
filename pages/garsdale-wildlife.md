@@ -19,7 +19,28 @@ blocks:
       habitats within a small area. The low human population, minimal
       traffic and absence of light pollution make it a place where wildlife
       is easily encountered.
-  - type: split-image
+  - type: features
+    header_intro: "## What You Might See"
+    items:
+      - icon: hugeicons:leaf-04
+        title: Red Squirrels
+        description: One of England's last strongholds for the native red squirrel, regularly seen from the cottage gardens.
+      - icon: hugeicons:droplet
+        title: Otters
+        description: Naturally recolonised the River Clough, confirmed by spraints and footprints on Environment Agency surveys.
+      - icon: hugeicons:eye
+        title: Hares and Roe Deer
+        description: Brown hares in the fields year-round and roe deer on the hillside and woodland edges.
+      - icon: hugeicons:bird
+        title: Over 50 Bird Species
+        description: From curlews and short-eared owls on the moors to kingfishers, dippers and herons along the river.
+      - icon: hugeicons:flower
+        title: Hay Meadows and Hedgerows
+        description: Traditionally managed meadows full of wildflowers, with hedgerows yielding sloes, hazelnuts and wild berries.
+      - icon: hugeicons:moon-02
+        title: Dark Skies
+        description: No street lighting and very little light pollution - the Milky Way is visible to the naked eye on clear nights.
+  - type: split-video
     title: Mammals
     content: >
       The native red squirrel is the star resident. Garsdale is one of the
@@ -36,8 +57,8 @@ blocks:
       rather than being reintroduced, which is a good sign for the health
       of the river. You are unlikely to see an otter, but knowing they are
       there adds to the sense of a river system in good shape.
-    figure_src: /images/wildlife/red-squirrel-1.jpeg
-    figure_alt: Red squirrel foraging
+    figure_video_id: https://player.mediadelivery.net/embed/639870/93e57601-3411-405a-b331-e54d1e32d6bf?autoplay=true&loop=true&muted=true&preload=true&responsive=true
+    figure_alt: Red squirrel filmed in Garsdale
     reverse: false
   - type: split-image
     content: >
