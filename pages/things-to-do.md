@@ -29,6 +29,27 @@ blocks:
       Cumbria. It is an ideal setting for walking and there are walks directly
       from the hamlet with many marked footpaths. For detailed walking routes,
       see our [Walks](/walks/) page.
+  - type: features
+    header_intro: "## At a Glance"
+    items:
+      - icon: hugeicons:bird
+        title: Wildlife Watching
+        description: Red squirrels, brown hares, roe deer, upland birds and (very rarely) otters on the River Clough.
+      - icon: hugeicons:building-03
+        title: Market Towns
+        description: Sedbergh, Hawes, Kirkby Stephen, Kirkby Lonsdale, Dent, Kendal and Askrigg all within easy reach.
+      - icon: hugeicons:droplet
+        title: Waterfalls
+        description: Hardraw Force, Cautley Spout, Cotter Force and Aysgarth Falls - several easy walks, one behind a pub.
+      - icon: hugeicons:restaurant-01
+        title: Food and Drink
+        description: Favourite pubs, tea rooms and restaurants in the dales and beyond, from the Cross Keys temperance inn to Zeffirellis in Ambleside.
+      - icon: hugeicons:umbrella
+        title: Rainy Day Retreats
+        description: Farfield Mill, the Dales Countryside Museum, Wensleydale Creamery and the Brewery Arts Centre in Kendal.
+      - icon: hugeicons:kid
+        title: Family Friendly
+        description: The Forbidden Corner, White Scar Cave, cheesemaking demonstrations and the Ingleton Waterfalls Trail.
   - type: split-image
     title: Wildlife
     subtitle: Red squirrels, brown hares, upland birds and more

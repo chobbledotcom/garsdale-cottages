@@ -33,6 +33,27 @@ blocks:
 
       There are great expanses of wild moorland, hills to climb, woodlands and
       countryside footpaths to follow including the Pennine Way.
+  - type: features
+    header_intro: "## What Makes Garsdale Special"
+    items:
+      - icon: hugeicons:mountain
+        title: Yorkshire Dales National Park
+        description: A quiet valley within the National Park, 6 miles from Sedbergh and 9 miles from Hawes, ringed by Baugh Fell and Rise Hill.
+      - icon: hugeicons:leaf-04
+        title: Red Squirrel Country
+        description: One of the most important strongholds for the native red squirrel in England, alongside brown hares, roe deer and over 50 bird species.
+      - icon: hugeicons:moon-02
+        title: Dark Skies
+        description: No street lighting and minimal light pollution - a Dark Sky friendly dale where the Milky Way is visible on clear nights.
+      - icon: hugeicons:route-01
+        title: Walking from the Doorstep
+        description: Marked footpaths including the Pennine Way, Dales Way and Coast to Coast all within reach - from gentle riverside strolls to challenging fells.
+      - icon: hugeicons:book-02
+        title: Heritage and History
+        description: 62 listed buildings, 18 working hill farms and homes dating back to the 16th and 17th century - a dale that has changed little in a hundred years.
+      - icon: hugeicons:train-01
+        title: The Settle-Carlisle Railway
+        description: One of England's most scenic railway journeys calls at Garsdale Station, with connections to Hawes on the Little White Bus.
   - type: split-image
     title: Location
     content: >
@@ -190,6 +211,40 @@ blocks:
       Garsdale Station has a connection to Hawes via the Little White Bus.
     figure_src: /images/scenery/roger-pot-and-rose-cottage.jpeg
     figure_alt: Roger Pot and Rose Cottage
+    reverse: false
+  - type: split-icon-links
+    title: Explore the Dale
+    subtitle: Deeper reading on the places, people and wildlife of Garsdale
+    content: >
+      Garsdale is a small valley with a surprisingly rich story. These
+      pages go into more depth on the dale's wildlife, its farming
+      traditions, its history and the neighbouring valley of Grisedale -
+      "The Dale that Died" - which has quietly come back to life.
+    figure_items:
+      - icon: hugeicons:leaf-04
+        text: Red Squirrels in Garsdale
+        url: /red-squirrels-in-garsdale/
+      - icon: hugeicons:bird
+        text: Wildlife in Garsdale
+        url: /garsdale-wildlife/
+      - icon: hugeicons:tractor
+        text: Farming in Garsdale
+        url: /farming-in-garsdale/
+      - icon: hugeicons:book-02
+        text: History of Garsdale
+        url: /garsdale-history/
+      - icon: hugeicons:message-01
+        text: Garsdale Dialect
+        url: /garsdale-dialect/
+      - icon: hugeicons:church
+        text: Churches and Chapels
+        url: /churches-and-chapels/
+      - icon: hugeicons:mountain
+        text: Grisedale - the Dale that Died
+        url: /grisedale/
+      - icon: hugeicons:user-group-03
+        text: Village Hall and Community
+        url: /garsdale-village-hall-and-community/
     reverse: false
   - type: cta
     title: Stay in Garsdale

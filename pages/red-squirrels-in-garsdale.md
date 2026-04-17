@@ -75,6 +75,21 @@ blocks:
       they are most active. They are smaller and more agile than greys, with
       distinctive ear tufts and bushy red-brown tails. In winter, their ear
       tufts become more prominent and their coats can look quite dark.
+  - type: split-callout
+    title: A Core Area for Reds
+    content: >
+      Garsdale sits within what conservationists call a core area for red
+      squirrels, sometimes referred to as the Greenfields Stronghold. Fewer
+      than 30,000 red squirrels are thought to survive in England today,
+      and most of those are in the north. The combination of suitable
+      coniferous woodland, active grey squirrel control and dedicated local
+      volunteers has helped the reds hold on here, and recent monitoring
+      suggests their range in the Yorkshire Dales may even be expanding.
+    figure_icon: hugeicons:leaf-04
+    figure_title: Under 30,000
+    figure_subtitle: Red squirrels thought to survive in England today, most of them in the north
+    figure_variant: primary
+    reverse: true
   - type: split-image
     title: Conservation Efforts
     content: >
