@@ -46,7 +46,7 @@ blocks:
     figure_src: /images/wildlife/red-squirrel-4.jpeg
     figure_alt: Red squirrel close-up
     reverse: false
-  - type: split-image
+  - type: split-video
     title: Seeing Red Squirrels
     content: >
       Guests at our cottages regularly spot red squirrels. The path beside
@@ -61,8 +61,8 @@ blocks:
       Garsdale Head, Banks, East Littletown, Paradise, Dandra Garth, Coat
       Weggs, The Hive, The Firs, Rackenthwaite, Fold Gill, Whitbeck and
       Nether House.
-    figure_src: /images/wildlife/red-squirrel-1.jpeg
-    figure_alt: Red squirrel foraging on the ground
+    figure_video_id: https://player.mediadelivery.net/embed/639870/5ddd8a3e-d9cf-4e13-aa32-c86396b03a16?autoplay=true&loop=true&muted=true&preload=true&responsive=true
+    figure_alt: Red squirrel filmed in Garsdale woodland
     reverse: true
   - type: markdown
     content: >

@@ -21,7 +21,7 @@ blocks:
       habitats within a small area. The low human population, minimal
       traffic and absence of light pollution make it a place where wildlife
       is easily encountered.
-  - type: split-image
+  - type: split-video
     title: Mammals
     content: >
       The native red squirrel is the star resident. Garsdale is one of the
@@ -38,8 +38,8 @@ blocks:
       rather than being reintroduced, which is a good sign for the health
       of the river. You are unlikely to see an otter, but knowing they are
       there adds to the sense of a river system in good shape.
-    figure_src: /images/wildlife/red-squirrel-1.jpeg
-    figure_alt: Red squirrel foraging
+    figure_video_id: https://player.mediadelivery.net/embed/639870/93e57601-3411-405a-b331-e54d1e32d6bf?autoplay=true&loop=true&muted=true&preload=true&responsive=true
+    figure_alt: Red squirrel filmed in Garsdale
     reverse: false
   - type: split-image
     content: >
