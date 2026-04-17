@@ -80,6 +80,9 @@ contact_links:
     - icon: "hugeicons:telephone"
       text: "Paul: 07342 200780"
       url: "tel:07342200780"
+review_link:
+  text: Leave a Review
+  href: /properties/roger-pot/leave-review/
 meta_title: Roger Pot | Holiday Cottage near Sedbergh, Garsdale
 meta_description: "Roger Pot - A beautiful, detached house resting in the
   countryside of Garsdale near Sedbergh, Cumbria. Pet-friendly. Countryside
