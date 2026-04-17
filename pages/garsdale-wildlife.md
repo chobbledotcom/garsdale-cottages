@@ -7,7 +7,6 @@ meta_description: Wildlife in Garsdale including red squirrels, otters, brown ha
   upland birds, wildflowers and dark skies for stargazing.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/wildlife/red-squirrel-2.jpeg
     image_alt: Red squirrel in Garsdale
@@ -22,7 +21,7 @@ blocks:
       habitats within a small area. The low human population, minimal
       traffic and absence of light pollution make it a place where wildlife
       is easily encountered.
-  - type: split
+  - type: split-image
     title: Mammals
     content: >
       The native red squirrel is the star resident. Garsdale is one of the
@@ -39,22 +38,20 @@ blocks:
       rather than being reintroduced, which is a good sign for the health
       of the river. You are unlikely to see an otter, but knowing they are
       there adds to the sense of a river system in good shape.
-    figure_type: image
     figure_src: /images/wildlife/red-squirrel-1.jpeg
     figure_alt: Red squirrel foraging
     reverse: false
-  - type: split
+  - type: split-image
     content: >
       Brown hares are seen in the fields throughout the year, and roe deer
       appear regularly on the hillside and in the fields. Stoats and weasels
       hunt along the walls and hedgerows, and the fields support large
       numbers of mice and voles. Badgers, foxes and hedgehogs are also
       present, though less frequently seen.
-    figure_type: image
     figure_src: /images/wildlife/brown-hare.jpeg
     figure_alt: Brown hare in a Garsdale field
     reverse: true
-  - type: split
+  - type: split-image
     title: Birds
     content: >
       The birdlife here is exceptional. Over fifty species have been
@@ -74,7 +71,6 @@ blocks:
 
       For more detail, see our
       [Bird Watching in Garsdale](/bird-watching-properties/) page.
-    figure_type: image
     figure_src: /images/wildlife/robin.jpeg
     figure_alt: Robin on a branch
     reverse: false
@@ -93,7 +89,7 @@ blocks:
       Walkers along the riverbanks may notice Himalayan Balsam, an
       attractive pink-flowered plant that has spread along the Clough. It is
       invasive but hard to miss in late summer.
-  - type: split
+  - type: split-image
     title: Wildflowers and Hedgerows
     content: >
       The hay meadows in and around Garsdale are managed in the traditional
@@ -104,7 +100,6 @@ blocks:
       The hedgerows produce an abundance of fruit through the summer and
       into autumn, including wild raspberries, blackberries, sloes and
       hazelnuts.
-    figure_type: image
     figure_src: /images/wildlife/winter-flock.jpeg
     figure_alt: Flock of birds in winter
     reverse: true

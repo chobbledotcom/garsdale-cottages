@@ -8,7 +8,6 @@ meta_description: The Sedgwick Geological Trail at Danny Bridge follows the Dent
   nearby Dent.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/Personal Photos Paul and Karen/Ingleborough-dfd81e7-scaled.jpg
     image_alt: Limestone landscape in the Yorkshire Dales
@@ -21,7 +20,7 @@ blocks:
       One of the most unusual walks in the area follows the River Clough
       from Danny Bridge, tracing the dramatic Dent Fault through a landscape
       that tells a story stretching back nearly 300 million years.
-  - type: split
+  - type: split-image
     title: The Walk
     content: >
       The Sedgwick Trail starts at Danny Bridge on the A684 between Sedbergh
@@ -41,11 +40,10 @@ blocks:
 
       Care should be taken along the steep riverbanks, particularly after
       rain.
-    figure_type: image
     figure_src: /images/Personal Photos Paul and Karen/Keld-waterfalls-Yorkshire-Dales-3a55889.jpg
     figure_alt: Water flowing over rocks in the Yorkshire Dales
     reverse: false
-  - type: split
+  - type: split-image
     title: Adam Sedgwick
     content: >
       The trail is named after Adam Sedgwick, one of the founders of modern
@@ -65,7 +63,6 @@ blocks:
       carved from Shap granite stands in Dent's high street, and a museum
       at Cambridge bears his name. The Geological Trail was established in
       1985 to mark the bicentenary of his birth.
-    figure_type: image
     figure_src: /images/Personal Photos Paul and Karen/Helms-Knott-from-Gawthrop-ea69efd.jpg
     figure_alt: Evening light over the fells near Sedbergh
     reverse: true

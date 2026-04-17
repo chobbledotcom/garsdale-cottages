@@ -9,7 +9,6 @@ layout: design-system-base.html
 permalink: /bird-watching-properties/
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/wildlife/owl.jpeg
     image_alt: Owl in Garsdale, Yorkshire Dales
@@ -32,7 +31,7 @@ blocks:
   - type: items
     collection: properties
 
-  - type: split
+  - type: split-image
     title: Birds on Your Doorstep
     subtitle: Over 50 species spotted in and around the cottages
     content: >
@@ -45,10 +44,9 @@ blocks:
 
       You don't need to go far to start ticking off your list - a cup of tea and
       a window seat may be all you need.
-    figure_type: image
     figure_src: /images/wildlife/robin.jpeg
     figure_alt: Robin on a branch in Garsdale
-  - type: split
+  - type: split-image
     title: Upland and Moorland Birds
     subtitle: Curlews, lapwings, grouse and birds of prey
     content: >
@@ -62,11 +60,10 @@ blocks:
       hunt the valley, along with kestrels, buzzards and sparrowhawks. On a walk
       up to Grisedale in spring and early summer, short-eared owls can be seen
       in the early evening scouring for mice and chicks.
-    figure_type: image
     figure_src: /images/wildlife/male-pheasant.jpeg
     figure_alt: Male pheasant in the fields around Garsdale
     reverse: true
-  - type: split
+  - type: split-image
     title: River and Waterside Birds
     subtitle: Herons, dippers and the elusive kingfisher
     content: >
@@ -78,10 +75,9 @@ blocks:
       Roger Pot sits just a short walk from the river, with on-site access
       through the owner's four acres of land, while The Old Cart House has the
       river running alongside the road nearby.
-    figure_type: image
     figure_src: /images/wildlife/jay.jpeg
     figure_alt: Jay spotted in Garsdale woodland
-  - type: split
+  - type: split-image
     title: Seasonal Highlights
     subtitle: Every season brings something different
     content: >
@@ -101,7 +97,6 @@ blocks:
       **Winter** visitors arrive in numbers - redwings and fieldfares, while the
       robin's song carries through the cold air and the bird feeders become a
       hub of activity with siskins, redpolls and long-tailed tits.
-    figure_type: image
     figure_src: /images/wildlife/winter-flock.jpeg
     figure_alt: Winter flock of birds in the Garsdale countryside
     reverse: true

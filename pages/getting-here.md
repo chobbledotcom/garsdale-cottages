@@ -11,7 +11,6 @@ eleventyNavigation:
   order: 6
 blocks:
   - type: image-background
-    container_width: full
     image: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     image_alt: Rose Cottage and The Old Cart House in Garsdale
     content: |
@@ -28,7 +27,7 @@ blocks:
 
       The Old Cart House and Roger Pot are in a very rural location in the
       Yorkshire Dales but easily accessible by road and rail.
-  - type: split
+  - type: split-image
     title: By Car
     subtitle: From the M6
     content: "Sat nav postcode: **LA10 5PQ** for The Old Cart House and Roger Pot.
@@ -38,11 +37,10 @@ blocks:
       Village. The gateway for Roger Pot is on your left at the main road bridge
       and the Carthouse is a little further on the right, about 300 yards east
       of St John the Baptist Church."
-    figure_type: image
     figure_src: /images/scenery/garsdale-in-winter.jpeg
     figure_alt: View across Garsdale in winter
     reverse: false
-  - type: split
+  - type: split-image
     title: From the A1
     content: >
       Take the Leeming interchange to the A684 to Bedale following for Leyburn,
@@ -51,7 +49,6 @@ blocks:
       is The Old Cart House. Roger Pot is a little further, after the village
       hall and just after the bridge on the right side is the entrance to the
       lane leading to Roger Pot.
-    figure_type: image
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell at moonrise
     reverse: true
@@ -81,7 +78,7 @@ blocks:
       little further past the church and the sharp bend, passing the village
       hall and immediately over the bridge is a track to the right which will
       lead through the gate and up to Roger Pot."
-  - type: split
+  - type: split-image
     title: By Train
     subtitle: On the Settle-Carlisle railway or by Main Line train to Kendals
       Oxenholme Statiom
@@ -93,7 +90,6 @@ blocks:
       may be in Hawes but guests are advised to check in advance. If you want to
       use the Main Line, Oxenholme offers a convenient main line option with
       cabs regularly available at the station
-    figure_type: image
     figure_src: /images/scenery/roger-pot-and-rose-cottage.jpeg
     figure_alt: Roger Pot and Rose Cottage
     reverse: false

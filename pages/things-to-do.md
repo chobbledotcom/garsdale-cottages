@@ -11,7 +11,6 @@ eleventyNavigation:
   order: 3
 blocks:
   - type: image-background
-    container_width: full
     image: /images/places of interest/IMG_3021.jpeg
     image_alt: Scenic view of the Yorkshire Dales
     content: |
@@ -30,7 +29,7 @@ blocks:
       Cumbria. It is an ideal setting for walking and there are walks directly
       from the hamlet with many marked footpaths. For detailed walking routes,
       see our [Walks](/walks/) page.
-  - type: split
+  - type: split-image
     title: Wildlife
     subtitle: Red squirrels, brown hares, upland birds and more
     content: >
@@ -50,11 +49,10 @@ blocks:
 
 
       Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
-    figure_type: image
     figure_src: /images/wildlife/red-squirrel-2.jpeg
     figure_alt: Red squirrel
     reverse: false
-  - type: split
+  - type: split-image
     content: >
       There are a huge number of birds and many frequent visitors to our bird
       feeders. Nuthatches, great spotted woodpeckers, blue tits, great tits,
@@ -74,7 +72,6 @@ blocks:
 
       The hedgerows have an abundance of fruit in the summer, with raspberries
       and blackberries, but also sloes and hazelnuts as autumn arrives.
-    figure_type: image
     figure_src: /images/wildlife/robin.jpeg
     figure_alt: Robin on a branch
     reverse: true

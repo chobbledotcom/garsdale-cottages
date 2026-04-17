@@ -7,7 +7,6 @@ meta_description: Garsdale is one of the most important areas in England for the
   native red squirrel. Where to see them, how they are protected, and nearby trails.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/wildlife/red-squirrel-3.jpeg
     image_alt: Red squirrel in Garsdale woodland
@@ -21,7 +20,7 @@ blocks:
       red squirrel. While greys have displaced reds across most of the
       country, the dales around Sedbergh, Garsdale and the Upper Eden valley
       remain a stronghold where reds continue to thrive.
-  - type: split
+  - type: split-image
     title: Why Garsdale Matters
     content: >
       The red squirrel population across England has fallen dramatically
@@ -44,11 +43,10 @@ blocks:
       along the river corridor, so the two species occupy somewhat different
       habitats in the dale. Habitat loss from forestry clear felling is an
       additional threat beyond the greys themselves.
-    figure_type: image
     figure_src: /images/wildlife/red-squirrel-4.jpeg
     figure_alt: Red squirrel close-up
     reverse: false
-  - type: split
+  - type: split-image
     title: Seeing Red Squirrels
     content: >
       Guests at our cottages regularly spot red squirrels. The path beside
@@ -63,7 +61,6 @@ blocks:
       Garsdale Head, Banks, East Littletown, Paradise, Dandra Garth, Coat
       Weggs, The Hive, The Firs, Rackenthwaite, Fold Gill, Whitbeck and
       Nether House.
-    figure_type: image
     figure_src: /images/wildlife/red-squirrel-1.jpeg
     figure_alt: Red squirrel foraging on the ground
     reverse: true
@@ -78,7 +75,7 @@ blocks:
       they are most active. They are smaller and more agile than greys, with
       distinctive ear tufts and bushy red-brown tails. In winter, their ear
       tufts become more prominent and their coats can look quite dark.
-  - type: split
+  - type: split-image
     title: Conservation Efforts
     content: >
       The Garsdale Red Squirrel Group was launched in November 2014 and
@@ -94,7 +91,6 @@ blocks:
       Yorkshire Dales National Park Authority. The
       Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/)) group
       covers the local area.
-    figure_type: image
     figure_src: /images/wildlife/red-squirrel-2.jpeg
     figure_alt: Red squirrel on a branch
     reverse: false

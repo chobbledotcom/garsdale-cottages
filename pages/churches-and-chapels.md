@@ -7,7 +7,6 @@ meta_description: The churches and chapels of Garsdale, from the Anglican church
   St John the Baptist to Quaker meeting houses and three Methodist chapels.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/scenery/roger-pot-and-rose-cottage.jpeg
     image_alt: View across Garsdale with stone cottages and green hills
@@ -22,7 +21,7 @@ blocks:
       Quaker meeting houses, and several Methodist chapels, reflecting the
       deep currents of faith and independent thinking that have run through
       the community for centuries.
-  - type: split
+  - type: split-image
     title: St John the Baptist
     content: >
       The Anglican church sits between The Street and Garsdale Hall, roughly
@@ -48,7 +47,6 @@ blocks:
       Services rotate between the dale's churches. More information is
       available from the
       Western Dales Mission Community ([westerndales.org.uk](https://www.westerndales.org.uk/st-johns-garsdale)).
-    figure_type: image
     figure_src: /images/wildlife/lamb.jpeg
     figure_alt: Lamb by a dry stone wall in Garsdale
     reverse: false
@@ -69,7 +67,7 @@ blocks:
       Brigflatts Meeting House, just outside Sedbergh, was built in 1675
       and is still in use today. It is one of the oldest Quaker meeting
       houses in the country and well worth a visit.
-  - type: split
+  - type: split-image
     title: Methodist Chapels
     content: >
       Methodism arrived in Garsdale from Kendal and Sedbergh, where John
@@ -85,7 +83,6 @@ blocks:
       by two stonemason brothers, working on a plot of just ten yards
       square. The interior remains remarkably unchanged, with its original
       painted box-like tiered seating.
-    figure_type: image
     figure_src: /images/places of interest/IMG_3782.jpeg
     figure_alt: The fells above Garsdale
     reverse: true

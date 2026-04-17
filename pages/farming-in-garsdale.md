@@ -7,7 +7,6 @@ meta_description: Farming in Garsdale - Swaledale sheep, the farming year, and w
   visitors should expect when staying in a working agricultural dale.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3782.jpeg
     image_alt: Fields and fells above Garsdale
@@ -21,7 +20,7 @@ blocks:
       farmers for centuries, and the landscape you see today, the patchwork
       of stone-walled fields, the barns, the open fell above, has been
       shaped almost entirely by their hands.
-  - type: split
+  - type: split-image
     title: Sheep Farming
     content: >
       All of the farms in Garsdale rear livestock, primarily sheep. The high
@@ -35,11 +34,10 @@ blocks:
       Most of the dale's eighteen or so working farms have absorbed several
       of the original smallholdings over the years, but the daily rhythms of
       farming life have changed less than you might expect.
-    figure_type: image
     figure_src: /images/wildlife/lone-sheep.jpeg
     figure_alt: Swaledale sheep in Garsdale
     reverse: false
-  - type: split
+  - type: split-image
     title: The Farming Year
     content: >
       Staying in Garsdale means experiencing the farming calendar
@@ -54,7 +52,6 @@ blocks:
       between fields. In winter the dale can be harsh, with heavy rain, snow
       and short days, and the farmers are out in all conditions tending their
       stock.
-    figure_type: image
     figure_src: /images/wildlife/lamb.jpeg
     figure_alt: Lamb by a dry stone wall in Garsdale
     reverse: true

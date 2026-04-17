@@ -8,7 +8,6 @@ meta_description: The story of Ruswarp the Border Collie, whose loyalty helped s
   station.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3781.jpeg
     image_alt: The Settle-Carlisle railway line through the Yorkshire Dales
@@ -23,7 +22,7 @@ blocks:
       hills. This is Ruswarp
       (pronounced Russup), and his story is one of the most moving tales
       connected to this corner of the Dales.
-  - type: split
+  - type: split-image
     title: The Fight to Save the Line
     content: >
       In the 1980s, the Settle-Carlisle railway was under serious threat of
@@ -39,11 +38,10 @@ blocks:
       would suffer hardship if the line closed, the objection was accepted.
       After years of campaigning by Nuttall and many others, the line was
       reprieved in 1989.
-    figure_type: image
     figure_src: /images/places of interest/IMG_3782.jpeg
     figure_alt: Railway viaduct on the Settle-Carlisle line
     reverse: false
-  - type: split
+  - type: split-image
     title: Eleven Winter Weeks
     content: >
       In January 1990, Graham Nuttall and Ruswarp, then fourteen years old,
@@ -60,7 +58,6 @@ blocks:
       The RSPCA awarded Ruswarp their Animal Medallion for vigilance and
       their Animal Plaque for intelligence and courage. He survived just
       long enough to attend his master's funeral.
-    figure_type: image
     figure_src: /images/places of interest/IMG_3418.jpeg
     figure_alt: View from Garsdale Head
     reverse: true
