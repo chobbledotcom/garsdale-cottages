@@ -13,8 +13,6 @@ blocks:
     image_alt: Historic garage and road in Garsdale
     content: |
       # The History of Garsdale
-
-      Centuries of farming, faith and resilience
   - type: markdown
     content: >
       Garsdale has been shaped by centuries of farming, faith and resilience.

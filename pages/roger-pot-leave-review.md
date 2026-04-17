@@ -13,8 +13,6 @@ blocks:
     content: |
       # Leave a Review
 
-      Thanks for staying at Roger Pot — we'd love to hear how it went
-
   - type: markdown
     content: >
       Your reviews help other guests find Roger Pot and help Paul keep

@@ -12,8 +12,6 @@ blocks:
     image_alt: Fields and fells above Garsdale
     content: |
       # Farming in Garsdale
-
-      The backbone of life in the dale
   - type: markdown
     content: >
       Farming is the backbone of Garsdale. The dale has been worked by

@@ -15,8 +15,6 @@ blocks:
     image_alt: Rainbow over stone cottages in Garsdale
     content: |
       # About Garsdale
-
-      A hidden gem in the Yorkshire Dales
   - type: markdown
     content: >
       ## Welcome to Garsdale

@@ -12,8 +12,6 @@ blocks:
     image_alt: View from Garsdale Head
     content: |
       # Garsdale Station
-
-      On the Settle-Carlisle line at the top of the dale
   - type: markdown
     content: >
       Garsdale station sits high on the Settle-Carlisle line at the top of

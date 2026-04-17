@@ -15,8 +15,6 @@ blocks:
     image_alt: Rose Cottage and The Old Cart House in Garsdale
     content: |
       # Getting Here
-
-      How to reach Garsdale in the Yorkshire Dales
   - type: markdown
     content: >-
       ## Getting to Garsdale

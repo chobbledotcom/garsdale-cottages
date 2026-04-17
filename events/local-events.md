@@ -16,8 +16,6 @@ blocks:
     image_alt: View across the fells near Garsdale
     content: |
       # Local News and Events
-
-      Shows, markets, music and country fairs across the Dales
   - type: markdown
     content: >
       From hill races and sheepdog trials to music festivals and artisan

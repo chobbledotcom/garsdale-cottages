@@ -12,8 +12,6 @@ blocks:
     image_alt: Garsdale in winter with snow-covered fields and dry stone walls
     content: |
       # Garsdale Dialect
-
-      Traditional words and phrases from the dale
   - type: markdown
     content: >
       Garsdale has its own traditional dialect, rooted in Old Norse and shaped
