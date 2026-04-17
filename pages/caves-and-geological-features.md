@@ -12,8 +12,6 @@ blocks:
     image_alt: Ingleborough with limestone pavement in the Yorkshire Dales
     content: |
       # Caves and Geology
-
-      Caves, waterfalls and geological features around Garsdale
   - type: markdown
     content: >
       The geology around Garsdale is among the most interesting in England,

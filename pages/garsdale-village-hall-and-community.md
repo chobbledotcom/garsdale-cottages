@@ -12,8 +12,6 @@ blocks:
     image_alt: Stone cottages in Garsdale
     content: |
       # Village Hall and Community
-
-      Community life in Garsdale
   - type: markdown
     content: >
       Garsdale is a small community of around two hundred people, but it

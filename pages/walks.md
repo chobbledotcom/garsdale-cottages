@@ -16,8 +16,6 @@ blocks:
     image_alt: Snow-capped fells above Garsdale in the Yorkshire Dales
     content: |
       # Local Walks
-
-      Walking routes from Garsdale and the surrounding area
   - type: markdown
     content: >
       ## Walking from Garsdale

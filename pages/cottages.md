@@ -16,8 +16,6 @@ blocks:
     content: |
       # Our Cottages
 
-      Book direct with local property owners
-
   - type: markdown
     content: |
       ## Holiday Cottages near Sedbergh

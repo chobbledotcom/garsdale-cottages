@@ -13,8 +13,6 @@ blocks:
     content: |
       # Leave a Review
 
-      Thanks for staying at The Old Cart House — we'd love to hear how it went
-
   - type: markdown
     content: >
       Your reviews help other guests find our cottage and help Jack and

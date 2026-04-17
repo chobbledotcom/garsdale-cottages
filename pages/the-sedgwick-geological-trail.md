@@ -13,8 +13,6 @@ blocks:
     image_alt: Limestone landscape in the Yorkshire Dales
     content: |
       # The Sedgwick Geological Trail
-
-      A walk through 300 million years of geology
   - type: markdown
     content: >
       One of the most unusual walks in the area follows the River Clough

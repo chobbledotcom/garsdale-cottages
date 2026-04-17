@@ -12,8 +12,6 @@ blocks:
     image_alt: Red squirrel in Garsdale woodland
     content: |
       # Red Squirrels in Garsdale
-
-      One of England's last strongholds for the native red squirrel
   - type: markdown
     content: >
       Garsdale is one of the most important areas in England for the native

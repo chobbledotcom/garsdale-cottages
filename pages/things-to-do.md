@@ -15,8 +15,6 @@ blocks:
     image_alt: Scenic view of the Yorkshire Dales
     content: |
       # Things To Do
-
-      Activities and attractions in the Yorkshire Dales
   - type: markdown
     content: >-
       ## Things To Do Near Garsdale

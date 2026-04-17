@@ -14,13 +14,11 @@ blocks:
     image: /assets/background.webp
     image_alt: Scenic view of Garsdale in the Yorkshire Dales
     content: |
-      Holiday cottages near Sedbergh in the Yorkshire Dales - book direct with property owners
+      # Garsdale Cottages
 
   - type: items
     collection: properties
     header_intro: |
-      # Garsdale Cottages
-
       A cooperative of holiday cottages near Sedbergh in Garsdale - book directly with property owners for better prices and personal service
     header_align: center
     intro: Two charming holiday cottages near Sedbergh, in Garsdale, Yorkshire Dales

@@ -13,8 +13,6 @@ blocks:
     image_alt: The Settle-Carlisle railway line through the Yorkshire Dales
     content: |
       # Ruswarp and the Settle-Carlisle
-
-      The Border Collie who helped save a railway
   - type: markdown
     content: >
       At [Garsdale station](/garsdale-train-station/), a bronze statue of a

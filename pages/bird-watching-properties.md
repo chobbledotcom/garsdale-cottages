@@ -14,8 +14,6 @@ blocks:
     image_alt: Owl in Garsdale, Yorkshire Dales
     content: |
       # Bird Watching in Garsdale
-
-      Stay in the heart of one of the Yorkshire Dales' finest birding locations
   - type: markdown
     content: >
       ## A Bird Watcher's Paradise

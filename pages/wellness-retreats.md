@@ -18,8 +18,6 @@ blocks:
     image_alt: Moon rising over Langstone Fell in Garsdale
     content: |
       # Wellness Breaks in Garsdale
-
-      Quiet valleys, dark skies and deep rest in the Yorkshire Dales
   - type: markdown
     content: >
       ## A Place to Unwind

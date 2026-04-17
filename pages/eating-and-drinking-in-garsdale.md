@@ -12,8 +12,6 @@ blocks:
     image_alt: Rainbow over a Garsdale farm with dry stone walls and fields
     content: |
       # Eating and Drinking
-
-      Pubs, food and drink in and around Garsdale
   - type: markdown
     content: >
       There is no pub in Garsdale itself, though there used to be. Garsdale

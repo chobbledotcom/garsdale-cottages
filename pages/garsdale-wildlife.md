@@ -12,8 +12,6 @@ blocks:
     image_alt: Red squirrel in Garsdale
     content: |
       # Wildlife in Garsdale
-
-      Red squirrels, otters, upland birds and more
   - type: markdown
     content: >
       Garsdale's combination of upland moorland, river valley, ancient

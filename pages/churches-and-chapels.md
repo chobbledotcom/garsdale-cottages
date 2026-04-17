@@ -12,8 +12,6 @@ blocks:
     image_alt: View across Garsdale with stone cottages and green hills
     content: |
       # Churches and Chapels
-
-      Places of worship in Garsdale
   - type: markdown
     content: >
       The number of places of worship tucked into this quiet dale is

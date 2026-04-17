@@ -12,8 +12,6 @@ blocks:
     image_alt: View across the fells towards Grisedale
     content: |
       # Grisedale: The Dale That Died
-
-      A walk into the neighbouring valley
   - type: markdown
     content: >
       Just north of Garsdale lies Grisedale, a small, wild tributary valley
