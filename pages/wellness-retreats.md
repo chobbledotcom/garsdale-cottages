@@ -13,7 +13,6 @@ eleventyNavigation:
   order: 8
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/scenery/moon-over-langstone-fell.jpeg
     image_alt: Moon rising over Langstone Fell in Garsdale
@@ -34,7 +33,7 @@ blocks:
       [otters and upland birds](/garsdale-wildlife/), and for guests
       looking for a wellness break, a digital detox or a gentle
       walking holiday, both our cottages make an ideal base.
-  - type: split
+  - type: split-image
     title: Cautley Spout and the Cross Keys
     subtitle: A temperance inn at the foot of the waterfall
     content: >
@@ -53,7 +52,6 @@ blocks:
       properly unhurried lunch with no bar in sight. See our
       [eating and drinking](/eating-and-drinking-in-garsdale/) page
       for details.
-    figure_type: image
     figure_src: /images/scenery/garsdale-in-winter.jpeg
     figure_alt: Garsdale valley in winter light
     reverse: false
@@ -94,7 +92,7 @@ blocks:
           Wake to birdsong, a cup of tea and nothing on the schedule.
           Both cottages have comfortable window seats looking out
           over the fells.
-  - type: split
+  - type: split-image
     title: Walks for Mind and Body
     subtitle: Gentle routes and bigger days on the fells
     content: >
@@ -114,11 +112,10 @@ blocks:
       the far side of Aye Gill Pike, 26 minutes by car — for
       riverside walks from the village of Dent and a pot of tea in
       one of its tea rooms.
-    figure_type: image
     figure_src: /images/scenery/fellside.jpeg
     figure_alt: Howgill fells near Sedbergh
     reverse: true
-  - type: split
+  - type: split-image
     title: Dark Skies Over Baugh Fell
     subtitle: One of the best stargazing spots in England
     content: >
@@ -134,7 +131,6 @@ blocks:
 
       Our [Garsdale Wildlife](/garsdale-wildlife/) page has more on
       the dale's skies, birds and mammals.
-    figure_type: image
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: Moon rising over Langstone Fell
     reverse: false
@@ -165,7 +161,7 @@ blocks:
         description:
           Step outside after dark with a mug of something warm and
           look up — no light pollution, no interruptions.
-  - type: split
+  - type: split-image
     title: Arrive the Slow Way
     subtitle: By train to Garsdale Station
     content: >
@@ -177,13 +173,12 @@ blocks:
       deserted platform, and you are already on holiday. The statue
       of [Ruswarp](/ruswarp-and-the-settle-carlisle/), the Border
       Collie who helped save the line, will be there to meet you.
-    figure_type: image
     figure_src: "/images/places of interest/IMG_3781.jpeg"
     figure_alt: View along the Settle-Carlisle railway
     reverse: true
   - type: items
     collection: properties
-  - type: split
+  - type: split-image
     title: Good to Know
     content: >
       Both cottages are small — Roger Pot sleeps 6 across three
@@ -196,7 +191,6 @@ blocks:
 
       For a full picture of what's on your doorstep, see our
       [Things to Do](/things-to-do/) page.
-    figure_type: image
     figure_src: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     figure_alt: Rose Cottage and The Old Cart House in Garsdale
     reverse: false

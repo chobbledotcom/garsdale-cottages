@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3022.jpeg
     image_alt: Rainbow over stone cottages in Garsdale
@@ -34,7 +33,7 @@ blocks:
 
       There are great expanses of wild moorland, hills to climb, woodlands and
       countryside footpaths to follow including the Pennine Way.
-  - type: split
+  - type: split-image
     title: Location
     content: >
       Garsdale sits along the A684 about 6 miles from Sedbergh and 9 miles from
@@ -45,11 +44,10 @@ blocks:
       Garsdale is an ideal location for walking, cycling, bird watching or just
       having time to enjoy the peace and tranquility and the beautiful
       countryside.
-    figure_type: image
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell at moonrise
     reverse: false
-  - type: split
+  - type: split-image
     title: Peace and Tranquillity
     content: >
       Garsdale is Dark Sky friendly so the sky on a clear night is spectacular.
@@ -63,11 +61,10 @@ blocks:
       We are 6 miles from the nearest town, so the area can feel untroubled by
       some of the problems of the world and this can feel like a weight is
       lifted from your shoulders.
-    figure_type: image
     figure_src: /images/scenery/garsdale-in-winter.jpeg
     figure_alt: Garsdale in winter
     reverse: true
-  - type: split
+  - type: split-image
     title: Wildlife
     subtitle: A haven for red squirrels and upland birds
     content: >
@@ -82,11 +79,10 @@ blocks:
       common sight, along with an abundance of rabbits, moles, voles and mice.
       Foxes, badgers, weasels and stoats are also at home here and hedgehogs are
       regularly seen.
-    figure_type: image
     figure_src: /images/wildlife/red-squirrel-1.jpeg
     figure_alt: Red squirrel in Garsdale
     reverse: false
-  - type: split
+  - type: split-image
     content: >
       There are a huge number of birds to be spotted with upland birds such as
       oystercatchers and curlews, lapwings and meadow pipits and the occasional
@@ -106,11 +102,10 @@ blocks:
       kestrels, buzzards and sparrowhawks regularly seen. The river attracts
       herons, dippers, mallards, goosander and if we are very lucky, a glimpse
       of a kingfisher.
-    figure_type: image
     figure_src: /images/wildlife/owl.jpeg
     figure_alt: Owl in Garsdale
     reverse: true
-  - type: split
+  - type: split-image
     title: The Dale
     subtitle: Heritage and history in this unspoilt corner of the Dales
     content: >
@@ -134,11 +129,10 @@ blocks:
       National school on new site in 1842, becoming Garsdale Primary School.
       This was closed in 1985 and was converted to [village
       hall](/garsdale-village-hall-and-community/).
-    figure_type: image
     figure_src: /images/old-garsdale/Garsdale_in_2007.jpeg
     figure_alt: Garsdale in 2007
     reverse: false
-  - type: split
+  - type: split-image
     title: The Valley
     content: >
       Garsdale lies on the western slopes of the Pennines, between Baugh Fell to
@@ -154,7 +148,6 @@ blocks:
       looking over the Howgill Fells, and the river descends to Danny Bridge,
       the site of a 17th-century mill on the "old road", before joining the
       River Rawthey near Sedbergh.
-    figure_type: image
     figure_src: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     figure_alt: Rose Cottage and The Old Cart House in Garsdale
     reverse: true
@@ -176,7 +169,7 @@ blocks:
       There are heather and bilberry covered hillsides and grouse moors and
       work is ongoing to restore the peat bogs. There are a number of Meadow
       Flower walks within the area including the spectacular Meadows at Muker.
-  - type: split
+  - type: split-image
     title: The Settle-Carlisle Railway
     subtitle: One of England's most scenic railway journeys
     content: >
@@ -195,7 +188,6 @@ blocks:
 
 
       Garsdale Station has a connection to Hawes via the Little White Bus.
-    figure_type: image
     figure_src: /images/scenery/roger-pot-and-rose-cottage.jpeg
     figure_alt: Roger Pot and Rose Cottage
     reverse: false

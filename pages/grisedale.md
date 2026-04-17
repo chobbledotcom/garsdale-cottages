@@ -7,7 +7,6 @@ meta_description: Grisedale, the neighbouring valley to Garsdale known as The Da
   That Died, with walking routes, wildlife and local history.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/places of interest/IMG_2621.jpeg
     image_alt: View across the fells towards Grisedale
@@ -22,7 +21,7 @@ blocks:
       is one of the most atmospheric things you can do from Garsdale,
       particularly in the early evening when short-eared owls hunt the
       moorland.
-  - type: split
+  - type: split-image
     title: A Dale That Nearly Disappeared
     content: >
       The name comes from Old Norse, referring either to wild boars or young
@@ -43,11 +42,10 @@ blocks:
       a sheep farmer in the valley. Cockcroft described it as "the most
       romantic dale in all of Yorkshire, complete in its unspoilt beauty,
       serenity and vivid history." The film caused quite a stir.
-    figure_type: image
     figure_src: /images/wildlife/owl.jpeg
     figure_alt: Short-eared owl hunting over the moorland
     reverse: false
-  - type: split
+  - type: split-image
     title: A Dale That Refused to Die
     content: >
       The houses of Grisedale, each with a story of its own, include
@@ -68,7 +66,6 @@ blocks:
 
       Nearly fifty years after that documentary, Grisedale is perhaps better
       described as the dale that refused to die.
-    figure_type: image
     figure_src: /images/Personal Photos Paul and Karen/Helms-Knott-from-Gawthrop-ea69efd.jpg
     figure_alt: Evening light over the fells near Garsdale
     reverse: true

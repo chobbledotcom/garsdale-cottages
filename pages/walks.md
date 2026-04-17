@@ -11,7 +11,6 @@ eleventyNavigation:
   order: 4
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3781.jpeg
     image_alt: Snow-capped fells above Garsdale in the Yorkshire Dales
@@ -77,7 +76,7 @@ blocks:
       also organised from the [Village
       Hall](/garsdale-village-hall-and-community/), sometimes followed by a
       ploughman's supper or barbecue.
-  - type: split
+  - type: split-image
     title: From the Doorstep
     content: >
       There are a number of marked footpaths in Garsdale so guests can take a
@@ -92,7 +91,6 @@ blocks:
       pub there is a pathway leading to the Pennine Bridleway with walks in
       the direction of Kirkby Stephen and the opposite direction towards
       Cotter Force.
-    figure_type: image
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell
     reverse: false

@@ -7,7 +7,6 @@ meta_description: Community life in Garsdale, including the village hall, annual
   events calendar, parish council and how visitors can get involved.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     image_alt: Stone cottages in Garsdale
@@ -20,7 +19,7 @@ blocks:
       Garsdale is a small community of around two hundred people, but it
       has a strong sense of togetherness. The village hall is the social
       heart of the dale and the last remaining community meeting place.
-  - type: split
+  - type: split-image
     title: The Village Hall
     content: >
       The building was originally Garsdale Primary School, endowed by Thomas
@@ -39,7 +38,6 @@ blocks:
       The hall has one large room (roughly five by ten metres) plus a
       kitchen, and can be hired as budget overnight accommodation for
       walkers at very reasonable rates.
-    figure_type: image
     figure_src: /images/scenery/garsdale-in-winter.jpeg
     figure_alt: Garsdale village in winter
     reverse: false

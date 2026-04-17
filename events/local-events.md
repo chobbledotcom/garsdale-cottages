@@ -11,7 +11,6 @@ eleventyNavigation:
   order: 5
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/scenery/fellside.jpeg
     image_alt: View across the fells near Garsdale
@@ -72,7 +71,7 @@ blocks:
         description:
           Three days of early music performances in the atmospheric
           setting of Bolton Castle in Wensleydale.
-  - type: split
+  - type: split-image
     title: Sedbergh Artisan Markets
     content: >
       Sedbergh holds a small weekly produce market every Wednesday
@@ -84,11 +83,10 @@ blocks:
       The 2026 artisan market dates include the last Saturdays of July
       and August — a perfect combination with a morning's walk on
       Winder or a browse around Sedbergh's independent bookshops.
-    figure_type: image
     figure_src: /images/scenery/roger-pot-and-rose-cottage.jpeg
     figure_alt: Rose Cottage and Roger Pot in Garsdale
     reverse: false
-  - type: split
+  - type: split-image
     title: Dentdale Choir — Dido & Aeneas
     content: >
       On Saturday 11 April 2026 the Dentdale Choir performs Purcell's
@@ -96,7 +94,6 @@ blocks:
       side of Aye Gill Pike, a scenic 26-minute drive from Garsdale
       over the Coal Road past Dent station — the highest mainline
       station in England.
-    figure_type: image
     figure_src: "/images/places of interest/IMG_3781.jpeg"
     figure_alt: View along the Settle-Carlisle railway
     reverse: true
@@ -138,7 +135,7 @@ blocks:
       [country shows and festivals](https://www.lakedistrict.gov.uk/visiting/things-to-do/beyond-the-trails/country-shows-and-festivals)
       for listings, and [Visit North Yorkshire](https://visitnorthyorkshire.com/)
       for events across the region.
-  - type: split
+  - type: split-image
     title: Getting Around Without a Car
     content: >
       From Easter until 18 October 2026 the DalesBus 832 runs a Sunday
@@ -148,7 +145,6 @@ blocks:
       timed to meet certain Settle-Carlisle trains — see
       [littlewhitebus.co.uk](https://www.littlewhitebus.co.uk/) for the
       current timetable.
-    figure_type: image
     figure_src: "/images/places of interest/IMG_3782.jpeg"
     figure_alt: Railway viaduct in the Yorkshire Dales
     reverse: false

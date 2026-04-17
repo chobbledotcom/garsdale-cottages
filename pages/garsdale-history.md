@@ -8,7 +8,6 @@ meta_description: The history of Garsdale in the Yorkshire Dales, from Viking
   Flood of 1889.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/old-garsdale/garsdale-old-garage.jpeg
     image_alt: Historic garage and road in Garsdale
@@ -23,7 +22,7 @@ blocks:
       Clough River as it makes its way down to meet the River Rawthey near
       Sedbergh. Though it feels timeless, the dale has seen remarkable
       change.
-  - type: split
+  - type: split-image
     title: Early History
     content: >
       The manor of Garsdale was once held by St Agatha's Abbey at Easby,
@@ -40,11 +39,10 @@ blocks:
       in 1866, and in 1974 the boundary changes brought it into the new
       county of Cumbria, though it remains firmly within the Yorkshire Dales
       National Park.
-    figure_type: image
     figure_src: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     figure_alt: Stone cottages in Garsdale
     reverse: false
-  - type: split
+  - type: split-image
     title: Farming and Industry
     content: >
       Hill farming has always been at the heart of life here. The annual
@@ -59,7 +57,6 @@ blocks:
       garments to supplement their farming income. During the mid-1800s, coal
       was mined on Baugh Fell and stone was quarried from the hillsides,
       including sandstone, limestone and a local stone marketed as marble.
-    figure_type: image
     figure_src: /images/wildlife/lone-sheep.jpeg
     figure_alt: Swaledale sheep in Garsdale
     reverse: true
@@ -94,7 +91,7 @@ blocks:
       Despite the small population, Garsdale retains a strong sense of
       community, with the village hall serving as the main gathering place
       for events throughout the year.
-  - type: split
+  - type: split-image
     title: The Great Flood of 1889
     content: >
       On 8 August 1889, exceptionally heavy rain fell for over three hours.
@@ -109,7 +106,6 @@ blocks:
       worked their way down the dale repairing others, eventually
       establishing a building partnership in Sedbergh that grew from this
       act of neighbourly determination.
-    figure_type: image
     figure_src: /images/places of interest/IMG_3019.jpeg
     figure_alt: River and bridge in the Yorkshire Dales
     reverse: false

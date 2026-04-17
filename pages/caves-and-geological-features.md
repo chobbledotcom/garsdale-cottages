@@ -7,7 +7,6 @@ meta_description: Caves, geological features and waterfalls near Garsdale in the
   Yorkshire Dales, including the Dent Fault, White Scar Cave and Cotterdale Force.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/Personal Photos Paul and Karen/Ingleborough-dfd81e7-scaled.jpg
     image_alt: Ingleborough with limestone pavement in the Yorkshire Dales
@@ -20,7 +19,7 @@ blocks:
       The geology around Garsdale is among the most interesting in England,
       with ancient faults, limestone caves and dramatic rock formations all
       within easy reach.
-  - type: split
+  - type: split-image
     title: Local Caves
     content: >
       **Tom Croft Cave** and **Dovecote Cave** are both accessible locally
@@ -34,11 +33,10 @@ blocks:
       longest show cave in Britain, with guided tours lasting about eighty
       minutes. Ingleborough Cave ([ingleboroughcave.co.uk](https://ingleboroughcave.co.uk/)) near
       Clapham is another fine show cave set beneath one of the Three Peaks.
-    figure_type: image
     figure_src: /images/Personal Photos Paul and Karen/Keld-waterfalls-Yorkshire-Dales-3a55889.jpg
     figure_alt: Waterfalls over limestone rocks in the Yorkshire Dales
     reverse: false
-  - type: split
+  - type: split-image
     title: The Dent Fault and the Sedgwick Trail
     content: >
       One of the most significant geological features in northern England
@@ -53,7 +51,6 @@ blocks:
       information boards explaining what you are seeing. It is named after
       Adam Sedgwick, born in Dent in 1785, who was one of the founders of
       modern geology.
-    figure_type: image
     figure_src: /images/places of interest/IMG_2621.jpeg
     figure_alt: Cautley Spout and the Howgill Fells
     reverse: true

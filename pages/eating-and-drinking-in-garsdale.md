@@ -7,7 +7,6 @@ meta_description: Pubs, restaurants and local food near Garsdale in the Yorkshir
   Dales, including the Moorcock Inn, the Green Dragon and Wensleydale cheese.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3022.jpeg
     image_alt: Rainbow over a Garsdale farm with dry stone walls and fields
@@ -24,7 +23,7 @@ blocks:
       Garsdale Head was once the Junction Inn. Both are now in private use.
       The dale's remoteness from pubs is part of its character, but there are
       good options within a short drive.
-  - type: split
+  - type: split-image
     title: The Moorcock Inn
     content: >
       The Moorcock sits right at the head of the dale, at the junction of
@@ -48,11 +47,10 @@ blocks:
       to the Moorcock and into Hawes. There is also a taxi service available
       from the B&B next door, taking up to 8 passengers. Telephone numbers
       for both services can be obtained from the Moorcock staff.
-    figure_type: image
     figure_src: /images/places of interest/IMG_3021.jpeg
     figure_alt: View of the Yorkshire Dales landscape
     reverse: false
-  - type: split
+  - type: split-image
     title: The Green Dragon at Hardraw
     content: >
       A popular choice about fifteen minutes towards Hawes. The Green Dragon
@@ -60,7 +58,6 @@ blocks:
       one of the tallest single-drop waterfalls in England, is accessed
       through the pub. There is a small entrance fee for the waterfall walk
       but it is well worth it, particularly after rain. Tel: 01969 667 392.
-    figure_type: image
     figure_src: /images/Personal Photos Paul and Karen/Hardraw-Force-North-Yorkshire-e12b73f-scaled.jpg
     figure_alt: Hardraw Force waterfall
     reverse: true

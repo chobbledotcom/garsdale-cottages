@@ -7,7 +7,6 @@ meta_description: Garsdale station on the Settle-Carlisle railway line, with its
   signal box, Ruswarp statue, Dandrymire Viaduct and connections to Hawes.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/places of interest/IMG_3418.jpeg
     image_alt: View from Garsdale Head
@@ -21,7 +20,7 @@ blocks:
       the dale, where the railway crosses from Dentdale into Mallerstang.
       Originally called Hawes Junction, it once connected to a branch line
       running six miles down to Hawes in Wensleydale.
-  - type: split
+  - type: split-image
     title: The Station
     content: >
       Garsdale is the only station on the Settle-Carlisle line with a fully
@@ -37,11 +36,10 @@ blocks:
       waiting room contained a lending library of around 150 books. Even
       the stone base of the water tower was pressed into service as a
       makeshift village hall.
-    figure_type: image
     figure_src: /images/places of interest/IMG_3781.jpeg
     figure_alt: View along the Settle-Carlisle railway
     reverse: false
-  - type: split
+  - type: split-image
     content: >
       The turntable that once stood here has been removed and restored at
       the Keighley and Worth Valley Railway. Junction Cottage at Garsdale
@@ -58,7 +56,6 @@ blocks:
       was built in the same year as the railway by the very contractors
       building the line, and its foundation stone was laid on the day of
       the first passenger train.
-    figure_type: image
     figure_src: /images/places of interest/IMG_3782.jpeg
     figure_alt: Railway viaduct in the Yorkshire Dales
     reverse: true

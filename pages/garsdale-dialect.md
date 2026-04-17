@@ -7,7 +7,6 @@ meta_description: A glossary of traditional Garsdale dialect words rooted in Old
   Norse, and the story of heeafed sheep in the Yorkshire Dales.
 blocks:
   - type: image-background
-    container_width: full
     parallax: true
     image: /images/scenery/garsdale-in-winter.jpeg
     image_alt: Garsdale in winter with snow-covered fields and dry stone walls
@@ -22,7 +21,7 @@ blocks:
       of everyday use, but many are still heard in conversation around the
       dale. Visitors may encounter a few of them, and knowing what they mean
       adds to the pleasure of being here.
-  - type: split
+  - type: split-image
     title: A Selection of Garsdale Words
     content: >
       - **addle** -- to earn ("he addled a good wage")
@@ -41,11 +40,10 @@ blocks:
       to graze
 
       - **laik** -- to play
-    figure_type: image
     figure_src: /images/wildlife/lamb.jpeg
     figure_alt: Lamb by a dry stone wall in Garsdale
     reverse: false
-  - type: split
+  - type: split-image
     content: >
       - **mowdy** -- a mole
 
@@ -60,7 +58,6 @@ blocks:
       - **tewit** -- a lapwing (from the sound of its call)
 
       - **thrang** -- busy, crowded
-    figure_type: image
     figure_src: /images/wildlife/lone-sheep.jpeg
     figure_alt: Swaledale sheep in snowy Garsdale
     reverse: true
