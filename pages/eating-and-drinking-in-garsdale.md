@@ -46,7 +46,7 @@ blocks:
       from the B&B next door, taking up to 8 passengers. Telephone numbers
       for both services can be obtained from the Moorcock staff.
     figure_src: /images/eating-and-drinking/moorcock-inn.jpg
-    figure_alt: The Moorcock Inn at Garsdale Head
+    figure_alt: The Moorcock Inn, a whitewashed pub at Garsdale Head
     reverse: false
   - type: split-image
     title: The Green Dragon at Hardraw
@@ -66,7 +66,7 @@ blocks:
       are welcome to bring their own, with glasses provided and no corkage
       charged). The food is good and the setting at the foot of Cautley Spout
       is beautiful — a natural fit for a
-      [wellness or retreat break](/wellness-retreats/). Tel: 015396 20284.
+      [wellness or retreat break](/wellness-retreats/). Tel: 01539 620 284.
     figure_src: /images/eating-and-drinking/cross-keys-inn.jpg
     figure_alt: The Cross Keys Temperance Inn below Yarlside at Cautley
     reverse: false
@@ -97,7 +97,7 @@ blocks:
       Sedbergh. The creamery shop and cheese experience are well worth a
       visit.
     figure_src: /images/eating-and-drinking/wensleydale-creamery.jpg
-    figure_alt: A board of Wensleydale cheeses at the creamery in Hawes
+    figure_alt: Wensleydale Creamery Visitor Centre sign at Hawes
     reverse: false
   - type: markdown
     content: >
