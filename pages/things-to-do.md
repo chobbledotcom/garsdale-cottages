@@ -11,8 +11,8 @@ eleventyNavigation:
   order: 3
 blocks:
   - type: image-background
-    image: /images/places of interest/IMG_3021.jpeg
-    image_alt: Scenic view of the Yorkshire Dales
+    image: /images/Personal Photos Paul and Karen/Helms-Knott-from-Gawthrop-ea69efd.jpg
+    image_alt: View from Gawthrop towards Helms Knott in the Yorkshire Dales
     content: |
       # Things To Do
   - type: markdown

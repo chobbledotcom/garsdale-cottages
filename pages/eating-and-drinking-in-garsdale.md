@@ -8,8 +8,8 @@ meta_description: Pubs, restaurants and local food near Garsdale in the Yorkshir
 blocks:
   - type: image-background
     parallax: true
-    image: /images/places of interest/IMG_3022.jpeg
-    image_alt: Rainbow over a Garsdale farm with dry stone walls and fields
+    image: /images/Personal Photos Paul and Karen/Artisan-market-1.jpg
+    image_alt: Artisan market stalls on a Sedbergh street near Garsdale
     content: |
       # Eating and Drinking
   - type: markdown
