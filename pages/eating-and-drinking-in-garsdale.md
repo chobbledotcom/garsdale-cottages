@@ -45,8 +45,8 @@ blocks:
       to the Moorcock and into Hawes. There is also a taxi service available
       from the B&B next door, taking up to 8 passengers. Telephone numbers
       for both services can be obtained from the Moorcock staff.
-    figure_src: /images/places-of-interest/sheep-with-sheepdog.jpeg
-    figure_alt: View of the Yorkshire Dales landscape
+    figure_src: /images/eating-and-drinking/moorcock-inn.jpg
+    figure_alt: The Moorcock Inn, a whitewashed pub at Garsdale Head
     reverse: false
   - type: split-image
     title: The Green Dragon at Hardraw
@@ -56,36 +56,52 @@ blocks:
       one of the tallest single-drop waterfalls in England, is accessed
       through the pub. There is a small entrance fee for the waterfall walk
       but it is well worth it, particularly after rain. Tel: 01969 667 392.
-    figure_src: /images/paul-and-karen/hardraw-force-north-yorkshire.jpg
-    figure_alt: Hardraw Force waterfall
+    figure_src: /images/eating-and-drinking/green-dragon-inn.jpg
+    figure_alt: The ivy-covered Green Dragon Inn at Hardraw
+    reverse: true
+  - type: split-image
+    title: The Cross Keys at Cautley
+    content: >
+      A 500-year-old National Trust temperance inn (no alcohol, though guests
+      are welcome to bring their own, with glasses provided and no corkage
+      charged). The food is good and the setting at the foot of Cautley Spout
+      is beautiful — a natural fit for a
+      [wellness or retreat break](/wellness-retreats/). Tel: 01539 620 284.
+    figure_src: /images/eating-and-drinking/cross-keys-inn.jpg
+    figure_alt: The Cross Keys Temperance Inn below Yarlside at Cautley
+    reverse: false
+  - type: split-image
+    title: The Sportsman's Inn at Cowgill
+    content: >
+      A family-owned 17th century Grade II listed country inn in Dentdale,
+      accessible over the Coal Road past Garsdale Station. It sits on the
+      Dales Way and is close to Dent station on the Settle-Carlisle Line.
+      Tel: 015396 25282.
+    figure_src: /images/eating-and-drinking/sportsmans-inn.jpg
+    figure_alt: The Sportsman's Inn at Cowgill in Dentdale
     reverse: true
   - type: markdown
     content: >
       ## More Nearby Pubs and Restaurants
 
 
-      **The Cross Keys** at Cautley is a temperance inn (no alcohol), but the
-      food is good and the setting at the foot of Cautley Spout is beautiful —
-      a natural fit for a [wellness or retreat break](/wellness-retreats/).
-
-
-      **The Sportsman** at Cowgill in Dentdale is accessible over the Coal
-      Road past Garsdale Station.
-
-
       **Sedbergh** and **Hawes** both offer a wider range of pubs,
       restaurants and cafes. See our [Things To Do](/things-to-do/) page for
       more recommendations.
+  - type: split-image
+    title: Wensleydale Creamery at Hawes
+    content: >
+      The creamery at Hawes makes a cheese variety called "Garsdale"
+      flavoured with garlic and chives, using milk that once came from
+      Garsdale, Dent and Cautley farms via the former Farfield dairy near
+      Sedbergh. The creamery shop and cheese experience are well worth a
+      visit.
+    figure_src: /images/eating-and-drinking/wensleydale-creamery.jpg
+    figure_alt: Wensleydale Creamery Visitor Centre sign at Hawes
+    reverse: false
   - type: markdown
     content: >
       ## Local Food
-
-
-      The Wensleydale Creamery at Hawes makes a cheese variety called
-      "Garsdale" flavoured with garlic and chives, using milk that once came
-      from Garsdale, Dent and Cautley farms via the former Farfield dairy
-      near Sedbergh. The creamery shop and cheese experience are well worth
-      a visit.
 
 
       Wild garlic grows in the dale and is locally known as "ramps." In
