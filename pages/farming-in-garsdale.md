@@ -32,8 +32,8 @@ blocks:
       Most of the dale's eighteen or so working farms have absorbed several
       of the original smallholdings over the years, but the daily rhythms of
       farming life have changed less than you might expect.
-    figure_src: /images/wildlife/lone-sheep.jpeg
-    figure_alt: Swaledale sheep in Garsdale
+    figure_src: /images/sheep-by-dry-stone-wall.png
+    figure_alt: Swaledale sheep beside a dry stone wall in Garsdale
     reverse: false
   - type: split-image
     title: The Farming Year
