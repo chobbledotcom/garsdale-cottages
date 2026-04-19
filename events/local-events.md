@@ -92,7 +92,7 @@ blocks:
       side of Aye Gill Pike, a scenic 26-minute drive from Garsdale
       over the Coal Road past Dent station — the highest mainline
       station in England.
-    figure_src: "/images/places of interest/IMG_3781.jpeg"
+    figure_src: "/images/places-of-interest/snowy-howgill-fells.jpeg"
     figure_alt: View along the Settle-Carlisle railway
     reverse: true
   - type: markdown
@@ -143,7 +143,7 @@ blocks:
       timed to meet certain Settle-Carlisle trains — see
       [littlewhitebus.co.uk](https://www.littlewhitebus.co.uk/) for the
       current timetable.
-    figure_src: "/images/places of interest/IMG_3782.jpeg"
+    figure_src: "/images/places-of-interest/snow-capped-fells.jpeg"
     figure_alt: Railway viaduct in the Yorkshire Dales
     reverse: false
   - type: cta

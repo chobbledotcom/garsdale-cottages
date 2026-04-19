@@ -8,7 +8,7 @@ meta_description: Caves, geological features and waterfalls near Garsdale in the
 blocks:
   - type: image-background
     parallax: true
-    image: /images/Personal Photos Paul and Karen/Ingleborough-dfd81e7-scaled.jpg
+    image: /images/paul-and-karen/ingleborough.jpg
     image_alt: Ingleborough with limestone pavement in the Yorkshire Dales
     content: |
       # Caves and Geology
@@ -31,7 +31,7 @@ blocks:
       longest show cave in Britain, with guided tours lasting about eighty
       minutes. Ingleborough Cave ([ingleboroughcave.co.uk](https://ingleboroughcave.co.uk/)) near
       Clapham is another fine show cave set beneath one of the Three Peaks.
-    figure_src: /images/Personal Photos Paul and Karen/Keld-waterfalls-Yorkshire-Dales-3a55889.jpg
+    figure_src: /images/paul-and-karen/keld-waterfalls-yorkshire-dales.jpg
     figure_alt: Waterfalls over limestone rocks in the Yorkshire Dales
     reverse: false
   - type: split-image
@@ -49,7 +49,7 @@ blocks:
       information boards explaining what you are seeing. It is named after
       Adam Sedgwick, born in Dent in 1785, who was one of the founders of
       modern geology.
-    figure_src: /images/places of interest/IMG_2621.jpeg
+    figure_src: /images/places-of-interest/grisedale-valley.jpeg
     figure_alt: Cautley Spout and the Howgill Fells
     reverse: true
   - type: markdown

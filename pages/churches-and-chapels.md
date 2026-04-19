@@ -81,7 +81,7 @@ blocks:
       by two stonemason brothers, working on a plot of just ten yards
       square. The interior remains remarkably unchanged, with its original
       painted box-like tiered seating.
-    figure_src: /images/places of interest/IMG_3782.jpeg
+    figure_src: /images/places-of-interest/snow-capped-fells.jpeg
     figure_alt: The fells above Garsdale
     reverse: true
   - type: markdown

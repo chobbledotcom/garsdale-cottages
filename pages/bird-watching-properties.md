@@ -186,7 +186,7 @@ blocks:
 
       - Merlin Bird ID app ([merlin.allaboutbirds.org](https://merlin.allaboutbirds.org/))
 gallery:
-  - /images/Pasted image (11).png
+  - /images/bird-feeders.png
   - /images/wildlife/male-pheasant.jpeg
   - /images/wildlife/robin.jpeg
   - /images/wildlife/jay.jpeg

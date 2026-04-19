@@ -8,7 +8,7 @@ meta_description: Pubs, restaurants and local food near Garsdale in the Yorkshir
 blocks:
   - type: image-background
     parallax: true
-    image: /images/Personal Photos Paul and Karen/Artisan-market-1.jpg
+    image: /images/paul-and-karen/artisan-market.jpg
     image_alt: Artisan market stalls on a Sedbergh street near Garsdale
     content: |
       # Eating and Drinking
@@ -45,7 +45,7 @@ blocks:
       to the Moorcock and into Hawes. There is also a taxi service available
       from the B&B next door, taking up to 8 passengers. Telephone numbers
       for both services can be obtained from the Moorcock staff.
-    figure_src: /images/places of interest/IMG_3021.jpeg
+    figure_src: /images/places-of-interest/sheep-with-sheepdog.jpeg
     figure_alt: View of the Yorkshire Dales landscape
     reverse: false
   - type: split-image
@@ -56,7 +56,7 @@ blocks:
       one of the tallest single-drop waterfalls in England, is accessed
       through the pub. There is a small entrance fee for the waterfall walk
       but it is well worth it, particularly after rain. Tel: 01969 667 392.
-    figure_src: /images/Personal Photos Paul and Karen/Hardraw-Force-North-Yorkshire-e12b73f-scaled.jpg
+    figure_src: /images/paul-and-karen/hardraw-force-north-yorkshire.jpg
     figure_alt: Hardraw Force waterfall
     reverse: true
   - type: markdown

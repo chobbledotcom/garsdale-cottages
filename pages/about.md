@@ -11,7 +11,7 @@ eleventyNavigation:
 blocks:
   - type: image-background
     parallax: true
-    image: /images/places of interest/IMG_3022.jpeg
+    image: /images/places-of-interest/rainbow-over-dale.jpeg
     image_alt: Rainbow over stone cottages in Garsdale
     content: |
       # About Garsdale
@@ -148,7 +148,7 @@ blocks:
       National school on new site in 1842, becoming Garsdale Primary School.
       This was closed in 1985 and was converted to [village
       hall](/garsdale-village-hall-and-community/).
-    figure_src: /images/old-garsdale/Garsdale_in_2007.jpeg
+    figure_src: /images/old-garsdale/garsdale-in-2007.jpeg
     figure_alt: Garsdale in 2007
     reverse: false
   - type: split-image

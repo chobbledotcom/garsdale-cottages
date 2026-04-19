@@ -53,7 +53,7 @@ blocks:
         title: Wildlife
         description: "Red squirrels, upland birds, roe deer and more in this unspoilt corner of England."
         link: "/things-to-do/"
-      - image: "/images/places of interest/IMG_3781.jpeg"
+      - image: "/images/places-of-interest/snowy-howgill-fells.jpeg"
         title: Walking Paradise
         description: "Howgill Fells, Dales Way, Pennine Bridleway - miles of spectacular walks from the doorstep."
         link: "/walks/"
@@ -69,7 +69,7 @@ blocks:
       Discover what makes Garsdale and the Yorkshire Dales so special
     image_aspect_ratio: "4/3"
     items:
-      - image: "/images/places of interest/IMG_3021.jpeg"
+      - image: "/images/places-of-interest/sheep-with-sheepdog.jpeg"
         title: Things To Do
         description: "Walking, wildlife watching, visiting market towns, rainy day activities and family adventures."
         link: "/things-to-do/"
@@ -93,11 +93,11 @@ blocks:
         title: Bird Watching
         description: "Spot curlews, owls, kingfishers and over 50 species of birds from your doorstep."
         link: "/bird-watching-properties/"
-      - image: "/images/places of interest/IMG_3418.jpeg"
+      - image: "/images/places-of-interest/valley-view.jpeg"
         title: Garsdale Station
         description: "Garsdale station on the Settle-Carlisle railway, with its signal box, Ruswarp statue and Dandrymire Viaduct."
         link: "/garsdale-train-station/"
-      - image: "/images/places of interest/IMG_3782.jpeg"
+      - image: "/images/places-of-interest/snow-capped-fells.jpeg"
         title: Ruswarp and the Settle-Carlisle
         description: "The story of Ruswarp the Border Collie, whose loyalty helped save the Settle-Carlisle railway from closure."
         link: "/ruswarp-and-the-settle-carlisle/"
@@ -105,7 +105,7 @@ blocks:
         title: History of Garsdale
         description: "From Viking settlement and medieval monasteries to the Settle-Carlisle railway and the Great Flood of 1889."
         link: "/garsdale-history/"
-      - image: "/images/places of interest/IMG_3022.jpeg"
+      - image: "/images/places-of-interest/rainbow-over-dale.jpeg"
         title: Eating and Drinking
         description: "Pubs, restaurants and local food near Garsdale, including the Moorcock Inn, the Green Dragon and Wensleydale cheese."
         link: "/eating-and-drinking-in-garsdale/"
@@ -113,15 +113,15 @@ blocks:
         title: Farming in Garsdale
         description: "Swaledale sheep, the farming year, and what to expect when staying in a working agricultural dale."
         link: "/farming-in-garsdale/"
-      - image: "/images/Personal Photos Paul and Karen/Ingleborough-dfd81e7-scaled.jpg"
+      - image: "/images/paul-and-karen/ingleborough.jpg"
         title: Caves and Geology
         description: "Caves, waterfalls and geological wonders near Garsdale, including the Dent Fault, White Scar Cave and Cotterdale Force."
         link: "/caves-and-geological-features/"
-      - image: "/images/Personal Photos Paul and Karen/Keld-waterfalls-Yorkshire-Dales-3a55889.jpg"
+      - image: "/images/paul-and-karen/keld-waterfalls-yorkshire-dales.jpg"
         title: The Sedgwick Geological Trail
         description: "A walking trail following the Dent Fault along the River Clough, named after geologist Adam Sedgwick."
         link: "/the-sedgwick-geological-trail/"
-      - image: "/images/places of interest/IMG_2621.jpeg"
+      - image: "/images/places-of-interest/grisedale-valley.jpeg"
         title: "Grisedale: The Dale That Died"
         description: "The neighbouring valley to Garsdale, known as The Dale That Died, with walking routes, wildlife and local history."
         link: "/grisedale/"
