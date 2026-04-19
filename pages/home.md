@@ -81,4 +81,60 @@ blocks:
         title: Walks
         description: "From gentle strolls to challenging fell walks - routes for all abilities from your doorstep."
         link: "/walks/"
+      - image: "/images/wildlife/red-squirrel-2.jpeg"
+        title: Wildlife in Garsdale
+        description: "Red squirrels, otters, brown hares, upland birds, wildflowers and dark skies for stargazing."
+        link: "/garsdale-wildlife/"
+      - image: "/images/wildlife/red-squirrel-3.jpeg"
+        title: Red Squirrels
+        description: "One of England's most important areas for the native red squirrel - where to see them and how they are protected."
+        link: "/red-squirrels-in-garsdale/"
+      - image: "/images/wildlife/owl.jpeg"
+        title: Bird Watching
+        description: "Spot curlews, owls, kingfishers and over 50 species of birds from your doorstep."
+        link: "/bird-watching-properties/"
+      - image: "/images/places of interest/IMG_3418.jpeg"
+        title: Garsdale Station
+        description: "Garsdale station on the Settle-Carlisle railway, with its signal box, Ruswarp statue and Dandrymire Viaduct."
+        link: "/garsdale-train-station/"
+      - image: "/images/places of interest/IMG_3782.jpeg"
+        title: Ruswarp and the Settle-Carlisle
+        description: "The story of Ruswarp the Border Collie, whose loyalty helped save the Settle-Carlisle railway from closure."
+        link: "/ruswarp-and-the-settle-carlisle/"
+      - image: "/images/old-garsdale/garsdale-old-garage.jpeg"
+        title: History of Garsdale
+        description: "From Viking settlement and medieval monasteries to the Settle-Carlisle railway and the Great Flood of 1889."
+        link: "/garsdale-history/"
+      - image: "/images/places of interest/IMG_3022.jpeg"
+        title: Eating and Drinking
+        description: "Pubs, restaurants and local food near Garsdale, including the Moorcock Inn, the Green Dragon and Wensleydale cheese."
+        link: "/eating-and-drinking-in-garsdale/"
+      - image: "/images/wildlife/lamb.jpeg"
+        title: Farming in Garsdale
+        description: "Swaledale sheep, the farming year, and what to expect when staying in a working agricultural dale."
+        link: "/farming-in-garsdale/"
+      - image: "/images/Personal Photos Paul and Karen/Ingleborough-dfd81e7-scaled.jpg"
+        title: Caves and Geology
+        description: "Caves, waterfalls and geological wonders near Garsdale, including the Dent Fault, White Scar Cave and Cotterdale Force."
+        link: "/caves-and-geological-features/"
+      - image: "/images/Personal Photos Paul and Karen/Keld-waterfalls-Yorkshire-Dales-3a55889.jpg"
+        title: The Sedgwick Geological Trail
+        description: "A walking trail following the Dent Fault along the River Clough, named after geologist Adam Sedgwick."
+        link: "/the-sedgwick-geological-trail/"
+      - image: "/images/places of interest/IMG_2621.jpeg"
+        title: "Grisedale: The Dale That Died"
+        description: "The neighbouring valley to Garsdale, known as The Dale That Died, with walking routes, wildlife and local history."
+        link: "/grisedale/"
+      - image: "/images/wildlife/lone-sheep.jpeg"
+        title: Garsdale Dialect
+        description: "Traditional Garsdale dialect words rooted in Old Norse, and the story of heeafed sheep in the Yorkshire Dales."
+        link: "/garsdale-dialect/"
+      - image: "/images/scenery/roger-pot-and-rose-cottage.jpeg"
+        title: Churches and Chapels
+        description: "From St John the Baptist to Quaker meeting houses and three Methodist chapels - the religious heritage of Garsdale."
+        link: "/churches-and-chapels/"
+      - image: "/images/scenery/garsdale-in-winter.jpeg"
+        title: Village Hall and Community
+        description: "Community life in Garsdale, including the village hall, annual events, parish council and how visitors can get involved."
+        link: "/garsdale-village-hall-and-community/"
 ---
