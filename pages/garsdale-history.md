@@ -37,8 +37,8 @@ blocks:
       in 1866, and in 1974 the boundary changes brought it into the new
       county of Cumbria, though it remains firmly within the Yorkshire Dales
       National Park.
-    figure_src: /images/scenery/rose-cottage-and-the-cart-house.jpeg
-    figure_alt: Stone cottages in Garsdale
+    figure_src: /images/old-garsdale/historical-white-cottages.png
+    figure_alt: Historical photograph of white-painted cottages on a Garsdale lane
     reverse: false
   - type: split-image
     title: Farming and Industry
@@ -55,8 +55,8 @@ blocks:
       garments to supplement their farming income. During the mid-1800s, coal
       was mined on Baugh Fell and stone was quarried from the hillsides,
       including sandstone, limestone and a local stone marketed as marble.
-    figure_src: /images/wildlife/lone-sheep.jpeg
-    figure_alt: Swaledale sheep in Garsdale
+    figure_src: /images/old-garsdale/smith-well-quarry-workers.png
+    figure_alt: Historical photograph of workers at Smith Well Quarry in Garsdale
     reverse: true
   - type: markdown
     content: >
@@ -104,8 +104,8 @@ blocks:
       worked their way down the dale repairing others, eventually
       establishing a building partnership in Sedbergh that grew from this
       act of neighbourly determination.
-    figure_src: /images/places-of-interest/sheep-herding-on-road.jpeg
-    figure_alt: River and bridge in the Yorkshire Dales
+    figure_src: /images/old-garsdale/river-beside-stone-buildings.png
+    figure_alt: The Clough River running beside stone buildings in Garsdale
     reverse: false
   - type: markdown
     content: >
