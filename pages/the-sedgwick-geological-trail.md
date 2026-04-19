@@ -9,7 +9,7 @@ meta_description: The Sedgwick Geological Trail at Danny Bridge follows the Dent
 blocks:
   - type: image-background
     parallax: true
-    image: /images/Personal Photos Paul and Karen/Ingleborough-dfd81e7-scaled.jpg
+    image: /images/paul-and-karen/ingleborough.jpg
     image_alt: Limestone landscape in the Yorkshire Dales
     content: |
       # The Sedgwick Geological Trail
@@ -38,7 +38,7 @@ blocks:
 
       Care should be taken along the steep riverbanks, particularly after
       rain.
-    figure_src: /images/Personal Photos Paul and Karen/Keld-waterfalls-Yorkshire-Dales-3a55889.jpg
+    figure_src: /images/paul-and-karen/keld-waterfalls-yorkshire-dales.jpg
     figure_alt: Water flowing over rocks in the Yorkshire Dales
     reverse: false
   - type: split-image
@@ -61,7 +61,7 @@ blocks:
       carved from Shap granite stands in Dent's high street, and a museum
       at Cambridge bears his name. The Geological Trail was established in
       1985 to mark the bicentenary of his birth.
-    figure_src: /images/Personal Photos Paul and Karen/Helms-Knott-from-Gawthrop-ea69efd.jpg
+    figure_src: /images/paul-and-karen/helms-knott-from-gawthrop.jpg
     figure_alt: Evening light over the fells near Sedbergh
     reverse: true
   - type: features

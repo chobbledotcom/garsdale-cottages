@@ -104,7 +104,7 @@ blocks:
       worked their way down the dale repairing others, eventually
       establishing a building partnership in Sedbergh that grew from this
       act of neighbourly determination.
-    figure_src: /images/places of interest/IMG_3019.jpeg
+    figure_src: /images/places-of-interest/sheep-herding-on-road.jpeg
     figure_alt: River and bridge in the Yorkshire Dales
     reverse: false
   - type: markdown

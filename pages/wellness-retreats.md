@@ -171,7 +171,7 @@ blocks:
       deserted platform, and you are already on holiday. The statue
       of [Ruswarp](/ruswarp-and-the-settle-carlisle/), the Border
       Collie who helped save the line, will be there to meet you.
-    figure_src: "/images/places of interest/IMG_3781.jpeg"
+    figure_src: "/images/places-of-interest/snowy-howgill-fells.jpeg"
     figure_alt: View along the Settle-Carlisle railway
     reverse: true
   - type: items

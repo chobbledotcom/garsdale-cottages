@@ -8,7 +8,7 @@ meta_description: Grisedale, the neighbouring valley to Garsdale known as The Da
 blocks:
   - type: image-background
     parallax: true
-    image: /images/places of interest/IMG_2621.jpeg
+    image: /images/places-of-interest/grisedale-valley.jpeg
     image_alt: View across the fells towards Grisedale
     content: |
       # Grisedale: The Dale That Died
@@ -64,7 +64,7 @@ blocks:
 
       Nearly fifty years after that documentary, Grisedale is perhaps better
       described as the dale that refused to die.
-    figure_src: /images/Personal Photos Paul and Karen/Helms-Knott-from-Gawthrop-ea69efd.jpg
+    figure_src: /images/paul-and-karen/helms-knott-from-gawthrop.jpg
     figure_alt: Evening light over the fells near Garsdale
     reverse: true
   - type: markdown

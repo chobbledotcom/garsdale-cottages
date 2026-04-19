@@ -9,7 +9,7 @@ meta_description: The story of Ruswarp the Border Collie, whose loyalty helped s
 blocks:
   - type: image-background
     parallax: true
-    image: /images/places of interest/IMG_3781.jpeg
+    image: /images/places-of-interest/snowy-howgill-fells.jpeg
     image_alt: The Settle-Carlisle railway line through the Yorkshire Dales
     content: |
       # Ruswarp and the Settle-Carlisle
@@ -36,7 +36,7 @@ blocks:
       would suffer hardship if the line closed, the objection was accepted.
       After years of campaigning by Nuttall and many others, the line was
       reprieved in 1989.
-    figure_src: /images/places of interest/IMG_3782.jpeg
+    figure_src: /images/places-of-interest/snow-capped-fells.jpeg
     figure_alt: Railway viaduct on the Settle-Carlisle line
     reverse: false
   - type: split-image
@@ -56,7 +56,7 @@ blocks:
       The RSPCA awarded Ruswarp their Animal Medallion for vigilance and
       their Animal Plaque for intelligence and courage. He survived just
       long enough to attend his master's funeral.
-    figure_src: /images/places of interest/IMG_3418.jpeg
+    figure_src: /images/places-of-interest/valley-view.jpeg
     figure_alt: View from Garsdale Head
     reverse: true
   - type: markdown

@@ -8,7 +8,7 @@ meta_description: Garsdale station on the Settle-Carlisle railway line, with its
 blocks:
   - type: image-background
     parallax: true
-    image: /images/places of interest/IMG_3418.jpeg
+    image: /images/places-of-interest/valley-view.jpeg
     image_alt: View from Garsdale Head
     content: |
       # Garsdale Station
@@ -34,7 +34,7 @@ blocks:
       waiting room contained a lending library of around 150 books. Even
       the stone base of the water tower was pressed into service as a
       makeshift village hall.
-    figure_src: /images/places of interest/IMG_3781.jpeg
+    figure_src: /images/places-of-interest/snowy-howgill-fells.jpeg
     figure_alt: View along the Settle-Carlisle railway
     reverse: false
   - type: split-image
@@ -54,7 +54,7 @@ blocks:
       was built in the same year as the railway by the very contractors
       building the line, and its foundation stone was laid on the day of
       the first passenger train.
-    figure_src: /images/places of interest/IMG_3782.jpeg
+    figure_src: /images/places-of-interest/snow-capped-fells.jpeg
     figure_alt: Railway viaduct in the Yorkshire Dales
     reverse: true
   - type: features

@@ -12,7 +12,7 @@ eleventyNavigation:
 blocks:
   - type: image-background
     parallax: true
-    image: /images/places of interest/IMG_3781.jpeg
+    image: /images/places-of-interest/snowy-howgill-fells.jpeg
     image_alt: Snow-capped fells above Garsdale in the Yorkshire Dales
     content: |
       # Local Walks
