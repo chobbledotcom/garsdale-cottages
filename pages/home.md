@@ -23,46 +23,34 @@ blocks:
   - type: items
     dark: false
     collection: properties
-    intro: >-
-      Garsdale Cottages offers two self-catering holiday cottages in Garsdale,
-      close to Sedbergh and Hawes in the Yorkshire Dales National Park.
+    intro: >+
+      `Garsdale Cottages offers two self-catering holiday cottages in Garsdale,
+      close to Sedbergh and Hawes in the Yorkshire Dales National Park.`
 
 
-      ## Book a Yorkshire Dales cottage directly with the owner
+      ## `Book a Yorkshire Dales cottage directly with the owner`
 
 
-      Choose from two stone-built cottages in peaceful Garsdale: [The Old Cart
-      House](https://www.garsdalecottages.co.uk/properties/the-old-cart-house/)
-      and [Roger Pot](https://www.garsdalecottages.co.uk/properties/roger-pot/).
+      `Choose from two stone-built cottages in peaceful Garsdale: The Old Cart
+      House and Roger Pot.`
 
 
-      ## The Old Cart House in Garsdale
+      ## `The Old Cart House in Garsdale`
 
 
-      The Old Cart House is a detached one-bedroom stone cottage with a
+      `The Old Cart House is a detached one-bedroom stone cottage with a
       king-size bedroom, en-suite shower room, open-plan living space, electric
-      fire and rear patio garden.
+      fire and rear patio garden.`
 
 
-      ## Roger Pot near Sedbergh
+      ## `Roger Pot near Sedbergh`
 
 
-      Roger Pot is a detached three-bedroom stone cottage set up a rural farm
-      track, around 6.3 miles from Sedbergh and 9 miles from Hawes.
+      `Roger Pot is a detached three-bedroom stone cottage set up a rural farm
+      track, around 6.3 miles from Sedbergh and 9 miles from Hawes.`
 
 
-      ## Why book direct with Garsdale Cottages?
 
-
-      Booking direct means you deal with the cottage owners rather than a large
-      agency. There are no agency booking fees or commission charges.
-
-
-      ## How do I book a Garsdale cottage?
-
-
-      Check availability online and book your Garsdale cottage directly with the
-      owner.
     horizontal: false
     masonry: false
     header_intro: A cooperative of holiday cottages near Sedbergh in Garsdale - book
@@ -111,10 +99,20 @@ blocks:
           minutes away.
         link: /about/
     image_aspect_ratio: 4/3
-    header_intro: |-
+    header_intro: >-
       ## Why Garsdale?
 
+
       Escape to the remote beauty of the Yorkshire Dales
+
+
+      ##  Why book direct with Garsdale Cottages? 
+
+       Booking direct means you deal with the cottage owners rather than a large agency. There are no agency booking fees or commission charges. 
+
+      ##  How do I book a Garsdale cottage? 
+
+       Check availability online and book your Garsdale cottage directly with the owner. 
   - type: image-cards
     dark: false
     items:
