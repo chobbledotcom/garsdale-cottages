@@ -23,7 +23,7 @@ blocks:
   - type: items
     dark: false
     collection: properties
-    intro: >+
+    intro: >-
       `Garsdale Cottages offers two self-catering holiday cottages in Garsdale,
       close to Sedbergh and Hawes in the Yorkshire Dales National Park.`
 
@@ -51,6 +51,8 @@ blocks:
 
 
 
+
+      &nbsp;
     horizontal: false
     masonry: false
     header_intro: A cooperative of holiday cottages near Sedbergh in Garsdale - book
@@ -106,11 +108,11 @@ blocks:
       Escape to the remote beauty of the Yorkshire Dales
 
 
-      ##  Why book direct with Garsdale Cottages? 
+      ## Why book direct with Garsdale Cottages?
 
        Booking direct means you deal with the cottage owners rather than a large agency. There are no agency booking fees or commission charges. 
 
-      ##  How do I book a Garsdale cottage? 
+      ## How do I book a Garsdale cottage?
 
        Check availability online and book your Garsdale cottage directly with the owner. 
   - type: image-cards
