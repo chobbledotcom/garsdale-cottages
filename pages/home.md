@@ -204,8 +204,29 @@ blocks:
           events, parish council and how visitors can get involved.
         link: /garsdale-village-hall-and-community/
     image_aspect_ratio: 4/3
-    header_intro: |-
+    header_intro: >-
       ## Explore the Area
 
-      Discover what makes Garsdale and the Yorkshire Dales so special
+
+      See what makes Garsdale and the Yorkshire Dales such a rewarding place to
+      stay. This quiet valley offers far more than simply a base for your
+      holiday, with open fells, peaceful rivers, market towns, wildlife, history
+      and practical access to some of Yorkshire’s most distinctive landscapes.
+      Whether you are planning gentle walks from the cottage door, full-day fell
+      routes, family outings, scenic railway journeys or time spent enjoying the
+      slower pace of the Dales, Garsdale provides an excellent setting for
+      getting the most from your stay.
+
+
+      From red squirrels, otters and bird watching to the Settle-Carlisle
+      Railway, Garsdale Station and the story of Ruswarp, there is plenty here
+      for guests who enjoy wildlife and local heritage. You can spend your days
+      visiting Sedbergh and Hawes, exploring caves, waterfalls and geological
+      landmarks such as the Dent Fault, walking the Sedgwick Geological Trail,
+      or learning about Garsdale’s Viking roots, farming traditions, dialect,
+      chapels and village life. With routes ranging from easy strolls to more
+      challenging fell walks, plus welcoming pubs, local food and year-round
+      attractions, Garsdale offers something for walkers, families, wildlife
+      enthusiasts and anyone looking to experience the Yorkshire Dales in a
+      practical, genuine way.
 ---
