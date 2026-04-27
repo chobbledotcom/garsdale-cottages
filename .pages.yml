@@ -2,19 +2,729 @@ media:
   input: images
   output: /images
   path: images
-  rename: true
   categories:
     - image
+  rename: true
 settings:
   hide: true
   content:
     merge: true
+components:
+  meta_title:
+    type: string
+    label: Meta Title
+    options:
+      maxlength: 55
+  meta_description:
+    type: string
+    label: Meta Description
+    options:
+      maxlength: 155
+  block_bunny_video_background:
+    label: Bunny Video Background
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: video_url
+        type: string
+        label: Bunny Stream Embed URL
+        required: true
+      - { name: thumbnail_url, type: string, label: Thumbnail URL }
+      - { name: video_title, type: string, label: Video Title }
+      - { name: class, type: string, label: CSS Class }
+      - name: content
+        type: rich-text
+        label: Overlay Content
+        required: true
+  block_buy_options:
+    label: Buy Options
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: items
+        type: object
+        label: Products
+        required: true
+        list: true
+        fields:
+          - { name: image, type: image, label: Image, required: true }
+          - { name: title, type: string, label: Title, required: true }
+          - { name: subtitle, type: string, label: Subtitle }
+          - name: price
+            type: string
+            label: Price (display, e.g. £15)
+          - name: currency
+            type: string
+            label: Currency (ISO code, e.g. GBP)
+          - { name: link, type: string, label: Buy Link, required: true }
+          - { name: button_text, type: string, label: Button Text }
+      - { name: heading_level, type: number, label: Heading Level }
+      - { name: image_aspect_ratio, type: string, label: Image Aspect Ratio }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_callout:
+    label: Callout
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: variant
+        type: string
+        label: Variant (info | warning | success | danger)
+      - name: icon
+        type: string
+        label: Icon (Iconify ID, emoji, or path)
+      - { name: title, type: string, label: Title }
+      - { name: content, type: rich-text, label: Content, required: true }
+  block_code_block:
+    label: Code Block
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: filename, type: string, label: Filename, required: true }
+      - { name: code, type: string, label: Code, required: true }
+      - { name: language, type: string, label: Language }
+  block_contact_form:
+    label: Contact Form
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: content, type: rich-text, label: Content }
+  block_content:
+    label: Content
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+  block_cta:
+    label: Cta
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: title, type: string, label: Title, required: true }
+      - { name: description, type: rich-text, label: Description }
+      - name: button
+        type: object
+        label: Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+          - { name: size, type: string, label: Size }
+  block_custom_contact_form:
+    label: Custom Contact Form
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: content, type: rich-text, label: Intro Content }
+      - name: fields
+        type: object
+        label: Form Fields
+        required: true
+        list: true
+        fields:
+          - { name: name, type: string, label: Field Name, required: true }
+          - { name: label, type: string, label: Field Label, required: true }
+          - name: type
+            type: string
+            label: Field Type (text, email, tel, textarea, select, radio, heading)
+          - { name: placeholder, type: string, label: Placeholder }
+          - { name: required, type: boolean, label: Required }
+          - { name: rows, type: number, label: Rows (for textarea) }
+          - { name: note, type: string, label: Help Note }
+          - { name: fieldClass, type: string, label: CSS Class }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_downloads:
+    label: Downloads
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: intro, type: rich-text, label: Intro Content (Markdown) }
+      - name: items
+        type: object
+        label: Downloads
+        required: true
+        list: true
+        fields:
+          - name: file
+            type: string
+            label: File Path (e.g. /files/guide.pdf)
+            required: true
+          - { name: label, type: string, label: Label, required: true }
+  block_features:
+    label: Features
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: items
+        type: object
+        label: Features
+        required: true
+        list: true
+        fields:
+          - name: icon
+            type: string
+            label: Icon (Iconify ID or HTML entity)
+          - { name: title, type: string, label: Title, required: true }
+          - { name: description, type: rich-text, label: Description }
+          - { name: style, type: string, label: Custom Style }
+      - { name: intro, type: rich-text, label: Intro Content (Markdown) }
+      - { name: heading_level, type: number, label: Heading Level }
+      - { name: center, type: boolean, label: Centered }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_gallery:
+    label: Gallery
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: items
+        type: object
+        label: Gallery Images
+        required: true
+        list: true
+        fields:
+          - { name: image, type: image, label: Image, required: true }
+          - { name: caption, type: string, label: Caption }
+      - { name: aspect_ratio, type: string, label: Aspect Ratio }
+      - { name: intro, type: rich-text, label: Intro Content (Markdown) }
+      - { name: masonry, type: boolean, label: Masonry Grid }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_guide_categories:
+    label: Guide Categories
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+  block_hero:
+    label: Hero
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: badge, type: string, label: Badge Text }
+      - { name: title, type: string, label: Title, required: true }
+      - { name: lead, type: string, label: Lead Text }
+      - name: buttons
+        type: object
+        label: Buttons
+        list: true
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+          - { name: size, type: string, label: Size }
+      - { name: class, type: string, label: CSS Class }
+  block_html:
+    label: Html
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: content, type: string, label: Raw HTML, required: true }
+  block_icon_links:
+    label: Icon Links
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: intro, type: rich-text, label: Intro Content (Markdown) }
+      - name: items
+        type: object
+        label: Links
+        required: true
+        list: true
+        fields:
+          - name: icon
+            type: string
+            label: Icon (Iconify ID or HTML entity)
+            required: true
+          - { name: text, type: string, label: Link Text, required: true }
+          - { name: url, type: string, label: URL }
+  block_iframe_embed:
+    label: Iframe Embed
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: src, type: string, label: Iframe URL, required: true }
+      - { name: title, type: string, label: Accessible Title, required: true }
+      - { name: width, type: number, label: Width (px) }
+      - { name: height, type: number, label: Height (px) }
+      - { name: aspect_ratio, type: string, label: Aspect Ratio (e.g. 16/9) }
+      - name: max_width
+        type: string
+        label: Max Width (CSS, e.g. 560px)
+      - { name: sandbox, type: string, label: Sandbox }
+      - { name: allow, type: string, label: Allow (permissions policy) }
+      - { name: scrolling, type: string, label: Scrolling }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_image_background:
+    label: Image Background
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: image, type: image, label: Background Image, required: true }
+      - { name: image_alt, type: string, label: Image Alt Text }
+      - { name: class, type: string, label: CSS Class }
+      - name: content
+        type: rich-text
+        label: Overlay Content
+        required: true
+      - { name: parallax, type: boolean, label: Parallax }
+  block_image_cards:
+    label: Image Cards
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: items
+        type: object
+        label: Cards
+        required: true
+        list: true
+        fields:
+          - { name: image, type: image, label: Image, required: true }
+          - { name: title, type: string, label: Title, required: true }
+          - { name: description, type: string, label: Description }
+          - { name: link, type: string, label: Link URL }
+      - { name: heading_level, type: number, label: Heading Level }
+      - { name: image_aspect_ratio, type: string, label: Image Aspect Ratio }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_include:
+    label: Include
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: file, type: string, label: Template File Path, required: true }
+  block_items:
+    label: Items
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: collection
+        type: string
+        label: Collection Name
+        required: true
+      - { name: intro, type: rich-text, label: Intro Content (Markdown) }
+      - { name: horizontal, type: boolean, label: Horizontal Slider }
+      - { name: masonry, type: boolean, label: Masonry Grid }
+      - name: filter
+        type: object
+        label: Filter
+        fields:
+          - name: property
+            type: string
+            label: Property (e.g. url, data.title)
+          - { name: includes, type: string, label: Contains }
+          - { name: equals, type: string, label: Equals }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_items_array:
+    label: Items Array
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: items, type: string, label: Items, list: true }
+      - { name: intro, type: rich-text, label: Intro Content (Markdown) }
+      - { name: horizontal, type: boolean, label: Horizontal Slider }
+      - { name: masonry, type: boolean, label: Masonry Grid }
+      - name: filter
+        type: object
+        label: Filter
+        fields:
+          - name: property
+            type: string
+            label: Property (e.g. url, data.title)
+          - { name: includes, type: string, label: Contains }
+          - { name: equals, type: string, label: Equals }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_link_button:
+    label: Link Button
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: text, type: string, label: Button Text, required: true }
+      - { name: href, type: string, label: URL, required: true }
+      - { name: variant, type: string, label: Variant }
+      - { name: size, type: string, label: Size }
+      - { name: reveal, type: string, label: Reveal Animation }
+  block_link_columns:
+    label: Link Columns
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: collection
+        type: string
+        label: Collection Name
+        required: true
+      - { name: intro, type: rich-text, label: Intro Content (Markdown) }
+      - name: filter
+        type: object
+        label: Filter
+        fields:
+          - name: property
+            type: string
+            label: Property (e.g. url, data.title)
+          - { name: includes, type: string, label: Contains }
+          - { name: equals, type: string, label: Equals }
+      - { name: remove_text, type: string, label: Remove Text (Regex) }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_markdown:
+    label: Markdown
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: content, type: rich-text, label: Markdown, required: true }
+  block_marquee_images:
+    label: Marquee Images
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: items
+        type: object
+        label: Images
+        required: true
+        list: true
+        fields:
+          - { name: image, type: string, label: Image Path, required: true }
+          - { name: alt, type: string, label: Alt Text }
+          - { name: link_url, type: string, label: Link URL }
+      - { name: speed, type: string, label: Scroll Speed (e.g. 30s) }
+      - { name: height, type: string, label: Image Height (e.g. 50px) }
+  block_properties:
+    label: Properties
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+  block_reviews:
+    label: Reviews
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: current_item, type: boolean, label: Filter to Current Item }
+      - { name: minimum_rating, type: number, label: Minimum Rating }
+      - { name: horizontal, type: boolean, label: Horizontal Slider }
+      - { name: masonry, type: boolean, label: Masonry Grid }
+  block_section_header:
+    label: Section Header
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: intro
+        type: rich-text
+        label: Section Header Intro
+        required: true
+  block_snippet:
+    label: Snippet
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: reference
+        label: Snippet
+        type: reference
+        list: true
+        options:
+          search: primary
+          value: "{path}"
+          label: "{primary}"
+  block_socials:
+    label: Socials
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: directory, type: string, label: Directory, required: true }
+      - { name: intro, type: rich-text, label: Intro Content (Markdown) }
+      - { name: horizontal, type: boolean, label: Horizontal Slider }
+      - { name: masonry, type: boolean, label: Masonry Grid }
+      - name: filter
+        type: object
+        label: Filter
+        fields:
+          - name: property
+            type: string
+            label: Property (e.g. url, data.title)
+          - { name: includes, type: string, label: Contains }
+          - { name: equals, type: string, label: Equals }
+      - { name: header_intro, type: rich-text, label: Header Intro }
+  block_split_buy_options:
+    label: Split Buy Options
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: title, type: string, label: Title }
+      - { name: title_level, type: number, label: Heading Level }
+      - { name: subtitle, type: string, label: Subtitle }
+      - { name: content, type: rich-text, label: Content }
+      - { name: reverse, type: boolean, label: Reverse Layout }
+      - { name: reveal_content, type: string, label: Reveal Content Animation }
+      - { name: reveal_figure, type: string, label: Reveal Figure Animation }
+      - name: button
+        type: object
+        label: Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+          - { name: size, type: string, label: Size }
+      - name: figure_image
+        type: image
+        label: Product Image
+        required: true
+      - name: figure_title
+        type: string
+        label: Product Title
+        required: true
+      - { name: figure_subtitle, type: string, label: Product Subtitle }
+      - name: figure_price
+        type: string
+        label: Product Price (display, e.g. £15)
+      - name: figure_currency
+        type: string
+        label: Product Currency (ISO code, e.g. GBP)
+      - { name: figure_link, type: string, label: Buy Link, required: true }
+      - { name: figure_button_text, type: string, label: Buy Button Text }
+      - name: figure_heading_level
+        type: number
+        label: Product Heading Level
+      - name: figure_image_aspect_ratio
+        type: string
+        label: Product Image Aspect Ratio
+  block_split_callout:
+    label: Split Callout
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: title, type: string, label: Title }
+      - { name: title_level, type: number, label: Heading Level }
+      - { name: subtitle, type: string, label: Subtitle }
+      - { name: content, type: rich-text, label: Content }
+      - { name: reverse, type: boolean, label: Reverse Layout }
+      - { name: reveal_content, type: string, label: Reveal Content Animation }
+      - { name: reveal_figure, type: string, label: Reveal Figure Animation }
+      - name: button
+        type: object
+        label: Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+          - { name: size, type: string, label: Size }
+      - name: figure_icon
+        type: string
+        label: Icon (Iconify ID, emoji, or path)
+      - name: figure_title
+        type: string
+        label: Callout Title
+        required: true
+      - { name: figure_subtitle, type: string, label: Callout Subtitle }
+      - { name: figure_variant, type: string, label: Callout Color Variant }
+  block_split_code:
+    label: Split Code
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: title, type: string, label: Title }
+      - { name: title_level, type: number, label: Heading Level }
+      - { name: subtitle, type: string, label: Subtitle }
+      - { name: content, type: rich-text, label: Content }
+      - { name: reverse, type: boolean, label: Reverse Layout }
+      - { name: reveal_content, type: string, label: Reveal Content Animation }
+      - { name: reveal_figure, type: string, label: Reveal Figure Animation }
+      - name: button
+        type: object
+        label: Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+          - { name: size, type: string, label: Size }
+      - { name: figure_filename, type: string, label: Code Filename }
+      - { name: figure_code, type: string, label: Code Content, required: true }
+      - { name: figure_language, type: string, label: Code Language }
+  block_split_full:
+    label: Split Full
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: variant, type: string, label: Variant }
+      - { name: title_level, type: number, label: Heading Level }
+      - { name: left_title, type: string, label: Left Title }
+      - { name: left_content, type: rich-text, label: Left Content }
+      - name: left_button
+        type: object
+        label: Left Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+      - { name: right_title, type: string, label: Right Title }
+      - { name: right_content, type: rich-text, label: Right Content }
+      - name: right_button
+        type: object
+        label: Right Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+      - { name: reveal_left, type: string, label: Reveal Left Animation }
+      - { name: reveal_right, type: string, label: Reveal Right Animation }
+  block_split_html:
+    label: Split Html
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: title, type: string, label: Title }
+      - { name: title_level, type: number, label: Heading Level }
+      - { name: subtitle, type: string, label: Subtitle }
+      - { name: content, type: rich-text, label: Content }
+      - { name: reverse, type: boolean, label: Reverse Layout }
+      - { name: reveal_content, type: string, label: Reveal Content Animation }
+      - { name: reveal_figure, type: string, label: Reveal Figure Animation }
+      - name: button
+        type: object
+        label: Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+          - { name: size, type: string, label: Size }
+      - name: figure_html
+        type: rich-text
+        label: Figure HTML Content
+        required: true
+  block_split_icon_links:
+    label: Split Icon Links
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: title, type: string, label: Title }
+      - { name: title_level, type: number, label: Heading Level }
+      - { name: subtitle, type: string, label: Subtitle }
+      - { name: content, type: rich-text, label: Content }
+      - { name: reverse, type: boolean, label: Reverse Layout }
+      - { name: reveal_content, type: string, label: Reveal Content Animation }
+      - { name: reveal_figure, type: string, label: Reveal Figure Animation }
+      - name: button
+        type: object
+        label: Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+          - { name: size, type: string, label: Size }
+      - name: figure_items
+        type: object
+        label: Links
+        required: true
+        list: true
+        fields:
+          - name: icon
+            type: string
+            label: Icon (Iconify ID or HTML entity)
+            required: true
+          - { name: text, type: string, label: Link Text, required: true }
+          - { name: url, type: string, label: URL }
+  block_split_image:
+    label: Split Image
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: title, type: string, label: Title }
+      - { name: title_level, type: number, label: Heading Level }
+      - { name: subtitle, type: string, label: Subtitle }
+      - { name: content, type: rich-text, label: Content }
+      - { name: reverse, type: boolean, label: Reverse Layout }
+      - { name: reveal_content, type: string, label: Reveal Content Animation }
+      - { name: reveal_figure, type: string, label: Reveal Figure Animation }
+      - name: button
+        type: object
+        label: Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+          - { name: size, type: string, label: Size }
+      - { name: figure_src, type: image, label: Figure Image, required: true }
+      - { name: figure_alt, type: string, label: Figure Alt Text }
+      - { name: figure_caption, type: string, label: Figure Caption }
+  block_split_video:
+    label: Split Video
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: title, type: string, label: Title }
+      - { name: title_level, type: number, label: Heading Level }
+      - { name: subtitle, type: string, label: Subtitle }
+      - { name: content, type: rich-text, label: Content }
+      - { name: reverse, type: boolean, label: Reverse Layout }
+      - { name: reveal_content, type: string, label: Reveal Content Animation }
+      - { name: reveal_figure, type: string, label: Reveal Figure Animation }
+      - name: button
+        type: object
+        label: Button
+        fields:
+          - { name: text, type: string, label: Button Text, required: true }
+          - { name: href, type: string, label: URL, required: true }
+          - { name: variant, type: string, label: Variant }
+          - { name: size, type: string, label: Size }
+      - name: figure_video_id
+        type: string
+        label: Video ID or URL
+        required: true
+      - { name: figure_thumbnail_url, type: string, label: Thumbnail URL }
+      - { name: figure_alt, type: string, label: Video Alt Text }
+      - { name: figure_caption, type: string, label: Video Caption }
+      - { name: figure_autoplay, type: boolean, label: Autoplay }
+  block_stats:
+    label: Stats
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - name: items
+        type: object
+        label: Statistics
+        required: true
+        list: true
+        fields:
+          - { name: value, type: string, label: Value, required: true }
+          - { name: label, type: string, label: Label, required: true }
+  block_video_background:
+    label: Video Background
+    type: object
+    fields:
+      - { name: dark, type: boolean, label: Dark }
+      - { name: video_id, type: string, label: Video Embed URL, required: true }
+      - { name: thumbnail_url, type: string, label: Thumbnail URL }
+      - { name: video_title, type: string, label: Video Title }
+      - { name: class, type: string, label: CSS Class }
+      - name: content
+        type: rich-text
+        label: Overlay Content
+        required: true
+  faqs:
+    label: FAQs
+    type: object
+    list: true
+    fields:
+      - { name: question, type: string, label: Question, required: true }
+      - { name: answer, type: string, label: Answer, required: true }
+  gallery:
+    type: image
+    label: Gallery
+    options:
+      multiple: true
+  specs:
+    label: Specifications
+    type: object
+    list: true
+    fields:
+      - { name: name, type: string, label: Name, required: true }
+      - { name: value, type: string, label: Value, required: true }
+  tabs:
+    label: Tabs
+    type: object
+    list: true
+    fields:
+      - { name: title, type: string, label: Title, required: true }
+      - { name: image, type: image, label: Image }
+      - { name: body, type: rich-text, label: Body, required: true }
 content:
   - name: pages
     label: Pages
     path: pages
     type: collection
     subfolders: false
+    filename: "{primary}.md"
     view:
       fields:
         - meta_title
@@ -22,132 +732,66 @@ content:
       sort:
         - meta_title
     fields:
-      - { name: header_text, type: string, label: Header Text }
-      - { name: title, type: string, label: Title }
       - { name: subtitle, type: string, label: Subtitle }
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - { name: layout, type: string, label: Layout }
-      - { name: permalink, type: string, label: Permalink }
-      - { name: no_index, type: boolean, label: No Index }
-      - { name: pagefind_body, type: boolean, label: Pagefind Body }
-      - { name: navigationParent, type: string, label: Navigation Parent }
+      - { name: body, type: rich-text, label: Body }
+      - { name: meta_title, component: meta_title }
+      - { name: meta_description, component: meta_description }
       - name: eleventyNavigation
         label: Navigation
         type: object
         fields:
           - { name: key, type: string }
           - { name: order, type: number }
+      - { name: layout, type: string }
       - name: blocks
         label: Content Blocks
         type: block
         list: true
         blockKey: type
         blocks:
-          - name: image-background
-            label: Image Background
-            fields:
-              - { name: image, type: image, label: Hero Image }
-              - { name: image_alt, type: string, label: Image Alt Text }
-              - { name: content, type: rich-text, label: Hero Content }
-              - { name: container_width, type: select, label: Container Width, options: { values: [default, full] } }
-              - { name: parallax, type: boolean, label: Parallax }
-          - name: markdown
-            label: Markdown
-            fields:
-              - { name: header_intro, type: rich-text, label: Header Intro }
-              - { name: content, type: rich-text, label: Content }
-          - name: split
-            label: Split
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: subtitle, type: string, label: Subtitle }
-              - { name: content, type: rich-text, label: Content }
-              - name: figure_type
-                type: string
-                label: Figure Type (image, video, code, html)
-              - { name: figure_src, type: image, label: Figure Image }
-              - { name: figure_alt, type: string, label: Figure Alt Text }
-              - { name: figure_caption, type: string, label: Figure Caption }
-              - name: figure_video_id
-                type: string
-                label: Figure Video ID or URL
-              - name: figure_filename
-                type: string
-                label: Figure Code Filename
-              - { name: figure_code, type: string, label: Figure Code Content }
-              - name: figure_language
-                type: string
-                label: Figure Code Language
-              - name: figure_html
-                type: rich-text
-                label: Figure HTML Content
-              - { name: reverse, type: boolean, label: Reverse Layout }
-          - name: features
-            label: Features
-            fields:
-              - { name: header_intro, type: rich-text, label: Header Intro }
-              - name: items
-                type: array
-                label: Features
-                fields:
-                  - { name: icon, type: string, label: Icon }
-                  - { name: title, type: string, label: Title }
-                  - { name: description, type: string, label: Description }
-          - name: image-cards
-            label: Image Cards
-            fields:
-              - { name: header_intro, type: rich-text, label: Header Intro }
-              - name: image_aspect_ratio
-                type: string
-                label: Image Aspect Ratio
-              - name: items
-                type: array
-                label: Cards
-                fields:
-                  - { name: image, type: image, label: Image }
-                  - { name: title, type: string, label: Title }
-                  - { name: description, type: string, label: Description }
-                  - { name: link, type: string, label: Link }
-          - name: contact_form
-            label: Contact Form
-            fields:
-              - { name: header_intro, type: rich-text, label: Header Intro }
-              - { name: content, type: rich-text, label: Introduction Text }
-          - name: items
-            label: Items
-            fields:
-              - { name: collection, type: string, label: Collection }
-              - { name: header_intro, type: rich-text, label: Header Intro }
-              - { name: header_align, type: string, label: Header Align }
-              - { name: intro, type: rich-text, label: Intro }
-          - name: cta
-            label: Cta
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: description, type: string, label: Description }
-              - name: button
-                type: object
-                label: Button
-                fields:
-                  - { name: text, type: string, label: Text }
-                  - { name: href, type: string, label: URL }
-      - { name: body, type: rich-text, label: Body }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
+          - name: bunny-video-background
+            component: block_bunny_video_background
+          - { name: buy-options, component: block_buy_options }
+          - { name: callout, component: block_callout }
+          - { name: code-block, component: block_code_block }
+          - { name: contact-form, component: block_contact_form }
+          - { name: content, component: block_content }
+          - { name: cta, component: block_cta }
+          - { name: custom-contact-form, component: block_custom_contact_form }
+          - { name: downloads, component: block_downloads }
+          - { name: features, component: block_features }
+          - { name: gallery, component: block_gallery }
+          - { name: guide-categories, component: block_guide_categories }
+          - { name: hero, component: block_hero }
+          - { name: html, component: block_html }
+          - { name: icon-links, component: block_icon_links }
+          - { name: iframe-embed, component: block_iframe_embed }
+          - { name: image-background, component: block_image_background }
+          - { name: image-cards, component: block_image_cards }
+          - { name: include, component: block_include }
+          - { name: items, component: block_items }
+          - { name: items-array, component: block_items_array }
+          - { name: link-button, component: block_link_button }
+          - { name: link-columns, component: block_link_columns }
+          - { name: markdown, component: block_markdown }
+          - { name: marquee-images, component: block_marquee_images }
+          - { name: properties, component: block_properties }
+          - { name: reviews, component: block_reviews }
+          - { name: section-header, component: block_section_header }
+          - { name: snippet, component: block_snippet }
+          - { name: socials, component: block_socials }
+          - { name: split-buy-options, component: block_split_buy_options }
+          - { name: split-callout, component: block_split_callout }
+          - { name: split-code, component: block_split_code }
+          - { name: split-full, component: block_split_full }
+          - { name: split-html, component: block_split_html }
+          - { name: split-icon-links, component: block_split_icon_links }
+          - { name: split-image, component: block_split_image }
+          - { name: split-video, component: block_split_video }
+          - { name: stats, component: block_stats }
+          - { name: video-background, component: block_video_background }
+      - { name: faqs, component: faqs }
+      - { name: gallery, component: gallery }
   - name: snippets
     label: Snippets
     path: snippets
@@ -166,39 +810,25 @@ content:
     fields:
       - { name: title, type: string, label: Title }
       - { name: thumbnail, type: image, label: Thumbnail }
+      - { name: order, type: number, label: Order }
       - { name: snippet, type: string, label: Role }
       - { name: image, type: image, label: Profile Image }
       - { name: body, type: rich-text, label: Biography }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
+      - { name: faqs, component: faqs }
+      - { name: gallery, component: gallery }
   - name: reviews
     label: Reviews
     path: reviews
     type: collection
     subfolders: false
+    filename: "{primary}.md"
     fields:
       - { name: name, type: string, label: Name }
       - { name: url, type: string, label: URL }
       - { name: rating, type: number, label: Rating }
       - { name: thumbnail, type: image, label: Reviewer Photo }
       - { name: body, type: rich-text, label: Body }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
+      - { name: faqs, component: faqs }
   - name: locations
     label: Locations
     path: locations
@@ -219,23 +849,10 @@ content:
       - { name: thumbnail, type: image, label: Thumbnail }
       - { name: order, type: number, label: Order }
       - { name: body, type: rich-text, label: Body }
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
+      - { name: meta_title, component: meta_title }
+      - { name: meta_description, component: meta_description }
+      - { name: faqs, component: faqs }
+      - { name: gallery, component: gallery }
   - name: properties
     label: Properties
     path: properties
@@ -261,50 +878,25 @@ content:
       - name: locations
         label: Locations
         type: reference
+        list: true
         options:
           collection: locations
-          multiple: true
-          search: title
+          search: primary
           value: "{path}"
-          label: "{title}"
+          label: "{primary}"
       - { name: bedrooms, type: number, label: Bedrooms }
       - { name: bathrooms, type: number, label: Bathrooms }
       - { name: sleeps, type: number, label: Sleeps }
       - { name: price_per_night, type: number, label: Price Per Night }
+      - { name: formspark_id, type: string, label: Formspark ID }
       - { name: features, type: string, label: Features, list: true }
       - { name: body, type: rich-text, label: Body }
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
-      - name: specs
-        label: Specifications
-        type: object
-        list: true
-        fields:
-          - { name: name, type: string, label: Name, required: true }
-          - { name: value, type: string, label: Value, required: true }
-      - name: tabs
-        label: Tabs
-        type: object
-        list: true
-        fields:
-          - { name: title, type: string, label: Title, required: true }
-          - { name: image, type: image, label: Image }
-          - { name: body, type: rich-text, label: Body, required: true }
+      - { name: meta_title, component: meta_title }
+      - { name: meta_description, component: meta_description }
+      - { name: faqs, component: faqs }
+      - { name: gallery, component: gallery }
+      - { name: specs, component: specs }
+      - { name: tabs, component: tabs }
   - name: guide-categories
     label: Guide Categories
     path: guide-categories
@@ -321,23 +913,16 @@ content:
         type: reference
         options:
           collection: properties
-          multiple: false
-          search: title
+          search: primary
           value: "{path}"
-          label: "{title}"
+          label: "{primary}"
       - { name: body, type: rich-text, label: Body }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
+      - { name: faqs, component: faqs }
   - name: guide-pages
     label: Guide Pages
     path: guide-pages
     type: collection
-    subfolders: true
+    subfolders: false
     filename: "{primary}.md"
     fields:
       - { name: title, type: string, label: Title }
@@ -347,78 +932,13 @@ content:
         type: reference
         options:
           collection: guide-categories
-          multiple: false
-          search: title
+          search: primary
           value: "{path}"
-          label: "{title}"
+          label: "{primary}"
       - { name: order, type: number, label: Order }
       - { name: body, type: rich-text, label: Body }
-      - name: faqs
-        label: FAQs
-        type: object
-        list: true
-        fields:
-          - { name: question, type: string, label: Question, required: true }
-          - { name: answer, type: string, label: Answer, required: true }
-      - name: gallery
-        type: image
-        label: Gallery
-        options:
-          multiple: true
-  - name: page-local-events
-    label: Local Events Page
-    type: file
-    path: events/local-events.md
-    fields:
-      - { name: meta_title, type: string, label: Meta Title, maxlength: 55 }
-      - name: meta_description
-        type: string
-        label: Meta Description
-        maxlength: 155
-      - name: blocks
-        label: Content Blocks
-        type: block
-        list: true
-        blockKey: type
-        blocks:
-          - name: markdown
-            label: Markdown
-            fields:
-              - { name: header_intro, type: rich-text, label: Header Intro }
-              - { name: content, type: rich-text, label: Content }
-          - name: cta
-            label: Cta
-            fields:
-              - { name: title, type: string, label: Title }
-              - { name: description, type: string, label: Description }
-              - name: button
-                type: object
-                label: Button
-                fields:
-                  - { name: text, type: string, label: Text }
-                  - { name: href, type: string, label: URL }
-      - { name: body, type: rich-text, label: Body }
-  - name: homepage
-    label: Homepage Settings
-    type: file
-    path: _data/homepage.json
-    fields:
-      - name: show_products
-        type: boolean
-        label: Show Products Section
-        default: true
-      - name: show_menus
-        type: boolean
-        label: Show Menus Section
-        default: true
-      - name: show_news
-        type: boolean
-        label: Show News Section
-        default: true
-      - name: show_recurring_events
-        type: boolean
-        label: Show Recurring Events
-        default: true
+      - { name: faqs, component: faqs }
+      - { name: gallery, component: gallery }
   - name: site
     label: Site Configuration
     type: file
@@ -486,6 +1006,7 @@ content:
                 type: string
                 label: Available Languages
                 list: true
+
   - name: map-places
     label: Map Places
     type: file
@@ -535,6 +1056,7 @@ content:
             type: string
             label: what3words
             comment: "three word address e.g. filled.count.soap"
+
   - name: alt-tags
     label: Image Alt Tags
     type: file

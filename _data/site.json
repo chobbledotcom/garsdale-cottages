@@ -40,9 +40,11 @@
 			"keywords": false,
 			"parent_categories": false,
 			"videos": false,
-			"below_products": false
+			"below_products": false,
+			"use_blocks": false
 		},
 		"hasSrcFolder": false,
-		"customHomePage": false
+		"customHomePage": false,
+		"customBlocksCollections": []
 	}
 }
