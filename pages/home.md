@@ -24,30 +24,25 @@ blocks:
     dark: false
     collection: properties
     intro: >-
-      `Garsdale Cottages offers two self-catering holiday cottages in Garsdale,
-      close to Sedbergh and Hawes in the Yorkshire Dales National Park.`
+      Garsdale Cottages offers two self-catering holiday cottages in Garsdale,
+      close to Sedbergh and Hawes in the Yorkshire Dales National Park.
 
 
-      ## `Book a Yorkshire Dales cottage directly with the owner`
+      ### Book a Yorkshire Dales cottage directly with the owner
 
 
-      `Choose from two stone-built cottages in peaceful Garsdale: The Old Cart
-      House and Roger Pot.`
+      Choose from two stone-built cottages in peaceful Garsdale: The Old Cart
+      House and Roger Pot.
 
 
-      ## `The Old Cart House in Garsdale`
+      **[The Old Cart House](/properties/the-old-cart-house/)** is a detached
+      one-bedroom stone cottage with a king-size bedroom, en-suite shower room,
+      open-plan living space, electric fire and rear patio garden.
 
 
-      `The Old Cart House is a detached one-bedroom stone cottage with a
-      king-size bedroom, en-suite shower room, open-plan living space, electric
-      fire and rear patio garden.`
-
-
-      ## `Roger Pot near Sedbergh`
-
-
-      `Roger Pot is a detached three-bedroom stone cottage set up a rural farm
-      track, around 6.3 miles from Sedbergh and 9 miles from Hawes.`
+      **[Roger Pot](/properties/roger-pot/)** is a detached three-bedroom stone
+      cottage set up a rural farm track, around 6.3 miles from Sedbergh and 9
+      miles from Hawes.
 
 
 
