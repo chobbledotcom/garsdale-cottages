@@ -69,10 +69,7 @@ blocks:
         title: No Middlemen
         description: Book with confidence directly through us - straightforward, simple,
           personal.
-    center: false
-  - type: markdown
-    dark: true
-    content: >-
+    intro: >-
       ### Why book direct with Garsdale Cottages?
 
        Booking direct means you deal with the cottage owners rather than a large agency. There are no agency booking fees or commission charges. 
@@ -80,6 +77,7 @@ blocks:
       ### How do I book a Garsdale cottage?
 
        Check availability online and book your Garsdale cottage directly with the owner. 
+    center: false
   - type: image-cards
     dark: false
     items:
