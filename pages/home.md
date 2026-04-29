@@ -17,7 +17,7 @@ blocks:
     image: /assets/background.webp
     image_alt: Scenic view of Garsdale in the Yorkshire Dales
     content: |+
-      # Garsdale Cottages: Holiday Cottages in Garsdale near Sedbergh
+      # Holiday Cottages in Garsdale near Sedbergh
 
     parallax: true
   - type: items
