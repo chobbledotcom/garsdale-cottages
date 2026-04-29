@@ -50,8 +50,6 @@ blocks:
       &nbsp;
     horizontal: false
     masonry: false
-    header_intro: A cooperative of holiday cottages near Sedbergh in Garsdale - book
-      directly with property owners for better prices and personal service
   - type: features
     dark: false
     items:
