@@ -1,7 +1,13 @@
 ---
-title: Search
-layout: search.html
+name: Search
+layout: design-system-base.html
 permalink: /search/
-header_text: Search
-meta_title: Search
+blocks:
+  - type: section-header
+    intro: |-
+      ## Search
+  - type: include
+    file: search-box.html
+  - type: include
+    file: search-results.html
 ---
