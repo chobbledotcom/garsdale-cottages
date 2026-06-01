@@ -1,12 +1,14 @@
 ---
-title: Kendal Leisure Centre
-subtitle: "Entertainment & Activities"
+name: Kendal Leisure Centre
+subtitle: Entertainment & Activities
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 18
 icon: hugeicons:swimming
-featured_image: "https://lh3.googleusercontent.com/places/ANXAkqFjdoNz37ZGgyXBCqSQbwpe6UgU16gXvQyZxZ-pN1ELlWOss_whve6WvpjqhO76MXte-AkEs3TK91sFEV3O24tD9HmB5QDLc6A=s1600-w3510"
+featured_image: https://lh3.googleusercontent.com/places/ANXAkqFjdoNz37ZGgyXBCqSQbwpe6UgU16gXvQyZxZ-pN1ELlWOss_whve6WvpjqhO76MXte-AkEs3TK91sFEV3O24tD9HmB5QDLc6A=s1600-w3510
+blocks:
+- type: markdown
+  content: '# Kendal Leisure Centre
+
+
+    Content coming soon.'
 ---
-
-# Kendal Leisure Centre
-
-Content coming soon.

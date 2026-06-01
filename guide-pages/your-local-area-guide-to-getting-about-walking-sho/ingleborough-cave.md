@@ -1,12 +1,14 @@
 ---
-title: Ingleborough Cave
-subtitle: "Entertainment & Activities"
+name: Ingleborough Cave
+subtitle: Entertainment & Activities
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 17
 icon: hugeicons:mountain
-featured_image: "https://lh3.googleusercontent.com/places/ANXAkqHBnfmVDIATXKPaKB1VBm5t8gmjnMRKxbZ1MHQyeEXMINq_Uppwv5c6a0XdFNKG2GNkqvpwCutjnh_g2oBFKLbi3kNlPU3gl60=s1600-w6000"
+featured_image: https://lh3.googleusercontent.com/places/ANXAkqHBnfmVDIATXKPaKB1VBm5t8gmjnMRKxbZ1MHQyeEXMINq_Uppwv5c6a0XdFNKG2GNkqvpwCutjnh_g2oBFKLbi3kNlPU3gl60=s1600-w6000
+blocks:
+- type: markdown
+  content: '# Ingleborough Cave
+
+
+    Content coming soon.'
 ---
-
-# Ingleborough Cave
-
-Content coming soon.
