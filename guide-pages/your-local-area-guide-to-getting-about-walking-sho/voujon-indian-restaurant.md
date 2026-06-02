@@ -1,12 +1,14 @@
 ---
-title: Voujon Indian Restaurant
+name: Voujon Indian Restaurant
 subtitle: Take Aways/Restaurants
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 43
 icon: hugeicons:restaurant-02
-featured_image: "https://lh3.googleusercontent.com/places/ANXAkqEwIv4zziKgFfdQnJYKSfbqFKCqBccrBoRUCdjGXjnusWfE6WkcumpBJzsKm1G60ArdyHZxBjHcNeRA_EfS7Sq8o89R_K8_Ih4=s1600-w4032"
+featured_image: https://lh3.googleusercontent.com/places/ANXAkqEwIv4zziKgFfdQnJYKSfbqFKCqBccrBoRUCdjGXjnusWfE6WkcumpBJzsKm1G60ArdyHZxBjHcNeRA_EfS7Sq8o89R_K8_Ih4=s1600-w4032
+blocks:
+- type: markdown
+  content: '# Voujon Indian Restaurant
+
+
+    Content coming soon.'
 ---
-
-# Voujon Indian Restaurant
-
-Content coming soon.

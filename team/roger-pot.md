@@ -1,5 +1,7 @@
 ---
 name: Roger Pot
+blocks:
+  - type: markdown
+    content: |
+      Paul and Karen moved to the area in 2017 when looking for a property which combined their love of both horses and walking. The Yorkshire Dales provided everything they were looking for a 3 bedroom house, a 4 acre field for their three horses and a barn for stabling. Jump forward a few years and Paul had retired and Karen was working from home so the decision was made to convert the Barn for accommodation for our use and launch a holiday let utilising the farm house. This allows you to enjoy the glorious panaramic views that we never grow tired of. The area provides many opportunities to explore the adjacent summits of Rise Hill and Baugh Fell or, if you're a little more adventurous, tackle the Three Peaks from our doorstep. We welcome dogs, having two ourselves, and regularly walk a local 45 minute walk around the fields and through the village
 ---
-
-Paul and Karen moved to the area in 2017 when looking for a property which combined their love of both horses and walking. The Yorkshire Dales provided everything they were looking for a 3 bedroom house, a 4 acre field for their three horses and a barn for stabling. Jump forward a few years and Paul had retired and Karen was working from home so the decision was made to convert the Barn for accommodation for our use and launch a holiday let utilising the farm house. This allows you to enjoy the glorious panaramic views that we never grow tired of. The area provides many opportunities to explore the adjacent summits of Rise Hill and Baugh Fell or, if you're a little more adventurous, tackle the Three Peaks from our doorstep. We welcome dogs, having two ourselves, and regularly walk a local 45 minute walk around the fields and through the village

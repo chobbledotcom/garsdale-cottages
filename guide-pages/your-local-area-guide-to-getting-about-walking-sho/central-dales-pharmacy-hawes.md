@@ -1,12 +1,14 @@
 ---
-title: "Central Dales Pharmacy, Hawes"
+name: Central Dales Pharmacy, Hawes
 subtitle: Chemist
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 57
 icon: hugeicons:first-aid-kit
-featured_image: "https://lh3.googleusercontent.com/places/ANXAkqG6WytCKiUauF2UiAJH5gKTuxU_BR61R8U2c8MlHy2d-zNEwq__C_f3igS38AR8j9AvpXsASGKPcZtbDa-ZRh6ALG6Db6du7bw=s1600-w4288"
+featured_image: https://lh3.googleusercontent.com/places/ANXAkqG6WytCKiUauF2UiAJH5gKTuxU_BR61R8U2c8MlHy2d-zNEwq__C_f3igS38AR8j9AvpXsASGKPcZtbDa-ZRh6ALG6Db6du7bw=s1600-w4288
+blocks:
+- type: markdown
+  content: '# Central Dales Pharmacy, Hawes
+
+
+    Content coming soon.'
 ---
-
-# Central Dales Pharmacy, Hawes
-
-Content coming soon.

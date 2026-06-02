@@ -1,10 +1,11 @@
 ---
-title: "Dalehead Garage, Hawes"
+name: Dalehead Garage, Hawes
 subtitle: Petrol Station
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 64
 icon: hugeicons:fuel-station
-featured_image: "https://lh3.googleusercontent.com/places/ANXAkqGqdBhaXOsJSItZSdf1HtmRAcWTua6mVoPHWbqTfG5yLGKt6PaHatBZF90TUcWVt8lrLUKQYpJ3dABWGHsI4AMuPlu1zLCNtJw=s1600-w6000"
+featured_image: https://lh3.googleusercontent.com/places/ANXAkqGqdBhaXOsJSItZSdf1HtmRAcWTua6mVoPHWbqTfG5yLGKt6PaHatBZF90TUcWVt8lrLUKQYpJ3dABWGHsI4AMuPlu1zLCNtJw=s1600-w6000
+blocks:
+- type: markdown
+  content: Community owned petrol station
 ---
-
-Community owned petrol station

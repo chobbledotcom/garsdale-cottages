@@ -1,4 +1,5 @@
 ---
+name: Local Area Map
 header_text: Local Area Map
 subtitle: Explore places to eat, drink, shop and visit near Garsdale
 meta_title: Local Area Map | Garsdale Cottages
