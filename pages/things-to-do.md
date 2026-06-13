@@ -1,7 +1,7 @@
 ---
 name: Things To Do
 header_text: Things To Do
-layout: design-system-base
+layout: base
 subtitle: Activities and attractions in the Yorkshire Dales
 meta_title: Things To Do near Sedbergh and Garsdale | Yorkshire Dales
 meta_description: Things to do near Sedbergh and Garsdale - walking, wildlife watching,

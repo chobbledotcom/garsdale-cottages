@@ -1,7 +1,7 @@
 ---
 name: About Garsdale
 header_text: About Garsdale
-layout: design-system-base
+layout: base
 subtitle: A hidden gem in the Yorkshire Dales
 meta_title: About Garsdale near Sedbergh | Yorkshire Dales Holiday Cottages
 meta_description: Garsdale is a quiet valley near Sedbergh in the Yorkshire Dales

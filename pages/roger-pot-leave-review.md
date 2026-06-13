@@ -1,6 +1,6 @@
 ---
 name: Leave a Review for Roger Pot
-layout: design-system-base
+layout: base
 permalink: /properties/roger-pot/leave-review/
 header_text: Leave a Review for Roger Pot
 subtitle: Tell other guests about your stay

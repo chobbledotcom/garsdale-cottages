@@ -1,7 +1,7 @@
 ---
 name: Farming in Garsdale
 header_text: Farming in Garsdale
-layout: design-system-base
+layout: base
 subtitle: The backbone of life in the dale
 meta_title: Farming in Garsdale | Yorkshire Dales
 meta_description: Farming in Garsdale - Swaledale sheep, the farming year, and what

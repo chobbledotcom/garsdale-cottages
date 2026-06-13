@@ -1,7 +1,7 @@
 ---
 name: Garsdale Dialect
 header_text: Garsdale Dialect
-layout: design-system-base
+layout: base
 subtitle: Traditional words and phrases from the dale
 meta_title: Garsdale Dialect | Traditional Yorkshire Dales Words
 meta_description: A glossary of traditional Garsdale dialect words rooted in Old Norse,

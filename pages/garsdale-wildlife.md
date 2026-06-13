@@ -1,7 +1,7 @@
 ---
 name: Wildlife in Garsdale
 header_text: Wildlife in Garsdale
-layout: design-system-base
+layout: base
 subtitle: Red squirrels, otters, upland birds and more
 meta_title: Wildlife in Garsdale | Yorkshire Dales
 meta_description: Wildlife in Garsdale including red squirrels, otters, brown hares,

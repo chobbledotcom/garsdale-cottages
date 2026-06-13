@@ -1,7 +1,7 @@
 ---
 name: Churches and Chapels
 header_text: Churches and Chapels
-layout: design-system-base
+layout: base
 subtitle: Places of worship in Garsdale
 meta_title: Churches and Chapels of Garsdale | Yorkshire Dales
 meta_description: The churches and chapels of Garsdale, from the Anglican church of

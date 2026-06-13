@@ -1,7 +1,7 @@
 ---
 name: Ruswarp and the Settle-Carlisle
 header_text: Ruswarp and the Settle-Carlisle
-layout: design-system-base
+layout: base
 subtitle: The Border Collie who helped save a railway
 meta_title: Ruswarp and the Settle-Carlisle Railway | Garsdale Station
 meta_description: The story of Ruswarp the Border Collie, whose loyalty helped save

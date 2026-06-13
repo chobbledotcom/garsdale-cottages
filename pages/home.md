@@ -7,7 +7,7 @@ meta_title: Garsdale Cottages | Holidaying near Sedbergh, Yorkshire
 meta_description: Holiday cottages near Sedbergh in the Yorkshire Dales. Book direct
   with owners - Roger Pot (sleeps 6) and The Old Cart House (sleeps 2). No agency
   fees.
-layout: design-system-base.html
+layout: base
 permalink: /
 eleventyNavigation:
   key: Home

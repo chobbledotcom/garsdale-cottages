@@ -6,7 +6,7 @@ meta_title: Bird Watching Holiday Cottages in Garsdale | Yorkshire Dales
 meta_description: Holiday cottages perfect for bird watching in Garsdale, Yorkshire
   Dales. Spot curlews, owls, kingfishers and over 50 species from your doorstep. Book
   direct.
-layout: design-system-base.html
+layout: base
 permalink: /bird-watching-properties/
 blocks:
 - type: image-background
@@ -83,6 +83,12 @@ blocks:
     '
   figure_src: /images/wildlife/jay.jpeg
   figure_alt: Jay spotted in Garsdale woodland
+- type: bunny-video-background
+  video_url: https://player.mediadelivery.net/embed/639870/9d9a73aa-d7ae-4bef-90fc-589b6e9e30f4?autoplay=true&loop=true&muted=true&preload=true&responsive=true
+  video_title: Ducks swimming upstream on the River Clough in Garsdale
+  content: '## On the River Clough
+
+    '
 - type: split-image
   subtitle: Every season brings something different
   content: '## Seasonal Highlights

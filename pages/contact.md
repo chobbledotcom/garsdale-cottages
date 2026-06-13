@@ -1,6 +1,6 @@
 ---
 name: Contact Us
-layout: design-system-base
+layout: base
 header_text: Contact Us
 subtitle: Get in touch with Garsdale Cottages
 meta_title: Contact Garsdale Cottages

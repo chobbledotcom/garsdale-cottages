@@ -1,7 +1,7 @@
 ---
 name: Caves and Geology
 header_text: Caves and Geology
-layout: design-system-base
+layout: base
 subtitle: Caves, waterfalls and geological features around Garsdale
 meta_title: Caves and Geology around Garsdale | Yorkshire Dales
 meta_description: Caves, geological features and waterfalls near Garsdale in the Yorkshire

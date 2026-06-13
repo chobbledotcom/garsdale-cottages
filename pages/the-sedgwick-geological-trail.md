@@ -1,7 +1,7 @@
 ---
 name: The Sedgwick Geological Trail
 header_text: The Sedgwick Geological Trail
-layout: design-system-base
+layout: base
 subtitle: A walk through 300 million years of geology
 meta_title: The Sedgwick Geological Trail | Garsdale, Yorkshire Dales
 meta_description: The Sedgwick Geological Trail at Danny Bridge follows the Dent Fault

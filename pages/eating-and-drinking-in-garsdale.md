@@ -1,7 +1,7 @@
 ---
 name: Eating and Drinking
 header_text: Eating and Drinking
-layout: design-system-base
+layout: base
 subtitle: Pubs, food and drink in and around Garsdale
 meta_title: Eating and Drinking in Garsdale | Pubs and Food
 meta_description: Pubs, restaurants and local food near Garsdale in the Yorkshire

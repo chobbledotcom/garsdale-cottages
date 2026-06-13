@@ -1,7 +1,7 @@
 ---
 name: Village Hall and Community
 header_text: Village Hall and Community
-layout: design-system-base
+layout: base
 subtitle: Community life in Garsdale
 meta_title: Garsdale Village Hall and Community Life | Yorkshire Dales
 meta_description: Community life in Garsdale, including the village hall, annual events

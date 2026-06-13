@@ -1,7 +1,7 @@
 ---
 name: Garsdale Station
 header_text: Garsdale Station
-layout: design-system-base
+layout: base
 subtitle: On the Settle-Carlisle line at the top of the dale
 meta_title: Garsdale Train Station | Settle-Carlisle Railway
 meta_description: Garsdale station on the Settle-Carlisle railway line, with its signal

@@ -1,6 +1,6 @@
 ---
 name: Leave a Review for The Old Cart House
-layout: design-system-base
+layout: base
 permalink: /properties/the-old-cart-house/leave-review/
 header_text: Leave a Review for The Old Cart House
 subtitle: Tell other guests about your stay

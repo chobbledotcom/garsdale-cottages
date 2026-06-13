@@ -6,7 +6,7 @@ meta_title: Wellness Retreat Cottages in Garsdale | Yorkshire Dales
 meta_description: Garsdale holiday cottages for wellness and retreat breaks near Sedbergh
   — dark-sky stargazing, waterfalls, forest bathing and slow travel by train in the
   heart of the Yorkshire Dales National Park.
-layout: design-system-base.html
+layout: base
 permalink: /wellness-retreats/
 eleventyNavigation:
   key: Wellness Retreats
