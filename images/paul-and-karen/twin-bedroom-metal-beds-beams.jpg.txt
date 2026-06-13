@@ -1,0 +1,30 @@
+## Factual image description
+
+The image shows a bright twin bedroom in a rustic cottage style. Two single beds with dark metal frames stand side by side, each made up with white textured bedding and white pillows. A folded cream towel is visible on the foot of each bed, though the towel on the nearer bed is partly cropped at the bottom of the frame.
+
+The room has off-white walls and a white ceiling with exposed dark wooden beams, including a large rough-hewn beam running diagonally across the upper left. A black wall-mounted light with an exposed bulb is fixed to the left wall and is switched on, casting a warm glow. Between the beds and the window, a small bedside lamp with a cream shade is also lit.
+
+At the far end of the room is a white-framed, multi-paned window letting in daylight. Through the window, green foliage is visible outside. The window is dressed with mustard-and-cream patterned curtains featuring a repeated leaf or stem-like design, hung from a dark curtain rod and tied back with tasselled ties. Beneath the window is a window seat or sill with several cushions: dark green cushions, a pale lime or cream ribbed cushion, and a patterned cushion with a light background.
+
+To the right of the window stands a tall wooden chest of drawers with round dark knobs. On top of it are a few small decorative objects, including a small grey-green cup or pot. Above the chest is a rectangular mirror with a dark, textured frame, reflecting part of the room and the wall light. The floor is dark wood, partly covered in the lower right by a natural woven rug.
+
+The lighting is a mix of warm artificial light from the lamps and natural daylight from the window. The visible outdoor greenery suggests a leafy season, likely spring or summer, but the exact season is not stated in the image. No readable text or signage is visible.
+
+## Alt text suggestions
+
+**Short alt text:**  
+A bright twin bedroom with two white-made metal beds, exposed wooden beams, a window seat and a wooden dresser.
+
+**Medium alt text:**  
+A rustic twin bedroom with two dark metal-framed single beds, white bedding, exposed timber beams, patterned mustard curtains, a cushioned window seat and a wooden chest of drawers.
+
+**Detailed alt text:**  
+A light-filled cottage-style twin bedroom showing two single beds with dark metal frames and white textured bedding, folded cream towels, exposed wooden ceiling beams, warm wall and bedside lamps, mustard-and-cream patterned curtains around a bright window seat with green and pale cushions, and a wooden chest of drawers beneath a dark-framed mirror.
+
+## Caption ideas
+
+- A cosy twin bedroom with exposed beams and soft white bedding.  
+- Rustic cottage charm in a bright, light-filled twin room.  
+- Two single beds beneath timber beams, with a sunny window seat beyond.  
+- A calm, characterful bedroom with warm lighting and countryside views.  
+- Twin beds, natural textures and soft daylight create a restful retreat.

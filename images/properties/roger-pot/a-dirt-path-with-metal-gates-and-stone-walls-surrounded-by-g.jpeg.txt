@@ -1,0 +1,30 @@
+## Factual image description
+
+The image shows a bright, sunlit rural track leading uphill through a gateway into green countryside. The track is unpaved, light beige-brown in colour, and divided into two worn wheel-rut-like paths with a strip of grass growing down the middle. It begins in the foreground and curves gently upward into the distance, climbing a grassy hill.
+
+In the foreground, the track passes between stone gateposts and metal gates. On the left is a dark metal gate with vertical bars, set against a rough stone wall and a sloping grassy bank. A low dry-stone wall runs along the left side of the bank, built from irregular grey and brown stones. Above it stands a large mature tree with a thick trunk, spreading branches, and some bare twigs visible against the sky.
+
+On the right side of the gateway is a reddish-brown stone gatepost and a metal fence or gate with horizontal bars. Beyond it, dense green trees and shrubs line the edge of the track. A small section of a white building is partially visible through the trees on the right, but it is mostly obscured.
+
+Beyond the gateway, the track continues uphill between green fields. Wire fencing runs along the right side, supported by thin posts, with several young trees or saplings planted along the slope. The surrounding landscape is lush and green, with rolling hills visible in the distance. The hills are covered in grass, with some areas appearing slightly brownish or muted in tone.
+
+The sky is clear and deep blue, with no visible clouds. The lighting is bright and direct, casting distinct shadows from the trees, walls and gateposts, suggesting a sunny day. The vegetation is full and green, indicating late spring or summer. There is no visible text, signage, people, animals, or vehicles in the image.
+
+## Alt text options
+
+### Short alt text
+A sunlit dirt track climbs through metal gates between stone walls and green countryside.
+
+### Medium alt text
+A light brown farm track leads uphill through an open metal gate, flanked by dry-stone walls, grassy banks, leafy trees and rolling green hills under a clear blue sky.
+
+### Detailed alt text
+A bright rural scene showing an unpaved track with two worn paths and a grassy centre, leading uphill through a gateway. On the left, a dark metal gate stands beside a dry-stone wall and a sloping green bank with a large tree, while on the right a reddish stone post and metal fencing border the track near dense leafy trees. Beyond the gate, the path climbs between green fields, wire fencing and young trees, with rolling hills in the distance under a clear blue sky.
+
+## Caption ideas
+
+- A sunlit country track leading up through the Garsdale countryside.
+- Green hills, stone walls and a quiet dirt track on a bright summer day.
+- A rural gateway opens onto an uphill farm track surrounded by grassy slopes.
+- The path ahead: dry-stone walls, metal gates and open countryside.
+- A peaceful Dales landscape with a track climbing through fields and trees.

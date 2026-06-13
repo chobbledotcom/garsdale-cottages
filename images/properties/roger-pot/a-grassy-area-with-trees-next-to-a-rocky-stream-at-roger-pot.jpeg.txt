@@ -1,0 +1,27 @@
+## Factual image description
+
+The image shows a bright, rural streamside scene. On the left is a sloping grassy bank covered in lush, long green grass, with a few tiny pale flecks that may be small flowers or seed heads. Several deciduous trees grow along the bank, their trunks leaning slightly and their branches spreading overhead. The bark is brown-grey, with patches of moss or lichen visible on some trunks.
+
+To the right, a shallow stream flows over a bed of exposed stones and pebbles. The water is clear in places, with small reflective pools showing hints of blue sky and surrounding greenery. The stones are mainly grey, brown and tan, creating a rough, rocky streambed. A small leafy plant is visible in the lower right foreground.
+
+In the background, beyond the stream, there is more green vegetation and a low dry-stone wall running along the far bank. Through the trees, a grassy hillside can be seen in the distance. Patches of pale blue sky are visible through the leafy canopy.
+
+The lighting is bright natural daylight, with sunlight filtering through the trees and creating dappled shadows across the grass and stones. The leaves are fresh green, suggesting late spring or summer. There is no visible text, signage, buildings, people, animals or vehicles in the image.
+
+## Alt text options
+
+**Short alt text:**  
+A grassy bank with leafy trees beside a shallow rocky stream.
+
+**Medium alt text:**  
+Sunlight filters through green trees onto a grassy bank beside a shallow stream flowing over grey and brown rocks.
+
+**Detailed alt text:**  
+A sunlit grassy bank lined with leafy deciduous trees slopes down beside a shallow rocky stream, with water trickling between grey and brown stones and a stone wall visible beyond the trees in the background.
+
+## Caption ideas
+
+- Dappled sunlight beside the stream at Roger Pot.  
+- A peaceful grassy bank and rocky beck in a leafy rural setting.  
+- Fresh green trees and a shallow stream create a quiet countryside scene.  
+- Sunlit greenery along the water’s edge in Garsdale.

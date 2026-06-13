@@ -1,0 +1,28 @@
+## Factual image description
+
+A pale owl, appearing to be a barn owl, is perched on top of a stack of long, rectangular metal sections in the foreground. The owl has a white or cream heart-shaped face, pale underparts, buff-golden wings and back, and dark eyes. Its head is turned slightly toward the viewer’s right.
+
+The metal stack beneath the owl is weathered and partly rusted, with colours ranging from rusty orange-brown to dull grey. The visible surfaces have repeated punched or embossed cross-shaped patterns. The stack is arranged at an angle, rising from the lower right toward the centre of the frame.
+
+Behind the metal stack, there is a low dry-stone wall and a section of green mesh fencing. In the lower left foreground, moss-covered stones are visible beside the fence. Beyond this, the background is a rural upland landscape of rolling hills and fields. The fields are a mix of green pasture and drier golden-brown grass. Several dry-stone walls run across the slopes, and a few scattered trees with light green foliage stand in the middle distance.
+
+The lighting is warm and directional, suggesting low sunlight, possibly early morning or late afternoon. It casts soft shadows across the hills and gives the grass a golden glow. The season appears to be spring or summer, based on the green grass and leafy trees, though the exact season cannot be confirmed from the image alone. No text, signs, or readable lettering are visible.
+
+## Alt text options
+
+**Short alt text:**  
+A barn owl perched on rusty metal beams with green hills behind it.
+
+**Medium alt text:**  
+A pale barn owl stands on a stack of weathered, rusted metal plates, with dry-stone walls, trees and sunlit green hills in the background.
+
+**Detailed alt text:**  
+A barn owl with a white heart-shaped face and buff-brown wings perches on the top of a stack of rusty metal beams. Behind it are a green mesh fence, dry-stone walls, scattered trees and rolling grassy hills marked with green and golden-brown patches.
+
+## Caption ideas
+
+- A barn owl takes a sunny perch above the Dales.
+- Rural wildlife in the Yorkshire countryside.
+- An owl overlooks the green hills from a stack of farm materials.
+- A quiet wildlife moment against a sunlit rural landscape.
+- Barn owl visitor in the Garsdale countryside.

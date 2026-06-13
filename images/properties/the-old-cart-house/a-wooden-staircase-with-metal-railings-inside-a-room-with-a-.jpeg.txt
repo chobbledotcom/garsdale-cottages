@@ -1,0 +1,33 @@
+## Exhaustive description
+
+The image shows the interior of a rustic, cottage-style room dominated by a thick wooden open-tread staircase. The staircase rises from the lower left toward an upper landing. Its steps are made of heavy, weathered timber planks with visible grain, knots and wear. The risers are open, allowing views through to the spaces behind and beneath the stairs. A railing made of dark, twisted vertical metal rods runs along the side of the staircase, attached to a heavy timber beam or handrail.
+
+In the foreground on the right is a large, rough-hewn vertical wooden post, pale brown in colour, with visible knots, holes and textured grain. It partially frames the view into the room beyond.
+
+At the top of the staircase, on the upper landing, there is a pale turquoise or mint-green painted chest or trunk with small decorative details. On top of it sits a basket containing dried grasses or dried plant stems. Behind the chest is a window with patterned curtains, letting in natural daylight.
+
+Through the gaps in the staircase, parts of a lower or adjacent room are visible, including shelves or surfaces with various household items, pans or containers, and another window in the background. The view is partially obscured by the steps and railings.
+
+Beyond the staircase and metal rods, the room continues into a living area with exposed wooden ceiling beams and polished wooden floorboards. A small wooden table or desk holds an old black sewing machine; the word “SINGER” is visible in white lettering on the side of the machine/table. Above it, a wall-mounted lamp with a dark fitting and exposed bulb gives off warm light.
+
+To the right, there is a patterned sofa or daybed with floral-style upholstery in muted reds, browns and greens. A white radiator is visible behind it. The walls are cream or off-white. Two warm wall lights are visible in the background, along with a small framed picture on the far wall. The overall colour palette is warm and natural, with browns, creams, dark metal tones, muted reds and the pale turquoise chest.
+
+Lighting is a mix of natural daylight from windows and warm artificial light from wall lamps. No season is directly visible, as the image is entirely indoors. The only readable text is “SINGER” on the sewing machine table. No other signage is visible.
+
+## Alt text options
+
+**Short alt text:**  
+A rustic wooden open staircase with twisted metal railings inside a cottage interior.
+
+**Medium alt text:**  
+Thick wooden open-tread stairs rise beside twisted metal railings, with exposed beams, a sewing machine table and a patterned sofa visible in the warm-lit room.
+
+**Detailed alt text:**  
+Inside a rustic cottage interior, an open wooden staircase with heavy timber treads and dark twisted metal rods leads to an upper landing. A pale turquoise chest with a basket of dried grasses sits near a curtained window, while exposed beams, a Singer sewing machine table and a patterned sofa are visible beyond.
+
+## Caption ideas
+
+- Rustic timber stairs and iron-style railings inside a countryside cottage.
+- Open-tread wooden stairs lead through an exposed-beam interior.
+- Warm wood, metal details and vintage furnishings create a cosy cottage atmosphere.
+- A view of the staircase area, with a sewing machine table and sitting space beyond.

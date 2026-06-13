@@ -1,0 +1,27 @@
+### Factual image description
+
+A smiling adult woman with short, curly white-gray hair stands in the foreground on a bridge, facing the camera. She is leaning slightly against a gray metal railing with her left hand resting on the top rail. She wears a dark blue short-sleeved top with a small floral pattern in white, yellow, and pale blue; olive-green trousers; and blue sneakers with pink laces. A blue backpack strap is visible over her shoulder. She has a gold-coloured bracelet on her right wrist and a darker bracelet or watch on her left wrist.
+
+The bridge surface in the foreground is made of rounded cobblestones or setts with grass growing between some of the gaps. A gray metal railing runs horizontally across the image, with thick vertical posts, horizontal rails, and thinner vertical bars or mesh. Hanging from the railing to the viewer’s left is a large basket of trailing green foliage with abundant pink and purple flowers, plus a few yellow flowers.
+
+Behind the railing is a calm canal or river with dark greenish-brown water. On the far bank are tall, closely spaced European-style buildings. The buildings have pitched roofs, chimneys, dormer windows, shutters, and multiple rows of windows. Colours include pale cream, beige, pale pink/peach, and a timber-framed building with dark wooden beams on the far right. Some windows have white or pale blue shutters, and there are flower boxes visible on the timber-framed building. Green trees, shrubs, and small plants grow along the water’s edge and between some buildings. A small boat is partly visible moored along the far bank on the left.
+
+The sky above is blue with scattered white clouds. The lighting is natural daylight, fairly bright but soft, with no strong harsh shadows. The scene appears to be in late spring or summer because of the leafy greenery, blooming flowers, and the woman’s short-sleeved clothing. No readable text, signs, logos, or labels are visible.
+
+### Alt text options
+
+**Short alt text:**  
+A smiling woman stands on a bridge beside a canal, with historic buildings and flowering baskets behind her.
+
+**Medium alt text:**  
+A woman with short gray hair, wearing a floral top and green trousers, leans on a gray bridge railing over a canal, with colorful shuttered buildings and flowers in the background.
+
+**Detailed alt text:**  
+A smiling woman with short curly gray hair stands on a cobblestone bridge, leaning on a gray metal railing beside a hanging basket of pink flowers. She wears a dark floral top, olive trousers, and blue sneakers. Behind her, a calm canal is lined with tall European-style buildings with shutters, timber framing, greenery, and a partly cloudy blue sky.
+
+### Caption ideas
+
+- A pause on a picturesque canal bridge.  
+- Colorful buildings and blooming flowers make a charming backdrop.  
+- Enjoying a sunny day by the water.  
+- Historic streets, flowing water, and a bridge-top view.

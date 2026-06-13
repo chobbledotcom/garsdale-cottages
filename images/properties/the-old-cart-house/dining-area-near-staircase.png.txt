@@ -1,0 +1,31 @@
+## Factual image description
+
+The image shows a compact, rustic kitchen and dining area inside a cottage-style interior. In the foreground, a dark polished wooden table with turned legs occupies the lower left. On the table sits a dark woven basket with a handle, containing brightly coloured fabric or paper items and a dark bottle.
+
+To the left, a wooden staircase rises diagonally toward the upper left. It has a heavy timber side beam/stringer, wooden treads, and thin vertical metal balusters. A plain white wall is visible behind the staircase.
+
+Beneath and beside the staircase is a fitted kitchen area. A white front-loading washing machine is tucked under the countertop, next to a small white fridge/freezer. Above the counter, light-coloured stone-effect worktops run along the back wall. A silver microwave sits on the counter, with wooden wall shelves above it holding bowls, plates and other kitchenware. Several white mugs hang from hooks beneath a shelf.
+
+Further along the kitchen counter is a stainless steel sink with a black tap, positioned beneath a white-framed window. The window is dressed with patterned curtains in warm red/orange tones with blue lining, tied back at the sides. Green foliage is visible outside, suggesting a growing season, though no specific season can be confirmed.
+
+To the right of the sink, the counter continues with a black glass hob and a black built-in oven below, featuring a horizontal silver handle. The cupboard space beneath the sink is covered by a long patterned fabric curtain in red, green and cream tones.
+
+The room has exposed wooden ceiling beams, light-coloured tiled or stone flooring, and warm artificial track lighting mounted near the beams. Natural daylight enters through the window, illuminating the kitchen area. No people, animals, readable text or signage are visible.
+
+## Alt text options
+
+**Short alt text:**  
+A rustic cottage kitchen with a wooden staircase, dining table and curtained window.
+
+**Medium alt text:**  
+A dark wooden table with a basket sits beside a timber staircase in a compact cottage kitchen with white appliances, exposed beams and patterned curtains.
+
+**Detailed alt text:**  
+Inside a rustic cottage kitchen, a dark wooden table holds a woven basket of colourful items beneath a wooden staircase with metal balusters. Behind it are a washing machine, small fridge, microwave, sink, black oven and patterned curtains, with exposed beams and daylight from the window.
+
+## Caption ideas
+
+- A cosy cottage kitchen tucked beside a wooden staircase.  
+- Rustic beams, timber stairs and patterned fabrics create a warm holiday-cottage feel.  
+- Compact kitchen space with dining table, white appliances and a window overlooking greenery.  
+- The Old Cart House kitchen and dining area, featuring exposed wood and cottage-style details.

@@ -1,0 +1,31 @@
+## Factual image description
+
+The image shows an outdoor interpretation board set into a low dry-stone structure in an open upland landscape. The board is the main foreground subject and is tilted upward for viewing. It is framed in weathered timber and supported by rough grey-brown stone walls on either side. The stones are uneven and dry-stone built, with patches of yellow-green lichen or moss.
+
+The information panel has a pale background with a green/teal decorative border. The large readable title at the top says:
+
+**“Adam Sedgwick and the Dent fault”**
+
+The panel includes several illustrated sections. On the left side there is a line-drawing portrait of a man, likely Adam Sedgwick, with text beside it. Below that are drawings of fossil-like shells or geological specimens. In the centre is a landscape illustration showing hills and fields, with smaller explanatory text around it. The right-hand side contains blocks of text that are not legible at this resolution. Below the main board, a small additional label appears to read **“Sedgwick Rock Scouring Group”**, though it is partially obscured. To the lower right there is a small metal plaque and a circular badge or marker.
+
+Behind the board, the ground slopes away into a rural valley landscape. The foreground grass is mostly brown and dormant, with scattered patches of white snow, suggesting winter or very early spring. The midground includes rough grassland, darker low vegetation, and scattered trees or small woodland areas. In the distance are rounded hills and fells with slopes in shades of brown, tan, olive green and muted purple-grey. Some slopes are sunlit while others are in shadow. A winding pale feature, possibly a road, track or stream, runs through the valley.
+
+The sky is pale blue with broad white and grey clouds stretching across the upper part of the image. The lighting is bright but soft, with winter sunlight illuminating parts of the hills and snow. No people or animals are visible.
+
+## Alt text options
+
+**Short alt text:**  
+An outdoor information board about Adam Sedgwick and the Dent fault overlooks snow-dusted rolling hills.
+
+**Medium alt text:**  
+A tilted interpretation panel titled “Adam Sedgwick and the Dent fault” is set in a low stone wall, with fossil illustrations and a landscape diagram, overlooking snowy upland hills under a cloudy blue sky.
+
+**Detailed alt text:**  
+An outdoor geology information board titled “Adam Sedgwick and the Dent fault” is mounted in a weathered dry-stone structure in the foreground. The panel shows text, a portrait, fossil illustrations and a landscape diagram, while snow-dusted grassland, distant rounded hills, bare trees and a pale blue cloudy sky fill the background.
+
+## Caption ideas
+
+- “An outdoor geology board explaining Adam Sedgwick and the Dent fault, set against a snowy Dales landscape.”
+- “Winter snow patches and rolling hills frame an information board about local geological history.”
+- “Learning about Adam Sedgwick and the Dent fault in the hills above Garsdale.”
+- “A quiet rural viewpoint with a stone-mounted interpretation panel overlooking the valley.”

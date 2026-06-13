@@ -1,0 +1,28 @@
+## Factual image description
+
+The image shows a wide, bright rural upland landscape. In the foreground, a rough grassy track or double-rutted path runs from the lower centre toward the left middle distance. The path is pale grey-brown with exposed stones, grass growing through it, and muddy patches. In the lower left, an irregular puddle reflects the blue sky and white clouds.
+
+Around the path are lush green grasses, taller grass tussocks, and a few small yellow flowers. Across the middle ground is a stretch of exposed grey fractured rock pavement, with angular weathered blocks and cracks, extending from the right side toward the centre. Beyond the rocks is an open yellow-green pasture. A low dark stone wall runs horizontally across the field in the distance. On the far left, three very small human figures are visible near the path and wall; their details are not distinguishable.
+
+To the right, leafy green trees and shrubs grow at the edge of the rocky area, with trunks and branches partly visible. The background is dominated by a large broad mountain with a flat, plateau-like summit. Its slopes are mostly green, with darker exposed rock bands, gullies and shadowed areas below the top.
+
+The sky is bright blue with scattered white cumulus clouds, including a large cloud mass on the right. The lighting is bright daylight, with sunlit grass and rocks and cloud shadows across the hillside. The lush grasses and fully leafed trees suggest late spring or summer. No text, signs, buildings, vehicles or other man-made structures are visible except the distant wall.
+
+## Alt text options
+
+**Short alt text:**  
+A grassy track and puddle lead through limestone pavement toward a broad green mountain under a blue cloudy sky.
+
+**Medium alt text:**  
+A sunny upland landscape with a rough path, a sky-reflecting puddle, grey limestone rocks, green pasture and a flat-topped mountain in the distance.
+
+**Detailed alt text:**  
+On a bright day, a rough grassy track with a muddy puddle runs through green tussocks and exposed grey limestone pavement. Beyond a low stone wall and tiny distant walkers, a large flat-topped green mountain rises beneath a blue sky with white clouds.
+
+## Caption ideas
+
+- A sunny walk through limestone pavement toward Ingleborough.  
+- Green pasture, limestone rocks and a flat-topped hill in the Yorkshire Dales.  
+- A puddle reflects the blue sky on a rural upland path.  
+- Open countryside beneath a broad green mountain.  
+- Limestone pavement and rolling green hills on a bright day.

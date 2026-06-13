@@ -1,0 +1,29 @@
+## Factual description
+
+The image shows a bright, rustic bedroom with white walls and exposed timber beams. In the foreground, a bed is covered with a patchwork quilt featuring geometric triangles and diamonds in shades of white, pale blue, turquoise, darker blue and green. Bright sunlight falls diagonally across the quilt from the left, creating strong highlights and soft shadows. At the right edge of the bed, a folded plaid blanket or throw appears in dark blue, green and white.
+
+On the left side of the room is a white radiator beneath a rectangular mirror with a wooden frame. Above the mirror hangs a small framed picture of a bird. Further right, above a recessed window, is a black metal decorative silhouette of birds on a branch. The window has a white frame and is dressed with a blue-and-white floral curtain. On the windowsill sits a small white plant pot with dark lettering that is not fully legible, holding a small arrangement of flowers and greenery.
+
+Next to the window is a small wooden bench or low shelving piece with a blue-and-white patterned cushion and a wooden box or crate-like object above it. Wooden clothes hangers are visible in a small alcove near the ceiling.
+
+Across the right side of the room is a large, weathered wooden sliding barn-style door on a black metal track with visible roller hardware. The door is made of distressed wooden panels with worn orange-brown and green paint. It is partly open, revealing a bathroom beyond. The bathroom has glossy dark green tiles on the lower wall, white tiles above, and a white toilet with the lid closed. A small mirror, a small wall sign or plaque, and a white square object with a dark circular design are visible inside the bathroom.
+
+The room has a cottage-style feel, with rough wooden beams, a copper or brass-coloured teapot resting on one beam, and a horseshoe hanging from another. No people are visible. No readable text is visible, apart from partial, illegible lettering on the plant pot and an unreadable sign in the bathroom. The season cannot be determined from the image; the view through the window is bright and mostly washed out, while the indoor flowers add a fresh decorative detail.
+
+## Alt text options
+
+**Short alt text:**  
+A sunlit rustic bedroom with a blue-and-green patchwork quilt and a weathered sliding wooden door.
+
+**Medium alt text:**  
+A bright cottage-style bedroom with exposed wooden beams, a blue-and-green patchwork quilt, a floral-curtained window, and a distressed sliding barn door opening to a green-tiled bathroom.
+
+**Detailed alt text:**  
+Sunlight falls across a blue, green and white geometric patchwork quilt in a rustic bedroom with white walls, exposed timber beams, a floral-curtained window, and a weathered wooden sliding door revealing a white toilet and green-tiled bathroom beyond.
+
+## Caption ideas
+
+- Sunlight brightens the rustic bedroom and its blue-and-green patchwork quilt.  
+- A weathered sliding wooden door adds character to this cottage-style bedroom.  
+- Exposed beams, floral details and patchwork fabrics create a cosy rural feel.  
+- A glimpse into the green-tiled bathroom from the bright, rustic bedroom.

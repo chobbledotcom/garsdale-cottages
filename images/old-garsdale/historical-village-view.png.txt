@@ -1,0 +1,33 @@
+## Factual description
+
+This is a historical monochrome/sepia-toned photograph taken from an elevated viewpoint looking down over a rural valley settlement. The scene shows fields, dry-stone walls, stone farm buildings, a pale two-storey house, a curving road, trees, and a rising hillside in the background.
+
+In the foreground, there is rough grassy ground with many small pale flower-like specks. A low dry-stone wall runs across the lower part of the image, with two small metal gates or gate frames visible near the lower left. Beyond this wall is a grassy enclosure divided by further low stone walls. Several bright white streaks and marks are visible across the photograph, especially over the foreground field and near the left-hand buildings; these appear to be scratches or marks on the print rather than objects in the scene.
+
+On the left side of the middle ground stands a rough stone barn or outbuilding with a dark pitched roof. A smaller lean-to or shed-like extension is attached to its front. Nearby are low stone walls and what appear to be ruined or partially collapsed wall sections.
+
+At the centre of the image, a narrow road curves around a pale, rendered or whitewashed two-storey house. A pale curved road marking is visible along the bend. The house has a dark pitched roof, several chimneys, an arched central doorway with a small porch roof, upper-floor windows, and ground-floor windows on either side of the door. Attached or immediately adjacent to its right is a longer building with a dark roof and light-coloured walls, also with chimneys.
+
+In front of that longer building is a rectangular stone barn with a dark pitched roof and a small window on its visible side. To the right, further stone buildings and walls are visible, partly set back from the road.
+
+Behind the central buildings is a large pale open field, with a utility pole near the road bend. Beyond the field, a line of mature trees and hedgerows separates the foreground area from more distant buildings and fields. The background is dominated by a large rising hillside covered with fields, scattered trees, and field boundaries. Distant rounded hills are visible on the left horizon beneath a cloudy sky.
+
+The lighting is soft and diffuse, suggesting overcast conditions. The image has the grain, low contrast, and blemishes typical of an older photograph. Trees are in leaf and the foreground grass appears to contain small pale flowers, suggesting a growing-season scene, likely spring or summer. No readable text, signs, people, animals, or clearly identifiable vehicles are visible.
+
+## Alt text options
+
+**Short alt text:**  
+Historic black-and-white view of stone cottages, barns and fields beside a curving rural lane.
+
+**Medium alt text:**  
+Sepia-toned historical photograph of a rural valley settlement, showing dry-stone walls, stone barns, a whitewashed house, a curving road and a tree-dotted hillside.
+
+**Detailed alt text:**  
+Elevated sepia-toned view over grassy fields and dry-stone walls toward a small rural hamlet, with rough stone barns, a pale two-storey cottage with a dark roof, a curving lane, open fields, scattered trees and a rising hillside under a cloudy sky.
+
+## Caption ideas
+
+- A historic view of Garsdale’s stone buildings and curving lane.  
+- Dry-stone walls, barns and a whitewashed cottage in a rural valley scene.  
+- Looking across fields toward the older village buildings of Garsdale.  
+- A quiet historical photograph of farm buildings and cottages beneath the hillside.

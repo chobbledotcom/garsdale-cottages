@@ -1,0 +1,30 @@
+## Factual image description
+
+The image shows a wide rural landscape dominated by a range of rounded hills or fells with snow-covered upper slopes. The sky is a deep, clear blue and takes up much of the upper half of the image. A few small, thin white clouds are visible, mainly in the upper left, with fainter wisps toward the right.
+
+Across the middle distance, the snow-covered hills stretch across the frame. The snow is bright white on the summits and upper slopes, with subtle grey shadows and darker brown or muted green patches where the ground shows through. The hills have soft, rolling contours rather than jagged peaks. Below the snowline, the lower slopes are a mix of green pasture, brownish moorland or heath, and darker patches of trees or woodland. Faint linear markings run across some slopes, suggesting field boundaries, tracks, walls or natural ridges.
+
+The middle ground consists of rolling green fields and pastures, divided by darker lines that appear to be hedgerows, walls or boundaries. There are scattered clusters of trees and shrubs, mostly leafless, in shades of brown, grey and russet. A darker band of trees sits on one of the lower hill slopes. Small pale shapes in the fields may be distant buildings or light-coloured features, but they are not clearly defined.
+
+In the foreground, there is a field of dry, golden-brown grass and rough vegetation. Beyond it, the landscape rises into greener fields and bare-branched trees. The combination of snow on the hills, bare trees and fresh-looking green fields suggests late winter or early spring.
+
+The lighting is bright and clear, with strong daylight illuminating the snow and fields. Shadows on the hills and trees indicate direct sunlight. There is no visible text, signage, people, vehicles or prominent buildings.
+
+## Alt text options
+
+**Short alt text:**  
+Snow-capped fells rise above green fields under a clear blue sky.
+
+**Medium alt text:**  
+A bright rural landscape with snow-covered rounded hills beyond green fields, hedgerows and bare trees, with dry golden grass in the foreground.
+
+**Detailed alt text:**  
+Under a deep blue sky with a few small white clouds, a range of rounded snow-capped fells stretches across the horizon. Their lower slopes show green fields, brown heath and dark tree cover, while the foreground contains golden-brown grass and clusters of leafless trees in a rural valley.
+
+## Caption ideas
+
+- Snow-capped fells above the green valley.
+- Clear blue skies over a bright winter landscape.
+- Rolling hills, green fields and snowy summits.
+- A crisp day in the countryside, with snow still on the fells.
+- Golden grass in the foreground and snow-covered hills beyond.

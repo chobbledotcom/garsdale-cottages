@@ -1,0 +1,27 @@
+## Factual image description
+
+The image shows a bright rural pasture scene divided by a long dry-stone wall. The wall runs across the middle of the frame, separating a grassy foreground from another green field beyond. It is built from irregular, weathered stones in shades of grey, beige, tan and brown, stacked without visible mortar. The top of the wall is uneven, and one small reddish-brown rectangular stone is visible near the right side.
+
+On the near side of the wall, several young white lambs are visible. One lamb stands alone in the foreground toward the right of the wall, facing slightly left. To the left, a small group of lambs is gathered close to the wall, some facing the wall and others turned toward each other. Their wool appears white or cream-coloured.
+
+Beyond the wall, the background field is green, with several more sheep scattered in the distance. A line of bare-branched trees runs across the upper part of the scene, behind the far field. Behind the trees, there is a gently rising grassy slope with more fields and another faint stone wall or boundary line visible in the distance.
+
+The lighting is bright and sunny, with strong highlights on the grass and stones and clear shadows cast by the lambs and wall. The combination of lambs, fresh green grass and leafless trees suggests early spring. No text, signage, buildings, people, vehicles or sky are visible.
+
+## Alt text options
+
+**Short alt text:**  
+White lambs stand beside a dry-stone wall in a green field.
+
+**Medium alt text:**  
+Several white lambs are gathered on a grassy slope beside a long dry-stone wall, with more sheep and bare trees in the field beyond.
+
+**Detailed alt text:**  
+A sunlit rural scene showing several white lambs beside a long dry-stone wall that runs across a green pasture. One lamb stands alone in the foreground while others cluster near the wall on the left; more sheep graze beyond the wall, with bare trees and rolling fields in the background.
+
+## Caption ideas
+
+- Spring lambs beside a traditional dry-stone wall.  
+- A sunny rural pasture scene with lambs and green fields.  
+- Lambs gather by a weathered stone wall in the countryside.  
+- Fresh spring grass, bare trees and lambs signal the changing season.

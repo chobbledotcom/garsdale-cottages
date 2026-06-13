@@ -1,0 +1,30 @@
+### Factual image description
+
+A narrow rural road runs along the left side of the image, curving gently into the distance. It is bordered by a low, dry-stone wall that extends from the foreground into the middle distance, separating the road verge from a stream or beck. The coping stones on top of the wall have small patches of snow on them.
+
+To the right of the wall, a shallow, fast-moving stream flows through the scene. Dark water moves over and around rocks, with white patches of snow or ice visible on stones and in places on the water’s surface, suggesting cold winter conditions. The stream runs parallel to the road and wall, leading the eye toward the background.
+
+On the far right, the ground rises into a wooded bank covered with reddish-brown fallen leaves, dry bracken, mossy stones and bare deciduous trees. The trees have intricate, leafless branches, indicating late autumn or winter. Some blue sky is visible through the branches in the upper right, though much of the sky is pale and cloudy.
+
+Along the left verge beside the road are tall dry grasses and brownish vegetation, with some green plants still visible. In the distance on the left, there are buildings beside the road, including what appears to be a light-coloured structure with a dark roof. A light-coloured car is visible on or beside the road, with another darker vehicle partly visible nearby. Farther beyond, rolling hills or moorland slopes rise under a cloudy sky, with pale patches that may be snow or exposed ground.
+
+The overall colours are muted winter tones: grey road and sky, brown grasses and leaves, dark water, pale stone, and small white areas of snow or ice. The lighting is soft and diffuse, with no strong shadows. No readable text or signage is visible in the image.
+
+### Alt text options
+
+**Short alt text:**  
+A snowy stone wall runs beside a partially frozen stream and a narrow country road in winter.
+
+**Medium alt text:**  
+A narrow rural road follows a dry-stone wall beside a partially frozen stream, with bare trees, brown bracken and snow-dusted hills in the background.
+
+**Detailed alt text:**  
+A winter scene beside a narrow country road, where a dry-stone wall with snow on its coping stones runs alongside a dark, partially frozen stream. Bare trees and reddish-brown fallen leaves cover the bank on the right, while distant buildings, vehicles and snow-patched hills are visible under a cloudy sky.
+
+### Caption ideas
+
+- Winter along the road beside The Old Cart House.
+- A quiet rural lane, a stone wall and a partially frozen beck in Garsdale.
+- Snow-dusted stone walls and bare winter trees frame the stream.
+- Cold, clear winter colours in the Yorkshire Dales countryside.
+- The stream beside the road shows the quiet beauty of rural Cumbria in winter.

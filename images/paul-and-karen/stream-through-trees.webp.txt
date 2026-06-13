@@ -1,0 +1,28 @@
+## Objective image description
+
+The image shows a sunlit rural stream scene beside a wooded bank. A shallow, stony stream runs diagonally from the middle distance toward the lower right foreground. Its bed is made up of many rounded stones and pebbles in shades of grey, brown and tan, with small areas of clear, reflective water between them. Some water near the foreground has a slightly brownish tint.
+
+On the left side, a grassy bank slopes gently downward toward the stream. The grass is long, lush and bright green, with patches of dappled sunlight and shadow cast by the trees. Several deciduous trees grow along the bank, their trunks grey-brown and textured, some covered with patches of green moss. Their branches spread overhead, filling much of the upper frame with fresh green leaves. Small glimpses of pale blue sky and bright daylight show through the canopy.
+
+On the far side of the stream, more trees and shrubs grow along the bank. A low dry-stone wall is visible behind some of the foliage on the right, running along the edge of a grassy area beyond the stream. In the background, green hillsides or fields can be seen through gaps in the trees.
+
+The lighting is bright and natural, with strong sunlight filtering through the leaves and creating contrast between illuminated grass and shaded areas. The overall colours are dominated by vivid greens, greys, browns and the pale blue-white of the sky. The scene suggests late spring or summer because the leaves are full and bright green and the grass is lush. There is no visible text or signage in the image.
+
+## Alt text options
+
+**Short alt text:**  
+A shallow stony stream flows beside a grassy, tree-lined bank in bright sunlight.
+
+**Medium alt text:**  
+A sunlit rural stream with a rocky bed winds past a lush green grassy bank lined with mossy trees and leafy branches.
+
+**Detailed alt text:**  
+A shallow stream flows over grey and brown stones beside a lush green bank. Mossy tree trunks and bright leafy branches line the left side, casting dappled shadows on the grass, while a low stone wall and green hillside are visible beyond the trees on the far bank.
+
+## Caption ideas
+
+- A peaceful tree-lined stream in the Garsdale countryside.
+- Sunlight and shade through the leaves beside a shallow rocky beck.
+- Lush green banks and a stony stream in rural Cumbria.
+- A quiet woodland waterway near the Yorkshire Dales.
+- Bright summer greenery along a gentle rural stream.

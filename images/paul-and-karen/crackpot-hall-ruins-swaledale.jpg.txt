@@ -1,0 +1,32 @@
+## Visible description
+
+The image shows a wide rural upland landscape dominated by green hills, old stone ruins, and a bright cloudy sky.
+
+In the foreground and lower middle of the image, there is a grassy slope with scattered stones and a low dry-stone wall running diagonally from the lower right toward the centre. Set into this slope is a group of rough stone buildings. One rectangular stone building still has a pitched roof covered with grey-brown slabs or tiles. Next to it are roofless ruined walls with open doorways and window-like openings. Some walls are partially collapsed, and the stonework is weathered brown and grey. A small wooden fence or gate is visible near the roofed building.
+
+Around the ruins, the grass is bright green with patches of yellow-green and darker vegetation. There are a few low shrubs or bracken-like plants near the walls. Behind the ruins, a small group of dark evergreen trees stands on the hillside.
+
+The background opens into a broad valley between steep, rounded hills. The hills are covered mainly in green grass, with patches of darker vegetation, scattered trees, and dry-stone walls crossing the slopes. Farther down the valley, the landscape becomes a patchwork of fields, hedgerows or walls, and clusters of trees. Tiny distant buildings or farm structures may be visible, but they are not clearly detailed.
+
+The sky takes up much of the upper part of the image. It is bright blue with scattered white and pale grey cumulus clouds. Sunlight is strong, creating bright highlights on the grass and stone and casting shadows from the clouds across the hills. The overall colours are vivid greens, blue sky, white clouds, and earthy grey-brown stone.
+
+The scene appears to be in late spring or summer, based on the lush green grass and leafy trees. There are no visible people, animals, vehicles, text, or signage in the image.
+
+## Alt text options
+
+**Short alt text:**  
+Stone ruins and a roofed stone building sit on a grassy hillside in a green valley under a cloudy blue sky.
+
+**Medium alt text:**  
+A sunlit roofed stone building stands among roofless stone ruins beside dry-stone walls, overlooking a lush green valley between rolling hills under a blue sky with white clouds.
+
+**Detailed alt text:**  
+A wide landscape view of weathered stone ruins and one intact roofed stone building set within dry-stone walls on a grassy hillside. Beyond the ruins, a broad green valley stretches between steep rounded hills marked by fields, trees, and stone walls, while a bright blue sky filled with white clouds casts shadows across the landscape.
+
+## Caption ideas
+
+- Stone ruins overlooking a green Dales valley beneath a bright cloudy sky.  
+- A roofed stone building stands among old ruins on a sunlit hillside.  
+- Lush green hills and weathered stone walls frame a quiet rural valley.  
+- Ruins and dry-stone walls on a grassy slope above a broad upland valley.  
+- Sunlight and cloud shadows move across a green valley landscape.

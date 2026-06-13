@@ -1,0 +1,28 @@
+## Objective description
+
+The image shows a quiet rural upland landscape under a pale, hazy sky. The sky takes up most of the frame and is a muted grey-blue with no clearly visible clouds. A bright round celestial body, likely the moon, appears left of centre above the distant hills, glowing pale yellow-white with a soft halo.
+
+Below the sky are rolling moorland hills covered in short, rough vegetation. The foreground and midground slopes are a mix of dull green, yellow-brown and tawny grass tones, suggesting open fell or moorland. A darker, shadowed slope rises on the left, with patches of deeper green or brown vegetation. In the distance, the hills flatten into a hazy brownish-grey horizon.
+
+A narrow dark asphalt road curves from the lower right of the image toward the centre-left, disappearing over the brow of the hill. A broken white centre line runs along the road. Near the bend are two small yellow rectangular roadside signs with black chevron-style arrows indicating a left-hand curve. A small white triangular sign or marker is visible a little further along the road. At the very bottom edge, a small part of an orange triangular sign is visible, but its full text or symbol is cut off.
+
+There are a few small pale patches on the grassy slopes, but they are not clear enough to identify confidently. No people, vehicles, buildings or readable text are visible. The lighting is soft and diffuse, with low contrast, giving the scene a calm dawn, dusk or overcast appearance. The season is not certain, but the muted green and brown vegetation suggests late summer, autumn or early spring rather than lush summer growth.
+
+## Alt text options
+
+**Short:**  
+A bright moon hangs over a winding road through grassy moorland hills.
+
+**Medium:**  
+A pale moon shines in a hazy grey-blue sky above a curving road through green and brown upland moorland, with yellow bend signs beside the road.
+
+**Detailed:**  
+A rural upland scene showing a bright round moon in a pale grey-blue sky above rolling green-brown hills. A dark road curves left over the hill, marked by a white centre line and two yellow chevron bend signs, with a partially visible orange triangular sign at the bottom edge.
+
+## Caption ideas
+
+- Moonlight over the fell road.  
+- A quiet curve through the moorland under a pale moon.  
+- Soft light and open hills above Garsdale.  
+- Yellow bend signs mark the road as it climbs through the fells.  
+- A calm upland evening with the moon rising over Langstone Fell.

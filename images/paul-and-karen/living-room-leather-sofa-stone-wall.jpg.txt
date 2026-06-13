@@ -1,0 +1,33 @@
+## Factual description
+
+The image shows a bright, rustic living room in a cottage-style interior. The viewpoint looks diagonally across the room toward an open white doorway leading outside.
+
+On the left is a tall exposed stone wall made of pale cream, beige and grey stones with visible mortar. Two dark, rough wooden beams run horizontally through the stonework near the top. A square carved wooden plaque is mounted on the wall, but any text or design on it is not clearly readable. High near the ceiling, a small black speaker is fixed to the wall.
+
+Against the stone wall stands a long honey-coloured wooden console table. On it are a woven rectangular tray, a small amber candle on a square coaster, and a dark irregular tray holding small candle-holder-style objects.
+
+The floor is paved with large pale flagstones in grey-beige tones. In the centre, an open white door reveals a very bright exterior scene with greenery and a dry-stone wall, suggesting a sunny day in a rural setting. A light doormat is visible at the threshold, and a walking stick leans against the wall just inside or beside the doorway.
+
+On the right side of the image is a large dark brown leather sofa with thick cushioned back sections. A red patterned cushion is partly visible, along with the edge of a patterned rug in the lower right corner. Behind the sofa is a small wooden side table with a lit table lamp that has a cream pleated shade. Above it hangs a small framed picture with a wooden frame.
+
+The right-hand walls are painted white. A black curtain pole runs above a window, with a golden-beige curtain tied back on the left side. The white-framed multi-pane window looks out onto green fields or garden foliage. Beneath the window is a white built-in ledge or window seat with a cupboard below, featuring a white panelled door and a small black knob. On the window ledge are several small decorative wooden items, including a star-shaped ornament; any markings on them are not clearly readable.
+
+A large rough timber beam crosses part of the white ceiling in the upper right. The colours are warm and natural: pale stone, white walls, honey wood, dark brown leather, beige-gold curtains and bright green outdoor tones. Lighting is mainly natural daylight from the open door and window, with additional warm light from the table lamp. The greenery outside suggests spring or summer, though the exact season cannot be confirmed from the image alone. No people, animals, or clearly readable text/signage are visible.
+
+## Alt text options
+
+**Short alt text:**  
+A bright rustic living room with an exposed stone wall, leather sofa and open door to green countryside.
+
+**Medium alt text:**  
+A cottage living room with pale flagstone flooring, an exposed stone wall, honey-coloured wooden table, dark brown leather sofa, beige curtains and an open door showing a sunny dry-stone wall outside.
+
+**Detailed alt text:**  
+A bright rustic living room with a tall exposed stone wall, wooden beams, a long oak console table, a dark brown leather sofa, a lit lamp, beige curtains and a white-framed window. An open white door reveals a sunny view of greenery and a dry-stone wall beyond.
+
+## Caption ideas
+
+- Rustic living room with exposed stone, warm wood and countryside views.
+- A bright cottage sitting room opening onto the green outdoors.
+- Natural stone, leather seating and sunlight create a cosy rural retreat.
+- A relaxed living space with traditional cottage character.

@@ -1,0 +1,30 @@
+## Factual image description
+
+The image shows a quiet rural scene in wintry weather. A narrow, wet road runs along the right side of the frame, its dark asphalt reflecting the pale grey sky. Along the left edge of the road is a dry-stone wall made of irregular grey and brown stones. The tops of the wall stones are lightly dusted with snow.
+
+To the left of the wall is a dark, flowing stream or river. Its surface is rippled and appears fast-moving. Fine white specks and streaks are visible across the image, suggesting light snowfall.
+
+Beyond the water, the bank rises steeply with exposed layered rock, brown leaf litter, patches of dull green grass, mossy areas, and a light covering of snow. Several bare deciduous trees grow along the bank, their dark trunks and tangled branches reaching over the stream and into the misty background.
+
+In the distance, a pale grassy hillside is visible through the mist, with a small grey stone building or barn faintly seen on the upper left slope. More bare trees line the road and bank as they recede into the fog. A pale vertical post or roadside marker is visible further down the road, but no text is legible. A small part of a building or wall is visible at the far right edge.
+
+The colour palette is muted: white snow, grey stone, dark wet road, blackish water, brown and straw-coloured grasses, bare brown-grey branches, and pale green-brown hillside. The lighting is flat and diffuse, with an overcast sky and no strong shadows. The season appears to be winter, or possibly very late autumn or early spring, due to the bare trees and snow. No readable text or signage is visible.
+
+## Alt text options
+
+**Short alt text:**  
+A snow-dusted stone wall runs beside a narrow wet road next to a dark flowing stream.
+
+**Medium alt text:**  
+A wintry rural scene showing a snow-dusted stone wall separating a dark stream from a wet country road, with bare trees and a misty hillside in the background.
+
+**Detailed alt text:**  
+A narrow wet road runs through a misty countryside setting beside a dark, flowing stream. A dry-stone wall dusted with snow separates the road from the water, while bare trees, rocky banks, brown grasses, and a faint distant stone building appear across the stream under an overcast winter sky.
+
+## Caption ideas
+
+- A dusting of snow along a quiet country lane.
+- Winter light over the stream and stone wall.
+- A misty, snow-flecked scene beside the road.
+- Bare trees, dark water, and snow-dusted stone in the Dales.
+- Quiet rural winter weather near the cottages.

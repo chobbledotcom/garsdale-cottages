@@ -1,0 +1,31 @@
+### Factual description
+
+The image shows a bright, clean bathroom interior with white sanitaryware, chrome fittings, and pale green tiling. The view is angled across the room from left to right, with a toilet partly visible in the lower-left foreground, a white vanity sink in the centre, and a white bath with shower over it along the right wall.
+
+The walls are tiled in two sections. The lower section is covered in square, pale mint-green tiles. Above this is a decorative border made of smaller patterned tiles in darker green tones, with floral or swirl motifs. The upper wall tiles are larger, white or off-white tiles with a subtle grey marble-like pattern. The floor is laid with dark grey rectangular tiles and light grout lines. The ceiling is white and appears to slope downward on the right side.
+
+On the left, the top of a white toilet cistern and part of the lid are visible. Above it, mounted on the wall, is a chrome towel rail with two glass shelves. In the centre is a white vanity unit with two cupboard doors, small round chrome knobs, and an integrated rectangular white basin. A chrome mixer tap is fitted to the basin, and a pump dispenser bottle with an unreadable label sits on the left side of the sink.
+
+Above the basin is a rectangular illuminated mirror with vertical light strips on both sides. The mirror reflects part of the bathroom, including the shower rail and tiled walls. A small chrome soap dish is mounted on the wall to the right of the mirror.
+
+To the right is a white rectangular bath with a plain white front panel. A chrome shower rail runs above the bath, with a gathered white shower curtain pulled to the left end. The shower fittings include a chrome riser rail, handheld shower head, flexible hose, and a wall-mounted thermostatic mixer bar. A chrome-and-glass shower caddy is fixed to the green tiled wall above the bath.
+
+The lighting is bright and even, with reflections visible on the glossy tiles, mirror, bath, and chrome fittings. There are no people, animals, readable text, signs, or visible seasonal details in the image.
+
+### Alt text options
+
+**Short alt text:**  
+Bright bathroom with green tiles, a white vanity, toilet and shower-bath.
+
+**Medium alt text:**  
+A white bathroom with mint-green wall tiles, a vanity sink, illuminated mirror, toilet, and a bath with a chrome shower and white curtain.
+
+**Detailed alt text:**  
+A bright bathroom interior featuring pale green lower wall tiles, patterned green border tiles, white marble-effect upper tiles, a white vanity sink with an illuminated mirror, a partly visible toilet, and a white bath with a chrome shower rail and white shower curtain.
+
+### Caption ideas
+
+- Bright bathroom with fresh mint-green tiles and a shower over the bath.  
+- A clean white bathroom with green tiled walls, chrome fittings, and a compact vanity unit.  
+- Practical bathroom featuring a toilet, sink, illuminated mirror, and shower-bath.  
+- Fresh, tiled bathroom with a white vanity, green accents, and a shower curtain.

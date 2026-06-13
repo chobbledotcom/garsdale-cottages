@@ -1,0 +1,34 @@
+## Description
+
+The image shows an exterior street view of a traditional whitewashed inn on a sloping rural road under a clear blue sky. The main building is **The Moorcock Inn**, with white rendered walls, a dark grey slate roof, black-painted quoins at the corner, and black-painted window surrounds. A lower attached section on the left has small rectangular windows and a brown wooden lattice/trellis panel over a ground-floor opening. A projecting wooden beam is fixed diagonally to the front wall below the upper window, alongside a white downpipe.
+
+In front of the inn is a raised patio area behind a low rough dry-stone wall. The patio contains a dark metal table with matching chairs, plus wooden chairs or benches. Small plants and planters are visible near the wall and entrance.
+
+To the right, the inn continues along the road as a long white building with several dark-framed windows and dark doorways. A hanging pub sign projects from the wall; its graphic appears green and yellow but is not clearly readable. Adjacent buildings, including a stone building with a slate roof and chimney, continue uphill. A dark green or blue 4x4 vehicle is parked on the road near the right edge, facing uphill and away from the viewer. The asphalt road has white dashed markings and slopes upward from the foreground toward the right background.
+
+The scene is brightly lit by direct sunlight, creating sharp shadows under rooflines, furniture, and the vehicle. Colours are dominated by white walls, black trim and signs, grey slate and stone, green foliage and signage, a clear blue sky, and the dark vehicle. There is no snow; some greenery is visible, suggesting a non-winter season, though the exact season is not certain.
+
+### Visible text/signage
+
+- Main black wall sign: **“THE MOORCOCK INN”** in pale lettering. Smaller text below appears to read **“COUNTRY ACCOMMODATION”** and possibly **“FOOD”**, but is not fully sharp.
+- Green rectangular sign to the left: **“CARLSBERG”** appears at both ends. The central wording appears to include **“CIDER”** and **“NEW BRADFORD”**, but is not fully clear.
+- Smaller black wall plaque below the projecting beam begins with **“THE MOORCOCK INN”**; the lower lines are too small to read clearly.
+- The hanging pub sign has no clearly readable text.
+
+## Alt text options
+
+**Short alt text:**  
+The Moorcock Inn, a whitewashed village pub with black trim and outdoor seating.
+
+**Medium alt text:**  
+A sunny roadside view of The Moorcock Inn, a whitewashed pub with black quoins, slate roof, signs, patio furniture, and a dark 4x4 parked nearby.
+
+**Detailed alt text:**  
+The Moorcock Inn stands beside a sloping village road under a clear blue sky, with whitewashed walls, black quoins, slate roofing, beer and pub signs, outdoor seating behind a low stone wall, adjacent buildings, and a dark 4x4 parked uphill.
+
+## Caption ideas
+
+- The Moorcock Inn on a bright, clear day.
+- Traditional whitewashed pub architecture beside a quiet village road.
+- Outdoor seating and signage outside The Moorcock Inn.
+- A sunny view of The Moorcock Inn and the surrounding rural street scene.

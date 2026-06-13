@@ -1,0 +1,30 @@
+## Factual description
+
+The image shows a broad upland valley viewed from an elevated grassy position. The foreground is a sloping bank of rough grasses in muted greens, ochre and brownish-gold tones.
+
+Below, the valley floor is a patchwork of bright green fields divided by dark dry-stone walls and hedgerows. Narrow lanes, tracks and pale winding watercourses or streams cross the landscape. Lines and clusters of dark green trees run along field boundaries, roads and watercourses. A small group of farm buildings is visible in the middle distance, with white walls and dark roofs, surrounded by fields and trees. A few tiny pale shapes on a road in the lower right may be vehicles, though they are not clearly detailed.
+
+The valley is enclosed by large rolling hills and mountains on both sides. The slopes are mostly grassy green, with areas of brownish bracken or rough vegetation and some exposed grey rock, especially on the steeper right-hand side. The hills recede into the distance, becoming hazier and bluer-grey further away.
+
+The sky is heavily clouded, mostly grey and white, with breaks in the cloud allowing brighter light to fall across parts of the valley and hillsides. The lighting is soft and diffuse overall, with patches of brighter illumination creating contrast across the landscape.
+
+The scene appears rural and open, with no clearly visible people. No readable text, signs, labels or logos are visible in the image. The vegetation suggests late summer or early autumn, with lush green fields but some brownish grasses in the foreground and on the hillsides.
+
+## Alt text options
+
+**Short alt text:**  
+A green upland valley with patchwork fields, stone walls and distant hills under a cloudy sky.
+
+**Medium alt text:**  
+A high view across a rural valley of bright green fields divided by stone walls, with farm buildings, trees, winding tracks and large grassy mountains under broken cloud.
+
+**Detailed alt text:**  
+From a grassy hilltop, the image looks down into a wide rural valley filled with green fields, dry-stone walls, scattered trees, winding tracks and a small cluster of farm buildings, with steep green and grey mountains rising on either side beneath an overcast sky with patches of sunlight.
+
+## Caption ideas
+
+- Patchwork fields and rolling fells in the valley below.
+- A wide view across the green valley under dramatic cloud.
+- Stone walls, farm buildings and distant hills define the rural landscape.
+- Changing light over the valley farmland.
+- Open countryside views from the hills above the valley.

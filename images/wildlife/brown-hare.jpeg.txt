@@ -1,0 +1,33 @@
+### Factual description
+
+The image shows a rural pasture scene viewed from behind a rough stone wall and a metal wire fence.
+
+In the foreground, the top of a weathered stone wall runs across the lower part of the frame. The stones are brown, grey and tan, with patches of pale green and yellow lichen or moss. There are small white patches on the stones that appear to be snow or frost.
+
+Immediately beyond the wall is a metal wire mesh fence. The fence has horizontal wavy wires and vertical wires joined at regular intervals. It spans the width of the image and partially obscures the field behind it.
+
+In the middle distance, a brown hare sits in a green field. The hare is facing toward the right side of the frame, with its long ears visible and upright. Its fur is tawny brown, blending somewhat with the grass. The animal is positioned roughly in the centre of the image, but it is small in the frame because it is some distance away.
+
+The field is mostly green, with patches of paler yellow-brown grass, suggesting cool-weather pasture. Beyond the hare, the grassy field slopes gently upward. In the background, there is another fence line with wooden posts and wire, followed by a darker band of trees or woodland at the top of the image.
+
+The lighting is soft and even, with no strong shadows, suggesting an overcast day. The overall colours are muted greens, browns, greys and pale whites. No text or signage is visible in the image. The small patches of white on the wall and the subdued colours suggest a cold season, possibly late winter or early spring, though the exact season cannot be confirmed from the image alone.
+
+### Short alt text
+
+A brown hare sits in a green field behind a wire fence.
+
+### Medium alt text
+
+A brown hare rests in a grassy pasture, viewed through a metal wire fence with a mossy stone wall in the foreground.
+
+### Detailed alt text
+
+Viewed over a weathered, mossy stone wall and through a metal wire fence, a brown hare sits in a green pasture. The field beyond is mottled with pale yellow-brown grass and slopes toward a distant fence line and dark trees. Small white patches on the stones suggest snow or frost.
+
+### Caption ideas
+
+- A brown hare spotted in the pasture.
+- Quiet wildlife in the fields beyond the fence.
+- A hare resting in a green rural field.
+- Stone walls, wire fences and a glimpse of local wildlife.
+- A calm countryside scene with a hare in the grass.

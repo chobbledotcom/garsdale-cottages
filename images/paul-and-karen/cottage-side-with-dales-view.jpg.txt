@@ -1,0 +1,33 @@
+## Exhaustive visible description
+
+The image shows a bright, sunny rural landscape dominated by a stone building on the left and rolling green hills beyond it.
+
+On the left side of the frame is the side wall of a traditional stone-built cottage or farmhouse. The stonework is warm brown-grey, and the building has a dark slate roof. Two chimney stacks are visible: one with two reddish chimney pots, and another taller stack with a dark pot and a small satellite dish attached near the top. The visible wall has two white-framed rectangular windows, one above the other. A simple washing line or airer with pegs is fixed near the lower part of the wall, with a small green item attached.
+
+Next to the building, on a patch of grass, is an outdoor seating area: a round dark wooden table surrounded by green folding chairs. Near the wall are a few small objects, including what appears to be a black container or bin. A low stone wall and wooden gate are visible behind the seating area.
+
+The foreground is filled with long, lush green grass and many small yellow wildflowers, giving it the appearance of an uncut meadow rather than a formal lawn. Wooden fence posts with wire run along the lower right edge of the scene.
+
+A light-coloured gravel track or lane runs from beside the cottage toward the right, leading into the wider valley. In the middle distance, the valley floor contains scattered trees, green fields, dry-stone walls, and a few distant stone buildings or farmhouses. A small blue vehicle is partly visible near the distant buildings on the far right. A wooden utility pole stands near the right edge.
+
+The background consists of broad green hillsides divided by stone walls, tracks, and scattered trees. A darker band of coniferous trees runs along part of the upper hillside. The sky is clear blue with only very faint wisps of cloud.
+
+The lighting is bright daylight, with strong sunlight casting shadows to the right of the building, chairs, fence posts and landscape features. The lush grass, leafy trees and yellow wildflowers suggest late spring or summer. No readable text or signage is visible in the image. No people or animals are visible.
+
+## Alt text options
+
+**Short alt text:**  
+Stone cottage garden with outdoor seating overlooking green rolling hills.
+
+**Medium alt text:**  
+A sunny rural scene showing the side of a stone cottage with a table and green chairs, a wildflower meadow, and rolling green hills under a clear blue sky.
+
+**Detailed alt text:**  
+The side of a stone cottage with white-framed windows, chimneys and outdoor seating sits beside tall grass and yellow wildflowers. A gravel track, fences and distant stone buildings lead into a green valley with dry-stone walls, trees and rolling hills under a clear blue sky.
+
+## Caption ideas
+
+- Sunny valley views from the cottage garden.  
+- Outdoor seating with a view across the green hills.  
+- Stone cottage, wildflowers and rolling countryside.  
+- A bright summer day in the rural valley.

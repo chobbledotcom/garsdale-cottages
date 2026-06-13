@@ -1,0 +1,38 @@
+## Exhaustive description
+
+The image shows a narrow two-lane asphalt road curving through a green rural valley setting. The viewpoint is close to road level, looking along the road as it bends away to the left.
+
+In the left foreground, beside a low grey dry-stone wall, is a red-bordered triangular road warning sign on a dark post. The sign has a cream/yellow background and a black symbol indicating a bend to the left. There is no text on the sign itself.
+
+The road surface is dark grey and marked with a white dashed centre line. The word **“SLOW”** is painted in large white capital letters on the road surface. One instance is readable in the near lane, while the other appears reversed in the opposite lane, as road markings intended for approaching traffic.
+
+A white older-style car is driving toward the viewer in the far lane, followed by at least one darker/blue car behind it. No people are visible.
+
+Both sides of the road are bordered by dry-stone walls made from irregular grey stones, with grassy verges and some taller yellow-green grasses along the edges. Behind the walls are stone buildings and cottages with grey/brown stonework and dark slate roofs. To the right are several smaller stone outbuildings or barn-like structures, including one small white-painted building. In the centre background, a larger two-storey stone house is partly hidden by mature trees. To the left, another stone building is partly visible behind trees and shrubs.
+
+Tall trees, including dark green conifers and leafy deciduous trees, are scattered around the houses. Wooden utility poles with overhead wires stand beside the road, and wires cross the upper part of the scene.
+
+The background is dominated by a broad grassy hillside rising across the frame. The hill is covered in green grass with darker patches of trees or vegetation and faint field boundaries or stone walls. The sky is pale blue with scattered white clouds.
+
+The colours are mainly green from the grass, trees and hills; grey from the road, stone walls and buildings; dark slate grey from the roofs; white from the road markings and car; and red/cream from the warning sign. The lighting is bright natural daylight with soft shadows. The full leaf cover and lush green landscape suggest late spring or summer.
+
+The only readable text in the image is **“SLOW”** painted on the road.
+
+## Alt text options
+
+**Short alt text:**  
+A rural road with a left-bend warning sign and “SLOW” road markings curves past stone walls and green hills.
+
+**Medium alt text:**  
+A red triangular bend warning sign stands beside a dry-stone wall on a narrow country road, where “SLOW” is painted on the tarmac and a white vintage car approaches near stone cottages and green hills.
+
+**Detailed alt text:**  
+A narrow asphalt road curves left through a rural valley, bordered by dry-stone walls, grassy verges and stone buildings. In the foreground, a red-bordered triangular warning sign shows a black left-bend symbol. White “SLOW” markings appear on the road, and a white older-style car followed by another car drives toward the viewer beneath a partly cloudy sky and green hillside.
+
+## Caption ideas
+
+- A quiet country lane curves through a green rural valley.
+- Stone walls, cottages and rolling hills frame a peaceful rural road scene.
+- “SLOW” markings mark the bend on a narrow lane through the countryside.
+- A vintage car travels along a classic country road lined with dry-stone walls.
+- Green hills rise behind stone buildings in a small rural valley.

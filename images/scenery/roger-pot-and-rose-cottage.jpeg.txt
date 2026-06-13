@@ -1,0 +1,31 @@
+## Description
+
+The image shows a distant view across a lush rural valley, looking up at rolling green hillsides divided by grey dry-stone walls. The scene is made up mainly of pasture fields, trees, and scattered traditional stone buildings.
+
+On the upper slope, two stone buildings stand close together. The left-hand building is a two-storey stone house with a grey slate roof, white-framed windows, chimneys, and a small white entrance feature. A row of dark blue-black solar panels is visible on its roof. To its right is a longer, barn-like stone building with a grey roof, several dark rectangular openings, and a small outbuilding or container partly visible beside it. In the field to the left of these buildings, two light-coloured horses or ponies are grazing; one is white and the other is pale brown or tan. Two utility poles stand nearby on the hillside.
+
+Across the middle of the image is a dense band of mature green trees, partially obscuring the lower slopes. Thin power lines run horizontally through this area.
+
+In the lower part of the scene, more stone buildings are visible. On the right, there is a two-storey stone cottage with a slate roof, white window frames, chimneys, and solar panels on the roof. It stands beside a lower stone barn or outbuilding. To the left of that cottage is another weathered stone building with a sloping roof. Further left, partially hidden by trees, is a long low stone building with a dark roof and small white window panes.
+
+The foreground consists of bright green grass and a low dry-stone wall running diagonally across the lower part of the image. Leafy green bushes and trees appear in the bottom left corner.
+
+The colours are dominated by varied shades of green grass and foliage, grey stone walls and buildings, dark slate roofs, and the blue-black panels of the solar arrays. The lighting is soft and even, with no strong shadows, suggesting an overcast or diffused daylight scene. The full green grass and leafy trees suggest a growing season, most likely spring or summer. No readable text or signage is visible in the image.
+
+## Alt text options
+
+**Short alt text:**  
+Stone cottages and barns with solar panels sit among green fields and dry-stone walls.
+
+**Medium alt text:**  
+A rural hillside scene with traditional stone cottages and barns, some fitted with solar panels, set among green pastures divided by dry-stone walls.
+
+**Detailed alt text:**  
+A distant view across a lush green valley showing stone cottages, barns, grazing ponies, dense trees, and dry-stone walls on rolling hillsides. Several buildings have slate roofs and dark solar panels, including an upper hillside cottage and a lower stone house.
+
+## Caption ideas
+
+- Green fields, dry-stone walls and stone buildings across the hillside.
+- Traditional stone cottages and barns set into a lush rural valley.
+- Solar panels and historic stone buildings blend into the green countryside.
+- A quiet hillside farmstead with grazing ponies and rolling pastures.

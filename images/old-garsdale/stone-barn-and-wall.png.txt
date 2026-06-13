@@ -1,0 +1,27 @@
+## Factual description
+
+The image shows a rural stone-built scene on a grassy hillside. In the foreground, bright green grass slopes upward from the lower left toward the right. A low dry-stone wall made of irregular grey and brown stones runs across the lower part of the view, with a second, higher dry-stone wall behind it following the line of the slope. Wooden fence posts and thin wire fencing are visible along the upper wall, and a few loose stones lie near the lower wall.
+
+Behind the walls stands a long, weathered stone building, barn-like in appearance. Its walls are made of grey, beige and tan stone, with a dark grey pitched roof that appears to be covered in slate or stone tiles. Along the long side of the building are several small rectangular openings: two darker, less distinct windows or openings toward the left and centre, and a small window with a white frame and panes toward the right. The stonework is uneven and aged, with patches of lighter lichen or weathering.
+
+To the left, partly hidden by a leafy tree with fresh light-green foliage, is another stone building or wing. A chimney stack rises above it, topped by small reddish chimney pots. A smaller shrub or young tree grows near the wall, and a wooden fence panel or gate-like structure appears to lean against the stonework. Faint utility wires can be seen in the pale sky on the far left.
+
+The sky is pale blue-white and evenly lit, with soft, diffuse daylight and no strong shadows. The fresh green grass and light leaves suggest spring or early summer. No readable text, signs, labels or lettering are visible.
+
+## Alt text options
+
+**Short alt text:**  
+A stone barn and dry-stone walls on a grassy rural hillside.
+
+**Medium alt text:**  
+A weathered stone barn with a dark roof sits behind dry-stone walls on a green hillside, with a leafy tree and another chimneyed stone building nearby.
+
+**Detailed alt text:**  
+A long grey stone barn with small windows and a dark pitched roof stands above terraced dry-stone walls on a sloping green field. To the left, a leafy tree partly hides another stone building with red chimney pots, all under a pale sky.
+
+## Caption ideas
+
+- Traditional stone buildings and dry-stone walls in a green rural landscape.  
+- A weathered stone barn above a sloping grassy field.  
+- Spring greenery, dry-stone walls and classic Yorkshire Dales architecture.  
+- Stone-built farm buildings nestled into a quiet hillside scene.

@@ -1,0 +1,29 @@
+## Factual description
+
+The image shows a bright interior hallway with cream/off-white walls, a pale ceiling, and a light beige tiled floor made of large rectangular stone-effect tiles. The viewpoint is from within the hallway, looking toward an open doorway that leads into another room.
+
+On the left wall, there is a framed picture with a natural wood frame. The artwork inside appears to show a muted landscape or mountain scene, though the details are indistinct. Below and slightly to the left of the picture is a white wall switch plate.
+
+In the centre-left of the image is an open white doorway. Through it, another room is visible, also with pale tiled flooring. Inside that room, there is a closed white door with a black handle on the left side. Near the doorway, a cleaning item is visible on the floor, including what appears to be a mop or brush handle and a bucket or similar object. Further back, a kitchen-style area can be seen, with white cabinetry, a worktop, and bright daylight coming through a window. A small plant and a bottle are faintly visible on the counter.
+
+On the right side of the hallway, a white staircase rises toward the upper right. The staircase has white painted woodwork and vertical white balusters. Beneath the staircase is a closed white storage cupboard door with panel detailing, small metal hinges, and a small round black knob.
+
+The ceiling has a recessed downlight that is switched on, casting warm artificial light. Additional daylight enters from the room beyond the doorway, making the far end of the space brighter. No text, signage, or readable labels are visible. No seasonal details can be determined from the interior view.
+
+## Alt text options
+
+**Short alt text:**  
+A bright hallway with tiled flooring, an open doorway, and a white storage cupboard under the stairs.
+
+**Medium alt text:**  
+A cream-walled hallway with beige tiled flooring, a framed picture on the left wall, an open doorway leading to a bright kitchen area, and a white staircase with storage underneath.
+
+**Detailed alt text:**  
+An interior hallway with pale cream walls and beige stone-effect tiled flooring. On the left wall hangs a wood-framed landscape picture above a white switch plate. An open white doorway leads into a brighter room with more tiled flooring, a closed white door, cleaning equipment near the threshold, and white kitchen cabinets visible in the distance. To the right, a white staircase rises above a closed white under-stair storage cupboard with a small black knob.
+
+## Caption ideas
+
+- A bright, neutral hallway with tiled flooring and under-stair storage.
+- Cream walls, pale stone-effect tiles, and a glimpse into the kitchen beyond.
+- Hallway leading through to the kitchen area, with storage beneath the stairs.
+- A clean, well-lit cottage hallway with traditional white woodwork.

@@ -1,0 +1,28 @@
+## Factual image description
+
+The image is a low-angle outdoor shot looking up into a large tree. A reddish-brown squirrel is perched on a moss-covered branch, positioned slightly left of centre and facing toward the right. Its bushy tail curves upward behind it, showing soft, slightly lighter-edged fur. The squirrel’s head is in profile, with a visible dark eye, small rounded ear, and pointed muzzle.
+
+The tree trunk is large and textured, filling much of the right and lower parts of the frame. The bark is rough and deeply fissured, mainly grey-brown with patches of pale lichen and green moss. A thick branch covered in bright green moss extends across the lower middle of the image, where the squirrel is standing. Another darker branch crosses near the top of the frame.
+
+Behind the squirrel are many thin, mostly bare twigs and branches, creating a tangled pattern against a pale, overcast sky. A few brownish or yellowish bits of foliage or needles are visible among the branches. The lighting is soft and diffuse, with no strong shadows, suggesting an overcast day. The colours are muted and natural: grey-brown bark, green moss, pale lichen, reddish-brown fur, and a whitish-grey sky.
+
+The bare branches and subdued colours suggest late autumn, winter, or early spring, though the exact season cannot be confirmed from the image alone. There is no visible text, signage, buildings, or human-made objects in the frame.
+
+## Alt text options
+
+**Short alt text:**  
+A red squirrel perched on a mossy tree branch.
+
+**Medium alt text:**  
+A reddish-brown squirrel with a bushy curled tail sits on a moss-covered branch in a large tree.
+
+**Detailed alt text:**  
+Viewed from below, a red squirrel sits in profile on a mossy branch, facing right, with rough grey-brown bark, pale lichen, bare twigs, and an overcast sky behind it.
+
+## Caption ideas
+
+- A red squirrel pauses on a mossy branch.  
+- Wildlife among the trees at Garsdale.  
+- A bushy-tailed visitor high in the branches.  
+- Red squirrel spotted in the Dales countryside.  
+- Quiet woodland wildlife against a pale winter sky.

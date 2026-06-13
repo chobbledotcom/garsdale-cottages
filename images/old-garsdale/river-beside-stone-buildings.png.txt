@@ -1,0 +1,27 @@
+## Description
+
+The image shows a quiet rural road running from the lower right toward the distance, with a shallow rocky stream on the left and a row of stone-built cottages on the right. A low, irregular stone wall runs along the stream-side edge of the road, separating the tarmac from the watercourse.
+
+The stream or beck flows over numerous dark stones and boulders, creating pale ripples and small areas of white water. A few dark pieces of wood or branches lie among the rocks in the stream. Beyond the stream, a steep wooded bank rises, covered with grasses, shrubs and deciduous trees. The foliage is mixed green, yellow, brown and orange, with some bare branches visible, suggesting autumn or late autumn. A small blue object is visible on the far bank among the vegetation.
+
+On the right side of the road, traditional grey stone cottages or houses line the lane. They have dark pitched roofs, chimneys, and white-framed rectangular windows. The closest building has a small white gabled porch or canopy over a doorway. A small wall-mounted sign is visible on this building, but its lettering is not legible. Farther along the row, another building appears slightly lighter in colour. A tall dark evergreen tree rises behind the cottages.
+
+The road is dark grey asphalt with a broken white centre line and a white line along the stream-side edge. The sky is pale grey-white and overcast, giving the scene soft, even lighting with little visible shadow. The overall colours are muted greys, browns, greens and autumnal yellows/oranges. No people, vehicles or animals are visible. No readable text is visible.
+
+## Alt text options
+
+**Short alt text:**  
+A rural road runs beside a rocky stream and stone cottages.
+
+**Medium alt text:**  
+A quiet lane follows a rocky stream, separated by a stone wall, with traditional stone cottages on the opposite side under an overcast sky.
+
+**Detailed alt text:**  
+A low stone wall separates a narrow road from a rocky stream, with autumn-coloured trees on a wooded bank to the left and grey stone cottages with white-framed windows on the right.
+
+## Caption ideas
+
+- A quiet lane beside a rocky stream in Old Garsdale.  
+- Stone cottages line the road above a shallow beck.  
+- Autumn colours along a rural road in the Yorkshire Dales.  
+- A peaceful scene of stone walls, stone buildings and flowing water.

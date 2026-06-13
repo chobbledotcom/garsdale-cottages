@@ -1,0 +1,33 @@
+## Factual image description
+
+The image shows a rural countryside scene beside an asphalt road. In the lower right foreground, a dark green rectangular sign is set into a rough dry-stone wall or stone frame. The sign has a white ram’s-head logo at the top and white text reading:
+
+**YORKSHIRE DALES**  
+**National Park**
+
+The road runs along the right side of the image, with a white edge line and a broken white centre line. It curves gently into the distance toward the middle of the valley. Along the roadside verge are grass, dry brown vegetation, and a low stone wall. A wire fence with wooden posts runs along part of the foreground on the left side.
+
+Beyond the sign and road, the landscape opens into rolling fields and hills. The fields are divided by dry-stone walls, hedgerows, and scattered trees. Some fields are bright green, while others are brown, tan, or muted gold, suggesting rough grass, bracken, or winter/early spring vegetation. Several trees appear mostly bare, with no dense summer foliage.
+
+In the middle distance, a valley stretches between rounded hills. Small pale shapes suggest scattered buildings or a small settlement, but individual details are indistinct. The background is made up of layered hills and fells, some catching warm sunlight and others appearing grey-blue in shadow or haze.
+
+The sky is partly cloudy, with large soft grey-white clouds covering much of the upper frame and patches of pale blue sky visible, especially toward the right. The lighting is mixed: some slopes and fields are sunlit, while other areas are in shadow, giving the scene a bright but changeable rural atmosphere. The overall colours are greens, browns, greys, pale blues, and the dark green and white of the National Park sign. No real people, animals, or vehicles are clearly identifiable.
+
+## Alt text options
+
+**Short alt text:**  
+A Yorkshire Dales National Park sign beside a rural road.
+
+**Medium alt text:**  
+A green Yorkshire Dales National Park sign stands beside a stone wall on a rural road, with rolling green and brown fields, dry-stone walls, and distant hills under a cloudy sky.
+
+**Detailed alt text:**  
+A dark green Yorkshire Dales National Park sign with a white ram’s-head logo is set into a dry-stone wall beside an asphalt road. Beyond it, patchwork green and brown fields, scattered bare trees, stone walls, and distant rounded hills stretch across a rural valley under partly cloudy skies.
+
+## Caption ideas
+
+- A Yorkshire Dales National Park sign beside a quiet rural road.
+- Rolling fields, dry-stone walls, and distant hills in the Yorkshire Dales.
+- Sunlight and clouds move across the open Dales landscape.
+- A roadside National Park sign frames classic Yorkshire Dales countryside.
+- Green fields and layered hills beyond the Yorkshire Dales National Park sign.

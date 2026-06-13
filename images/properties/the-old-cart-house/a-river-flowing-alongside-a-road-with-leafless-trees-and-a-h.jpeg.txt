@@ -1,0 +1,30 @@
+### Factual image description
+
+The image shows a quiet rural winter landscape, likely in a valley. A shallow stream or beck runs through the centre of the scene, flowing from the foreground toward the middle distance. The water is dark and reflective, with visible stones and patches of snow or ice along the banks and around rocks.
+
+On the left, a narrow paved road runs parallel to the stream. The road surface appears damp and grey. A low stone wall separates the road from the stream, with snow resting along the top of the wall. Tall dry grasses and reeds in shades of brown and tan grow in the foreground beside the road, with a small amount of green foliage visible near the lower left edge. Part of a stone building is visible at the far left edge of the frame.
+
+Across the stream, the bank is uneven and rocky, with patches of snow, brown fallen leaves, bracken, bare shrubs and tangled branches. A large leafless tree dominates the right side of the image, its many bare branches spreading across the upper right sky. Some russet-brown leaves remain low down among the branches and undergrowth.
+
+In the middle distance, beyond the stream and partially hidden by trees, a pale stone cottage or house is visible, with a chimney and pitched roof. Further back on the left, a broad hillside rises, covered in muted brown grass with streaks of snow. The sky is pale blue with thin white clouds. The lighting is bright but soft, with sunlight catching the bare branches and brown vegetation on the right, suggesting a low winter sun.
+
+The season appears to be winter or very late autumn, indicated by the snow, leafless trees, dry grasses and brown undergrowth. No readable text, signs, people, vehicles or animals are visible.
+
+### Alt text options
+
+**Short alt text:**  
+A snowy rural stream runs beside a road, with bare trees and a snow-dusted hillside.
+
+**Medium alt text:**  
+A winter landscape showing a shallow stream flowing beside a narrow road, with snow on the banks, bare trees, brown grasses, a distant stone cottage and a snow-streaked hillside.
+
+**Detailed alt text:**  
+A rural winter scene with a shallow stream running alongside a narrow road. Snow lines the stone wall, stream banks and rocky edges, while tall brown grasses grow in the foreground. Bare trees and russet leaves fill the right side, and a pale stone cottage is partly visible beyond the stream. In the background, a snow-dusted hillside rises under a pale blue cloudy sky.
+
+### Caption ideas
+
+- Winter light over the stream beside the road.
+- A quiet snowy scene in the countryside.
+- Bare trees, snow-dusted banks and a flowing stream.
+- A peaceful winter landscape near the cottages.
+- Snow, stone walls and bare branches in a rural valley.

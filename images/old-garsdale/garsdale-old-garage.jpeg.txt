@@ -1,0 +1,29 @@
+## Factual image description
+
+The image shows a quiet rural road running through a valley, with a dark grey asphalt surface and a broken white centre line. The road curves gently away into the distance, partly covered by long shadows.
+
+On the left side of the road is a low dry-stone wall made of irregular grey and brown stones. Beyond it is a grassy verge and a hillside covered with trees. The trees show mixed green, yellow, orange and russet foliage, suggesting autumn. A wooden utility pole stands beside the wall, with a small roadside sign nearby; its text is not readable.
+
+On the right side is a gravel forecourt beside a dark stone building. The building has a pitched roof and a chimney stack with four chimney pots. In front of it stands a cluster of vintage petrol-station signs and equipment. The most prominent sign is a white spherical globe with red text reading **“SHELL”**. Below it is a red rectangular sign with diagonal text reading **“DOUBLE”**; other visible words include **“GREEN SHELL”**, **“stamp”**, **“4d”**, and **“GALLON”**. Beneath this is a blue diamond-shaped sign with white letters reading **“RAC”**. A second smaller spherical sign stands behind the main signpost.
+
+At the far right edge of the image, two old-style petrol pumps are partially visible. They are mainly white with yellow or orange bands and rounded tops. The signpost area is set on or beside a low stone base, with some vegetation and planters nearby.
+
+The background includes wooded hillsides and a distant pale blue-grey hill. The sky is pale blue with light haze or thin cloud. The lighting is bright daylight, with warm sunlight on the autumn trees and long shadows across the road and gravel area. No people, vehicles or animals are visible.
+
+## Alt text options
+
+**Short alt text:**  
+A rural road curves past an old Shell garage beside autumn trees.
+
+**Medium alt text:**  
+A quiet asphalt road with a dashed centre line runs through a valley, passing a dry-stone wall and an old Shell petrol-station sign beside a dark stone building.
+
+**Detailed alt text:**  
+A country road curves through autumn countryside, bordered by a dry-stone wall and colourful trees on one side and a gravel forecourt on the other, where vintage Shell, Double Green Shell stamp, and RAC signs stand beside old petrol pumps and a dark stone garage building.
+
+## Caption ideas
+
+- Autumn colours beside the old Shell garage on the road through Garsdale.  
+- A quiet Dales road passes a vintage petrol-station forecourt and dark stone building.  
+- Old Shell signage, dry-stone walls and autumn trees frame the lane through the valley.  
+- Long shadows fall across the road beside the old garage in Garsdale.

@@ -1,0 +1,25 @@
+## Factual description
+
+The image shows a sunlit outdoor seating area on a grassy lawn overlooking a rural valley landscape. In the foreground, the grass is a mix of green and dry yellow-brown patches. Positioned toward the right side of the lawn is a dark wooden outdoor dining set, including a rectangular table and several matching chairs with green cushions. The furniture casts clear shadows on the grass, indicating bright sunlight.
+
+Behind the seating area, a wire fence with wooden posts runs across the scene, separating the lawn from the wider countryside beyond. To the right, there is taller grass, low vegetation and a low stone wall or bank. Beyond the fence, the view opens onto rolling green hillsides, with scattered trees and shrubs across the slopes. A pale track or lane is visible lower down on the left side. Wooden utility poles and overhead wires run through the scene, especially on the right and across the sky.
+
+The sky is pale blue with light, wispy cloud, and the upper right of the image is very bright from the sun. The overall colours are natural greens, yellows, browns, dark wood tones and pale blue. The leafy vegetation and green grass suggest a growing season, likely late spring or summer. No people, animals, buildings, text or signage are visible.
+
+## Alt text options
+
+**Short alt text:**  
+Outdoor wooden table and chairs with green cushions on a grassy lawn overlooking rolling green hills.
+
+**Medium alt text:**  
+A dark wooden garden dining set with green cushions sits on a sunlit lawn beside a wire fence, overlooking a rural valley of green hillsides and scattered trees.
+
+**Detailed alt text:**  
+A sunlit grassy outdoor seating area with a dark wooden table and cushioned chairs, bordered by a wire fence and low stone wall, with rolling green hills, scattered trees, utility poles and a pale blue sky beyond.
+
+## Caption ideas
+
+- Outdoor seating with views over the valley.
+- A sunny lawn looking out across the rural hills.
+- Garden furniture set against a backdrop of green countryside.
+- Relax outside beside the fields and fells.

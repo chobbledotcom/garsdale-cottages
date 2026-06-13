@@ -1,0 +1,32 @@
+## Objective description
+
+The image shows a wide, elevated view across a lush green upland valley under a cloudy sky. The viewpoint appears to be from a rocky edge or hillside: large grey rocks occupy the immediate foreground at the bottom of the frame, with patches of yellow-green lichen and darker moss or weathering. Around the rocks is short grass and a small, sparse shrub or young tree with pale branches and fresh green leaves.
+
+Beyond the foreground, the valley is made up of rolling green slopes and fields. The fields are divided by low, dark stone walls that run in long, curving lines across the hillsides. A narrow stream or river winds through the middle of the valley, partly visible as a pale, reflective line of water. It is lined by clusters of darker green trees and shrubs, especially along the valley floor.
+
+The hillsides are covered mainly in bright and mid-green grass, with variations in tone created by sunlight and shadow. Some slopes show exposed grey rock outcrops and scattered boulders. On the right side, the terrain becomes more rugged, with steep rocky faces, crags and pale grey scree-like areas on the upper slopes. A larger mountain or fell rises in the background on the right, its summit and upper slopes muted by the cloudy sky.
+
+The sky is heavily overcast with thick grey and white clouds. There is no clear blue sky visible. The lighting is soft and diffuse, but patches of brighter sunlight break through the clouds and illuminate sections of the green hills, creating strong contrast between sunlit grass and shaded areas.
+
+The colours are dominated by greens: bright grassy greens, deeper woodland greens, and yellow-green lichen on the foreground rocks. These are balanced by grey rocks, grey clouds, and pale highlights on the water and sunlit slopes.
+
+The scene suggests late spring or summer because the grass is lush and the trees appear fully leafed. No buildings, people, vehicles, animals that can be identified with certainty, text, signs, or signage are visible.
+
+## Alt text options
+
+**Short alt text:**  
+A lush green valley with rolling hills, stone walls, a winding stream and lichen-covered rocks under a cloudy sky.
+
+**Medium alt text:**  
+A wide view across a green upland valley from a rocky foreground, with fields divided by stone walls, trees lining a winding stream, and rugged hills under an overcast sky.
+
+**Detailed alt text:**  
+From a lichen-covered rocky viewpoint, the image looks across a broad green valley of rolling hills and walled fields. A narrow stream winds through the valley floor among dark green trees, while rugged grassy fells with exposed grey rock rise in the background beneath a heavy grey and white cloudy sky.
+
+## Caption ideas
+
+- Rolling green hills and stone walls in a quiet upland valley.
+- A wide view across lush valley country beneath a dramatic cloudy sky.
+- Green slopes, winding water and rugged fells in the Yorkshire Dales.
+- Sunlit patches and shadowed hills create a patchwork of colour across the valley.
+- A peaceful rural landscape of fields, fells and a winding stream.

@@ -1,372 +1,756 @@
 {
   "images": [
     {
-      "path": "/images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg",
-      "alt": "The exterior entrance of a stone house with a green door and multiple potted plants at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/assets/background.webp",
+      "alt": "Purple flowering heather and golden grasses across open rolling moorland under a cloudy sky"
     },
     {
-      "path": "/images/properties/the-old-cart-house/stone-exterior-of-a-house-with-green-door-and-windows-and-po.jpeg",
-      "alt": "Stone exterior of a house with green door and windows and potted plants outside at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/assets/social-share.jpg",
+      "alt": "A stone cottage with a garden table and chairs beside a wildflower meadow in a green Yorkshire Dales valley"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-stone-building-entrance-with-a-light-green-door-and-window.jpeg",
-      "alt": "A stone building entrance with a light green door and window with curtains and plants near the door at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/bird-feeders.png",
+      "alt": "Two hanging bird feeders on a garden stand beside a stone wall, with small birds feeding and stone squirrel ornaments"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-rustic-living-area-with-wooden-staircase-dining-table-with.jpeg",
-      "alt": "A rustic living area with wooden staircase, dining table with chairs, floral sofa, and vintage sewing machine at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/eating-and-drinking/cross-keys-inn.jpg",
+      "alt": "The whitewashed Cross Keys Inn beside a quiet country road, with grassy fells rising behind under a blue sky"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-living-room-with-patterned-sofas-a-wooden-table-a-vintage-.jpeg",
-      "alt": "A living room with patterned sofas a wooden table a vintage sewing machine and a TV at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/eating-and-drinking/green-dragon-inn.jpg",
+      "alt": "The ivy-clad stone Green Dragon Inn with picnic benches outside, beside a road in the Yorkshire Dales"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-living-room-with-wooden-beams-floral-and-striped-chairs-a-.jpeg",
-      "alt": "A living room with wooden beams floral and striped chairs a rug a sewing machine and a TV at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/eating-and-drinking/moorcock-inn.jpg",
+      "alt": "The whitewashed Moorcock Inn beside a rural road, with outdoor seating behind a low dry-stone wall"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-living-room-with-striped-and-floral-armchairs-a-wooden-tab.jpeg",
-      "alt": "A living room with striped and floral armchairs a wooden table and chairs under stairs with washing machine and vintage sewing machine at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/eating-and-drinking/sportsmans-inn.jpg",
+      "alt": "The whitewashed Sportsman's Inn on a quiet country lane, with hanging baskets by the door and a dry-stone wall alongside"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-living-room-with-a-fireplace-armchair-patterned-curtains-a.jpeg",
-      "alt": "A living room with a fireplace armchair patterned curtains and a television at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/eating-and-drinking/wensleydale-creamery.jpg",
+      "alt": "The roadside sign for the Wensleydale Creamery Visitor Centre at Hawes, with green Dales hills and dry-stone walls behind"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-room-with-a-red-striped-armchair-near-an-open-door-and-woo.jpeg",
-      "alt": "A room with a red striped armchair near an open door and wooden table with chairs under a staircase at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/loraine-and-jack-photos/stef-and-alex.png",
+      "alt": "A smiling woman and man holding drinks under a marquee at an outdoor event, with people seated at tables behind"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-wooden-staircase-with-metal-railings-inside-a-room-with-a-.jpeg",
-      "alt": "A wooden staircase with metal railings inside a room with a small dining area and a sofa at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/autumn-road-through-trees.png",
+      "alt": "A narrow country road curving past an old stone building, lined with autumn trees in Garsdale"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-small-kitchen-with-a-washing-machine-fridge-oven-wooden-st.jpeg",
-      "alt": "A small kitchen with a washing machine fridge oven wooden stairs and window at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/garsdale-in-2007.jpeg",
+      "alt": "A quiet Garsdale lane in autumn, with a rocky stream on one side and a row of stone cottages on the other"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-kitchen-corner-with-a-countertop-holding-a-small-blue-cabi.jpeg",
-      "alt": "A kitchen corner with a countertop holding a small blue cabinet glassware bread box microwave red kettle and hanging pans and cups at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/garsdale-old-garage.jpeg",
+      "alt": "Vintage Shell petrol station signs and old fuel pumps beside a stone building on a Garsdale roadside in autumn"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-bed-covered-in-a-patterned-quilt-a-toy-squi.jpeg",
-      "alt": "A bedroom with a bed covered in a patterned quilt a toy squirrel on the wooden railing and stairs leading down at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/historical-village-view.png",
+      "alt": "A historical photograph looking down over a Garsdale valley of stone farmhouses, barns and dry-stone walls"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-patterned-quilt-on-the-bed-a-wooden-sliding.jpeg",
-      "alt": "A bedroom with a patterned quilt on the bed a wooden sliding door leading to a bathroom and a window with floral curtains at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/historical-white-cottages.png",
+      "alt": "A black-and-white historical photograph of a row of whitewashed Garsdale cottages beside a curving road"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-wooden-bed-frame-quilted-bedspread-green-be.jpeg",
-      "alt": "A bedroom with a wooden bed frame quilted bedspread green bedside table books on a wall shelf and framed pictures at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/mossy-waterfall.png",
+      "alt": "A small woodland waterfall tumbling over moss-covered rocks among ferns and fallen leaves near Garsdale"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-wooden-headboard-a-bed-with-a-quilt-and-pla.jpeg",
-      "alt": "A bedroom with a wooden headboard a bed with a quilt and plaid pillows wooden sliding barn door leading to a bathroom at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/old-shell-petrol-station.png",
+      "alt": "Vintage Shell petrol station signs and cream fuel pumps beside a stone building on a quiet Garsdale road in autumn"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-small-corner-with-a-window-a-flowerpot-on-the-sill-a-woode.jpeg",
-      "alt": "A small corner with a window, a flowerpot on the sill, a wooden chair with a cushion, hangers, and storage boxes at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/river-beside-stone-buildings.png",
+      "alt": "A Garsdale lane in autumn beside a rocky beck, with a row of traditional stone cottages opposite"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-staircase-with-wooden-railing-and-a-stuffed-squirrel-on-th.jpeg",
-      "alt": "A staircase with wooden railing and a stuffed squirrel on the banister by a green chest with flowers in a basket and a mirror reflecting a bedroom with wooden beams at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/smith-well-quarry-workers.png",
+      "alt": "A historical black-and-white photograph of nineteen quarry workers posed at Smith Well Quarry near Garsdale"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-bed-a-bookshelf-lamp-framed-pictures-and-wo.jpeg",
-      "alt": "A bedroom with a bed a bookshelf lamp framed pictures and wooden beams at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/snowy-road-historical.png",
+      "alt": "A grainy black-and-white photograph of a snow-covered Garsdale road and stone cottages beneath a hillside in winter"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-bed-a-window-with-floral-curtains-a-mirror-.jpeg",
-      "alt": "A bedroom with a bed a window with floral curtains a mirror on the wall and wooden beams at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/stone-barn-and-wall.png",
+      "alt": "A weathered stone barn behind dry-stone walls on a green hillside in Garsdale"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-wooden-bed-frame-quilt-wall-shelves-small-w.jpeg",
-      "alt": "A bedroom with a wooden bed frame quilt wall shelves small window desk and wooden railing at The Old Cart House Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/stone-benchmark-marker.png",
+      "alt": "A close-up of a carved Ordnance Survey benchmark on a weathered stone gatepost, framed by red wooden posts"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-rustic-sliding-wooden-door-next-to-a-small-bedside-table-a.jpeg",
-      "alt": "A rustic sliding wooden door next to a small bedside table and a shelf with books in a bedroom at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/street-view-stone-houses.png",
+      "alt": "A row of old Garsdale stone houses with green and red painted doors beside a country road in summer"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-small-seating-area-with-a-wooden-chair-a-wicker-basket-a-w.jpeg",
-      "alt": "A small seating area with a wooden chair a wicker basket a wooden table and a window with curtains at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/vintage-road-stone-buildings.png",
+      "alt": "A vintage-look photograph of a Garsdale road curving past stone buildings, with an old Player's sign on a wall"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-bed-and-chair-visible-through-a-wooden-door.jpeg",
-      "alt": "A bedroom with a bed and chair visible through a wooden door next to a shower area with green and white tiles at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/old-garsdale/vintage-road-with-slow-markings.png",
+      "alt": "A Garsdale country road with SLOW painted on the tarmac and a bend warning sign, lined with dry-stone walls and stone cottages"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bathroom-with-a-sink-and-mirror-next-to-a-wooden-door-open.jpeg",
-      "alt": "A bathroom with a sink and mirror next to a wooden door opening to a bedroom with a bed and bookshelf at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/artisan-market.jpg",
+      "alt": "A busy outdoor artisan market on a stone-built village street, with stalls under white and green canopies"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bathroom-with-a-toilet-sink-shower-and-window-with-flowers.jpeg",
-      "alt": "A bathroom with a toilet sink shower and window with flowers on the ledge at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/bathroom-with-shower-bath-green-tiles.webp",
+      "alt": "A bright bathroom with pale green tiles, a white vanity basin, mirror and a bath with shower over"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-bathroom-with-a-shower-area-green-and-white-tiled-walls-a-.jpeg",
-      "alt": "A bathroom with a shower area green and white tiled walls a small window with a curtain flowers and toiletries on the window sill and a toilet at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/bedroom-with-tv-and-framed-art.webp",
+      "alt": "A rustic cottage bedroom with exposed beams, a black metal bed, wooden chest of drawers and wall-mounted TV"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-small-outdoor-patio-with-a-blue-metal-table-and-two-chairs.jpeg",
-      "alt": "A small outdoor patio with a blue metal table and two chairs surrounded by potted plants at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/bedroom-with-wardrobe-and-tv.jpg",
+      "alt": "A bright cottage bedroom with exposed ceiling beams, a black metal bed, oak wardrobe and wall-mounted TV"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-stone-house-with-a-staircase-lined-with-plant-pots-and-a-g.jpeg",
-      "alt": "A stone house with a staircase lined with plant pots and a green door at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/cottage-side-with-dales-view.jpg",
+      "alt": "A stone cottage with garden seating beside a wildflower meadow, looking out over the green Yorkshire Dales"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-stone-house-with-potted-plants-outside-and-a-stone-wall-wi.jpeg",
-      "alt": "A stone house with potted plants outside and a stone wall with snow at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/crackpot-hall-ruins-swaledale.jpg",
+      "alt": "The stone ruins of Crackpot Hall above Swaledale, with green hills and a bright cloudy sky beyond"
     },
     {
-      "path": "/images/properties/the-old-cart-house/an-outdoor-patio-with-two-mint-green-chairs-and-a-round-tabl.jpeg",
-      "alt": "An outdoor patio with two mint green chairs and a round table near a stone wall with potted plants at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/cream-kitchen-with-oven.jpg",
+      "alt": "A bright cottage kitchen with cream cabinets, wooden worktops, a stainless-steel double oven and a stone shelving niche"
     },
     {
-      "path": "/images/properties/the-old-cart-house/an-outdoor-stone-patio-with-metal-table-and-chairs-surrounde.jpeg",
-      "alt": "An outdoor stone patio with metal table and chairs surrounded by pots and a stone wall at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/dining-room-oak-table.webp",
+      "alt": "A cottage dining area with an oak table and six chairs, a welcome hamper and fresh flowers, lit by daylight"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-river-flowing-alongside-a-road-with-leafless-trees-and-a-h.jpeg",
-      "alt": "A river flowing alongside a road with leafless trees and a house in the background at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/doorway-view-over-dry-stone-walls.jpg",
+      "alt": "Looking out from a stone cottage doorway across dry-stone walls to green Dales fields and trees"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-rural-road-with-a-stone-wall-beside-a-stream-and-leafless-.jpeg",
-      "alt": "A rural road with a stone wall beside a stream and leafless trees near a stone building at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/double-bedroom-metal-bed-wardrobe.jpg",
+      "alt": "A rustic double bedroom with a black metal bed, exposed ceiling beam, bedside lamps and an oak wardrobe"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-stone-wall-with-a-rectangular-plaque-that-says-the-old-car.jpeg",
-      "alt": "A stone wall with a rectangular plaque that says The Old Cart House"
+      "path": "/images/paul-and-karen/garden-seating-with-washing-line.webp",
+      "alt": "A garden lawn with table, chairs and a rotary washing line, overlooking a green Yorkshire Dales valley"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-garden-with-sparse-snow-cover-trees-stone-walls-and-hills-.jpeg",
-      "alt": "A garden with sparse snow cover trees stone walls and hills in the background at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/grassington-street-cottages.jpg",
+      "alt": "A quiet street of stone cottages with flower-filled front gardens in Grassington, Yorkshire Dales"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-road-running-alongside-a-stone-wall-and-a-partially-frozen.jpeg",
-      "alt": "A road running alongside a stone wall and a partially frozen stream with leafless trees at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/green-hillside-with-dry-stone-wall.webp",
+      "alt": "Sheep grazing on a green hillside crossed by dry-stone walls in the Yorkshire Dales"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-narrow-road-alongside-a-stone-wall-with-a-stream-and-leafl.jpeg",
-      "alt": "A narrow road alongside a stone wall with a stream and leafless trees on the left and stone buildings on the right at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/hallway-under-staircase.jpg",
+      "alt": "A bright tiled cottage hallway with a white staircase and an open doorway through to the kitchen"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-stone-wall-alongside-a-narrow-road-next-to-a-river-with-le.jpeg",
-      "alt": "A stone wall alongside a narrow road next to a river with leafless trees and light snow at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/hardraw-force-north-yorkshire.jpg",
+      "alt": "Hardraw Force waterfall plunging over a dark rock cliff into a pool, framed by green ferns with a faint rainbow"
     },
     {
-      "path": "/images/properties/the-old-cart-house/an-outdoor-information-board-about-adam-sedgwick-and-the-den.jpeg",
-      "alt": "An outdoor information board about Adam Sedgwick and the Dent fault with hills and fields in the background at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/helms-knott-from-gawthrop.jpg",
+      "alt": "Helm's Knott and rolling green Dales hills seen from Gawthrop in warm morning light"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-snowy-field-with-footprints-leading-to-a-gate-and-hills-in.jpeg",
-      "alt": "A snowy field with footprints leading to a gate and hills in the background at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/helms-knott-from-gawthrop.webp",
+      "alt": "Cattle grazing below Helm's Knott and rolling green hills, seen from Gawthrop near Garsdale"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-road-with-a-yorkshire-dales-national-park-sign-and-fields-.jpeg",
-      "alt": "A road with a Yorkshire Dales National Park sign and fields and hills in the background at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/ingleborough.jpg",
+      "alt": "The flat-topped summit of Ingleborough rising above a grassy track and limestone pavement in the Yorkshire Dales"
     },
     {
-      "path": "/images/properties/the-old-cart-house/a-countryside-landscape-with-rolling-hills-fields-trees-and-.jpeg",
-      "alt": "A countryside landscape with rolling hills fields trees and sheep at The Old Cart House in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/keld-waterfalls-yorkshire-dales.jpg",
+      "alt": "A woodland waterfall flowing over mossy stepped rocks into a stream near Keld in the Yorkshire Dales"
     },
     {
-      "path": "/images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg",
-      "alt": "Stone house with white doors and windows gravel pathway stone steps and bench at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/kirkby-lonsdale-market.jpg",
+      "alt": "An outdoor coronation celebration market around the stone market cross in Kirkby Lonsdale"
     },
     {
-      "path": "/images/properties/roger-pot/a-stone-house-with-a-round-table-and-chairs-on-grass-overloo.jpeg",
-      "alt": "A stone house with a round table and chairs on grass overlooking green hills and fields at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/kitchen-dining-area.jpg",
+      "alt": "A rustic open-plan cottage kitchen and dining area with stone walls, oak table, breakfast bar and American fridge-freezer"
     },
     {
-      "path": "/images/properties/roger-pot/a-stone-house-with-white-framed-windows-a-bench-and-potted-p.jpeg",
-      "alt": "A stone house with white framed windows a bench and potted plants at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/living-room-leather-sofa-stone-wall.jpg",
+      "alt": "A rustic cottage living room with an exposed stone wall, brown leather sofa and an open door to the garden"
     },
     {
-      "path": "/images/properties/roger-pot/a-room-with-a-leather-sofa-near-a-window-with-curtains-and-a.jpeg",
-      "alt": "A room with a leather sofa near a window with curtains and a wooden console table against a stone wall at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/living-room-wood-burning-stove.jpg",
+      "alt": "A cottage living room with a lit wood-burning stove, two brown leather sofas and a flagstone floor"
     },
     {
-      "path": "/images/properties/roger-pot/wooden-starshaped-decor-pieces-on-a-windowsill-at-roger-pot-.jpeg",
-      "alt": "Wooden star-shaped decor pieces on a windowsill at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/malham-tarn-misty-sunrise.jpg",
+      "alt": "A duck flying low over golden misty water at sunrise, with silhouetted trees and a grey cliff at Malham Tarn"
     },
     {
-      "path": "/images/properties/roger-pot/an-open-window-with-a-latch-and-stone-wall-visible-with-hill.jpeg",
-      "alt": "An open window with a latch and stone wall visible with hills and green fields outside at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/man-and-dog-selfie.jpg",
+      "alt": "A smiling man taking a sunny selfie with a shaggy tan dog beside a stone cottage wall"
     },
     {
-      "path": "/images/properties/roger-pot/a-leather-sofa-with-plaid-cushions-next-to-a-wooden-side-tab.jpeg",
-      "alt": "A leather sofa with plaid cushions next to a wooden side table with a lamp and yellow curtains with star decorations on the windowsill at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/muker-wildflower-meadow.jpg",
+      "alt": "A colourful wildflower meadow with a stone field barn and green valley hills near Muker in Swaledale"
     },
     {
-      "path": "/images/properties/roger-pot/a-living-room-with-leather-sofas-a-wood-burning-stove-and-st.jpeg",
-      "alt": "A living room with leather sofas a wood burning stove and stone walls at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/outdoor-seating-with-hills-view.webp",
+      "alt": "A wooden garden table and six chairs on a grassy terrace overlooking the rolling green Yorkshire Dales"
     },
     {
-      "path": "/images/properties/roger-pot/a-living-room-with-leather-sofas-a-wooden-coffee-table-and-a.jpeg",
-      "alt": "A living room with leather sofas a wooden coffee table and a stone fireplace at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/staircase-landing-with-chandelier.webp",
+      "alt": "A cottage landing and white staircase with a lit chandelier, woven runner and an open door to a bedroom"
     },
     {
-      "path": "/images/properties/roger-pot/a-living-room-with-two-brown-leather-sofas-a-wooden-coffee-t.jpeg",
-      "alt": "A living room with two brown leather sofas a wooden coffee table and exposed stone walls at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/stone-cottage-front-with-tree.jpg",
+      "alt": "The stone front of a cottage with an open porch door, potted plants and a cat under a bench on a sunny day"
     },
     {
-      "path": "/images/properties/roger-pot/a-living-room-with-two-leather-sofas-a-wooden-chest-and-side.jpeg",
-      "alt": "A living room with two leather sofas a wooden chest and side table with lamp at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/stone-house-with-dales-view.jpg",
+      "alt": "A gravel yard beside a stone house looking out over green fields, dry-stone walls and Dales hills"
     },
     {
-      "path": "/images/properties/roger-pot/a-living-room-with-two-leather-sofas-cushions-a-wooden-side-.jpeg",
-      "alt": "A living room with two leather sofas cushions a wooden side table lamp and exposed stone walls at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/stream-through-trees.webp",
+      "alt": "A shallow stony stream running through sunlit woodland with mossy trees and a dry-stone wall"
     },
     {
-      "path": "/images/properties/roger-pot/a-dining-room-with-a-wooden-table-and-chairs-a-wicker-basket.jpeg",
-      "alt": "A dining room with a wooden table and chairs a wicker basket with food on a counter and framed pictures on the walls at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/twin-bedroom-metal-beds-beams.jpg",
+      "alt": "A rustic twin bedroom with two black metal beds, exposed beams, a cushioned window seat and chest of drawers"
     },
     {
-      "path": "/images/properties/roger-pot/a-dining-room-with-a-wooden-table-and-chairs-flowers-in-a-va.jpeg",
-      "alt": "A dining room with a wooden table and chairs flowers in a vase and tea set on the table at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/twin-bedroom-with-radiator.webp",
+      "alt": "A cottage twin bedroom with two metal-framed beds, bedside lamps and exposed ceiling beams"
     },
     {
-      "path": "/images/properties/roger-pot/a-dining-area-with-a-wooden-table-and-chairs-a-flower-vase-a.jpeg",
-      "alt": "A dining area with a wooden table and chairs a flower vase and kitchen appliances in a room with stone walls at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/utility-room-washing-machine.jpg",
+      "alt": "A utility room with a washing machine, stainless-steel sink, wooden worktop and wall-mounted boiler"
     },
     {
-      "path": "/images/properties/roger-pot/a-dining-room-with-wooden-table-and-chairs-a-vase-with-flowe.jpeg",
-      "alt": "A dining room with wooden table and chairs a vase with flowers and a tray with teapot next to a stone wall opening to a kitchen at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/white-tiled-bathroom-with-shower.webp",
+      "alt": "A compact white-tiled shower room with a toilet, vanity basin, mirror cabinet and glass shower enclosure"
     },
     {
-      "path": "/images/properties/roger-pot/a-kitchen-countertop-with-kettles-cups-and-a-green-pot-in-st.jpeg",
-      "alt": "A kitchen countertop with kettles cups and a green pot in stone shelves at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/paul-and-karen/woman-with-dog-in-snow.jpg",
+      "alt": "A smiling woman in winter walking gear with a shaggy brown dog on a snowy Dales track beside a dry-stone wall"
     },
     {
-      "path": "/images/properties/roger-pot/a-kitchen-with-cream-cabinets-wooden-countertops-a-stainless.jpeg",
-      "alt": "A kitchen with cream cabinets wooden countertops a stainless steel oven and tiled floor at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/personal-photos/man-in-orange-shirt-at-cafe.png",
+      "alt": "A smiling man in an orange T-shirt seated at a table in a sunlit stone courtyard with arches and flags"
     },
     {
-      "path": "/images/properties/roger-pot/a-utility-room-with-a-washing-machine-sink-and-countertop-at.jpeg",
-      "alt": "A utility room with a washing machine sink and countertop at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/personal-photos/man-in-red-jacket-by-gorse.png",
+      "alt": "A grey-haired man in a red jacket standing on a path between bright yellow flowering gorse bushes"
     },
     {
-      "path": "/images/properties/roger-pot/a-utility-room-with-a-washing-machine-a-sink-and-hooks-on-th.jpeg",
-      "alt": "A utility room with a washing machine a sink and hooks on the wall at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/personal-photos/woman-by-european-bridge.png",
+      "alt": "A smiling woman on a bridge with hanging flower baskets, overlooking a canal and tall European-style buildings"
     },
     {
-      "path": "/images/properties/roger-pot/a-hallway-with-tiled-floor-and-a-storage-door-under-the-stai.jpeg",
-      "alt": "A hallway with tiled floor and a storage door under the stairs leading to a kitchen at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/personal-photos/woman-by-seaside-cliffs.png",
+      "alt": "A woman walking along a seaside promenade past a rocky breakwater, with boats and cliffs across the bay"
     },
     {
-      "path": "/images/properties/roger-pot/a-small-bathroom-with-a-toilet-and-tiled-walls-at-roger-pot-.jpeg",
-      "alt": "A small bathroom with a toilet and tiled walls at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/places-of-interest/grisedale-valley.jpeg",
+      "alt": "An elevated view over the green Grisedale valley with dry-stone walls, a winding stream and fells under a cloudy sky"
     },
     {
-      "path": "/images/properties/roger-pot/a-staircase-with-white-railing-and-wall-art-near-a-window-at.jpeg",
-      "alt": "A staircase with white railing and wall art near a window at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/places-of-interest/rainbow-over-dale.jpeg",
+      "alt": "A rainbow arcing over green Dales hills and a stone farmhouse, with a dry-stone wall in the foreground under storm clouds"
     },
     {
-      "path": "/images/properties/roger-pot/a-bedroom-with-a-metal-bed-frame-wooden-wardrobes-bedside-ta.jpeg",
-      "alt": "A bedroom with a metal bed frame wooden wardrobes bedside tables and exposed wooden ceiling beams at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/places-of-interest/sheep-herding-on-road.jpeg",
+      "alt": "A flock of sheep being driven along a country road between dry-stone walls, with a red car waiting behind"
     },
     {
-      "path": "/images/properties/roger-pot/a-bedroom-with-a-metal-bed-frame-wooden-bedside-tables-lamps.jpeg",
-      "alt": "A bedroom with a metal bed frame wooden bedside tables lamps and exposed wooden ceiling beams at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/places-of-interest/sheep-with-sheepdog.jpeg",
+      "alt": "Black-and-white sheepdogs herding a flock of sheep and lambs along the verge of a rural road"
     },
     {
-      "path": "/images/properties/roger-pot/a-bedroom-with-a-bed-with-folded-towels-on-it-a-wooden-dress.jpeg",
-      "alt": "A bedroom with a bed with folded towels on it a wooden dresser a wall-mounted TV and curtains on windows at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/places-of-interest/snow-capped-fells.jpeg",
+      "alt": "Snow-capped rounded fells rising above green fields and bare trees under a clear blue sky"
     },
     {
-      "path": "/images/properties/roger-pot/a-bedroom-with-two-windows-curtains-wardrobe-television-and-.jpeg",
-      "alt": "A bedroom with two windows curtains wardrobe television and exposed wooden beams at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/places-of-interest/snowy-howgill-fells.jpeg",
+      "alt": "The snow-covered Howgill Fells rising above green fields and dry-stone walls under a clear blue sky"
     },
     {
-      "path": "/images/properties/roger-pot/a-bathroom-with-a-toilet-sink-cabinet-mirror-and-shower-behi.jpeg",
-      "alt": "A bathroom with a toilet sink cabinet mirror and shower behind a door at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-bathroom-with-a-sink-vanity-unit-and-a-shower-area-at-roge.jpeg",
-      "alt": "A bathroom with a sink vanity unit and a shower area at Roger Pot Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-bedroom-with-two-single-beds-a-wooden-chest-of-drawers-and.jpeg",
-      "alt": "A bedroom with two single beds a wooden chest of drawers and a window seat with cushions at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-bedroom-with-a-bed-a-bedside-table-with-lamp-a-window-seat.jpeg",
-      "alt": "A bedroom with a bed a bedside table with lamp a window seat with cushions patterned curtains and a wooden chest of drawers at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-window-with-patterned-curtains-and-a-bowl-and-vase-on-the-.jpeg",
-      "alt": "A window with patterned curtains and a bowl and vase on the windowsill overlooking a green hillside at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-bedroom-with-two-single-beds-side-by-side-with-white-beddi.jpeg",
-      "alt": "A bedroom with two single beds side by side with white bedding wooden bedside tables lamps and exposed wooden beams at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-bedroom-with-two-single-beds-with-white-bedding-towels-on-.jpeg",
-      "alt": "A bedroom with two single beds with white bedding towels on beds a wall light framed pictures a lamp a wardrobe and exposed wooden beams at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/hallway-with-wooden-floor-leading-to-a-bedroom-with-bed-and-.jpeg",
-      "alt": "Hallway with wooden floor leading to a bedroom with bed and dresser and another room with wardrobe and window at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-bedroom-with-a-white-bedspread-two-bedside-lamps-wooden-wa.jpeg",
-      "alt": "A bedroom with a white bedspread two bedside lamps wooden wardrobe and a window at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-bedroom-with-a-bed-a-wooden-wardrobe-a-window-and-exposed-.jpeg",
-      "alt": "A bedroom with a bed a wooden wardrobe a window and exposed wooden beams at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-bedroom-with-a-metal-bed-frame-white-bedding-wooden-ceilin.jpeg",
-      "alt": "A bedroom with a metal bed frame white bedding wooden ceiling beams and a small bedside lamp at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/places-of-interest/valley-view.jpeg",
+      "alt": "An elevated view over a patchwork Dales valley of green fields, dry-stone walls and farm buildings between rolling hills"
     },
     {
       "path": "/images/properties/roger-pot/a-bathroom-with-a-bathtub-shower-combination-a-sink-with-cab.jpeg",
-      "alt": "A bathroom with a bathtub shower combination a sink with cabinet mirror and toilet at Roger Pot in Garsdale near Sedbergh"
+      "alt": "A bathroom at Roger Pot with pale green tiles, a vanity basin, mirror and a bath with shower over"
     },
     {
-      "path": "/images/properties/roger-pot/a-stonewalled-room-with-wooden-furniture-looking-out-through.jpeg",
-      "alt": "A stone-walled room with wooden furniture looking out through an open door to a stone wall and green fields at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/properties/roger-pot/a-bathroom-with-a-sink-vanity-unit-and-a-shower-area-at-roge.jpeg",
+      "alt": "A modern cream-tiled shower room at Roger Pot with a vanity basin, mirror cabinet and walk-in glass shower"
     },
     {
-      "path": "/images/properties/roger-pot/an-outdoor-seating-area-with-a-wooden-round-table-and-six-ch.jpeg",
-      "alt": "An outdoor seating area with a wooden round table and six chairs on grass near a stone building at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/properties/roger-pot/a-bathroom-with-a-toilet-sink-cabinet-mirror-and-shower-behi.jpeg",
+      "alt": "A compact shower room at Roger Pot with a toilet, vanity basin, mirror cabinet and glass shower enclosure"
     },
     {
-      "path": "/images/properties/roger-pot/an-outdoor-seating-area-with-chairs-and-a-table-on-grass-nea.jpeg",
-      "alt": "An outdoor seating area with chairs and a table on grass near a fence in a rural landscape at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/properties/roger-pot/a-bedroom-with-a-bed-a-bedside-table-with-lamp-a-window-seat.jpeg",
+      "alt": "A bedroom at Roger Pot with a metal-framed bed, bedside lamp, cushioned window seat and leaf-patterned curtains"
     },
     {
-      "path": "/images/properties/roger-pot/stone-wall-and-gravel-path-beside-a-stone-building-with-gree.jpeg",
-      "alt": "Stone wall and gravel path beside a stone building with green hills and trees in the background at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/properties/roger-pot/a-bedroom-with-a-bed-a-wooden-wardrobe-a-window-and-exposed-.jpeg",
+      "alt": "A double bedroom at Roger Pot with a black iron bed, oak wardrobe and exposed ceiling beams"
     },
     {
-      "path": "/images/properties/roger-pot/a-stone-cottage-with-gravel-driveway-and-dry-stone-wall-over.jpeg",
-      "alt": "A stone cottage with gravel driveway and dry stone wall overlooking green hills at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/properties/roger-pot/a-bedroom-with-a-bed-with-folded-towels-on-it-a-wooden-dress.jpeg",
+      "alt": "A cottage bedroom at Roger Pot with a black metal bed, wooden dresser, wall-mounted TV and green rug"
     },
     {
-      "path": "/images/properties/roger-pot/a-stone-house-with-a-porch-and-gravel-driveway-at-roger-pot-.jpeg",
-      "alt": "A stone house with a porch and gravel driveway at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/properties/roger-pot/a-bedroom-with-a-metal-bed-frame-white-bedding-wooden-ceilin.jpeg",
+      "alt": "A cosy attic bedroom at Roger Pot with a metal-framed double bed, white bedding and exposed beams"
     },
     {
-      "path": "/images/properties/roger-pot/an-outdoor-grassy-area-with-a-rotary-clothesline-and-a-table.jpeg",
-      "alt": "An outdoor grassy area with a rotary clothesline and a table with chairs surrounded by hills at Roger Pot in Garsdale near Sedbergh"
+      "path": "/images/properties/roger-pot/a-bedroom-with-a-metal-bed-frame-wooden-bedside-tables-lamps.jpeg",
+      "alt": "A double bedroom at Roger Pot with a black metal bed, oak bedside tables, lamps and an owl ornament on the wall"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-bedroom-with-a-metal-bed-frame-wooden-wardrobes-bedside-ta.jpeg",
+      "alt": "A spacious beamed bedroom at Roger Pot with a black metal double bed, oak wardrobe and full-length mirror"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-bedroom-with-a-white-bedspread-two-bedside-lamps-wooden-wa.jpeg",
+      "alt": "A double bedroom at Roger Pot with a black metal bed, bedside lamps, window seat and oak wardrobe"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-bedroom-with-two-single-beds-a-wooden-chest-of-drawers-and.jpeg",
+      "alt": "A twin bedroom at Roger Pot with two metal-framed single beds, a cushioned window seat and wooden chest of drawers"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-bedroom-with-two-single-beds-side-by-side-with-white-beddi.jpeg",
+      "alt": "A twin bedroom at Roger Pot with two metal-framed single beds, exposed beams and bedside lamps"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-bedroom-with-two-single-beds-with-white-bedding-towels-on-.jpeg",
+      "alt": "A twin bedroom at Roger Pot with two single beds, framed landscape pictures and a built-in wardrobe"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-bedroom-with-two-windows-curtains-wardrobe-television-and-.jpeg",
+      "alt": "A bright beamed bedroom at Roger Pot with a metal-framed bed, two windows, wall-mounted TV and oak wardrobe"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-dining-area-with-a-wooden-table-and-chairs-a-flower-vase-a.jpeg",
+      "alt": "The open-plan dining and kitchen area at Roger Pot with an oak table, stone wall, breakfast bar and fresh flowers"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-dining-room-with-a-wooden-table-and-chairs-a-wicker-basket.jpeg",
+      "alt": "The dining area at Roger Pot with an oak table and chairs, a welcome hamper and American fridge-freezer"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-dining-room-with-a-wooden-table-and-chairs-flowers-in-a-va.jpeg",
+      "alt": "The Roger Pot dining room with a long oak table and chairs, fresh flowers and a window to the garden"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-dining-room-with-wooden-table-and-chairs-a-vase-with-flowe.jpeg",
+      "alt": "The open-plan dining area at Roger Pot with an oak table, stone chimney breast, breakfast bar and adjoining kitchen"
     },
     {
       "path": "/images/properties/roger-pot/a-dirt-path-with-metal-gates-and-stone-walls-surrounded-by-g.jpeg",
-      "alt": "A dirt path with metal gates and stone walls surrounded by grass and trees at Roger Pot in Garsdale near Sedbergh"
-    },
-    {
-      "path": "/images/properties/roger-pot/a-grassy-hillside-with-scattered-trees-and-a-stone-wall-at-r.jpeg",
-      "alt": "A grassy hillside with scattered trees and a stone wall at Roger Pot in Garsdale near Sedbergh"
+      "alt": "A sunlit unpaved track climbing through a gateway between dry-stone walls and green fields at Roger Pot"
     },
     {
       "path": "/images/properties/roger-pot/a-grassy-area-with-trees-next-to-a-rocky-stream-at-roger-pot.jpeg",
-      "alt": "A grassy area with trees next to a rocky stream at Roger Pot in Garsdale near Sedbergh"
+      "alt": "A shallow rocky stream beside a grassy, tree-lined bank in the grounds at Roger Pot"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-grassy-hillside-with-scattered-trees-and-a-stone-wall-at-r.jpeg",
+      "alt": "A green hillside with dry-stone walls and scattered trees overlooking the valley at Roger Pot"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-hallway-with-tiled-floor-and-a-storage-door-under-the-stai.jpeg",
+      "alt": "A tiled hallway at Roger Pot with a white staircase, under-stair cupboard and an open doorway to the kitchen"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-kitchen-countertop-with-kettles-cups-and-a-green-pot-in-st.jpeg",
+      "alt": "A close-up of the Roger Pot kitchen worktop with stainless-steel kettles on the hob and a rustic stone shelving niche"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-kitchen-with-cream-cabinets-wooden-countertops-a-stainless.jpeg",
+      "alt": "The kitchen at Roger Pot with cream cabinets, wooden worktops, a double oven and a stone shelving alcove"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-leather-sofa-with-plaid-cushions-next-to-a-wooden-side-tab.jpeg",
+      "alt": "A brown leather sofa with tartan cushions beside a lamp-lit side table at Roger Pot"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-living-room-with-leather-sofas-a-wood-burning-stove-and-st.jpeg",
+      "alt": "The Roger Pot living room with two leather sofas, a lit wood-burning stove and a flagstone floor"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-living-room-with-leather-sofas-a-wooden-coffee-table-and-a.jpeg",
+      "alt": "The living room at Roger Pot with leather sofas around a wooden chest, a stone fireplace and lit wood-burning stove"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-living-room-with-two-brown-leather-sofas-a-wooden-coffee-t.jpeg",
+      "alt": "Two brown leather sofas around a wooden coffee table in the stone-walled living room at Roger Pot"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-living-room-with-two-leather-sofas-a-wooden-chest-and-side.jpeg",
+      "alt": "The Roger Pot living room with two leather sofas, exposed stone walls and an arched doorway to the staircase"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-living-room-with-two-leather-sofas-cushions-a-wooden-side-.jpeg",
+      "alt": "Two leather sofas with bright cushions in the beamed, stone-walled living room at Roger Pot"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-room-with-a-leather-sofa-near-a-window-with-curtains-and-a.jpeg",
+      "alt": "A rustic sitting room at Roger Pot with a stone wall, leather sofa and an open door to the garden"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-small-bathroom-with-a-toilet-and-tiled-walls-at-roger-pot-.jpeg",
+      "alt": "A compact tiled WC at Roger Pot with a white toilet and a toilet-roll holder on the door"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-staircase-with-white-railing-and-wall-art-near-a-window-at.jpeg",
+      "alt": "The staircase landing at Roger Pot with a white banister, woven runner, framed horse print and chandelier"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-stone-cottage-with-gravel-driveway-and-dry-stone-wall-over.jpeg",
+      "alt": "Roger Pot stone cottage beside a gravel driveway and dry-stone wall, overlooking a green valley"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-stone-house-with-a-porch-and-gravel-driveway-at-roger-pot-.jpeg",
+      "alt": "The stone front of Roger Pot with its white porch, potted plants and gravel driveway in sunshine"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-stone-house-with-a-round-table-and-chairs-on-grass-overloo.jpeg",
+      "alt": "Roger Pot cottage with a garden table and chairs on the grass, looking out over the Dales valley"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-stone-house-with-white-framed-windows-a-bench-and-potted-p.jpeg",
+      "alt": "The front of Roger Pot stone house with white sash windows, a porch, potted plants and a cat under the bench"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-stonewalled-room-with-wooden-furniture-looking-out-through.jpeg",
+      "alt": "Looking out from a stone-walled room at Roger Pot through an open door to green hillside fields"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-utility-room-with-a-washing-machine-a-sink-and-hooks-on-th.jpeg",
+      "alt": "The utility room at Roger Pot with a washing machine, sink, peg rail and coat hooks"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-utility-room-with-a-washing-machine-sink-and-countertop-at.jpeg",
+      "alt": "The Roger Pot utility room with a washing machine, stainless-steel sink and wall-mounted boiler"
+    },
+    {
+      "path": "/images/properties/roger-pot/a-window-with-patterned-curtains-and-a-bowl-and-vase-on-the-.jpeg",
+      "alt": "A cottage window at Roger Pot with leaf-patterned curtains, looking out over green fields and a track"
+    },
+    {
+      "path": "/images/properties/roger-pot/an-open-window-with-a-latch-and-stone-wall-visible-with-hill.jpeg",
+      "alt": "An open cottage window at Roger Pot looking out over green trees, fields and a hillside"
+    },
+    {
+      "path": "/images/properties/roger-pot/an-outdoor-grassy-area-with-a-rotary-clothesline-and-a-table.jpeg",
+      "alt": "A garden lawn at Roger Pot with a rotary washing line and table and chairs overlooking a green valley"
+    },
+    {
+      "path": "/images/properties/roger-pot/an-outdoor-seating-area-with-a-wooden-round-table-and-six-ch.jpeg",
+      "alt": "A round wooden table and six chairs on the grass beside Roger Pot, with valley views beyond"
+    },
+    {
+      "path": "/images/properties/roger-pot/an-outdoor-seating-area-with-chairs-and-a-table-on-grass-nea.jpeg",
+      "alt": "An outdoor dining set on the lawn at Roger Pot overlooking rolling green hills"
+    },
+    {
+      "path": "/images/properties/roger-pot/hallway-with-wooden-floor-leading-to-a-bedroom-with-bed-and-.jpeg",
+      "alt": "A cottage hallway at Roger Pot with wooden floors leading through to two beamed bedrooms"
+    },
+    {
+      "path": "/images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg",
+      "alt": "The exterior of Roger Pot, a stone cottage with white porch and windows, beside a gravel track and outbuilding"
+    },
+    {
+      "path": "/images/properties/roger-pot/stone-wall-and-gravel-path-beside-a-stone-building-with-gree.jpeg",
+      "alt": "A gravel yard and dry-stone walls beside the stone building at Roger Pot, looking out to green hills"
+    },
+    {
+      "path": "/images/properties/roger-pot/wooden-starshaped-decor-pieces-on-a-windowsill-at-roger-pot-.jpeg",
+      "alt": "Three wooden star-shaped ornaments on a sunlit windowsill at Roger Pot"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bathroom-with-a-shower-area-green-and-white-tiled-walls-a-.jpeg",
+      "alt": "A cottage shower room at The Old Cart House with teal and white tiles, a glass shower and a net-curtained window"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bathroom-with-a-sink-and-mirror-next-to-a-wooden-door-open.jpeg",
+      "alt": "A teal-tiled bathroom at The Old Cart House with a pedestal sink and a rustic wooden door open to a bedroom"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bathroom-with-a-toilet-sink-shower-and-window-with-flowers.jpeg",
+      "alt": "A bathroom at The Old Cart House with a toilet, sink, shower and a window dressed with flowers"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-bed-a-bookshelf-lamp-framed-pictures-and-wo.jpeg",
+      "alt": "A rustic loft bedroom at The Old Cart House with a patchwork quilt, a book shelf, beams and a stag picture"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-bed-a-window-with-floral-curtains-a-mirror-.jpeg",
+      "alt": "A bright beamed bedroom at The Old Cart House with a patchwork quilt, floral curtains and a toy squirrel on the rail"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-bed-and-chair-visible-through-a-wooden-door.jpeg",
+      "alt": "Looking through a rustic wooden door at The Old Cart House into a beamed bedroom with a blue patchwork quilt"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-bed-covered-in-a-patterned-quilt-a-toy-squi.jpeg",
+      "alt": "A mezzanine bedroom at The Old Cart House with a patchwork quilt, a toy squirrel on the rail and stairs descending below"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-patterned-quilt-on-the-bed-a-wooden-sliding.jpeg",
+      "alt": "A beamed bedroom at The Old Cart House with a patchwork quilt and a sliding barn door to the en-suite bathroom"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-wooden-bed-frame-quilt-wall-shelves-small-w.jpeg",
+      "alt": "A rustic loft bedroom at The Old Cart House with a wooden bed, patchwork quilt, book shelf and stag picture"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-wooden-bed-frame-quilted-bedspread-green-be.jpeg",
+      "alt": "A sunny bedroom at The Old Cart House with a plank-headboard bed, patchwork quilt and book shelf above"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-bedroom-with-a-wooden-headboard-a-bed-with-a-quilt-and-pla.jpeg",
+      "alt": "A beamed bedroom at The Old Cart House with a plank-headboard bed, patchwork quilt and sliding barn door to the en-suite"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-countryside-landscape-with-rolling-hills-fields-trees-and-.jpeg",
+      "alt": "Rolling Dales hills, fields and bare trees with grazing sheep under an overcast sky near The Old Cart House"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-garden-with-sparse-snow-cover-trees-stone-walls-and-hills-.jpeg",
+      "alt": "A frosty winter garden at The Old Cart House with bare trees, dry-stone walls and a low sun over the hills"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-kitchen-corner-with-a-countertop-holding-a-small-blue-cabi.jpeg",
+      "alt": "A rustic kitchen corner at The Old Cart House with vintage cabinets, open shelves of crockery and a red kettle"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-living-room-with-a-fireplace-armchair-patterned-curtains-a.jpeg",
+      "alt": "A country living room at The Old Cart House with a wood-burner, red striped armchair, patterned rug and TV"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-living-room-with-patterned-sofas-a-wooden-table-a-vintage-.jpeg",
+      "alt": "A traditional living room at The Old Cart House with floral sofas, a vintage Singer sewing machine and beams"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-living-room-with-striped-and-floral-armchairs-a-wooden-tab.jpeg",
+      "alt": "The open-plan living and dining area at The Old Cart House with striped and floral sofas, a dining table and staircase"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-living-room-with-wooden-beams-floral-and-striped-chairs-a-.jpeg",
+      "alt": "A cosy beamed living room at The Old Cart House with floral and striped seating, a wood-burning stove and Singer sewing machine"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-narrow-road-alongside-a-stone-wall-with-a-stream-and-leafl.jpeg",
+      "alt": "A snowy winter lane beside a stone wall and beck, with stone cottages near The Old Cart House"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-river-flowing-alongside-a-road-with-leafless-trees-and-a-h.jpeg",
+      "alt": "A winter beck flowing past a road and bare trees, with a stone cottage near The Old Cart House"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-road-running-alongside-a-stone-wall-and-a-partially-frozen.jpeg",
+      "alt": "A winter lane beside a dry-stone wall and a partly frozen beck near The Old Cart House"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-road-with-a-yorkshire-dales-national-park-sign-and-fields-.jpeg",
+      "alt": "A Yorkshire Dales National Park sign set in a stone wall beside a road, with fields and fells beyond"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-room-with-a-red-striped-armchair-near-an-open-door-and-woo.jpeg",
+      "alt": "A room at The Old Cart House with a red striped armchair by an open garden door and a wooden staircase"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-rural-road-with-a-stone-wall-beside-a-stream-and-leafless-.jpeg",
+      "alt": "A sunny winter lane beside a snow-topped dry-stone wall and beck, with a stone building near The Old Cart House"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-rustic-living-area-with-wooden-staircase-dining-table-with.jpeg",
+      "alt": "The open-plan living area at The Old Cart House with a steep wooden staircase, dining table and patterned sofa"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-rustic-sliding-wooden-door-next-to-a-small-bedside-table-a.jpeg",
+      "alt": "A rustic sliding barn door beside a bed and book shelf in a beamed bedroom at The Old Cart House"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-small-corner-with-a-window-a-flowerpot-on-the-sill-a-woode.jpeg",
+      "alt": "A sunny corner at The Old Cart House with a sage-green window, a Flower Market planter and a botanical-print chair"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-small-kitchen-with-a-washing-machine-fridge-oven-wooden-st.jpeg",
+      "alt": "The compact kitchen at The Old Cart House with a washing machine under the stairs, open shelving and a green-framed window"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-small-outdoor-patio-with-a-blue-metal-table-and-two-chairs.jpeg",
+      "alt": "A sheltered stone patio at The Old Cart House with a turquoise bistro set and potted plants by a trellis"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-small-seating-area-with-a-wooden-chair-a-wicker-basket-a-w.jpeg",
+      "alt": "A rustic corner at The Old Cart House with a window seat, hare-motif lamp, wicker basket and botanical-print chair"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-snowy-field-with-footprints-leading-to-a-gate-and-hills-in.jpeg",
+      "alt": "A snowy field with footprints leading to a gate, with Dales hills beyond, near The Old Cart House"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-staircase-with-wooden-railing-and-a-stuffed-squirrel-on-th.jpeg",
+      "alt": "A cottage landing at The Old Cart House with a toy squirrel on the stair rail and a mirror reflecting the bedroom"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-stone-building-entrance-with-a-light-green-door-and-window.jpeg",
+      "alt": "The sage-green door and The Old Cart House sign at the stone cottage entrance, with frost on the roof"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-stone-house-with-a-staircase-lined-with-plant-pots-and-a-g.jpeg",
+      "alt": "Stone steps lined with terracotta pots leading to the sage-green door of The Old Cart House on a snowy day"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-stone-house-with-potted-plants-outside-and-a-stone-wall-wi.jpeg",
+      "alt": "The stone exterior of The Old Cart House with sage-green woodwork and potted plants, beside a snowy lane"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-stone-wall-alongside-a-narrow-road-next-to-a-river-with-le.jpeg",
+      "alt": "A snowy lane beside a dry-stone wall and a fast-flowing beck near The Old Cart House"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-stone-wall-with-a-rectangular-plaque-that-says-the-old-car.jpeg",
+      "alt": "A slate plaque reading The Old Cart House in gold lettering, mounted on a stone wall"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/a-wooden-staircase-with-metal-railings-inside-a-room-with-a-.jpeg",
+      "alt": "The open-tread wooden staircase at The Old Cart House, with a Singer sewing machine and patterned sofa beyond"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/an-outdoor-information-board-about-adam-sedgwick-and-the-den.jpeg",
+      "alt": "An interpretation board about Adam Sedgwick and the Dent Fault set in a dry-stone wall, with snowy Dales hills beyond"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/an-outdoor-patio-with-two-mint-green-chairs-and-a-round-tabl.jpeg",
+      "alt": "A snow-dusted patio at The Old Cart House with a mint-green bistro set and potted plants by a stone wall"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/an-outdoor-stone-patio-with-metal-table-and-chairs-surrounde.jpeg",
+      "alt": "A wintry patio at The Old Cart House with a mint-green bistro set surrounded by plant pots and a dry-stone wall"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/dining-area-near-staircase.png",
+      "alt": "The kitchen and dining area at The Old Cart House, with a staircase, fitted kitchen and a welcome basket on the table"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/stone-exterior-of-a-house-with-green-door-and-windows-and-po.jpeg",
+      "alt": "The stone exterior of The Old Cart House with its sage-green door and windows and a row of plant pots, in winter"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg",
+      "alt": "The sage-green entrance door and slate name plaque of The Old Cart House, with potted plants, on a frosty day"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/utility-room-with-washing-machine.png",
+      "alt": "The compact kitchen and utility area at The Old Cart House, with a washing machine under the stairs and open shelving"
+    },
+    {
+      "path": "/images/properties/the-old-cart-house/wooden-staircase-with-furniture.png",
+      "alt": "The rustic kitchen and dining area at The Old Cart House, with an open-tread wooden staircase and welcome hamper"
+    },
+    {
+      "path": "/images/scenery/dale-valley-landscape.png",
+      "alt": "A green Dales valley with stone farm buildings, dry-stone walls and a wooded hillside under a blue sky"
+    },
+    {
+      "path": "/images/scenery/fellside.jpeg",
+      "alt": "A pale moon rising over a Garsdale fellside at dusk, with sheep grazing in the field below"
+    },
+    {
+      "path": "/images/scenery/garsdale-in-winter.jpeg",
+      "alt": "Snow-covered fields and hills in Garsdale in winter, with bare trees, conifers and a dry-stone wall"
+    },
+    {
+      "path": "/images/scenery/moon-over-langstone-fell.jpeg",
+      "alt": "The moon over moorland hills above a winding road with chevron bend signs near Garsdale at dusk"
+    },
+    {
+      "path": "/images/scenery/roger-pot-and-rose-cottage.jpeg",
+      "alt": "A distant view of stone cottages with solar panels, including Roger Pot, among green Garsdale hillsides with grazing ponies"
+    },
+    {
+      "path": "/images/scenery/rose-cottage-and-the-cart-house.jpeg",
+      "alt": "Stone cottages and barns with solar panels among green fields and dry-stone walls in a Garsdale valley"
+    },
+    {
+      "path": "/images/scenery/wildflowers-in-grass.png",
+      "alt": "A close-up of a wildflower meadow with yellow and purple flowers among long green grass"
+    },
+    {
+      "path": "/images/sheep-by-dry-stone-wall.png",
+      "alt": "White lambs beside a dry-stone wall in a sunny green spring pasture, with sheep grazing in the field beyond"
+    },
+    {
+      "path": "/images/wildlife/bird-feeders-in-garden.png",
+      "alt": "Garden bird feeders on a stand by a stone wall, with small birds feeding and stone squirrel ornaments"
+    },
+    {
+      "path": "/images/wildlife/brown-hare.jpeg",
+      "alt": "A brown hare sitting in a green pasture, seen over a mossy stone wall and wire fence"
+    },
+    {
+      "path": "/images/wildlife/jay.jpeg",
+      "alt": "A Eurasian jay with a bright blue wing patch standing on a lawn in front of a green hedge"
+    },
+    {
+      "path": "/images/wildlife/lamb.jpeg",
+      "alt": "A black-faced lamb standing on a dry-stone wall nibbling a shrub, in a green Dales field"
+    },
+    {
+      "path": "/images/wildlife/lone-sheep.jpeg",
+      "alt": "A black-faced sheep with a blue livestock mark standing in trampled snow, facing the camera"
+    },
+    {
+      "path": "/images/wildlife/male-pheasant.jpeg",
+      "alt": "A male pheasant with a white neck-ring standing on snow-covered stones by a dry-stone wall in winter"
+    },
+    {
+      "path": "/images/wildlife/owl.jpeg",
+      "alt": "A barn owl perched on a stack of rusted metal, with green Dales fields and dry-stone walls behind"
+    },
+    {
+      "path": "/images/wildlife/red-squirrel-1.jpeg",
+      "alt": "A red squirrel on a mossy dry-stone wall, peering over the edge beside a pink-flowering shrub in spring"
+    },
+    {
+      "path": "/images/wildlife/red-squirrel-2.jpeg",
+      "alt": "A red squirrel sitting on a mossy stone wall eating seeds in a lush green garden"
+    },
+    {
+      "path": "/images/wildlife/red-squirrel-3.jpeg",
+      "alt": "A red squirrel perched on a moss-covered branch high in a tree against an overcast sky"
+    },
+    {
+      "path": "/images/wildlife/red-squirrel-4.jpeg",
+      "alt": "A red squirrel perched on the roof of a wooden feeder box, with green Dales hillside behind"
+    },
+    {
+      "path": "/images/wildlife/robin.jpeg",
+      "alt": "A robin with an orange breast perched on a snow-dusted stone garden statue by a mossy dry-stone wall in winter"
+    },
+    {
+      "path": "/images/wildlife/winter-flock.jpeg",
+      "alt": "A flock of sheep with blue livestock marks standing in a snowy field below a wooded hillside in winter"
+    },
+    {
+      "path": "/images/wildlife/young-pheasants.jpeg",
+      "alt": "Three young pheasants feeding on a wooden bird table, with a dry-stone wall and ruined building on the hillside behind"
     }
   ]
 }
