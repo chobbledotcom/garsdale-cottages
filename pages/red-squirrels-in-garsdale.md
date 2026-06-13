@@ -1,7 +1,7 @@
 ---
 name: Red Squirrels in Garsdale
 header_text: Red Squirrels in Garsdale
-layout: design-system-base
+layout: base
 subtitle: One of England's last strongholds for the native red squirrel
 meta_title: Red Squirrels in Garsdale | Yorkshire Dales
 meta_description: Garsdale is one of the most important areas in England for the native

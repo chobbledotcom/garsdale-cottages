@@ -1,7 +1,7 @@
 ---
 name: Local Walks
 header_text: Local Walks
-layout: design-system-base
+layout: base
 subtitle: Walking routes from Garsdale and the surrounding area
 meta_title: Walks near Sedbergh and Garsdale | Yorkshire Dales Walking Routes
 meta_description: Walking routes near Sedbergh and Garsdale in the Yorkshire Dales
@@ -90,6 +90,13 @@ blocks:
   figure_src: /images/scenery/moon-over-langstone-fell.jpeg
   figure_alt: View over Langstone Fell
   reverse: false
+- type: bunny-video-background
+  video_url: https://player.mediadelivery.net/embed/639870/c350ed74-85e5-41ea-a5c7-8757a1c5a266?autoplay=true&loop=true&muted=true&preload=true&responsive=true
+  thumbnail_url: /images/places-of-interest/sheep-with-sheepdog.jpeg
+  video_title: Swaledale sheep running across a Garsdale fell
+  content: '## Sharing the Fells
+
+    '
 - type: features
   items:
   - icon: hugeicons:route-01

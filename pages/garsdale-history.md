@@ -1,7 +1,7 @@
 ---
 name: The History of Garsdale
 header_text: The History of Garsdale
-layout: design-system-base
+layout: base
 subtitle: Centuries of farming, faith and resilience
 meta_title: The History of Garsdale | Yorkshire Dales
 meta_description: The history of Garsdale in the Yorkshire Dales, from Viking settlement

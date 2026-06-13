@@ -1,6 +1,6 @@
 ---
 name: Search
-layout: design-system-base.html
+layout: base
 permalink: /search/
 blocks:
 - type: section-header

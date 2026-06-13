@@ -1,7 +1,7 @@
 ---
 name: Local News and Events
 header_text: Local News and Events
-layout: design-system-base
+layout: base
 subtitle: What's on in Sedbergh, Cumbria and surrounding areas
 meta_title: Local Events near Sedbergh and Garsdale | Yorkshire Dales
 meta_description: Local events, markets, shows and festivals near Sedbergh, Garsdale

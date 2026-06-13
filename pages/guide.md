@@ -1,7 +1,7 @@
 ---
 name: Guide
 subtitle: Browse our knowledge base
-layout: design-system-base.html
+layout: base
 permalink: /guide/
 eleventyNavigation:
   key: Guide

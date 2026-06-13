@@ -5,7 +5,7 @@ subtitle: Book direct with local property owners
 meta_title: Holiday Cottages near Sedbergh, Garsdale | Book Direct
 meta_description: Holiday cottages near Sedbergh in Garsdale, Yorkshire Dales. Book
   direct with local property owners for better prices and personal service.
-layout: design-system-base.html
+layout: base
 permalink: /properties/
 eleventyNavigation:
   key: Our Cottages

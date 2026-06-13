@@ -1,7 +1,7 @@
 ---
 name: 'Grisedale: The Dale That Died'
 header_text: 'Grisedale: The Dale That Died'
-layout: design-system-base
+layout: base
 subtitle: A walk into the neighbouring valley
 meta_title: 'Grisedale: The Dale That Died | Yorkshire Dales'
 meta_description: Grisedale, the neighbouring valley to Garsdale known as The Dale

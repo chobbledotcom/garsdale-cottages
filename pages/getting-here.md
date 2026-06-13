@@ -1,7 +1,7 @@
 ---
 name: Getting Here
 header_text: Getting Here
-layout: design-system-base
+layout: base
 subtitle: How to reach Garsdale
 meta_title: Getting to Garsdale near Sedbergh | Travel Information
 meta_description: How to reach our holiday cottages near Sedbergh in Garsdale, Yorkshire
