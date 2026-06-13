@@ -1,11 +1,14 @@
 ---
-name: Red Squirrels in Garsdale
+name: Red Squirrel Holiday Cottages in Garsdale
 header_text: Red Squirrels in Garsdale
 layout: base
-subtitle: One of England's last strongholds for the native red squirrel
-meta_title: Red Squirrels in Garsdale | Yorkshire Dales
-meta_description: Garsdale is one of the most important areas in England for the native
-  red squirrel. Where to see them, how they are protected, and nearby trails.
+permalink: /red-squirrels-in-garsdale/
+subtitle: Stay in a Yorkshire Dales holiday cottage in one of England's last strongholds
+  for the native red squirrel
+meta_title: Red Squirrel Holiday Cottages in Garsdale | Yorkshire Dales
+meta_description: Holiday cottages in Garsdale, Yorkshire Dales, where you can spot
+  native red squirrels from the garden and woodland paths. One of England's last red
+  squirrel strongholds. Book direct.
 blocks:
 - type: image-background
   parallax: true
@@ -15,12 +18,16 @@ blocks:
 
     '
 - type: markdown
-  content: 'Garsdale is one of the most important areas in England for the native
-    red squirrel. While greys have displaced reds across most of the country, the
-    dales around Sedbergh, Garsdale and the Upper Eden valley remain a stronghold
-    where reds continue to thrive.
+  content: 'If you are looking for a holiday cottage where you can see red squirrels,
+    Garsdale is one of the best places in England to base yourself. While greys have
+    displaced reds across most of the country, the dales around Sedbergh, Garsdale
+    and the Upper Eden valley remain a stronghold where reds continue to thrive, and
+    guests at our two cottages regularly spot them from the garden and on the woodland
+    paths nearby.
 
     '
+- type: items
+  collection: properties
 - type: split-image
   content: '## Why Garsdale Matters
 
@@ -128,6 +135,20 @@ blocks:
     drive from Garsdale.
 
     '
+- type: markdown
+  content: '## Holiday Cottages for Red Squirrel Spotting
+
+
+    Both of our Garsdale holiday cottages put you right in the heart of red squirrel
+    country. Bird feeders in the gardens draw the reds in for nuts and seeds, and
+    the woodland paths and riverbanks a short walk from each cottage are among the
+    most reliable places in the dale to see them. Early morning and late afternoon,
+    cup of tea in hand, you stand a real chance of a sighting without leaving the
+    doorstep.
+
+    '
+- type: items
+  collection: properties
 - type: cta
   button:
     text: View Our Cottages
