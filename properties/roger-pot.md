@@ -91,6 +91,9 @@ order: 0
 locations:
 - locations/garsdale.md
 blocks:
+- type: property-header
+- type: freetobook
+- type: property-gallery
 - type: markdown
   content: 'Sedbergh 6.3 miles. Hawes 9 miles.
 
@@ -215,4 +218,26 @@ blocks:
     it is sourced from a nearby well and cannot realistically be guaranteed. We therefore
     supply bottled water for you to use for drinking and cooking if you prefer. Top
     ups are available free of charge during your stay'
+- type: link-button
+  text: Check Availability / Book Online
+  href: '#freetobook'
+  variant: primary
+- type: property-features
+- type: property-guides
+- type: link-button
+  text: Leave a Review
+  href: /properties/roger-pot/leave-review/
+  variant: secondary
+- type: reviews
+  current_item: true
+- type: icon-links
+  intro_content: '## Contact Details'
+  items:
+  - icon: hugeicons:mail-01
+    text: pbenson434@gmail.com
+    url: mailto:pbenson434@gmail.com
+  - icon: hugeicons:telephone
+    text: 'Paul: 07342 200780'
+    url: tel:07342200780
+- type: property-contact-section
 ---
