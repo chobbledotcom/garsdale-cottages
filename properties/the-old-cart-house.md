@@ -94,6 +94,9 @@ meta_description: The Old Cart House - a charming detached holiday cottage near 
 locations:
 - locations/dent.md
 blocks:
+- type: property-header
+- type: freetobook
+- type: property-gallery
 - type: markdown
   content: 'Sedbergh 6.4 miles. Hawes 9 miles. Kendal 17 miles.
 
@@ -204,4 +207,28 @@ blocks:
     - Please Note: The garden is not fully enclosed, so dogs cannot be left unsupervised,
     As the property is located in a sheep farming area, dogs must be kept on a lead
     at all times while out walking.'
+- type: link-button
+  text: Check Availability / Book Online
+  href: '#freetobook'
+  variant: primary
+- type: property-features
+- type: link-button
+  text: Leave a Review
+  href: /properties/the-old-cart-house/leave-review/
+  variant: secondary
+- type: reviews
+  current_item: true
+- type: icon-links
+  intro_content: '## Contact Details'
+  items:
+  - icon: hugeicons:mail-01
+    text: lorainebutterworth@hotmail.com
+    url: mailto:lorainebutterworth@hotmail.com
+  - icon: hugeicons:telephone
+    text: 'Loraine: 07905 637690'
+    url: tel:07905637690
+  - icon: hugeicons:telephone
+    text: 'Jack: 07982 235493'
+    url: tel:07982235493
+- type: property-contact-section
 ---
