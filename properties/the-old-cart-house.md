@@ -95,9 +95,13 @@ locations:
 - locations/dent.md
 blocks:
 - type: property-header
+  compact: true
 - type: freetobook
+  compact: true
 - type: property-gallery
+  compact: true
 - type: markdown
+  compact: true
   content: 'Sedbergh 6.4 miles. Hawes 9 miles. Kendal 17 miles.
 
 
@@ -208,17 +212,22 @@ blocks:
     As the property is located in a sheep farming area, dogs must be kept on a lead
     at all times while out walking.'
 - type: link-button
+  compact: true
   text: Check Availability / Book Online
   href: '#freetobook'
   variant: primary
 - type: property-features
+  compact: true
 - type: link-button
+  compact: true
   text: Leave a Review
   href: /properties/the-old-cart-house/leave-review/
   variant: secondary
 - type: reviews
+  compact: true
   current_item: true
 - type: icon-links
+  compact: true
   intro_content: '## Contact Details'
   items:
   - icon: hugeicons:mail-01
@@ -231,4 +240,5 @@ blocks:
     text: 'Jack: 07982 235493'
     url: tel:07982235493
 - type: property-contact-section
+  compact: true
 ---
