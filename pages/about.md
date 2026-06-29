@@ -264,7 +264,17 @@ blocks:
   - icon: hugeicons:user-group-03
     text: Village Hall and Community
     url: /garsdale-village-hall-and-community/
+  - icon: hugeicons:home-01
+    text: House Names and Local Places
+    url: /garsdale-house-names-and-local-places/
   reverse: false
+- type: markdown
+  content: |
+    ## How This Guide Is Compiled
+
+    This guide combines first-hand knowledge from the cottage owners with local material preserved from the archived Garsdale community website, `www.garsdale.info`. That old site gathered village hall notices, house-name records, memories, dialect words, red squirrel sightings and church history from people who lived in and knew the dale.
+
+    Historical material is used here as local context, not as current operating information. Opening times, public transport, businesses, services and event dates should always be checked with the current provider before travelling.
 - type: cta
   button:
     text: View Our Cottages
@@ -292,6 +302,8 @@ blocks:
     - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
 
     - Adam Sedgwick — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
+
+    - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
 
     '
 ---

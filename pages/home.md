@@ -154,6 +154,11 @@ blocks:
       railway and the Great Flood of 1889.
     link: /garsdale-history/
     name: History of Garsdale
+  - image: /images/old-garsdale/historical-white-cottages.png
+    description: Historic house names, farm names and local places from Garsdale
+      Foot to Hawes Junction and Grisedale.
+    link: /garsdale-house-names-and-local-places/
+    name: House Names and Local Places
   - image: /images/places-of-interest/rainbow-over-dale.jpeg
     description: Pubs, restaurants and local food near Garsdale, including the Moorcock
       Inn, the Green Dragon and Wensleydale cheese.

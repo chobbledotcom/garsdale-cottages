@@ -76,6 +76,57 @@ blocks:
     means losing centuries of learned behaviour that cannot easily be replaced.
 
     '
+- type: markdown
+  content: '## More Words from the Old Garsdale Glossary
+
+
+    The old Garsdale community site preserved a longer local glossary. Some useful
+    examples are:
+
+
+    - **appen** -- perhaps, maybe
+
+    - **as lief** -- would rather
+
+    - **bink** -- a bench or shelf
+
+    - **clag** -- mud, or to stick
+
+    - **clarty** -- dirty or muddy
+
+    - **dowly** -- dull, sad or lonely
+
+    - **gamp** -- an umbrella
+
+    - **gath** -- a small enclosure or paddock
+
+    - **greet** -- to cry
+
+    - **hask** -- rough or dry
+
+    - **heck** -- a gate or rack
+
+    - **hog** -- a young sheep
+
+    - **jannock** -- honest or fair
+
+    - **lew** -- sheltered
+
+    - **midden** -- a muck heap
+
+    - **plosh** -- a puddle
+
+    - **scrog** -- a stunted bush or tree
+
+    - **slape** -- slippery
+
+    - **stoop** -- a post or pillar
+
+    - **whemmle** -- to overturn
+
+    - **wick** -- alive or lively
+
+    '
 - type: cta
   button:
     text: View Our Cottages
@@ -95,6 +146,8 @@ blocks:
     - Old Norse influence on English — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Scandinavian_York#Language))
 
     - Hefted stock — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hefted))
+
+    - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
 
     '
 ---

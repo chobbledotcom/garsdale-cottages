@@ -32,6 +32,13 @@ blocks:
     stained-glass east window by the renowned Victorian artist C.E. Kempe.
 
 
+    The old Garsdale church history notes connect the site to St Agatha''s Abbey
+    at Easby and record Garsdale gaining the right to baptisms and burials in 1562,
+    which helps explain why the church sits so centrally in the dale''s story. The
+    east window is attributed to C.E. Kempe and dated December 1896 by the Kempe
+    Society.
+
+
     In 1799, William Wordsworth wrote to Samuel Taylor Coleridge describing a walk
     through Garsdale with his sister Dorothy, mentioning "we rested in a tempting
     inn, close by a lowly house of prayer in a charming little valley." The inn was
@@ -100,10 +107,22 @@ blocks:
     and Religion in the Western Dales" leaflet is available in the chapels.
 
 
+    Archive material on Mount Zion adds useful railway context. Before the chapel
+    was built, the railway contractors used a temporary wooden building as a school,
+    reading room and chapel for the navvies working at Garsdale Head. The foundation
+    stone was laid on 1 May 1876 and the opening services were held on 7 October
+    1876, only months after the first Settle-Carlisle passenger train passed through.
+
+
     All four of Garsdale''s places of worship, St John''s and the three Methodist
     chapels, are open to visitors.
 
     '
+- type: markdown
+  content: |
+    ## Source Note
+
+    This page uses local-history material preserved in the archived Garsdale community website, including a 2000 church-history account by R. and B. Lake and a separate Mount Zion history page. Details about current opening, worship and hiring arrangements should be checked with the current chapel or church contacts.
 - type: cta
   button:
     text: View Our Cottages
@@ -127,6 +146,8 @@ blocks:
     - C. E. Kempe — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Charles_Eamer_Kempe))
 
     - Garsdale Street Chapel, Grade II listed — Historic England ([historicengland.org.uk](https://historicengland.org.uk/listing/the-list/list-entry/1087148))
+
+    - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
 
     '
 ---

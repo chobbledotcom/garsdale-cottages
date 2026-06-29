@@ -85,6 +85,24 @@ blocks:
     and their coats can look quite dark.
 
     '
+- type: markdown
+  content: '## Local Sighting Records
+
+
+    The archived Garsdale community website kept a dedicated red squirrel sightings
+    page, recording individual places where reds had been seen across Garsdale and
+    Grisedale. Those records are useful because they show that the population has
+    not been limited to one garden or one woodland: sightings were spread from Reachey
+    and Mudbecks through the middle of the dale to the Railway Cottages at Garsdale
+    Head.
+
+
+    The same archive noted regular road crossings at Banks, The Street, The Firs
+    and Whitbeck. That local detail is one reason we ask guests to take the red squirrel
+    warning signs seriously and to report notable sightings to the current local
+    red squirrel group.
+
+    '
 - type: split-callout
   content: '## A Core Area for Reds
 
@@ -174,6 +192,8 @@ blocks:
     - Squirrelpox — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Squirrelpox))
 
     - Yorkshire Dales National Park Authority ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
+
+    - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
 
     '
 ---

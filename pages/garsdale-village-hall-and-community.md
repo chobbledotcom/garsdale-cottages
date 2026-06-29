@@ -44,6 +44,23 @@ blocks:
   figure_alt: Garsdale village in winter
   reverse: false
 - type: markdown
+  content: '## Maintaining the Hall
+
+
+    The old Garsdale community website gives a useful snapshot of how much volunteer
+    effort has gone into keeping the village hall usable. It recorded work on heat
+    pumps, replacement windows, roof insulation, ceiling fans and repainting, with
+    support from the Yorkshire Dales National Park Authority Sustainable Development
+    Fund, the SMCC Foundation and the Sedbergh Community Fund.
+
+
+    The same archive noted that the hall''s private water supply had passed its tests
+    at the time. As with all old community information, facilities, hire arrangements
+    and technical details should be checked with the current village hall contacts
+    before relying on them.
+
+    '
+- type: markdown
   content: '## Events and Social Life
 
 
@@ -96,6 +113,11 @@ blocks:
       It is a good way to meet local people and get a feel for dale life.
     name: Getting Involved
   intro_content: '## Community Services'
+- type: markdown
+  content: |
+    ## Source Note
+
+    This page combines current visitor-facing context with community-history material preserved in the archived Garsdale website. Event examples, hall improvements and volunteer services are useful evidence of local community life, but practical arrangements can change and should be confirmed from current contacts.
 - type: cta
   button:
     text: View Our Cottages
@@ -113,6 +135,8 @@ blocks:
     - Garsdale Parish Council ([garsdaleparishcouncil.com](https://garsdaleparishcouncil.com/))
 
     - Sedbergh and District Community First Responders ([sedbergh.org.uk](https://www.sedbergh.org.uk/community/organisations/first-responders/))
+
+    - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
 
     '
 ---

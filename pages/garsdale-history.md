@@ -66,9 +66,10 @@ blocks:
   content: '## Viking Roots
 
 
-    Many of the house and place names in Garsdale are Norse in origin, a legacy of
-    Viking settlement in the dale. Names ending in *-syke* (stream), *-thwaite* (clearing),
-    and *-garth* (enclosure) reflect this heritage and give a sense of just how long
+    Many of the [house and place names in Garsdale](/garsdale-house-names-and-local-places/)
+    are Norse in origin, a legacy of Viking settlement in the dale. Names ending
+    in *-syke* (stream), *-thwaite* (clearing), and *-garth* (enclosure) reflect
+    this heritage and give a sense of just how long
     people have been living and working here.
 
 
@@ -137,6 +138,15 @@ blocks:
     "Rowansdale" is Garsdale and "Mossgill" is Low House.
 
 
+    The archived Garsdale community website preserves a detailed house history for
+    Slack Cottage, also known at different times as West Slack, Billies, Bilses or
+    Billows. It traces named occupants from the late seventeenth century through
+    the twentieth century and links the cottage to Leonard Dodd, a Primitive Methodist
+    local preacher, and to his grandson James Dodd Jackson. That kind of house-by-house
+    memory is one of the reasons Garsdale still feels like a lived-in landscape rather
+    than only a scenic one.
+
+
     John Christopher''s 1956 novel *The Death of Grass*, a post-apocalyptic story
     in which survivors travel through northern England, includes a vivid passage describing
     the journey down Garsdale from Wensleydale, past Mossdale Head to Sedbergh. It
@@ -158,6 +168,13 @@ blocks:
     and barns, and are well worth looking at closely as you walk or drive through.
 
     '
+- type: markdown
+  content: |
+    ## Source Note
+
+    Several of the local details on this page come from the archived Garsdale community website, which collected memories, house histories and links to older local records. The church-history material in that archive includes a 2000 account by R. and B. Lake with references to Garsdale parish records, Sedbergh and District History Society material, and county archive sources.
+
+    Where a detail relates to current access, services or events, it should be treated as historical unless confirmed by a current source.
 - type: cta
   button:
     text: View Our Cottages
@@ -185,6 +202,8 @@ blocks:
     - Aspects of Love — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Aspects_of_Love))
 
     - Sedbergh and District History Society ([sedberghhistory.org](https://www.sedberghhistory.org/))
+
+    - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
 
     '
 ---

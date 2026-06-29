@@ -277,6 +277,10 @@ blocks:
     and medieval monasteries to the Great Flood of 1889 and the building of the Settle-Carlisle
     railway.
 
+    *   **[House Names and Local Places](/garsdale-house-names-and-local-places/)**
+    -- historic farm names, cottage names and local place names from Garsdale Foot
+    to The Street, Hawes Junction and Grisedale.
+
     *   **[Farming in Garsdale](/farming-in-garsdale/)** -- the dale is a working
     hill farming community with Swaledale sheep and a farming calendar that shapes
     the rhythm of life here.
