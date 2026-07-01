@@ -40,5 +40,6 @@
 		"faqs.html",
 		"property/contact-links.html",
 		"property/contact.html"
-	]
+	],
+	"homepage_footer_markdown": "Site by [chobble.com](https://chobble.com)"
 }
