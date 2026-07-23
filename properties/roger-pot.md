@@ -91,8 +91,12 @@ order: 0
 locations:
 - locations/garsdale.md
 blocks:
-- type: property-header
+- type: markdown
   compact: true
+  content: |-
+    # Roger Pot
+
+    ## A three bedroom property ideal for families
 - type: freetobook
   compact: true
 - type: property-gallery

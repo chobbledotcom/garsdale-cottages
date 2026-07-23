@@ -94,8 +94,12 @@ meta_description: The Old Cart House - a charming detached holiday cottage near 
 locations:
 - locations/dent.md
 blocks:
-- type: property-header
+- type: markdown
   compact: true
+  content: |-
+    # The Old Cart House
+
+    ## A cosy one-bedroom cottage perfect for couples and small families
 - type: freetobook
   compact: true
 - type: property-gallery

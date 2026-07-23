@@ -49,7 +49,7 @@ blocks:
 
 
     On the platform you will find a bronze statue of Ruswarp, the Border Collie who
-    helped save the Settle-Carlisle line from closure. [Read the full story](/guide/ruswarp-and-the-settle-carlisle/).
+    helped save the Settle-Carlisle line from closure. [Read the full story](/ruswarp-and-the-settle-carlisle/).
 
 
     ## The Settle-Carlisle Line Today

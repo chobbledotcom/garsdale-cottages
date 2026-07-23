@@ -108,5 +108,5 @@ blocks:
     people understand what they''re coming to._
 
 
-    [Our Cottages](/cottages/)'
+    [Our Cottages](/properties/)'
 ---
