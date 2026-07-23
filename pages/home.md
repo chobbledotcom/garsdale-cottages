@@ -69,6 +69,14 @@ blocks:
     description: Book with confidence directly through us - straightforward, simple,
       personal.
     name: No Middlemen
+  - icon: hugeicons:message-01
+    description: Ask about access, facilities or special requirements and get answers
+      from someone who knows the cottage.
+    name: Straight Answers
+  - icon: hugeicons:home-01
+    description: Your booking supports the people who care for the cottages and live
+      in the local area.
+    name: Support Local Owners
   center: false
   intro_content: "### Why book direct with Garsdale Cottages?\n\n Booking direct means\
     \ you deal with the cottage owners rather than a large agency. There are no agency\
@@ -78,7 +86,7 @@ blocks:
 - type: image-cards
   dark: false
   items:
-  - image: /images/scenery/moon-over-langstone-fell.jpeg
+  - image: /images/scenery/dale-valley-landscape.png
     description: Remote Yorkshire Dales location, far from the crowds - just you,
       the hills and the sky.
     link: /about/
@@ -98,6 +106,16 @@ blocks:
       minutes away.
     link: /about/
     name: Settle-Carlisle Railway
+  - image: /images/scenery/moon-over-langstone-fell.jpeg
+    description: No street lighting and minimal light pollution make clear nights
+      ideal for seeing stars and the Milky Way.
+    link: /garsdale-wildlife/
+    name: Dark Skies
+  - image: /images/old-garsdale/historical-village-view.png
+    description: Discover centuries-old farms, listed buildings and stories shaped
+      by farming, railways and the dale's Norse roots.
+    link: /garsdale-history/
+    name: Heritage & History
   image_aspect_ratio: 4/3
   intro_content: '## Why Garsdale?
 

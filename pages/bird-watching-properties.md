@@ -165,6 +165,14 @@ blocks:
     description: Our cottage owners live locally and can point you to the best spots
       for the species you're hoping to see.
     name: Local Knowledge
+  - icon: hugeicons:eye
+    description: Watch nuthatches, woodpeckers, siskins and tits from the cottages'
+      window seats and garden feeders.
+    name: Birds at the Window
+  - icon: hugeicons:flower
+    description: Spring curlews and swallows give way to winter redwings, fieldfares
+      and busy garden feeders.
+    name: Year-Round Birdlife
   intro_content: '## Why Garsdale for Bird Watching?
 
 

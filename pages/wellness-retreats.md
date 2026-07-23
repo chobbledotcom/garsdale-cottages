@@ -131,10 +131,18 @@ blocks:
   reverse: false
 - type: features
   items:
+  - icon: hugeicons:train-01
+    description: Begin with the Settle-Carlisle railway and step off at Garsdale Station,
+      a short walk from the cottages.
+    name: Arrive by Rail
   - icon: hugeicons:sun-03
     description: Tea in the window seat, birdsong and a riverside wander along the
       River Clough before breakfast.
     name: Slow Morning
+  - icon: hugeicons:droplet
+    description: Follow the River Clough at an unhurried pace, stopping to listen
+      to the water and woodland birds.
+    name: Riverside Pause
   - icon: hugeicons:mountain
     description: Up onto the Howgills, into [Grisedale](/grisedale/), or along the
       [Sedgwick Geological Trail](/the-sedgwick-geological-trail/).

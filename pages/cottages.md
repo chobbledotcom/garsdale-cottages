@@ -64,6 +64,14 @@ blocks:
     description: Book with confidence directly through us - straightforward, simple,
       personal.
     name: No Middlemen
+  - icon: hugeicons:message-01
+    description: Ask about access, facilities or special requirements and get answers
+      from someone who knows the cottage.
+    name: Straight Answers
+  - icon: hugeicons:home-01
+    description: Your booking supports the people who care for the cottages and live
+      in the local area.
+    name: Support Local Owners
   intro_content: '## Why Book Direct?
 
 

@@ -137,6 +137,14 @@ blocks:
       a torch. Try to walk on the right hand side of the road so you can see oncoming
       vehicles and they can see you.
     name: Winter Walking
+  - icon: hugeicons:umbrella
+    description: Check the forecast before setting out. Weather changes quickly on
+      the open fells, and paths can stay boggy after rain.
+    name: Check the Weather
+  - icon: hugeicons:leaf-04
+    description: Take litter home, leave plants and wildlife undisturbed, and keep
+      to established paths where possible.
+    name: Protect the Dale
   intro_content: '## Practical Stuff'
 - type: markdown
   content: '## Guided Walks
