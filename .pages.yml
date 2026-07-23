@@ -727,11 +727,13 @@ content:
     filename: "{primary}.md"
     view:
       fields:
+        - name
         - meta_title
-      primary: meta_title
+      primary: name
       sort:
-        - meta_title
+        - name
     fields:
+      - { name: name, type: string, label: Name, required: true }
       - { name: subtitle, type: string, label: Subtitle }
       - { name: body, type: rich-text, label: Body }
       - { name: meta_title, component: meta_title }

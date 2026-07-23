@@ -1,4 +1,5 @@
 ---
+name: Dog-Friendly Holiday Cottages in Garsdale and the Yorkshire Dales
 subtitle: Dog Friendly Cottage
 meta_title: Dog-Friendly Cottages in Garsdale | Yorkshire Dales Stays
 meta_description: Discover pet-friendly holiday cottages in Garsdale. Enjoy
@@ -74,4 +75,3 @@ Plan your holiday in Garsdale today and give your pet the outdoor adventure they
 - [Directions & How to Get Here](https://www.garsdalecottages.co.uk/getting-here/)
 - [Contact Us with Questions](https://www.garsdalecottages.co.uk/contact/)
 - [Booking Terms & Conditions](https://www.garsdalecottages.co.uk/guide/booking-with-us/booking-terms-and-conditions/)
-

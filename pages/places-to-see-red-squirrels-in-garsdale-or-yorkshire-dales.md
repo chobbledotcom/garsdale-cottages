@@ -1,4 +1,5 @@
 ---
+name: Places to See Red Squirrels in Garsdale and the Yorkshire Dales
 subtitle: Places to See Red Squirrels
 meta_title: "# Places to See Red Squirrels in Garsdale | Yorkshire Dales"
 meta_description: "Looking for places to see red squirrels? Check out our
