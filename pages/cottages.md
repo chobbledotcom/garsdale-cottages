@@ -46,6 +46,11 @@ blocks:
       perfect for couples.
     link: /properties/the-old-cart-house/
     name: The Old Cart House
+  - image: /images/properties/farriers-cottage/a-stone-cottage-with-a-blue-front-door-a-lawned-garden-and-a.jpeg
+    description: Sleeps 6 | 3 bedrooms | A 1675 blacksmith's cottage with a woodburning
+      stove and views across the dale.
+    link: /properties/farriers-cottage/
+    name: Farrier's Cottage
 - type: features
   items:
   - icon: hugeicons:discount-tag-02
