@@ -1,3 +1,9 @@
+---
+permalink: false
+layout: null
+eleventyExcludeFromCollections: true
+---
+
 # Voice & Tone
 
 This site has a distinct voice: dry, plain-spoken, sceptical of marketing-speak, recognisably northern without dialect cosplay. It's how a Dales cottage owner might write about their own place - not how a copywriter would write it for them. The owners here are real people (Paul at Roger Pot; Jack and Loraine at The Old Cart House) and the copy should read like something they could plausibly have written themselves.

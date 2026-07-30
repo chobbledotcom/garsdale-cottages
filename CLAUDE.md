@@ -1,3 +1,9 @@
+---
+permalink: false
+layout: null
+eleventyExcludeFromCollections: true
+---
+
 # CLAUDE.md
 
 This is the Garsdale Cottages website - a static site for three holiday
