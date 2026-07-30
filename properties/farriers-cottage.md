@@ -83,41 +83,54 @@ blocks:
 
 
     Farrier''s Cottage is a semi-detached stone cottage in [Garsdale](/about/), in
-    the Yorkshire Dales National Park. It began life in 1675 as a blacksmith''s cottage
-    and workshop, and it still has the solid feel of a working building — thick stone
-    walls, solid wood and slate floors, and windows that look straight out across
-    the dale.
+    the Yorkshire Dales National Park - a dog friendly, self-catering holiday cottage
+    that began life in 1675 as the blacksmith''s cottage and workshop. It still has
+    the solid feel of a working building, with thick stone walls, solid wood and slate
+    floors, and windows that look straight out across the dale.
 
 
     It sleeps six across three bedrooms, which makes it a good fit for a family, two
     or three couples travelling together, or a group of walkers who want somewhere
-    comfortable to come back to.
+    comfortable to come back to at the end of the day.
 
 
-    The sitting room has a stone fireplace with a woodburning stove and leather sofas
-    facing it — the obvious place to end up after a wet day on the fells. There is
-    a separate dining room with a table seating six, a well-equipped kitchen, and a
-    utility room with a washing machine, tumble dryer and a flagged floor, which is
-    exactly what you want for boots and a damp dog. A shower room on the ground floor
-    means you don''t have to traipse upstairs to clean up.
+    The sitting room has a big exposed-stone fireplace with a woodburning stove in
+    it, a pair of brown leather sofas facing it, and shelves of books and DVDs either
+    side of the chimney breast. After a wet day on the fells it is the obvious place
+    to end up, and the stove kicks out a fair bit of heat. There is a separate dining
+    room with a solid wooden table seating six, a grandfather clock and a writing bureau
+    - the sort of furniture that suits a house of this age - and French doors at the
+    front open onto the garden, with a small round table and two chairs just inside
+    them.
 
 
-    Upstairs are three bedrooms — a king-size double, a second double, and a twin —
-    along with the family bathroom, which has a bath with a shower over it. The rooms
-    are furnished with antiques and look out over the fields and fells.
+    The kitchen is well equipped, with an electric oven and hob, microwave, fridge,
+    freezer and dishwasher, and there is a utility room with a washing machine, tumble
+    dryer and a flagged floor, which is exactly what you want for boots and a damp
+    dog. The back door opens into it from the garden, so the mud stops there rather
+    than getting walked through the house. A shower room on the ground floor means
+    you don''t have to traipse upstairs to clean up.
 
 
-    Outside there is a lawned front garden with a table and chairs, off-road parking
-    for two cars, and somewhere dry to put the bikes. The garden is not enclosed, and
-    there is a public right of way across the front, so dogs need to be kept under
-    control.
+    Upstairs are three bedrooms - a king-size double with an iron and brass bedstead
+    and windows on two walls, a second double, and a twin room up under the old roof
+    beams, with a rocking chair in the corner. The rooms are furnished with antiques
+    and look out over the fields and fells. The family bathroom is up here too, with
+    a bath and a shower over it.
 
 
-    This is quiet country. There are [walks in every direction](/walks/) — up onto
-    the fells, along the river, or over towards [Grisedale](/grisedale/), the neighbouring
-    valley known as "The Dale That Died". The riverbanks nearby are one of the better
-    places in England to see [red squirrels](/red-squirrels-in-garsdale/), and guests
-    regularly report rabbits on the lawn, roe deer, and plenty of [birds](/garsdale-wildlife/).
+    Outside there is a lawned front garden behind a drystone wall, with a flagged patio,
+    a table and chairs and a bench for sitting out when the weather allows. There is
+    off-road parking for two cars and somewhere dry to put the bikes. The garden is
+    not enclosed, and there is a public right of way across the front, so dogs need
+    to be kept under control.
+
+
+    It is quiet country round here, with [walks in every direction](/walks/) - up onto
+    the fells, along the River Clough, or over towards [Grisedale](/grisedale/), the
+    neighbouring valley known as "The Dale That Died". The riverbanks nearby are one
+    of the better places in England to see [red squirrels](/red-squirrels-in-garsdale/),
+    and guests regularly report rabbits on the lawn, roe deer, and plenty of [birds](/garsdale-wildlife/).
     With no street lighting anywhere in the dale, the [night skies](/about/) are worth
     staying up for.
 
@@ -131,13 +144,14 @@ blocks:
     walk if the weather turns.
 
 
-    [Garsdale Station](/garsdale-train-station/) on the Settle–Carlisle line is a few
-    minutes up the dale — one of the most scenic railway journeys in the country, and
-    a good day out in its own right. The Lake District is easily reached too, with
-    Windermere around 27 miles away.
+    [Garsdale Station](/garsdale-train-station/) on the Settle-Carlisle line is a few
+    minutes up the dale - one of the most scenic railway journeys in the country, and
+    a good day out in its own right, with a long stone viaduct crossing the moor near
+    the station. The Lake District is easily reached too, with Windermere around 27
+    miles away.
 
 
-    **Book direct through this site and you deal directly with the property owner —
+    **Book direct through this site and you deal directly with the property owner -
     no agency fees, no booking commissions, and the personal service that comes from
     speaking to someone who knows the cottage and the area inside out.** When you book
     through sites like Booking.com or Sykes, they take a significant cut of the price,
@@ -191,7 +205,7 @@ blocks:
 
     - Note: the garden is not enclosed and a public right of way crosses the front
     of the property, so dogs must be kept under control. This is sheep farming country
-    — dogs must be kept on a lead when out walking.'
+    - dogs must be kept on a lead when out walking.'
 - type: link-button
   compact: true
   text: Enquire About Farrier's Cottage
