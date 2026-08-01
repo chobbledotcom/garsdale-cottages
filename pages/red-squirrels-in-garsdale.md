@@ -22,7 +22,7 @@ blocks:
     Garsdale is one of the best places in England to base yourself. While greys have
     displaced reds across most of the country, the dales around Sedbergh, Garsdale
     and the Upper Eden valley remain a stronghold where reds continue to thrive, and
-    guests at our two cottages regularly spot them from the garden and on the woodland
+    guests at our three cottages regularly spot them from the garden and on the woodland
     paths nearby.
 
     '

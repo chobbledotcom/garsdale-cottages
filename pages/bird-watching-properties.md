@@ -24,7 +24,7 @@ blocks:
     ancient woodlands and the River Clough come together to create a remarkable range
     of habitats. With very little traffic and minimal background noise, the birdsong
     here is extraordinary. Whether you are a seasoned birder or simply enjoy watching
-    wildlife, our two cottages put you right in the middle of it all.
+    wildlife, our three cottages put you right in the middle of it all.
 
     '
 - type: items
@@ -34,7 +34,7 @@ blocks:
   content: '## Birds on Your Doorstep
 
 
-    Both of our cottages have bird feeders with regular visits from nuthatches, great
+    All three of our cottages have bird feeders with regular visits from nuthatches, great
     spotted woodpeckers, blue tits, great tits, coal tits, long-tailed tits, siskins,
     blackcaps, redpolls, robins, dunnocks and tree creepers, along with jackdaws,
     ravens and crows. The garden is also visited by willow warblers, gold crests and
@@ -127,7 +127,7 @@ blocks:
   content: '## Birding Walks from Garsdale
 
 
-    There are walks directly from both cottages that take you through excellent birding
+    There are walks directly from all three cottages that take you through excellent birding
     territory:
 
 
@@ -151,7 +151,7 @@ blocks:
   items:
   - icon: hugeicons:leaf-04
     description: Upland moor, river valley, ancient woodland and hay meadows all within
-      walking distance of both cottages.
+      walking distance of all three cottages.
     name: Diverse Habitats
   - icon: hugeicons:volume-off
     description: Very little traffic and minimal background noise - hear the birdsong,

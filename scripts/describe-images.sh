@@ -26,7 +26,7 @@ done
 
 cd "$(dirname "$0")/.."
 
-context_base="This image is from the website for Garsdale Cottages, two self-catering holiday cottages (Roger Pot and The Old Cart House) in Garsdale, a small rural valley near Sedbergh in Cumbria, within the Yorkshire Dales National Park, England."
+context_base="This image is from the website for Garsdale Cottages, three self-catering holiday cottages (Roger Pot, The Old Cart House and Farrier's Cottage) in Garsdale, a small rural valley near Sedbergh in Cumbria, within the Yorkshire Dales National Park, England."
 
 describe_one() {
   local img="$1"

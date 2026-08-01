@@ -73,5 +73,5 @@ blocks:
 
     Red squirrel watching can be combined with birdwatching, riverside walks, railway journeys and visits to the geological and historic sites of the Yorkshire Dales. Browse our [things to do](/things-to-do/) and [bird-watching properties](/bird-watching-properties/) pages for more ideas.
 
-    Both [Roger Pot](/properties/roger-pot/) and [The Old Cart House](/properties/the-old-cart-house/) provide a peaceful base in Garsdale, with local wildlife habitats close at hand. Directions and travel information are available on our [Getting Here](/getting-here/) page, while the [local map](/map/) can help you understand the layout of the dale before setting out.
+    [Roger Pot](/properties/roger-pot/), [The Old Cart House](/properties/the-old-cart-house/) and [Farrier's Cottage](/properties/farriers-cottage/) all provide a peaceful base in Garsdale, with local wildlife habitats close at hand. Directions and travel information are available on our [Getting Here](/getting-here/) page, while the [local map](/map/) can help you understand the layout of the dale before setting out.
 ---

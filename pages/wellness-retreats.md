@@ -29,7 +29,7 @@ blocks:
     and, most nights, nothing louder than an owl or the River Clough. It is a haven
     for [red squirrels](/red-squirrels-in-garsdale/), [otters and upland birds](/garsdale-wildlife/),
     and for guests looking for a wellness break, a digital detox or a gentle walking
-    holiday, both our cottages make an ideal base.
+    holiday, all three of our cottages make an ideal base.
 
     '
 - type: split-image
@@ -183,8 +183,9 @@ blocks:
   content: '## Good to Know
 
 
-    Both cottages are small — Roger Pot sleeps 6 across three bedrooms, and The Old
-    Cart House sleeps 2 — which makes them well suited to individual guests, couples,
+    All three of our cottages are small — Roger Pot and Farrier''s Cottage each sleep 6
+    across three bedrooms, and The Old Cart House sleeps 2 — which makes them well suited
+    to individual guests, couples,
     families or a small group of friends travelling together for a quiet few days.
     There''s no hot tub — but the peace, dark skies and river more than make up for
     it.
