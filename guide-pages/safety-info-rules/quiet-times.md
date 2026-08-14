@@ -4,7 +4,7 @@ subtitle: Rules & Regulations
 guide-category: safety-info-rules
 order: 1
 icon: hugeicons:volume-off
-featured_image: https://hub.touchstay.com/media/cache/10/ba/10ba5f1d24b9fca9f98f919f9832f4d4.jpg?timestamp=20240821204356
+featured_image: /images/guide-pages/quiet-times.jpeg
 blocks:
 - type: markdown
   content: We are located in a friendly and welcoming community and, although this

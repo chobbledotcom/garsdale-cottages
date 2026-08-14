@@ -4,7 +4,7 @@ subtitle: Petrol Station
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 63
 icon: hugeicons:fuel-station
-featured_image: https://lh3.googleusercontent.com/places/ANXAkqHOFGsfoT5z5z6cM93SeBpgZwdIr2RIt5-rmvqw0mbfa1896CefwAQOtPpLQyv7fCaed-5JiKVgqPQP_l3KCPWiUlthpQIJ5Lo=s1600-w4032
+featured_image: /images/guide-pages/dt-close-sedbergh.jpeg
 blocks:
 - type: markdown
   content: '# DT Close, Sedbergh

@@ -4,7 +4,7 @@ subtitle: Entertainment & Activities
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 24
 icon: hugeicons:mountain
-featured_image: https://lh3.googleusercontent.com/places/ANXAkqGJMuOoNnfcOAsalGqR7n7N3nVd0nG7AxcUr6gn7G9_p4jnn-326LiTCnoRm2uHZsDPW3ErxPvjnUv3xWhvWFmh_5LpQq5l6nU=s1600-w4032
+featured_image: /images/guide-pages/white-scar-cave.jpeg
 blocks:
 - type: markdown
   content: '# White Scar Cave

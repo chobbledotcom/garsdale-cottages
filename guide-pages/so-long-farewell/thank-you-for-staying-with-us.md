@@ -4,7 +4,7 @@ subtitle: Thank You
 guide-category: so-long-farewell
 order: 1
 icon: hugeicons:heart-check
-featured_image: https://hub.touchstay.com/media/cache/73/ac/73ac137363df0ed6ee0cf86915518755.jpg?timestamp=20240821204357
+featured_image: /images/guide-pages/thank-you-for-staying-with-us.jpeg
 blocks:
 - type: markdown
   content: "**Thank you for staying with us, and we hope you enjoyed your stay.**\n\

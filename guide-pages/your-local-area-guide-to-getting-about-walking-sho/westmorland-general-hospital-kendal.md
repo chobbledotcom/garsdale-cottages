@@ -4,7 +4,7 @@ subtitle: Hospitals
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 60
 icon: hugeicons:hospital-01
-featured_image: https://lh3.googleusercontent.com/places/ANXAkqG8VpsjBraxByNYZqRLhSDqk_FsHu8nkkFi095rK_7M_8TVIhMthmDIPss-RaLGo7sDkkPCDhZTxW2pEPDtFc8QLIw-i7Vvscw=s1600-w1600
+featured_image: /images/guide-pages/westmorland-general-hospital-kendal.jpeg
 blocks:
 - type: markdown
   content: This houses an Urgent Treatment Centre. Use this department if you need

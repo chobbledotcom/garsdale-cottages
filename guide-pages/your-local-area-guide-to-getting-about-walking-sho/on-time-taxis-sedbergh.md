@@ -4,7 +4,7 @@ subtitle: Getting Around
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 27
 icon: hugeicons:taxi
-featured_image: https://lh3.googleusercontent.com/places/ANXAkqEIPF52UlOy0ZlchwVBP5McLk6c_us-1zZ06ZHtPkCPcXFIH8oYD4YdxjioGC3XJZs-NZloP4ETAI7wUbi10zY6CDB0zi9ZG_s=s1600-w3264
+featured_image: /images/guide-pages/on-time-taxis-sedbergh.jpeg
 blocks:
 - type: markdown
   content: '# On Time Taxis Sedbergh

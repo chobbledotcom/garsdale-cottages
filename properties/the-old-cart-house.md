@@ -127,8 +127,11 @@ blocks:
 
 
     The king-size bedroom has exposed wood and a reclaimed stable door opening onto
-    an en-suite shower room. There is also a rear door from the bedroom leading via
-    stone steps down to the garden patio, where you can eat outside.
+    an en-suite shower room. The shower is wide and has a fold-out shower seat, but
+    it is worth knowing before you book that the shower room is upstairs, off the
+    first floor bedroom - there is no bathroom on the ground floor. There is also
+    a rear door from the bedroom leading via stone steps down to the garden patio,
+    where you can eat outside.
 
 
     [Walks start from the door](/walks/) — the Pennine Bridleway and Dales Way are
@@ -165,7 +168,8 @@ blocks:
     ## At a glance
 
 
-    - One king-size bedroom with en-suite with walk-in shower, basin and WC
+    - One king-size bedroom with en-suite with wide walk-in shower with fold-out
+    shower seat, basin and WC
 
     - Open-plan living space with kitchen, dining area and sitting area with electric
     fire
@@ -199,6 +203,10 @@ blocks:
 
     - Note: There are steps down to the patio and garden from the bedroom exit, please
     take care.
+
+    - Note: The shower is wide and has a fold-out shower seat, but the en-suite shower
+    room is upstairs off the first floor bedroom, and there is no bathroom or shower
+    on the ground floor. Guests who cannot manage stairs may find the cottage unsuitable.
 
     - Note: Whist the water supply at The Old Cart House is tested regularly, it is
     sourced from a nearby spring and, whilst fully treated, cannot realistically be

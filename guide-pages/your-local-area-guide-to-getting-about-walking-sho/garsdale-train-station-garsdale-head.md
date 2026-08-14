@@ -4,7 +4,7 @@ subtitle: Getting Around
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 26
 icon: hugeicons:train-01
-featured_image: https://lh3.googleusercontent.com/places/ANXAkqFB2fWfWuEHF39-BL-hULRTfphU3mnj6vitxvy8Kmex9EHCt35YW0wlot_4UP6OHhO8iZPBB6WzE7Xq-6u3FqYpBrXZBm6doTQ=s1600-w5333
+featured_image: /images/guide-pages/garsdale-train-station-garsdale-head.jpeg
 blocks:
 - type: markdown
   content: 'Garsdale station sits high on the Settle-Carlisle line at the top of the

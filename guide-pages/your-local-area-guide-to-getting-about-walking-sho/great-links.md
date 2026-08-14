@@ -4,7 +4,7 @@ subtitle: Yorkshire Dales National Park
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 1
 icon: hugeicons:link-01
-featured_image: https://hub.touchstay.com/media/cache/bc/b0/bcb02344b2f76d6447f1294c81286522.jpg?timestamp=20240825160407
+featured_image: /images/guide-pages/great-links.jpeg
 blocks:
 - type: markdown
   content: 'Its worth popping over to the Yorkshire Dales National Park Authority

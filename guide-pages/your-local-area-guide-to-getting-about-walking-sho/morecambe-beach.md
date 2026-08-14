@@ -4,7 +4,7 @@ subtitle: Entertainment & Activities
 guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 19
 icon: hugeicons:beach
-featured_image: https://lh3.googleusercontent.com/places/ANXAkqGgfeVRImwL7ShNpYr40GXlWq_aiAtexLLTAEd5U_sAGMXTf5VFzeaAP9W5Lbyc6tp64SzyjbiCZrVCc8T70HwW1zB0gSq6h6Q=s1600-w3648
+featured_image: /images/guide-pages/morecambe-beach.jpeg
 blocks:
 - type: markdown
   content: A dog friendly beach is also available at Morecombe at Marine Road East,

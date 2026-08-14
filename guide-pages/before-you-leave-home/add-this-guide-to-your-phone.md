@@ -4,7 +4,7 @@ subtitle: Before You Leave Home
 guide-category: before-you-leave-home
 order: 1
 icon: hugeicons:smart-phone-01
-featured_image: https://hub.touchstay.com/media/cache/61/c6/61c6c383006180729d8053722b285d79.jpg?timestamp=20240821204358
+featured_image: /images/guide-pages/add-this-guide-to-your-phone.jpeg
 blocks:
 - type: markdown
   content: "When you first access this digital guidebook on your phone, follow the\

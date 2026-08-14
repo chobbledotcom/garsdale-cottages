@@ -4,7 +4,7 @@ subtitle: Safety Information
 guide-category: safety-info-rules
 order: 5
 icon: hugeicons:first-aid-kit
-featured_image: https://hub.touchstay.com/media/cache/39/4b/394b095724f58abddb3d49ca06077364.jpg?timestamp=20240821204356
+featured_image: /images/guide-pages/what-to-do-in-an-emergency.jpeg
 blocks:
 - type: markdown
   content: 'For emergency services (ambulance, police, fire), **call 999**
