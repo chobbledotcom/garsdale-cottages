@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Malham Tarn](/images/guide-pages/touchstay-1687461.jpg)
+    ![Malham Tarn](/images/guide-pages/malham-tarn-stormy-moorland-lake.jpg)
 
     *3.6 miles/5.8km | 2 hours | easy to moderate*
 

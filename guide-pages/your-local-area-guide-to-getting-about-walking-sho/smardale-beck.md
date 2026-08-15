@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Smardale Beck](/images/guide-pages/touchstay-1687473.jpg)
+    ![Smardale Beck](/images/guide-pages/smardale-viaduct-green-valley.jpg)
 
     *7 miles/11.3km | 4 hours | moderate*
 

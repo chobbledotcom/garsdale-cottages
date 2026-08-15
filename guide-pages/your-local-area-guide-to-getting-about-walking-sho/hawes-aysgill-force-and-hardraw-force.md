@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Hardraw Force](/images/guide-pages/touchstay-1687456.jpg)
+    ![Hardraw Force](/images/guide-pages/hardraw-force-waterfall-rainbow.jpg)
 
     *7 miles/11.3km | 5 hours | moderate*
 

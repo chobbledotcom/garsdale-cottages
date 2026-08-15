@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Muker](/images/guide-pages/touchstay-1687457.jpg)
+    ![Muker](/images/guide-pages/muker-wildflower-meadow-barn.jpg)
 
     *6.8 miles/11km | 4 hours | moderate*
 

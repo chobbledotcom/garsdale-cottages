@@ -12,12 +12,12 @@ blocks:
     us know if anything is missing or if you feel there is anything we should add
 
 
-    ![Roger Pot Inventory_Page_1.jpg](/images/guide-pages/touchstay-1687393.jpg)
+    ![Roger Pot Inventory_Page_1.jpg](/images/guide-pages/roger-pot-inventory-page-1.jpg)
 
 
-    ![Roger Pot Inventory_Page_2.jpg](/images/guide-pages/touchstay-1687394.jpg)![Roger
-    Pot Inventory_Page_3.jpg](/images/guide-pages/touchstay-1687396.jpg)![Roger
-    Pot Inventory_Page_4.jpg](/images/guide-pages/touchstay-1687397.jpg)![Roger
-    Pot Inventory_Page_5.jpg](/images/guide-pages/touchstay-1687398.jpg)![Roger
-    Pot Inventory_Page_6.jpg](/images/guide-pages/touchstay-1687399.jpg)'
+    ![Roger Pot Inventory_Page_2.jpg](/images/guide-pages/roger-pot-inventory-page-2.jpg)![Roger
+    Pot Inventory_Page_3.jpg](/images/guide-pages/roger-pot-inventory-page-3.jpg)![Roger
+    Pot Inventory_Page_4.jpg](/images/guide-pages/roger-pot-inventory-page-4.jpg)![Roger
+    Pot Inventory_Page_5.jpg](/images/guide-pages/roger-pot-inventory-page-5.jpg)![Roger
+    Pot Inventory_Page_6.jpg](/images/guide-pages/roger-pot-inventory-page-6.jpg)'
 ---

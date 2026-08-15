@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Grassington](/images/guide-pages/touchstay-1687466.jpg)
+    ![Grassington](/images/guide-pages/grassington-village-street-cottages.jpg)
 
     *8 miles/12.8km | 4.5 hours | moderate*
 

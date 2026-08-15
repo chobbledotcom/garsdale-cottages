@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Settle to Stainforth](/images/guide-pages/touchstay-1687463.jpg)
+    ![Settle to Stainforth](/images/guide-pages/settle-stainforth-misty-lake.jpg)
 
     *8.5 miles/13.7km | 5 hours | moderate*
 

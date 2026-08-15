@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Ingleborough](/images/guide-pages/touchstay-1687469.jpg)
+    ![Ingleborough](/images/guide-pages/ingleborough-path-to-summit.jpg)
 
     *10 miles/17km from Clapham, or 7 miles from Ingleton | 5-7 hours | moderate to challenging*
 

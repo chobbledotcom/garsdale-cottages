@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Dentdale](/images/guide-pages/touchstay-1687458.jpg)
+    ![Dentdale](/images/guide-pages/dentdale-rolling-hills-sunset.jpg)
 
     *2.5 miles/4km | 1.5 hours | easy*
 

@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Howgill Fells](/images/guide-pages/touchstay-1687446.jpg)
+    ![Howgill Fells](/images/guide-pages/howgill-fells-village-at-sunset.jpg)
 
     *9.6 miles/15.5km | 5-7 hours | challenging*
 

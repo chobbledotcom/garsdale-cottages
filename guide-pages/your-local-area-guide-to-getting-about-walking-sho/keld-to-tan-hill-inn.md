@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Keld waterfalls](/images/guide-pages/touchstay-1687464.jpg)
+    ![Keld waterfalls](/images/guide-pages/keld-waterfall-green-forest.jpg)
 
     *10.2 miles/16.5km | 6 hours | moderate*
 

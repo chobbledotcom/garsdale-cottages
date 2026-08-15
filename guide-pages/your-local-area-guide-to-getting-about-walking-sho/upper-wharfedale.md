@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Upper Wharfedale](/images/guide-pages/touchstay-1687472.jpg)
+    ![Upper Wharfedale](/images/guide-pages/upper-wharfedale-stone-farmhouses.jpg)
 
     *6.9 miles/11.2km | 4 hours | moderate*
 

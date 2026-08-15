@@ -9,7 +9,7 @@ blocks:
 - type: guide-header
 - type: markdown
   content: |-
-    ![Upper Swaledale](/images/guide-pages/touchstay-1687468.jpg)
+    ![Upper Swaledale](/images/guide-pages/crackpot-hall-ruin-swaledale.jpg)
 
     *6 miles/9.6km | 3.5 hours | moderate*
 
