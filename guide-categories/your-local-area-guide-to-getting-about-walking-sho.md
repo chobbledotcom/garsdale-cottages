@@ -12,4 +12,5 @@ blocks:
 
 
       Explore the guides in this section to learn more."
+  - type: guide-pages-list
 ---

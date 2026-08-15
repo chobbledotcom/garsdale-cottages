@@ -79,4 +79,5 @@ blocks:
 
     We, the owners shall not be liable to you or any members of your party for any
     loss or damage to person or property howsoever caused.'
+- type: guide-pages-list
 ---

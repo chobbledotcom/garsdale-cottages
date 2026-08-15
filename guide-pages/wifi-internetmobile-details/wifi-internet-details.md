@@ -7,13 +7,9 @@ icon: hugeicons:wifi-01
 featured_image: /images/guide-pages/wifi-internet-details.jpeg
 blocks:
 - type: markdown
-  content: 'There is free Wi-Fi in the property. The details are:
-
-
-    Wifi name: Roger Pot Guest
-
-
-    Password: !Garsdale1
+  content: 'There is free Wi-Fi in the property. The WiFi network name and password
+    are provided in your booking confirmation email, or you can contact us before
+    arrival and we will send them to you.
 
 
     We provide this service for your enjoyment and convenience. However, please note

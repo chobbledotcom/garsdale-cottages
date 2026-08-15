@@ -66,4 +66,5 @@ blocks:
     \ property is clean and tidy for your stay. Your co-operation will ensure we have\
     \ enough time to prepare the cottage for the next guests, and that we can continue\
     \ to accept dogs without an additional charge."
+- type: guide-pages-list
 ---

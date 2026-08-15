@@ -85,4 +85,5 @@ blocks:
 
 
     If heading over to the lakes certainly consider visiting mwis.org.uk/forecast/english-and-welsh/lake-district'
+- type: guide-pages-list
 ---

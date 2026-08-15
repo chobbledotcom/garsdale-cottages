@@ -10,4 +10,5 @@ blocks:
 
     We would love to have you stay again! Please get in touch anytime to check availability
     or special offers.'
+- type: guide-pages-list
 ---

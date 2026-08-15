@@ -38,4 +38,5 @@ blocks:
     \ staying. Simply click it and then click \"get directions\". It will open Google\
     \ Maps and the end point (where you're staying!) will be filled in. You simply\
     \ need to type in your starting point."
+- type: guide-pages-list
 ---

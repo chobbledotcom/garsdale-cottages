@@ -49,4 +49,5 @@ blocks:
 
 
     We have vodafone and find we have excellent coverage at 4G speed'
+- type: guide-pages-list
 ---

@@ -69,4 +69,5 @@ blocks:
 
 
     We do hope you had a wonderful stay and wish you safe travels back home!'
+- type: guide-pages-list
 ---
