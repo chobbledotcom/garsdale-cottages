@@ -226,14 +226,6 @@
       }
     },
     {
-      "title": "Voujon Indian Restaurant",
-      "category": "take_out",
-      "location": {
-        "lat": 54.3041548,
-        "lng": -2.1986047
-      }
-    },
-    {
       "title": "Water Lily Chinese Kirkby Lonsdale",
       "category": "take_out",
       "location": {
@@ -255,14 +247,6 @@
       "location": {
         "lat": 54.3237111,
         "lng": -2.5282517
-      }
-    },
-    {
-      "title": "The Gun Dog coffee shop",
-      "category": "coffee_shop",
-      "location": {
-        "lat": 54.3236675,
-        "lng": -2.5267582
       }
     },
     {

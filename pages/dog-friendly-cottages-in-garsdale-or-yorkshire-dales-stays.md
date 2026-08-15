@@ -49,7 +49,6 @@ blocks:
     - [The Half and Half](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/the-half-and-half-sedbergh/) in Sedbergh
     - [The Green Dragon Inn](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/the-green-dragon-inn/) in Hardraw
     - [The Cross Keys Temperance Inn](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/cross-keys-temperance-inn/) at Cautley
-    - [The Gun Dog Coffee Shop](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/the-gun-dog-coffee-shop/) for a pitstop coffee
 
     One nearby pub that is not dog friendly is [The Dalesman Country Inn](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/the-dalesman-country-inn/) in Sedbergh, so plan around that one if you are bringing your dog.
 
