@@ -30,4 +30,11 @@ blocks:
     - [Ingleborough](/guide/your-local-area-guide-to-getting-about-walking-sho/ingleborough/) - the nearest of the Yorkshire Three Peaks, for a bigger day out
     - [Walks from Garsdale](/walks/) - our curated walking routes
     - [Things to do in Garsdale and the Dales](/things-to-do/) - our wider round-up
+
+    ## References
+
+    - Malham Tarn — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Malham_Tarn))
+    - Malham Cove — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Malham_Cove))
+    - Malham Tarn National Nature Reserve — National Trust ([nationaltrust.org.uk](https://www.nationaltrust.org.uk/visit/yorkshire/malham-tarn-and-moor))
+    - Gordale Scar — Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/things-to-do/see-and-do/gordale-scar/))
 ---

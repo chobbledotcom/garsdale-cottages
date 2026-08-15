@@ -31,4 +31,11 @@ blocks:
     - [Sedbergh Tourist Information](/guide/your-local-area-guide-to-getting-about-walking-sho/sedbergh-tourist-information/) - for maps and route guides
     - [Walks from Garsdale](/walks/) - our curated walking routes
     - [Things to do in Garsdale and the Dales](/things-to-do/) - our wider round-up
+
+    ## References
+
+    - Dentdale — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dentdale))
+    - Dales Way — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dales_Way))
+    - Dent Village Heritage Centre and Museum ([dentvillage.com](https://www.dentvillage.com/))
+    - Dent Brewery, Cowgill ([dentbrewery.co.uk](https://www.dentbrewery.co.uk/))
 ---

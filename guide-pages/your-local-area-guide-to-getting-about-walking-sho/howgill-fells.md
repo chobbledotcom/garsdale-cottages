@@ -11,7 +11,7 @@ blocks:
   content: |-
     ![Howgill Fells](/images/guide-pages/howgill-fells-village-at-sunset.jpg)
 
-    *9.6 miles/15.5km | 5-7 hours | challenging*
+    *10.5 miles/17km | 5-7 hours | challenging*
 
     The Howgill Fells rise directly above Sedbergh, around fifteen minutes' drive from Garsdale, and they are the closest real mountain walking to both our cottages. The highest point is The Calf at 676 metres, and the standard loop from Sedbergh takes in Winder, Arant Haw and The Calf, covering around 10.5 miles with 2,810 feet of ascent. The Howgills are grassy, rounded and quiet compared to the limestone Dales - you will see few other walkers, and the paths are smooth turf rather than broken stone, which makes for easier going underfoot.
 
@@ -35,4 +35,12 @@ blocks:
     - [Sedbergh Tourist Information](/guide/your-local-area-guide-to-getting-about-walking-sho/sedbergh-tourist-information/) - for maps and route guides
     - [Walks from Garsdale](/walks/) - our curated walking routes
     - [Roger Pot](/properties/roger-pot/) - our cottage in Garsdale, about fifteen minutes away
+
+    ## References
+
+    - The Calf, Howgill Fells — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Calf,_Howgill_Fells))
+    - Cautley Spout — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cautley_Spout))
+    - Howgill Fells — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Howgill_Fells))
+    - Visit Sedbergh - Walk 1: Winder and the Calf ([sedbergh.org.uk](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-1-winder-and-the-calf/))
+    - Cross Keys Temperance Inn, Cautley Spout ([cautleyspout.co.uk](https://www.cautleyspout.co.uk/))
 ---

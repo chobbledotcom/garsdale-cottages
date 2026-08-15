@@ -33,4 +33,13 @@ blocks:
     - [Caves and geological features around Garsdale](/caves-and-geological-features/) - our wider round-up
     - [Walks from Garsdale](/walks/) - our curated walking routes
     - [Things to do in Garsdale and the Dales](/things-to-do/) - our wider round-up
+
+    ## References
+
+    - Ingleborough — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Ingleborough))
+    - Gaping Gill — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Gaping_Gill))
+    - White Scar Caves — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/White_Scar_Caves))
+    - Yorkshire Three Peaks — Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/things-to-do/get-outdoors/yorkshire-three-peaks/ingleborough-2/))
+    - White Scar Cave, Ingleton ([whitescarcave.co.uk](https://www.whitescarcave.co.uk/))
+    - Ingleborough Cave, Clapham ([ingleboroughcave.co.uk](https://ingleboroughcave.co.uk/))
 ---

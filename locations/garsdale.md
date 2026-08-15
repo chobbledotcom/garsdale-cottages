@@ -10,7 +10,7 @@ blocks:
   content: |-
     ## Garsdale
 
-    Garsdale is not a village but a valley, roughly seven miles long, through which runs the A684 from Sedbergh to Hawes. Sedbergh, the nearest town and the place most visitors will already have heard of, sits about six miles to the west; Hawes in Wensleydale is around nine miles to the east. A mile in the centre is road-signed "Garsdale" and includes the hamlet locally known as "The Street." The other centre of population is at Garsdale Head, still known locally as "Hawes Junction" after the railway. Along the road you pass named landmarks including Black Horse Hill, Dandra Garth, Badger Dub, Longstone Fell, Aye Gill and Roger Pot, which help with finding your bearings in a dale where things can look similar at first glance. Garsdale is a beautiful peaceful area with many walks, lovely scenery and a sense of being very close to nature and perhaps, a quieter way of life. As a nature lover it is ideal, always some birds to see, animals to watch, wild flowers, rivers and waterfalls. The weather can be exciting at times, with some beautiful sunshine and glorious days but also some serious rainfall and wild winds blowing, when it snows it looks wonderful. Spring is the best time, when the land begins to waken up, the seasons are very evident here and winter nights are very dark but on a clear night, every star can be seen, magnificent. Visitors may be surprised at the remoteness, the distance from shops, the peace, the close proximity to nature, the friendliness of the locals. Many people have moved to Garsdale from cities and large towns and never would dream of going back to that life. It is like a relaxing breath out.
+    Garsdale is not a village but a valley, roughly seven miles long, through which runs the A684 from Sedbergh to Hawes. Sedbergh, the nearest town and the place most visitors will already have heard of, sits about six miles to the west; Hawes in Wensleydale is around ten miles to the east. A mile in the centre is road-signed "Garsdale" and includes the hamlet locally known as "The Street." The other centre of population is at Garsdale Head, still known locally as "Hawes Junction" after the railway. Along the road you pass named landmarks including Black Horse Hill, Dandra Garth, Badger Dub, Longstone Fell, Aye Gill and Roger Pot, which help with finding your bearings in a dale where things can look similar at first glance. Garsdale is a beautiful peaceful area with many walks, lovely scenery and a sense of being very close to nature and perhaps, a quieter way of life. As a nature lover it is ideal, always some birds to see, animals to watch, wild flowers, rivers and waterfalls. The weather can be exciting at times, with some beautiful sunshine and glorious days but also some serious rainfall and wild winds blowing, when it snows it looks wonderful. Spring is the best time, when the land begins to waken up, the seasons are very evident here and winter nights are very dark but on a clear night, every star can be seen, magnificent. Visitors may be surprised at the remoteness, the distance from shops, the peace, the close proximity to nature, the friendliness of the locals. Many people have moved to Garsdale from cities and large towns and never would dream of going back to that life. It is like a relaxing breath out.
 
     ## The Place
 
@@ -33,4 +33,13 @@ blocks:
     Our three self-catering holiday cottages in Garsdale - Roger Pot, The Old Cart House and Farrier's Cottage - sit within easy reach of both Sedbergh and Hawes, and you can book them direct through this site. Each is a proper stone cottage in the dales, with open countryside on the doorstep and the quiet that makes Garsdale worth the journey from Sedbergh.
 
     [Our Cottages](/properties/)
+
+    ## References
+
+    - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+    - Sedbergh — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Sedbergh))
+    - Garsdale railway station — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale_railway_station))
+    - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
+    - Farfield Mill arts and heritage centre, Sedbergh ([farfieldmill.org](https://www.farfieldmill.org/))
+    - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
 ---
