@@ -3,10 +3,10 @@ name: Ruswarp and the Settle-Carlisle
 header_text: Ruswarp and the Settle-Carlisle
 layout: base
 subtitle: The Border Collie who helped save a railway
-meta_title: Ruswarp and the Settle-Carlisle Railway | Garsdale Station
+meta_title: Ruswarp and the Settle-Carlisle Railway | Garsdale Station near Sedbergh
 meta_description: The story of Ruswarp the Border Collie, whose loyalty helped save
   the Settle-Carlisle railway from closure, commemorated with a statue at Garsdale
-  station.
+  station near Sedbergh.
 blocks:
 - type: image-background
   parallax: true
@@ -16,8 +16,9 @@ blocks:
 
     '
 - type: markdown
-  content: 'At [Garsdale station](/garsdale-train-station/), a bronze statue of a
-    Border Collie sits on the platform, gazing northwards towards the hills. This
+  content: 'At [Garsdale station](/garsdale-train-station/), high on the Settle-Carlisle
+    line at the top of the dale and roughly six miles east of Sedbergh, a bronze statue
+    of a Border Collie sits on the platform, gazing northwards towards the hills. This
     is Ruswarp (pronounced Russup), and his story is one of the most moving tales
     connected to this corner of the Dales.
 

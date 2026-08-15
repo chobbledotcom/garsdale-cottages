@@ -3,9 +3,9 @@ name: Farming in Garsdale
 header_text: Farming in Garsdale
 layout: base
 subtitle: The backbone of life in the dale
-meta_title: Farming in Garsdale | Yorkshire Dales
-meta_description: Farming in Garsdale - Swaledale sheep, the farming year, and what
-  visitors should expect when staying in a working agricultural dale.
+meta_title: Farming in Garsdale near Sedbergh | Yorkshire Dales
+meta_description: Farming in Garsdale near Sedbergh - Swaledale sheep, the farming
+  year, and what visitors should expect when staying in a working agricultural dale.
 blocks:
 - type: bunny-video-background
   video_url: https://player.mediadelivery.net/embed/639870/0bf676b8-fd77-4e60-a1bc-c5f1211c77dd?autoplay=true&loop=true&muted=true&preload=true&responsive=true
@@ -29,7 +29,9 @@ blocks:
     rainfall, which can reach a hundred inches in a wet year, makes growing crops
     other than hay and silage virtually impossible. Swaledale sheep are the dominant
     breed, well suited to the harsh upland conditions, and pedigree Swaledale rams
-    from the dale occasionally command impressive prices at Hawes auction mart.
+    from the dale occasionally command impressive prices at Hawes auction mart. Sedbergh,
+    the nearest town to the west, holds its own weekly livestock and produce market
+    on Wednesdays, and some of the farms round here trade through both.
 
 
     Most of the dale''s eighteen or so working farms have absorbed several of the

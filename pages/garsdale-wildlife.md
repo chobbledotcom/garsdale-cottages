@@ -3,9 +3,9 @@ name: Wildlife in Garsdale
 header_text: Wildlife in Garsdale
 layout: base
 subtitle: Red squirrels, otters, upland birds and more
-meta_title: Wildlife in Garsdale | Yorkshire Dales
-meta_description: Wildlife in Garsdale including red squirrels, otters, brown hares,
-  upland birds, wildflowers and dark skies for stargazing.
+meta_title: Wildlife in Garsdale near Sedbergh | Yorkshire Dales
+meta_description: Wildlife in Garsdale near Sedbergh including red squirrels, otters,
+  brown hares, upland birds, wildflowers and dark skies for stargazing.
 blocks:
 - type: image-background
   parallax: true
@@ -17,8 +17,9 @@ blocks:
 - type: markdown
   content: 'Garsdale''s combination of upland moorland, river valley, ancient woodland
     and hay meadows creates a surprisingly rich variety of habitats within a small
-    area. The low human population, minimal traffic and absence of light pollution
-    make it a place where wildlife is easily encountered.
+    area. Sitting between Sedbergh and Hawes in the Yorkshire Dales National Park,
+    the dale has a low human population, minimal traffic and an absence of light pollution
+    that make it a place where wildlife is easily encountered.
 
     '
 - type: features
@@ -54,7 +55,10 @@ blocks:
 
     The native red squirrel is the star resident. Garsdale is one of the key strongholds
     for this endangered species in England. They can be spotted along the woodland
-    paths, by the river, and occasionally in the cottage gardens. [More about red
+    paths, by the river, and occasionally in the cottage gardens. Much of the conservation
+    work across this corner of the dales is co-ordinated by the Sedbergh Red Squirrels
+    group, based in the nearest town, and sightings reported by walkers help them track
+    how the population is faring. [More about red
     squirrels in Garsdale](/red-squirrels-in-garsdale/).
 
 

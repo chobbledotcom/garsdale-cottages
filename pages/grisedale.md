@@ -3,9 +3,9 @@ name: 'Grisedale: The Dale That Died'
 header_text: 'Grisedale: The Dale That Died'
 layout: base
 subtitle: A walk into the neighbouring valley
-meta_title: 'Grisedale: The Dale That Died | Yorkshire Dales'
-meta_description: Grisedale, the neighbouring valley to Garsdale known as The Dale
-  That Died, with walking routes, wildlife and local history.
+meta_title: 'Grisedale: The Dale That Died near Sedbergh | Yorkshire Dales'
+meta_description: Grisedale, the neighbouring valley to Garsdale near Sedbergh, known
+  as The Dale That Died, with walking routes, wildlife and local history.
 blocks:
 - type: image-background
   parallax: true
@@ -15,10 +15,11 @@ blocks:
 
     '
 - type: markdown
-  content: 'Just north of Garsdale lies Grisedale, a small, wild tributary valley
-    that earned a dramatic nickname in the 1970s. A walk up into Grisedale is one
-    of the most atmospheric things you can do from Garsdale, particularly in the early
-    evening when short-eared owls hunt the moorland.
+  content: 'Just north of Garsdale, between Sedbergh and Hawes in the Yorkshire
+    Dales, lies Grisedale, a small, wild tributary valley that earned a dramatic nickname
+    in the 1970s. A walk up into Grisedale is one of the most atmospheric things you
+    can do from Garsdale, particularly in the early evening when short-eared owls hunt
+    the moorland.
 
     '
 - type: split-image
@@ -78,9 +79,11 @@ blocks:
 
     Grisedale is accessible on foot from Garsdale and makes for a rewarding walk of
     varying length depending on how far you venture in. The dale is a cul-de-sac,
-    nearly three miles long, so you retrace your steps coming back. In spring and
-    early summer, the birdlife is remarkable. Keep an eye out for short-eared owls
-    quartering the moorland in the evening, and listen for curlews, lapwings and skylarks.
+    nearly three miles long, so you retrace your steps coming back. From Sedbergh it
+    is a short drive up the A684 to the Garsdale turn-offs, and from there the footpaths
+    begin. In spring and early summer, the birdlife is remarkable. Keep an eye out
+    for short-eared owls quartering the moorland in the evening, and listen for curlews,
+    lapwings and skylarks.
 
 
     A traditional annual walk into Grisedale is organised from Mount Zion Chapel,

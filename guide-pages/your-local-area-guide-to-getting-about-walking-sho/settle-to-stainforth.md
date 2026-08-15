@@ -8,21 +8,27 @@ blocks:
 - type: guide-navigation
 - type: guide-header
 - type: markdown
-  content: '![Malham-Tarn-Yorkshire-2f3f41a.jpg](https://hub.touchstay.com/v3api/photo/1687463/thumbnail/?size=600)
+  content: |-
+    ![Settle to Stainforth](/images/guide-pages/touchstay-1687463.jpg)
 
+    *8.5 miles/13.7km | 5 hours | moderate*
 
-    *8.5 miles/13.7km | 5 hours |moderate*
+    This circular walk starts in Settle, the market town at the southern end of the Settle-Carlisle railway, and follows limestone scars, caves and potholes through to Stainforth before returning. The route ventures beneath Attermire Scar, beyond Catrigg Force - a hidden waterfall in a wooded gorge - to Stainforth, and returns via Stainforth Force on the River Ribble.
 
+    Settle is about 45 minutes' drive from Garsdale, or you can get there by train from [Garsdale station](/guide/your-local-area-guide-to-getting-about-walking-sho/garsdale-train-station-garsdale-head/), which is on the same Settle-Carlisle line - the walk to Stainforth makes a good day out if you come by rail. Settle has pubs, cafes and shops, and the station itself is lovingly restored. The [Malham Tarn](/guide/your-local-area-guide-to-getting-about-walking-sho/malham-tarn/) walk is nearby for a gentler option.
 
-    Settle Up’ and ‘Settle Down’ proclaim the platform benches as you step off the
-    train at Settle’s lovingly restored station, gateway to the pretty little market
-    town and a landscape rich in gleaming limestone scars, caves and potholes.
+    ## Walk details
 
+    - **Start point:** Settle (market place or station)
+    - **Distance:** 8.5 miles/13.7km
+    - **Parking:** Settle market place car park
+    - **Public transport:** Settle railway station, on the Settle-Carlisle line
+    - **Route description:** [Countryfile - Settle to Stainforth walk](https://www.countryfile.com/go-outdoors/walks/settle-to-stainforth-yorkshire)
 
-    This 8.5-mile circular walking route starts in Settle, venturing beneath Attermire
-    Scar and beyond Catrigg Force to Stainforth, before returning to Settle via Stainforth
-    Force.
+    ## Nearby on this site
 
-
-    <img/>[https://www.countryfile.com/go-outdoors/walks/settle-to-stainforth-yorkshire](https://www.countryfile.com/go-outdoors/walks/settle-to-stainforth-yorkshire)'
+    - [Malham Tarn](/guide/your-local-area-guide-to-getting-about-walking-sho/malham-tarn/) - a gentler walk nearby
+    - [Ingleborough](/guide/your-local-area-guide-to-getting-about-walking-sho/ingleborough/) - the nearest of the Three Peaks, for a bigger day out
+    - [Garsdale train station](/guide/your-local-area-guide-to-getting-about-walking-sho/garsdale-train-station-garsdale-head/) - on the same railway line, for car-free travel
+    - [Walks from Garsdale](/walks/) - our curated walking routes
 ---

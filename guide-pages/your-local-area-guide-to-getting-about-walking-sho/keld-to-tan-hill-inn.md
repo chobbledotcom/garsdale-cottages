@@ -8,22 +8,26 @@ blocks:
 - type: guide-navigation
 - type: guide-header
 - type: markdown
-  content: '![Keld-waterfalls-Yorkshire-Dales-3a55889.jpg](https://hub.touchstay.com/v3api/photo/1687464/thumbnail/?size=600)
+  content: |-
+    ![Keld waterfalls](/images/guide-pages/touchstay-1687464.jpg)
 
+    *10.2 miles/16.5km | 6 hours | moderate*
 
-    *10.2 miles/16.5km | 6 hours |moderate*
+    This walk takes you from Keld, high in Upper Swaledale, to the Tan Hill Inn - Britain's highest public house at 528 metres (1,732 feet), and the only pub in England that is so remote it has been completely cut off by snow in winter. The inn has exposed beams, a stone-flagged floor and a welcoming fire, and walkers brush shoulders with inquisitive tourists who have driven up the long, lonely road from Arkengarthdale.
 
+    The route follows the Pennine Way and moorland paths across the head of Arkengarthdale, where winds rush across open moorland. Keld itself is a tiny village at the confluence of the River Swale and Birkdale Beck, surrounded by waterfalls - Kisdon Force, Wain Wath Force and Catrake Force are all within walking distance. Keld is about 50 minutes' drive from Garsdale.
 
-    On a lonely site high in the Yorkshire Dales stands a unique and historic place.
-    With its exposed beams, stone-flagged floor and welcoming fire, the Tan Hill Inn,
-    Britain’s highest public house at 528m (1,732ft), is a place where walkers brush
-    shoulders with inquisitive tourists.
+    ## Walk details
 
+    - **Start point:** Keld village
+    - **Distance:** 10.2 miles/16.5km
+    - **Parking:** Keld village roadside parking
+    - **Route description:** [Countryfile - Keld to Tan Hill Inn walk](https://www.countryfile.com/go-outdoors/walks/walk-keld-to-tan-hill-inn-north-yorkshire)
 
-    This walk takes you from Keld to the head of Arkengarthdale on the edge of Swaledale,
-    where winds rush across moorland, and where you can stop at the warm pub to refuel
-    or rest your weary head.
+    ## Nearby on this site
 
-
-    <img/>[https://www.countryfile.com/go-outdoors/walks/walk-keld-to-tan-hill-inn-north-yorkshire](https://www.countryfile.com/go-outdoors/walks/walk-keld-to-tan-hill-inn-north-yorkshire)'
+    - [Muker - going east](/guide/your-local-area-guide-to-getting-about-walking-sho/muker-going-east/) - another Swaledale walk, starting from the next village down
+    - [Crackpot Hall and Upper Swaledale](/guide/your-local-area-guide-to-getting-about-walking-sho/crackpot-hall-and-upper-swaledale/) - a shorter Swaledale walk
+    - [Walks from Garsdale](/walks/) - our curated walking routes
+    - [Things to do in Garsdale and the Dales](/things-to-do/) - our wider round-up
 ---

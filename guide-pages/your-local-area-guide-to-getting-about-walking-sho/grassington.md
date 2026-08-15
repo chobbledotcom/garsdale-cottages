@@ -8,22 +8,25 @@ blocks:
 - type: guide-navigation
 - type: guide-header
 - type: markdown
-  content: '![Grassington-Yorkshire-Dales2-78fbf22.jpg](https://hub.touchstay.com/v3api/photo/1687466/thumbnail/?size=600)
-
+  content: |-
+    ![Grassington](/images/guide-pages/touchstay-1687466.jpg)
 
     *8 miles/12.8km | 4.5 hours | moderate*
 
+    Grassington is a village in Wharfedale, and the countryside around it is dotted with pools and falls along the River Wharfe. This riverside walk takes in Ghaistrill's Strid, a series of exhilarating rapids, and Loup Scar, where a high jump and plunge pool tempt the more intrepid. Families mess about in rubber dinghies, skip over stepping-stones and throw themselves down water chutes in the meadows south of the village.
 
-    The countryside around the Yorkshire Dales village of Grassington is dotted with
-    pools and falls, making it an idyllic location for a spot of [wild swimming](https://www.countryfile.com/go-outdoors/get-active/wild-swimming-in-britain-the-best-places-to-swim-water-safety-and-how-to-get-started/).
-    In the meadows south of Grassington, families mess about in rubber dinghies, skip
-    over stepping-stones and throw themselves down water chutes.
+    The route follows the banks of the Wharfe, and in summer the hay meadows here are rich with wildflowers. Grassington itself has pubs, cafes and shops, and there is a small market square. It is about 50 minutes' drive from Garsdale, over the tops into Wharfedale. The [Upper Wharfedale](/guide/your-local-area-guide-to-getting-about-walking-sho/upper-wharfedale/) walk covers the next stretch of the valley north, through Cray, Yockenthwaite and Hubberholme, for a quieter, more remote stretch of the dale.
 
+    ## Walk details
 
-    Nearby Ghaistrill’s Strid offers exhilarating rapids, while Loup Scar tempts the
-    more intrepid with a high jump and plunge pool. Enjoy all of the above on this
-    riverside ramble along the banks of the Wharfe.
+    - **Start point:** Grassington village
+    - **Distance:** 8 miles/12.8km
+    - **Parking:** Grassington National Park car park
+    - **Route description:** [Countryfile - Grassington walk](https://www.countryfile.com/go-outdoors/walks/walk-grassington-north-yorkshire)
 
+    ## Nearby on this site
 
-    <img/>[https://www.countryfile.com/go-outdoors/walks/walk-grassington-north-yorkshire](https://www.countryfile.com/go-outdoors/walks/walk-grassington-north-yorkshire)'
+    - [Upper Wharfedale](/guide/your-local-area-guide-to-getting-about-walking-sho/upper-wharfedale/) - the next stretch of the dale, further north
+    - [Walks from Garsdale](/walks/) - our curated walking routes
+    - [Things to do in Garsdale and the Dales](/things-to-do/) - our wider round-up
 ---

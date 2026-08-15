@@ -8,7 +8,7 @@ blocks:
 - type: guide-navigation
 - type: guide-header
 - type: markdown
-  content: '![sc_1685979100_1131260_15.jpg](https://hub.touchstay.com/v3api/photo/1684243/thumbnail/?size=600)
+  content: '![sc_1685979100_1131260_15.jpg](/images/guide-pages/touchstay-1684243.jpg)
 
 
     In this guide we''ll provide you with all the information you need for your stay

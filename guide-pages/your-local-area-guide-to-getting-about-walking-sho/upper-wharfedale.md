@@ -8,21 +8,25 @@ blocks:
 - type: guide-navigation
 - type: guide-header
 - type: markdown
-  content: '![Wharfdale.jpg](https://hub.touchstay.com/v3api/photo/1687472/thumbnail/?size=600)
-
+  content: |-
+    ![Upper Wharfedale](/images/guide-pages/touchstay-1687472.jpg)
 
     *6.9 miles/11.2km | 4 hours | moderate*
 
+    Upper Wharfedale is a valley off the beaten track where the roads are too narrow for trucks and buses to navigate, and once you have found the dale you will not forget it. The limestone and peat uplands here are riven with steep-sided valleys and ghylls where water teems off the fells and tumbles over a series of waterfalls through the heart of the villages of Cray, Yockenthwaite and Hubberholme.
 
-    Upper Wharfedale is a charming little valley off the beaten track where the roads
-    are too narrow for trucks and busses to navigate. It’s a bit of a bind to get
-    to, but once you’ve found the dale, you’ll never forget it.
+    Hubberholme has a church dating from the 12th century, and the village is tiny - a handful of houses, the church, and the George Inn. The walk follows the River Wharfe upstream through hay meadows and woodland, crossing and recrossing the river. It is quieter than the Grassington stretch downstream, which is [a separate walk](/guide/your-local-area-guide-to-getting-about-walking-sho/grassington/) if you want the riverside pools and rapids. Upper Wharfedale is about 50 minutes' drive from Garsdale.
 
+    ## Walk details
 
-    The limestone and peat uplands hereabouts are riven with steep-sided valleys and
-    ghylls where water teems off the fells and tumbles over a series of waterfalls
-    through the heart of the picturesque villages of Cray, Yockenthwaite and Hubberholme.
+    - **Start point:** Cray village, Upper Wharfedale
+    - **Distance:** 6.9 miles/11.2km
+    - **Parking:** Roadside parking in Cray or Hubberholme
+    - **Route description:** [Countryfile - Upper Wharfedale walk](https://www.countryfile.com/go-outdoors/walks/walk-upper-wharfedale-north-yorkshire)
 
+    ## Nearby on this site
 
-    <img/>[https://www.countryfile.com/go-outdoors/walks/walk-upper-wharfedale-north-yorkshire](https://www.countryfile.com/go-outdoors/walks/walk-upper-wharfedale-north-yorkshire)'
+    - [Grassington](/guide/your-local-area-guide-to-getting-about-walking-sho/grassington/) - the lower, more popular stretch of Wharfedale
+    - [Walks from Garsdale](/walks/) - our curated walking routes
+    - [Things to do in Garsdale and the Dales](/things-to-do/) - our wider round-up
 ---

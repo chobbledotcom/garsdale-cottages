@@ -3,9 +3,9 @@ name: Garsdale Dialect
 header_text: Garsdale Dialect
 layout: base
 subtitle: Traditional words and phrases from the dale
-meta_title: Garsdale Dialect | Traditional Yorkshire Dales Words
-meta_description: A glossary of traditional Garsdale dialect words rooted in Old Norse,
-  and the story of heeafed sheep in the Yorkshire Dales.
+meta_title: Garsdale Dialect near Sedbergh | Traditional Yorkshire Dales Words
+meta_description: A glossary of traditional Garsdale dialect words near Sedbergh, rooted
+  in Old Norse, and the story of heeafed sheep in the Yorkshire Dales.
 blocks:
 - type: image-background
   parallax: true
@@ -17,8 +17,10 @@ blocks:
 - type: markdown
   content: 'Garsdale has its own traditional dialect, rooted in Old Norse and shaped
     by centuries of relative isolation. Some of these words have fallen out of everyday
-    use, but many are still heard in conversation around the dale. Visitors may encounter
-    a few of them, and knowing what they mean adds to the pleasure of being here.
+    use, but many are still heard in conversation around the dale and over towards
+    Sedbergh and Dent, where the same Norse inheritance shows up in the place names
+    and the way older residents still speak. Visitors may encounter a few of them,
+    and knowing what they mean adds to the pleasure of being here.
 
     '
 - type: split-image

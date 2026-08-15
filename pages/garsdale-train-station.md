@@ -3,9 +3,9 @@ name: Garsdale Station
 header_text: Garsdale Station
 layout: base
 subtitle: On the Settle-Carlisle line at the top of the dale
-meta_title: Garsdale Train Station | Settle-Carlisle Railway
-meta_description: Garsdale station on the Settle-Carlisle railway line, with its signal
-  box, Ruswarp statue, Dandrymire Viaduct and connections to Hawes.
+meta_title: Garsdale Train Station near Sedbergh | Settle-Carlisle Railway
+meta_description: Garsdale station on the Settle-Carlisle railway line near Sedbergh,
+  with its signal box, Ruswarp statue, Dandrymire Viaduct and connections to Hawes.
 blocks:
 - type: image-background
   parallax: true
@@ -16,9 +16,11 @@ blocks:
     '
 - type: markdown
   content: 'Garsdale station sits high on the Settle-Carlisle line at the top of the
-    dale, where the railway crosses from Dentdale into Mallerstang. Originally called
-    Hawes Junction, it once connected to a branch line running six miles down to Hawes
-    in Wensleydale.
+    dale, where the railway crosses from Dentdale into Mallerstang. The nearest town
+    is Sedbergh, about six miles west down the A684, and many of our cottage guests
+    travelling by train change at Sedbergh''s road connections or arrive into the dale
+    from that direction. Originally called Hawes Junction, the station once connected
+    to a branch line running six miles down to Hawes in Wensleydale.
 
     '
 - type: split-image
@@ -63,7 +65,9 @@ blocks:
   items:
   - icon: hugeicons:car-01
     description: The station is reached via the Coal Road from Garsdale village, which
-      continues over to Dent station. There is a car park at the station.
+      continues over to Dent station. There is a car park at the station. From Sedbergh,
+      the nearest town, it is roughly a ten-minute drive up the A684 to the Garsdale
+      village turn-off.
     name: Getting There
   - icon: hugeicons:bus-01
     description: The Little White Bus runs a shuttle service between Garsdale station

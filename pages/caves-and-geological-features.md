@@ -3,9 +3,10 @@ name: Caves and Geology
 header_text: Caves and Geology
 layout: base
 subtitle: Caves, waterfalls and geological features around Garsdale
-meta_title: Caves and Geology around Garsdale | Yorkshire Dales
-meta_description: Caves, geological features and waterfalls near Garsdale in the Yorkshire
-  Dales, including the Dent Fault, White Scar Cave and Cotterdale Force.
+meta_title: Caves and Geology around Garsdale near Sedbergh | Yorkshire Dales
+meta_description: Caves, geological features and waterfalls near Garsdale and Sedbergh
+  in the Yorkshire Dales, including the Dent Fault, White Scar Cave and Cotterdale
+  Force.
 blocks:
 - type: image-background
   parallax: true
@@ -50,8 +51,10 @@ blocks:
 
     The [Sedgwick Geological Trail](/the-sedgwick-geological-trail/) along the River
     Clough at Danny Bridge follows this fault line, with information boards explaining
-    what you are seeing. It is named after Adam Sedgwick, born in Dent in 1785, who
-    was one of the founders of modern geology.
+    what you are seeing. Danny Bridge sits on the A684 between Sedbergh and Garsdale,
+    roughly four miles east of Sedbergh, making it an easy stop on the drive into the
+    dale. The trail is named after Adam Sedgwick, born in Dent in 1785, who was one
+    of the founders of modern geology.
 
     '
   figure_src: /images/places-of-interest/grisedale-valley.jpeg

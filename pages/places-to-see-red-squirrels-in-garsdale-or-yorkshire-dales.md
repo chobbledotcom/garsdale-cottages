@@ -1,15 +1,16 @@
 ---
 name: Places to See Red Squirrels in Garsdale and the Yorkshire Dales
 subtitle: Places to See Red Squirrels
-meta_title: "# Places to See Red Squirrels in Garsdale | Yorkshire Dales"
-meta_description: "Looking for places to see red squirrels? Check out our
-  holiday cottages and see if you can spot them yourself! Book a spot now. "
+meta_title: "# Places to See Red Squirrels in Garsdale near Sedbergh | Yorkshire Dales"
+meta_description: "Places to see red squirrels in Garsdale near Sedbergh in the Yorkshire
+  Dales, with woodland walks and riverbanks to watch from. Book a holiday cottage
+  and spot them yourself. "
 blocks:
 - type: markdown
   content: |-
     # Places to See Red Squirrels in Garsdale and the Yorkshire Dales
 
-    Garsdale is one of the remaining parts of England where native red squirrels can still be seen in the wild. Coniferous woodland, quiet riverbanks and careful conservation work have helped the local population survive, making the dale a rewarding base for a wildlife-focused holiday.
+    Garsdale is one of the remaining parts of England where native red squirrels can still be seen in the wild. Coniferous woodland, quiet riverbanks and careful conservation work have helped the local population survive, making the dale a rewarding base for a wildlife-focused holiday. Sedbergh, the nearest town, is where the local Sedbergh Red Squirrels group co-ordinates much of that conservation work, and the dale sits between Sedbergh and Hawes in the Yorkshire Dales National Park.
 
     Red squirrels are wild animals, so sightings can never be guaranteed. However, guests staying at Garsdale Cottages regularly report seeing them beside woodland paths, near the River Clough and, occasionally, from the cottage gardens. Early morning and late afternoon usually provide the best opportunities.
 
