@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 11
 icon: hugeicons:walking
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '![Malham-Tarn-Yorkshire-2f3f41a.jpg](https://hub.touchstay.com/v3api/photo/1687463/thumbnail/?size=600)
 

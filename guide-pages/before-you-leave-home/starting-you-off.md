@@ -5,6 +5,8 @@ guide-category: before-you-leave-home
 order: 4
 icon: hugeicons:shopping-basket-01
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'For your convenience we will provide:
 

@@ -6,6 +6,8 @@ order: 33
 icon: hugeicons:store-03
 featured_image: /images/guide-pages/sedbergh-market.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Sedbergh market is an open-air farmers market held every Wednesday from around 8.30am to 12.30pm in the centre of Sedbergh, selling fruit and vegetables, bread, meat, fish, eggs, cheese and more from local growers and producers. There is also an Artisan Market on Saturdays once a month during the summer months - keep an eye out for the dates, which are posted at the [Sedbergh Tourist Information Centre](/guide/your-local-area-guide-to-getting-about-walking-sho/sedbergh-tourist-information/) and on the Visit Sedbergh website.

@@ -6,6 +6,8 @@ order: 59
 icon: hugeicons:hospital-01
 featured_image: /images/guide-pages/royal-lancaster-infirmary-lancaster.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Royal Lancaster Infirmary is in Lancaster on Ashton Road, run by University Hospitals of Morecambe Bay NHS Foundation Trust, and it is the nearest hospital with a full Accident and Emergency Department if you are staying in Garsdale. As well as A&E it has a Critical Care unit and Consultant-led beds, and provides a range of planned care including outpatients, diagnostics, therapies, day-case and inpatient surgery. It is roughly forty minutes' drive from Garsdale, further than [Westmorland General Hospital](/guide/your-local-area-guide-to-getting-about-walking-sho/westmorland-general-hospital-kendal/) in Kendal but with a full A&E rather than an Urgent Treatment Centre.

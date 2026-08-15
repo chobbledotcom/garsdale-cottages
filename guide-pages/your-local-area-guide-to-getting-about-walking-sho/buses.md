@@ -6,6 +6,8 @@ order: 25
 icon: hugeicons:bus-01
 featured_image: /images/guide-pages/buses.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '**The Little White Bus:** the Garsdale Station Shuttle bus (between Gasdale
     Head Station and Hawes) provides a scheduled service to meet trains at 12.07,

@@ -6,6 +6,8 @@ order: 53
 icon: hugeicons:ev-charging
 featured_image: /images/guide-pages/joss-lane-car-park-sedbergh.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Joss Lane car park is the main long-stay car park in Sedbergh, run by Westmorland and Furness Council. It is open all day, seven days a week, with around 54 spaces and no height restrictions, so it works for vans and motorhomes too. There are three disabled parking spaces, and Blue Badge holders, motorcycles and public service vehicles can park for free. It is the place to leave the car if you are spending the day in Sedbergh - a short walk down to Main Street and the pubs, cafes and shops.

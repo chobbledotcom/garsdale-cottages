@@ -6,6 +6,8 @@ order: 67
 icon: hugeicons:bone-01
 featured_image: /images/guide-pages/farm-gate-vets.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Farm Gate Vets is a veterinary practice with a branch on Long Lane in Sedbergh, and it is the nearest practice to Garsdale if you are bringing a dog or other pet on holiday and need a vet. The Sedbergh branch is the companion animal side of the practice - farm animals are handled from their Lancaster and Crooklands branches - and the surgery here has a full theatre, ultrasound scanning and radiography capabilities, kennelling for hospitalised inpatients, and daily consulting hours by appointment.

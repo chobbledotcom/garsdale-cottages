@@ -5,6 +5,8 @@ guide-category: welcome
 order: 2
 icon: hugeicons:heart-add
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '***The dales outside our window***
 

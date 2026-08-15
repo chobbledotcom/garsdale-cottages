@@ -6,6 +6,8 @@ order: 35
 icon: hugeicons:restaurant-01
 featured_image: /images/guide-pages/the-black-bull-inn.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Black Bull is a 17th-century coaching inn on Main Street in Sedbergh, set at the foot of the Howgill Fells on the western edge of the Yorkshire Dales National Park. James Ratcliffe and Nina Matsunaga run it together, and Nina's cooking has turned the place into a destination in its own right. She's German-born to Japanese parents, and her food is seasonal British produce - whole animals from the farm, fish from both coasts, game and foraged produce - influenced by her Japanese heritage and German upbringing. She sources mainly from what the inn calls the "Neck of Britain", running across Cumbria, Yorkshire, Lancashire and Northumbria. It draws people from a fair distance, which you wouldn't expect in a small Dales market town.

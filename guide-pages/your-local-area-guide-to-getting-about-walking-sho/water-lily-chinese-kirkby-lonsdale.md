@@ -6,6 +6,8 @@ order: 44
 icon: hugeicons:restaurant-02
 featured_image: /images/guide-pages/water-lily-chinese-kirkby-lonsdale.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Water Lily is a Chinese restaurant and takeaway on Market Square in Kirkby Lonsdale, serving Cantonese, Szechuan and Hong Kong-style Chinese food, with a menu that covers the usual Chinese restaurant staples alongside fast food options. It does both eat-in dining and takeaway, with the takeaway side being particularly well-reviewed. The restaurant is on the corner of the Market Square, a short walk from [Spice Essence](/guide/your-local-area-guide-to-getting-about-walking-sho/spice-essence-indian-cuisine/) and [Collinge Opticians](/guide/your-local-area-guide-to-getting-about-walking-sho/collinge-opticians-hawes/).

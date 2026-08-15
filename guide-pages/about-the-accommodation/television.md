@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 7
 icon: hugeicons:television-table
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '**Lounge TV**
 

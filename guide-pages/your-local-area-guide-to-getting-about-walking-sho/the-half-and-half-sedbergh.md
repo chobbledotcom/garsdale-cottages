@@ -6,6 +6,8 @@ order: 50
 icon: hugeicons:restaurant-01
 featured_image: /images/guide-pages/the-half-and-half-sedbergh.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Half and Half is a bar on Main Street in Sedbergh, around fifteen minutes' drive from Garsdale, serving wines from around the world alongside local craft beers, gins and ciders from the Lakes and Dales. If you can't decide what to drink, they do a beer bat - a third each of three different ales - and wine flights, so you can taste before you commit. It is dog and family friendly with a welcoming log fire, a mini-library and free pool, and it has a steady programme of live music nights, DJ nights, pub quizzes and the occasional pop-up artisan pizza night in partnership with local kitchens, so it is livelier than your average Dales bar.

@@ -6,6 +6,8 @@ order: 65
 icon: hugeicons:mail-01
 featured_image: /images/guide-pages/sedbergh-post-office.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Sedbergh Post Office is now located inside the SPAR store on Station Road, having moved from its longstanding position on Main Street in April 2025 after the retirement of the postmaster. The relocation into SPAR means the Post Office is retained for the town, and it is open alongside the shop - so you can pick up bread and milk and post a parcel in the same visit, and the parking at SPAR is better than the old Main Street site.

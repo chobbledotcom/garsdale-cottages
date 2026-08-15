@@ -6,6 +6,8 @@ order: 37
 icon: hugeicons:restaurant-01
 featured_image: /images/guide-pages/the-green-dragon-inn.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Green Dragon is a 13th-century inn at Hardraw, just outside Hawes in Upper Wensleydale, and it stands in one of the more striking settings of any pub in the Yorkshire Dales. Behind the inn is Hardraw Force, the highest single-drop waterfall in England, a reputed hundred-foot drop that you reach by a short, level ten-minute walk from the pub through three wooden footbridges. The waterfall was used in the 1991 Kevin Costner film "Robin Hood: Prince of Thieves", and there is a circular twenty-minute walk around the horseshoe upper lip leading to a final bridge overlooking the fall.

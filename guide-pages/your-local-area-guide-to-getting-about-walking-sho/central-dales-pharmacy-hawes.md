@@ -6,6 +6,8 @@ order: 57
 icon: hugeicons:first-aid-kit
 featured_image: /images/guide-pages/central-dales-pharmacy-hawes.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Central Dales Pharmacy is a community pharmacy on Market Place in Hawes, serving the local population around the market town of Hawes in Wensleydale. As well as dispensing prescriptions, the pharmacy offers pharmacist consultations and the Pharmacy First service, which means you can get advice and treatment for minor ailments without needing to see a GP. If you are staying in Garsdale and run out of a prescription or need over-the-counter medication, this is the nearest pharmacy heading east towards Hawes.

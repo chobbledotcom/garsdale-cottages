@@ -6,6 +6,8 @@ order: 5
 icon: hugeicons:first-aid-kit
 featured_image: /images/guide-pages/what-to-do-in-an-emergency.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'For emergency services (ambulance, police, fire), **call 999**
 

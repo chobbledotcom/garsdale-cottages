@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 58
 icon: hugeicons:first-aid-kit
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Jhoots Pharmacy was a pharmacy on Main Street in Sedbergh, at number 48-50. It closed without warning on 21 August 2025, citing a lack of a pharmacist. The BBC reported that the closure left people in Sedbergh facing a ten-mile journey to the nearest pharmacy.

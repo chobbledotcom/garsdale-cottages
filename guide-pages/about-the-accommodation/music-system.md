@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 8
 icon: hugeicons:music-note-01
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'You’re more than welcome to use our sound system. You can connect any
     device via bluetooth. We ask you to be mindful about volumes, especially early

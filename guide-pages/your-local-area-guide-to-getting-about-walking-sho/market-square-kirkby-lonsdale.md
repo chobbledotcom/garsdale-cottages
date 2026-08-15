@@ -6,6 +6,8 @@ order: 32
 icon: hugeicons:store-03
 featured_image: /images/guide-pages/market-square-kirkby-lonsdale.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Kirkby Lonsdale's Market Square is an elegant Georgian square at the heart of the town, and it hosts the Thursday Charter Market, which has been running in one form or another since the town was granted a Market Charter in 1227. The original market was at the corner of Main Street and Market Street before being relocated to the square, which is overlooked at one end by the Royal Hotel - made famous by a visit by Queen Adelaide in 1840 - and at the other by the old bank.

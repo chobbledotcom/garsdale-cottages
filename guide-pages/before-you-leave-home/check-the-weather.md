@@ -6,6 +6,8 @@ order: 5
 icon: hugeicons:sun-cloud-01
 featured_image: /images/guide-pages/check-the-weather.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'For local weather look to mwis.org.uk/forecast/english-and-welsh/yorkshire-dales-and-north-pennines
 

@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 8
 icon: hugeicons:walking
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '![Keld-waterfalls-Yorkshire-Dales-3a55889.jpg](https://hub.touchstay.com/v3api/photo/1687464/thumbnail/?size=600)
 

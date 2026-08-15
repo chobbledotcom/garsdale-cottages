@@ -6,6 +6,8 @@ order: 39
 icon: hugeicons:pizza-01
 featured_image: /images/guide-pages/sedbergh-pizza.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Sedbergh Pizza is a pizza and kebab takeaway on Main Street in Sedbergh, offering delivery and collection. The menu runs to the usual pizza, kebab and burger options, and you can order online through their website or via Foodhub for delivery to your door, which is handy if you have been out on the fells all day and do not fancy cooking. It sits at the Main Street end of town, a few doors from the [Black Bull](/guide/your-local-area-guide-to-getting-about-walking-sho/the-black-bull-inn/) and [Smatt's Duo](/guide/your-local-area-guide-to-getting-about-walking-sho/smatts-duo/).

@@ -6,6 +6,8 @@ order: 48
 icon: hugeicons:coffee-02
 featured_image: /images/guide-pages/cross-keys-temperance-inn.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Cross Keys is a 400-year-old National Trust temperance inn at Cautley, a few miles out of Sedbergh towards the Howgills, close to Cautley Spout - the highest waterfall in England by total drop. It has been a temperance inn since 1902, when Mrs Edith Adelaide Bunney bought the place and removed the liquor license, and no alcohol has been served here since. What you get instead is a book cafe selling second-hand books on history, local history and nature, and a small farmhouse-style restaurant doing daytime meals and snacks with evening meals available too, for which booking is essential.

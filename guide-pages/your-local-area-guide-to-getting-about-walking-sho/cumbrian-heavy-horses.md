@@ -6,6 +6,8 @@ order: 14
 icon: hugeicons:horse
 featured_image: /images/guide-pages/cumbrian-heavy-horses.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Cumbrian Heavy Horses is an award-winning, BHS-approved heavy horse riding centre based in the south-west of the Lake District National Park, near Millom, and it is the only BHS-approved heavy horse riding centre in the world. You ride the largest breeds of horse there are - Suffolk Punch, Clydesdale and Shire - on fell, farm and beach. The centre is also a rare breed centre, working with some of the rarer heavy horse bloodlines.

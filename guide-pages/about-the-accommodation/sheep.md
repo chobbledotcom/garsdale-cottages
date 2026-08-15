@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 18
 icon: hugeicons:mountain
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: We sometimes allow our farming neighbour to come onto our land to graze
     it down. When on the land the black metal gate (bottom of our field) will sometimes

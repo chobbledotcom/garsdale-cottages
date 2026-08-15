@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 14
 icon: hugeicons:recycle-01
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'The bins are located at the main road gate. We would suggest simply leaving
     your bagged rubbish outside the front door on departure or take it to the roadside

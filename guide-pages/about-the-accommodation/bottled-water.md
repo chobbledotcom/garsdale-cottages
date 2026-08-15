@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 15
 icon: hugeicons:droplet
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: Whilst the water supply at Roger Pot is treated and tested safe annually
     it is sourced from a nearby well and therefore cannot realistically be completely

@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 10
 icon: hugeicons:walking
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '![Muker-North-Yorkshire-cb10113.jpg](https://hub.touchstay.com/v3api/photo/1687457/thumbnail/?size=600)
 

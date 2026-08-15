@@ -6,6 +6,8 @@ order: 16
 icon: hugeicons:store-01
 featured_image: /images/guide-pages/dales-countryside-museum.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Dales Countryside Museum is housed in Hawes' former Victorian railway station and tells the story of the Yorkshire Dales and the people who have lived, worked and shaped this landscape over thousands of years. It is run by the Yorkshire Dales National Park Authority, and the galleries cover farming, lead mining, dairying, and the domestic life of Dales communities, with hands-on exhibits and an outdoor trail. There are changing exhibitions through the year in the John Richard Baker Exhibition Hall, and a programme of events including guided walks around Hawes.

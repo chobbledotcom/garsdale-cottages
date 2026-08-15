@@ -6,6 +6,8 @@ order: 1
 icon: hugeicons:heart-check
 featured_image: /images/guide-pages/thank-you-for-staying-with-us.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: "**Thank you for staying with us, and we hope you enjoyed your stay.**\n\
     \nIf there were any issues with your stay, please don't hesitate to tell us, as\

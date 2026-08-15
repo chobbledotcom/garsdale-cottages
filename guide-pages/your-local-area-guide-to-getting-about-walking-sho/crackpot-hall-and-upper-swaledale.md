@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 2
 icon: hugeicons:walking
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '![GettyImages-468836382-bfb6c41.jpg](https://hub.touchstay.com/v3api/photo/1687468/thumbnail/?size=600)
 

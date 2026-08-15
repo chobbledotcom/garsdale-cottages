@@ -5,6 +5,8 @@ guide-category: booking-with-us
 order: 1
 icon: hugeicons:agreement-02
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'You will be very welcome guests of Roger Pot and we hope that you will
     enjoy, as we do, the glorious peace and tranquillity of the Yorkshire Dales Garsdale

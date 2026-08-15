@@ -6,6 +6,8 @@ order: 55
 icon: hugeicons:bank
 featured_image: /images/guide-pages/natwest-atm-sedbergh.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Cash machines in Sedbergh are the thing to know about, because the town no longer has a bank branch and the nearest ones are in Kendal. The most reliable free cash withdrawal in Sedbergh is the ATM at [SPAR Sedbergh](/guide/your-local-area-guide-to-getting-about-walking-sho/spar-sedbergh/) on Station Road, where you can also get cashback on purchases. The relocated [Post Office counter inside SPAR](/guide/your-local-area-guide-to-getting-about-walking-sho/sedbergh-post-office/) also offers cash withdrawal and banking services.

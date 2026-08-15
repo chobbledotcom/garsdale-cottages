@@ -6,6 +6,8 @@ order: 54
 icon: hugeicons:bank
 featured_image: /images/guide-pages/barclays-atm-hawes.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Barclays branch in Hawes closed in 2019, as part of the ongoing closure of rural bank branches across the Dales. The free cash machine that was at the branch is no longer there, but there are other cash options in Hawes. The ATM at [SPAR Hawes](/guide/your-local-area-guide-to-getting-about-walking-sho/spar-hawes/) on Market Place is the most reliable free cash withdrawal in town, and Barclays customers can use the Post Office counter for basic banking.

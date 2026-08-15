@@ -6,6 +6,8 @@ order: 64
 icon: hugeicons:fuel-station
 featured_image: /images/guide-pages/dalehead-garage-hawes.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Dale Head Community Garage in Hawes is a community-owned, not-for-profit filling station on the A684 in the town centre - and it was the first community-run filling station in the country. Because it is community-owned and entitled to a 5p per litre Government rural fuel rebate, it keeps its prices below the national average, and the fuel is dispensed twenty-four hours a day with a card-payment kiosk. It is a genuinely useful thing to have in a town where the nearest alternative petrol stations are a fair drive away.

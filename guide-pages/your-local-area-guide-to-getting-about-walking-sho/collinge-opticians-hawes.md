@@ -6,6 +6,8 @@ order: 62
 icon: hugeicons:eye
 featured_image: /images/guide-pages/collinge-opticians-hawes.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Collinge Opticians is an independent optical practice on Market Street in Kirkby Lonsdale, established over twenty-five years ago. Anthony Collinge opened the practice originally, and it has been under new hands since he retired in 2007. The shop aims to be something different from the usual high-street opticians - the eyewear collections are curated for independent design, quality craftsmanship and premium materials rather than the usual chains, with frames from a range of independent brands you won't find everywhere.

@@ -6,6 +6,8 @@ order: 1
 icon: hugeicons:volume-off
 featured_image: /images/guide-pages/quiet-times.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: We are located in a friendly and welcoming community and, although this
     is a holiday destination, it's home to other people. As such we ask that you respect

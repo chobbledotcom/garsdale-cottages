@@ -6,6 +6,8 @@ order: 18
 icon: hugeicons:swimming
 featured_image: /images/guide-pages/kendal-leisure-centre.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Kendal Leisure Centre is on Burton Road in Kendal, run by Better (GLL), and it is the nearest leisure centre to Garsdale - about twenty-five minutes' drive away. It has a 25-metre main pool and a separate learner pool, with lane swimming, lessons and aqua classes, plus a sauna and steam room. The gym covers cardio and weight training, and there is a sports hall hosting badminton, basketball, football and pickleball, which has become a local favourite. The class timetable includes group cycle, body conditioning, yoga, Pilates, HIIT and circuits through the week, with popular over-50s sessions too.

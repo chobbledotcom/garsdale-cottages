@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 7
 icon: hugeicons:mountain
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '![Ingleborough-dfd81e7-scaled.jpg](https://hub.touchstay.com/v3api/photo/1687469/thumbnail/?size=600)
 

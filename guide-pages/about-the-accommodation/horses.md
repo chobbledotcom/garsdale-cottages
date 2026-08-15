@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 17
 icon: hugeicons:horse
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: Our three horses Silver, Niels and Opal live in the barn and occupy the
     four acres surrounding the property. They are managed by the owners who live above

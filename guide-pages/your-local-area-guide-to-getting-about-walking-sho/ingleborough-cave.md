@@ -6,6 +6,8 @@ order: 17
 icon: hugeicons:mountain
 featured_image: /images/guide-pages/ingleborough-cave.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Ingleborough Cave is a show cave on the south side of Ingleborough, just above the village of Clapham in the Yorkshire Dales National Park. It was first discovered and explored in 1837 by Victorian cavers, and has been open to the public ever since, making it one of the oldest show caves in the country. The cave is family-friendly with electric floodlighting along the path, and the tour takes you through chambers with stalactites, stalagmites, flowstone and an underground lake, with guides explaining the geology and the history of exploration.

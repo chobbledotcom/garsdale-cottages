@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 13
 icon: hugeicons:walking
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '![Wharfdale.jpg](https://hub.touchstay.com/v3api/photo/1687472/thumbnail/?size=600)
 

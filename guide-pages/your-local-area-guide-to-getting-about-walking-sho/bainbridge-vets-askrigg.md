@@ -6,6 +6,8 @@ order: 66
 icon: hugeicons:bone-01
 featured_image: /images/guide-pages/bainbridge-vets-askrigg.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Bainbridge Vets is a long-established Dales veterinary practice at Station Surgery in Askrigg, covering both farm and companion animals with a mixed, all-species service. It is a practice that values continuity of care - you can ring and request a specific vet, and they make themselves available on the phone to discuss cases before deciding whether an animal needs to come in. The Askrigg site has two spacious consulting rooms, hospitalisation, diagnostic imaging and operating facilities.

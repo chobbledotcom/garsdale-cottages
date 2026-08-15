@@ -6,6 +6,8 @@ order: 41
 icon: hugeicons:fish-food
 featured_image: /images/guide-pages/the-chippie.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Chippie is a family-run fish and chip shop and cafe on Market Place in Hawes, at the heart of the Yorkshire Dales, and it is genuinely one of the better chippies you will find anywhere in the Dales. The fish is cooked to order in a light, crispy batter with a craggly crunch, the chips are soft and fluffy, and they do the full chip-shop classics - cod, haddock, peas, bread and butter. They also deep-fry Wensleydale cheese in batter, which is worth trying at least once.

@@ -6,6 +6,8 @@ order: 40
 icon: hugeicons:restaurant-02
 featured_image: /images/guide-pages/spice-essence-indian-cuisine.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Spice Essence is an Indian restaurant on Main Street in Kirkby Lonsdale, set upstairs in a secluded spot overlooking a courtyard, with outdoor balcony seating in fine weather. The menu runs to a wide selection of standard Indian dishes at sensible prices, and they offer a takeaway service as well as eat-in dining. The restaurant is upstairs, which is worth knowing if you have mobility issues or are bringing a pushchair.

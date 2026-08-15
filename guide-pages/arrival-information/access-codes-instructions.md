@@ -5,6 +5,8 @@ guide-category: arrival-information
 order: 1
 icon: hugeicons:key-02
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'A key to the front door is located in a key safe within the entrance porch
 

@@ -5,6 +5,8 @@ guide-category: arrival-information
 order: 3
 icon: hugeicons:telephone
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'If you need to get in touch with us, (whether it''s about a delay or you''re
     lost - or anything else!) you can either phone us, text us, or email us using

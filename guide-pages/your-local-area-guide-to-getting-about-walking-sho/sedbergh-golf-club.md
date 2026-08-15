@@ -6,6 +6,8 @@ order: 20
 icon: hugeicons:golf-ball
 featured_image: /images/guide-pages/sedbergh-golf-club.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Sedbergh Golf Club is an 18-hole course set in the Yorkshire Dales countryside about a mile outside Sedbergh on the road towards Dent, and it has been described as one of the most scenic and tranquil courses in the north of England. At 5,600 yards and par 70 it is not the longest, but it provides a stern test for golfers of all abilities, and the setting - ten miles from the Lake District and right in the Dales - is what draws people back. The club calls itself Cumbria's hidden gem.

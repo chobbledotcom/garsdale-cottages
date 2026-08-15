@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 19
 icon: hugeicons:mountain
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: Historically, Garsdale was a chapelry in the ancient parish of Sedbergh
     in the Ewecross wapentake in the West Riding of Yorkshire. In 1866 it became a

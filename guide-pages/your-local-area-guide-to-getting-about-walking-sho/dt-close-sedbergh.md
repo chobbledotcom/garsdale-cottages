@@ -6,6 +6,8 @@ order: 63
 icon: hugeicons:fuel-station
 featured_image: /images/guide-pages/dt-close-sedbergh.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     D T Close is a family-run garage and filling station on Station Road, on the main road to Kendal about half a mile from Sedbergh town centre. The family has nearly fifty years of experience in the motor trade, and as well as selling petrol and diesel they run a garage workshop for servicing and repairs. It is the nearest fuel stop if you are staying in Garsdale, about fifteen minutes' drive down the dale, and it is worth knowing where it is because the next nearest petrol stations are in Kendal or Hawes.

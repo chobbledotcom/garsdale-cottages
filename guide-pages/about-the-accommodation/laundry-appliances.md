@@ -6,6 +6,8 @@ order: 3
 icon: hugeicons:washing-machine
 featured_image: /images/guide-pages/laundry-appliances.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'The washing machine/dryer can be found in the utility
 

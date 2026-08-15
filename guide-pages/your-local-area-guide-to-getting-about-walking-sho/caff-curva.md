@@ -6,6 +6,8 @@ order: 45
 icon: hugeicons:coffee-02
 featured_image: /images/guide-pages/caff-curva.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Caffe Curva is a family-run cafe on Market Place in Hawes, run by Kathryn and Shawn, serving homemade breakfast, brunch and lunch with coffee from Coffee Care. The menu is what you'd want from a Dales cafe - bacon butties, homemade soup, cheese scones and a selection of cakes - and it's popular with walkers coming off the Pennine Way or heading back from Hardraw. The decor is a bit more modern than your average Dales tearoom but it's still a cosy space, and it is dog friendly.

@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 9
 icon: hugeicons:fire
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'Lighting a fire adds a very cosy feel to the house and it warms all the
     rooms too!

@@ -6,6 +6,8 @@ order: 27
 icon: hugeicons:taxi
 featured_image: /images/guide-pages/on-time-taxis-sedbergh.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     On Time Taxis is a small local taxi company based at Maryfell in Sedbergh, run as a daytime-only operation with one four-seater car - so no multi-seaters or minibuses. It is the kind of outfit that suits a couple or a small family needing a lift from Sedbergh to [Garsdale train station](/guide/your-local-area-guide-to-getting-about-walking-sho/garsdale-train-station-garsdale-head/), or a rail transfer to Oxenholme, or a pickup from the Dales Way if you are walking and need luggage moved or onward travel arranged.

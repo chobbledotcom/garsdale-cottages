@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 24
 icon: hugeicons:book-open-01
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'The following items will be in Roger Pot when you arrive. Please do let
     us know if anything is missing or if you feel there is anything we should add

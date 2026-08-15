@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 50
 icon: hugeicons:shopping-bag-01
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Three Peaks Outdoor Leisure is an independent outdoor clothing, footwear and accessory shop in Hawes, at the heart of the Yorkshire Dales National Park. It has been trading since 1989 and has built a solid reputation for quality gear and sound advice, which counts for a fair bit when the weather turns on the fells. The shop stocks the kit you actually need for walking the Dales - boots, waterproofs, base layers and accessories - rather than fashion outdoor wear, and the staff know the area and will steer you right.

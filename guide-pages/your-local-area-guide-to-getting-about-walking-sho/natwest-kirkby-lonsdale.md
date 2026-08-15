@@ -6,6 +6,8 @@ order: 51
 icon: hugeicons:bank
 featured_image: /images/guide-pages/natwest-kirkby-lonsdale.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The NatWest branch in Kirkby Lonsdale closed in 2025, part of the wider pattern of bank branch closures across rural Cumbria and the Dales. NatWest published a branch closure document for Kirkby Lonsdale as part of its 2025 closure programme, so there is no longer a NatWest counter or ATM here.

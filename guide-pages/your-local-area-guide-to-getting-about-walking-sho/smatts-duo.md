@@ -6,6 +6,8 @@ order: 46
 icon: hugeicons:coffee-02
 featured_image: /images/guide-pages/smatts-duo.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Smatt's Duo is a cafe, bar and bistro on Main Street in Sedbergh, serving homemade fresh food every day with ingredients locally sourced where possible. The menu runs to sandwiches, paninis, hot meals and jacket potatoes, and the afternoon teas are a particular draw - available to eat in or takeaway if you fancy one back at the cottage. They cater for parties of up to twenty-four, so it is a handy option if you are staying with a group and want a buffet or a three-course meal done for you.

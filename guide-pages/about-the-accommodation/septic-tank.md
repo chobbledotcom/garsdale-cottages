@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 6
 icon: hugeicons:water-pump
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'The property has benefited from a recently installed septic tank/treatment
     plant. This requires minimal maintenance providing people follow one simple request:

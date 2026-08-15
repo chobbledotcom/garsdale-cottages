@@ -6,6 +6,8 @@ order: 60
 icon: hugeicons:hospital-01
 featured_image: /images/guide-pages/westmorland-general-hospital-kendal.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Westmorland General Hospital is in Kendal on Burton Road, about twenty-five minutes' drive from Garsdale, and it is the nearest hospital to the dale. It is the headquarters of University Hospitals of Morecambe Bay NHS Foundation Trust, and it provides a range of general hospital services including elective operations, outpatient appointments and midwifery-led maternity services. The key thing for visitors and holidaymakers to know is that it houses an Urgent Treatment Centre.

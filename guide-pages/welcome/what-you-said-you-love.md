@@ -5,6 +5,8 @@ guide-category: welcome
 order: 3
 icon: hugeicons:star
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '***The reviews tell their story (no edits honest! Not even their spelling!)***
 

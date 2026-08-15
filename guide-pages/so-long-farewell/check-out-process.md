@@ -5,6 +5,8 @@ guide-category: so-long-farewell
 order: 3
 icon: hugeicons:door-02
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'Before your departure, we’d appreciate if you would take care of the following:
 

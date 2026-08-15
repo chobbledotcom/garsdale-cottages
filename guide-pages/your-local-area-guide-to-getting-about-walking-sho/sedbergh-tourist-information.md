@@ -6,6 +6,8 @@ order: 22
 icon: hugeicons:information-circle
 featured_image: /images/guide-pages/sedbergh-tourist-information.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Sedbergh Information Centre and Howgills Bookshop is on Main Street in Sedbergh, run by knowledgeable volunteers who know the area well. It is the place to go for leaflets on things to do in Sedbergh and the surrounding Yorkshire Dales, plus a wide range of maps, guides and travel information if you are planning walks or days out. The attached bookshop stocks thousands of secondhand books to browse through, and they sell newspapers too, which is not a given in a town this size.

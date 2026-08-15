@@ -6,6 +6,8 @@ order: 42
 icon: hugeicons:fish-food
 featured_image: /images/guide-pages/the-haddock-paddock.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Haddock Paddock is a family-run fish and chip shop and cafe on Main Street in Sedbergh, doing fish and chips - fresh fish in a light crispy batter, fluffy chips with a crisp edge, and the portions that sort you out after a day on the Howgills. As well as the chip shop, the cafe side does sandwiches, toasties, paninis and jacket potatoes through the day, so it works for lunch as well as a chippy tea. It is one of Sedbergh's Book Cafes, with a small selection of themed books to browse while you wait.

@@ -6,6 +6,8 @@ order: 24
 icon: hugeicons:mountain
 featured_image: /images/guide-pages/white-scar-cave.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     White Scar Cave is the longest show cave in Britain, set in the Yorkshire Dales National Park on the B6255 road, about two miles from the village of Ingleton in North Yorkshire. The cave was discovered in 1923 and opened to the public shortly after, and the guided tour takes around eighty minutes through a mile of underground passages, stalactites, stalagmites and flowstone formations. The best-known feature is the Battlefield, a vast natural cavern with thousands of delicate white stalactites, and there is the Judge's Head, a stalagmite that looks uncannily like a bewigged judge in profile.

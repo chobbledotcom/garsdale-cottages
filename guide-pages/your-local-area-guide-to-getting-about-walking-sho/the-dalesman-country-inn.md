@@ -6,6 +6,8 @@ order: 36
 icon: hugeicons:restaurant-01
 featured_image: /images/guide-pages/the-dalesman-country-inn.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Dalesman is a 16th-century coaching inn on Main Street in Sedbergh, in the centre of town and about five miles from junction 37 of the M6. It's an AA four-star Gold inn with two AA Rosettes for food, and it was Cumbria Pub of the Year in 2023, so the cooking is taken seriously. The sourcing is the thing that sets it apart - Brian at Birks Farm in Sedbergh supplies Galloway beef and rough fell lamb year round, grazed at Marthwaite then brought down to pasture in Sedbergh, and the travel from field to restaurant is less than thirty miles, which is almost unheard of anywhere in the UK. The kitchen works alongside local farmers and producers for the rest of the menu too.

@@ -5,6 +5,8 @@ guide-category: safety-info-rules
 order: 6
 icon: hugeicons:alert-circle
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'Roger Pot is safe but like any home there are things to be aware of...
 

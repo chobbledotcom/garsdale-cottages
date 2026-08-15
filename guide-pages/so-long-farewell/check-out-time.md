@@ -5,6 +5,8 @@ guide-category: so-long-farewell
 order: 2
 icon: hugeicons:clock-01
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '**Check-out time is strictly 10am**
 

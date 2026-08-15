@@ -5,6 +5,8 @@ guide-category: welcome
 order: 1
 icon: hugeicons:home-01
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '![sc_1685979100_1131260_15.jpg](https://hub.touchstay.com/v3api/photo/1684243/thumbnail/?size=600)
 

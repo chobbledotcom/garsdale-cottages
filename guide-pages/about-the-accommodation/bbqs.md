@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 11
 icon: hugeicons:bbq-grill
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: We don't supply any BBQ equipment but we don't mind you bringing your own
     if you'd like. We would only ask that you ensure any BBQ you use has suitable

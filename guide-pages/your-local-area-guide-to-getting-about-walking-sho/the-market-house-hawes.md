@@ -6,6 +6,8 @@ order: 34
 icon: hugeicons:store-03
 featured_image: /images/guide-pages/the-market-house-hawes.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Market House in Hawes is a community-run indoor market and events venue in the centre of town, and it sits at the heart of England's highest market town - 850 feet above sea level in Wensleydale. It hosts a regular Tuesday market and a Saturday indoor market, as well as craft fairs, table-top sales, auctions and one-off events through the year. The Saturday markets in particular get packed to the rafters, with stalls selling local produce, crafts, books, antiques and homewares.

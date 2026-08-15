@@ -5,6 +5,8 @@ guide-category: wifi-internetmobile-details
 order: 2
 icon: hugeicons:signal
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'Ofcom rate mobile coverage for voice and data as follows
 

@@ -6,6 +6,8 @@ order: 56
 icon: hugeicons:bank
 featured_image: /images/guide-pages/spar-sedbergh.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     SPAR Sedbergh is a small supermarket on Station Road, on the outskirts of Sedbergh town centre, and it is the nearest grocery shop if you are self-catering and need to stock up. It sells the usual convenience-store range - bread, milk, eggs, basic groceries, newspapers and a few household bits - and it has a cash machine. The shop is a few minutes' walk from Main Street, or a couple of minutes in the car, and there is parking on site.

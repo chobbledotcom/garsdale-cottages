@@ -6,6 +6,8 @@ order: 23
 icon: hugeicons:cheese
 featured_image: /images/guide-pages/wensleydale-creamery-visitor-centre.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Wensleydale Creamery visitor centre in Hawes is the home of Yorkshire Wensleydale cheese, and the only place in Wensleydale still making the traditional cheese. The factory on this site dates from the early twentieth century, and by 1990 it was the last Wensleydale cheesemaker left in the dale. It is now an award-winning, independent traditional cheese-maker and specialist blender, and the visitor centre is built around watching the cheese being made.

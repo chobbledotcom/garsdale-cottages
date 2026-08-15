@@ -6,6 +6,8 @@ order: 3
 icon: hugeicons:luggage-02
 featured_image: /images/guide-pages/things-to-bring.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'Whilst we provide a lot of things, you may want to consider bringing the
     following which we **don''t provide!**

@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 3
 icon: hugeicons:walking
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: '![Helms-Knott-from-Gawthrop-ea69efd.jpg](https://hub.touchstay.com/v3api/photo/1687458/thumbnail/?size=600)
 

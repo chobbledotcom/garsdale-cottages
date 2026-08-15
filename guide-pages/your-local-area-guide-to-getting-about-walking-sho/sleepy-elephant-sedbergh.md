@@ -6,6 +6,8 @@ order: 49
 icon: hugeicons:shopping-bag-01
 featured_image: /images/guide-pages/sleepy-elephant-sedbergh.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Sleepy Elephant is a walking and book shop on Main Street in Sedbergh, in a building that may date back to the fifteenth century. It specialises in good quality but affordable walking boots and other hiking equipment, plus new and second-hand walking and mountaineering books. The boot range comes from brands including Aku, Grisport, Keen, Lowa and others, in sizes 3 to 13, and the shop is known for its clearance sales where you can pick up famous-name kit at the right price. They also stock jackets, trekking pants, wellies, sandals, socks, gloves, hats, walking poles and the rest of the kit you actually need for a week on the fells.

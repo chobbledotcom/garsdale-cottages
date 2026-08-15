@@ -6,6 +6,8 @@ order: 1
 icon: hugeicons:wifi-01
 featured_image: /images/guide-pages/wifi-internet-details.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'There is free Wi-Fi in the property. The WiFi network name and password
     are provided in your booking confirmation email, or you can contact us before

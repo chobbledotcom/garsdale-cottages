@@ -6,6 +6,8 @@ order: 26
 icon: hugeicons:train-01
 featured_image: /images/guide-pages/garsdale-train-station-garsdale-head.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'Garsdale station sits high on the Settle-Carlisle line at the top of the
     dale, where the railway crosses from Dentdale into Mallerstang. Originally called

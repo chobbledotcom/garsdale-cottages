@@ -5,6 +5,8 @@ guide-category: arrival-information
 order: 2
 icon: hugeicons:clock-02
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'Your check-in time is 16.00
 

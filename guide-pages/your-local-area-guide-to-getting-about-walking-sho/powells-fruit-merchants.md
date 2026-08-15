@@ -6,6 +6,8 @@ order: 29
 icon: hugeicons:store-02
 featured_image: /images/guide-pages/powells-fruit-merchants.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Powell's is a greengrocer on Main Street in Sedbergh, run by Martin Powell, selling British and imported fruit and vegetables, fresh salads and produce from local growers. It also supplies the catering trade and does prepared vegetables for caterers, so the produce turns over quickly and is fresh. It is exactly the shop you want in a small Dales town if you are self-catering and want to cook.

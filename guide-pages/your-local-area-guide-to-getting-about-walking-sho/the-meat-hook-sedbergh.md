@@ -6,6 +6,8 @@ order: 52
 icon: hugeicons:store-04
 featured_image: /images/guide-pages/the-meat-hook-sedbergh.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Meat Hook is a family-run traditional artisan butchers shop in Sedbergh, and it was Cumbrian Butcher of the Year in 2023, which tells you a fair bit about the quality. Provenance and quality are the whole point of the place - they sell a wide range of local meats including home-reared lamb, and they do weekly essentials packs if you are self-catering and want to stock the freezer for a few days. The butchery counter is old school, and the staff know their cuts.

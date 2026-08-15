@@ -5,6 +5,8 @@ guide-category: your-local-area-guide-to-getting-about-walking-sho
 order: 21
 icon: hugeicons:swimming
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     Sedbergh School has a swimming pool that offers public swimming sessions when the school is not using it, which is a useful thing to know if you are staying in Garsdale with children and want a swim, or if the weather turns wet and you need an indoor activity. The pool is part of the sports facilities at Sedbergh School, the independent school on the edge of town, and public session times vary depending on the school term and holiday schedule.

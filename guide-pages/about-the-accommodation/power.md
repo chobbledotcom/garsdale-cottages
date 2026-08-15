@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 21
 icon: hugeicons:bulb-charging
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: The electric meter and fuse board is located in the meter cupboard in the
     utility room (door directly oposite as you enter the utility room). There are

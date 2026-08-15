@@ -6,6 +6,8 @@ order: 68
 icon: hugeicons:smart-phone-01
 featured_image: /images/guide-pages/vodafone.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The nearest Vodafone shop to Garsdale is in the Westmoreland Centre in Kendal, about twenty-five minutes' drive from the dale. It is the place to go if you need a new SIM, a mobile phone, mobile broadband, or help with a Vodafone account while you are staying in the area. Kendal is the nearest town with high-street phone shops, so if you have a mobile issue that can't be sorted online, this is where you head.

@@ -6,6 +6,8 @@ order: 15
 icon: hugeicons:motorbike-01
 featured_image: /images/guide-pages/dales-bike-centre.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The Dales Bike Centre is in Swaledale at Fremington, just outside Reeth, at the gateway to the Yorkshire Dales, and it is the place to go for bike hire, bike shop, cafe and accommodation all in one. The hire fleet runs to over fifty mountain and road bikes, including the latest electric-assist e-bikes - hardtail, hardcore hardtail and full suspension - which you can book online with a live availability system. You can hire for a morning, a full day, or multiple days to explore Swaledale, Wensleydale, Ribblesdale and Wharfedale.

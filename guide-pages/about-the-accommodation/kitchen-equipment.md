@@ -6,6 +6,8 @@ order: 1
 icon: hugeicons:kitchen-utensils
 featured_image: /images/guide-pages/kitchen-equipment.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: 'All devices should be fairly straightforward to use. Paper copies of the
     instruction manuals are stored in the drawer under the microwave. For web copies

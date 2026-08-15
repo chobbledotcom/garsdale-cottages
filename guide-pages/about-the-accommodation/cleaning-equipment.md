@@ -5,6 +5,8 @@ guide-category: about-the-accommodation
 order: 4
 icon: hugeicons:cleaning-bucket
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: Should you find the need to clean while you are at the property we have
     provided all the tools you should need. In the utility meter cupboard there is

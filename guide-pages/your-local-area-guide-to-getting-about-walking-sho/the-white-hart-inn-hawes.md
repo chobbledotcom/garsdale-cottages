@@ -6,6 +6,8 @@ order: 38
 icon: hugeicons:restaurant-01
 featured_image: /images/guide-pages/the-white-hart-inn-hawes.jpeg
 blocks:
+- type: guide-navigation
+- type: guide-header
 - type: markdown
   content: |-
     The White Hart is a 16th-century former coaching inn on the cobbled main street in Hawes, directly on the Pennine Way in Upper Wensleydale. It's a freehouse with a good range of local and guest cask ales, and the food is relaxed, home-cooked stuff served across three dining areas, one of which is kept dog-free. It is very dog friendly in the other two. The bar has an open fire and the kitchen turns out breakfast, lunch and evening meals.
