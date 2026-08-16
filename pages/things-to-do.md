@@ -12,9 +12,7 @@ blocks:
   - type: image-background
     image: /images/paul-and-karen/helms-knott-from-gawthrop.jpg
     image_alt: View from Gawthrop towards Helms Knott in the Yorkshire Dales
-    content: |-
-          # Things To Do
-          
+    content: "# Things To Do"
   - type: markdown
     content: |-
           ## Things To Do Near Garsdale
@@ -48,7 +46,6 @@ blocks:
           Garsdale is a haven for [wildlife](/garsdale-wildlife/) - in particular, the red squirrel. They are frequently spotted if you follow the path beside Dandra Garth into the woodland, or on the bank of the river opposite Dandra Garth, or on the banks of the river opposite the Old Cart House, or below Roger Pot. We do have occasional red squirrel visitors to the gardens and they enjoy the nuts and seeds in the feeders.
           We are fortunate to be able to see brown hares in the fields nearby throughout the year and often will see roe deer in the fields and on the hillside. Stoats and weasels can also be seen along with the very many mice and voles and occasionally badgers, foxes and hedgehogs.
           Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
-          
     figure_src: /images/wildlife/red-squirrel-2.jpeg
     figure_alt: Red squirrel
     reverse: false
@@ -57,7 +54,6 @@ blocks:
           There are a huge number of birds and many frequent visitors to our bird feeders. Nuthatches, great spotted woodpeckers, blue tits, great tits, coal tits, long-tailed tits, siskins, blackcaps, redpolls, robins, dunnocks, tree creepers and many others are all local visitors along with the jackdaws, ravens and crows. We also have a number of herons and dippers in the river and rare sightings of kingfishers if we are very lucky.
           In spring the curlews arrive from the coast to nest and can be heard calling, and we have regular visits from cuckoos in the spring and summer. Pheasants and grouse are everywhere and on a walk up to Grisedale in the spring and early summer, short-eared owls can be seen in the early evening scouring for mice and chicks.
           The hedgerows have an abundance of fruit in the summer, with raspberries and blackberries, but also sloes and hazelnuts as autumn arrives.
-          
     figure_src: /images/wildlife/robin.jpeg
     figure_alt: Robin on a branch
     reverse: true
@@ -77,6 +73,7 @@ blocks:
     content: |-
           ## Food and Drink
           There are a number of good [eating and drinking places](/eating-and-drinking-in-garsdale/) in and around Sedbergh but some that we use more often are:
+          
           *   The Cross Keys at Cautley (a no alcohol temperance inn)
           *   [The Green Dragon at Hardraw](/places/green-dragon-inn-hardraw/) - also has regular events and a music night every Wednesday
           *   The [White Hart](/places/white-hart-inn-hawes/) in Hawes
@@ -100,6 +97,7 @@ blocks:
     content: |-
           ## Exploring the Dale
           There is plenty to discover in and around Garsdale itself without driving anywhere:
+          
           *   **Otters on the River Clough** -- otters have naturally recolonised the river. You are unlikely to see one, but look for spraints (otter droppings) on rocks at the waterside.
           *   **Dark skies** -- with no street lighting, the stargazing from Garsdale is remarkable. On a clear night, the Milky Way is visible to the naked eye. Baugh Fell, visible to the north, is a particularly good backdrop. See our [Wellness Retreats](/wellness-retreats/) page for more on slow, restorative breaks in the dale.
           *   **Dry stone walls** -- Garsdale has a fine collection of walls, all visible from the road. Each has a distinctive style that identifies the waller who built it.
@@ -145,6 +143,7 @@ blocks:
   - type: markdown
     content: |-
           ## References
+          
           - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
           - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
           - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/) ([dalescountrysidemuseum.org.uk](https://www.dalescountrysidemuseum.org.uk/))
@@ -170,5 +169,4 @@ blocks:
           - [Dent village](/places/dent-village/) ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/dent/))
           - [Muker village](/places/muker-village/) ([yorkshire.com](https://www.yorkshire.com/muker))
           - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
-          
 ---

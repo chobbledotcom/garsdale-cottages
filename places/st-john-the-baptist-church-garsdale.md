@@ -31,8 +31,9 @@ last_fetched: "2026-08-16T11:27:17.148Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "st-john-the-baptist-church-garsdale", wide: true %}
           # St John the Baptist Church, Garsdale
+          
+          {% include "business-details.html", place_slug: "st-john-the-baptist-church-garsdale", wide: true %}
           
           The Anglican church of St John the Baptist sits between The Street and Garsdale Hall, roughly six miles from Sedbergh. A chapel of ease to Dent was recorded here in the mid-1500s, and the present building dates from 1861, when it was rebuilt alongside the site of the medieval original. The church is always open to visitors and features a fine stained-glass east window by the Victorian artist C.E. Kempe, dated December 1896. The church's history connects it to St Agatha's Abbey at Easby, and Garsdale gained the right to baptisms and burials in 1562. In 1799, William Wordsworth wrote to Samuel Taylor Coleridge describing a walk through Garsdale with his sister Dorothy, mentioning "we rested in a tempting inn, close by a lowly house of prayer in a charming little valley" - the inn was Garsdale Hall (then the George and Dragon coaching inn) and the house of prayer was this church. Each spring, an annual united lambing service is held here, with lambs brought into the church for the occasion.
 ---

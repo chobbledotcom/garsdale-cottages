@@ -53,8 +53,9 @@ last_fetched: "2026-08-16T11:15:39.598Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "brewery-arts-centre-kendal", wide: true %}
           # Brewery Arts Centre, Kendal
+          
+          {% include "business-details.html", place_slug: "brewery-arts-centre-kendal", wide: true %}
           
           The Brewery Arts Centre in Kendal is a converted Victorian brewery housing a cinema, theatre, comedy venue and cafe. It programmes music, theatre, comedy and children's daytime events through the year, and is the closest arts venue of its size to Garsdale. Kendal itself is the nearest big town to Garsdale, with large supermarkets, a weekly market on Wednesdays and Saturdays, and the famous Kendal Mint Cake - first made in 1869 by Joseph Wiper and carried on the 1953 Everest expedition. A good rainy-day option, particularly with children, and a reasonable half-day trip from the dale.
 ---

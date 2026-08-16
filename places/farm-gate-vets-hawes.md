@@ -46,8 +46,9 @@ last_fetched: "2026-08-16T13:38:51.629Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "farm-gate-vets-hawes", wide: true %}
           # Farm Gate Vets, Hawes
+          
+          {% include "business-details.html", place_slug: "farm-gate-vets-hawes", wide: true %}
           
           Farm Gate Vets is a veterinary practice based in Hawes in Wensleydale, around nine miles east of Garsdale. It is the natural vet for guests staying in the eastern half of Garsdale or travelling in from the Hawes direction, with Bainbridge Vets at Askrigg the alternative on the Wensleydale side. Useful to have noted before travelling if you are bringing a dog, as Garsdale itself has no vet or surgery and the dale's remoteness means any visit is a short drive. The local farm-to-vet links across upper Wensleydale are strong, since this is working hill farming country; speak to your cottage owner if you are unsure which practice to use - they will know current arrangements.
 ---

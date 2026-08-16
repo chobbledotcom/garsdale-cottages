@@ -46,8 +46,9 @@ last_fetched: "2026-08-16T11:21:23.508Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "half-and-half-sedbergh", wide: true %}
           # The Half and Half, Sedbergh
+          
+          {% include "business-details.html", place_slug: "half-and-half-sedbergh", wide: true %}
           
           The Half and Half is a bar in Sedbergh, the nearest town to Garsdale, around six miles west down the A684. It runs a monthly acoustic night, open to musicians, singers and poets to attend and take part, along with a variety of other events and music nights across the year. The Half and Half is one of the dog-friendly pub options in Sedbergh, so it works well if you are bringing your dog, while the Dalesman in the same town is not dog-friendly and is best avoided in that case. Combine a visit with Sedbergh's Wednesday market, the artisan markets through the summer months, Farfield Mill on the road out towards Garsdale, and the bookshops, craft and gift shops on the high street.
 ---

@@ -32,8 +32,9 @@ last_fetched: "2026-08-16T11:14:36.946Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "black-bull-inn-sedbergh", wide: true %}
           # The Black Bull Inn, Sedbergh
+          
+          {% include "business-details.html", place_slug: "black-bull-inn-sedbergh", wide: true %}
           
           The Black Bull is a pub in Sedbergh, the nearest town to Garsdale, roughly six miles west down the A684. It is one of several dog-friendly pubs and restaurants in the town and a convenient option for an evening meal without driving too far from the cottage. Sedbergh itself has a small weekly market on Wednesday mornings and artisan markets through the summer months, so a trip to the Black Bull can be combined with a browse of the bookshops, craft shops and the other eating places on the high street. The Half and Half, also in Sedbergh, is the other local option and runs a monthly acoustic night.
 ---

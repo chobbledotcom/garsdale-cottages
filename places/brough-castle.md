@@ -49,8 +49,9 @@ last_fetched: "2026-08-16T11:16:14.808Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "brough-castle", wide: true %}
           # Brough Castle
+          
+          {% include "business-details.html", place_slug: "brough-castle", wide: true %}
           
           Brough Castle is an English Heritage site on the eastern edge of the Eden valley, in the village of Church Brough a short distance off the A66. It is a Norman castle built on the site of a Roman fort, partially rebuilt in the twelfth century after a Scottish raid, and again in the seventeenth century by Lady Anne Clifford, whose restorations also left their mark on nearby Pendragon Castle and Brougham Castle. The keep and curtain walls still stand, set above the Swindale Beck with views out across the Eden valley. Brough Castle is within easy driving distance of Garsdale, and some English Heritage sites are free to enter - check opening arrangements before travelling.
 ---

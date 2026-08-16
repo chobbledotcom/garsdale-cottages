@@ -47,8 +47,9 @@ last_fetched: "2026-08-16T11:21:39.852Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "hardraw-force", wide: true %}
           # Hardraw Force
+          
+          {% include "business-details.html", place_slug: "hardraw-force", wide: true %}
           
           Hardraw Force is in Hardraw, near to Hawes, and is one of the tallest single-drop waterfalls in England. The walk to the falls starts behind the Green Dragon Inn, which is well worth a visit in its own right for food and its regular Wednesday music night. There is a small entrance fee to enter the waterfall walk, but it is lovely, particularly if there has been rain. The walk is fairly flat and well laid out, with pathways, some seating and lovely views as well as the waterfall itself. Film fans may recognise it as the setting for the famous waterfall scene in *Robin Hood: Prince of Thieves*. Most waterfalls nearby are free to visit, but Hardraw's modest fee preserves the path and the unbroken view, which is the better deal of the two.
 ---

@@ -13,13 +13,12 @@ blocks:
     parallax: true
     image: /images/places-of-interest/snowy-howgill-fells.jpeg
     image_alt: Snow-capped fells above Garsdale in the Yorkshire Dales
-    content: |-
-          # Local Walks
-          
+    content: "# Local Walks"
   - type: markdown
     content: |-
           ## Walking from Garsdale
           From gentle strolls to challenging fell walks
+          
           ### Walks We'd Recommend
           A pleasant walk is to travel over to [Hardraw Force](/places/hardraw-force/) in Hardraw. The walk begins behind the [Green Dragon](/places/green-dragon-inn-hardraw/) and there is a small charge to enter the waterfall walk.
           Travelling towards Hawes there is a parking area for a short walk to [Cotter Force](/places/cotter-force/), which has a good flat pathway beside the river leading to the waterfalls.
@@ -29,14 +28,12 @@ blocks:
           The **Rise Hill Ridge** walk follows the Coal Road up from Garsdale village towards Langstone Fell, with outstanding views in every direction. On a clear day you can see the Howgill Fells, Baugh Fell and across into Dentdale.
           **Cotterdale Force** is a waterfall in the quiet valley of Cotterdale, between Garsdale Head and Hawes. It was sketched by the painter J.M.W. Turner and is a lovely, uncrowded walk.
           A traditional annual walk into [Grisedale](/grisedale/) is organised from [Mount Zion Chapel](/places/mount-zion-chapel-garsdale-head/), usually in July or August, followed by tea back at the chapel. During summer months, evening walks are also organised from the [Village Hall](/garsdale-village-hall-and-community/), sometimes followed by a ploughman's supper or barbecue.
-          
   - type: split-image
     content: |-
           ## From the Doorstep
           There are a number of marked footpaths in Garsdale so guests can take a walk directly from any of the properties without needing their car.
           For the adventurous, there is a pathway across the moors to Dent. This would start following the pathway by Dandra Garth.
           There are also walks around nearby Grisedale and behind the old Moorcock pub there is a pathway leading to the Pennine Bridleway with walks in the direction of Kirkby Stephen and the opposite direction towards [Cotter Force](/places/cotter-force/).
-          
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell
     reverse: false
@@ -44,9 +41,7 @@ blocks:
     video_url: https://player.mediadelivery.net/embed/639870/c350ed74-85e5-41ea-a5c7-8757a1c5a266?autoplay=true&loop=true&muted=true&preload=true&responsive=true
     thumbnail_url: /images/places-of-interest/sheep-with-sheepdog.jpeg
     video_title: Swaledale sheep running across a Garsdale fell
-    content: |-
-          ## Sharing the Fells
-          
+    content: "## Sharing the Fells"
   - type: features
     items:
           - icon: hugeicons:route-01
@@ -84,17 +79,16 @@ blocks:
     content: |-
           ## Guided Walks
           Garsdale does not have an organisation that does guided walks but please talk to the cottage owners for information on the routes of those local walks that suit your needs.
-          
   - type: markdown
     content: |-
           ## Useful Links
+          
           - Walking in the Yorkshire Dales - Moorcock area ([walkingintheyorkshiredales.co.uk](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm))
           - The Dales Way ([dalesway.org](https://www.dalesway.org/route.html))
           - Grisedale and Garsdale walks ([benthamfootpathgroup.co.uk](https://benthamfootpathgroup.co.uk/grisedale-and-garsdale/))
           - Hawes-Garsdale bridleway ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/progress-on-hawes-garsdale-bridleway/))
           - [Garsdale Station](/places/garsdale-station/) to The High Way ([nydwalks.co.uk](https://www.nydwalks.co.uk/post/garsdale-station-to-the-high-way-hellgill))
           - Semer Water walk ([where2walk.co.uk](https://where2walk.co.uk/walk/hidden-semer-water-walk/))
-          
   - type: cta
     button:
           text: View Our Cottages
@@ -105,6 +99,7 @@ blocks:
   - type: markdown
     content: |-
           ## References
+          
           - Walking in the Yorkshire Dales - Moorcock area ([walkingintheyorkshiredales.co.uk](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm))
           - The Dales Way ([dalesway.org](https://www.dalesway.org/route.html))
           - Grisedale and Garsdale walks ([benthamfootpathgroup.co.uk](https://benthamfootpathgroup.co.uk/grisedale-and-garsdale/))
@@ -115,5 +110,4 @@ blocks:
           - Pennine Way — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Way))
           - Dales Way — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dales_Way))
           - Pennine Bridleway — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Bridleway))
-          
 ---

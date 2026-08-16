@@ -24,8 +24,9 @@ last_fetched: "2026-08-16T11:23:55.965Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "muker-village", wide: true %}
           # Muker Village
+          
+          {% include "business-details.html", place_slug: "muker-village", wide: true %}
           
           Muker is a small village in upper Swaledale, beside the River Swale, reached from Garsdale over the Buttertubs Pass from Hawes to Thwaite. The pass itself is a very high, wild road with fantastic views of the hills and valleys. From Thwaite the road continues into Muker, which is a stone-built village with craft shops, a couple of lovely cafes for lunch, and some beautiful walks from the village up the dale and onto the surrounding fells. The village is famous for its hay meadows - protected and managed in the traditional way, they are spectacular in summer - and nearby Keld sits at the meeting of Swaledale and Arkengarthdale. Muker and Keld are also on the Pennine Way, which passes through Wensleydale, and a visit combines well with a day exploring upper Swaledale.
 ---

@@ -24,8 +24,9 @@ last_fetched: "2026-08-16T11:22:36.697Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "ingleton-waterfalls-trail", wide: true %}
           # Ingleton Waterfalls Trail
+          
+          {% include "business-details.html", place_slug: "ingleton-waterfalls-trail", wide: true %}
           
           The Ingleton Waterfalls Trail is a four-and-a-half-mile circular walk near Ingleton, taking in a series of waterfalls along the Rivers Twiss and Doe. The full route takes between two and a half hours and four hours to complete at a steady pace, and requires sturdy footwear - the path includes steps and uneven sections, with sections of steep ground and a number of intermediate climbs between falls. It is suited to older children with walking experience rather than young families, but the variety of falls along the way - Pecca, Thornton Force, Beezley Falls and others - makes it one of the better waterfall walks in the Dales. Close by the trail sits White Scar Cave, the longest show cave in Britain, which is a useful alternative on a wet day.
 ---

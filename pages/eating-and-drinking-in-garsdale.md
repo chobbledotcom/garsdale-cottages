@@ -10,13 +10,9 @@ blocks:
     parallax: true
     image: /images/paul-and-karen/artisan-market.jpg
     image_alt: Artisan market stalls on a Sedbergh street near Garsdale
-    content: |-
-          # Eating and Drinking
-          
+    content: "# Eating and Drinking"
   - type: markdown
-    content: |-
-          There is no pub in Garsdale itself, though there used to be. Garsdale Hall, near the centre of the dale close to St John's Church, was formerly a coaching inn called the George and Dragon, recorded as such in the 1851 census. At the top of the dale, Junction Cottage at Garsdale Head was once the Junction Inn. Both are now in private use. The dale's remoteness from pubs is part of its character, but there are good options within a short drive.
-          
+    content: There is no pub in Garsdale itself, though there used to be. Garsdale Hall, near the centre of the dale close to St John's Church, was formerly a coaching inn called the George and Dragon, recorded as such in the 1851 census. At the top of the dale, Junction Cottage at Garsdale Head was once the Junction Inn. Both are now in private use. The dale's remoteness from pubs is part of its character, but there are good options within a short drive.
   - type: split-image
     content: |-
           ## [The Moorcock Inn](/places/moorcock-inn/)
@@ -49,12 +45,10 @@ blocks:
     content: |-
           ## More Nearby Pubs and Restaurants
           **Sedbergh** and **Hawes** both offer a wider range of pubs, restaurants and cafes. See our [Things To Do](/things-to-do/) page for more recommendations.
-          
   - type: split-image
     content: |-
           ## [Wensleydale Creamery at Hawes](/places/wensleydale-creamery-hawes/)
           The creamery at Hawes makes a cheese variety called "Garsdale" flavoured with garlic and chives, using milk that once came from Garsdale, Dent and Cautley farms. The creamery shop and cheese experience are well worth a visit.
-          
     figure_src: /images/eating-and-drinking/wensleydale-creamery.jpg
     figure_alt: Wensleydale Creamery Visitor Centre sign at Hawes
     reverse: false
@@ -63,7 +57,6 @@ blocks:
           ## Local Food
           Wild garlic grows in the dale and is locally known as "ramps." In spring, it can be found along the riverbanks and in the woodland, and the smell is unmistakable.
           In autumn, the harvest festivals at each of the dale's chapels often include a supper and sale of produce, which is a lovely community occasion if your visit coincides.
-          
   - type: markdown
     content: |-
           ## Cumbrian Food Traditions
@@ -73,7 +66,6 @@ blocks:
           **Damsons** are grown in the Lyth Valley south of Kendal. The orchards are a mass of white blossom in April and the fruit ripens in September, when it appears in local shops and roadside stalls. Damson gin, made from the fruit blended with London gin, is a popular local tipple.
           **Cumberland Rum Butter** is a traditional recipe of lightly spiced butter with dark rum, usually served with Christmas pudding and mince pies. Historically it was also given with oatcakes to visitors who called to see a new baby.
           Beyond Wensleydale, the region produces a range of cheeses including Kendal Crumbly, a tangy crumbly cheese good with a ploughman's lunch, Eden Valley Organic Brie made with Cumbrian organic milk, and Cumberland Farmhouse, a strong hard cheese that pairs well with a glass of wine.
-          
   - type: cta
     button:
           text: View Our Cottages
@@ -84,6 +76,7 @@ blocks:
   - type: markdown
     content: |-
           ## References
+          
           - [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) ([wensleydale.co.uk](https://www.wensleydale.co.uk/))
           - [Hardraw Force](/places/hardraw-force/) — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hardraw_Force))
           - [Cross Keys Temperance Inn](/places/cross-keys-temperance-inn-cautley/), Cautley ([cautleyspout.co.uk](https://www.cautleyspout.co.uk/))
@@ -92,5 +85,4 @@ blocks:
           - Cumberland Sausage PGI — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cumberland_sausage))
           - Kendal Mint Cake — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Kendal_Mint_Cake))
           - Lyth Valley Damsons ([lythdamsons.org.uk](https://www.lythdamsons.org.uk/))
-          
 ---

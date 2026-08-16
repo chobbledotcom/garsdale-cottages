@@ -46,8 +46,9 @@ last_fetched: "2026-08-16T11:16:31.891Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "cautley-spout", wide: true %}
           # Cautley Spout
+          
+          {% include "business-details.html", place_slug: "cautley-spout", wide: true %}
           
           Cautley Spout is a spectacular cascade down the eastern flank of the Howgill Fells, somewhere around 650 feet tall when the various drops are counted together, which makes it one of the longest waterfalls in England. It sits above the Cross Keys Temperance Inn at Cautley, where the walk starts by the bridge over the river. The lower section can be seen without much climbing, but a steeper path continues up onto the Howgills for those who want more. It is a longer walk than Cotter Force or Hardraw, with some inclines, and weather here can turn mid-walk. Be prepared. The setting at the foot of the falls is one of the most dramatic in the district and suits a slow wellness day - a long walk in, cold air off the water, and a pot of tea at the Cross Keys afterwards.
 ---

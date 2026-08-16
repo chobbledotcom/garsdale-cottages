@@ -12,9 +12,7 @@ blocks:
   - type: image-background
     image: /images/scenery/rose-cottage-and-the-cart-house.jpeg
     image_alt: Rose Cottage and The Old Cart House in Garsdale
-    content: |-
-          # Getting Here
-          
+    content: "# Getting Here"
   - type: markdown
     content: |-
           ## Getting to Garsdale
@@ -32,7 +30,6 @@ blocks:
     content: |-
           ## From the A1
           Take the Leeming interchange to the A684 to Bedale following for Leyburn, Aysgarth, Hawes to Garsdale. You will see a sign welcoming you to Garsdale, approximately half a mile on the left side. Opposite the river is The Old Cart House. Roger Pot is a little further, after the village hall and just after the bridge on the right side is the entrance to the lane leading to Roger Pot.
-          
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell at moonrise
     reverse: true
@@ -63,8 +60,8 @@ blocks:
   - type: markdown
     content: |-
           ## References
+          
           - Settle-Carlisle Railway timetables and information ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
           - Settle–Carlisle line — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
           - [Garsdale station](/places/garsdale-station/) — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale_railway_station))
-          
 ---

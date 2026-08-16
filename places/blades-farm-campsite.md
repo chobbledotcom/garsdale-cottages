@@ -29,8 +29,9 @@ last_fetched: "2026-08-16T11:14:58.401Z"
 blocks:
   - type: markdown
     content: |-
-          {% include "business-details.html", place_slug: "blades-farm-campsite", wide: true %}
           # Blades Farm Campsite
+          
+          {% include "business-details.html", place_slug: "blades-farm-campsite", wide: true %}
           
           Blades Farm is a small certified campsite on the A684 on the western approach into Garsdale from Sedbergh - passed on the left as you travel towards the dale itself, just before the Garsdale village sign and the bridge. It is on a working farm and offers basic certified camping rather than full facilities. Its main use for cottage guests is as a landmark on the final approach to Roger Pot and The Old Cart House; once you have passed Blades Farm on the left, the lane to Roger Pot is by the main road bridge and The Old Cart House is a little further on to the right.
 ---
