@@ -34,23 +34,22 @@ blocks:
     content: "# The Black Bull Inn, Sedbergh"
   - type: split-html
     reverse: true
-    content: The Black Bull is a pub in Sedbergh, the nearest town to Garsdale, roughly six miles west down the A684. It is one of several dog-friendly pubs and restaurants in the town and a convenient option for an evening meal without driving too far from the cottage. Sedbergh itself has a small weekly market on Wednesday mornings and artisan markets through the summer months, so a trip to the Black Bull can be combined with a browse of the bookshops, craft shops and the other eating places on the high street. The Half and Half, also in Sedbergh, is the other local option and runs a monthly acoustic night.
+    content: The Black Bull is a pub in Sedbergh, the nearest town to Garsdale, roughly six miles west down the A684. It is one of several [dog-friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) pubs and restaurants in the town and a convenient option for an evening meal without driving too far from the cottage. Sedbergh itself has a small weekly market on Wednesday mornings and artisan markets through the summer months, so a trip to the Black Bull can be combined with a browse of the bookshops, craft shops and the other eating places on the high street. The Half and Half, also in Sedbergh, is the other local option and runs a monthly acoustic night.
     figure_html: "{% include \"business-details.html\", place_slug: \"black-bull-inn-sedbergh\" %}"
   - type: items
     collection: properties
     intro_content: |-
           ## Stay Near Black Bull Inn
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Black Bull Inn.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Black Bull Inn.
   - type: markdown
     content: |-
           ## See Also
           
-          - [The Dalesman Country Inn, Sedbergh](/places/dalesman-country-inn-sedbergh/)
-          - [Aysgill Force](/places/aysgill-force/)
-          - [Bainbridge Vets, Askrigg](/places/bainbridge-vets-askrigg/)
-          - [Farm Gate Vets, Hawes](/places/farm-gate-vets-hawes/)
-          - [Dog Friendly Stays](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/)
-          - [Things To Do](/things-to-do/)
-          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - The Half and Half, Sedbergh
+          - The Dalesman Country Inn, Sedbergh
+          - Farfield Mill, Sedbergh
+          - Eating and Drinking
+          - Things To Do
+is_business: true
 ---

@@ -62,16 +62,16 @@ blocks:
     intro_content: |-
           ## Stay Near Wensleydale Creamery
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Wensleydale Creamery.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Wensleydale Creamery.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Dandrymire Viaduct](/places/dandrymire-viaduct/)
-          - [Cautley Spout](/places/cautley-spout/)
-          - [The Cross Keys Temperance Inn, Cautley](/places/cross-keys-temperance-inn-cautley/)
-          - [Dent Station](/places/dent-station/)
-          - [The Green Dragon Inn, Hardraw](/places/green-dragon-inn-hardraw/)
-          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
-          - [Things To Do](/things-to-do/)
+          - Dales Countryside Museum, Hawes
+          - W.R. Outhwaite & Son, Hawes
+          - The White Hart, Hawes
+          - Bolton Castle
+          - Aysgarth Falls
+          - Things To Do
+is_business: true
 ---

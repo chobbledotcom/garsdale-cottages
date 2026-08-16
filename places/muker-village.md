@@ -33,17 +33,14 @@ blocks:
     intro_content: |-
           ## Stay Near Muker village
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Muker village.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Muker village.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Dent Village](/places/dent-village/)
-          - [Devil's Bridge, Kirkby Lonsdale](/places/devils-bridge-kirkby-lonsdale/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Doi Intanon, Ambleside](/places/doi-intanon-ambleside/)
+          - Askrigg village
+          - Semerwater
+          - Walks
+          - Things To Do
+is_business: false
 ---

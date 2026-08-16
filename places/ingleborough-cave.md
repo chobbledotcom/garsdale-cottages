@@ -59,16 +59,16 @@ blocks:
     intro_content: |-
           ## Stay Near Ingleborough Cave
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Ingleborough Cave.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Ingleborough Cave.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Cotter Force](/places/cotter-force/)
-          - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/)
-          - [Dovecote Cave](/places/dovecote-cave/)
-          - [Tom Croft Cave](/places/tom-croft-cave/)
-          - [Caves and Geology](/caves-and-geological-features/)
-          - [Things To Do](/things-to-do/)
-          - [Walks](/walks/)
+          - White Scar Cave
+          - Ingleton Waterfalls Trail
+          - Tom Croft Cave
+          - Dovecote Cave
+          - Caves and Geology
+          - Things To Do
+is_business: false
 ---

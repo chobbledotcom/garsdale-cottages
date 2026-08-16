@@ -33,15 +33,15 @@ blocks:
     intro_content: |-
           ## Stay Near Askrigg village
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Askrigg village.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Askrigg village.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Semerwater](/places/semerwater/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Things To Do](/things-to-do/)
+          - Semerwater
+          - Muker village
+          - Aysgarth Falls
+          - Bainbridge Vets, Askrigg
+          - Things To Do
+is_business: false
 ---

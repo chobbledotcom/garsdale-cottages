@@ -62,17 +62,14 @@ blocks:
     intro_content: |-
           ## Stay Near Brewery Arts Centre
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Brewery Arts Centre.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Brewery Arts Centre.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Dent Village](/places/dent-village/)
-          - [Devil's Bridge, Kirkby Lonsdale](/places/devils-bridge-kirkby-lonsdale/)
-          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Doi Intanon, Ambleside](/places/doi-intanon-ambleside/)
+          - Kendal Castle
+          - Levens Hall
+          - Oxenholme Station
+          - Things To Do
+is_business: true
 ---

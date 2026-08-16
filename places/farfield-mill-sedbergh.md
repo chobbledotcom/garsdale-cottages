@@ -56,16 +56,15 @@ blocks:
     intro_content: |-
           ## Stay Near Farfield Mill
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Farfield Mill.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Farfield Mill.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Semerwater](/places/semerwater/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Things To Do](/things-to-do/)
+          - The Half and Half, Sedbergh
+          - The Black Bull Inn, Sedbergh
+          - Powells, Sedbergh
+          - Spar, Sedbergh
+          - Things To Do
+is_business: true
 ---

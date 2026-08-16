@@ -40,17 +40,12 @@ blocks:
     intro_content: |-
           ## Stay Near Ruskins View
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Ruskins View.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Ruskins View.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
-          - [Semerwater](/places/semerwater/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Things To Do](/things-to-do/)
+          - Devils Bridge, Kirkby Lonsdale
+          - Things To Do
+is_business: false
 ---

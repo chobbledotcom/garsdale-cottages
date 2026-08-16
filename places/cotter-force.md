@@ -56,16 +56,16 @@ blocks:
     intro_content: |-
           ## Stay Near Cotter Force
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Cotter Force.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Cotter Force.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/)
-          - [Dovecote Cave](/places/dovecote-cave/)
-          - [Ingleborough Cave](/places/ingleborough-cave/)
-          - [Tom Croft Cave](/places/tom-croft-cave/)
-          - [Caves and Geology](/caves-and-geological-features/)
-          - [Things To Do](/things-to-do/)
-          - [Walks](/walks/)
+          - Hardraw Force
+          - Cautley Spout
+          - Aysgarth Falls
+          - Aysgill Force
+          - Walks
+          - Caves and Geology
+is_business: false
 ---

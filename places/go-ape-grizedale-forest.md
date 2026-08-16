@@ -56,14 +56,14 @@ blocks:
     intro_content: |-
           ## Stay Near Go Ape
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Go Ape.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Go Ape.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Things To Do](/things-to-do/)
+          - Honister Slate Mine
+          - Zeffirellis, Ambleside
+          - Doi Intanon, Ambleside
+          - Things To Do
+is_business: true
 ---

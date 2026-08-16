@@ -48,23 +48,23 @@ blocks:
     content: "# The Half and Half, Sedbergh"
   - type: split-html
     reverse: true
-    content: The Half and Half is a bar in Sedbergh, the nearest town to Garsdale, around six miles west down the A684. It runs a monthly acoustic night, open to musicians, singers and poets to attend and take part, along with a variety of other events and music nights across the year. The Half and Half is one of the dog-friendly pub options in Sedbergh, so it works well if you are bringing your dog, while the Dalesman in the same town is not dog-friendly and is best avoided in that case. Combine a visit with Sedbergh's Wednesday market, the artisan markets through the summer months, Farfield Mill on the road out towards Garsdale, and the bookshops, craft and gift shops on the high street.
+    content: The Half and Half is a bar in Sedbergh, the nearest town to Garsdale, around six miles west down the A684. It runs a monthly acoustic night, open to musicians, singers and poets to attend and take part, along with a variety of other events and music nights across the year. The Half and Half is one of the [dog-friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) pub options in Sedbergh, so it works well if you are bringing your dog, while the Dalesman in the same town is not dog-friendly and is best avoided in that case. Combine a visit with Sedbergh's Wednesday market, the artisan markets through the summer months, Farfield Mill on the road out towards Garsdale, and the bookshops, craft and gift shops on the high street.
     figure_html: "{% include \"business-details.html\", place_slug: \"half-and-half-sedbergh\" %}"
   - type: items
     collection: properties
     intro_content: |-
           ## Stay Near Half and Half
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Half and Half.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Half and Half.
   - type: markdown
     content: |-
           ## See Also
           
-          - [The White Hart Inn, Hawes](/places/white-hart-inn-hawes/)
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Things To Do](/things-to-do/)
-          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - The Black Bull Inn, Sedbergh
+          - The Dalesman Country Inn, Sedbergh
+          - Powells, Sedbergh
+          - Spar, Sedbergh
+          - Farfield Mill, Sedbergh
+          - Things To Do
+is_business: true
 ---

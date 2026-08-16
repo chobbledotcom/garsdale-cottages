@@ -53,17 +53,15 @@ blocks:
   - type: items
     collection: properties
     intro_content: |-
-          ## Holiday Cottages in Garsdale
+          ## [Holiday Cottages](/properties/) in Garsdale
           
-          Our three self-catering cottages in Garsdale are a short drive from Bainbridge Vets. Book direct for the best rates.
+          Our three [self-catering cottages](/properties/) in Garsdale are a short drive from Bainbridge Vets. Book direct for the best rates.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Aysgill Force](/places/aysgill-force/)
-          - [The Black Bull Inn, Sedbergh](/places/black-bull-inn-sedbergh/)
-          - [The Dalesman Country Inn, Sedbergh](/places/dalesman-country-inn-sedbergh/)
-          - [Farm Gate Vets, Hawes](/places/farm-gate-vets-hawes/)
-          - [Dog Friendly Stays](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/)
-          - [Things To Do](/things-to-do/)
+          - Farm Gate Vets, Hawes
+          - Askrigg village
+          - [Dog Friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) Stays
+is_business: true
 ---

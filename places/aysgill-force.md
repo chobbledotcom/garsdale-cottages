@@ -18,16 +18,15 @@ blocks:
     intro_content: |-
           ## Stay Near Aysgill Force
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Aysgill Force.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Aysgill Force.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Bainbridge Vets, Askrigg](/places/bainbridge-vets-askrigg/)
-          - [The Black Bull Inn, Sedbergh](/places/black-bull-inn-sedbergh/)
-          - [The Dalesman Country Inn, Sedbergh](/places/dalesman-country-inn-sedbergh/)
-          - [Farm Gate Vets, Hawes](/places/farm-gate-vets-hawes/)
-          - [Dog Friendly Stays](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/)
-          - [Things To Do](/things-to-do/)
-          - [Walks](/walks/)
+          - Hardraw Force
+          - Cotter Force
+          - Aysgarth Falls
+          - Walks
+          - Things To Do
+is_business: false
 ---

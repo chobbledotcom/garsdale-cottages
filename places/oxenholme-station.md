@@ -33,19 +33,22 @@ blocks:
     content: "# Oxenholme Station"
   - type: split-html
     reverse: true
-    content: Oxenholme station is on the West Coast Main Line near Kendal, and is the closest main line rail interchange to Garsdale. From Oxenholme, passengers can connect to the Settle-Carlisle railway at Carlisle or change at Kendal onto the branch line to Windermere. Taxis are regularly available at the station, which makes Oxenholme a useful alternative to Garsdale Station for guests travelling from London, Scotland or the south - the Settle-Carlisle service into Garsdale itself is more scenic but requires changes from the main line. The nearest town is Kendal, the closest big town to Garsdale, with large supermarkets, cafes and a Wednesday and Saturday market. From Oxenholme it is roughly a forty-minute drive up the A684 to the cottages in Garsdale.
+    content: Oxenholme station is on the West Coast Main Line near Kendal, and is the closest main line rail interchange to Garsdale. From Oxenholme, passengers can connect to the [Settle-Carlisle railway](/garsdale-train-station/) at Carlisle or change at Kendal onto the branch line to Windermere. Taxis are regularly available at the station, which makes Oxenholme a useful alternative to Garsdale Station for guests travelling from London, Scotland or the south - the Settle-Carlisle service into Garsdale itself is more scenic but requires changes from the main line. The nearest town is Kendal, the closest big town to Garsdale, with large supermarkets, cafes and a Wednesday and Saturday market. From Oxenholme it is roughly a forty-minute drive up the A684 to the cottages in Garsdale.
     figure_html: "{% include \"business-details.html\", place_slug: \"oxenholme-station\" %}"
   - type: items
     collection: properties
     intro_content: |-
           ## Stay Near Oxenholme Station
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Oxenholme Station.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Oxenholme Station.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Blades Farm Campsite](/places/blades-farm-campsite/)
-          - [Getting Here](/getting-here/)
-          - [Things To Do](/things-to-do/)
+          - Kendal Castle
+          - Brewery Arts Centre, Kendal
+          - Levens Hall
+          - Getting Here
+          - Things To Do
+is_business: false
 ---

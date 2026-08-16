@@ -33,17 +33,15 @@ blocks:
     intro_content: |-
           ## Stay Near Ingleton Waterfalls Trail
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Ingleton Waterfalls Trail.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Ingleton Waterfalls Trail.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Dent Village](/places/dent-village/)
-          - [Devil's Bridge, Kirkby Lonsdale](/places/devils-bridge-kirkby-lonsdale/)
-          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
+          - White Scar Cave
+          - Ingleborough Cave
+          - The Forbidden Corner, Middleham
+          - Caves and Geology
+          - Things To Do
+is_business: true
 ---

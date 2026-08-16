@@ -38,12 +38,13 @@ blocks:
     intro_content: |-
           ## Stay Near Blades Farm Campsite
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Blades Farm Campsite.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Blades Farm Campsite.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Oxenholme Station](/places/oxenholme-station/)
-          - [Getting Here](/getting-here/)
-          - [Things To Do](/things-to-do/)
+          - Garsdale Station
+          - Getting Here
+          - About Garsdale
+is_business: true
 ---

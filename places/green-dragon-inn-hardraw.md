@@ -45,15 +45,17 @@ blocks:
     intro_content: |-
           ## Stay Near Green Dragon
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Green Dragon.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Green Dragon.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Cautley Spout](/places/cautley-spout/)
-          - [The Cross Keys Temperance Inn, Cautley](/places/cross-keys-temperance-inn-cautley/)
-          - [Dandrymire Viaduct](/places/dandrymire-viaduct/)
-          - [Dent Station](/places/dent-station/)
-          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
-          - [Things To Do](/things-to-do/)
+          - Hardraw Force
+          - The Moorcock Inn
+          - The Cross Keys Temperance Inn at Cautley
+          - Cotter Force
+          - Aysgarth Falls
+          - Eating and Drinking
+          - Things To Do
+is_business: true
 ---

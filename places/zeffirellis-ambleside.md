@@ -41,15 +41,14 @@ blocks:
     intro_content: |-
           ## Stay Near Zeffirellis
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Zeffirellis.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Zeffirellis.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Things To Do](/things-to-do/)
-          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - Doi Intanon, Ambleside
+          - Honister Slate Mine
+          - Go Ape, Grizedale Forest
+          - Things To Do
+is_business: true
 ---

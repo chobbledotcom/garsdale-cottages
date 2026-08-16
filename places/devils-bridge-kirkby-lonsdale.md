@@ -32,17 +32,12 @@ blocks:
     intro_content: |-
           ## Stay Near Devils Bridge
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Devils Bridge.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Devils Bridge.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
-          - [Ruskin's View, Kirkby Lonsdale](/places/ruskins-view-kirkby-lonsdale/)
-          - [Semerwater](/places/semerwater/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
+          - Ruskins View, Kirkby Lonsdale
+          - Things To Do
+is_business: false
 ---

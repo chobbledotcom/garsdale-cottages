@@ -99,7 +99,7 @@ Renders nothing if the place has no cached `google` data.
         {%- endif %}
       </dl>
 
-      {%- if g.opening_hours and g.opening_hours.size > 0 %}
+      {%- if place.is_business and g.opening_hours and g.opening_hours.size > 0 %}
         <table class="business-details__hours">
           <caption>Opening hours</caption>
           <tbody>

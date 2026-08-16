@@ -36,16 +36,14 @@ blocks:
     intro_content: |-
           ## Stay Near Pendragon Castle
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Pendragon Castle.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Pendragon Castle.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Kendal Castle](/places/kendal-castle/)
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Things To Do](/things-to-do/)
+          - Brough Castle
+          - Bolton Castle
+          - Smardale Gill National Nature Reserve
+          - Things To Do
+is_business: false
 ---

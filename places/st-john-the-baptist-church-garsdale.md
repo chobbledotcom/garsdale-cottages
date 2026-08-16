@@ -40,13 +40,14 @@ blocks:
     intro_content: |-
           ## Stay Near St John the Baptist Church
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting St John the Baptist Church.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting St John the Baptist Church.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Brigflatts Meeting House](/places/brigflatts-meeting-house/)
-          - [Mount Zion Chapel, Garsdale Head](/places/mount-zion-chapel-garsdale-head/)
-          - [Churches and Chapels](/churches-and-chapels/)
-          - [Things To Do](/things-to-do/)
+          - Brigflatts Meeting House
+          - Mount Zion Chapel, Garsdale Head
+          - Churches and Chapels
+          - About Garsdale
+is_business: false
 ---

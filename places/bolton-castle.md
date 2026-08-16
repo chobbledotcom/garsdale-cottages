@@ -42,14 +42,16 @@ blocks:
     intro_content: |-
           ## Stay Near Bolton Castle
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Bolton Castle.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Bolton Castle.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Things To Do](/things-to-do/)
+          - Aysgarth Falls
+          - Wensleydale Creamery at Hawes
+          - The Forbidden Corner, Middleham
+          - Pendragon Castle
+          - Brough Castle
+          - Things To Do
+is_business: true
 ---

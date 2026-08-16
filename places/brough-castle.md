@@ -58,17 +58,14 @@ blocks:
     intro_content: |-
           ## Stay Near Brough Castle
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Brough Castle.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Brough Castle.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Kendal Castle](/places/kendal-castle/)
-          - [Pendragon Castle](/places/pendragon-castle/)
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Dent Village](/places/dent-village/)
-          - [Things To Do](/things-to-do/)
+          - Pendragon Castle
+          - Bolton Castle
+          - The White Hare Cafe, Kirkby Stephen
+          - Things To Do
+is_business: false
 ---

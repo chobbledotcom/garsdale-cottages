@@ -55,17 +55,15 @@ blocks:
     intro_content: |-
           ## Stay Near Forbidden Corner
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Forbidden Corner.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Forbidden Corner.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
-          - [Ruskin's View, Kirkby Lonsdale](/places/ruskins-view-kirkby-lonsdale/)
-          - [Semerwater](/places/semerwater/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
+          - Bolton Castle
+          - Aysgarth Falls
+          - Ingleton Waterfalls Trail
+          - White Scar Cave
+          - Things To Do
+is_business: true
 ---

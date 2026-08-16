@@ -35,16 +35,16 @@ blocks:
   - type: items
     collection: properties
     intro_content: |-
-          ## Holiday Cottages in Garsdale
+          ## [Holiday Cottages](/properties/) in Garsdale
           
-          Our three self-catering cottages in Garsdale are a short drive from W.R. Outhwaite & Son. Book direct for the best rates.
+          Our three [self-catering cottages](/properties/) in Garsdale are a short drive from W.R. Outhwaite & Son. Book direct for the best rates.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Things To Do](/things-to-do/)
+          - Wensleydale Creamery at Hawes
+          - Dales Countryside Museum, Hawes
+          - The White Hart, Hawes
+          - Things To Do
+is_business: true
 ---

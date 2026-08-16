@@ -56,15 +56,16 @@ blocks:
     intro_content: |-
           ## Stay Near Dales Countryside Museum
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Dales Countryside Museum.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Dales Countryside Museum.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Cotter Force](/places/cotter-force/)
-          - [Dovecote Cave](/places/dovecote-cave/)
-          - [Ingleborough Cave](/places/ingleborough-cave/)
-          - [Tom Croft Cave](/places/tom-croft-cave/)
-          - [Caves and Geology](/caves-and-geological-features/)
-          - [Things To Do](/things-to-do/)
+          - Wensleydale Creamery at Hawes
+          - W.R. Outhwaite & Son, Hawes
+          - The White Hart, Hawes
+          - Hardraw Force
+          - Caves and Geology
+          - Things To Do
+is_business: true
 ---

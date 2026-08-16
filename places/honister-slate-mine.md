@@ -64,17 +64,14 @@ blocks:
     intro_content: |-
           ## Stay Near Honister Slate Mine
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Honister Slate Mine.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Honister Slate Mine.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Devil's Bridge, Kirkby Lonsdale](/places/devils-bridge-kirkby-lonsdale/)
-          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
-          - [Ruskin's View, Kirkby Lonsdale](/places/ruskins-view-kirkby-lonsdale/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
+          - Zeffirellis, Ambleside
+          - Doi Intanon, Ambleside
+          - Go Ape, Grizedale Forest
+          - Things To Do
+is_business: true
 ---

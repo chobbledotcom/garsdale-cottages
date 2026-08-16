@@ -36,15 +36,14 @@ blocks:
     intro_content: |-
           ## Stay Near Kendal Castle
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Kendal Castle.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Kendal Castle.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Things To Do](/things-to-do/)
+          - Brewery Arts Centre, Kendal
+          - Levens Hall
+          - Oxenholme Station
+          - Things To Do
+is_business: false
 ---

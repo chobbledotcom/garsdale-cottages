@@ -57,15 +57,16 @@ blocks:
     intro_content: |-
           ## Stay Near Aysgarth Falls
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Aysgarth Falls.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Aysgarth Falls.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Things To Do](/things-to-do/)
-          - [Walks](/walks/)
+          - Hardraw Force
+          - Cotter Force
+          - Bolton Castle
+          - Wensleydale Creamery at Hawes
+          - Semerwater
+          - Things To Do
+is_business: false
 ---

@@ -18,13 +18,14 @@ blocks:
     intro_content: |-
           ## Stay Near Brigflatts Meeting House
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Brigflatts Meeting House.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Brigflatts Meeting House.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Mount Zion Chapel, Garsdale Head](/places/mount-zion-chapel-garsdale-head/)
-          - [St John the Baptist Church, Garsdale](/places/st-john-the-baptist-church-garsdale/)
-          - [Churches and Chapels](/churches-and-chapels/)
-          - [Things To Do](/things-to-do/)
+          - St John the Baptist Church, Garsdale
+          - Mount Zion Chapel, Garsdale Head
+          - Churches and Chapels
+          - Things To Do
+is_business: false
 ---

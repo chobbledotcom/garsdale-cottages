@@ -56,16 +56,14 @@ blocks:
     intro_content: |-
           ## Stay Near Doi Intanon
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Doi Intanon.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Doi Intanon.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Zeffirellis, Ambleside](/places/zeffirellis-ambleside/)
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Things To Do](/things-to-do/)
-          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - Zeffirellis, Ambleside
+          - Honister Slate Mine
+          - Go Ape, Grizedale Forest
+          - Things To Do
+is_business: true
 ---

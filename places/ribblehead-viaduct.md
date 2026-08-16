@@ -33,18 +33,22 @@ blocks:
     content: "# Ribblehead Viaduct"
   - type: split-html
     reverse: true
-    content: Ribblehead Viaduct is the most famous structure on the Settle-Carlisle line, carrying the railway across the head of Ribblesdale at Batty Moss. With twenty-four arches standing over a hundred feet high, it stretches for four hundred yards beneath the slopes of Ingleborough, Whernside and Pen-y-ghent - the Three Peaks - and is one of the great sights of the Yorkshire Dales. The viaduct can be reached by train from Garsdale Station, a stop or two down the line towards Leeds, and a trip on the railway across Ribblehead is well worth a visit. The surrounding landscape is open moorland and limestone pavement, with the remains of the construction workers' settlement of Batty Green still visible to the keen eye. The line carries regular services from Leeds to Carlisle along with the steam-hauled services that also cross the Dandrymire Viaduct at the head of Garsdale.
+    content: Ribblehead Viaduct is the most famous structure on the [Settle-Carlisle line](/garsdale-train-station/), carrying the railway across the head of Ribblesdale at Batty Moss. With twenty-four arches standing over a hundred feet high, it stretches for four hundred yards beneath the slopes of Ingleborough, Whernside and Pen-y-ghent - the Three Peaks - and is one of the great sights of the Yorkshire Dales. The viaduct can be reached by train from Garsdale Station, a stop or two down the line towards Leeds, and a trip on the railway across Ribblehead is well worth a visit. The surrounding landscape is open moorland and limestone pavement, with the remains of the construction workers' settlement of Batty Green still visible to the keen eye. The line carries regular services from Leeds to Carlisle along with the steam-hauled services that also cross the Dandrymire Viaduct at the head of Garsdale.
     figure_html: "{% include \"business-details.html\", place_slug: \"ribblehead-viaduct\" %}"
   - type: items
     collection: properties
     intro_content: |-
           ## Stay Near Ribblehead Viaduct
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Ribblehead Viaduct.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Ribblehead Viaduct.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Garsdale Station](/garsdale-train-station/)
-          - [Things To Do](/things-to-do/)
+          - Dandrymire Viaduct (Moorcock Viaduct)
+          - Garsdale Station
+          - Dent Station
+          - Garsdale Station
+          - About Garsdale
+is_business: false
 ---

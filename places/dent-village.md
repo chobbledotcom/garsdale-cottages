@@ -26,24 +26,22 @@ blocks:
     content: "# Dent Village"
   - type: split-html
     reverse: true
-    content: Dent is a small village in neighbouring Dentdale, the next dale north of Garsdale. The village itself has a cobbled main street and some lovely walks directly from the village, plus a good range of cafes, pubs and tea rooms. It is reached from Garsdale by driving over what is locally called the Coal Road - a scenic high route that passes Garsdale Station and Dent Station on the Settle-Carlisle line. Adam Sedgwick, born here in 1785, was the son of the village vicar and went on to become one of the founders of modern geology; a memorial fountain carved from Shap granite stands in Dent's high street. Dent is also where the Sedgwick Geological Trail at Danny Bridge takes its regional context from, and the village is famous for its knitters, who in earlier centuries made stockings to supplement their farming income.
+    content: Dent is a small village in neighbouring Dentdale, the next dale north of Garsdale. The village itself has a cobbled main street and some lovely walks directly from the village, plus a good range of cafes, pubs and tea rooms. It is reached from Garsdale by driving over what is locally called the Coal Road - a scenic high route that passes Garsdale Station and Dent Station on the [Settle-Carlisle line](/garsdale-train-station/). Adam Sedgwick, born here in 1785, was the son of the village vicar and went on to become one of the founders of modern geology; a memorial fountain carved from Shap granite stands in Dent's high street. Dent is also where the Sedgwick Geological Trail at Danny Bridge takes its regional context from, and the village is famous for its knitters, who in earlier centuries made stockings to supplement their farming income.
     figure_html: "{% include \"business-details.html\", place_slug: \"dent-village\" %}"
   - type: items
     collection: properties
     intro_content: |-
           ## Stay Near Dent village
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Dent village.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Dent village.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Devil's Bridge, Kirkby Lonsdale](/places/devils-bridge-kirkby-lonsdale/)
-          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
-          - [Honister Slate Mine](/places/honister-slate-mine/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
+          - Dent Station
+          - The Sportsman's Inn at Cowgill
+          - Stone Close Tea Room, Dent
+          - Things To Do
+          - The Sedgwick Geological Trail
+is_business: false
 ---

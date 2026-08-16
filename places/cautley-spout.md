@@ -48,23 +48,23 @@ blocks:
     content: "# Cautley Spout"
   - type: split-html
     reverse: true
-    content: Cautley Spout is a spectacular cascade down the eastern flank of the Howgill Fells, somewhere around 650 feet tall when the various drops are counted together, which makes it one of the longest waterfalls in England. It sits above the Cross Keys Temperance Inn at Cautley, where the walk starts by the bridge over the river. The lower section can be seen without much climbing, but a steeper path continues up onto the Howgills for those who want more. It is a longer walk than Cotter Force or Hardraw, with some inclines, and weather here can turn mid-walk. Be prepared. The setting at the foot of the falls is one of the most dramatic in the district and suits a slow wellness day - a long walk in, cold air off the water, and a pot of tea at the Cross Keys afterwards.
+    content: Cautley Spout is a spectacular cascade down the eastern flank of the Howgill Fells, somewhere around 650 feet tall when the various drops are counted together, which makes it one of the longest waterfalls in England. It sits above the Cross Keys Temperance Inn at Cautley, where the walk starts by the bridge over the river. The lower section can be seen without much climbing, but a steeper path continues up onto the Howgills for those who want more. It is a longer walk than Cotter Force or Hardraw, with some inclines, and weather here can turn mid-walk. Be prepared. The setting at the foot of the falls is one of the most dramatic in the district and suits a slow [wellness](/wellness-retreats/) day - a long walk in, cold air off the water, and a pot of tea at the Cross Keys afterwards.
     figure_html: "{% include \"business-details.html\", place_slug: \"cautley-spout\" %}"
   - type: items
     collection: properties
     intro_content: |-
           ## Stay Near Cautley Spout
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Cautley Spout.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Cautley Spout.
   - type: markdown
     content: |-
           ## See Also
           
-          - [The Cross Keys Temperance Inn, Cautley](/places/cross-keys-temperance-inn-cautley/)
-          - [Dandrymire Viaduct](/places/dandrymire-viaduct/)
-          - [Dent Station](/places/dent-station/)
-          - [The Green Dragon Inn, Hardraw](/places/green-dragon-inn-hardraw/)
-          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
-          - [Things To Do](/things-to-do/)
-          - [Walks](/walks/)
+          - The Cross Keys Temperance Inn at Cautley
+          - Hardraw Force
+          - Cotter Force
+          - Walks
+          - [Wellness](/wellness-retreats/) Retreats
+          - Things To Do
+is_business: false
 ---

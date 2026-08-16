@@ -41,15 +41,14 @@ blocks:
     intro_content: |-
           ## Stay Near Stone Close Tea Room
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Stone Close Tea Room.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Stone Close Tea Room.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Askrigg](/places/askrigg-village/)
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Things To Do](/things-to-do/)
-          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - Dent village
+          - Dent Station
+          - The Sportsman's Inn at Cowgill
+          - Things To Do
+is_business: true
 ---

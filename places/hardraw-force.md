@@ -56,16 +56,17 @@ blocks:
     intro_content: |-
           ## Stay Near Hardraw Force
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Hardraw Force.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Hardraw Force.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Aysgarth Falls](/places/aysgarth-falls/)
-          - [Askrigg](/places/askrigg-village/)
-          - [Bolton Castle](/places/bolton-castle/)
-          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
-          - [Brough Castle](/places/brough-castle/)
-          - [Things To Do](/things-to-do/)
-          - [Walks](/walks/)
+          - The Green Dragon at Hardraw
+          - Cautley Spout
+          - Cotter Force
+          - Aysgarth Falls
+          - Aysgill Force
+          - Walks
+          - Things To Do
+is_business: false
 ---

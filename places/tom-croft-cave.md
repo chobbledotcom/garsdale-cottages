@@ -18,17 +18,16 @@ blocks:
     intro_content: |-
           ## Stay Near Tom Croft Cave
           
-          We have three holiday cottages in Garsdale you can use as a base for visiting Tom Croft Cave.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Tom Croft Cave.
   - type: markdown
     content: |-
           ## See Also
           
-          - [Dovecote Cave](/places/dovecote-cave/)
-          - [Ingleborough Cave](/places/ingleborough-cave/)
-          - [White Scar Cave](/places/white-scar-cave/)
-          - [Cotter Force](/places/cotter-force/)
-          - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/)
-          - [Caves and Geology](/caves-and-geological-features/)
-          - [Things To Do](/things-to-do/)
-          - [Walks](/walks/)
+          - Dovecote Cave
+          - White Scar Cave
+          - Ingleborough Cave
+          - Caves and Geology
+          - Things To Do
+          - Walks
+is_business: false
 ---
