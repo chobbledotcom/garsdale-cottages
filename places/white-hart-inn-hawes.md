@@ -35,10 +35,9 @@ google:
 last_fetched: "2026-08-16T11:29:10.576Z"
 blocks:
   - type: markdown
-    content: |-
-          # The White Hart Inn, Hawes
-          
-          {% include "business-details.html", place_slug: "white-hart-inn-hawes", wide: true %}
-          
-          The White Hart is a pub in Hawes, the small market town in upper Wensleydale roughly nine miles east of Garsdale. Hawes is well worth a visit in its own right - with cafes, pubs, restaurants, craft and art shops, antiques and clothing - and the White Hart is one of the dog-friendly pub options in town. Combine it with a visit on Tuesday morning, when the small market takes place and there are often craft fairs in the market hall, or with the Dales Countryside Museum housed in the former railway station, the Wensleydale Creamery's cheese experience and shop, or W.R. Outhwaite & Son, the traditional rope makers on the high street. The White Hart fits somewhere in a full day in Hawes that can also take in Aysgarth Falls to the east or Hardraw Force to the south, depending on the direction of return.
+    content: "# The White Hart Inn, Hawes"
+  - type: split-html
+    reverse: true
+    content: The White Hart is a pub in Hawes, the small market town in upper Wensleydale roughly nine miles east of Garsdale. Hawes is well worth a visit in its own right - with cafes, pubs, restaurants, craft and art shops, antiques and clothing - and the White Hart is one of the dog-friendly pub options in town. Combine it with a visit on Tuesday morning, when the small market takes place and there are often craft fairs in the market hall, or with the Dales Countryside Museum housed in the former railway station, the Wensleydale Creamery's cheese experience and shop, or W.R. Outhwaite & Son, the traditional rope makers on the high street. The White Hart fits somewhere in a full day in Hawes that can also take in Aysgarth Falls to the east or Hardraw Force to the south, depending on the direction of return.
+    figure_html: "{% include \"business-details.html\", place_slug: \"white-hart-inn-hawes\" %}"
 ---

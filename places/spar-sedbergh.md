@@ -45,10 +45,9 @@ google:
 last_fetched: "2026-08-16T11:26:36.038Z"
 blocks:
   - type: markdown
-    content: |-
-          # Spar, Sedbergh
-          
-          {% include "business-details.html", place_slug: "spar-sedbergh", wide: true %}
-          
-          The Spar shop in Sedbergh is the closest general grocery store to Garsdale, around six miles west of the cottages. It shares provisions duty in the town with Powells on the high street, which also has a good selection of fruit and vegetables. Sedbergh itself is the nearest town, with a small weekly market on Wednesday mornings and summer artisan markets once a month, and is a sensible place to stop for the first day or two of groceries on the way into the dale - most cottage guests are advised to bring supplies for at least the first day, given the distance from Garsdale to any shop. The town also has craft and gift shops, bookshops, a hardware shop and a charity shop, plus pubs and cafes, so a stop in Sedbergh can also cover a browse and a meal.
+    content: "# Spar, Sedbergh"
+  - type: split-html
+    reverse: true
+    content: The Spar shop in Sedbergh is the closest general grocery store to Garsdale, around six miles west of the cottages. It shares provisions duty in the town with Powells on the high street, which also has a good selection of fruit and vegetables. Sedbergh itself is the nearest town, with a small weekly market on Wednesday mornings and summer artisan markets once a month, and is a sensible place to stop for the first day or two of groceries on the way into the dale - most cottage guests are advised to bring supplies for at least the first day, given the distance from Garsdale to any shop. The town also has craft and gift shops, bookshops, a hardware shop and a charity shop, plus pubs and cafes, so a stop in Sedbergh can also cover a browse and a meal.
+    figure_html: "{% include \"business-details.html\", place_slug: \"spar-sedbergh\" %}"
 ---

@@ -46,10 +46,9 @@ google:
 last_fetched: "2026-08-16T11:19:54.238Z"
 blocks:
   - type: markdown
-    content: |-
-          # Farfield Mill, Sedbergh
-          
-          {% include "business-details.html", place_slug: "farfield-mill-sedbergh", wide: true %}
-          
-          Farfield Mill is an arts and heritage centre on the A684 between Garsdale and Sedbergh, the nearest town. It is housed in a restored Victorian woollen mill and puts on exhibitions of craft work, art and textiles, alongside a good cafe with views over the Howgill Fells. A pleasant way to spend a few hours, particularly on a rainy day. The mill has a working handloom weaving gallery and a programme of changing exhibitions, with resident makers and small shops selling their work. There is a historical connection to the local dairy story too - the old Farfield dairy near Sedbergh was once part of the supply chain that took milk from Garsdale, Dent and Cautley farms to the creamery that now makes Wensleydale cheese at Hawes.
+    content: "# Farfield Mill, Sedbergh"
+  - type: split-html
+    reverse: true
+    content: Farfield Mill is an arts and heritage centre on the A684 between Garsdale and Sedbergh, the nearest town. It is housed in a restored Victorian woollen mill and puts on exhibitions of craft work, art and textiles, alongside a good cafe with views over the Howgill Fells. A pleasant way to spend a few hours, particularly on a rainy day. The mill has a working handloom weaving gallery and a programme of changing exhibitions, with resident makers and small shops selling their work. There is a historical connection to the local dairy story too - the old Farfield dairy near Sedbergh was once part of the supply chain that took milk from Garsdale, Dent and Cautley farms to the creamery that now makes Wensleydale cheese at Hawes.
+    figure_html: "{% include \"business-details.html\", place_slug: \"farfield-mill-sedbergh\" %}"
 ---

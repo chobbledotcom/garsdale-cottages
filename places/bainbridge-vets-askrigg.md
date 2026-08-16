@@ -45,10 +45,9 @@ google:
 last_fetched: "2026-08-16T11:14:19.875Z"
 blocks:
   - type: markdown
-    content: |-
-          # Bainbridge Vets, Askrigg
-          
-          {% include "business-details.html", place_slug: "bainbridge-vets-askrigg", wide: true %}
-          
-          Bainbridge Vets is a small veterinary practice based in Askrigg in Wensleydale, around fifteen minutes' drive from Garsdale over the A684. The practice is the closer of the two main local vets for guests staying in Garsdale with a dog, particularly in the eastern half of the dale, with Farm Gate Vets in Hawes the alternative on the Hawes side. Useful to have noted before travelling, since Garsdale itself has no vet or surgery, and the dale's remoteness means a short drive is unavoidable if a pet is taken ill during a stay. Speak to your cottage owner if you are unsure which to use - they will know the current arrangements.
+    content: "# Bainbridge Vets, Askrigg"
+  - type: split-html
+    reverse: true
+    content: Bainbridge Vets is a small veterinary practice based in Askrigg in Wensleydale, around fifteen minutes' drive from Garsdale over the A684. The practice is the closer of the two main local vets for guests staying in Garsdale with a dog, particularly in the eastern half of the dale, with Farm Gate Vets in Hawes the alternative on the Hawes side. Useful to have noted before travelling, since Garsdale itself has no vet or surgery, and the dale's remoteness means a short drive is unavoidable if a pet is taken ill during a stay. Speak to your cottage owner if you are unsure which to use - they will know the current arrangements.
+    figure_html: "{% include \"business-details.html\", place_slug: \"bainbridge-vets-askrigg\" %}"
 ---

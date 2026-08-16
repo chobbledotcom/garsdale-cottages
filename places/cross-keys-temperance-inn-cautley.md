@@ -31,10 +31,9 @@ google:
 last_fetched: "2026-08-16T11:17:07.736Z"
 blocks:
   - type: markdown
-    content: |-
-          # The Cross Keys Temperance Inn, Cautley
-          
-          {% include "business-details.html", place_slug: "cross-keys-temperance-inn-cautley", wide: true %}
-          
-          The Cross Keys at Cautley is a 500-year-old National Trust-owned temperance inn at the foot of Cautley Spout, where the Howgill Fells rise above the A684 between Sedbergh and Kirkby Stephen. No alcohol is served, though guests are welcome to bring their own - glasses are provided and no corkage is charged. The food is good, home-cooked and unhurried, and the setting is beautiful, with Yarlside rising behind. The Cross Keys sits at the start of the walk to Cautley Spout, so it is a natural fit for a slow wellness or retreat day - the walk in along the river, cold air off the falls, and tea and lunch at the inn afterwards. The sort of place that suits the dale rather than interrupts it.
+    content: "# The Cross Keys Temperance Inn, Cautley"
+  - type: split-html
+    reverse: true
+    content: The Cross Keys at Cautley is a 500-year-old National Trust-owned temperance inn at the foot of Cautley Spout, where the Howgill Fells rise above the A684 between Sedbergh and Kirkby Stephen. No alcohol is served, though guests are welcome to bring their own - glasses are provided and no corkage is charged. The food is good, home-cooked and unhurried, and the setting is beautiful, with Yarlside rising behind. The Cross Keys sits at the start of the walk to Cautley Spout, so it is a natural fit for a slow wellness or retreat day - the walk in along the river, cold air off the falls, and tea and lunch at the inn afterwards. The sort of place that suits the dale rather than interrupts it.
+    figure_html: "{% include \"business-details.html\", place_slug: \"cross-keys-temperance-inn-cautley\" %}"
 ---

@@ -31,10 +31,9 @@ google:
 last_fetched: "2026-08-16T11:17:40.552Z"
 blocks:
   - type: markdown
-    content: |-
-          # The Dalesman Country Inn, Sedbergh
-          
-          {% include "business-details.html", place_slug: "dalesman-country-inn-sedbergh", wide: true %}
-          
-          The Dalesman Country Inn is a pub and restaurant in Sedbergh, the nearest town to Garsdale, around six miles west down the A684. Unlike most of the local eating places listed elsewhere on this site, the Dalesman is not dog-friendly, so plan around that one if you are bringing your dog, and use the Black Bull, the Half and Half or one of the other dog-friendly options in Sedbergh instead. For non-dog guests, the Dalesman is within easy reach of the cottages and a useful local option for an evening meal without going far from the cottage. Speak to your cottage owner for an up-to-date view on local pubs and restaurants - the picture in Sedbergh shifts.
+    content: "# The Dalesman Country Inn, Sedbergh"
+  - type: split-html
+    reverse: true
+    content: The Dalesman Country Inn is a pub and restaurant in Sedbergh, the nearest town to Garsdale, around six miles west down the A684. Unlike most of the local eating places listed elsewhere on this site, the Dalesman is not dog-friendly, so plan around that one if you are bringing your dog, and use the Black Bull, the Half and Half or one of the other dog-friendly options in Sedbergh instead. For non-dog guests, the Dalesman is within easy reach of the cottages and a useful local option for an evening meal without going far from the cottage. Speak to your cottage owner for an up-to-date view on local pubs and restaurants - the picture in Sedbergh shifts.
+    figure_html: "{% include \"business-details.html\", place_slug: \"dalesman-country-inn-sedbergh\" %}"
 ---

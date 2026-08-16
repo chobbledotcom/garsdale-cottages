@@ -23,10 +23,9 @@ google:
 last_fetched: "2026-08-16T11:18:36.866Z"
 blocks:
   - type: markdown
-    content: |-
-          # Dent Village
-          
-          {% include "business-details.html", place_slug: "dent-village", wide: true %}
-          
-          Dent is a small village in neighbouring Dentdale, the next dale north of Garsdale. The village itself has a cobbled main street and some lovely walks directly from the village, plus a good range of cafes, pubs and tea rooms. It is reached from Garsdale by driving over what is locally called the Coal Road - a scenic high route that passes Garsdale Station and Dent Station on the Settle-Carlisle line. Adam Sedgwick, born here in 1785, was the son of the village vicar and went on to become one of the founders of modern geology; a memorial fountain carved from Shap granite stands in Dent's high street. Dent is also where the Sedgwick Geological Trail at Danny Bridge takes its regional context from, and the village is famous for its knitters, who in earlier centuries made stockings to supplement their farming income.
+    content: "# Dent Village"
+  - type: split-html
+    reverse: true
+    content: Dent is a small village in neighbouring Dentdale, the next dale north of Garsdale. The village itself has a cobbled main street and some lovely walks directly from the village, plus a good range of cafes, pubs and tea rooms. It is reached from Garsdale by driving over what is locally called the Coal Road - a scenic high route that passes Garsdale Station and Dent Station on the Settle-Carlisle line. Adam Sedgwick, born here in 1785, was the son of the village vicar and went on to become one of the founders of modern geology; a memorial fountain carved from Shap granite stands in Dent's high street. Dent is also where the Sedgwick Geological Trail at Danny Bridge takes its regional context from, and the village is famous for its knitters, who in earlier centuries made stockings to supplement their farming income.
+    figure_html: "{% include \"business-details.html\", place_slug: \"dent-village\" %}"
 ---

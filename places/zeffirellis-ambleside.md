@@ -31,10 +31,9 @@ google:
 last_fetched: "2026-08-16T11:30:14.550Z"
 blocks:
   - type: markdown
-    content: |-
-          # Zeffirellis, Ambleside
-          
-          {% include "business-details.html", place_slug: "zeffirellis-ambleside", wide: true %}
-          
-          Zeffirellis is a vegetarian restaurant and independent cinema in Ambleside, in the Lake District, around forty-five minutes' drive from Garsdale. It is one of the restaurants the cottage owners use regularly when travelling over to the lakes for the day. Zeffirellis has a cinema upstairs showing mainstream and art-house films, and a downstairs restaurant in Mediterranean vegetarian style, with always good food. The pooled cinema and restaurant make it particularly useful for an evening out - see a film, eat, walk down to the lake at Waterhead. While in Ambleside the cottage owners also use Doi Intanon, the Thai restaurant in the same town. Ambleside sits at the head of Windermere and is a natural centre for a day in the Lake District, accessed via the A591 from the M6 at Kendal or Oxenholme.
+    content: "# Zeffirellis, Ambleside"
+  - type: split-html
+    reverse: true
+    content: Zeffirellis is a vegetarian restaurant and independent cinema in Ambleside, in the Lake District, around forty-five minutes' drive from Garsdale. It is one of the restaurants the cottage owners use regularly when travelling over to the lakes for the day. Zeffirellis has a cinema upstairs showing mainstream and art-house films, and a downstairs restaurant in Mediterranean vegetarian style, with always good food. The pooled cinema and restaurant make it particularly useful for an evening out - see a film, eat, walk down to the lake at Waterhead. While in Ambleside the cottage owners also use Doi Intanon, the Thai restaurant in the same town. Ambleside sits at the head of Windermere and is a natural centre for a day in the Lake District, accessed via the A591 from the M6 at Kendal or Oxenholme.
+    figure_html: "{% include \"business-details.html\", place_slug: \"zeffirellis-ambleside\" %}"
 ---

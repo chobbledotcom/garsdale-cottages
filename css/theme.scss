@@ -153,6 +153,12 @@ article#content {
     margin: 0 0 1.5rem;
   }
 
+  figure & {
+    float: none;
+    max-width: none;
+    margin: 0;
+  }
+
   &--wide {
     float: none;
     max-width: none;
