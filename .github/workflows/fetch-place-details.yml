@@ -1,0 +1,46 @@
+name: Fetch Place Details
+
+on:
+  schedule:
+    # Run every Monday at 09:13 UTC (off the hour to avoid cron congestion)
+    - cron: '13 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  fetch-place-details:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Fetch place details from Google Maps
+        env:
+          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+        run: bun run fetch-place-details
+
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain places/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add places/
+          git commit -m "Auto-update: refresh Google Maps place details"
+          git pull --rebase
+          git push

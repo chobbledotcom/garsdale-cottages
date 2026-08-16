@@ -213,6 +213,8 @@ blocks:
     which passes through [Garsdale Station](/garsdale-train-station/) along with places
     such as Appleby, Kirkby Stephen, Dent, Ribblehead viaduct and Skipton.
 
+    {% include "business-details.html", place_slug: "garsdale-station" %}
+
 
     Garsdale Station is one of the wildest stations on the line. At the railway station
     stands a statue of [Ruswarp](/ruswarp-and-the-settle-carlisle/), a collie dog,

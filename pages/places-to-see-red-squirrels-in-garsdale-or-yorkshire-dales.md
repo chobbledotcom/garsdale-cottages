@@ -56,6 +56,8 @@ blocks:
 
     Although sightings remain dependent on the squirrels themselves, the managed habitat makes Snaizeholme a useful addition to a wildlife itinerary. The trip can be combined with a visit to Hawes, the Dales Countryside Museum or the [Wensleydale Creamery Visitor Centre](/guide/your-local-area-guide-to-getting-about-walking-sho/wensleydale-creamery-visitor-centre/).
 
+    {% include "business-details.html", place_slug: "snaizeholme-red-squirrel-trail" %}
+
     ## When to Look for Red Squirrels
 
     Red squirrels are generally most active shortly after dawn and again later in the afternoon. A calm, dry day may make it easier to hear and see movement in the trees. Their coats range from bright orange-red to deep brown, while their pale undersides, bushy tails and small size help distinguish them from grey squirrels. Ear tufts are often particularly noticeable during winter.

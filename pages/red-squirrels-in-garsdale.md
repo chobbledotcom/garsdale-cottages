@@ -152,6 +152,8 @@ blocks:
     place to see reds if you want a guaranteed sighting. Snaizeholme is about a twenty-minute
     drive from Garsdale.
 
+    {% include "business-details.html", place_slug: "snaizeholme-red-squirrel-trail" %}
+
     '
 - type: markdown
   content: '## Holiday Cottages for Red Squirrel Spotting

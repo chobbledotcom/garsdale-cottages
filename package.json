@@ -14,6 +14,7 @@
 		"update-pages": "bun scripts/update-pages.js",
 		"update-scripts": "bun scripts/update-scripts.js",
 		"fetch-google-reviews": "bun scripts/fetch-google-reviews.js",
+		"fetch-place-details": "bun scripts/fetch-place-details.js",
 		"screenshot": "bun scripts/screenshot.js",
 		"clean": "rm -rf .build _site",
 		"test": "bun scripts/test.js",

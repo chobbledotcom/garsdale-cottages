@@ -22,6 +22,16 @@ blocks:
 
     Garsdale is quiet, the peace and tranquility of the place is to love. There are walks, rivers, waterfalls, hills. The nearest pubs are the Green Dragon in Hardraw and the Sportsman in Cowgill near Dent, and there are several pubs and eating places in Sedbergh and Hawes. Sedbergh, being the nearest town, also has the closest shops, a weekly market on Wednesdays, and Farfield Mill arts centre on the road between the town and Garsdale. There are a number of churches in the valley and the services rotate between the different churches. There is a village hall and some local events such as quiz night, beetle drive, bonfire night are held there with notifications on the farm doors in the village. Garsdale Station is on the Settle Carlisle route so crosses some beautiful scenery and a trip to the Ribblehead Viaduct is well worth a visit.
 
+    {% include "business-details.html", place_slug: "farfield-mill-sedbergh" %}
+
+    {% include "business-details.html", place_slug: "sportsmans-inn-cowgill" %}
+
+    {% include "business-details.html", place_slug: "green-dragon-inn-hardraw" %}
+
+    {% include "business-details.html", place_slug: "garsdale-station" %}
+
+    {% include "business-details.html", place_slug: "ribblehead-viaduct" %}
+
     ## Wildlife
 
     Garsdale is one of the last strongholds in England for the native red squirrel, and they are seen regularly along the woodland paths, by the river and occasionally from the cottage gardens. Otters have returned to the River Clough, brown hares are about in the fields year round, and roe deer show up on the hillside and along the woodland edges. Over fifty bird species have been recorded in and around the dale, from curlews and cuckoos arriving in spring to short-eared owls quartering Grisedale in the early evening, and winter brings flocks of redwings and fieldfares. Have a look at our [wildlife in Garsdale](/garsdale-wildlife/) and [red squirrels in Garsdale](/red-squirrels-in-garsdale/) pages for more on what you might see during a stay.

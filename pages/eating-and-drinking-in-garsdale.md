@@ -27,6 +27,9 @@ blocks:
   content: '## The Moorcock Inn
 
 
+    {% include "business-details.html", place_slug: "moorcock-inn" %}
+
+
     The Moorcock sits right at the head of the dale, at the junction of the A684 and
     B6259, just into Richmondshire — on the gateway to both the Yorkshire Dales and
     the Lake District. It serves food and has accommodation, making it a useful base
@@ -55,6 +58,9 @@ blocks:
   content: '## The Green Dragon at Hardraw
 
 
+    {% include "business-details.html", place_slug: "green-dragon-inn-hardraw" %}
+
+
     A popular choice about fifteen minutes towards Hawes. The Green Dragon also has
     regular events and a music night on Wednesdays. Hardraw Force, one of the tallest
     single-drop waterfalls in England, is accessed through the pub. There is a small
@@ -67,6 +73,9 @@ blocks:
   reverse: true
 - type: split-image
   content: '## The Cross Keys at Cautley
+
+
+    {% include "business-details.html", place_slug: "cross-keys-temperance-inn-cautley" %}
 
 
     A 500-year-old National Trust temperance inn (no alcohol, though guests are welcome
@@ -82,9 +91,14 @@ blocks:
   content: '## The Sportsman''s Inn at Cowgill
 
 
+    {% include "business-details.html", place_slug: "sportsmans-inn-cowgill" %}
+
+
     A family-owned 17th century Grade II listed country inn in Dentdale, accessible
     over the Coal Road past Garsdale Station. It sits on the Dales Way and is close
     to Dent station on the Settle-Carlisle Line. Tel: 015396 25282.
+
+    {% include "business-details.html", place_slug: "dent-station" %}
 
     '
   figure_src: /images/eating-and-drinking/sportsmans-inn.jpg
@@ -100,6 +114,9 @@ blocks:
     '
 - type: split-image
   content: '## Wensleydale Creamery at Hawes
+
+
+    {% include "business-details.html", place_slug: "wensleydale-creamery-hawes" %}
 
 
     The creamery at Hawes makes a cheese variety called "Garsdale" flavoured with

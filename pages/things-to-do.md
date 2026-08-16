@@ -114,6 +114,10 @@ blocks:
     shops, hardware and charity shop. The Half and Half bar has an acoustic night
     once a month and regular music and other events.
 
+    {% include "business-details.html", place_slug: "spar-sedbergh" %}
+
+    {% include "business-details.html", place_slug: "powells-sedbergh" %}
+
 
     **Hawes** is about 9 miles away and it is well worth a visit. There are many cafes,
     pubs and restaurants as well as craft and art shops, antiques and clothing. The
@@ -124,15 +128,23 @@ blocks:
     is a cafe, cheese and gift shop. W.R. Outhwaite & Son, the traditional rope makers
     on the high street, are also well worth a visit.
 
+    {% include "business-details.html", place_slug: "wr-outhwaite-and-son-hawes" %}
+
 
     **Kirkby Stephen** is an old market town with a good range of shops, cafes and
     pubs. The White Hare Cafe has an acoustic night once a month open to musicians,
     singers and poets to attend and take part.
 
+    {% include "business-details.html", place_slug: "white-hare-cafe-kirkby-stephen" %}
+
 
     **Kirkby Lonsdale** is a lovely town with some great shops, bakery, clothes shops
     and several good pubs and restaurants. It also has the famous Devils Bridge and
     Ruskins View ([kirkbylonsdale.co.uk](https://www.kirkbylonsdale.co.uk/discover/)).
+
+    {% include "business-details.html", place_slug: "devils-bridge-kirkby-lonsdale" %}
+
+    {% include "business-details.html", place_slug: "ruskins-view-kirkby-lonsdale" %}
 
 
     **Dent** is a small town in the next valley Dentdale. It has a cobbled main street
@@ -149,15 +161,26 @@ blocks:
     properties, it was carried on the 1953 Everest expedition and remains a favourite
     with walkers and climbers.
 
+    {% include "business-details.html", place_slug: "brewery-arts-centre-kendal" %}
+
+
+    {% include "business-details.html", place_slug: "askrigg-village" %}
+
 
     **Askrigg** in Wensleydale is of particular interest to James Herriot fans — the
     village served as the setting for the TV series *All Creatures Great and Small*,
     filmed here in the 1970s and 1980s.
 
 
+    {% include "business-details.html", place_slug: "farfield-mill-sedbergh" %}
+
+
     **Farfield Mill** is on the road between Garsdale and Sedbergh and is an arts
     and heritage centre with exhibitions, craft work and a good cafe. A pleasant way
     to spend a few hours, particularly on a rainy day.
+
+
+    {% include "business-details.html", place_slug: "semerwater" %}
 
 
     **Semerwater** is the closest lake to Garsdale and is one of two remaining natural
@@ -192,12 +215,17 @@ blocks:
     month
 
     *   Half and Half in Sedbergh - has a variety of events and a music night once
-    a month'
+    a month
+
+    {% include "business-details.html", place_slug: "stone-close-tea-room-dent" %}'
 - type: markdown
   content: '## Places We Go
 
 
     Some favourite places of ours to visit with friends and family
+
+
+    {% include "business-details.html", place_slug: "hardraw-force" %}
 
 
     **Hardraw Force** in Hardraw near to Hawes. The walk to the falls is behind the
@@ -208,6 +236,9 @@ blocks:
     as well as the waterfall itself.
 
 
+    {% include "business-details.html", place_slug: "cautley-spout" %}
+
+
     **Cautley Spout** is another waterfall, again behind a temperance pub called the
     Cross Keys in Cautley ([cautleyspout.co.uk](https://www.cautleyspout.co.uk/)),
     which also has good food. Cautley is a longer walk and some inclines, but it can
@@ -216,8 +247,14 @@ blocks:
     weather has changed mid walk and turned to rain or snow, so be prepared.
 
 
+    {% include "business-details.html", place_slug: "cotter-force" %}
+
+
     **Cotter Force** - another easy walk to a waterfall on the way to Hawes. There
     is a parking area nearby and the walk to the waterfall is flat and a tidy pathway.
+
+
+    {% include "business-details.html", place_slug: "dent-village" %}
 
 
     **Dent** can be visited by driving over what is locally called the Coal Road,
@@ -225,9 +262,14 @@ blocks:
     is a very quaint, pretty village, with some lovely cafes and walks.
 
 
+    {% include "business-details.html", place_slug: "zeffirellis-ambleside" %}
+
+
     **Ambleside** is about 45 minutes drive but is lovely to visit, has some great
     eating places, particularly we enjoy Zeffirellis, which has the cinema and vegetarian
     restaurant and always good food.
+
+    {% include "business-details.html", place_slug: "doi-intanon-ambleside" %}
 
 
     We also enjoy travelling over the **Buttertubs Pass** from Hawes to Thwaite, this
@@ -317,9 +359,15 @@ blocks:
     There are a number of child friendly activities within travelling distance:
 
 
+    {% include "business-details.html", place_slug: "the-forbidden-corner-middleham" %}
+
+
     The Forbidden Corner ([theforbiddencorner.co.uk](https://www.theforbiddencorner.co.uk/))
     in Middleham, Leyburn is a delightful experience for children and has been featured
     on CBBC shows.
+
+
+    {% include "business-details.html", place_slug: "white-scar-cave" %}
 
 
     Ingleton has the White Scar Cave ([whitescarcave.co.uk](https://whitescarcave.co.uk/))
@@ -337,13 +385,20 @@ blocks:
     which has many family friendly events throughout the year.
 
 
+    {% include "business-details.html", place_slug: "ingleton-waterfalls-trail" %}
+
+
     The Ingleton Waterfalls Trail ([ingletonwaterfallstrail.co.uk](https://ingletonwaterfallstrail.co.uk/))
     is a 4 and a half mile circular route and can take between two and a half hours
     to 4 hours to complete. It is suitable for older children and requires sturdy
     footwear. The more adventurous might consider a trip to Honister Slate Mine for
     a mine experience or a go at their new zip line or you might consider a Go Ape
     experience at Grisedale Forest or even challenge yourself on their woodland Orienteering
-    course.'
+    course.
+
+    {% include "business-details.html", place_slug: "honister-slate-mine" %}
+
+    {% include "business-details.html", place_slug: "go-ape-grizedale-forest" %}'
 - type: markdown
   content: '## Waterfalls, Castles and Villages
 
@@ -356,15 +411,24 @@ blocks:
     are also well worth a visit, as are Aysgarth Falls ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/aysgarth-falls/))
     in Wensleydale — a must-see for anyone new to the area.
 
+    {% include "business-details.html", place_slug: "aysgarth-falls" %}
+
 
     There are also a number of castles and National Trust properties as well as beautiful
-    historic villages. Bolton Castle ([boltoncastle.co.uk](https://boltoncastle.co.uk/))
+    historic villages. {% include "business-details.html", place_slug: "bolton-castle" %}
+    Bolton Castle ([boltoncastle.co.uk](https://boltoncastle.co.uk/))
     is an impressive sight — particularly at night when it is lit up and visible from
     miles around — and by day it is well worth a visit as the site where Mary Queen
-    of Scots was once held prisoner. Pendragon Castle ([visitcumbria.com](https://www.visitcumbria.com/evnp/pendragon-castle/))
-    in Mallerstang is said to have connections to King Arthur. Brough Castle ([english-heritage.org.uk](https://www.english-heritage.org.uk/visit/places/brough-castle/))
-    and Kendal Castle ([visit-kendal.co.uk](https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/))
+    of Scots was once held prisoner. {% include "business-details.html", place_slug: "pendragon-castle" %}
+    Pendragon Castle ([visitcumbria.com](https://www.visitcumbria.com/evnp/pendragon-castle/))
+    in Mallerstang is said to have connections to King Arthur. {% include "business-details.html", place_slug: "brough-castle" %}
+    Brough Castle ([english-heritage.org.uk](https://www.english-heritage.org.uk/visit/places/brough-castle/))
+    and {% include "business-details.html", place_slug: "kendal-castle" %}
+    Kendal Castle ([visit-kendal.co.uk](https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/))
     are all within easy driving distance and some are free to enter.
+
+
+    {% include "business-details.html", place_slug: "levens-hall" %}
 
 
     Levens Hall ([levenshall.co.uk](https://www.levenshall.co.uk/)) and other National
@@ -372,8 +436,12 @@ blocks:
     are also within reach.
 
 
+    {% include "business-details.html", place_slug: "dent-village" %}
+
+
     The villages of Dent ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/dent/))
-    and Muker ([yorkshire.com](https://www.yorkshire.com/muker)) are beautiful and
+    and {% include "business-details.html", place_slug: "muker-village" %}
+    Muker ([yorkshire.com](https://www.yorkshire.com/muker)) are beautiful and
     well worth exploring.'
 - type: cta
   button:

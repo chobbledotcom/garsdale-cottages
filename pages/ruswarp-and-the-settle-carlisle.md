@@ -76,6 +76,8 @@ blocks:
     the hills and across to a bench on the opposite platform dedicated to Graham Nuttall''s
     memory.
 
+    {% include "business-details.html", place_slug: "garsdale-station" %}
+
 
     The Friends of the Settle-Carlisle Line is now the largest rail user group in
     the country, and the line itself carries more passengers than ever. You can visit

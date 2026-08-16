@@ -34,6 +34,8 @@ blocks:
     - **[Garsdale Valley Walks:](https://www.garsdalecottages.co.uk/walks/)** Discover our curated list of local routes directly from your front door.
     - **[The Howgill Fells:](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/howgill-fells/)** Dramatic, grassy ridges offering open space and spectacular views near Sedbergh.
     - **[Waterfall Walks around Hawes:](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/hawes-aysgill-force-and-hardraw-force/)** Take a scenic walk visiting Aysgill Force and Hardraw Force.
+
+    {% include "business-details.html", place_slug: "aysgill-force" %}
     - **[Dentdale & River Walks:](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/dentdale/)** Peaceful cobbled streets and riverside paths in neighboring Dentdale.
 
     ---
@@ -44,6 +46,16 @@ blocks:
 
     ### Places to Eat & Drink
 
+    {% include "business-details.html", place_slug: "black-bull-inn-sedbergh" %}
+
+    {% include "business-details.html", place_slug: "white-hart-inn-hawes" %}
+
+    {% include "business-details.html", place_slug: "half-and-half-sedbergh" %}
+
+    {% include "business-details.html", place_slug: "green-dragon-inn-hardraw" %}
+
+    {% include "business-details.html", place_slug: "cross-keys-temperance-inn-cautley" %}
+
     - [The Black Bull Inn](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/the-black-bull-inn/) in Sedbergh
     - [The White Hart Inn](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/the-white-hart-inn-hawes/) in Hawes
     - [The Half and Half](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/the-half-and-half-sedbergh/) in Sedbergh
@@ -52,11 +64,17 @@ blocks:
 
     One nearby pub that is not dog friendly is [The Dalesman Country Inn](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/the-dalesman-country-inn/) in Sedbergh, so plan around that one if you are bringing your dog.
 
+    {% include "business-details.html", place_slug: "dalesman-country-inn-sedbergh" %}
+
     Read our full roundup on [Eating & Drinking in Garsdale](https://www.garsdalecottages.co.uk/eating-and-drinking-in-garsdale/).
 
     ### Essential Pet Services Nearby
 
     For peace of mind during your holiday, local veterinary practices are within easy reach should you ever need them:
+
+    {% include "business-details.html", place_slug: "bainbridge-vets-askrigg" %}
+
+    {% include "business-details.html", place_slug: "farm-gate-vets-hawes" %}
 
     - [Bainbridge Vets (Askrigg)](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/bainbridge-vets-askrigg/)
     - [Farm Gate Vets](https://www.garsdalecottages.co.uk/guide/your-local-area-guide-to-getting-about-walking-sho/farm-gate-vets/)

@@ -65,6 +65,8 @@ blocks:
     hand side, pass the church on the left, the letter box and there is a row of houses
     on the right side of the road, opposite the river, and The Old Cart House is there.
 
+    {% include "business-details.html", place_slug: "blades-farm-campsite" %}
+
 
     Travelling to Garsdale from the **Hawes direction**, pass under the railway viaduct
     and you will see a sign for Garsdale Parish. Drive a further 3 miles and you will
@@ -88,7 +90,11 @@ blocks:
     does run to Hawes. Normally there are no taxis in Garsdale. The nearest taxi service
     may be in Hawes but guests are advised to check in advance. If you want to use
     the Main Line, Oxenholme offers a convenient main line option with cabs regularly
-    available at the station'
+    available at the station
+
+    {% include "business-details.html", place_slug: "garsdale-station" %}
+
+    {% include "business-details.html", place_slug: "oxenholme-station" %}'
   figure_src: /images/scenery/roger-pot-and-rose-cottage.jpeg
   figure_alt: Roger Pot and Rose Cottage
   reverse: false

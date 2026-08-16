@@ -37,6 +37,9 @@ blocks:
   content: '## Cautley Spout and the Cross Keys
 
 
+    {% include "business-details.html", place_slug: "cautley-spout" %}
+
+
     A short drive from Garsdale brings you to the **Cross Keys** at Cautley — a National
     Trust-owned temperance inn serving no alcohol, only good home-cooked food and
     tea. It sits at the foot of **Cautley Spout**, a spectacular 650-foot cascade

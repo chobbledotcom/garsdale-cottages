@@ -91,6 +91,8 @@ blocks:
     with this, it is a lovely way to explore the dale in company and hear local stories
     along the way.
 
+    {% include "business-details.html", place_slug: "mount-zion-chapel-garsdale-head" %}
+
     '
 - type: cta
   button:

@@ -1,0 +1,44 @@
+---
+name: Cautley Spout
+search: Cautley Spout, Cautley, Sedbergh, UK
+category: Waterfall
+permalink: false
+eleventyExcludeFromCollections: true
+google_place_id: ChIJpxAFCPtgfEgRAPgqcs3b6ws
+google:
+  name: Cautley Spout
+  category_name: Tourist attraction
+  categories:
+      - Tourist attraction
+  address: A683, Sedbergh LA10 5NE, United Kingdom
+  phone: ""
+  phone_unformatted: ""
+  website: https://www.yorkshiredales.org.uk/places/cautley_spout/
+  location:
+      lat: 54.3722523
+      lng: -2.493006
+  plus_code: "9GC4+WQ Sedbergh, United Kingdom"
+  rating: 4.9
+  reviews_count: 306
+  opening_hours:
+      - day: Monday
+        hours: Open 24 hours
+      - day: Tuesday
+        hours: Open 24 hours
+      - day: Wednesday
+        hours: Open 24 hours
+      - day: Thursday
+        hours: Open 24 hours
+      - day: Friday
+        hours: Open 24 hours
+      - day: Saturday
+        hours: Open 24 hours
+      - day: Sunday
+        hours: Open 24 hours
+  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk8XXqrCCeTK3zFuXPKKrHrnB6S03xZRXC0usu8-fIBKHn4xbsjd80HoaXNo2HcBy_WWm_J54pSG_Mp8ngiF21ZXA6yXgIWVgChbny8FZrOunUtuZK8LKsvRyaIaWuAsUaSiLSSwApjICu5=w408-h528-k-no
+  url: https://www.google.com/maps/search/?api=1&query=Cautley%20Spout&query_place_id=ChIJpxAFCPtgfEgRAPgqcs3b6ws
+  permanently_closed: false
+  temporarily_closed: false
+  scraped_at: "2026-08-16T11:16:25.948Z"
+last_fetched: "2026-08-16T11:16:31.891Z"
+---

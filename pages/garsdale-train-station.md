@@ -22,6 +22,7 @@ blocks:
     from that direction. Originally called Hawes Junction, the station once connected
     to a branch line running six miles down to Hawes in Wensleydale.
 
+    {% include "business-details.html", place_slug: "garsdale-station" %}
     '
 - type: split-image
   content: '## The Station
@@ -53,7 +54,13 @@ blocks:
     railway across the head of the dale and is visible from Mount Zion Chapel. With
     its 12 arches it stands 50 feet high and stretches 227 yards — a spectacular feat
     of Victorian engineering. It is one of the notable features of the Settle-Carlisle
-    line, which also carries regular steam-hauled services. Mount Zion Chapel itself
+    line, which also carries regular steam-hauled services.
+
+    {% include "business-details.html", place_slug: "dandrymire-viaduct" %}
+
+    {% include "business-details.html", place_slug: "mount-zion-chapel-garsdale-head" %}
+
+    Mount Zion Chapel itself
     was built in the same year as the railway by the very contractors building the
     line, and its foundation stone was laid on the day of the first passenger train.
 
@@ -90,6 +97,8 @@ blocks:
     Retreats](/wellness-retreats/) page for more on slow travel into the dale. Visit
     Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
     for timetables and information.
+
+    {% include "business-details.html", place_slug: "ribblehead-viaduct" %}
 
     '
 - type: cta

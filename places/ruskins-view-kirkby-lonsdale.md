@@ -1,0 +1,29 @@
+---
+name: Ruskins View, Kirkby Lonsdale
+search: Ruskins View, Kirkby Lonsdale, UK
+category: Attraction
+permalink: false
+eleventyExcludeFromCollections: true
+google_place_id: ChIJY106eQCHfEgR7ufslQiRl8E
+google:
+  name: Ruskin's View
+  category_name: Scenic spot
+  categories:
+      - Scenic spot
+  address: Kirkby Lonsdale, Carnforth LA6 2BA, United Kingdom
+  phone: ""
+  phone_unformatted: ""
+  website: https://www.wilderstill.world/kirkby-lonsdale
+  location:
+      lat: 54.2046094
+      lng: -2.5973007
+  plus_code: "6C33+R3 Carnforth, United Kingdom"
+  rating: 4.7
+  reviews_count: 37
+  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlOGJ-3lrxcuFlmRzS7D9pqeCwHqQH9S9f4kkLzImYEzF81QJTwXtA4cHrezosY7HgNTAndOVw_DHf7wuFbVk2Dwzk5w9Q0h1O2EMxqepT8f4W8M2UPqoM65uQF-GoZO35E_eSB_pyRRuoN=w408-h271-k-no
+  url: https://www.google.com/maps/search/?api=1&query=Ruskin's%20View&query_place_id=ChIJY106eQCHfEgR7ufslQiRl8E
+  permanently_closed: false
+  temporarily_closed: false
+  scraped_at: "2026-08-16T11:25:17.240Z"
+last_fetched: "2026-08-16T11:25:22.973Z"
+---

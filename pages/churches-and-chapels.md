@@ -25,6 +25,9 @@ blocks:
   content: '## St John the Baptist
 
 
+    {% include "business-details.html", place_slug: "st-john-the-baptist-church-garsdale" %}
+
+
     The Anglican church sits between The Street and Garsdale Hall, roughly six miles
     from Sedbergh. A chapel of ease to Dent was recorded here in the mid-1500s, and
     the present building dates from 1861, when it was rebuilt alongside the site of
@@ -73,6 +76,8 @@ blocks:
     was built in 1675 and is still in use today. It is one of the oldest Quaker meeting
     houses in the country and well worth a visit.
 
+    {% include "business-details.html", place_slug: "brigflatts-meeting-house" %}
+
     '
 - type: split-image
   content: '## Methodist Chapels
@@ -104,7 +109,9 @@ blocks:
     of Garsdale Station and the Dandrymire Viaduct. The extension won an award from
     the Yorkshire Dales National Park Authority. Mount Zion can be hired as a base
     for walkers, with toilet, disabled access, kettles and water boiler. A "Railways
-    and Religion in the Western Dales" leaflet is available in the chapels.
+    and     Religion in the Western Dales" leaflet is available in the chapels.
+
+    {% include "business-details.html", place_slug: "mount-zion-chapel-garsdale-head" %}
 
 
     Archive material on Mount Zion adds useful railway context. Before the chapel

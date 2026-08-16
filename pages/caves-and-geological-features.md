@@ -25,14 +25,22 @@ blocks:
   content: '## Local Caves
 
 
+    {% include "business-details.html", place_slug: "tom-croft-cave" %}
+
+    {% include "business-details.html", place_slug: "dovecote-cave" %}
+
     **Tom Croft Cave** and **Dovecote Cave** are both accessible locally in the Garsdale
     area. They are natural caves rather than commercial show caves, so bring a torch
     and take care. Locations are marked on the Garsdale Ordnance Survey maps.
 
 
+    {% include "business-details.html", place_slug: "white-scar-cave" %}
+
+
     For a more structured experience, White Scar Cave ([whitescarcave.co.uk](https://whitescarcave.co.uk/))
     near Ingleton is the longest show cave in Britain, with guided tours lasting about
-    eighty minutes. Ingleborough Cave ([ingleboroughcave.co.uk](https://ingleboroughcave.co.uk/))
+    eighty minutes. {% include "business-details.html", place_slug: "ingleborough-cave" %}
+    Ingleborough Cave ([ingleboroughcave.co.uk](https://ingleboroughcave.co.uk/))
     near Clapham is another fine show cave set beneath one of the Three Peaks.
 
     '
@@ -64,6 +72,9 @@ blocks:
   content: '## Cotterdale Force
 
 
+    {% include "business-details.html", place_slug: "cotter-force" %}
+
+
     Cotterdale Force is a waterfall in the small valley of Cotterdale, accessible
     from the road between Garsdale Head and Hawes. The waterfall was sketched by the
     painter J.M.W. Turner. It is a quieter alternative to the better-known Hardraw
@@ -81,6 +92,7 @@ blocks:
     Countryside Museum ([dalescountrysidemuseum.org.uk](https://www.dalescountrysidemuseum.org.uk/))
     in Hawes has good exhibitions on the geology and natural history of the area.
 
+    {% include "business-details.html", place_slug: "dales-countryside-museum-hawes" %}
     '
 - type: cta
   button:

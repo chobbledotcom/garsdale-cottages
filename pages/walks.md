@@ -31,13 +31,19 @@ blocks:
     A pleasant walk is to travel over to Hardraw Force in Hardraw. The walk begins
     behind the Green Dragon and there is a small charge to enter the waterfall walk.
 
+    {% include "business-details.html", place_slug: "hardraw-force" %}
+
 
     Travelling towards Hawes there is a parking area for a short walk to Cotter Force,
     which has a good flat pathway beside the river leading to the waterfalls.
 
+    {% include "business-details.html", place_slug: "cotter-force" %}
+
 
     A longer waterfall walk is to Cautley Spout in Cautley. This walk starts by the
     Cross Keys Temperance Inn and the bridge crossing the river.
+
+    {% include "business-details.html", place_slug: "cautley-spout" %}
 
 
     For a walk from Garsdale village, follow the bridleway beside Dandra Garth through

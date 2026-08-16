@@ -35,6 +35,8 @@ blocks:
     Around the middle of the dale, the old list records buildings and places including Low Smithy Chapel, School House, the Village Hall, Garsdale Hall, St John's Church, Roger Pot, Squirrel Cottage, The Hive, North View, Garsdale Street Chapel, Woodend, Rose Cottage, Pinfold Farm and Pinfold House.
 
     This is the part of Garsdale where several strands of local history meet: the medieval church site, the former school, the village hall, chapel life, farming, and the road through the dale. It is also where visitors start to see how closely Garsdale's house names sit beside its religious and farming history.
+
+    {% include "business-details.html", place_slug: "st-john-the-baptist-church-garsdale" %}
   figure_src: /images/old-garsdale/historical-village-view.png
   figure_alt: Historic view of a small cluster of buildings in Garsdale
   reverse: true
@@ -45,6 +47,12 @@ blocks:
     At the eastern end of the dale, the old house list changes character as the railway becomes part of the story. It records Junction Cottage, formerly the Junction Inn, along with Clough House, Clough Cottage, East Clough, Moorland View, the Railway Cottages, Mount Zion Chapel, Brookside, West Mudbecks, East Mudbecks, Dandrymire and Low Moor.
 
     Those names sit close to Garsdale Station, the Dandrymire Viaduct and the road over to Dent. They help explain why Garsdale Head still carries the older railway name Hawes Junction, even though the Wensleydale branch line is long gone.
+
+    {% include "business-details.html", place_slug: "garsdale-station" %}
+
+    {% include "business-details.html", place_slug: "dandrymire-viaduct" %}
+
+    {% include "business-details.html", place_slug: "mount-zion-chapel-garsdale-head" %}
 
     ## Grisedale Names
 

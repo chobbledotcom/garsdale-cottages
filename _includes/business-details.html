@@ -1,0 +1,133 @@
+{%- comment -%}
+Wikipedia-style business infobox. Renders cached Google Maps details for a
+place mentioned in guide copy.
+
+Usage (inside a markdown block's content, on its own line so it floats right
+and the surrounding text wraps around it):
+
+    {% include "business-details.html", place_slug: "moorcock-inn" %}
+
+Renders nothing if the place has no cached `google` data yet (i.e. before
+scripts/fetch-place-details.js has run for that place).
+{%- endcomment -%}
+
+{%- assign place = places[place_slug] -%}
+{%- assign g = place.google -%}
+{%- if place and g -%}
+<aside class="business-details" data-place-slug="{{ place.slug }}">
+  <div class="business-details__inner">
+    <h3 class="business-details__title">{{ g.name | default: place.name }}</h3>
+    {%- if g.category_name %}
+      <p class="business-details__subtitle">{{ g.category_name }}</p>
+    {%- endif %}
+
+    {%- if g.permanently_closed %}
+      <p class="business-details__closed business-details__closed--permanent">Permanently closed</p>
+    {%- elsif g.temporarily_closed %}
+      <p class="business-details__closed business-details__closed--temporary">Temporarily closed</p>
+    {%- endif %}
+
+    {%- if g.image_url %}
+      <img
+        class="business-details__image"
+        src="{{ g.image_url }}"
+        alt="{{ g.name | default: place.name }}"
+        loading="lazy"
+        referrerpolicy="no-referrer"
+        onerror="this.remove()"
+      >
+    {%- endif %}
+
+    {%- if g.rating %}
+      <p class="business-details__rating">
+        <span class="business-details__stars" aria-hidden="true">★</span>
+        <span class="business-details__score">{{ g.rating }}</span>
+        {%- if g.reviews_count %}
+          <span class="business-details__review-count">({{ g.reviews_count }} reviews)</span>
+        {%- endif %}
+      </p>
+    {%- endif %}
+
+    <dl class="business-details__rows">
+      {%- if g.address %}
+        <div class="business-details__row">
+          <dt>Address</dt>
+          <dd>{{ g.address }}</dd>
+        </div>
+      {%- endif %}
+
+      {%- if g.phone %}
+        <div class="business-details__row">
+          <dt>Phone</dt>
+          <dd><a href="tel:{{ g.phone_unformatted | default: g.phone }}">{{ g.phone }}</a></dd>
+        </div>
+      {%- endif %}
+
+      {%- if g.website %}
+        <div class="business-details__row">
+          <dt>Website</dt>
+          <dd>
+            <a href="{{ g.website }}" rel="noopener noreferrer" target="_blank">
+              {{- g.website | remove: "https://" | remove: "http://" | remove: "www." | truncate: 32 -}}
+            </a>
+          </dd>
+        </div>
+      {%- endif %}
+
+      {%- if g.price %}
+        <div class="business-details__row">
+          <dt>Price</dt>
+          <dd>{{ g.price }}</dd>
+        </div>
+      {%- endif %}
+
+      {%- if g.plus_code %}
+        <div class="business-details__row">
+          <dt>Plus code</dt>
+          <dd>{{ g.plus_code }}</dd>
+        </div>
+      {%- endif %}
+
+      {%- if g.location %}
+        <div class="business-details__row">
+          <dt>Map</dt>
+          <dd>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query={{ g.location.lat }},{{ g.location.lng }}"
+              rel="noopener noreferrer"
+              target="_blank"
+            >View on map</a>
+          </dd>
+        </div>
+      {%- endif %}
+    </dl>
+
+    {%- if g.opening_hours and g.opening_hours.size > 0 %}
+      <table class="business-details__hours">
+        <caption>Opening hours</caption>
+        <tbody>
+          {%- for h in g.opening_hours %}
+            <tr><th>{{ h.day }}</th><td>{{ h.hours }}</td></tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+    {%- endif %}
+
+    {%- if g.url %}
+      <a
+        class="business-details__map-link"
+        href="{{ g.url }}"
+        rel="noopener noreferrer"
+        target="_blank"
+      >View on Google Maps →</a>
+    {%- elsif g.place_id and place.google_place_id %}
+      <a
+        class="business-details__map-link"
+        href="https://www.google.com/maps/place/?q=place_id:{{ place.google_place_id }}"
+        rel="noopener noreferrer"
+        target="_blank"
+      >View on Google Maps →</a>
+    {%- endif %}
+  </div>
+</aside>
+{%- endif -%}

@@ -146,6 +146,8 @@ blocks:
     - **Smardale Beck** - a fine vantage point from the old viaduct for spotting sparrowhawks,
     buzzards and treecreepers in this national nature reserve
 
+    {% include "business-details.html", place_slug: "smardale-gill-nature-reserve" %}
+
     '
 - type: features
   items:
