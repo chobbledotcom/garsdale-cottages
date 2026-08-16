@@ -22,7 +22,7 @@ google:
   plus_code: "7JCR+RX Sedbergh, United Kingdom"
   rating: 4
   reviews_count: 83
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlCWmBjGLV7yUgg8A09Lqu3BMDmPW_pCalYMOZauiEzoYgjyG4HLF_1eN0mlBu_7iIQ9ym_4VLvzbvTd0olbMpNLcW3W5gR0eCroRMuHHMmhspkZrwmMj0hLGxk2Mev6rzWGdiq_w=w408-h273-k-no
+  image_url: /images/places/sportsmans-inn-cowgill.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Sportsman's%20Inn&query_place_id=ChIJyRnsqAdlfEgRFOMVTBreIlc
   permanently_closed: false
   temporarily_closed: false

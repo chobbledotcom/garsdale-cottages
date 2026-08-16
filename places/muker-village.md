@@ -15,7 +15,7 @@ google:
   location:
       lat: 54.3767024
       lng: -2.1401164
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmbVEjPNP7XHikedUrx96ixAi7J2p4vfkemLzTCk0VI6Vrb87KP3HZBK0PwJM5YkjUMkxWnFp6GYAREYDJzYV5JyJvN108f9yD862ceRRFHWPkjAVVXLKqSWEmBZZ_B9iSUJDjc=w408-h544-k-no
+  image_url: /images/places/muker-village.jpg
   url: https://www.google.com/maps/search/?api=1&query=Muker&query_place_id=ChIJSS3aUO9qfEgRIzEVkIYjSgI
   permanently_closed: false
   temporarily_closed: false

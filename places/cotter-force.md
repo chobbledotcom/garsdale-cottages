@@ -38,7 +38,7 @@ google:
         hours: Open 24 hours
       - day: Sunday
         hours: Open 24 hours
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk-31BOAMTbUPzAkNeljlr-27DY_CVVrjy_vjwvKFOykdH7cyltNEyhvaqiSnICEPbz8DkJ2djwkjwQdq-txWjwMGfiFZHNaGdiANYgFEFQ-H_ChcEWXdImZHeQLN68khxvdDCSxg=w408-h408-k-no
+  image_url: /images/places/cotter-force.jpg
   url: https://www.google.com/maps/search/?api=1&query=Cotter%20Force&query_place_id=ChIJlZlya6lufEgRpxqbzK3MI4Q
   permanently_closed: false
   temporarily_closed: false

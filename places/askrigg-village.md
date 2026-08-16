@@ -15,7 +15,7 @@ google:
   location:
       lat: 54.314967
       lng: -2.081093
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlYbBHtDIy4yYBrZ3gTSyzG3mfT88y03LaPAIfU7I1-OplsM4aaGgObmdoengELB-u-qKVAtC8FgfqIh2h67T51hlzi6dQBPl-d7Kz13epg-NH8DfImttL7lXk-Iwsx5hbohw=w493-h240-k-no
+  image_url: /images/places/askrigg-village.jpg
   url: https://www.google.com/maps/search/?api=1&query=Askrigg&query_place_id=ChIJNc9PFBcTfEgR5ezrObsuQhc
   permanently_closed: false
   temporarily_closed: false

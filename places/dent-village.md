@@ -15,7 +15,7 @@ google:
   location:
       lat: 54.2777254
       lng: -2.4544505
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkTEQP370gmWp1bqvJnd8twSKzyrtf8IuKH1LwCog6pe_kPIqM3ulH6ibMSatogtEAhuoSDyLeLV3kBVW2Yfw68kKCFyinrCkLU1k69a-nSw0TuBT0RSwSczQTllaIjKTFnXAkE=w426-h240-k-no
+  image_url: /images/places/dent-village.jpg
   url: https://www.google.com/maps/search/?api=1&query=Dent&query_place_id=ChIJQ3ZPdIJjfEgR5p9d2wzy8EM
   permanently_closed: false
   temporarily_closed: false

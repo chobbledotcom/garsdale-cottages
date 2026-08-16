@@ -39,7 +39,7 @@ google:
         hours: "10 AM to 5 PM"
       - day: Sunday
         hours: "10 AM to 5 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnw2Dbl46oo9QXwJzQW27EKg5IkFyNWM0RcBogzFk2aJrdTg3iFV2g_GbifgFZEwlUUqLC0REw7J5DIQY-ayqnEvEqxaUx7pWi0ajjfvPjXeVKPjR-jM2aXzDHGHm998yUpmSELLqOb9H_5=w408-h306-k-no
+  image_url: /images/places/aysgarth-falls.jpg
   url: https://www.google.com/maps/search/?api=1&query=Aysgarth%20Falls%20Yorkshire%20Dales%20National%20Park%20Visitor%20Centre&query_place_id=ChIJ_au8eHMRfEgRVBnPn1h1HTk
   permanently_closed: false
   temporarily_closed: false

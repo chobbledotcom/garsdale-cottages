@@ -44,7 +44,7 @@ google:
         hours: "9 AM to 5 PM"
       - day: Sunday
         hours: "9 AM to 5 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmvlwX3YD3kfMUDUaMn8qhoPElAvSCY_3-m7K_amMZSG64A59HmOyclMT-DgpZY8w5zAiqVBP8858YV5cElllAiNsxCiAAJDn6jJt_IciQ7G7cAzUvTS-R0Lzrc3K2C9EtfoXw=w455-h240-k-no
+  image_url: /images/places/wensleydale-creamery-hawes.jpg
   url: https://www.google.com/maps/search/?api=1&query=Wensleydale%20Creamery&query_place_id=ChIJ7c49qT9sfEgRKbtbplFwV18
   permanently_closed: false
   temporarily_closed: false

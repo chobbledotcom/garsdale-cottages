@@ -23,7 +23,7 @@ google:
   rating: 4.4
   reviews_count: 578
   price: $163
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkT3cUjOiznt2olUlHKrUfNXotfGN2zG2iaWho3eo-iE1ZknlZX6rbC0zvAgJ-9IusaKJJvbcSB4k1XhenBiErYR89J3LViYjmO0QK5FOXmJVmwmzgcSy2vIO91mbSVwbsu9FeB2w=w408-h407-k-no
+  image_url: /images/places/black-bull-inn-sedbergh.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Black%20Bull%20Inn&query_place_id=ChIJp6ua5_RhfEgRhQCSFu_Krek
   permanently_closed: false
   temporarily_closed: false

@@ -38,7 +38,7 @@ google:
         hours: "7 AM to 5 PM"
       - day: Sunday
         hours: Closed
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlzllfhaetIoB_iu0yT0or-4XrfQOfD2g_DXE12-xcwU6rqLHHBN-7AV9zHpNc8eB8lZTBvZXhmSFQnA9rdKeLRfkxLxZIrrZPt6db1dJ9dx23f4lio49WS0wzEv59w-7Try1oQ5g=w408-h306-k-no
+  image_url: /images/places/powells-sedbergh.jpg
   url: https://www.google.com/maps/search/?api=1&query=Powells%20Fruit%20Merchants&query_place_id=ChIJp6ua5_RhfEgRPLwpQKPdY_c
   permanently_closed: false
   temporarily_closed: false

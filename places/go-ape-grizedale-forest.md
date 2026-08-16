@@ -38,7 +38,7 @@ google:
         hours: "10 AM to 3 PM"
       - day: Sunday
         hours: "10 AM to 3 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlymRTaK5-seAWjhPlENgFJqKtcfF2xUIR5cn9Z-9AtsQnYn4ir3ZRlDtjXV2fxJhT6PKCZN166gmOruuYC7uz_LxyvGcBrJwo1_xmrivuppW7oEyu2jpWtOtcYDymbSam-PPXY5uLt0FY=w408-h272-k-no
+  image_url: /images/places/go-ape-grizedale-forest.jpg
   url: https://www.google.com/maps/search/?api=1&query=Go%20Ape%20Grizedale&query_place_id=ChIJY8wqk0C-fEgR12e5pFxe8Z8
   permanently_closed: false
   temporarily_closed: false

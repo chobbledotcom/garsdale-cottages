@@ -21,7 +21,7 @@ google:
       lng: -2.3636722
   rating: 4.6
   reviews_count: 20
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmF41yDbgulIta0C_dtS6skFXNv6UAjBCUXeYxgi7CqEeyZi_etYXOCEGXKKmkang39hCsgPVPbkcctgHXrKh6S2I1bmlllrtCh2vRBBsaLQGCEEjOBsNg9kd6x0CRMGPz764tA=w408-h304-k-no
+  image_url: /images/places/dent-station.jpg
   url: https://www.google.com/maps/search/?api=1&query=Dent&query_place_id=ChIJZQHT_KBlfEgRoHDr3UxYUTs
   permanently_closed: false
   temporarily_closed: false

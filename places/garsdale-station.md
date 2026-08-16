@@ -21,7 +21,7 @@ google:
       lng: -2.3262689
   rating: 4.3
   reviews_count: 22
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnGsaE63y_Mx5F_PjuFeoQ1097AK2TbtznjGfnxQOvCC7n8UI8Fa-5lPy1YEBV1xi1YXAwSf-uXOJhUWI2o3-WTLYyJpCpLlMplN7R36goZx2e7FZDR2lexLnU0w8HGyHpk0ixi=w408-h306-k-no
+  image_url: /images/places/garsdale-station.jpg
   url: https://www.google.com/maps/search/?api=1&query=Garsdale&query_place_id=ChIJ2-jUp1NvfEgRPRvnE3qU-1g
   permanently_closed: false
   temporarily_closed: false

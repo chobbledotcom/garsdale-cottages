@@ -37,7 +37,7 @@ google:
         hours: Closed
       - day: Sunday
         hours: Closed
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm_ISkxFCisNPJv1JlFlH6avATgcK_PZ-IPrYbGF7Mj0fN7nBqmsq4jSO3cOlRaGgU6Hp7LXaUGEyktWDzJYNeH5iTCtWEFOrKlbHNY4KQxjl_4fuI-Elm2hPRkjAKwEbGiHbIu=w408-h305-k-no
+  image_url: /images/places/farm-gate-vets-hawes.jpg
   url: https://www.google.com/maps/search/?api=1&query=Farm%20Gate%20Vets&query_place_id=ChIJofPHBIthfEgRQwDrripEM2I
   permanently_closed: false
   temporarily_closed: false

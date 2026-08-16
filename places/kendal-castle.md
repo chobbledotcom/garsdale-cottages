@@ -18,7 +18,7 @@ google:
   location:
       lat: 54.3249098
       lng: -2.7364154
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm5l0ZR3_VdDMffyubNWmSC7d3k58ma9hp6vqdxlmdcLp1Bi4niZg8JOAfAZUs3ZZSsrB9tgL0JclLCUCqOLh-QeBjcB_GGszD6PbVb6tx59fxCxcMpvUvJvuaulbU8mrVY6e8=w408-h306-k-no
+  image_url: /images/places/kendal-castle.jpg
   url: https://www.google.com/maps/search/?api=1&query=Kendal%20Castle&query_place_id=ChIJM_Q4b9uNfEgRrV6LCqFVhFA
   permanently_closed: false
   temporarily_closed: false

@@ -38,7 +38,7 @@ google:
         hours: "10 AM to 4:30 PM"
       - day: Sunday
         hours: "10 AM to 4:30 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmAWN8DjHenteX86XQM2DXdV6NjonyXOTKXLaxXypJTG32trx7nvu9GBGvjlaAV_4cJICi5T2aRSh_DPQ2gc6nFZn0_QtrB9y-XkziDQOo6u1iBMLp_M2ENalzOd-zu2SJHe1xEQuZrIlDz=w408-h306-k-no
+  image_url: /images/places/hardraw-force.jpg
   url: https://www.google.com/maps/search/?api=1&query=Hardraw%20Force&query_place_id=ChIJU4cpOkJtfEgR95tiJUe-irc
   permanently_closed: false
   temporarily_closed: false

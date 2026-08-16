@@ -19,7 +19,7 @@ google:
       lat: 54.3039662
       lng: -2.1933765
   plus_code: "8R34+HJ Hawes, United Kingdom"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn7sEIWsm--NB0VED02fZYCXXYT7-UOVgm9JANSeQXebw7SsWGqmJwvRJgtmqs3YQEs9q6REseCXXu_P7lrsdWuRK7ajAy-FWlO2xF1rOyMCnTfonkNAl1VonSyTsGwJWaxzP3LmA=w408-h272-k-no
+  image_url: /images/places/wr-outhwaite-and-son-hawes.jpg
   url: https://www.google.com/maps/search/?api=1&query=Outhwaites%20Ltd%20(Ropemakers%20not%20open%20to%20the%20public)&query_place_id=ChIJQUN2QeJtfEgRg1djcRWi3IU
   permanently_closed: true
   temporarily_closed: false

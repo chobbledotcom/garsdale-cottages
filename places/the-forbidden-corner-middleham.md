@@ -37,7 +37,7 @@ google:
         hours: "12 to 7:30 PM"
       - day: Sunday
         hours: "10 AM to 6 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm9s3zWMB6nPpL482mR_8Jc4la9uyaT-2tejATWLmtiO6EKIIkTb-0hMjUslgSIKiPVg9g3BhIGV5z7U6uH0mibuLdd5fHO2aNsn8c0mtPetSnwK9OX03iHwr4tDq9m1XHjFluPe-edOzOf=w408-h544-k-no
+  image_url: /images/places/the-forbidden-corner-middleham.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Forbidden%20Corner&query_place_id=ChIJp9sn_eQafEgRg6IBQOf4d-c
   permanently_closed: false
   temporarily_closed: false

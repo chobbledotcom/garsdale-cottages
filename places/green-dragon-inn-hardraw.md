@@ -27,7 +27,7 @@ google:
   rating: 4.3
   reviews_count: 1418
   price: $80
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmlp6YISmvQo8Si9WEmXT6F_SsAAgKyk8TF9efcY2N3GfHm9FV7BdKri_pmpySWHsIpKxHlE9wQam1LzouipavrhSFcn9pDiOC7DPMVzje5eJQ0GC9KX4xitGuXq1jK90XTVsfgKA=w533-h240-k-no
+  image_url: /images/places/green-dragon-inn-hardraw.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Green%20Dragon%20Inn%20at%20Hardraw&query_place_id=ChIJv01a5Q1sfEgRTTCAxKR1vSc
   permanently_closed: false
   temporarily_closed: false

@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 
-import { readdirSync, readFileSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { exists, loadEnv, path, write } from "./utils.js";
 
@@ -8,6 +8,7 @@ await loadEnv();
 
 const CONFIG = {
   placesDir: path("places"),
+  imagesDir: path("images", "places"),
   actorId: "compass~crawler-google-places",
   maxAgeDays: 7,
   requestTimeoutSec: 240,
@@ -151,6 +152,26 @@ const callApify = async (searchString) => {
   return results[0] ?? null;
 };
 
+const downloadImage = async (imageUrl, slug) => {
+  if (!imageUrl || imageUrl.startsWith("/images/")) return imageUrl;
+  const ext = imageUrl.match(/\.(jpg|jpeg|png|webp)(\?|$)/i)?.[1]?.toLowerCase() || "jpg";
+  const localPath = `/images/places/${slug}.${ext}`;
+  const fullPath = join(CONFIG.imagesDir, `${slug}.${ext}`);
+  mkdirSync(CONFIG.imagesDir, { recursive: true });
+
+  const res = await fetch(imageUrl);
+  if (!res.ok) {
+    throw new Error(`Image download failed for ${slug}: HTTP ${res.status} (${imageUrl})`);
+  }
+  const buf = await res.arrayBuffer();
+  if (buf.byteLength === 0) {
+    throw new Error(`Image download failed for ${slug}: empty response (${imageUrl})`);
+  }
+  writeFileSync(fullPath, Buffer.from(buf));
+  console.log(`  image: ${slug}.${ext}`);
+  return localPath;
+};
+
 const buildGoogleData = (p) => {
   const out = {
     name: p.title ?? null,
@@ -219,7 +240,12 @@ const refreshPlace = async (place) => {
   }
 
   if (discoveredPlaceId) data.google_place_id = discoveredPlaceId;
-  data.google = buildGoogleData(result);
+  const googleData = buildGoogleData(result);
+  const localImage = await downloadImage(googleData.image_url, place.slug);
+  if (localImage) {
+    googleData.image_url = localImage;
+  }
+  data.google = googleData;
   data.last_fetched = new Date().toISOString();
 
   await write(place.filepath, stringifyFrontmatter(data, place.body));

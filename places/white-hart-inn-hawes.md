@@ -27,7 +27,7 @@ google:
   rating: 4.6
   reviews_count: 1131
   price: $136
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmYfI8PW5SqeK1kPK8PdQ2K2aP8ey_y8CRue3qN-NLETz_4lD6Vr1bKiCd8-WdhKnUjzUHV3Z9pIgODig0ws1Wz4hDq-EKSM0jCFv6cHCRPgEVSr9RbFF2jpKYV9PfGhTnz4Ow0ZA=w408-h281-k-no
+  image_url: /images/places/white-hart-inn-hawes.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20White%20Hart%20Inn%2C%20Hawes&query_place_id=ChIJG2g7OkBsfEgR3xW76Pb4JjQ
   permanently_closed: false
   temporarily_closed: false

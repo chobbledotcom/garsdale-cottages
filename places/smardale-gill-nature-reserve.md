@@ -21,7 +21,7 @@ google:
   plus_code: FJ92+XM Kirkby Stephen, United Kingdom
   rating: 4.6
   reviews_count: 27
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnpAKi4ndSFJLqquTakQq4rb773aRJJgJa3JBL43jFM6gPrc-eVLLBkYMqW79jVSO0Dn15rnPdEFt1zILnmHr7oybm3rgEtoWRrBGU7VI9jh_XV_Mgp-SuzD7WiafykQtVoAumC=w408-h306-k-no
+  image_url: /images/places/smardale-gill-nature-reserve.jpg
   url: https://www.google.com/maps/search/?api=1&query=Smardale%20Gill%20Nature%20Reserve%20Parking&query_place_id=ChIJaT_rW9FdfEgRwWIiupHRvNg
   permanently_closed: false
   temporarily_closed: false

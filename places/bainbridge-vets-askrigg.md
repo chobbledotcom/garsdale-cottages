@@ -37,7 +37,7 @@ google:
         hours: "8:30 AM to 12 PM"
       - day: Sunday
         hours: Closed
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkI53tpReulQLvKiqqlddwFCvDVMoNZryHLiXALUxIJuLVVynJVMliVSf7sygBQYnZfvrF5ou2wFQO8Sw0wq7Swr8ZByCWyAN2CAUHPqJVij6dMAPtBvT_iXOhK61EiDZ8718rPvw=w408-h306-k-no
+  image_url: /images/places/bainbridge-vets-askrigg.jpg
   url: https://www.google.com/maps/search/?api=1&query=Bainbridge%20Vets&query_place_id=ChIJ9T9mwEkTfEgRlUNM56FEKwo
   permanently_closed: false
   temporarily_closed: false

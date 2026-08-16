@@ -44,7 +44,7 @@ google:
         hours: "11 AM to 10 PM"
       - day: Sunday
         hours: "12 to 7 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlRAYzcdj7o3gM4cCc8CUGWjm27tgvpuDoQwabrcnFmG8onm48Wl7VFQftF35cbdcM5G5DUt4tEDXyY6tL1WxIAwIfjsTEN1W35Kb6OWDBI2ZNgg7h6M3Hnrwh4GsCVtGEbFW46_Q=w408-h272-k-no
+  image_url: /images/places/brewery-arts-centre-kendal.jpg
   url: https://www.google.com/maps/search/?api=1&query=Brewery%20Arts&query_place_id=ChIJq21GNOaNfEgRUk_PADpF2LI
   permanently_closed: false
   temporarily_closed: false

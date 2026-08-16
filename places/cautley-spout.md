@@ -37,7 +37,7 @@ google:
         hours: Open 24 hours
       - day: Sunday
         hours: Open 24 hours
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk8XXqrCCeTK3zFuXPKKrHrnB6S03xZRXC0usu8-fIBKHn4xbsjd80HoaXNo2HcBy_WWm_J54pSG_Mp8ngiF21ZXA6yXgIWVgChbny8FZrOunUtuZK8LKsvRyaIaWuAsUaSiLSSwApjICu5=w408-h528-k-no
+  image_url: /images/places/cautley-spout.jpg
   url: https://www.google.com/maps/search/?api=1&query=Cautley%20Spout&query_place_id=ChIJpxAFCPtgfEgRAPgqcs3b6ws
   permanently_closed: false
   temporarily_closed: false

@@ -40,7 +40,7 @@ google:
         hours: "10 AM to 5 PM"
       - day: Sunday
         hours: "10 AM to 5 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlmG9tN7jHHjUJtvB7pn6pHAeSA7E247m_31xlCUAwhOW65IBKFzJVq-nmEhCoPXPp5Ka5kKpkujgMSRvSB_Sr6MRwmKto1HNyKLYGAYgTq9MOSxsxqD3dy5Oan863xs-i-unE=w408-h307-k-no
+  image_url: /images/places/brough-castle.jpg
   url: https://www.google.com/maps/search/?api=1&query=Brough%20Castle&query_place_id=ChIJXdeFv_ssekgRQ7yogzDz7Bk
   permanently_closed: false
   temporarily_closed: false

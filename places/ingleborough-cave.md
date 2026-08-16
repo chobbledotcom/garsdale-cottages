@@ -41,7 +41,7 @@ google:
         hours: "10 AM to 5 PM"
       - day: Sunday
         hours: "10 AM to 5 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlIgHMti9Y6kdOqiTaUoASvphruYpeTKBcEdbCoG-m-X0RFGK9cS9P_bSN7f316Pwa7i4sMKkfaSBqarUGCHgt1r0td1Rqbd1Uw-1x9ODd0rpVfwvLo2IiYs9Pk1PHIBjbAPopa=w426-h240-k-no
+  image_url: /images/places/ingleborough-cave.jpg
   url: https://www.google.com/maps/search/?api=1&query=Ingleborough%20Cave&query_place_id=ChIJ50IjHER-fEgRaY-wIxVL_P8
   permanently_closed: false
   temporarily_closed: false

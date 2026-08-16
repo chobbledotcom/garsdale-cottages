@@ -38,7 +38,7 @@ google:
         hours: "5 to 9:30 PM"
       - day: Sunday
         hours: "5 to 9:30 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlVw7bZ_boHL3Cwn0Q_cqw7xS6OedEa_C-kTXKwBe8ico_ohInxm37T_lo81cNf-BmFtiKcKwN3hAOLbQXy2sLZY1CgiVVFJP2EZKXe6nw87zCziW0YfMXJNYqhGOl0dDaDW_c=w408-h271-k-no
+  image_url: /images/places/doi-intanon-ambleside.jpg
   url: https://www.google.com/maps/search/?api=1&query=Doi%20Intanon%2C%20Thai%20Restaurant&query_place_id=ChIJu08kF_DqfEgRyjC2QW9_cNM
   permanently_closed: false
   temporarily_closed: false

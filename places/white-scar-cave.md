@@ -37,7 +37,7 @@ google:
         hours: "10 AM to 4 PM"
       - day: Sunday
         hours: "10 AM to 4 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnFfNNTtNQ1C_m827MHSwgCnnLHRW6zjqD7CK384NlUqBrfgYUJqU40o_9UcLsIwYqaJ36YB9u5rkJynEVSG0CsAj7oXJoFYBCK-r-viiGgIV_FE_jFbdTG3MmaenU-c2I77t6M=w408-h306-k-no
+  image_url: /images/places/white-scar-cave.jpg
   url: https://www.google.com/maps/search/?api=1&query=White%20Scar%20Cave&query_place_id=ChIJS_af7lN6fEgRPJt1XABMznA
   permanently_closed: false
   temporarily_closed: false

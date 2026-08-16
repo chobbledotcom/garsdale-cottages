@@ -27,7 +27,7 @@ google:
   plus_code: "8MHP+PW Sedbergh, United Kingdom"
   rating: 4.4
   reviews_count: 269
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlJOY1gXgH7uMPYglNVWmMIYjyaPq67P0-tfTfPO3XfXjuH2sFo5NlPUmqbl4VRVf0a6rwkmCOIPwtB_irvZUTsQq4fE8nHFOcf7ntxr4yHmcLA2lZqSlfI5zI6jw379Rpa8PjzZw=w408-h300-k-no
+  image_url: /images/places/moorcock-inn.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Moorcock%20Inn&query_place_id=ChIJmWSyVjVkfEgRaqK9eGtY7Lo
   permanently_closed: false
   temporarily_closed: false

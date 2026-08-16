@@ -321,6 +321,7 @@ article#content {
 
 /* Override prose table styles that force min-width: 100% and add borders */
 .prose .business-details__hours {
+  width: fit-content;
   min-width: 0;
   border: none;
   border-radius: 0;

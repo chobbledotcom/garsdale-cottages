@@ -37,7 +37,7 @@ google:
         hours: "4 PM to 12 AM"
       - day: Sunday
         hours: Closed
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlNTcQJKQyQyGDXorzusJt67pxfeoreajYXv0fKunN6XElGcSgVJIjnnY-eV3Eo9sePFaXM2vo63MKOps-Ij1baR5fBI2HgWlaqdSMG4cSyA5xS-9JANfrw6Bbhpt12_ORcibA6w5473Nze=w408-h381-k-no
+  image_url: /images/places/half-and-half-sedbergh.jpg
   url: https://www.google.com/maps/search/?api=1&query=Half%20and%20Half%20Sedbergh&query_place_id=ChIJP86ZLoZhfEgRAM0d1Q1t2As
   permanently_closed: false
   temporarily_closed: false

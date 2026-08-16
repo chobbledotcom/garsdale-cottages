@@ -38,7 +38,7 @@ google:
         hours: "10:30 AM to 4 PM"
       - day: Sunday
         hours: "10:30 AM to 4 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmAC1cWSwxQ3mhEC4Rfhkv4Bo9M1MdqD0MUTpzaRGD2e9x3mVQGTuPy5SLZl033YcEyLkdJ4ZOb43HWwuaiICYAm9jtSiOLw_K2s4cjm5Ov8PaHwRMZJr1AAvh3_PP755NC1Zrz=w408-h306-k-no
+  image_url: /images/places/farfield-mill-sedbergh.jpg
   url: https://www.google.com/maps/search/?api=1&query=Farfield%20Mill&query_place_id=ChIJzzUxIYBhfEgRQFxUBq0tK8E
   permanently_closed: false
   temporarily_closed: false

@@ -39,7 +39,7 @@ google:
         hours: "9:30 AM to 4 PM"
       - day: Sunday
         hours: "9:30 AM to 4 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnr4Fc0WZevWwZY30JvbmpG2sIicYEZ1W8kSER8TyUAeG6E3T9KDFSViH9RMbLHjku3FHTZ7gg0mQKxu1ky1tsAZZeAJsvHPg3whclQvEpgVNFBtN28ks6a-83p3CwOj91WuHiZ=w408-h385-k-no
+  image_url: /images/places/white-hare-cafe-kirkby-stephen.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20White%20Hare%20Cafe&query_place_id=ChIJ7172TMtcfEgRMc_-MJb9PWY
   permanently_closed: false
   temporarily_closed: false

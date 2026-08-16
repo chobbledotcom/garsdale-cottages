@@ -18,7 +18,7 @@ google:
   location:
       lat: 54.4186503
       lng: -2.3378766
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8giwgu4VvSeaCQZZEhuIetO7CgU70pY65rpGmzLb0AFa7lIXJPiRYKEWl4sOeJfbMaLWKJoQ_qFAZqCZHH6tjIsPdsR9glaJQ68geUk4kDi3PoiiB-8dB8VApnOLUBIOahQaV=w408-h306-k-no
+  image_url: /images/places/pendragon-castle.jpg
   url: https://www.google.com/maps/search/?api=1&query=Pendragon%20Castle&query_place_id=ChIJczHSI6xCfEgRDtevOKZgbqc
   permanently_closed: false
   temporarily_closed: false

@@ -38,7 +38,7 @@ google:
         hours: "10 AM to 5 PM"
       - day: Sunday
         hours: "10 AM to 5 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnOnRUH7CtCHZh0qtwzZ9uUNspSlxMGCkbuWQC5I3XKNXxEFU0CbYkMue_V8qa8zOlGn6Pp95i4esiHJPWRQwqf-iZimREw-SdCiCt9SLenCjfmkBzONEYDBtSqxQFHh65M4ohS=w436-h240-k-no
+  image_url: /images/places/dales-countryside-museum-hawes.jpg
   url: https://www.google.com/maps/search/?api=1&query=Dales%20Countryside%20Museum&query_place_id=ChIJnZHI-EFsfEgR5PJ4PLEysew
   permanently_closed: false
   temporarily_closed: false

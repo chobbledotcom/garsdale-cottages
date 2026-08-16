@@ -15,6 +15,12 @@ Renders nothing if the place has no cached `google` data.
 {%- if place and g -%}
 {%- assign wide_class = "" -%}
 {%- if wide -%}{%- assign wide_class = " business-details--wide" -%}{%- endif -%}
+{%- assign map_url = g.url -%}
+{%- unless map_url -%}
+  {%- if place.google_place_id -%}
+    {%- assign map_url = "https://www.google.com/maps/place/?q=place_id:" | append: place.google_place_id -%}
+  {%- endif -%}
+{%- endunless -%}
 <aside class="business-details{{ wide_class }}" data-place-slug="{{ place.slug }}">
   <div class="business-details__inner">
     {%- if g.image_url %}
@@ -24,8 +30,6 @@ Renders nothing if the place has no cached `google` data.
         src="{{ g.image_url }}"
         alt="{{ g.name | default: place.name }}"
         loading="lazy"
-        referrerpolicy="no-referrer"
-        onerror="this.parentElement.remove()"
       >
       {%- if g.permanently_closed %}
         <p class="business-details__closed business-details__closed--permanent">Permanently closed</p>
@@ -40,7 +44,7 @@ Renders nothing if the place has no cached `google` data.
     {%- endif %}
 
     <div class="business-details__body">
-      {%- if g.category_name %}
+      {%- if g.category_name and g.category_name != "" %}
         <p class="business-details__subtitle">{{ g.category_name }}</p>
       {%- endif %}
 
@@ -55,21 +59,21 @@ Renders nothing if the place has no cached `google` data.
       {%- endif %}
 
       <dl class="business-details__rows">
-        {%- if g.address %}
+        {%- if g.address and g.address != "" %}
           <div class="business-details__row">
             <dt>Address</dt>
-            <dd>{{ g.address }}</dd>
+            <dd>{{ g.address }}{%- if map_url %} (<a href="{{ map_url }}" rel="noopener noreferrer" target="_blank">Google Maps</a>){%- endif %}</dd>
           </div>
         {%- endif %}
 
-        {%- if g.phone %}
+        {%- if g.phone and g.phone != "" %}
           <div class="business-details__row">
             <dt>Phone</dt>
             <dd><a href="tel:{{ g.phone_unformatted | default: g.phone }}">{{ g.phone }}</a></dd>
           </div>
         {%- endif %}
 
-        {%- if g.website %}
+        {%- if g.website and g.website != "" %}
           <div class="business-details__row">
             <dt>Website</dt>
             <dd>
@@ -80,14 +84,14 @@ Renders nothing if the place has no cached `google` data.
           </div>
         {%- endif %}
 
-        {%- if g.price %}
+        {%- if g.price and g.price != "" %}
           <div class="business-details__row">
             <dt>Price</dt>
             <dd>{{ g.price }}</dd>
           </div>
         {%- endif %}
 
-        {%- if g.plus_code %}
+        {%- if g.plus_code and g.plus_code != "" %}
           <div class="business-details__row">
             <dt>Plus code</dt>
             <dd>{{ g.plus_code }}</dd>
@@ -104,21 +108,6 @@ Renders nothing if the place has no cached `google` data.
             {%- endfor %}
           </tbody>
         </table>
-      {%- endif %}
-
-      {%- assign map_url = g.url -%}
-      {%- unless map_url -%}
-        {%- if place.google_place_id -%}
-          {%- assign map_url = "https://www.google.com/maps/place/?q=place_id:" | append: place.google_place_id -%}
-        {%- endif -%}
-      {%- endunless -%}
-      {%- if map_url %}
-        <a
-          class="btn btn--secondary business-details__map-link"
-          href="{{ map_url }}"
-          rel="noopener noreferrer"
-          target="_blank"
-        >View on Google Maps →</a>
       {%- endif %}
     </div>
   </div>

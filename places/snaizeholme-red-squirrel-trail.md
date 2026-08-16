@@ -22,7 +22,7 @@ google:
   plus_code: "7PHM+J8 Hawes, United Kingdom"
   rating: 4.7
   reviews_count: 68
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm2xfG-N78tdR20N_VU5b0tAbeJd1QiE1Dk3C95hm_CafUOBRP3WuaHn4MitOMiy8hhD2v8_JGY0EVwyFo8BYWI2ue7dWXaRXSCxsxF0X9yggdgns5Q7tU688OM5am_0dP-Yv6VEg=w408-h306-k-no
+  image_url: /images/places/snaizeholme-red-squirrel-trail.jpg
   url: https://www.google.com/maps/search/?api=1&query=Snaizeholme%20Red%20Squirrel%20Trail&query_place_id=ChIJ1TJZ_RNvfEgRNB0tScogfGI
   permanently_closed: false
   temporarily_closed: false

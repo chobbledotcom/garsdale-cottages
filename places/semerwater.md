@@ -20,7 +20,7 @@ google:
       lng: -2.1243701
   rating: 4.6
   reviews_count: 115
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmKJQRbaGPrNg1aNQ3QyuqU-BnoLr63esi_8S0PDWJvr0GIPp4VP8BhYLfFmM6eCiwoP22Mi5Z03-ry7y1iOYAbYX-lGKRrvmH8GqBtfFcw40Lt2LGhvgwsWc9HKNoxXjy354Aemg=w408-h270-k-no
+  image_url: /images/places/semerwater.jpg
   url: https://www.google.com/maps/search/?api=1&query=Semerwater&query_place_id=ChIJSbM1AyltfEgRZFHfBjorT8U
   permanently_closed: false
   temporarily_closed: false

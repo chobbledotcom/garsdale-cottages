@@ -23,7 +23,7 @@ google:
   rating: 4.3
   reviews_count: 533
   price: $136
-  image_url: https://photos.hotelbeds.com/giata/original/80/805631/805631a_hb_l_019.jpg
+  image_url: /images/places/dalesman-country-inn-sedbergh.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Dalesman%20Country%20Inn&query_place_id=ChIJvcw943djfEgRM3gu1II_k0M
   permanently_closed: false
   temporarily_closed: false

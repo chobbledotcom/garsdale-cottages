@@ -22,7 +22,7 @@ google:
   plus_code: "8J25+9C Sedbergh, United Kingdom"
   rating: 5
   reviews_count: 2
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnD4OlsnhJPZsaWX6L327ltQE9slITtCeii3AGLMB71sIFpYixS96YkZ50OU97yO-J14arqVjn4_vjbMFO6pP7hSLbcfEV4UYfIWvq4U0vGpctCaxZ6i9snmTSxljJJExxvbzQS=w408-h272-k-no
+  image_url: /images/places/st-john-the-baptist-church-garsdale.jpg
   url: https://www.google.com/maps/search/?api=1&query=St%20John%20the%20Baptist%2C%20Garsdale&query_place_id=ChIJmb22gEpkfEgRT1NdRp8sfbY
   permanently_closed: false
   temporarily_closed: false

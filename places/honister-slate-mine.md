@@ -46,7 +46,7 @@ google:
         hours: "8:30 AM to 5 PM"
       - day: Sunday
         hours: "8:30 AM to 5 PM"
-  image_url: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk7gcx3xnKoByZpYakwQVRgpuTw77cRESYPwSWGnm5qwc9_Xckm8Hzrxkm9Ji8xkDeDbR5QumIgREcmhtjtj9a0VakOQp8D49gjHRUbolgc7HrXIiLKRgv2OO60nLndqV1kL4Dmu1qjm_Q=w408-h271-k-no
+  image_url: /images/places/honister-slate-mine.jpg
   url: https://www.google.com/maps/search/?api=1&query=Honister%20Slate%20Mine&query_place_id=ChIJCXjj2VHEfEgRhzr314q0cR8
   permanently_closed: false
   temporarily_closed: false
