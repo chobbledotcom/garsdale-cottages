@@ -2,8 +2,10 @@
 name: Honister Slate Mine
 search: Honister Slate Mine, Keswick, UK
 category: Attraction
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/honister-slate-mine/
+layout: base
+meta_title: Honister Slate Mine | Things To Do Near Garsdale
+meta_description: Honister Slate Mine near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJCXjj2VHEfEgRhzr314q0cR8
 google:
   name: Honister Slate Mine
@@ -21,7 +23,7 @@ google:
       - Tourist attraction
   address: Honister Pass, Keswick CA12 5XN, United Kingdom
   phone: +44 17687 77230
-  phone_unformatted: +441768777230
+  phone_unformatted: 441768777230
   website: https://honister.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB
   location:
       lat: 54.5112702
@@ -50,4 +52,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:21:50.225Z"
 last_fetched: "2026-08-16T11:21:55.883Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "honister-slate-mine", wide: true %}
+          # Honister Slate Mine
+          
+          Honister Slate Mine sits at the top of Honister Pass in the Lake District, between Buttermere and Borrowdale, and is the last working slate mine in England. For the more adventurous there are mine experiences - including the underground tour and the Via Ferrata along the cliff face - and a new zip line; an alternative day out to the family-friendly options across the Dales. The slate itself, a distinctive dark green, has been worked here for centuries and still turns up on roofs across the country. Around an hour and a quarter's drive from Garsdale, Honister combines well with a day in the lakes - Buttermere, Crummock Water and Loweswater all sit close to the foot of the pass - or as a destination in its own right for those who like heights.
 ---

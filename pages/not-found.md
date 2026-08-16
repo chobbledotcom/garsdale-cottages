@@ -9,7 +9,6 @@ blocks:
 - type: markdown
   content: '## Page Not Found
 
-
     Whoops! It looks like you followed an invalid link - **[click here to go back
     to the homepage](/)**.'
 ---

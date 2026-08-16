@@ -2,8 +2,10 @@
 name: Wensleydale Creamery at Hawes
 search: Wensleydale Creamery, Hawes, UK
 category: Attraction
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/wensleydale-creamery-hawes/
+layout: base
+meta_title: Wensleydale Creamery at Hawes | Things To Do Near Garsdale
+meta_description: Wensleydale Creamery at Hawes near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJ7c49qT9sfEgRKbtbplFwV18
 google:
   name: Wensleydale Creamery
@@ -19,7 +21,7 @@ google:
       - Visitor center
   address: Gayle Ln, Wensleydale, Hawes DL8 3RN, United Kingdom
   phone: +44 1969 667664
-  phone_unformatted: +441969667664
+  phone_unformatted: 441969667664
   website: http://www.wensleydale.co.uk/
   location:
       lat: 54.3018763
@@ -48,4 +50,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:28:31.393Z"
 last_fetched: "2026-08-16T11:28:37.428Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "wensleydale-creamery-hawes", wide: true %}
+          # Wensleydale Creamery, Hawes
+          
+          The Wensleydale Creamery at Hawes makes the cheese that bears the dale's name - and also makes a variety called "Garsdale", flavoured with garlic and chives, using milk that once came from Garsdale, Dent and Cautley farms via the former Farfield dairy near Sedbergh. The creamery shop and cheese experience are well worth a visit; you can watch Yorkshire Wensleydale cheese being made by hand, taste the different cheeses in the shop, and there is a cafe and a cheese and gift shop. Children enjoy the cheese experience, and it can be combined with the rest of a day in Hawes - the small Tuesday market, the Dales Countryside Museum in the old railway station, and W.R. Outhwaite & Son, the traditional rope makers on the high street. Roughly nine miles east of Garsdale down the A684.
 ---

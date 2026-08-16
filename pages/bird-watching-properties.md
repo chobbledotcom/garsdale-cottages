@@ -19,7 +19,6 @@ blocks:
 - type: markdown
   content: '## A Bird Watcher''s Paradise
 
-
     Garsdale is a quiet valley in the Yorkshire Dales National Park where upland moors,
     ancient woodlands and the River Clough come together to create a remarkable range
     of habitats. With very little traffic and minimal background noise, the birdsong
@@ -33,13 +32,11 @@ blocks:
   subtitle: Over 50 species spotted in and around the cottages
   content: '## Birds on Your Doorstep
 
-
     All three of our cottages have bird feeders with regular visits from nuthatches, great
     spotted woodpeckers, blue tits, great tits, coal tits, long-tailed tits, siskins,
     blackcaps, redpolls, robins, dunnocks and tree creepers, along with jackdaws,
     ravens and crows. The garden is also visited by willow warblers, gold crests and
     spotted flycatchers.
-
 
     You don''t need to go far to start ticking off your list - a cup of tea and a
     window seat may be all you need.
@@ -51,11 +48,9 @@ blocks:
   subtitle: Curlews, lapwings, grouse and birds of prey
   content: '## Upland and Moorland Birds
 
-
     The open moorland and fields around Garsdale are home to oystercatchers and curlews,
     lapwings and meadow pipits and the occasional skylark. Grouse, pheasants and partridges
     can be found across the fields and moorlands.
-
 
     Raptors are regularly seen - tawny owls, barn owls and short-eared owls hunt the
     valley, along with kestrels, buzzards and sparrowhawks. On a walk up to Grisedale
@@ -70,11 +65,9 @@ blocks:
   subtitle: Herons, dippers and the elusive kingfisher
   content: '## River and Waterside Birds
 
-
     The River Clough runs through Garsdale and attracts herons, dippers, mallards
     and goosander. If you are very lucky, you may catch a glimpse of a kingfisher
     - rare sightings that make for unforgettable moments.
-
 
     Roger Pot sits just a short walk from the river, with on-site access through the
     owner''s four acres of land, while The Old Cart House has the river running alongside
@@ -93,18 +86,14 @@ blocks:
   subtitle: Every season brings something different
   content: '## Seasonal Highlights
 
-
     **Spring** brings the curlews arriving from the coast to nest, their distinctive
     calls echoing across the dale, along with cuckoos and the return of swallows.
-
 
     **Summer** sees swifts making their home in nearby Sedbergh, while spotted flycatchers
     and willow warblers visit the gardens.
 
-
     **Autumn** brings the departure of the swallows, and the owls can be heard calling
     from the trees as the evenings draw in.
-
 
     **Winter** visitors arrive in numbers - redwings and fieldfares, while the robin''s
     song carries through the cold air and the bird feeders become a hub of activity
@@ -117,7 +106,6 @@ blocks:
 - type: markdown
   content: '## Our Cottages
 
-
     Both properties are ideally placed for bird watching, with feeders attracting
     a wide variety of species and the surrounding countryside offering diverse habitats
     to explore.
@@ -126,10 +114,8 @@ blocks:
 - type: markdown
   content: '## Birding Walks from Garsdale
 
-
     There are walks directly from all three cottages that take you through excellent birding
     territory:
-
 
     - **The riverside path** - follow the River Clough for dippers, herons, goosander
     and the chance of a kingfisher sighting
@@ -145,8 +131,6 @@ blocks:
 
     - **Smardale Beck** - a fine vantage point from the old viaduct for spotting sparrowhawks,
     buzzards and treecreepers in this national nature reserve
-
-    {% include "business-details.html", place_slug: "smardale-gill-nature-reserve" %}
 
     '
 - type: features
@@ -177,7 +161,6 @@ blocks:
     name: Year-Round Birdlife
   intro_content: '## Why Garsdale for Bird Watching?
 
-
     A combination of habitats, peace and proximity to nature that is hard to match
 
     '
@@ -189,12 +172,10 @@ blocks:
     href: /contact/
   content: '## Book Your Birding Break
 
-
     Ready to explore one of the Yorkshire Dales'' best-kept birding secrets? Contact
     us directly.'
 - type: markdown
   content: '## References
-
 
     - RSPB — Royal Society for the Protection of Birds ([rspb.org.uk](https://www.rspb.org.uk/))
 
@@ -218,7 +199,6 @@ blocks:
     are regular visitors to the garden. Great spotted woodpeckers will frequent the
     bird feeders .
 
-
     In Spring siskins, redpolls, blackcaps, goldcrests , spotted and pied flycatchers
     and occasionally redstarts will be seen around the village. Spring will also bring
     cuckoos, swallows, swifts and house martins. Curlews and oystercatchers will move
@@ -227,34 +207,27 @@ blocks:
     put up swift boxes to encourage swifts to nest and Sedbergh does have a small
     swift nesting colony during the summer.
 
-
     Moorland ground nesting birds such as pheasants, grouse and partridges are all
     year round residents. A trip to Grisedale or Cotterdale nearby is ideal for birdwatching
     , particularly early evening as dusk is falling.
-
 
     At dusk barn owls and tawny owls can be see flitting across the fields and can
     be heard calling at night. With the many barns and old farm buildings , there
     is an abundance of nesting sites.
 
-
     Winter migrant birds arrive in great flocks: redwings and fieldfares will be seen
     in the fields and woodlands.
-
 
     The river also is a home to herons, dippers, the occasional kingfisher but also
     mallards and goosander . Pied and yellow wagtails will feed on the gnats above
     the river .
 
-
     Driving from Garsdale to Kirkby Stephen across the open moorland and by the river
     you may hear meadow pipits, skylarks,sandpipers, lapwings, along with Greylag
     and Canada geese.
 
-
     There are a number of birds of prey to be seen locally: buzzards and kestrels
     are often around but also sparrowhawks and red kites.
-
 
     I have found the Merlin Bird ID app is essential in helping to identify birds
     by their song and is lovely to use whilst out walking or just sitting enjoying

@@ -24,7 +24,6 @@ blocks:
 - type: split-image
   content: '## Sheep Farming
 
-
     All of the farms in Garsdale rear livestock, primarily sheep. The high annual
     rainfall, which can reach a hundred inches in a wet year, makes growing crops
     other than hay and silage virtually impossible. Swaledale sheep are the dominant
@@ -32,7 +31,6 @@ blocks:
     from the dale occasionally command impressive prices at Hawes auction mart. Sedbergh,
     the nearest town to the west, holds its own weekly livestock and produce market
     on Wednesdays, and some of the farms round here trade through both.
-
 
     Most of the dale''s eighteen or so working farms have absorbed several of the
     original smallholdings over the years, but the daily rhythms of farming life have
@@ -45,13 +43,11 @@ blocks:
 - type: split-image
   content: '## The Farming Year
 
-
     Staying in Garsdale means experiencing the farming calendar first-hand. In spring,
     the fields fill with lambs, racing around with their new companions and bleating
     desperately when they lose sight of their mothers. Hay-making follows in summer,
     with tractors moving up and down the roads and the sweet smell of cut grass drying
     in the fields.
-
 
     Through the autumn, sheep are gathered from the fells and moved between fields.
     In winter the dale can be harsh, with heavy rain, snow and short days, and the
@@ -64,11 +60,9 @@ blocks:
 - type: markdown
   content: '## Living Alongside Farming
 
-
     Visitors should expect to share the roads with tractors, livestock being moved
     between fields, and sheepdogs showing their expertise on the hillside. Gates should
     always be closed, and dogs must be kept on leads around livestock.
-
 
     The farming community is friendly and welcoming. Many of the farms have been in
     the same families for generations, and the people who work this land have a deep
@@ -81,11 +75,9 @@ blocks:
     href: /properties/
   content: '## Stay in Garsdale
 
-
     Book direct with local cottage owners for better prices and personal service.'
 - type: markdown
   content: '## References
-
 
     - Swaledale sheep — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Swaledale_sheep))
 

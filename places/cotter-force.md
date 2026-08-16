@@ -2,8 +2,10 @@
 name: Cotter Force
 search: Cotter Force, Cotterdale, Hawes, UK
 category: Waterfall
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/cotter-force/
+layout: base
+meta_title: Cotter Force | Waterfalls Near Garsdale
+meta_description: Cotter Force, a waterfall near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJlZlya6lufEgRpxqbzK3MI4Q
 google:
   name: Cotter Force
@@ -42,4 +44,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:16:43.895Z"
 last_fetched: "2026-08-16T11:16:49.753Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "cotter-force", wide: true %}
+          # Cotter Force
+          
+          Cotter Force is a waterfall in the small valley of Cotterdale, on the road between Garsdale Head and Hawes. There is a parking area nearby and the walk to the falls is flat and well-laid, with a tidy pathway beside the river leading to a series of small cascades rather than a single high drop. It was sketched by the painter J.M.W. Turner, and is a quieter alternative to Hardraw Force or Cautley Spout, worth seeking out if you enjoy having a place to yourself. An easy walk to add to a day heading into Wensleydale, and a good option for anyone wanting a short, level stroll without much climbing.
 ---

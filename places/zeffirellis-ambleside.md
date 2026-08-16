@@ -2,8 +2,10 @@
 name: Zeffirellis, Ambleside
 search: Zeffirellis, Ambleside, UK
 category: Restaurant
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/zeffirellis-ambleside/
+layout: base
+meta_title: Zeffirellis, Ambleside | Restaurants Near Garsdale
+meta_description: Zeffirellis, Ambleside, a restaurant near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJ07782e_qfEgRW5_-tSuTNPI
 google:
   name: Zeffirellis
@@ -13,7 +15,7 @@ google:
       - Restaurant
   address: Compston Rd, Ambleside LA22 9AD, United Kingdom
   phone: +44 15394 33845
-  phone_unformatted: +441539433845
+  phone_unformatted: 441539433845
   website: http://zeffirellis.com/
   location:
       lat: 54.4319823
@@ -27,4 +29,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:30:08.623Z"
 last_fetched: "2026-08-16T11:30:14.550Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "zeffirellis-ambleside", wide: true %}
+          # Zeffirellis, Ambleside
+          
+          Zeffirellis is a vegetarian restaurant and independent cinema in Ambleside, in the Lake District, around forty-five minutes' drive from Garsdale. It is one of the restaurants the cottage owners use regularly when travelling over to the lakes for the day. Zeffirellis has a cinema upstairs showing mainstream and art-house films, and a downstairs restaurant in Mediterranean vegetarian style, with always good food. The pooled cinema and restaurant make it particularly useful for an evening out - see a film, eat, walk down to the lake at Waterhead. While in Ambleside the cottage owners also use Doi Intanon, the Thai restaurant in the same town. Ambleside sits at the head of Windermere and is a natural centre for a day in the Lake District, accessed via the A591 from the M6 at Kendal or Oxenholme.
 ---

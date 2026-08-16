@@ -2,8 +2,10 @@
 name: Ingleborough Cave
 search: Ingleborough Cave, Clapham, UK
 category: Cave
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/ingleborough-cave/
+layout: base
+meta_title: Ingleborough Cave | Caves Near Garsdale
+meta_description: Ingleborough Cave, a cave near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJ50IjHER-fEgRaY-wIxVL_P8
 google:
   name: Ingleborough Cave
@@ -16,7 +18,7 @@ google:
       - Tour agency
   address: Ingleborough Cave, Clapham, Lancaster LA2 8EE, United Kingdom
   phone: +44 15242 51242
-  phone_unformatted: +441524251242
+  phone_unformatted: 441524251242
   website: http://www.ingleboroughcave.co.uk/
   location:
       lat: 54.1351971
@@ -45,4 +47,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:22:11.904Z"
 last_fetched: "2026-08-16T11:22:17.565Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "ingleborough-cave", wide: true %}
+          # Ingleborough Cave
+          
+          Ingleborough Cave is a show cave near Clapham at the foot of Ingleborough, one of the Yorkshire Three Peaks. The cave was opened to visitors in 1837 and has been a tourist attraction longer than most in the Dales, with a guided tour lasting the best part of an hour through a series of chambers, formations and underground lakes. It is a more structured experience than the local natural caves around Garsdale such as Tom Croft Cave and Dovecote Cave, with electric lighting throughout and no need to bring a torch. Combine a visit with Ingleton, White Scar Cave, the Ingleton Waterfalls Trail or a walk on the limestone pavement above Clapham. Sturdy footwear is sensible - the cave floor is uneven in places.
 ---

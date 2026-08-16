@@ -2,8 +2,10 @@
 name: Kendal Castle
 search: Kendal Castle, Kendal, UK
 category: Castle
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/kendal-castle/
+layout: base
+meta_title: Kendal Castle | Yorkshire Dales Castles
+meta_description: Kendal Castle, a castle near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJM_Q4b9uNfEgRrV6LCqFVhFA
 google:
   name: Kendal Castle
@@ -22,4 +24,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:22:48.341Z"
 last_fetched: "2026-08-16T11:22:54.269Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "kendal-castle", wide: true %}
+          # Kendal Castle
+          
+          Kendal Castle sits on a hill above the River Kent at the eastern edge of Kendal, the nearest big town to Garsdale and the local centre for supermarkets and main line rail connections via Oxenholme. The castle is a ruined medieval fortification, mostly dating from the twelfth and thirteenth centuries, and is best known as the ancestral home of the Parr family - Katherine Parr, the sixth wife of Henry VIII, lived here as a child. Standing walls and earthworks remain, with views out over the town and along the Kent valley; the site is open and free to enter. A short walk from the town centre is the Brewery Arts Centre, and Kendal is also home to the original Kendal Mint Cake - first made here in 1869 by Joseph Wiper.
 ---

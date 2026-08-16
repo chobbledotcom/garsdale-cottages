@@ -95,7 +95,14 @@ const emitObject = (obj, indent) => {
       lines.push(`${k}:`);
       for (const line of sub) lines.push(`${pad(indent + 1)}${line}`);
     } else {
-      lines.push(`${k}: ${emitScalar(v)}`);
+      if (typeof v === "string" && v.includes("\n")) {
+        lines.push(`${k}: |-`);
+        for (const line of v.split("\n")) {
+          lines.push(`${pad(indent + 1)}${line}`);
+        }
+      } else {
+        lines.push(`${k}: ${emitScalar(v)}`);
+      }
     }
   }
   return lines;

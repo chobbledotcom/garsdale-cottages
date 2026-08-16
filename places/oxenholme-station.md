@@ -2,8 +2,10 @@
 name: Oxenholme Station
 search: Oxenholme The Lake District Railway Station, Kendal, UK
 category: Station
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/oxenholme-station/
+layout: base
+meta_title: Oxenholme Station | Settle-Carlisle Railway
+meta_description: Oxenholme Station on the Settle-Carlisle railway near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJnbdwrWSOfEgRAASeAxGf-Q4
 google:
   name: Oxenholme
@@ -26,4 +28,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:24:08.143Z"
 last_fetched: "2026-08-16T11:24:13.884Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "oxenholme-station", wide: true %}
+          # Oxenholme Station
+          
+          Oxenholme station is on the West Coast Main Line near Kendal, and is the closest main line rail interchange to Garsdale. From Oxenholme, passengers can connect to the Settle-Carlisle railway at Carlisle or change at Kendal onto the branch line to Windermere. Taxis are regularly available at the station, which makes Oxenholme a useful alternative to Garsdale Station for guests travelling from London, Scotland or the south - the Settle-Carlisle service into Garsdale itself is more scenic but requires changes from the main line. The nearest town is Kendal, the closest big town to Garsdale, with large supermarkets, cafes and a Wednesday and Saturday market. From Oxenholme it is roughly a forty-minute drive up the A684 to the cottages in Garsdale.
 ---

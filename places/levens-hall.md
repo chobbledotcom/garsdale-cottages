@@ -2,8 +2,10 @@
 name: Levens Hall
 search: Levens Hall, Kendal, UK
 category: Garden
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/levens-hall/
+layout: base
+meta_title: Levens Hall | Gardens Near Garsdale
+meta_description: Levens Hall near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJATGBQCWQfEgRzZPryWHgNWk
 google:
   name: Levens Hall
@@ -14,7 +16,7 @@ google:
       - Historical landmark
   address: Levens Hall, Kendal LA8 0PD, United Kingdom
   phone: +44 15395 60321
-  phone_unformatted: +441539560321
+  phone_unformatted: 441539560321
   website: http://www.levenshall.co.uk/
   location:
       lat: 54.2590324
@@ -28,4 +30,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:23:12.219Z"
 last_fetched: "2026-08-16T11:23:18.047Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "levens-hall", wide: true %}
+          # Levens Hall
+          
+          Levens Hall is an Elizabethan mansion and gardens between Kendal and Milnthorpe, in the south of Cumbria, around forty-five minutes' drive from Garsdale. The house has a fine collection of period rooms, but the main draw is the topiary garden, laid out in 1694 by Guillaume Beaumont and one of the oldest and most extensive topiary gardens in the world; the clipped yew and box shapes, some of them three centuries old, include abstract geometric pieces, bird shapes and a seemingly impossible collection of oversized green curlicues. There is also a deer park, a working kitchen garden and a plant centre. Levens Hall is a good day out in its own right, and combines well with other National Trust and historic properties across Cumbria - Brougham Castle, Sizergh Castle and Holker Hall are nearby.
 ---

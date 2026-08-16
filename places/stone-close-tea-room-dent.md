@@ -2,8 +2,10 @@
 name: Stone Close Tea Room, Dent
 search: Stone Close Tea Room, Dent, UK
 category: Cafe
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/stone-close-tea-room-dent/
+layout: base
+meta_title: Stone Close Tea Room, Dent | Cafes Near Garsdale and Sedbergh
+meta_description: Stone Close Tea Room, Dent, a cafe near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJkaje-HdjfEgRWgN0H3AtXU8
 google:
   name: Stone Close Tea Room and B&B
@@ -13,7 +15,7 @@ google:
       - Cafe
   address: Main St, Dent, Sedbergh LA10 5QL, United Kingdom
   phone: +44 15396 25231
-  phone_unformatted: +441539625231
+  phone_unformatted: 441539625231
   website: http://www.stoneclose.com/
   location:
       lat: 54.278249
@@ -27,4 +29,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:27:27.781Z"
 last_fetched: "2026-08-16T11:27:33.487Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "stone-close-tea-room-dent", wide: true %}
+          # Stone Close Tea Room, Dent
+          
+          Stone Close is a tea room in Dent village, a small town in the next valley, Dentdale, reached from Garsdale over what is locally called the Coal Road past Garsdale Station. Dent has a cobbled main street, lovely walks from the village, and a good range of cafes, pubs and tea rooms - Stone Close is one of the favourites. A useful stop on a day out exploring Dentdale or as a base for a walk before or after the Sedgwick Geological Trail at Danny Bridge, which sits a few miles east along the A684. Dent itself has a memorial to Adam Sedgwick, born in the village in 1785, who became one of the founders of modern geology; the Sedgwick Museum in Cambridge is named after him. The tea room is in easy walking distance of the cobbled main street.
 ---

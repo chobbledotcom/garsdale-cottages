@@ -2,8 +2,10 @@
 name: Hardraw Force
 search: Hardraw Force, Hardraw, Hawes, UK
 category: Waterfall
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/hardraw-force/
+layout: base
+meta_title: Hardraw Force | Waterfalls Near Garsdale
+meta_description: Hardraw Force, a waterfall near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJU4cpOkJtfEgR95tiJUe-irc
 google:
   name: Hardraw Force
@@ -13,7 +15,7 @@ google:
       - Tourist attraction
   address: Hardraw, Leyburn DL8 3LZ, United Kingdom
   phone: +44 1969 667572
-  phone_unformatted: +441969667572
+  phone_unformatted: 441969667572
   website: http://www.hardrawforce.com/heritage.html
   location:
       lat: 54.3194702
@@ -42,4 +44,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:21:34.184Z"
 last_fetched: "2026-08-16T11:21:39.852Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "hardraw-force", wide: true %}
+          # Hardraw Force
+          
+          Hardraw Force is in Hardraw, near to Hawes, and is one of the tallest single-drop waterfalls in England. The walk to the falls starts behind the Green Dragon Inn, which is well worth a visit in its own right for food and its regular Wednesday music night. There is a small entrance fee to enter the waterfall walk, but it is lovely, particularly if there has been rain. The walk is fairly flat and well laid out, with pathways, some seating and lovely views as well as the waterfall itself. Film fans may recognise it as the setting for the famous waterfall scene in *Robin Hood: Prince of Thieves*. Most waterfalls nearby are free to visit, but Hardraw's modest fee preserves the path and the unbroken view, which is the better deal of the two.
 ---

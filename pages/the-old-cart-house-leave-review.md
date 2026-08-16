@@ -38,7 +38,6 @@ blocks:
     '
   intro_content: '## Send your review directly
 
-
     Prefer to email us your feedback? Fill in the form and it will come
 
     straight through to Jack and Loraine.

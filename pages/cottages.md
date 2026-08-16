@@ -21,10 +21,8 @@ blocks:
 - type: markdown
   content: '## Holiday Cottages near Sedbergh
 
-
     A cooperative of holiday cottages near Sedbergh in Garsdale - book directly for
     better prices and personal service
-
 
     Garsdale Cottages is a cooperative of holiday cottages near Sedbergh in the Garsdale
     area of the Yorkshire Dales. The website enables those visiting Sedbergh and Garsdale
@@ -79,7 +77,6 @@ blocks:
     name: Support Local Owners
   intro_content: '## Why Book Direct?
 
-
     Booking directly with the individual holiday cottages enables guests to access
     great prices without the additional costs of expensive booking fees
 
@@ -90,11 +87,9 @@ blocks:
     href: /contact/
   content: '## Get in Touch
 
-
     Ready to book your stay near Sedbergh? Contact us directly.'
 - type: markdown
   content: '## References
-
 
     - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
 

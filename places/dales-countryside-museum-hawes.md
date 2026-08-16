@@ -2,8 +2,10 @@
 name: Dales Countryside Museum, Hawes
 search: Dales Countryside Museum, Hawes, UK
 category: Museum
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/dales-countryside-museum-hawes/
+layout: base
+meta_title: Dales Countryside Museum, Hawes | Yorkshire Dales Museums
+meta_description: Dales Countryside Museum, Hawes, a museum near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJnZHI-EFsfEgR5PJ4PLEysew
 google:
   name: Dales Countryside Museum
@@ -13,7 +15,7 @@ google:
       - Tourist attraction
   address: Station Yard, Burtesette Road, Burtersett Rd, Hawes DL8 3NT, United Kingdom
   phone: +44 1969 666210
-  phone_unformatted: +441969666210
+  phone_unformatted: 441969666210
   website: http://www.dalescountrysidemuseum.org.uk/
   location:
       lat: 54.3045772
@@ -42,4 +44,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:17:18.451Z"
 last_fetched: "2026-08-16T11:17:24.151Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "dales-countryside-museum-hawes", wide: true %}
+          # Dales Countryside Museum, Hawes
+          
+          The Dales Countryside Museum is in Hawes, roughly nine miles east of Garsdale, housed in the town's former railway station on the Wensleydale Railway. It has exhibitions on the geology, farming history and natural history of the Yorkshire Dales, including material on local industries such as lead mining, sheep farming and dry stone walls. There are family-friendly events throughout the year. The museum is a useful rainy-day retreat and works well in combination with the Wensleydale Creamery, the market on Tuesday mornings and the craft shops and cafes of Hawes town. Hawes itself is also the western end of a section of the Pennine Way, and a fifteen-minute drive from Garsdale.
 ---

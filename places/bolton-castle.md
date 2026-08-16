@@ -2,8 +2,10 @@
 name: Bolton Castle
 search: Bolton Castle, Castle Bolton, UK
 category: Castle
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/bolton-castle/
+layout: base
+meta_title: Bolton Castle | Yorkshire Dales Castles
+meta_description: Bolton Castle, a castle near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJgYM229AQfEgRp8rLR8soNY8
 google:
   name: Bolton Castle
@@ -15,7 +17,7 @@ google:
       - Tourist attraction
   address: Nr, Leyburn DL8 4ET, United Kingdom
   phone: +44 1969 623981
-  phone_unformatted: +441969623981
+  phone_unformatted: 441969623981
   website: http://boltoncastle.co.uk/
   location:
       lat: 54.3221224
@@ -28,4 +30,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:15:16.716Z"
 last_fetched: "2026-08-16T11:15:23.578Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "bolton-castle", wide: true %}
+          # Bolton Castle
+          
+          Bolton Castle stands above the village of Castle Bolton in Wensleydale, around half an hour's drive from Garsdale. It is an impressive sight, particularly at night when it is lit up and visible from miles around. By day, it is well worth a visit as the site where Mary Queen of Scots was once held prisoner. The castle is a tall rectangular medieval fortress, largely intact, with restored interiors, gardens and a programme of events including birds of prey displays. Combine it with a day in upper Wensleydale - the village of Castle Bolton, Aysgarth Falls, the Wensleydale Creamery at Hawes and the Dales Countryside Museum all sit within easy reach.
 ---

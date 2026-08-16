@@ -24,11 +24,9 @@ blocks:
 - type: split-image
   content: '## The Walk
 
-
     The Sedgwick Trail starts at Danny Bridge on the A684 between Sedbergh and Garsdale,
     at Longstone Common. It runs for about 600 metres along the riverbank, with information
     boards at intervals explaining the geology underfoot.
-
 
     The trail crosses the Dent Fault, one of the most significant geological features
     in northern England. This ancient fracture in the earth''s crust raised the rocks
@@ -36,7 +34,6 @@ blocks:
     the Yorkshire Dales side. Walking along the trail, the change in landscape is
     quite visible as you move from Carboniferous limestone onto the older, fine-grained
     Silurian mudstones.
-
 
     Care should be taken along the steep riverbanks, particularly after rain.
 
@@ -47,18 +44,15 @@ blocks:
 - type: split-image
   content: '## Adam Sedgwick
 
-
     The trail is named after Adam Sedgwick, one of the founders of modern geology,
     who was born in nearby Dent in 1785. The son of the village vicar, Sedgwick attended
     Sedbergh School before winning a scholarship to Cambridge, where he went on to
     become the Woodwardian Professor of Geology.
 
-
     Sedgwick proposed the Cambrian period of the geological timescale and, together
     with Roderick Murchison, established the Devonian period. He was also a mentor
     to the young Charles Darwin, though he later disagreed with Darwin''s theory of
     natural selection.
-
 
     Sedgwick returned to Dent throughout his life. A memorial fountain carved from
     Shap granite stands in Dent''s high street, and a museum at Cambridge bears his
@@ -91,11 +85,9 @@ blocks:
     href: /properties/
   content: '## Stay in Garsdale
 
-
     Book direct with local cottage owners for better prices and personal service.'
 - type: markdown
   content: '## References
-
 
     - Adam Sedgwick — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
 

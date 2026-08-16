@@ -29,12 +29,10 @@ blocks:
   center: false
   intro_content: '## Contact Details
 
-
     '
 - type: markdown
   dark: false
   content: '## Property Owners
-
 
     If you are interested in joining the Garsdale Cottages cooperative please contact
     Jack at [jackbutterworth@hotmail.com](mailto:jackbutterworth@hotmail.com). Paul

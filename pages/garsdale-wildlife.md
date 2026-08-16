@@ -52,7 +52,6 @@ blocks:
 - type: split-video
   content: '## Mammals
 
-
     The native red squirrel is the star resident. Garsdale is one of the key strongholds
     for this endangered species in England. They can be spotted along the woodland
     paths, by the river, and occasionally in the cottage gardens. Much of the conservation
@@ -60,7 +59,6 @@ blocks:
     group, based in the nearest town, and sightings reported by walkers help them track
     how the population is faring. [More about red
     squirrels in Garsdale](/red-squirrels-in-garsdale/).
-
 
     Otters have returned to the River Clough. The Environment Agency confirmed their
     presence through spraints and footprints during surveys, and their numbers across
@@ -86,19 +84,16 @@ blocks:
 - type: split-image
   content: '## Birds
 
-
     The birdlife here is exceptional. Over fifty species have been recorded in and
     around the cottages. Garden feeders attract nuthatches, great spotted woodpeckers,
     several species of tit, siskins, blackcaps, redpolls, robins and treecreepers.
     The river is home to herons, dippers, mallards and goosander, with rare kingfisher
     sightings that make for unforgettable moments.
 
-
     In spring, curlews arrive from the coast to nest on the moorland, and their evocative
     calls become the soundtrack to the dale. Cuckoos visit, swallows return, and short-eared
     owls can be seen hunting over Grisedale in the early evening. Winter brings large
     flocks of redwings and fieldfares.
-
 
     For more detail, see our [Bird Watching in Garsdale](/bird-watching-properties/)
     page.
@@ -110,13 +105,11 @@ blocks:
 - type: markdown
   content: '## The River Clough
 
-
     The Clough has benefited from conservation work in recent years. A large culvert
     was installed at Winterscales Farm, funded by the Lune Rivers Trust, to replace
     an easily blocked pipe bridge and allow migratory fish and eels to pass upstream.
     The return of otters and the improving fish population are signs of a river recovering
     well.
-
 
     Walkers along the riverbanks may notice Himalayan Balsam, an attractive pink-flowered
     plant that has spread along the Clough. It is invasive but hard to miss in late
@@ -126,11 +119,9 @@ blocks:
 - type: split-image
   content: '## Wildflowers and Hedgerows
 
-
     The hay meadows in and around Garsdale are managed in the traditional way, allowing
     wildflowers to flourish. Meadow buttercup, eyebright and red clover are common
     in the fields during spring and summer.
-
 
     The hedgerows produce an abundance of fruit through the summer and into autumn,
     including wild raspberries, blackberries, sloes and hazelnuts.
@@ -141,7 +132,6 @@ blocks:
   reverse: true
 - type: markdown
   content: '## Dark Skies
-
 
     With no street lighting and very little light pollution, Garsdale offers remarkable
     stargazing. The area is Dark Sky friendly, and on a clear night the Milky Way
@@ -156,11 +146,9 @@ blocks:
     href: /properties/
   content: '## Stay in Garsdale
 
-
     Book direct with local cottage owners for better prices and personal service.'
 - type: markdown
   content: '## References
-
 
     - Red Squirrels Northern England ([rsne.org](https://rsne.org))
 

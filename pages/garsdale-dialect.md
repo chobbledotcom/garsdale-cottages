@@ -26,7 +26,6 @@ blocks:
 - type: split-image
   content: '## A Selection of Garsdale Words
 
-
     - **addle** -- to earn ("he addled a good wage")
 
     - **bairn** or **barn** -- a child
@@ -69,7 +68,6 @@ blocks:
 - type: markdown
   content: '## Heeafed Sheep
 
-
     One word worth knowing is *heeaf*, because it explains something fundamental about
     hill farming in the dales. Fell sheep are "heeafed" to a particular area of open
     moorland, meaning they learn from their mothers where to graze and they stay there,
@@ -81,10 +79,8 @@ blocks:
 - type: markdown
   content: '## More Words from the Old Garsdale Glossary
 
-
     The old Garsdale community site preserved a longer local glossary. Some useful
     examples are:
-
 
     - **appen** -- perhaps, maybe
 
@@ -135,11 +131,9 @@ blocks:
     href: /properties/
   content: '## Stay in Garsdale
 
-
     Book direct with local cottage owners for better prices and personal service.'
 - type: markdown
   content: '## References
-
 
     - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
 

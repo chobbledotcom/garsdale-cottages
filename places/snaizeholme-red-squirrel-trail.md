@@ -2,8 +2,10 @@
 name: Snaizeholme Red Squirrel Trail
 search: Snaizeholme Red Squirrel Trail, Hawes, UK
 category: Attraction
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/snaizeholme-red-squirrel-trail/
+layout: base
+meta_title: Snaizeholme Red Squirrel Trail | Things To Do Near Garsdale
+meta_description: Snaizeholme Red Squirrel Trail near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJ1TJZ_RNvfEgRNB0tScogfGI
 google:
   name: Snaizeholme Red Squirrel Trail
@@ -12,7 +14,7 @@ google:
       - Hiking area
   address: Snaizeholme Rd, Hawes DL8 3NB, United Kingdom
   phone: +44 1969 666210
-  phone_unformatted: +441969666210
+  phone_unformatted: 441969666210
   website: https://www.yorkshiredales.org.uk/things-to-do/get-outdoors/red-squirrel-trail/
   location:
       lat: 54.2790771
@@ -26,4 +28,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:26:14.141Z"
 last_fetched: "2026-08-16T11:26:19.792Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "snaizeholme-red-squirrel-trail", wide: true %}
+          # Snaizeholme Red Squirrel Trail
+          
+          The Snaizeholme Red Squirrel Trail, near Hawes, is one of seventeen designated Red Squirrel Refuges in northern England. It is a managed woodland area with feeding stations and hides, making it a reliable place to see reds if you want a guaranteed sighting during a stay in the Dales. The trail is about a twenty-minute drive from Garsdale. The woodland is managed specifically for red squirrels as a buffer against the grey squirrel advance that has displaced reds across most of England, with fewer than 30,000 red squirrels thought to survive today, most of them in the north. Garsdale itself sits within what conservationists call a core area for red squirrels, sometimes referred to as the Greenfields Stronghold, so reds can often be seen from the cottage gardens and on local walks - Snaizeholme is the back-up if nature doesn't oblige.
 ---

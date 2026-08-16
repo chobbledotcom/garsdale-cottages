@@ -2,8 +2,10 @@
 name: The Sportsman's Inn at Cowgill
 search: Sportsman's Inn, Cowgill, Dent, UK
 category: Pub
-permalink: false
-eleventyExcludeFromCollections: true
+permalink: /places/sportsmans-inn-cowgill/
+layout: base
+meta_title: The Sportsman's Inn at Cowgill | Pubs Near Garsdale and Sedbergh
+meta_description: The Sportsman's Inn at Cowgill, a pub near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJyRnsqAdlfEgRFOMVTBreIlc
 google:
   name: The Sportsman's Inn
@@ -12,7 +14,7 @@ google:
       - Inn
   address: Sedbergh LA10 5RG, United Kingdom
   phone: +44 15396 25282
-  phone_unformatted: +441539625282
+  phone_unformatted: 441539625282
   website: http://www.thesportsmansinn.com/
   location:
       lat: 54.2720543
@@ -26,4 +28,11 @@ google:
   temporarily_closed: false
   scraped_at: "2026-08-16T11:26:52.398Z"
 last_fetched: "2026-08-16T11:26:58.489Z"
+blocks:
+  - type: markdown
+    content: |-
+          {% include "business-details.html", place_slug: "sportsmans-inn-cowgill", wide: true %}
+          # The Sportsman's Inn, Cowgill
+          
+          The Sportsman's Inn at Cowgill is a family-owned seventeenth-century Grade II listed country inn in Dentdale, accessible over the Coal Road past Garsdale Station - a very scenic high route that crosses open moorland and brings you down into Dentdale. The inn sits on the Dales Way and is close to Dent station on the Settle-Carlisle line, making it a useful pub for walkers, cyclists and rail travellers combining different parts of the Dales on a single itinerary. Dent itself is a pretty village with a cobbled main street, lovely walks and a good range of cafes and tea rooms - a longer visit can take in the Sedgwick Geological Trail at Danny Bridge and the memorial to Adam Sedgwick, born in Dent in 1785. The Sportsman's is one of the dog-friendly pubs in the area, the more so since Dentdale is a walkable day out from the cottages.
 ---
