@@ -161,9 +161,8 @@ article#content {
   }
 
   &__inner {
-    border: var(--border, 2px solid var(--color-text, currentColor));
-    border-radius: var(--border-radius, 3px);
     background: var(--color-card-bg, #f4f1e5);
+    border-radius: var(--border-radius, 3px);
     overflow: hidden;
     font-size: 0.9rem;
     line-height: 1.4;
@@ -189,36 +188,18 @@ article#content {
   }
 
   &__body {
-    .business-details--wide & {
-      padding: 0;
-    }
-  }
-
-  &__title {
-    margin: 0;
-    padding: 0.6rem 0.75rem;
-    font-family: var(--font-family-heading, inherit);
-    font-size: 1.1rem;
-    line-height: 1.2;
-    background: var(--color-tint, var(--light-green, #e2eec7));
-    color: var(--color-text, inherit);
+    padding: 0.5rem 0.75rem;
 
     .business-details--wide & {
-      font-size: 1.25rem;
       padding: 0.75rem 1rem;
     }
   }
 
   &__subtitle {
-    margin: 0;
-    padding: 0.25rem 0.75rem 0.5rem;
+    margin: 0 0 0.25rem;
     font-size: 0.8rem;
     color: var(--color-text-muted, var(--light-brown, #a58368));
     text-transform: capitalize;
-
-    .business-details--wide & {
-      padding: 0.25rem 1rem 0.5rem;
-    }
   }
 
   &__closed {
@@ -267,13 +248,7 @@ article#content {
     flex-wrap: wrap;
     align-items: baseline;
     gap: 0.3rem;
-    margin: 0;
-    padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-
-    .business-details--wide & {
-      padding: 0.5rem 1rem;
-    }
+    margin: 0 0 0.5rem;
   }
 
   &__stars { color: #f5a623; font-size: 1rem; }
@@ -289,11 +264,12 @@ article#content {
   &__row {
     display: flex;
     gap: 0.75rem;
-    padding: 0.35rem 0.75rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 0.35rem 0;
     align-items: baseline;
 
-    &:last-child { border-bottom: none; }
+    &:not(:last-child) {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
 
     dt {
       margin: 0;
@@ -310,21 +286,17 @@ article#content {
       margin: 0;
       word-break: break-word;
     }
-
-    .business-details--wide & {
-      padding: 0.35rem 1rem;
-    }
   }
 
   &__hours {
     width: auto;
+    margin: 0.5rem 0;
     border-collapse: collapse;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 0.82rem;
 
     caption {
       text-align: left;
-      padding: 0.4rem 0.75rem;
+      padding: 0 0 0.25rem;
       font-size: 0.75rem;
       font-weight: 600;
       text-transform: uppercase;
@@ -334,39 +306,34 @@ article#content {
     }
 
     th, td {
-      padding: 0.3rem 0.75rem;
+      padding: 0.2rem 0;
       text-align: left;
       vertical-align: top;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     }
 
-    th { font-weight: 600; white-space: nowrap; }
-    tr:last-child th, tr:last-child td { border-bottom: none; }
-
-    .business-details--wide & {
-      th, td { padding: 0.3rem 1rem; }
-    }
+    th { font-weight: 600; white-space: nowrap; padding-right: 0.75rem; }
   }
 
   &__map-link {
-    display: block;
-    padding: 0.55rem 0.75rem;
-    text-align: center;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-decoration: none;
-    background: var(--color-tint, var(--light-green, #e2eec7));
-    color: var(--color-text, inherit);
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-
-    &:hover, &:focus {
-      background: var(--dark-green, #34430d);
-      color: #fff;
-      text-decoration: none;
-    }
-
-    .business-details--wide & {
-      padding: 0.65rem 1rem;
-    }
+    margin-top: 0.75rem;
   }
+}
+
+/* Override prose table styles that force min-width: 100% and add borders */
+.prose .business-details__hours {
+  min-width: 0;
+  border: none;
+  border-radius: 0;
+}
+.prose .business-details__hours th,
+.prose .business-details__hours td {
+  border: none;
+  border-top: none;
+}
+.prose .business-details__hours tbody tr:nth-child(even) {
+  background: transparent;
+}
+.prose .business-details__hours thead {
+  background: transparent;
+  color: inherit;
 }

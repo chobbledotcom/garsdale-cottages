@@ -40,7 +40,6 @@ Renders nothing if the place has no cached `google` data.
     {%- endif %}
 
     <div class="business-details__body">
-      <h3 class="business-details__title">{{ g.name | default: place.name }}</h3>
       {%- if g.category_name %}
         <p class="business-details__subtitle">{{ g.category_name }}</p>
       {%- endif %}
@@ -94,19 +93,6 @@ Renders nothing if the place has no cached `google` data.
             <dd>{{ g.plus_code }}</dd>
           </div>
         {%- endif %}
-
-        {%- if g.location %}
-          <div class="business-details__row">
-            <dt>Map</dt>
-            <dd>
-              <a
-                href="https://www.google.com/maps/search/?api=1&query={{ g.location.lat }},{{ g.location.lng }}"
-                rel="noopener noreferrer"
-                target="_blank"
-              >View on map</a>
-            </dd>
-          </div>
-        {%- endif %}
       </dl>
 
       {%- if g.opening_hours and g.opening_hours.size > 0 %}
@@ -120,17 +106,16 @@ Renders nothing if the place has no cached `google` data.
         </table>
       {%- endif %}
 
-      {%- if g.url %}
+      {%- assign map_url = g.url -%}
+      {%- unless map_url -%}
+        {%- if place.google_place_id -%}
+          {%- assign map_url = "https://www.google.com/maps/place/?q=place_id:" | append: place.google_place_id -%}
+        {%- endif -%}
+      {%- endunless -%}
+      {%- if map_url %}
         <a
-          class="business-details__map-link"
-          href="{{ g.url }}"
-          rel="noopener noreferrer"
-          target="_blank"
-        >View on Google Maps →</a>
-      {%- elsif place.google_place_id %}
-        <a
-          class="business-details__map-link"
-          href="https://www.google.com/maps/place/?q=place_id:{{ place.google_place_id }}"
+          class="btn btn--secondary business-details__map-link"
+          href="{{ map_url }}"
           rel="noopener noreferrer"
           target="_blank"
         >View on Google Maps →</a>
