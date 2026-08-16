@@ -28,4 +28,20 @@ blocks:
     reverse: true
     content: Askrigg is a small Wensleydale village a short drive from Hawes, around fifteen minutes from Garsdale over the A684. It is of particular interest to James Herriot fans, as the village served as the setting for the TV series *All Creatures Great and Small*, filmed here in the 1970s and 1980s. The village has a stone-built character typical of upper Wensleydale, with a green, a church and a handful of shops and pubs. It sits beneath Addlebrough and looks out across the dale towards Semerwater and Raydale. A useful stop on a Wensleydale day out, easily combined with Hawes, the Wensleydale Creamery or a walk to Aysgarth Falls.
     figure_html: "{% include \"business-details.html\", place_slug: \"askrigg-village\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Askrigg village
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Askrigg village.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Semerwater](/places/semerwater/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Brough Castle](/places/brough-castle/)
+          - [Things To Do](/things-to-do/)
 ---

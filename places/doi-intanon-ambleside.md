@@ -51,4 +51,21 @@ blocks:
     reverse: true
     content: Doi Intanon is a Thai restaurant in Ambleside, in the Lake District, around forty-five minutes' drive from Garsdale. It is one of the restaurants the cottage owners use regularly when travelling over to the lakes for the day. Ambleside itself is a useful day-trip destination from the dale, with a good range of shops and eating places, and one that combines well with a visit to Zeffirellis, the cinema and vegetarian restaurant that is the other obvious draw. The A684 across to the lakes is one of the most scenic drives in the area, particularly the section over to Kirkby Lonsdale and on into the national park. Worth booking a table at Doi Intanon in advance, particularly in peak season.
     figure_html: "{% include \"business-details.html\", place_slug: \"doi-intanon-ambleside\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Doi Intanon
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Doi Intanon.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Zeffirellis, Ambleside](/places/zeffirellis-ambleside/)
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Things To Do](/things-to-do/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
 ---

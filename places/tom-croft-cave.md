@@ -13,4 +13,22 @@ blocks:
     reverse: true
     content: Tom Croft Cave is one of two natural caves accessible locally in the Garsdale area, the other being Dovecote Cave. They are natural caves rather than commercial show caves, so bring a torch and take care inside, and locations are marked on the Garsdale Ordnance Survey maps rather than signed from the road. For a more structured experience, White Scar Cave near Ingleton is the longest show cave in Britain, with guided tours lasting about eighty minutes, and Ingleborough Cave near Clapham is another fine show cave set beneath one of the Three Peaks. For the local caves, plan the route in advance, wear sturdy footwear, and do not go alone - the cave floors are uneven and the chambers are unlit. The geology around Garsdale is among the most interesting in England, with the Dent Fault running through the area as explained on the Sedgwick Geological Trail at Danny Bridge.
     figure_html: "{% include \"business-details.html\", place_slug: \"tom-croft-cave\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Tom Croft Cave
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Tom Croft Cave.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Dovecote Cave](/places/dovecote-cave/)
+          - [Ingleborough Cave](/places/ingleborough-cave/)
+          - [White Scar Cave](/places/white-scar-cave/)
+          - [Cotter Force](/places/cotter-force/)
+          - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/)
+          - [Caves and Geology](/caves-and-geological-features/)
+          - [Things To Do](/things-to-do/)
+          - [Walks](/walks/)
 ---

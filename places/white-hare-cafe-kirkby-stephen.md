@@ -52,4 +52,21 @@ blocks:
     reverse: true
     content: The White Hare Cafe is in Kirkby Stephen, an old market town with a good range of shops, cafes and pubs, around a twenty-minute drive from Garsdale over the A684. The cafe has an acoustic night once a month, open to musicians, singers and poets to attend and take part. Kirkby Stephen itself sits on the upper Eden and the Settle-Carlisle line, with Kirkby Stephen station noted for its position on the railway, and the town marks one end of the Lady Anne Clifford route through the Eden valley - taking in Pendragon Castle, Brough Castle and Appleby Castle. The upper Eden valley is also where the Coast to Coast Walk passes between Kirkby Stephen and Kirkby Ireleth, making the White Hare Cafe a useful stop for walkers heading across the country.
     figure_html: "{% include \"business-details.html\", place_slug: \"white-hare-cafe-kirkby-stephen\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near White Hare Cafe
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting White Hare Cafe.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Stone Close Tea Room, Dent](/places/stone-close-tea-room-dent/)
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Things To Do](/things-to-do/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
 ---

@@ -50,4 +50,22 @@ blocks:
     reverse: true
     content: The Forbidden Corner at Middleham, near Leyburn, is a curious labyrinth of tunnels, chambers, follies and surprises set within a four-acre garden in Coverdale. It is a delightful experience for children and has been featured on CBBC shows. It is one of the more child-friendly attractions within travelling distance of Garsdale, suited to a day out with primary-age children rather than toddlers or teenagers who want more adrenaline - for older children the Lake District alternatives such as Honister Slate Mine or Go Ape at Grizedale Forest are the obvious swap. Middleham itself is across the dale from Hawes and Aysgarth Falls, so a visit can be combined with other upper Wensleydale stops or with Bolton Castle, which sits on the hill above the village and is one of the more impressive sights in the area when lit up at night.
     figure_html: "{% include \"business-details.html\", place_slug: \"the-forbidden-corner-middleham\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Forbidden Corner
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Forbidden Corner.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
+          - [Ruskin's View, Kirkby Lonsdale](/places/ruskins-view-kirkby-lonsdale/)
+          - [Semerwater](/places/semerwater/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Brough Castle](/places/brough-castle/)
 ---

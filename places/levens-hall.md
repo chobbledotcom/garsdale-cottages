@@ -37,4 +37,19 @@ blocks:
     reverse: true
     content: Levens Hall is an Elizabethan mansion and gardens between Kendal and Milnthorpe, in the south of Cumbria, around forty-five minutes' drive from Garsdale. The house has a fine collection of period rooms, but the main draw is the topiary garden, laid out in 1694 by Guillaume Beaumont and one of the oldest and most extensive topiary gardens in the world; the clipped yew and box shapes, some of them three centuries old, include abstract geometric pieces, bird shapes and a seemingly impossible collection of oversized green curlicues. There is also a deer park, a working kitchen garden and a plant centre. Levens Hall is a good day out in its own right, and combines well with other National Trust and historic properties across Cumbria - Brougham Castle, Sizergh Castle and Holker Hall are nearby.
     figure_html: "{% include \"business-details.html\", place_slug: \"levens-hall\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Levens Hall
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Levens Hall.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Things To Do](/things-to-do/)
 ---

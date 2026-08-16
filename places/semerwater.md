@@ -33,4 +33,19 @@ blocks:
     reverse: true
     content: Semerwater is the closest lake to Garsdale, around a half-hour drive away, and is one of only two remaining natural glacial lakes in the Yorkshire Dales (the other being Malham Tarn). It sits in the small dale of Raydale, near the village of Countersett, in upper Wensleydale. There are footpaths and walks from and around the lake, with fantastic views over the water and the hills behind, and a small stretch of shore where boats can launch. The lake is the subject of a local folk tale - the usual drowned-village story, this time cursed by a poor man refused food and shelter, with only a cottage's generosity spared. Semerwater makes an easy addition to a Wensleydale day out, joining Bolton Castle, Aysgarth Falls and Hawes on a circular route from the dale.
     figure_html: "{% include \"business-details.html\", place_slug: \"semerwater\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Semerwater
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Semerwater.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Things To Do](/things-to-do/)
 ---

@@ -50,4 +50,22 @@ blocks:
     reverse: true
     content: White Scar Cave is near Ingleton in the western Dales, and is the longest show cave in Britain. Guided tours run throughout the day and last about eighty minutes, taking in a series of underground chambers, formations, streams and a notable cavern called the Battlefield, with its flowstone formations. The cave is a more structured experience than the natural local caves around Garsdale such as Tom Croft Cave and Dovecote Cave - electric lighting throughout, no need to bring a torch, and a guide to point out the geology. It works well in combination with the Ingleton Waterfalls Trail, which is just up the road, with Ingleborough Cave at Clapham further along, or with a day exploring the Three Peaks. Children enjoy it, and the temperature underground stays steady year-round, which makes it a useful rainy-day option as well.
     figure_html: "{% include \"business-details.html\", place_slug: \"white-scar-cave\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near White Scar Cave
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting White Scar Cave.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Ingleborough Cave](/places/ingleborough-cave/)
+          - [Cotter Force](/places/cotter-force/)
+          - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/)
+          - [Dovecote Cave](/places/dovecote-cave/)
+          - [Tom Croft Cave](/places/tom-croft-cave/)
+          - [Caves and Geology](/caves-and-geological-features/)
+          - [Things To Do](/things-to-do/)
+          - [Walks](/walks/)
 ---

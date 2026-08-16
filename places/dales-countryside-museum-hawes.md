@@ -51,4 +51,20 @@ blocks:
     reverse: true
     content: The Dales Countryside Museum is in Hawes, roughly nine miles east of Garsdale, housed in the town's former railway station on the Wensleydale Railway. It has exhibitions on the geology, farming history and natural history of the Yorkshire Dales, including material on local industries such as lead mining, sheep farming and dry stone walls. There are family-friendly events throughout the year. The museum is a useful rainy-day retreat and works well in combination with the Wensleydale Creamery, the market on Tuesday mornings and the craft shops and cafes of Hawes town. Hawes itself is also the western end of a section of the Pennine Way, and a fifteen-minute drive from Garsdale.
     figure_html: "{% include \"business-details.html\", place_slug: \"dales-countryside-museum-hawes\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Dales Countryside Museum
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Dales Countryside Museum.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Cotter Force](/places/cotter-force/)
+          - [Dovecote Cave](/places/dovecote-cave/)
+          - [Ingleborough Cave](/places/ingleborough-cave/)
+          - [Tom Croft Cave](/places/tom-croft-cave/)
+          - [Caves and Geology](/caves-and-geological-features/)
+          - [Things To Do](/things-to-do/)
 ---

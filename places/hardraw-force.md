@@ -51,4 +51,21 @@ blocks:
     reverse: true
     content: "Hardraw Force is in Hardraw, near to Hawes, and is one of the tallest single-drop waterfalls in England. The walk to the falls starts behind the Green Dragon Inn, which is well worth a visit in its own right for food and its regular Wednesday music night. There is a small entrance fee to enter the waterfall walk, but it is lovely, particularly if there has been rain. The walk is fairly flat and well laid out, with pathways, some seating and lovely views as well as the waterfall itself. Film fans may recognise it as the setting for the famous waterfall scene in *Robin Hood: Prince of Thieves*. Most waterfalls nearby are free to visit, but Hardraw's modest fee preserves the path and the unbroken view, which is the better deal of the two."
     figure_html: "{% include \"business-details.html\", place_slug: \"hardraw-force\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Hardraw Force
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Hardraw Force.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Askrigg](/places/askrigg-village/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Brough Castle](/places/brough-castle/)
+          - [Things To Do](/things-to-do/)
+          - [Walks](/walks/)
 ---

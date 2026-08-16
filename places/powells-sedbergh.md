@@ -51,4 +51,21 @@ blocks:
     reverse: true
     content: Powells is a grocery shop in Sedbergh, the nearest town to Garsdale, around six miles west of the cottages. It has a good selection of groceries along with fruit and vegetables, and is a sensible first stop for provisions on the way into the dale. Most cottage guests are advised to bring groceries for the first day or two, given that the closest shops are six miles away, and Powells and the Spar are the two main options in Sedbergh for everyday provisions. Sedbergh itself also has a small weekly market on Wednesday mornings and summer artisan markets once a month; combine a shopping trip with the bookshops and the craft and gift shops on the high street, and maybe tea at one of the cafes, for a slower start to a holiday week.
     figure_html: "{% include \"business-details.html\", place_slug: \"powells-sedbergh\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages in Garsdale
+          
+          Our three self-catering cottages in Garsdale are a short drive from Powells. Book direct for the best rates.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Spar, Sedbergh](/places/spar-sedbergh/)
+          - [W.R. Outhwaite & Son, Hawes](/places/wr-outhwaite-and-son-hawes/)
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Things To Do](/things-to-do/)
 ---

@@ -35,4 +35,16 @@ blocks:
     reverse: true
     content: The Snaizeholme Red Squirrel Trail, near Hawes, is one of seventeen designated Red Squirrel Refuges in northern England. It is a managed woodland area with feeding stations and hides, making it a reliable place to see reds if you want a guaranteed sighting during a stay in the Dales. The trail is about a twenty-minute drive from Garsdale. The woodland is managed specifically for red squirrels as a buffer against the grey squirrel advance that has displaced reds across most of England, with fewer than 30,000 red squirrels thought to survive today, most of them in the north. Garsdale itself sits within what conservationists call a core area for red squirrels, sometimes referred to as the Greenfields Stronghold, so reds can often be seen from the cottage gardens and on local walks - Snaizeholme is the back-up if nature doesn't oblige.
     figure_html: "{% include \"business-details.html\", place_slug: \"snaizeholme-red-squirrel-trail\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Snaizeholme Red Squirrel Trail
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Snaizeholme Red Squirrel Trail.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Red Squirrels](/red-squirrels-in-garsdale/)
+          - [Things To Do](/things-to-do/)
 ---

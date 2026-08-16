@@ -54,4 +54,21 @@ blocks:
     reverse: true
     content: Ingleborough Cave is a show cave near Clapham at the foot of Ingleborough, one of the Yorkshire Three Peaks. The cave was opened to visitors in 1837 and has been a tourist attraction longer than most in the Dales, with a guided tour lasting the best part of an hour through a series of chambers, formations and underground lakes. It is a more structured experience than the local natural caves around Garsdale such as Tom Croft Cave and Dovecote Cave, with electric lighting throughout and no need to bring a torch. Combine a visit with Ingleton, White Scar Cave, the Ingleton Waterfalls Trail or a walk on the limestone pavement above Clapham. Sturdy footwear is sensible - the cave floor is uneven in places.
     figure_html: "{% include \"business-details.html\", place_slug: \"ingleborough-cave\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Ingleborough Cave
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Ingleborough Cave.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Cotter Force](/places/cotter-force/)
+          - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/)
+          - [Dovecote Cave](/places/dovecote-cave/)
+          - [Tom Croft Cave](/places/tom-croft-cave/)
+          - [Caves and Geology](/caves-and-geological-features/)
+          - [Things To Do](/things-to-do/)
+          - [Walks](/walks/)
 ---

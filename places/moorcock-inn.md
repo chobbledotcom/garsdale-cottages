@@ -40,4 +40,22 @@ blocks:
     reverse: true
     content: The Moorcock sits right at the head of the dale, at the junction of the A684 and B6259, just into Richmondshire - on the gateway to both the Yorkshire Dales and the Lake District. It serves food and has accommodation, making it a useful base whether you are after a relaxing retreat or a walking holiday. Pub quiz nights have been a regular fixture on Tuesday evenings, and it is the closest thing Garsdale has to a local. The Dandrymire Viaduct (also known as the Moorcock Viaduct) is visible from the pub and only a short walk away - with twelve arches, standing fifty feet high and 227 yards long, it is a spectacular sight and carries the Settle-Carlisle line, including regular steam-hauled services. For those arriving by train at Garsdale Station, the Little White Bus runs a shuttle timed to meet arriving trains and will take you to the Moorcock and into Hawes; a taxi service is also available from the B&B next door, taking up to eight passengers.
     figure_html: "{% include \"business-details.html\", place_slug: \"moorcock-inn\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Moorcock Inn
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Moorcock Inn.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [The Cross Keys Temperance Inn, Cautley](/places/cross-keys-temperance-inn-cautley/)
+          - [The Green Dragon Inn, Hardraw](/places/green-dragon-inn-hardraw/)
+          - [Cautley Spout](/places/cautley-spout/)
+          - [Dandrymire Viaduct](/places/dandrymire-viaduct/)
+          - [Dent Station](/places/dent-station/)
+          - [The Sportsman's Inn, Cowgill](/places/sportsmans-inn-cowgill/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - [Things To Do](/things-to-do/)
 ---

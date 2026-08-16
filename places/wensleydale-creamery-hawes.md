@@ -57,4 +57,21 @@ blocks:
     reverse: true
     content: The Wensleydale Creamery at Hawes makes the cheese that bears the dale's name - and also makes a variety called "Garsdale", flavoured with garlic and chives, using milk that once came from Garsdale, Dent and Cautley farms via the former Farfield dairy near Sedbergh. The creamery shop and cheese experience are well worth a visit; you can watch Yorkshire Wensleydale cheese being made by hand, taste the different cheeses in the shop, and there is a cafe and a cheese and gift shop. Children enjoy the cheese experience, and it can be combined with the rest of a day in Hawes - the small Tuesday market, the Dales Countryside Museum in the old railway station, and W.R. Outhwaite & Son, the traditional rope makers on the high street. Roughly nine miles east of Garsdale down the A684.
     figure_html: "{% include \"business-details.html\", place_slug: \"wensleydale-creamery-hawes\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Wensleydale Creamery
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Wensleydale Creamery.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Dandrymire Viaduct](/places/dandrymire-viaduct/)
+          - [Cautley Spout](/places/cautley-spout/)
+          - [The Cross Keys Temperance Inn, Cautley](/places/cross-keys-temperance-inn-cautley/)
+          - [Dent Station](/places/dent-station/)
+          - [The Green Dragon Inn, Hardraw](/places/green-dragon-inn-hardraw/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - [Things To Do](/things-to-do/)
 ---

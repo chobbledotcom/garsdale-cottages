@@ -51,4 +51,21 @@ blocks:
     reverse: true
     content: Cotter Force is a waterfall in the small valley of Cotterdale, on the road between Garsdale Head and Hawes. There is a parking area nearby and the walk to the falls is flat and well-laid, with a tidy pathway beside the river leading to a series of small cascades rather than a single high drop. It was sketched by the painter J.M.W. Turner, and is a quieter alternative to Hardraw Force or Cautley Spout, worth seeking out if you enjoy having a place to yourself. An easy walk to add to a day heading into Wensleydale, and a good option for anyone wanting a short, level stroll without much climbing.
     figure_html: "{% include \"business-details.html\", place_slug: \"cotter-force\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Cotter Force
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Cotter Force.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/)
+          - [Dovecote Cave](/places/dovecote-cave/)
+          - [Ingleborough Cave](/places/ingleborough-cave/)
+          - [Tom Croft Cave](/places/tom-croft-cave/)
+          - [Caves and Geology](/caves-and-geological-features/)
+          - [Things To Do](/things-to-do/)
+          - [Walks](/walks/)
 ---

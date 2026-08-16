@@ -34,4 +34,16 @@ blocks:
     reverse: true
     content: Smardale Gill is a national nature reserve in the upper Eden valley, reached by a short drive from Garsdale over the A684 and across the dale to Newbiggin. The reserve follows Smardale Beck along a steep-sided wooded gorge, and the main path along the old viaduct - the Smardale Viaduct, restored by the Northern Viaduct Trust - gives fine vantage points for spotting sparrowhawks, buzzards and treecreepers among the woodland birds. The reserve also holds a population of red squirrels in the coniferous sections along the gorge. The viaduct itself was part of the now-disused Stainmore Railway, which crossed the Pennines from Tebay to Darlington until the line closed in the 1960s. A relaxed half-day walk, easier than the fells, and quieter than most of the household-name Dales beauty spots.
     figure_html: "{% include \"business-details.html\", place_slug: \"smardale-gill-nature-reserve\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Smardale Gill National Nature Reserve
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Smardale Gill National Nature Reserve.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Bird Watching](/bird-watching-properties/)
+          - [Things To Do](/things-to-do/)
 ---

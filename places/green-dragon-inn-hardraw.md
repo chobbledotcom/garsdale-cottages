@@ -40,4 +40,20 @@ blocks:
     reverse: true
     content: The Green Dragon at Hardraw is a popular choice about fifteen minutes' drive towards Hawes. It is an ivy-covered inn set below the fells at the head of the dale that takes its name, and it has regular events and a music night on Wednesdays. Hardraw Force, one of the tallest single-drop waterfalls in England, is accessed through the pub - there is a small entrance fee for the waterfall walk, but it is well worth it, particularly after rain, when the falls are at their most dramatic. The walk to the force is fairly flat, well laid out with pathways and some seating, with lovely views as well as the waterfall itself. The Green Dragon sits roughly nine miles east of Garsdale, an easy addition to a day in upper Wensleydale.
     figure_html: "{% include \"business-details.html\", place_slug: \"green-dragon-inn-hardraw\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Green Dragon
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Green Dragon.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Cautley Spout](/places/cautley-spout/)
+          - [The Cross Keys Temperance Inn, Cautley](/places/cross-keys-temperance-inn-cautley/)
+          - [Dandrymire Viaduct](/places/dandrymire-viaduct/)
+          - [Dent Station](/places/dent-station/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - [Things To Do](/things-to-do/)
 ---

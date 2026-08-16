@@ -31,4 +31,21 @@ blocks:
     reverse: true
     content: Pendragon Castle is a ruined medieval tower house in the valley of Mallerstang, south of Kirkby Stephen. Tradition - inevitably, and without much evidence - says it was built by Uther Pendragon, father of King Arthur, and there are local legends of his death here. The castle sits on a mound close to the River Eden and was rebuilt in the seventeenth century by Lady Anne Clifford, who also left her mark on Brough Castle, Brougham Castle and Appleby Castle. The remains are atmospheric - standing walls and a climbable staircase - and the Mallerstang valley around it is quiet and lovely, under the slopes of Wild Boar Fell. Within easy driving distance of Garsdale, particularly via the A684 over the Coal Road and down into the Eden valley.
     figure_html: "{% include \"business-details.html\", place_slug: \"pendragon-castle\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Pendragon Castle
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Pendragon Castle.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Kendal Castle](/places/kendal-castle/)
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Brough Castle](/places/brough-castle/)
+          - [Things To Do](/things-to-do/)
 ---

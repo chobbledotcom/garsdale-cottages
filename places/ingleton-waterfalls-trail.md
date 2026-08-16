@@ -28,4 +28,22 @@ blocks:
     reverse: true
     content: The Ingleton Waterfalls Trail is a four-and-a-half-mile circular walk near Ingleton, taking in a series of waterfalls along the Rivers Twiss and Doe. The full route takes between two and a half hours and four hours to complete at a steady pace, and requires sturdy footwear - the path includes steps and uneven sections, with sections of steep ground and a number of intermediate climbs between falls. It is suited to older children with walking experience rather than young families, but the variety of falls along the way - Pecca, Thornton Force, Beezley Falls and others - makes it one of the better waterfall walks in the Dales. Close by the trail sits White Scar Cave, the longest show cave in Britain, which is a useful alternative on a wet day.
     figure_html: "{% include \"business-details.html\", place_slug: \"ingleton-waterfalls-trail\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Ingleton Waterfalls Trail
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Ingleton Waterfalls Trail.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Dent Village](/places/dent-village/)
+          - [Devil's Bridge, Kirkby Lonsdale](/places/devils-bridge-kirkby-lonsdale/)
+          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Brough Castle](/places/brough-castle/)
 ---

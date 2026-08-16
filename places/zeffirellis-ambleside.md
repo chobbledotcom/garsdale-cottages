@@ -36,4 +36,20 @@ blocks:
     reverse: true
     content: Zeffirellis is a vegetarian restaurant and independent cinema in Ambleside, in the Lake District, around forty-five minutes' drive from Garsdale. It is one of the restaurants the cottage owners use regularly when travelling over to the lakes for the day. Zeffirellis has a cinema upstairs showing mainstream and art-house films, and a downstairs restaurant in Mediterranean vegetarian style, with always good food. The pooled cinema and restaurant make it particularly useful for an evening out - see a film, eat, walk down to the lake at Waterhead. While in Ambleside the cottage owners also use Doi Intanon, the Thai restaurant in the same town. Ambleside sits at the head of Windermere and is a natural centre for a day in the Lake District, accessed via the A591 from the M6 at Kendal or Oxenholme.
     figure_html: "{% include \"business-details.html\", place_slug: \"zeffirellis-ambleside\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Zeffirellis
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Zeffirellis.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Things To Do](/things-to-do/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
 ---

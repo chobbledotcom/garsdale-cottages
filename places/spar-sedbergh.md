@@ -50,4 +50,20 @@ blocks:
     reverse: true
     content: The Spar shop in Sedbergh is the closest general grocery store to Garsdale, around six miles west of the cottages. It shares provisions duty in the town with Powells on the high street, which also has a good selection of fruit and vegetables. Sedbergh itself is the nearest town, with a small weekly market on Wednesday mornings and summer artisan markets once a month, and is a sensible place to stop for the first day or two of groceries on the way into the dale - most cottage guests are advised to bring supplies for at least the first day, given the distance from Garsdale to any shop. The town also has craft and gift shops, bookshops, a hardware shop and a charity shop, plus pubs and cafes, so a stop in Sedbergh can also cover a browse and a meal.
     figure_html: "{% include \"business-details.html\", place_slug: \"spar-sedbergh\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages in Garsdale
+          
+          Our three self-catering cottages in Garsdale are a short drive from Spar. Book direct for the best rates.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [W.R. Outhwaite & Son, Hawes](/places/wr-outhwaite-and-son-hawes/)
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Things To Do](/things-to-do/)
 ---

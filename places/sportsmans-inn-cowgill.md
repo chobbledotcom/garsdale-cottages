@@ -35,4 +35,22 @@ blocks:
     reverse: true
     content: The Sportsman's Inn at Cowgill is a family-owned seventeenth-century Grade II listed country inn in Dentdale, accessible over the Coal Road past Garsdale Station - a very scenic high route that crosses open moorland and brings you down into Dentdale. The inn sits on the Dales Way and is close to Dent station on the Settle-Carlisle line, making it a useful pub for walkers, cyclists and rail travellers combining different parts of the Dales on a single itinerary. Dent itself is a pretty village with a cobbled main street, lovely walks and a good range of cafes and tea rooms - a longer visit can take in the Sedgwick Geological Trail at Danny Bridge and the memorial to Adam Sedgwick, born in Dent in 1785. The Sportsman's is one of the dog-friendly pubs in the area, the more so since Dentdale is a walkable day out from the cottages.
     figure_html: "{% include \"business-details.html\", place_slug: \"sportsmans-inn-cowgill\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Sportsman's Inn
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Sportsman's Inn.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [The Cross Keys Temperance Inn, Cautley](/places/cross-keys-temperance-inn-cautley/)
+          - [The Green Dragon Inn, Hardraw](/places/green-dragon-inn-hardraw/)
+          - [The Moorcock Inn](/places/moorcock-inn/)
+          - [Cautley Spout](/places/cautley-spout/)
+          - [Dandrymire Viaduct](/places/dandrymire-viaduct/)
+          - [Dent Station](/places/dent-station/)
+          - [Wensleydale Creamery, Hawes](/places/wensleydale-creamery-hawes/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
 ---

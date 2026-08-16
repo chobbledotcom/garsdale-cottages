@@ -34,4 +34,20 @@ blocks:
     reverse: true
     content: Dent station is on the Settle-Carlisle line, reached from Garsdale by the Coal Road over the hills - a scenic route that passes through open moorland and brings you out at the station. It is said to be the highest main line station in England, sitting at over 1,150 feet, and is some distance from Dent village itself, down in the dale. The station buildings are in the Midland Railway style, with a waiting room and signal box, and the surrounding landscape is remote and open. The Sportsman's Inn at Cowgill in Dentdale is close to the station and sits on the Dales Way. Dent is one of the stops on the line that give the railway its character; Garsdale, Ribble Head and Kirkby Stephen are the others within easy reach.
     figure_html: "{% include \"business-details.html\", place_slug: \"dent-station\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Dent Station
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Dent Station.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Cautley Spout](/places/cautley-spout/)
+          - [The Cross Keys Temperance Inn, Cautley](/places/cross-keys-temperance-inn-cautley/)
+          - [Dandrymire Viaduct](/places/dandrymire-viaduct/)
+          - [The Green Dragon Inn, Hardraw](/places/green-dragon-inn-hardraw/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - [Things To Do](/things-to-do/)
 ---

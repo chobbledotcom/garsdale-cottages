@@ -37,4 +37,19 @@ blocks:
     reverse: true
     content: Bolton Castle stands above the village of Castle Bolton in Wensleydale, around half an hour's drive from Garsdale. It is an impressive sight, particularly at night when it is lit up and visible from miles around. By day, it is well worth a visit as the site where Mary Queen of Scots was once held prisoner. The castle is a tall rectangular medieval fortress, largely intact, with restored interiors, gardens and a programme of events including birds of prey displays. Combine it with a day in upper Wensleydale - the village of Castle Bolton, Aysgarth Falls, the Wensleydale Creamery at Hawes and the Dales Countryside Museum all sit within easy reach.
     figure_html: "{% include \"business-details.html\", place_slug: \"bolton-castle\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Bolton Castle
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Bolton Castle.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Brough Castle](/places/brough-castle/)
+          - [Things To Do](/things-to-do/)
 ---

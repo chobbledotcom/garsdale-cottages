@@ -35,4 +35,22 @@ blocks:
     reverse: true
     content: Ruskin's View is the viewpoint above the River Lune at Kirkby Lonsdale, a town on the southern edge of the Yorkshire Dales National Park, around forty minutes' drive from Garsdale. A short walk above Devil's Bridge, the medieval stone bridge over the Lune, the view takes in a wide bend of the river beneath woodland and the rising ground of the valley. It was sketched by J.M.W. Turner, and admired by John Ruskin, who called the view over the Lune one of the loveliest in England - hence the name. Kirkby Lonsdale itself has a bakery, clothes shops, craft and gift shops, and several good pubs and restaurants, making it a worthwhile day out from the dale. The town sits on the boundary between the Dales and the Lake District.
     figure_html: "{% include \"business-details.html\", place_slug: \"ruskins-view-kirkby-lonsdale\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Ruskins View
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Ruskins View.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
+          - [Semerwater](/places/semerwater/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Brough Castle](/places/brough-castle/)
+          - [Things To Do](/things-to-do/)
 ---

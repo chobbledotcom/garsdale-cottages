@@ -59,4 +59,22 @@ blocks:
     reverse: true
     content: Honister Slate Mine sits at the top of Honister Pass in the Lake District, between Buttermere and Borrowdale, and is the last working slate mine in England. For the more adventurous there are mine experiences - including the underground tour and the Via Ferrata along the cliff face - and a new zip line; an alternative day out to the family-friendly options across the Dales. The slate itself, a distinctive dark green, has been worked here for centuries and still turns up on roofs across the country. Around an hour and a quarter's drive from Garsdale, Honister combines well with a day in the lakes - Buttermere, Crummock Water and Loweswater all sit close to the foot of the pass - or as a destination in its own right for those who like heights.
     figure_html: "{% include \"business-details.html\", place_slug: \"honister-slate-mine\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Honister Slate Mine
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Honister Slate Mine.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Devil's Bridge, Kirkby Lonsdale](/places/devils-bridge-kirkby-lonsdale/)
+          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
+          - [Ruskin's View, Kirkby Lonsdale](/places/ruskins-view-kirkby-lonsdale/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Brough Castle](/places/brough-castle/)
 ---

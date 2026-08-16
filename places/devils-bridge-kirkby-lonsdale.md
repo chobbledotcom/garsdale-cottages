@@ -27,4 +27,22 @@ blocks:
     reverse: true
     content: Devil's Bridge is a medieval stone bridge over the River Lune at Kirkby Lonsdale, a lovely town on the southern edge of the Yorkshire Dales National Park. The bridge is one of the oldest in the country and tradition - inevitably - has it that the devil built it in exchange for the first soul to cross it. It is now closed to traffic and is a popular spot for divers and for motorcycle meets on summer weekends. A short walk above it sits Ruskin's View, taking in the Lune valley; J.M.W. Turner sketched the view here, as he did Cotterdale Force. The town has a bakery, clothes shops, several good pubs and restaurants, and is around forty minutes' drive from Garsdale.
     figure_html: "{% include \"business-details.html\", place_slug: \"devils-bridge-kirkby-lonsdale\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Devils Bridge
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Devils Bridge.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
+          - [Ruskin's View, Kirkby Lonsdale](/places/ruskins-view-kirkby-lonsdale/)
+          - [Semerwater](/places/semerwater/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Brough Castle](/places/brough-castle/)
 ---

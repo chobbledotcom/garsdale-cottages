@@ -36,4 +36,20 @@ blocks:
     reverse: true
     content: Stone Close is a tea room in Dent village, a small town in the next valley, Dentdale, reached from Garsdale over what is locally called the Coal Road past Garsdale Station. Dent has a cobbled main street, lovely walks from the village, and a good range of cafes, pubs and tea rooms - Stone Close is one of the favourites. A useful stop on a day out exploring Dentdale or as a base for a walk before or after the Sedgwick Geological Trail at Danny Bridge, which sits a few miles east along the A684. Dent itself has a memorial to Adam Sedgwick, born in the village in 1785, who became one of the founders of modern geology; the Sedgwick Museum in Cambridge is named after him. The tea room is in easy walking distance of the cobbled main street.
     figure_html: "{% include \"business-details.html\", place_slug: \"stone-close-tea-room-dent\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Stone Close Tea Room
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Stone Close Tea Room.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Things To Do](/things-to-do/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
 ---

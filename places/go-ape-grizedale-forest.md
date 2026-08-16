@@ -51,4 +51,19 @@ blocks:
     reverse: true
     content: Go Ape at Grizedale Forest is a treetop adventure course in the Lake District, with high ropes, zip wires, swings and crossings set up among the conifers. It is one for the more adventurous, suited to older children and adults prepared to climb into a harness; for younger children Honister Slate Mine or a cheese demonstration at the Wensleydale Creamery are calmer alternatives. Grizedale itself is near Coniston Water, around an hour and a quarter's drive from Garsdale, so it sits well in a day out in the southern Lakes. The site also has walking trails and sculptures through the forest, and there is an orienteering course for those who prefer ground-level adventuring. Book ahead in peak season - the courses fill up.
     figure_html: "{% include \"business-details.html\", place_slug: \"go-ape-grizedale-forest\" %}"
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Stay Near Go Ape
+          
+          We have three holiday cottages in Garsdale you can use as a base for visiting Go Ape.
+  - type: markdown
+    content: |-
+          ## See Also
+          
+          - [Askrigg](/places/askrigg-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Things To Do](/things-to-do/)
 ---
