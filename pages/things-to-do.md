@@ -20,24 +20,24 @@ blocks:
           Garsdale is set in the Yorkshire Dales National Park in the county of Cumbria. It is an ideal setting for walking and there are walks directly from the hamlet with many marked footpaths. For detailed walking routes, see our [Walks](/walks/) page.
   - type: features
     items:
-          - icon: hugeicons:bird
-            description: Red squirrels, brown hares, roe deer, upland birds and (very rarely) otters on the River Clough.
-            name: Wildlife Watching
-          - icon: hugeicons:building-03
-            description: Sedbergh, Hawes, Kirkby Stephen, Kirkby Lonsdale, Dent, Kendal and Askrigg all within easy reach.
-            name: Market Towns
-          - icon: hugeicons:droplet
-            description: Hardraw Force, Cautley Spout, Cotter Force and Aysgarth Falls - several easy walks, one behind a pub.
-            name: Waterfalls
-          - icon: hugeicons:restaurant-01
-            description: Favourite pubs, tea rooms and restaurants in the dales and beyond, from the Cross Keys temperance inn to Zeffirellis in Ambleside.
-            name: Food and Drink
-          - icon: hugeicons:umbrella
-            description: Farfield Mill, the Dales Countryside Museum, Wensleydale Creamery and the Brewery Arts Centre in Kendal.
-            name: Rainy Day Retreats
-          - icon: hugeicons:kid
-            description: The Forbidden Corner, White Scar Cave, cheesemaking demonstrations and the Ingleton Waterfalls Trail.
-            name: Family Friendly
+      - icon: hugeicons:bird
+        description: Red squirrels, brown hares, roe deer, upland birds and (very rarely) otters on the River Clough.
+        name: Wildlife Watching
+      - icon: hugeicons:building-03
+        description: "[Sedbergh](/places/spar-sedbergh/), [Hawes](/places/wensleydale-creamery-hawes/), [Kirkby Stephen](/places/white-hare-cafe-kirkby-stephen/), [Kirkby Lonsdale](/places/devils-bridge-kirkby-lonsdale/), [Dent](/places/dent-village/), [Kendal](/places/brewery-arts-centre-kendal/) and [Askrigg](/places/askrigg-village/) all within easy reach."
+        name: Market Towns
+      - icon: hugeicons:droplet
+        description: "[Hardraw Force](/places/hardraw-force/), [Cautley Spout](/places/cautley-spout/), [Cotter Force](/places/cotter-force/) and [Aysgarth Falls](/places/aysgarth-falls/) - several easy walks, one behind a pub."
+        name: Waterfalls
+      - icon: hugeicons:restaurant-01
+        description: Favourite pubs, tea rooms and restaurants in the dales and beyond, from the [Cross Keys temperance inn](/places/cross-keys-temperance-inn-cautley/) to [Zeffirellis](/places/zeffirellis-ambleside/) in Ambleside.
+        name: Food and Drink
+      - icon: hugeicons:umbrella
+        description: "[Farfield Mill](/places/farfield-mill-sedbergh/), the [Dales Countryside Museum](/places/dales-countryside-museum-hawes/), [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) and the [Brewery Arts Centre](/places/brewery-arts-centre-kendal/) in Kendal."
+        name: Rainy Day Retreats
+      - icon: hugeicons:kid
+        description: "The [Forbidden Corner](/places/the-forbidden-corner-middleham/), [White Scar Cave](/places/white-scar-cave/), cheesemaking demonstrations and the [Ingleton Waterfalls Trail](/places/ingleton-waterfalls-trail/)."
+        name: Family Friendly
     intro_content: "## At a Glance"
   - type: split-image
     subtitle: Red squirrels, brown hares, upland birds and more
