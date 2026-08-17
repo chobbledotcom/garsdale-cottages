@@ -1,6 +1,5 @@
 ---
 name: Dandrymire Viaduct (Moorcock Viaduct)
-search: Dandry Mire Viaduct, Garsdale, UK
 category: Attraction
 permalink: /places/dandrymire-viaduct/
 layout: base
@@ -30,4 +29,5 @@ blocks:
           - Garsdale Station
           - Things To Do
 is_business: false
+
 ---

@@ -1,6 +1,5 @@
 ---
 name: Brigflatts Meeting House
-search: Quaker Meeting House, Brigflatts Lane, Sedbergh, UK
 category: Attraction
 permalink: /places/brigflatts-meeting-house/
 layout: base
@@ -28,4 +27,5 @@ blocks:
           - Churches and Chapels
           - Things To Do
 is_business: false
+
 ---

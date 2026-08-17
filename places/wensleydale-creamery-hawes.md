@@ -3,6 +3,8 @@ name: Wensleydale Creamery at Hawes
 search: Wensleydale Creamery, Hawes, UK
 category: Attraction
 permalink: /places/wensleydale-creamery-hawes/
+redirect_from:
+  - /guide/your-local-area-guide-to-getting-about-walking-sho/wensleydale-creamery-visitor-centre/
 layout: base
 meta_title: Wensleydale Creamery at Hawes | Things To Do Near Garsdale
 meta_description: Wensleydale Creamery at Hawes near Garsdale and Sedbergh in the Yorkshire Dales.
@@ -57,6 +59,17 @@ blocks:
     reverse: true
     content: The Wensleydale Creamery at Hawes makes the cheese that bears the dale's name - and also makes a variety called "Garsdale", flavoured with garlic and chives, using milk that once came from Garsdale, Dent and Cautley farms via the former Farfield dairy near Sedbergh. The creamery shop and cheese experience are well worth a visit; you can watch Yorkshire Wensleydale cheese being made by hand, taste the different cheeses in the shop, and there is a cafe and a cheese and gift shop. Children enjoy the cheese experience, and it can be combined with the rest of a day in Hawes - the small Tuesday market, the Dales Countryside Museum in the old railway station, and W.R. Outhwaite & Son, the traditional rope makers on the high street. Roughly nine miles east of Garsdale down the A684.
     figure_html: "{% include \"business-details.html\", place_slug: \"wensleydale-creamery-hawes\" %}"
+  - type: split-image
+    content: |-
+      The Wensleydale Creamery visitor centre in Hawes is the home of Yorkshire Wensleydale cheese, and the only place in Wensleydale still making the traditional cheese. The factory on this site dates from the early twentieth century, and by 1990 it was the last Wensleydale cheesemaker left in the dale. It is now an award-winning, independent traditional cheese-maker and specialist blender, and the visitor centre is built around watching the cheese being made.
+
+      The Yorkshire Wensleydale Cheese Experience includes a cheesemaking demonstration and a look at the history of the trade, from farmhouse production to the modern creamery. The cheese and gift shop stocks over twenty varieties of award-winning artisan cheese alongside accompaniments, and there is a coffee shop and restaurant serving cheese-inspired refreshments. There is a large dedicated car park on site, and the creamery is a short walk from the centre of Hawes.
+
+      - **Address:** Gayle Lane, Hawes, Wensleydale, North Yorkshire, DL8 3RN
+      - **Website:** [wensleydale.co.uk](https://www.wensleydale.co.uk/)
+      - **Email:** [creamery@wensleydale.co.uk](mailto:creamery@wensleydale.co.uk)
+    figure_src: /images/guide-pages/wensleydale-creamery-visitor-centre.jpeg
+    figure_alt: Wensleydale Creamery Visitor Centre
   - type: items
     collection: properties
     intro_content: |-
@@ -67,11 +80,14 @@ blocks:
     content: |-
           ## See Also
           
-          - Dales Countryside Museum, Hawes
-          - W.R. Outhwaite & Son, Hawes
-          - The White Hart, Hawes
-          - Bolton Castle
-          - Aysgarth Falls
-          - Things To Do
+          - [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - in the old railway station, a short walk away
+          - [The White Hart Inn, Hawes](/places/white-hart-inn-hawes/) - pub and restaurant in the centre of town
+          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes
+          - [Hardraw Force and Aysgill Force walks](/places/hardraw-force/) - waterfall walks from Hawes
+          - [Things to do in Garsdale and the Dales](/things-to-do/) - our wider round-up of attractions
+          - [W.R. Outhwaite & Son, Hawes](/places/wr-outhwaite-and-son-hawes/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+
 is_business: true
 ---

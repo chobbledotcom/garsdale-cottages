@@ -3,6 +3,8 @@ name: Spar, Sedbergh
 search: Spar, Sedbergh, UK
 category: Shop
 permalink: /places/spar-sedbergh/
+redirect_from:
+  - /guide/your-local-area-guide-to-getting-about-walking-sho/spar-sedbergh/
 layout: base
 meta_title: Spar, Sedbergh | Shops Near Garsdale
 meta_description: Spar, Sedbergh near Garsdale and Sedbergh in the Yorkshire Dales.
@@ -50,6 +52,15 @@ blocks:
     reverse: true
     content: The Spar shop in Sedbergh is the closest general grocery store to Garsdale, around six miles west of the cottages. It shares provisions duty in the town with Powells on the high street, which also has a good selection of fruit and vegetables. Sedbergh itself is the nearest town, with a small weekly market on Wednesday mornings and summer artisan markets once a month, and is a sensible place to stop for the first day or two of groceries on the way into the dale - most cottage guests are advised to bring supplies for at least the first day, given the distance from Garsdale to any shop. The town also has craft and gift shops, bookshops, a hardware shop and a charity shop, plus pubs and cafes, so a stop in Sedbergh can also cover a browse and a meal.
     figure_html: "{% include \"business-details.html\", place_slug: \"spar-sedbergh\" %}"
+  - type: split-image
+    content: |-
+      SPAR Sedbergh is a small supermarket on Station Road, on the outskirts of Sedbergh town centre, and it is the nearest grocery shop if you are self-catering and need to stock up. It sells the usual convenience-store range - bread, milk, eggs, basic groceries, newspapers and a few household bits - and it has a cash machine. The shop is a few minutes' walk from Main Street, or a couple of minutes in the car, and there is parking on site.
+
+      For a bigger shop, Kendal has the nearest large supermarkets, about twenty-five minutes' drive away. For local produce - meat, bread, veg - [The Meat Hook](/places/the-meat-hook-sedbergh/) butcher and the Wednesday [Sedbergh market](/places/sedbergh-market/) are the better bet if you are cooking properly.
+
+      - **Address:** Station Road, Sedbergh, Cumbria, LA10 5AB
+    figure_src: /images/guide-pages/spar-sedbergh.jpeg
+    figure_alt: SPAR Sedbergh
   - type: items
     collection: properties
     intro_content: |-
@@ -60,10 +71,15 @@ blocks:
     content: |-
           ## See Also
           
-          - Powells, Sedbergh
-          - Farfield Mill, Sedbergh
-          - The Half and Half, Sedbergh
-          - Getting Here
-          - Things To Do
+          - [The Meat Hook](/places/the-meat-hook-sedbergh/) - butcher in Sedbergh for local meat
+          - [Sedbergh market](/places/sedbergh-market/) - Wednesday farmers market
+          - [Sedbergh Tourist Information](/places/sedbergh-tourist-information/) - on Main Street
+          - [Home deliveries](/places/home-deliveries/) - if you'd rather have groceries delivered to the cottage
+          - [Powells, Sedbergh](/places/powells-sedbergh/)
+          - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
+          - [The Half and Half, Sedbergh](/places/half-and-half-sedbergh/)
+          - [Getting Here](/getting-here/)
+          - [Things To Do](/things-to-do/)
+
 is_business: true
 ---

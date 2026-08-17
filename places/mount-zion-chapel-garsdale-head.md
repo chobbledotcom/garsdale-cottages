@@ -1,6 +1,5 @@
 ---
 name: Mount Zion Chapel, Garsdale Head
-search: Mount Zion, Garsdale Head, Sedbergh, LA10, UK
 category: Attraction
 permalink: /places/mount-zion-chapel-garsdale-head/
 layout: base
@@ -30,4 +29,5 @@ blocks:
           - Churches and Chapels
           - Grisedale
 is_business: false
+
 ---

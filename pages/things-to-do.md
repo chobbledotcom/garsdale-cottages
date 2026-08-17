@@ -1,5 +1,7 @@
 ---
 name: Things To Do
+redirect_from:
+  - /guide/your-local-area-guide-to-getting-about-walking-sho/
 header_text: Things To Do
 layout: base
 subtitle: Activities and attractions in the Yorkshire Dales

@@ -52,7 +52,7 @@ blocks:
           
           Snaizeholme, near Hawes, provides another opportunity to look for red squirrels during a stay in Garsdale. The woodland is managed as a red squirrel refuge and includes viewing areas where visitors can wait quietly for activity around the trees and feeding stations.
           
-          Although sightings remain dependent on the squirrels themselves, the managed habitat makes Snaizeholme a useful addition to a wildlife itinerary. The trip can be combined with a visit to Hawes, the [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) or the [Wensleydale Creamery Visitor Centre](/guide/your-local-area-guide-to-getting-about-walking-sho/wensleydale-creamery-visitor-centre/).
+          Although sightings remain dependent on the squirrels themselves, the managed habitat makes Snaizeholme a useful addition to a wildlife itinerary. The trip can be combined with a visit to Hawes, the [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) or the [Wensleydale Creamery Visitor Centre](/places/wensleydale-creamery-hawes/).
           
           ## When to Look for Red Squirrels
           
