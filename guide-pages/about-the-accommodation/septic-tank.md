@@ -2,6 +2,7 @@
 name: Septic Tank
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 6
 icon: hugeicons:water-pump
 blocks:

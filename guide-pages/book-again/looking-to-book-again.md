@@ -2,6 +2,7 @@
 name: Looking to Book Again?
 subtitle: Book Again
 guide-category: book-again
+property: properties/roger-pot.md
 order: 1
 icon: hugeicons:calendar-add-01
 featured_image: /images/guide-pages/looking-to-book-again.jpeg

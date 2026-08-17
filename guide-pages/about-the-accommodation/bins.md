@@ -2,6 +2,7 @@
 name: Bins
 subtitle: Other Useful Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 14
 icon: hugeicons:recycle-01
 blocks:

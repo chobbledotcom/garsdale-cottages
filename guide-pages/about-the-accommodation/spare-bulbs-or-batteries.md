@@ -2,6 +2,7 @@
 name: Spare bulbs or batteries
 subtitle: About the Accommodation
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 23
 icon: hugeicons:bulb
 blocks:

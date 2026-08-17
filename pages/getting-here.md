@@ -5,6 +5,8 @@ layout: base
 subtitle: How to reach Garsdale
 meta_title: Getting to Garsdale near Sedbergh | Travel Information
 meta_description: How to reach our holiday cottages near Sedbergh in Garsdale, Yorkshire Dales - by car from the M6 or by train on the Settle-Carlisle railway.
+redirect_from:
+  - /guide/wifi-internetmobile-details/mobile-coverage/
 eleventyNavigation:
   key: Getting Here
   order: 6
@@ -50,6 +52,17 @@ blocks:
     content: |-
           ## Before You Arrive
           As the closest shops are about 6 miles away in Sedbergh, we would suggest bringing groceries for the first day or two. A welcome basket is provided for guests with some regional produce. Please contact your property owner if you have any difficulties and we will assist as we can.
+  - type: markdown
+    content: |-
+          ## Mobile Phone Coverage in Garsdale
+          Mobile coverage in Garsdale is patchy, as you would expect in a dale this rural, and it is worth knowing which network you are on before you set off. Ofcom rate coverage in the Yorkshire Dales around Garsdale as follows:
+          
+          - **EE** - limited for both voice and data
+          - **Three** - likely for voice, limited for data
+          - **O2** - likely for voice and data
+          - **Vodafone** - likely for voice and data
+          
+          The cottage owners are on Vodafone and find they get excellent coverage at 4G speed. All of our holiday cottages have free WiFi, so if your signal is thin you can still get online, and the network name and password come with your booking confirmation.
   - type: cta
     button:
           text: View Our Cottages

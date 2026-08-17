@@ -2,6 +2,7 @@
 name: Quiet Times
 subtitle: Rules & Regulations
 guide-category: safety-info-rules
+property: properties/roger-pot.md
 order: 1
 icon: hugeicons:volume-off
 featured_image: /images/guide-pages/quiet-times.jpeg

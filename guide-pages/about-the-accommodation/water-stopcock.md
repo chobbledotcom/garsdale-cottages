@@ -2,6 +2,7 @@
 name: Water stopcock
 subtitle: Utilities
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 22
 icon: hugeicons:droplet
 blocks:

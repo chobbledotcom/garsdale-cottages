@@ -2,6 +2,7 @@
 name: Sheep
 subtitle: Other Useful Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 18
 icon: hugeicons:mountain
 blocks:

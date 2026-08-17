@@ -2,6 +2,7 @@
 name: Thank You For Staying With Us
 subtitle: Thank You
 guide-category: so-long-farewell
+property: properties/roger-pot.md
 order: 1
 icon: hugeicons:heart-check
 featured_image: /images/guide-pages/thank-you-for-staying-with-us.jpeg

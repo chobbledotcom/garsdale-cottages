@@ -2,6 +2,7 @@
 name: Inventory
 subtitle: About the Accommodation
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 24
 icon: hugeicons:book-open-01
 blocks:

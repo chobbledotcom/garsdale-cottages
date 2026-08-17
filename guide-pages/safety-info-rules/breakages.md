@@ -2,6 +2,7 @@
 name: Breakages
 subtitle: Rules & Regulations
 guide-category: safety-info-rules
+property: properties/roger-pot.md
 order: 2
 icon: hugeicons:heartbreak
 blocks:

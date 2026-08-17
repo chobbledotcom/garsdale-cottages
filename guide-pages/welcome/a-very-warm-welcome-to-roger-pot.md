@@ -2,6 +2,7 @@
 name: A Very warm welcome to Roger Pot!
 subtitle: Welcome
 guide-category: welcome
+property: properties/roger-pot.md
 order: 1
 icon: hugeicons:home-01
 blocks:

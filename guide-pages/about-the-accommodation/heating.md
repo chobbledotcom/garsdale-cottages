@@ -2,6 +2,7 @@
 name: Heating
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 2
 icon: hugeicons:thermometer
 blocks:

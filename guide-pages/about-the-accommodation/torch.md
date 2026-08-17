@@ -2,6 +2,7 @@
 name: Torch
 subtitle: Enjoying Your Time Outside
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 12
 icon: hugeicons:flashlight
 blocks:

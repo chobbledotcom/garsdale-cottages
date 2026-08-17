@@ -2,6 +2,7 @@
 name: Driving Directions
 subtitle: Arrival Information
 guide-category: arrival-information
+property: properties/roger-pot.md
 order: 4
 icon: hugeicons:car-01
 featured_image: /images/guide-pages/driving-directions.jpeg

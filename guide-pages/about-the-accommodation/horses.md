@@ -2,6 +2,7 @@
 name: Horses
 subtitle: Other Useful Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 17
 icon: hugeicons:horse
 blocks:

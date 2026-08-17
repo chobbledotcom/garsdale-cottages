@@ -2,6 +2,7 @@
 name: Check-out Time
 subtitle: Departure Information
 guide-category: so-long-farewell
+property: properties/roger-pot.md
 order: 2
 icon: hugeicons:clock-01
 blocks:

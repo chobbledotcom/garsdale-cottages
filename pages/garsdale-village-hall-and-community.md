@@ -47,12 +47,19 @@ blocks:
             description: Garsdale has its own parish council which meets several times a year at the village hall. The council deals with local planning matters, maintenance issues and community concerns. Meeting dates and minutes are published on the Garsdale Parish Council website.
             name: Parish Council
           - icon: hugeicons:stethoscope
-            description: Given the dale's remoteness, Garsdale has a team of community First Responders, volunteers trained to attend emergencies. Their presence is a quiet reassurance in a place where the nearest hospital is some distance away.
+            description: Given the dale's remoteness, Garsdale and Sedbergh are covered by a team of volunteer community First Responders, trained to attend emergencies. To call on them, dial 999 (or 111 if you are unsure) and they will send first responders if it is considered suitable. Their presence is a quiet reassurance in a place where the nearest hospital is some distance away.
             name: First Responders
+          - icon: hugeicons:alert-02
+            description: There is a defibrillator on the external wall of the village hall, next to Kirk Bridge. Once you are at the installation, dial 999 and they will talk you through the process.
+            name: Defibrillator
           - icon: hugeicons:user-group
             description: Visitors staying in Garsdale are welcome at community events. If there is something happening at the village hall during your stay, do come along. It is a good way to meet local people and get a feel for dale life.
             name: Getting Involved
     intro_content: "## Community Services"
+  - type: markdown
+    content: |-
+          ## Health Services Nearby
+          There is no doctor or dentist in Garsdale itself, so anything routine means a trip into Sedbergh, about 7 miles down the dale. The nearest doctor is Sedbergh Medical Centre, Station Road, Sedbergh, LA10 5DL, on 01539 718191, and the nearest dentist is Sedbergh Dental Practice, 45-47 Main Street, Sedbergh, LA10 5BL, on 015396 20626. For anything urgent that is not a 999 emergency, call 111 - they can also help if you are not sure what to do. It is worth knowing all of this before you need it, because mobile signal in the dale is patchy and the drive takes a while.
   - type: markdown
     content: |-
           ## Source Note

@@ -2,6 +2,7 @@
 name: Hot water
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 5
 icon: hugeicons:thermometer-warm
 blocks:

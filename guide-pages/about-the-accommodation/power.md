@@ -2,6 +2,7 @@
 name: Power
 subtitle: Utilities
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 21
 icon: hugeicons:bulb-charging
 blocks:

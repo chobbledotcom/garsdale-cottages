@@ -2,6 +2,7 @@
 name: Kitchen Equipment
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 1
 icon: hugeicons:kitchen-utensils
 featured_image: /images/guide-pages/kitchen-equipment.jpeg

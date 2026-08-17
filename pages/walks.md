@@ -5,6 +5,8 @@ layout: base
 subtitle: Walking routes from Garsdale and the surrounding area
 meta_title: Walks near Sedbergh and Garsdale | Yorkshire Dales Walking Routes
 meta_description: Walking routes near Sedbergh and Garsdale in the Yorkshire Dales - from gentle strolls to challenging fell walks, with routes for all abilities from your doorstep.
+redirect_from:
+  - /guide/before-you-leave-home/check-the-weather/
 eleventyNavigation:
   key: Walks
   order: 4
@@ -69,7 +71,7 @@ blocks:
             description: There's no street lighting, so in winter it gets dark early. Bring a torch. Try to walk on the right hand side of the road so you can see oncoming vehicles and they can see you.
             name: Winter Walking
           - icon: hugeicons:umbrella
-            description: Check the forecast before setting out. Weather changes quickly on the open fells, and paths can stay boggy after rain.
+            description: Check the forecast before setting out. The Mountain Weather Information Service covers the Yorkshire Dales and North Pennines, and there is a separate Lake District forecast if you are heading over that way. Weather changes quickly on the open fells, and paths can stay boggy after rain.
             name: Check the Weather
           - icon: hugeicons:leaf-04
             description: Take litter home, leave plants and wildlife undisturbed, and keep to established paths where possible.
@@ -81,8 +83,14 @@ blocks:
           Garsdale does not have an organisation that does guided walks but please talk to the cottage owners for information on the routes of those local walks that suit your needs.
   - type: markdown
     content: |-
+          ## Checking the Weather
+          The weather up here changes quickly, and what it is doing in the valley is not always what it is doing on the tops. For local weather look to the Mountain Weather Information Service forecast for the Yorkshire Dales and North Pennines at [mwis.org.uk](https://www.mwis.org.uk/forecast/english-and-welsh/yorkshire-dales-and-north-pennines). If you are heading over to the lakes, certainly consider the Lake District forecast at [mwis.org.uk](https://www.mwis.org.uk/forecast/english-and-welsh/lake-district) as well.
+  - type: markdown
+    content: |-
           ## Useful Links
           
+          - Mountain Weather Information Service - Yorkshire Dales and North Pennines ([mwis.org.uk](https://www.mwis.org.uk/forecast/english-and-welsh/yorkshire-dales-and-north-pennines))
+          - Mountain Weather Information Service - Lake District ([mwis.org.uk](https://www.mwis.org.uk/forecast/english-and-welsh/lake-district))
           - Walking in the Yorkshire Dales - Moorcock area ([walkingintheyorkshiredales.co.uk](https://www.walkingintheyorkshiredales.co.uk/Moorcock.htm))
           - The Dales Way ([dalesway.org](https://www.dalesway.org/route.html))
           - Grisedale and Garsdale walks ([benthamfootpathgroup.co.uk](https://benthamfootpathgroup.co.uk/grisedale-and-garsdale/))

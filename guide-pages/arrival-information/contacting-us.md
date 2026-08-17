@@ -2,6 +2,7 @@
 name: Contacting Us
 subtitle: Our Contact Details
 guide-category: arrival-information
+property: properties/roger-pot.md
 order: 3
 icon: hugeicons:telephone
 blocks:

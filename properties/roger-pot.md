@@ -233,8 +233,6 @@ blocks:
   variant: primary
 - type: property-features
   compact: true
-- type: property-guides
-  compact: true
 - type: link-button
   compact: true
   text: Leave a Review
@@ -254,5 +252,7 @@ blocks:
     text: 'Paul: 07342 200780'
     url: tel:07342200780
 - type: property-contact-section
+  compact: true
+- type: property-guides
   compact: true
 ---
