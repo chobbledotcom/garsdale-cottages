@@ -82,7 +82,7 @@ blocks:
   - type: markdown
     content: |-
           ## Dark Skies
-          With no street lighting and very little light pollution, Garsdale offers remarkable stargazing. The area is Dark Sky friendly, and on a clear night the Milky Way is visible to the naked eye. Winter evenings, though cold, can be extraordinary. See our [Wellness Retreats](/wellness-retreats/) page for more on slow, restorative breaks under the dark sky.
+          With no street lighting and very little light pollution, Garsdale offers remarkable stargazing. The area is Dark Sky friendly, and on a clear night the Milky Way is visible to the naked eye. Winter evenings, though cold, can be extraordinary. See our [Dark Skies in Garsdale](/dark-skies-in-garsdale/) page for more on what you can see, and our [Wellness Retreats](/wellness-retreats/) page for slow, restorative breaks under the dark sky.
           
   - type: cta
     button:

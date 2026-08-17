@@ -65,11 +65,11 @@ blocks:
     items:
           - image: /images/scenery/dale-valley-landscape.png
             description: Remote Yorkshire Dales location, far from the crowds - just you, the hills and the sky.
-            link: /about/
+            link: /peace-and-tranquillity-in-garsdale/
             name: Peace & Tranquillity
           - image: /images/wildlife/red-squirrel-1.jpeg
             description: Red squirrels, upland birds, roe deer and more in this unspoilt corner of England.
-            link: /things-to-do/
+            link: /garsdale-wildlife/
             name: Wildlife
           - image: /images/places-of-interest/snowy-howgill-fells.jpeg
             description: Howgill Fells, Dales Way, Pennine Bridleway - miles of spectacular walks from the doorstep.
@@ -77,11 +77,11 @@ blocks:
             name: Walking Paradise
           - image: /images/scenery/garsdale-in-winter.jpeg
             description: One of England's most scenic railways, with Garsdale station just minutes away.
-            link: /about/
+            link: /garsdale-train-station/
             name: Settle-Carlisle Railway
           - image: /images/scenery/moon-over-langstone-fell.jpeg
             description: No street lighting and minimal light pollution make clear nights ideal for seeing stars and the Milky Way.
-            link: /garsdale-wildlife/
+            link: /dark-skies-in-garsdale/
             name: Dark Skies
           - image: /images/old-garsdale/historical-village-view.png
             description: Discover centuries-old farms, listed buildings and stories shaped by farming, railways and the dale's Norse roots.

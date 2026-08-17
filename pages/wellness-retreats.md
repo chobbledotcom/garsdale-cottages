@@ -71,7 +71,7 @@ blocks:
     subtitle: One of the best stargazing spots in England
     content: |-
           ## Dark Skies Over Baugh Fell
-          Garsdale sits within the Yorkshire Dales, which together with the North York Moors forms the largest area of protected dark sky in England. With no street lighting anywhere in the dale, the night sky is remarkable. On a clear night the Milky Way is visible to the naked eye, and **Baugh Fell** to the north makes a particularly dramatic backdrop for stargazing. Meteor showers, satellites and the occasional aurora are all possible from the garden of either cottage — no drive, no crowd, no compromise.
+          Garsdale sits within the Yorkshire Dales, which together with the North York Moors forms the largest area of protected dark sky in England. With no street lighting anywhere in the dale, the night sky is remarkable. On a clear night the Milky Way is visible to the naked eye, and **Baugh Fell** to the north makes a particularly dramatic backdrop for stargazing. Meteor showers, satellites and the occasional aurora are all possible from the garden of either cottage - no drive, no crowd, no compromise. Our [dark skies in Garsdale](/dark-skies-in-garsdale/) page has more on what you can see and the best times of year.
           Our [Garsdale Wildlife](/garsdale-wildlife/) page has more on the dale's skies, birds and mammals.
           
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
