@@ -169,7 +169,7 @@
 
     if (place.url) {
       var pageLink = document.createElement("a");
-      pageLink.textContent = "Read more about " + place.title;
+      pageLink.textContent = "Read more";
       pageLink.href = place.url;
       pageLink.className = "page-link";
       popupEl.appendChild(pageLink);
