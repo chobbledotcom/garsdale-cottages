@@ -41,9 +41,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Brough Castle
-          - Bolton Castle
-          - Smardale Gill National Nature Reserve
-          - Things To Do
+          - [Brough Castle](/places/brough-castle/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Smardale Gill National Nature Reserve](/places/smardale-gill-nature-reserve/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

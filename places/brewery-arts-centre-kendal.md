@@ -67,9 +67,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Kendal Castle
-          - Levens Hall
-          - Oxenholme Station
-          - Things To Do
+          - [Kendal Castle](/places/kendal-castle/)
+          - [Levens Hall](/places/levens-hall/)
+          - [Oxenholme Station](/places/oxenholme-station/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

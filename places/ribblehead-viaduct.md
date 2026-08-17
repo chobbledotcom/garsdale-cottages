@@ -45,10 +45,10 @@ blocks:
     content: |-
           ## See Also
           
-          - Dandrymire Viaduct (Moorcock Viaduct)
-          - Garsdale Station
-          - Dent Station
-          - Garsdale Station
-          - About Garsdale
+          - [Dandrymire Viaduct (Moorcock Viaduct)](/places/dandrymire-viaduct/)
+          - [Garsdale Station](/places/garsdale-station/)
+          - [Dent Station](/places/dent-station/)
+          - [Garsdale Station](/places/garsdale-station/)
+          - [About Garsdale](/about/)
 is_business: false
 ---

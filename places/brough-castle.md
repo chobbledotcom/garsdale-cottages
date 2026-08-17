@@ -63,9 +63,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Pendragon Castle
-          - Bolton Castle
-          - The White Hare Cafe, Kirkby Stephen
-          - Things To Do
+          - [Pendragon Castle](/places/pendragon-castle/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [The White Hare Cafe, Kirkby Stephen](/places/white-hare-cafe-kirkby-stephen/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

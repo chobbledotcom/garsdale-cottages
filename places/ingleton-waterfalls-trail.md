@@ -38,10 +38,10 @@ blocks:
     content: |-
           ## See Also
           
-          - White Scar Cave
-          - Ingleborough Cave
-          - The Forbidden Corner, Middleham
-          - Caves and Geology
-          - Things To Do
+          - [White Scar Cave](/places/white-scar-cave/)
+          - [Ingleborough Cave](/places/ingleborough-cave/)
+          - [The Forbidden Corner, Middleham](/places/the-forbidden-corner-middleham/)
+          - [Caves and Geology](/caves-and-geological-features/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

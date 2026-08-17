@@ -41,9 +41,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Brewery Arts Centre, Kendal
-          - Levens Hall
-          - Oxenholme Station
-          - Things To Do
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Levens Hall](/places/levens-hall/)
+          - [Oxenholme Station](/places/oxenholme-station/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

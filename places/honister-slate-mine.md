@@ -69,9 +69,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Zeffirellis, Ambleside
-          - Doi Intanon, Ambleside
-          - Go Ape, Grizedale Forest
-          - Things To Do
+          - [Zeffirellis, Ambleside](/places/zeffirellis-ambleside/)
+          - [Doi Intanon, Ambleside](/places/doi-intanon-ambleside/)
+          - [Go Ape, Grizedale Forest](/places/go-ape-grizedale-forest/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

@@ -43,10 +43,10 @@ blocks:
     content: |-
           ## See Also
           
-          - Aysgarth Falls
-          - Bolton Castle
-          - Askrigg village
-          - Walks
-          - Things To Do
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Askrigg village](/places/askrigg-village/)
+          - [Walks](/walks/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

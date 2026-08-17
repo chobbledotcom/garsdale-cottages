@@ -45,9 +45,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Brigflatts Meeting House
-          - Mount Zion Chapel, Garsdale Head
-          - Churches and Chapels
-          - About Garsdale
+          - [Brigflatts Meeting House](/places/brigflatts-meeting-house/)
+          - [Mount Zion Chapel, Garsdale Head](/places/mount-zion-chapel-garsdale-head/)
+          - [Churches and Chapels](/churches-and-chapels/)
+          - [About Garsdale](/about/)
 is_business: false
 ---

@@ -38,10 +38,10 @@ blocks:
     content: |-
           ## See Also
           
-          - Semerwater
-          - Muker village
-          - Aysgarth Falls
-          - Bainbridge Vets, Askrigg
-          - Things To Do
+          - [Semerwater](/places/semerwater/)
+          - [Muker village](/places/muker-village/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Bainbridge Vets, Askrigg](/places/bainbridge-vets-askrigg/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

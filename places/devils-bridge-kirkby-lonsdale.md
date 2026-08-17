@@ -37,7 +37,7 @@ blocks:
     content: |-
           ## See Also
           
-          - Ruskins View, Kirkby Lonsdale
-          - Things To Do
+          - [Ruskins View, Kirkby Lonsdale](/places/ruskins-view-kirkby-lonsdale/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

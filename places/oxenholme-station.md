@@ -45,10 +45,10 @@ blocks:
     content: |-
           ## See Also
           
-          - Kendal Castle
-          - Brewery Arts Centre, Kendal
-          - Levens Hall
-          - Getting Here
-          - Things To Do
+          - [Kendal Castle](/places/kendal-castle/)
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Levens Hall](/places/levens-hall/)
+          - [Getting Here](/getting-here/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

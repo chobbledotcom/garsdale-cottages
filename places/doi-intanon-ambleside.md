@@ -61,9 +61,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Zeffirellis, Ambleside
-          - Honister Slate Mine
-          - Go Ape, Grizedale Forest
-          - Things To Do
+          - [Zeffirellis, Ambleside](/places/zeffirellis-ambleside/)
+          - [Honister Slate Mine](/places/honister-slate-mine/)
+          - [Go Ape, Grizedale Forest](/places/go-ape-grizedale-forest/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

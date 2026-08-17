@@ -62,9 +62,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Pendragon Castle
-          - Brough Castle
-          - Smardale Gill National Nature Reserve
-          - Things To Do
+          - [Pendragon Castle](/places/pendragon-castle/)
+          - [Brough Castle](/places/brough-castle/)
+          - [Smardale Gill National Nature Reserve](/places/smardale-gill-nature-reserve/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

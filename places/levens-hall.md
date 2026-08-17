@@ -47,8 +47,8 @@ blocks:
     content: |-
           ## See Also
           
-          - Brewery Arts Centre, Kendal
-          - Kendal Castle
-          - Things To Do
+          - [Brewery Arts Centre, Kendal](/places/brewery-arts-centre-kendal/)
+          - [Kendal Castle](/places/kendal-castle/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

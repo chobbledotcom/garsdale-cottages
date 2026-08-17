@@ -61,9 +61,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Honister Slate Mine
-          - Zeffirellis, Ambleside
-          - Doi Intanon, Ambleside
-          - Things To Do
+          - [Honister Slate Mine](/places/honister-slate-mine/)
+          - [Zeffirellis, Ambleside](/places/zeffirellis-ambleside/)
+          - [Doi Intanon, Ambleside](/places/doi-intanon-ambleside/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

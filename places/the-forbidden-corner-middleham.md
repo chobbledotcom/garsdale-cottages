@@ -60,10 +60,10 @@ blocks:
     content: |-
           ## See Also
           
-          - Bolton Castle
-          - Aysgarth Falls
-          - Ingleton Waterfalls Trail
-          - White Scar Cave
-          - Things To Do
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Ingleton Waterfalls Trail](/places/ingleton-waterfalls-trail/)
+          - [White Scar Cave](/places/white-scar-cave/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

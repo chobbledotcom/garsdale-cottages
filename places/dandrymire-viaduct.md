@@ -22,12 +22,12 @@ blocks:
     content: |-
           ## See Also
           
-          - The Moorcock Inn
-          - Garsdale Station
-          - Ribblehead Viaduct
-          - Mount Zion Chapel, Garsdale Head
-          - Garsdale Station
-          - Things To Do
+          - [The Moorcock Inn](/places/moorcock-inn/)
+          - [Garsdale Station](/places/garsdale-station/)
+          - [Ribblehead Viaduct](/places/ribblehead-viaduct/)
+          - [Mount Zion Chapel, Garsdale Head](/places/mount-zion-chapel-garsdale-head/)
+          - [Garsdale Station](/places/garsdale-station/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 
 ---

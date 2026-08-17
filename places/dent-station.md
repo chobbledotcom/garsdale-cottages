@@ -44,11 +44,11 @@ blocks:
     content: |-
           ## See Also
           
-          - The Sportsman's Inn at Cowgill
-          - Dent village
-          - Garsdale Station
-          - Stone Close Tea Room, Dent
-          - Garsdale Station
-          - Things To Do
+          - [The Sportsman's Inn at Cowgill](/places/sportsmans-inn-cowgill/)
+          - [Dent village](/places/dent-village/)
+          - [Garsdale Station](/places/garsdale-station/)
+          - [Stone Close Tea Room, Dent](/places/stone-close-tea-room-dent/)
+          - [Garsdale Station](/places/garsdale-station/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

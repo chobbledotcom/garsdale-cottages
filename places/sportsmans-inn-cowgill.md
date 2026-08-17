@@ -45,11 +45,11 @@ blocks:
     content: |-
           ## See Also
           
-          - Dent Station
-          - Dent village
-          - The Moorcock Inn
-          - Stone Close Tea Room, Dent
-          - Eating and Drinking
-          - Things To Do
+          - [Dent Station](/places/dent-station/)
+          - [Dent village](/places/dent-village/)
+          - [The Moorcock Inn](/places/moorcock-inn/)
+          - [Stone Close Tea Room, Dent](/places/stone-close-tea-room-dent/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

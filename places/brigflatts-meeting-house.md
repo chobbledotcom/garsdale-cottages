@@ -22,10 +22,10 @@ blocks:
     content: |-
           ## See Also
           
-          - St John the Baptist Church, Garsdale
-          - Mount Zion Chapel, Garsdale Head
-          - Churches and Chapels
-          - Things To Do
+          - [St John the Baptist Church, Garsdale](/places/st-john-the-baptist-church-garsdale/)
+          - [Mount Zion Chapel, Garsdale Head](/places/mount-zion-chapel-garsdale-head/)
+          - [Churches and Chapels](/churches-and-chapels/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 
 ---

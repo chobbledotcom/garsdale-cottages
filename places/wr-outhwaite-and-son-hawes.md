@@ -42,9 +42,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Wensleydale Creamery at Hawes
-          - Dales Countryside Museum, Hawes
-          - The White Hart, Hawes
-          - Things To Do
+          - [Wensleydale Creamery at Hawes](/places/wensleydale-creamery-hawes/)
+          - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/)
+          - [The White Hart, Hawes](/places/white-hart-inn-hawes/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

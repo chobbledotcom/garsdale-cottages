@@ -23,12 +23,12 @@ blocks:
     content: |-
           ## See Also
           
-          - Dovecote Cave
-          - White Scar Cave
-          - Ingleborough Cave
-          - Caves and Geology
-          - Things To Do
-          - Walks
+          - [Dovecote Cave](/places/dovecote-cave/)
+          - [White Scar Cave](/places/white-scar-cave/)
+          - [Ingleborough Cave](/places/ingleborough-cave/)
+          - [Caves and Geology](/caves-and-geological-features/)
+          - [Things To Do](/things-to-do/)
+          - [Walks](/walks/)
 is_business: false
 
 ---
