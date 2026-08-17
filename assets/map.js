@@ -145,6 +145,16 @@
     catP.textContent = catLookup[place.category] || place.category;
     popupEl.appendChild(catP);
 
+    if (place.closed === "permanent" || place.closed === "temporary") {
+      var closedP = document.createElement("p");
+      closedP.className = "closed-note";
+      closedP.textContent =
+        place.closed === "permanent"
+          ? "Currently listed as permanently closed"
+          : "Currently listed as temporarily closed";
+      popupEl.appendChild(closedP);
+    }
+
     if (place.description) {
       var tmp = document.createElement("div");
       tmp.innerHTML = place.description;
@@ -155,6 +165,14 @@
         descDiv.textContent = text;
         popupEl.appendChild(descDiv);
       }
+    }
+
+    if (place.url) {
+      var pageLink = document.createElement("a");
+      pageLink.textContent = "Read more about " + place.title;
+      pageLink.href = place.url;
+      pageLink.className = "page-link";
+      popupEl.appendChild(pageLink);
     }
 
     var dirLink = document.createElement("a");
