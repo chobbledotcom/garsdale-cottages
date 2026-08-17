@@ -47,11 +47,11 @@ blocks:
     content: |-
           ## See Also
           
-          - Aysgarth Falls
-          - Wensleydale Creamery at Hawes
-          - The Forbidden Corner, Middleham
-          - Pendragon Castle
-          - Brough Castle
-          - Things To Do
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Wensleydale Creamery at Hawes](/places/wensleydale-creamery-hawes/)
+          - [The Forbidden Corner, Middleham](/places/the-forbidden-corner-middleham/)
+          - [Pendragon Castle](/places/pendragon-castle/)
+          - [Brough Castle](/places/brough-castle/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

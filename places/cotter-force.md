@@ -61,11 +61,11 @@ blocks:
     content: |-
           ## See Also
           
-          - Hardraw Force
-          - Cautley Spout
-          - Aysgarth Falls
-          - Aysgill Force
-          - Walks
-          - Caves and Geology
+          - [Hardraw Force](/places/hardraw-force/)
+          - [Cautley Spout](/places/cautley-spout/)
+          - [Aysgarth Falls](/places/aysgarth-falls/)
+          - [Aysgill Force](/places/aysgill-force/)
+          - [Walks](/walks/)
+          - [Caves and Geology](/caves-and-geological-features/)
 is_business: false
 ---

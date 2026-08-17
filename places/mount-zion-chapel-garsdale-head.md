@@ -22,12 +22,12 @@ blocks:
     content: |-
           ## See Also
           
-          - Brigflatts Meeting House
-          - St John the Baptist Church, Garsdale
-          - Dandrymire Viaduct (Moorcock Viaduct)
-          - Garsdale Station
-          - Churches and Chapels
-          - Grisedale
+          - [Brigflatts Meeting House](/places/brigflatts-meeting-house/)
+          - [St John the Baptist Church, Garsdale](/places/st-john-the-baptist-church-garsdale/)
+          - [Dandrymire Viaduct (Moorcock Viaduct)](/places/dandrymire-viaduct/)
+          - [Garsdale Station](/places/garsdale-station/)
+          - [Churches and Chapels](/churches-and-chapels/)
+          - [Grisedale](/grisedale/)
 is_business: false
 
 ---

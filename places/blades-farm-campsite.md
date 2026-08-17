@@ -43,8 +43,8 @@ blocks:
     content: |-
           ## See Also
           
-          - Garsdale Station
-          - Getting Here
-          - About Garsdale
+          - [Garsdale Station](/places/garsdale-station/)
+          - [Getting Here](/getting-here/)
+          - [About Garsdale](/about/)
 is_business: true
 ---

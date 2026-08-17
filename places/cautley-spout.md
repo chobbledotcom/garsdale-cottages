@@ -60,11 +60,11 @@ blocks:
     content: |-
           ## See Also
           
-          - The Cross Keys Temperance Inn at Cautley
-          - Hardraw Force
-          - Cotter Force
-          - Walks
+          - [The Cross Keys Temperance Inn at Cautley](/places/cross-keys-temperance-inn-cautley/)
+          - [Hardraw Force](/places/hardraw-force/)
+          - [Cotter Force](/places/cotter-force/)
+          - [Walks](/walks/)
           - [Wellness](/wellness-retreats/) Retreats
-          - Things To Do
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

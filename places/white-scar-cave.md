@@ -77,7 +77,6 @@ blocks:
           - [Ingleborough walk](/places/ingleborough/) - one of the Yorkshire Three Peaks, above the cave
           - [Caves and geological features around Garsdale](/caves-and-geological-features/) - our wider round-up
           - [Things to do in Garsdale and the Dales](/things-to-do/) - our full round-up of attractions
-          - [Ingleborough Cave](/places/ingleborough-cave/)
           - [Ingleton Waterfalls Trail](/places/ingleton-waterfalls-trail/)
           - [Tom Croft Cave](/places/tom-croft-cave/)
           - [Dovecote Cave](/places/dovecote-cave/)

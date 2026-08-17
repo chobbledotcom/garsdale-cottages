@@ -46,9 +46,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Doi Intanon, Ambleside
-          - Honister Slate Mine
-          - Go Ape, Grizedale Forest
-          - Things To Do
+          - [Doi Intanon, Ambleside](/places/doi-intanon-ambleside/)
+          - [Honister Slate Mine](/places/honister-slate-mine/)
+          - [Go Ape, Grizedale Forest](/places/go-ape-grizedale-forest/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

@@ -46,7 +46,7 @@ blocks:
           ## See Also
           
           - [Red Squirrels](/red-squirrels-in-garsdale/) in Garsdale
-          - Things To Do
-          - Walks
+          - [Things To Do](/things-to-do/)
+          - [Walks](/walks/)
 is_business: false
 ---

@@ -45,7 +45,7 @@ blocks:
     content: |-
           ## See Also
           
-          - Devils Bridge, Kirkby Lonsdale
-          - Things To Do
+          - [Devils Bridge, Kirkby Lonsdale](/places/devils-bridge-kirkby-lonsdale/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---

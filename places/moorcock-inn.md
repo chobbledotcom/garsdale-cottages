@@ -50,12 +50,12 @@ blocks:
     content: |-
           ## See Also
           
-          - Dandrymire Viaduct (Moorcock Viaduct)
-          - Garsdale Station
-          - The Cross Keys Temperance Inn at Cautley
-          - The Green Dragon at Hardraw
-          - The Sportsman's Inn at Cowgill
-          - Eating and Drinking
-          - Things To Do
+          - [Dandrymire Viaduct (Moorcock Viaduct)](/places/dandrymire-viaduct/)
+          - [Garsdale Station](/places/garsdale-station/)
+          - [The Cross Keys Temperance Inn at Cautley](/places/cross-keys-temperance-inn-cautley/)
+          - [The Green Dragon at Hardraw](/places/green-dragon-inn-hardraw/)
+          - [The Sportsman's Inn at Cowgill](/places/sportsmans-inn-cowgill/)
+          - [Eating and Drinking](/eating-and-drinking-in-garsdale/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

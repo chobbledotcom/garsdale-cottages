@@ -61,10 +61,10 @@ blocks:
     content: |-
           ## See Also
           
-          - The Half and Half, Sedbergh
-          - The Black Bull Inn, Sedbergh
-          - Powells, Sedbergh
-          - Spar, Sedbergh
-          - Things To Do
+          - [The Half and Half, Sedbergh](/places/half-and-half-sedbergh/)
+          - [The Black Bull Inn, Sedbergh](/places/black-bull-inn-sedbergh/)
+          - [Powells, Sedbergh](/places/powells-sedbergh/)
+          - [Spar, Sedbergh](/places/spar-sedbergh/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

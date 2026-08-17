@@ -46,9 +46,9 @@ blocks:
     content: |-
           ## See Also
           
-          - Dent village
-          - Dent Station
-          - The Sportsman's Inn at Cowgill
-          - Things To Do
+          - [Dent village](/places/dent-village/)
+          - [Dent Station](/places/dent-station/)
+          - [The Sportsman's Inn at Cowgill](/places/sportsmans-inn-cowgill/)
+          - [Things To Do](/things-to-do/)
 is_business: true
 ---

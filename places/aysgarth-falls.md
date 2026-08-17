@@ -62,11 +62,11 @@ blocks:
     content: |-
           ## See Also
           
-          - Hardraw Force
-          - Cotter Force
-          - Bolton Castle
-          - Wensleydale Creamery at Hawes
-          - Semerwater
-          - Things To Do
+          - [Hardraw Force](/places/hardraw-force/)
+          - [Cotter Force](/places/cotter-force/)
+          - [Bolton Castle](/places/bolton-castle/)
+          - [Wensleydale Creamery at Hawes](/places/wensleydale-creamery-hawes/)
+          - [Semerwater](/places/semerwater/)
+          - [Things To Do](/things-to-do/)
 is_business: false
 ---
