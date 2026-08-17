@@ -48,7 +48,6 @@ blocks:
           - [Dandrymire Viaduct (Moorcock Viaduct)](/places/dandrymire-viaduct/)
           - [Garsdale Station](/places/garsdale-station/)
           - [Dent Station](/places/dent-station/)
-          - [Garsdale Station](/places/garsdale-station/)
           - [About Garsdale](/about/)
 is_business: false
 ---

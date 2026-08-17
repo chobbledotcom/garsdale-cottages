@@ -26,7 +26,6 @@ blocks:
           - [Garsdale Station](/places/garsdale-station/)
           - [Ribblehead Viaduct](/places/ribblehead-viaduct/)
           - [Mount Zion Chapel, Garsdale Head](/places/mount-zion-chapel-garsdale-head/)
-          - [Garsdale Station](/places/garsdale-station/)
           - [Things To Do](/things-to-do/)
 is_business: false
 
