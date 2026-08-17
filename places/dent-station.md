@@ -48,7 +48,6 @@ blocks:
           - [Dent village](/places/dent-village/)
           - [Garsdale Station](/places/garsdale-station/)
           - [Stone Close Tea Room, Dent](/places/stone-close-tea-room-dent/)
-          - [Garsdale Station](/places/garsdale-station/)
           - [Things To Do](/things-to-do/)
 is_business: false
 ---
