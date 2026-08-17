@@ -144,7 +144,7 @@ blocks:
     walk if the weather turns.
 
 
-    [Garsdale Station](/garsdale-train-station/) on the Settle-Carlisle line is a few
+    [Garsdale Station](/places/garsdale-station/) on the Settle-Carlisle line is a few
     minutes up the dale - one of the most scenic railway journeys in the country, and
     a good day out in its own right, with a long stone viaduct crossing the moor near
     the station. The Lake District is easily reached too, with Windermere around 27

@@ -26,7 +26,7 @@ blocks:
         description: Red squirrels, brown hares, roe deer, upland birds and (very rarely) otters on the River Clough.
         name: Wildlife Watching
       - icon: hugeicons:building-03
-        description: "[Sedbergh](/locations/sedbergh/), [Hawes](/locations/hawes/), [Kirkby Stephen](/locations/kirkby-stephen/), [Kirkby Lonsdale](/locations/kirkby-lonsdale/), [Dent](/locations/dent/), [Kendal](/locations/kendal/) and [Askrigg](/locations/askrigg/) all within easy reach."
+        description: "[Sedbergh](/locations/sedbergh/), [Hawes](/locations/hawes/), [Kirkby Stephen](/locations/kirkby-stephen/), [Kirkby Lonsdale](/locations/kirkby-lonsdale/), [Dent](/places/dent-village/), [Kendal](/locations/kendal/) and [Askrigg](/places/askrigg-village/) all within easy reach."
         name: Market Towns
       - icon: hugeicons:droplet
         description: "[Hardraw Force](/places/hardraw-force/), [Cautley Spout](/places/cautley-spout/), [Cotter Force](/places/cotter-force/) and [Aysgarth Falls](/places/aysgarth-falls/) - several easy walks, one behind a pub."
@@ -73,11 +73,11 @@ blocks:
 
           **[Kirkby Lonsdale](/locations/kirkby-lonsdale/)** is a lovely town with some great shops, bakery, clothes shops and several good pubs and restaurants. It also has the famous [Devils Bridge](/places/devils-bridge-kirkby-lonsdale/) and [Ruskins View](/places/ruskins-view-kirkby-lonsdale/) ([kirkbylonsdale.co.uk](https://www.kirkbylonsdale.co.uk/discover/)).
 
-          **[Dent](/locations/dent/)** is a small town in the next valley Dentdale. It has a cobbled main street and some lovely walks directly from the village. There are a good range of cafes and pubs and tea rooms. [Dent station](/places/dent-station/) is some distance from Dent but is said to be the highest main line station in England and is on the Settle-Carlisle line.
+          **[Dent](/places/dent-village/)** is a small town in the next valley Dentdale. It has a cobbled main street and some lovely walks directly from the village. There are a good range of cafes and pubs and tea rooms. [Dent station](/places/dent-station/) is some distance from Dent but is said to be the highest main line station in England and is on the Settle-Carlisle line.
 
           **[Kendal](/locations/kendal/)** is the closest 'big town' with many shops, large supermarkets, cafes and eating places and a weekly market on Wednesday and Saturdays. It also has a castle and the [Brewery Arts Centre](/places/brewery-arts-centre-kendal/) ([breweryarts.co.uk](https://www.breweryarts.co.uk/)) has cinema, music, theatre and comedy events. Kendal is also home to the famous Kendal Mint Cake, first made in 1869 by Joseph Wiper. Prized for its energy-giving properties, it was carried on the 1953 Everest expedition and remains a favourite with walkers and climbers.
 
-          **[Askrigg](/locations/askrigg/)** in Wensleydale is of particular interest to James Herriot fans — the village served as the setting for the TV series *All Creatures Great and Small*, filmed here in the 1970s and 1980s.
+          **[Askrigg](/places/askrigg-village/)** in Wensleydale is of particular interest to James Herriot fans — the village served as the setting for the TV series *All Creatures Great and Small*, filmed here in the 1970s and 1980s.
 
           **[Farfield Mill](/places/farfield-mill-sedbergh/)** is on the road between Garsdale and Sedbergh and is an arts and heritage centre with exhibitions, craft work and a good cafe. A pleasant way to spend a few hours, particularly on a rainy day.
 

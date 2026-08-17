@@ -105,7 +105,7 @@ blocks:
     subtitle: By train to Garsdale Station
     content: |-
           ## Arrive the Slow Way
-          Perhaps the gentlest way to start a retreat is to leave the car behind. [Garsdale Station](/garsdale-train-station/) sits on the Settle–Carlisle line — one of the most scenic railway journeys in Britain — and is only a short walk from our cottages. Arrive on the train, step off onto an almost deserted platform, and you are already on holiday. The statue of [Ruswarp](/ruswarp-and-the-settle-carlisle/), the Border Collie who helped save the line, will be there to meet you.
+          Perhaps the gentlest way to start a retreat is to leave the car behind. [Garsdale Station](/places/garsdale-station/) sits on the Settle–Carlisle line — one of the most scenic railway journeys in Britain — and is only a short walk from our cottages. Arrive on the train, step off onto an almost deserted platform, and you are already on holiday. The statue of [Ruswarp](/ruswarp-and-the-settle-carlisle/), the Border Collie who helped save the line, will be there to meet you.
           
     figure_src: /images/places-of-interest/snowy-howgill-fells.jpeg
     figure_alt: View along the Settle-Carlisle railway

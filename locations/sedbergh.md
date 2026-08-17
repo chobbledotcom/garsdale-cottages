@@ -58,7 +58,7 @@ blocks:
             description: An 18-hole course in Dales countryside about a mile outside town on the road towards Dent - see [Sedbergh Golf Club](/places/sedbergh-golf-club/).
           - icon: hugeicons:bridge
             name: Dent Head and Waterside Viaducts
-            description: Two railway viaducts from the Settle-Carlisle era, reachable on foot from the Coal Road towards [Dent](/locations/dent/) and popular with photographers.
+            description: Two railway viaducts from the Settle-Carlisle era, reachable on foot from the Coal Road towards [Dent](/places/dent-village/) and popular with photographers.
   - type: features
     intro_content: |-
           ## Practicalities Worth Knowing

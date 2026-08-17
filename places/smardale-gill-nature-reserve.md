@@ -58,7 +58,7 @@ blocks:
     content: |-
           ## See Also
           
-          - [Places to see red squirrels in Garsdale](/places-to-see-red-squirrels-in-garsdale-or-yorkshire-dales/) - our red squirrel guide, if the wildlife is what draws you
+          - [Places to see red squirrels in Garsdale](/red-squirrels-in-garsdale/) - our red squirrel guide, if the wildlife is what draws you
           - [Red squirrels in Garsdale](/red-squirrels-in-garsdale/) - our page on the local squirrel population
           - [The White Hare Cafe, Kirkby Stephen](/places/white-hare-cafe-kirkby-stephen/)
           - [Pendragon Castle](/places/pendragon-castle/)

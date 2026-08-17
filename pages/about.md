@@ -102,7 +102,7 @@ blocks:
     subtitle: One of England's most scenic railway journeys
     content: |-
           ## The Settle-Carlisle Railway
-          Visitors to Garsdale may enjoy an outing on the Settle-Carlisle railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/)) which passes through [Garsdale Station](/garsdale-train-station/) along with places such as Appleby, Kirkby Stephen, Dent, [Ribblehead viaduct](/places/ribblehead-viaduct/) and Skipton.
+          Visitors to Garsdale may enjoy an outing on the Settle-Carlisle railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/)) which passes through [Garsdale Station](/places/garsdale-station/) along with places such as Appleby, Kirkby Stephen, Dent, [Ribblehead viaduct](/places/ribblehead-viaduct/) and Skipton.
           Garsdale Station is one of the wildest stations on the line. At the railway station stands a statue of [Ruswarp](/ruswarp-and-the-settle-carlisle/), a collie dog, who was found on the fell in 1990 at the side of his owner who had died some 11 weeks earlier, in an emaciated and starving state. It had to be carried off the fell and he was awarded a medal for vigilance but died shortly after his owner's funeral.
           Garsdale Station has a connection to Hawes via the Little White Bus.
     figure_src: /images/scenery/roger-pot-and-rose-cottage.jpeg

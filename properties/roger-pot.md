@@ -144,7 +144,7 @@ blocks:
     castles, and family activities.
 
 
-    [Garsdale Station](/garsdale-train-station/) on the Settle-Carlisle line is nearby
+    [Garsdale Station](/places/garsdale-station/) on the Settle-Carlisle line is nearby
     — one of England''s most scenic railways, with connections to Leeds and Carlisle.
 
 

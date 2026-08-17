@@ -19,7 +19,7 @@ blocks:
     content: |-
           ## On the Settle-Carlisle Line
 
-          The town sits on the [Settle-Carlisle line](/garsdale-train-station/), the same railway that serves [Garsdale Station](/places/garsdale-station/) at the top of our dale, so Kirkby Stephen is one of the stops on a day out by train in either direction.
+          The town sits on the [Settle-Carlisle line](/places/garsdale-station/), the same railway that serves [Garsdale Station](/places/garsdale-station/) at the top of our dale, so Kirkby Stephen is one of the stops on a day out by train in either direction.
 
           It also marks one end of the Lady Anne Clifford route through the Eden valley, taking in [Pendragon Castle](/places/pendragon-castle/) at Mallerstang and [Brough Castle](/places/brough-castle/) - both of which sit between Garsdale and Kirkby Stephen and make an easy loop. The upper Eden valley is also where the Coast to Coast walk passes, so the town sees a steady trickle of walkers crossing the country on foot.
     figure_src: /images/places/pendragon-castle.jpg

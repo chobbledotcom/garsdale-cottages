@@ -12,7 +12,7 @@ blocks:
     image_alt: The Settle-Carlisle railway line through the Yorkshire Dales
     content: "# Ruswarp and the Settle-Carlisle"
   - type: markdown
-    content: At [Garsdale station](/garsdale-train-station/), high on the Settle-Carlisle line at the top of the dale and roughly six miles east of Sedbergh, a bronze statue of a Border Collie sits on the platform, gazing northwards towards the hills. This is Ruswarp (pronounced Russup), and his story is one of the most moving tales connected to this corner of the Dales.
+    content: At [Garsdale station](/places/garsdale-station/), high on the Settle-Carlisle line at the top of the dale and roughly six miles east of Sedbergh, a bronze statue of a Border Collie sits on the platform, gazing northwards towards the hills. This is Ruswarp (pronounced Russup), and his story is one of the most moving tales connected to this corner of the Dales.
   - type: split-image
     content: |-
           ## The Fight to Save the Line

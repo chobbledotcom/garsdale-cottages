@@ -146,7 +146,7 @@ blocks:
     a weekly Wednesday market, and Farfield Mill arts centre on the road between here
     and town. Hawes (9 miles) has the Wensleydale Creamery, the Dales Countryside
     Museum, and plenty of [places to eat](/eating-and-drinking-in-garsdale/). [Garsdale
-    Station](/garsdale-train-station/) on the Settle-Carlisle line is a short drive
+    Station](/places/garsdale-station/) on the Settle-Carlisle line is a short drive
     up the dale. See our [things to do](/things-to-do/) page for waterfalls, castles,
     caves, family activities and more.
 

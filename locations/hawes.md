@@ -41,7 +41,7 @@ blocks:
 
           [Hardraw Force](/places/hardraw-force/), England's highest single-drop waterfall, is reached through the grounds of the [Green Dragon Inn](/places/green-dragon-inn-hardraw/) at Hardraw just outside town, with [Cotter Force](/places/cotter-force/) and [Aysgill Force](/places/aysgill-force/) also on the waterfall walks from Hawes.
 
-          North of town the Buttertubs Pass climbs over to Swaledale, on the way to [Muker](/places/muker-village/), and [Askrigg](/locations/askrigg/) sits east along Wensleydale. There is a vet in town at [Farm Gate Vets](/places/farm-gate-vets-hawes/) and a pharmacy at [Central Dales Pharmacy](/places/central-dales-pharmacy-hawes/) on Market Place.
+          North of town the Buttertubs Pass climbs over to Swaledale, on the way to [Muker](/places/muker-village/), and [Askrigg](/places/askrigg-village/) sits east along Wensleydale. There is a vet in town at [Farm Gate Vets](/places/farm-gate-vets-hawes/) and a pharmacy at [Central Dales Pharmacy](/places/central-dales-pharmacy-hawes/) on Market Place.
     figure_src: /images/places/hardraw-force.jpg
     figure_alt: Hardraw Force, England's highest single-drop waterfall, near Hawes
     reverse: false
@@ -80,8 +80,8 @@ blocks:
           ## See Also
 
           - [Sedbergh](/locations/sedbergh/) - the nearest town, west along the A684
-          - [Askrigg](/locations/askrigg/) - Herriot country, further down Wensleydale
-          - [Dent](/locations/dent/) - over the Coal Road from Garsdale
+          - [Askrigg](/places/askrigg-village/) - Herriot country, further down Wensleydale
+          - [Dent](/places/dent-village/) - over the Coal Road from Garsdale
           - [Eating and Drinking in Garsdale](/eating-and-drinking-in-garsdale/) - our wider round-up
           - [Things To Do](/things-to-do/) - the full round-up
 ---

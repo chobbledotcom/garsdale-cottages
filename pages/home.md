@@ -77,7 +77,7 @@ blocks:
             name: Walking Paradise
           - image: /images/scenery/garsdale-in-winter.jpeg
             description: One of England's most scenic railways, with Garsdale station just minutes away.
-            link: /garsdale-train-station/
+            link: /places/garsdale-station/
             name: Settle-Carlisle Railway
           - image: /images/scenery/moon-over-langstone-fell.jpeg
             description: No street lighting and minimal light pollution make clear nights ideal for seeing stars and the Milky Way.
@@ -120,7 +120,7 @@ blocks:
             name: Bird Watching
           - image: /images/places-of-interest/valley-view.jpeg
             description: Garsdale station on the Settle-Carlisle railway, with its signal box, Ruswarp statue and Dandrymire Viaduct.
-            link: /garsdale-train-station/
+            link: /places/garsdale-station/
             name: Garsdale Station
           - image: /images/places-of-interest/snow-capped-fells.jpeg
             description: The story of Ruswarp the Border Collie, whose loyalty helped save the Settle-Carlisle railway from closure.
