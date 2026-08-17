@@ -152,22 +152,32 @@ const callApify = async (searchString) => {
   return results[0] ?? null;
 };
 
+// Google-hosted photo URLs end with a size spec (e.g. =w408-h306-k-no or
+// =s408) that caps the served resolution. Rewrite it to request a
+// longer-edge master (no crop) suitable for retina displays and later reuse.
+const upgradeImageUrl = (imageUrl, longestEdge = 1600) => {
+  if (!imageUrl) return imageUrl;
+  if (!/googleusercontent\.com/.test(imageUrl)) return imageUrl;
+  return imageUrl.replace(/=[^/]+$/, `=s${longestEdge}`);
+};
 const downloadImage = async (imageUrl, slug) => {
   if (!imageUrl || imageUrl.startsWith("/images/")) return imageUrl;
-  const ext = imageUrl.match(/\.(jpg|jpeg|png|webp)(\?|$)/i)?.[1]?.toLowerCase() || "jpg";
+  const hiresUrl = upgradeImageUrl(imageUrl);
+  const ext = hiresUrl.match(/\.(jpg|jpeg|png|webp)(\?|$)/i)?.[1]?.toLowerCase() || "jpg";
   const localPath = `/images/places/${slug}.${ext}`;
   const fullPath = join(CONFIG.imagesDir, `${slug}.${ext}`);
   mkdirSync(CONFIG.imagesDir, { recursive: true });
 
-  const res = await fetch(imageUrl);
+  const res = await fetch(hiresUrl);
   if (!res.ok) {
     throw new Error(`Image download failed for ${slug}: HTTP ${res.status} (${imageUrl})`);
   }
-  const buf = await res.arrayBuffer();
+
+  const buf = Buffer.from(await res.arrayBuffer());
   if (buf.byteLength === 0) {
     throw new Error(`Image download failed for ${slug}: empty response (${imageUrl})`);
   }
-  writeFileSync(fullPath, Buffer.from(buf));
+  writeFileSync(fullPath, buf);
   console.log(`  image: ${slug}.${ext}`);
   return localPath;
 };
