@@ -39,7 +39,7 @@ blocks:
     intro_content: |-
           ## The Top Things to Do in Kirkby Stephen
 
-          By visitor reviews on Tripadvisor, these are the ones that come out on top in and around the town.
+          The top places we found online in and around the town.
     items:
           - icon: hugeicons:train-01
             name: Stainmore Railway Company
@@ -56,6 +56,9 @@ blocks:
           - icon: hugeicons:building-03
             name: The Eden Viaducts
             description: The railway arches that carry the Settle-Carlisle line across the valley near town, worth spotting if you are [travelling by train](/places/garsdale-station/).
+          - icon: hugeicons:castle
+            name: Brough Castle
+            description: The ruins sit between Garsdale and Kirkby Stephen, with a well-reviewed ice cream parlour alongside - see [Brough Castle](/places/brough-castle/).
   - type: items
     collection: properties
     intro_content: |-

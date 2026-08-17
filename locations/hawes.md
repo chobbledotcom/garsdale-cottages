@@ -45,16 +45,30 @@ blocks:
     figure_src: /images/places/hardraw-force.jpg
     figure_alt: Hardraw Force, England's highest single-drop waterfall, near Hawes
     reverse: false
-  - type: split-image
-    content: |-
+  - type: features
+    intro_content: |-
           ## The Top Things to Do in Hawes
 
-          By visitor reviews on Tripadvisor, the top things to do in and around Hawes run from the [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - the most-reviewed attraction in town, with hundreds of reviews - to [Hardraw Force](/places/hardraw-force/), which has well over a thousand and sits just outside town at Hardraw. The waterfalls continue down the list: [Cotter Force](/places/cotter-force/) and [Aysgill Force](/places/aysgill-force/) are both a short drive or a good walk from the town centre.
-
-          Of the rest, the working sheepdog demonstrations at a farm just outside Hawes rate five stars from visitors - a genuine Dales experience if you are staying in the area - and [Semerwater](/places/semerwater/), the natural lake in Raydale over the tops, makes a good pairing with a day in the town. The Chapel Gallery on the main street and Cellar Antiques cover art and browsing.
-    figure_src: /images/places/dales-countryside-museum-hawes.jpg
-    figure_alt: The Dales Countryside Museum in the former railway station at Hawes
-    reverse: true
+          The top places we found online in and around Hawes.
+    items:
+          - icon: hugeicons:building-03
+            name: Dales Countryside Museum
+            description: The most-reviewed attraction in town, in the former railway station - see the [Dales Countryside Museum](/places/dales-countryside-museum-hawes/).
+          - icon: hugeicons:droplet
+            name: Hardraw Force
+            description: England's highest single-drop waterfall, with well over a thousand reviews, just outside town at Hardraw - see [Hardraw Force](/places/hardraw-force/).
+          - icon: hugeicons:tree-01
+            name: Cotter Force
+            description: An easy, flat woodland walk to a broad waterfall on the road out of town - see [Cotter Force](/places/cotter-force/).
+          - icon: hugeicons:droplet
+            name: Aysgill Force
+            description: A narrower, quieter fall reached through the gorge above Gayle - see [Aysgill Force](/places/aysgill-force/).
+          - icon: hugeicons:tractor
+            name: Working Sheepdog Demonstrations
+            description: A genuine Dales experience at a farm just outside Hawes - sheepdogs working the fells as they would on any working farm in the dale.
+          - icon: hugeicons:location-04
+            name: Semerwater
+            description: The natural lake in Raydale over the tops, and a good pairing with a day in the town - see [Semerwater](/places/semerwater/).
   - type: items
     collection: properties
     intro_content: |-

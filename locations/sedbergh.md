@@ -35,16 +35,30 @@ blocks:
     figure_src: /images/places/howgill-fells.jpg
     figure_alt: The grassy rounded tops of the Howgill Fells above Sedbergh
     reverse: true
-  - type: split-image
-    content: |-
+  - type: features
+    intro_content: |-
           ## The Top Things to Do Around Sedbergh
 
-          By visitor reviews, the top things to do around Sedbergh on Tripadvisor are [Farfield Mill](/places/farfield-mill-sedbergh/), the [Cautley Spout](/places/cautley-spout/) waterfall and the 17th-century [Brigflatts Meeting House](/places/brigflatts-meeting-house/), one of the oldest Quaker meeting houses in the country and well worth the short detour down the lane off the A684. The [Sedbergh Information Centre and Book Shop](/places/sedbergh-tourist-information/) and [Sedbergh Golf Club](/places/sedbergh-golf-club/) round out the top five.
-
-          Two viaducts from the old railway era sit within easy reach towards Dentdale - Dent Head Viaduct and Waterside Viaduct, both reachable on foot from the Coal Road over towards [Dent](/locations/dent/) and popular with photographers of the [Settle-Carlisle line](/garsdale-train-station/). The Howgills Trail, a waymarked walking route through the fells above the town, also ranks highly with the walkers who find it.
-    figure_src: /images/places/cautley-spout.jpg
-    figure_alt: Cautley Spout waterfall on the Howgills above Sedbergh
-    reverse: false
+          The top places we found online in and around Sedbergh.
+    items:
+          - icon: hugeicons:paint-board
+            name: Farfield Mill
+            description: The best-rated attraction in Sedbergh - an arts and heritage centre with exhibitions, working studios and a good cafe. See [Farfield Mill](/places/farfield-mill-sedbergh/).
+          - icon: hugeicons:droplet
+            name: Cautley Spout
+            description: England's highest waterfall by total drop, at the head of its own dale a few miles from town - see [Cautley Spout](/places/cautley-spout/).
+          - icon: hugeicons:church
+            name: Brigflatts Meeting House
+            description: A 17th-century Quaker meeting house down a lane off the A684, one of the oldest in the country - see [Brigflatts Meeting House](/places/brigflatts-meeting-house/).
+          - icon: hugeicons:information-circle
+            name: Information Centre and Book Shop
+            description: Run by volunteers who know the area, with maps, leaflets and a serious stock of books - see the [Sedbergh Information Centre](/places/sedbergh-tourist-information/).
+          - icon: hugeicons:stars
+            name: Sedbergh Golf Club
+            description: An 18-hole course in Dales countryside about a mile outside town on the road towards Dent - see [Sedbergh Golf Club](/places/sedbergh-golf-club/).
+          - icon: hugeicons:bridge
+            name: Dent Head and Waterside Viaducts
+            description: Two railway viaducts from the Settle-Carlisle era, reachable on foot from the Coal Road towards [Dent](/locations/dent/) and popular with photographers.
   - type: features
     intro_content: |-
           ## Practicalities Worth Knowing

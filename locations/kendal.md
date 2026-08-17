@@ -35,16 +35,30 @@ blocks:
     figure_subtitle: First made by Joseph Wiper, carried on the 1953 Everest expedition, and still a favourite with walkers and climbers
     figure_variant: primary
     reverse: true
-  - type: split-image
-    content: |-
+  - type: features
+    intro_content: |-
           ## The Top Things to Do in Kendal
 
-          By visitor reviews on Tripadvisor, the top things to do in and around Kendal are Lakeland Maze Farm Park - a family farm attraction with a maize maze each summer, and the most-reviewed attraction in the area - followed by [Kendal Castle](/places/kendal-castle/), the ruined castle on the hill above the town with views over to the Howgills. Sizergh Castle, the National Trust medieval house just south of Kendal with 1,700 reviews, ranks third and pairs well with [Levens Hall](/places/levens-hall/) and its famous topiary on the same side of town.
-
-          The [Brewery Arts Centre](/places/brewery-arts-centre-kendal/) is in the top five as well, and the Lakeland Museum - the Museum of Lakeland Life in the same building - covers the area's social history. Foulshaw Moss, the Cumbria Wildlife Trust nature reserve with its osprey nest, is a short drive out of town on the way to [Morecambe](/places/morecambe-beach/).
-    figure_src: /images/places/levens-hall.jpg
-    figure_alt: The topiary gardens at Levens Hall, south of Kendal
-    reverse: false
+          The top places we found online in and around Kendal.
+    items:
+          - icon: hugeicons:maze
+            name: Lakeland Maze Farm Park
+            description: A family farm attraction with a maize maze each summer, and the most-reviewed attraction in the area.
+          - icon: hugeicons:castle
+            name: Kendal Castle
+            description: The ruined castle on the hill above the town, with views over to the Howgills - see [Kendal Castle](/places/kendal-castle/).
+          - icon: hugeicons:building-03
+            name: Sizergh Castle
+            description: The National Trust medieval house just south of Kendal, which pairs well with [Levens Hall](/places/levens-hall/) and its famous topiary on the same side of town.
+          - icon: hugeicons:mask-theater-01
+            name: Brewery Arts Centre
+            description: Cinema, music, theatre and comedy in the town centre - see the [Brewery Arts Centre](/places/brewery-arts-centre-kendal/).
+          - icon: hugeicons:information-circle
+            name: Lakeland Museum
+            description: The Museum of Lakeland Life, covering the area's social history, in the same building as the Brewery Arts Centre.
+          - icon: hugeicons:bird
+            name: Foulshaw Moss
+            description: The Cumbria Wildlife Trust nature reserve with its osprey nest, a short drive out of town on the way to [Morecambe](/places/morecambe-beach/).
   - type: split-image
     content: |-
           ## Getting There and Around

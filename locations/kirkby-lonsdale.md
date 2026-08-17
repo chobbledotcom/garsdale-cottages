@@ -36,7 +36,7 @@ blocks:
     intro_content: |-
           ## The Top Things to Do in Kirkby Lonsdale
 
-          By visitor reviews on Tripadvisor, these are the five that come out on top.
+          The top places we found online in and around the town.
     items:
           - icon: hugeicons:building-03
             name: Devils Bridge
@@ -53,6 +53,9 @@ blocks:
           - icon: hugeicons:path
             name: The Radical Steps
             description: The steep stone steps down the riverbank to the Lune, the same route Turner took to sketch [Ruskins View](/places/ruskins-view-kirkby-lonsdale/).
+          - icon: hugeicons:information-circle
+            name: "The Vault: A Story Bank"
+            description: A small visitor attraction and community archive telling the town's stories, just off the square.
   - type: items
     collection: properties
     intro_content: |-

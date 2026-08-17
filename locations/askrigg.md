@@ -19,12 +19,36 @@ blocks:
     content: |-
           ## Darrowby, St Oswald's and the Village Green
 
-          Askrigg works well as a stop on a Wensleydale day out, easily combined with [Hawes](/locations/hawes/), the [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) or a walk to [Aysgarth Falls](/places/aysgarth-falls/). By visitor reviews on Tripadvisor, the top thing to do in the village itself is St Oswald's Church, the parish church on the green whose tower dates back to medieval times; the Herriot connection aside, it is a quiet, photogenic spot of the sort that upper Wensleydale does well. The village green, the church and the stone terraces around them are what film crews used for the fictional Darrowby.
+          Askrigg works well as a stop on a Wensleydale day out, easily combined with [Hawes](/locations/hawes/), the [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) or a walk to [Aysgarth Falls](/places/aysgarth-falls/). The village green, St Oswald's Church and the stone terraces around them are what film crews used for the fictional Darrowby in *All Creatures Great and Small*.
 
           The village sits just off the A684, and the road continues east from here towards [Aysgarth](/places/aysgarth-falls/) and lower Wensleydale, with [Muker](/places/muker-village/) and upper Swaledale reachable over the tops to the south.
     figure_src: /images/places/aysgarth-falls.jpg
     figure_alt: The visitor centre and picnic tables at Aysgarth Falls in Wensleydale
     reverse: false
+  - type: features
+    intro_content: |-
+          ## The Top Things to Do Around Askrigg
+
+          The top place we found online in Askrigg itself, with the best of upper Wensleydale alongside.
+    items:
+          - icon: hugeicons:church
+            name: St Oswald's Church
+            description: The parish church on the green, whose tower dates back to medieval times - the top-rated thing to do in the village itself.
+          - icon: hugeicons:mask-theater-01
+            name: Herriot Film Locations
+            description: The green, the church and the stone terraces stood in for the fictional Darrowby in the original *All Creatures Great and Small*, filmed here in the 1970s and 1980s.
+          - icon: hugeicons:droplet
+            name: Aysgarth Falls
+            description: The broad stretches of the River Ure over limestone steps, a short drive east - see [Aysgarth Falls](/places/aysgarth-falls/).
+          - icon: hugeicons:location-04
+            name: Semerwater
+            description: The closest natural lake to Garsdale, in Raydale just west of the village - see [Semerwater](/places/semerwater/).
+          - icon: hugeicons:gift
+            name: Wensleydale Creamery
+            description: The cheese experience, cafe and shop back up the dale at Hawes - see the [Wensleydale Creamery](/places/wensleydale-creamery-hawes/).
+          - icon: hugeicons:castle
+            name: Bolton Castle
+            description: The medieval fortress at Castle Bolton, where Mary Queen of Scots was once held prisoner - see [Bolton Castle](/places/bolton-castle/).
   - type: split-image
     content: |-
           ## Semerwater and Raydale

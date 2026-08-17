@@ -40,11 +40,33 @@ blocks:
           ## Dentdale
 
           Dentdale itself is a U-shaped glacial valley running east from the village, and it contains some of Britain's surviving upland hay meadows - traditionally farmed to allow wildlife to thrive, and blanketed in wildflowers in spring and summer. The [Dentdale circular walk](/places/dent-village/) climbs to Gawthorp with views across the dale and returns along the banks of the River Dee on a section of the Dales Way.
-
-          By visitor reviews on Tripadvisor, the top things to do around Dent are the village itself - the cobbled main street ranks as the number one attraction - followed by the Dent Village Museum and Heritage Centre. Dent Head Viaduct and [Dent Station](/places/dent-station/) - said to be the highest main line station in England - both sit up on the Coal Road side of the dale, and Gastack Beck waterfall and the Flintergill walk, the old intake road that climbs the fellside behind the village, complete the round-up for walkers.
     figure_src: /images/guide-pages/dentdale-rolling-hills-sunset.jpg
     figure_alt: The rolling hills of Dentdale at sunset
     reverse: false
+  - type: features
+    intro_content: |-
+          ## The Top Things to Do Around Dent
+
+          The top places we found online in and around Dent.
+    items:
+          - icon: hugeicons:location-04
+            name: The Village of Dent
+            description: The cobbled main street itself ranks as the number one attraction in the dale - see [Dent village](/places/dent-village/).
+          - icon: hugeicons:building-03
+            name: Dent Village Museum
+            description: The museum and heritage centre telling the story of the dale, its knitters and its farming past.
+          - icon: hugeicons:bridge
+            name: Dent Head Viaduct
+            description: The taller of the two great railway viaducts on the Coal Road side of the dale, reachable on foot.
+          - icon: hugeicons:train-01
+            name: Dent Station
+            description: Said to be the highest main line station in England, on the Settle-Carlisle line - see [Dent Station](/places/dent-station/).
+          - icon: hugeicons:droplet
+            name: Gastack Beck Waterfall
+            description: A small waterfall on the beck behind the village, an easy add-on to a wander round the cobbles.
+          - icon: hugeicons:path
+            name: The Flintergill Walk
+            description: The old intake road that climbs the fellside behind the village, with views back over Dentdale.
   - type: items
     collection: properties
     intro_content: |-
