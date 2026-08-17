@@ -2,6 +2,7 @@
 name: Wirlygig
 subtitle: Enjoying Your Time Outside
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 13
 icon: hugeicons:clothes
 blocks:

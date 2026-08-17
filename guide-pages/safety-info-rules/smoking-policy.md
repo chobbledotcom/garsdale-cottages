@@ -2,6 +2,7 @@
 name: Smoking Policy
 subtitle: Rules & Regulations
 guide-category: safety-info-rules
+property: properties/roger-pot.md
 order: 3
 icon: hugeicons:cancel-circle
 blocks:

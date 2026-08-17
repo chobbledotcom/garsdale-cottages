@@ -2,6 +2,7 @@
 name: Bottled water
 subtitle: Other Useful Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 15
 icon: hugeicons:droplet
 blocks:

@@ -2,6 +2,7 @@
 name: What we love!
 subtitle: Welcome
 guide-category: welcome
+property: properties/roger-pot.md
 order: 2
 icon: hugeicons:heart-add
 blocks:

@@ -2,6 +2,7 @@
 name: Music System
 subtitle: Enjoying Your Time Inside
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 8
 icon: hugeicons:music-note-01
 blocks:

@@ -2,6 +2,7 @@
 name: Laundry Appliances
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 3
 icon: hugeicons:washing-machine
 featured_image: /images/guide-pages/laundry-appliances.jpeg

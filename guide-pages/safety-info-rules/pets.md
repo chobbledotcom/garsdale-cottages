@@ -2,6 +2,7 @@
 name: Pets
 subtitle: Rules & Regulations
 guide-category: safety-info-rules
+property: properties/roger-pot.md
 order: 4
 icon: hugeicons:bone-01
 blocks:

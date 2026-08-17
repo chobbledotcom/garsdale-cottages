@@ -930,6 +930,14 @@ content:
           search: primary
           value: "{path}"
           label: "{primary}"
+      - name: property
+        label: Property
+        type: reference
+        options:
+          collection: properties
+          search: primary
+          value: "{path}"
+          label: "{primary}"
       - { name: order, type: number, label: Order }
       - { name: body, type: rich-text, label: Body }
       - { name: faqs, component: faqs }

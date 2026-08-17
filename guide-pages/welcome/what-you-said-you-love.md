@@ -2,6 +2,7 @@
 name: What you said you love
 subtitle: What you said you love!
 guide-category: welcome
+property: properties/roger-pot.md
 order: 3
 icon: hugeicons:star
 blocks:

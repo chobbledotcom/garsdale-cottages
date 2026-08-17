@@ -2,6 +2,7 @@
 name: Possible risks
 subtitle: Safety Information
 guide-category: safety-info-rules
+property: properties/roger-pot.md
 order: 6
 icon: hugeicons:alert-circle
 blocks:

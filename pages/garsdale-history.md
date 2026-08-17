@@ -5,6 +5,8 @@ layout: base
 subtitle: Centuries of farming, faith and resilience
 meta_title: The History of Garsdale | Yorkshire Dales
 meta_description: The history of Garsdale in the Yorkshire Dales, from Viking settlement and medieval monasteries to the Settle-Carlisle railway and the Great Flood of 1889.
+redirect_from:
+  - /guide/about-the-accommodation/garsdale/
 blocks:
   - type: image-background
     parallax: true
@@ -12,12 +14,12 @@ blocks:
     image_alt: Historic garage and road in Garsdale
     content: "# The History of Garsdale"
   - type: markdown
-    content: Garsdale has been shaped by centuries of farming, faith and resilience. The dale sits on the western flanks of the Pennines, carved by the Clough River as it makes its way down to meet the River Rawthey near Sedbergh. Though it feels timeless, the dale has seen remarkable change.
+    content: Garsdale has been shaped by centuries of farming, faith and resilience. The dale sits on the western slopes of the Pennines, in the Yorkshire Dales National Park, with Baugh Fell to the north and Rise Hill to the south. It is the valley of the Clough River, which rises on the north eastern slopes of Baugh Fell and runs through Grisedale as Grisedale Beck before becoming the Clough River at Garsdale Head, then makes its way down the dale to meet the River Rawthey near Sedbergh. Though it feels timeless, the dale has seen remarkable change.
   - type: split-image
     content: |-
           ## Early History
           The manor of Garsdale was once held by St Agatha's Abbey at Easby, near Richmond, and leased to the powerful Scrope family of Castle Bolton. After Henry VIII dissolved the monasteries, the land passed through various hands until it was sold to five local yeomen in the early 1600s. By 1740, Braithwaite Otway of Ingmire Hall had consolidated the holdings and freed the tenants from their feudal obligations, allowing them to own and work their land independently.
-          For centuries, Garsdale was part of the West Riding of Yorkshire, within the ancient parish of Sedbergh. It became its own civil parish in 1866, and in 1974 the boundary changes brought it into the new county of Cumbria, though it remains firmly within the Yorkshire Dales National Park.
+          For centuries, Garsdale was part of the West Riding of Yorkshire, a chapelry within the ancient parish of Sedbergh in the Ewecross wapentake. It became its own civil parish in 1866, was part of Sedbergh Rural District from 1894 to 1974, and in 1974 the boundary changes brought it into the new county of Cumbria, though it remains firmly within the Yorkshire Dales National Park.
     figure_src: /images/old-garsdale/historical-white-cottages.png
     figure_alt: Historical photograph of white-painted cottages on a Garsdale lane
     reverse: false
@@ -37,7 +39,7 @@ blocks:
   - type: markdown
     content: |-
           ## A Changing Population
-          The dale's population peaked at over 900 during the 1870s, when hundreds of navvies arrived to build the Settle-Carlisle railway. Once the line was complete, numbers fell steadily. By the 2001 census, just 202 people lived here. Today the dale has around 18 working farms, most of which have absorbed several of the original smallholdings. Despite the small population, Garsdale retains a strong sense of community, with the village hall serving as the main gathering place for events throughout the year.
+          The dale's population peaked at over 900 during the 1870s, when hundreds of navvies arrived to build the Settle-Carlisle railway. Once the line was complete, numbers fell steadily. By the 2001 census, just 202 people lived here, and by the 2011 census that had fallen again to 191. Today the dale has around 18 working farms, most of which have absorbed several of the original smallholdings. Despite the small population, Garsdale retains a strong sense of community, with the village hall serving as the main gathering place for events throughout the year.
   - type: split-image
     content: |-
           ## The Great Flood of 1889

@@ -2,6 +2,7 @@
 name: Television
 subtitle: Enjoying Your Time Inside
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 7
 icon: hugeicons:television-table
 blocks:

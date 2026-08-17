@@ -3,6 +3,7 @@ name: Book Again
 subtitle: Book Again information and guides
 order: 10
 icon: hugeicons:repeat
+property: properties/roger-pot.md
 blocks:
 - type: markdown
   content: '# Book Again

@@ -2,6 +2,7 @@
 name: BBQ's
 subtitle: Enjoying Your Time Outside
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 11
 icon: hugeicons:bbq-grill
 blocks:

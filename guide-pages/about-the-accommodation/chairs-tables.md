@@ -2,6 +2,7 @@
 name: Chairs / Tables
 subtitle: Enjoying Your Time Outside
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 10
 icon: hugeicons:chair-01
 blocks:

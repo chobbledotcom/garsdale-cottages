@@ -2,6 +2,7 @@
 name: Main LPG stop valve
 subtitle: Utilities
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 20
 icon: hugeicons:gas-stove
 blocks:

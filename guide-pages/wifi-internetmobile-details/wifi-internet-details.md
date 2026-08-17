@@ -2,6 +2,7 @@
 name: WiFi / Internet Details
 subtitle: WiFi / Internet/Mobile details
 guide-category: wifi-internetmobile-details
+property: properties/roger-pot.md
 order: 1
 icon: hugeicons:wifi-01
 featured_image: /images/guide-pages/wifi-internet-details.jpeg

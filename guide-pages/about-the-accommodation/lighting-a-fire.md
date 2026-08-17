@@ -2,6 +2,7 @@
 name: Lighting a fire
 subtitle: Enjoying Your Time Inside
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 9
 icon: hugeicons:fire
 blocks:

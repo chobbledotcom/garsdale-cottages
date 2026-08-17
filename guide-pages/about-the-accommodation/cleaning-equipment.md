@@ -2,6 +2,7 @@
 name: Cleaning equipment
 subtitle: Appliance Instructions / Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 4
 icon: hugeicons:cleaning-bucket
 blocks:

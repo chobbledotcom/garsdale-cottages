@@ -2,6 +2,7 @@
 name: Check-in Time
 subtitle: Planning Your Arrival
 guide-category: arrival-information
+property: properties/roger-pot.md
 order: 2
 icon: hugeicons:clock-02
 blocks:

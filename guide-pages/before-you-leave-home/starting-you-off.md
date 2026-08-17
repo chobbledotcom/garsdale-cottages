@@ -2,6 +2,7 @@
 name: Starting you off
 subtitle: We will provide
 guide-category: before-you-leave-home
+property: properties/roger-pot.md
 order: 4
 icon: hugeicons:shopping-basket-01
 blocks:

@@ -2,6 +2,7 @@
 name: What to do in an Emergency
 subtitle: Safety Information
 guide-category: safety-info-rules
+property: properties/roger-pot.md
 order: 5
 icon: hugeicons:first-aid-kit
 featured_image: /images/guide-pages/what-to-do-in-an-emergency.jpeg

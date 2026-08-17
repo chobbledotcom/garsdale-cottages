@@ -2,6 +2,7 @@
 name: Cars
 subtitle: Other Useful Information
 guide-category: about-the-accommodation
+property: properties/roger-pot.md
 order: 16
 icon: hugeicons:car-01
 blocks:

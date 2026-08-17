@@ -2,6 +2,7 @@
 name: Things To Bring
 subtitle: Don't Forget To Bring
 guide-category: before-you-leave-home
+property: properties/roger-pot.md
 order: 3
 icon: hugeicons:luggage-02
 featured_image: /images/guide-pages/things-to-bring.jpeg

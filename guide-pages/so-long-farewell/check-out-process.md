@@ -2,6 +2,7 @@
 name: Check-out Process
 subtitle: Departure Information
 guide-category: so-long-farewell
+property: properties/roger-pot.md
 order: 3
 icon: hugeicons:door-02
 blocks:

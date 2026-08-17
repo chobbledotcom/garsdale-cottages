@@ -2,6 +2,7 @@
 name: Access Codes / Instructions
 subtitle: Planning Your Arrival
 guide-category: arrival-information
+property: properties/roger-pot.md
 order: 1
 icon: hugeicons:key-02
 blocks:
