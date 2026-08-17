@@ -156,6 +156,97 @@
     .map-filters button.active .filter-icon {
       color: #fff !important;
     }
+    .place-list__count {
+      margin: 1.25rem 0 0.5rem;
+      font-size: 0.9rem;
+      color: var(--text-secondary, #666);
+      font-variant-numeric: tabular-nums;
+    }
+    .place-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    /* Each row collapses with a two-stage, CSS-only transition. Hiding fades
+       the opacity first, then shrinks the grid row from 1fr to 0fr; showing
+       grows the row back first, then fades the opacity in. The delayed
+       visibility flip removes hidden rows from the accessibility tree and
+       the tab order once the animation has finished. */
+    .place-list__item {
+      display: grid;
+      grid-template-rows: 1fr;
+      opacity: 1;
+      visibility: visible;
+      transition:
+        grid-template-rows 0.3s ease,
+        opacity 0.3s ease 0.3s,
+        visibility 0s;
+    }
+    .place-list__item--hidden {
+      grid-template-rows: 0fr;
+      opacity: 0;
+      visibility: hidden;
+      transition:
+        opacity 0.3s ease,
+        grid-template-rows 0.3s ease 0.3s,
+        visibility 0s 0.6s;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .place-list__item,
+      .place-list__item--hidden {
+        transition: none;
+      }
+    }
+    .place-list__clip {
+      overflow: hidden;
+      min-height: 0;
+    }
+    .place-list__row {
+      display: flex;
+      align-items: baseline;
+      gap: 0.6rem;
+      padding: 0.45rem 0.75rem;
+      margin-bottom: 0.35rem;
+      border-radius: 6px;
+      background: var(--bg-secondary, #f5f5f5);
+      border: 1px solid var(--border-color, #ddd);
+    }
+    .place-list__dot {
+      flex: 0 0 auto;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      align-self: center;
+    }
+    .place-list__name {
+      flex: 1 1 auto;
+      font-weight: 600;
+      color: var(--text-primary, #333);
+      text-decoration: none;
+    }
+    .place-list__name:hover {
+      text-decoration: underline;
+    }
+    .place-list__cat {
+      flex: 0 0 auto;
+      font-size: 0.8rem;
+      color: var(--text-secondary, #666);
+      white-space: nowrap;
+    }
+    .place-list__closed {
+      flex: 0 0 auto;
+      font-size: 0.75rem;
+      color: #B71C1C;
+      white-space: nowrap;
+    }
+    @media (max-width: 600px) {
+      .place-list__row {
+        flex-wrap: wrap;
+      }
+      .place-list__cat {
+        margin-left: 1.1rem;
+      }
+    }
   </style>
 </head>
 <body class="design-system {{ layout | getBodyClasses: config }}">
@@ -173,6 +264,33 @@
       </div>
 
       <div id="map"></div>
+
+      <p class="place-list__count" id="place-list-count" aria-live="polite">
+        Showing all {{ map_places.places | size }} places.
+      </p>
+      <ul class="place-list" id="place-list">
+        {%- for place in map_places.places -%}
+        {%- assign cat_info = map_places.categories | where: "type", place.category | first -%}
+        <li class="place-list__item" data-category="{{ place.category }}">
+          <div class="place-list__clip">
+            <div class="place-list__row">
+              <span
+                class="place-list__dot"
+                style="background: {{ cat_info.color | default: '#757575' }}"
+                aria-hidden="true"
+              ></span>
+              <a class="place-list__name" href="{{ place.url }}">{{ place.title }}</a>
+              {%- if place.closed == "permanent" -%}
+              <span class="place-list__closed">Closed</span>
+              {%- elsif place.closed == "temporary" -%}
+              <span class="place-list__closed">Temporarily closed</span>
+              {%- endif -%}
+              <span class="place-list__cat">{{ cat_info.label | default: place.category }}</span>
+            </div>
+          </div>
+        </li>
+        {%- endfor -%}
+      </ul>
     </div>
   </main>
   {%- include "design-system/footer.html" -%}

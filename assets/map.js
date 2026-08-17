@@ -215,6 +215,22 @@
       btn.classList.toggle("active", btn.dataset.category === activeCategory);
     });
 
+    var listItems = document.querySelectorAll("#place-list .place-list__item");
+    var countEl = document.getElementById("place-list-count");
+    var shown = 0;
+    listItems.forEach(function (li) {
+      var matches =
+        activeCategory === "all" || li.dataset.category === activeCategory;
+      li.classList.toggle("place-list__item--hidden", !matches);
+      if (matches) shown += 1;
+    });
+    if (countEl) {
+      countEl.textContent =
+        activeCategory === "all"
+          ? "Showing all " + listItems.length + " places."
+          : "Showing " + shown + " of " + listItems.length + " places.";
+    }
+
     var visibleLatLngs = [];
 
     markers.forEach(function (item) {
