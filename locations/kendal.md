@@ -35,6 +35,30 @@ blocks:
     figure_subtitle: First made by Joseph Wiper, carried on the 1953 Everest expedition, and still a favourite with walkers and climbers
     figure_variant: primary
     reverse: true
+  - type: markdown
+    content: |-
+          ## The History of Kendal Mint Cake
+
+          Kendal Mint Cake is based on an older recipe that went under several names, including mint cake and peppermint tablet, and the Kendal version of it came about by mistake. Joseph Wiper had married into the Thompson family, confectioners in Kendal, and in 1869 he is said to have left a boiled solution for glacier mints standing overnight. By the morning it had turned cloudy and gone solid, and what he found in the pan was the first batch of what became Kendal Mint Cake. Wiper started producing it properly, and several other Kendal confectioners followed him into it soon afterwards.
+
+          Joseph Wiper emigrated to Canada in 1912 and his great-nephew Robert Wiper took over the family business. Robert is the one who turned it into the thing walkers know now, marketing Kendal Mint Cake as an energy snack for expeditions - among them Sir Ernest Shackleton's Imperial Trans-Antarctic Expedition - and that is largely what carried its name out to mountaineers and hikers around the world. It went up Everest with the 1953 expedition as well, and it is still sold in most of the outdoor shops between here and the Lakes, including the ones in Sedbergh and Hawes that our guests use.
+
+          Three companies still produce Kendal Mint Cake today. It keeps well in a rucksack, which is why it has never really gone out of use round here, and a bar of it is a reasonable thing to have in your pocket on a long day out from Garsdale.
+  - type: features
+    intro_content: |-
+          ## The Kendal Mint Cake Makers
+
+          These are the three firms still making it, and between them they account for most of its history.
+    items:
+          - icon: hugeicons:award-01
+            name: Quiggin's
+            description: The oldest surviving mint cake company. The Quiggin family had been making confectionery on the Isle of Man since 1840, and when Daniel Quiggin, one of four sons, moved to Kendal in 1880, the mint cake company was formed.
+          - icon: hugeicons:train-01
+            name: Romney's
+            description: Founded in 1918 on an old recipe, selling in Kendal and sending the rest out by train to the north west. In 1987 Romney's bought Wiper's Mint Cake from Harry Wiper.
+          - icon: hugeicons:mountain
+            name: Wiper's
+            description: The original firm, started by Joseph Wiper in 1869 and taken on by his great-nephew Robert. Harry Wiper inherited it in 1960 when his father Robert died, and sold it to Romney's in 1987.
   - type: features
     intro_content: |-
           ## The Top Things to Do in Kendal

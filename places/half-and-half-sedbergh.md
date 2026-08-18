@@ -7,7 +7,7 @@ redirect_from:
   - /guide/your-local-area-guide-to-getting-about-walking-sho/the-half-and-half-sedbergh/
 layout: base
 meta_title: The Half and Half, Sedbergh | Pubs Near Garsdale and Sedbergh
-meta_description: The Half and Half, Sedbergh, a pub near Garsdale and Sedbergh in the Yorkshire Dales.
+meta_description: The Half and Half, Sedbergh, a dog friendly bar near Garsdale and Sedbergh in the Yorkshire Dales serving drinks with occasional food nights, about fifteen minutes from our holiday cottages.
 google_place_id: ChIJP86ZLoZhfEgRAM0d1Q1t2As
 google:
   name: Half and Half Sedbergh
@@ -50,7 +50,7 @@ blocks:
     content: "# The Half and Half, Sedbergh"
   - type: split-html
     reverse: true
-    content: The Half and Half is a bar in Sedbergh, the nearest town to Garsdale, around six miles west down the A684. It runs a monthly acoustic night, open to musicians, singers and poets to attend and take part, along with a variety of other events and music nights across the year. The Half and Half is one of the [dog-friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) pub options in Sedbergh, so it works well if you are bringing your dog, while the Dalesman in the same town is not dog-friendly and is best avoided in that case. Combine a visit with Sedbergh's Wednesday market, the artisan markets through the summer months, Farfield Mill on the road out towards Garsdale, and the bookshops, craft and gift shops on the high street.
+    content: The Half and Half is a bar in Sedbergh, the nearest town to Garsdale, around six miles west down the A684. It runs a monthly acoustic night, open to musicians, singers and poets to attend and take part, along with a variety of other events and music nights across the year. It is a drinks place first, with occasional food nights, so plan to eat at the [Black Bull](/places/black-bull-inn-sedbergh/) or the [Red Lion](/places/red-lion-sedbergh/) if you want a full meal. The Half and Half is one of the [dog-friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) pub options in Sedbergh, along with the Black Bull, the Red Lion and the [Thirsty Rambler](/places/thirsty-rambler-sedbergh/), so it works well if you are bringing your dog, while the Dalesman in the same town is not dog-friendly and is best avoided in that case. Combine a visit with Sedbergh's Wednesday market, the artisan markets through the summer months, Farfield Mill on the road out towards Garsdale, and the bookshops, craft and gift shops on the high street.
     figure_html: "{% include \"business-details.html\", place_slug: \"half-and-half-sedbergh\" %}"
   - type: split-image
     content: |-
@@ -76,6 +76,8 @@ blocks:
           ## See Also
           
           - [The Black Bull Inn](/places/black-bull-inn-sedbergh/) - the other end of Main Street, for food
+          - [The Red Lion, Sedbergh](/places/red-lion-sedbergh/) - meals and drinks, dogs welcome
+          - [The Thirsty Rambler, Sedbergh](/places/thirsty-rambler-sedbergh/) - the other dog friendly drinks stop in town
           - [The Dalesman Country Inn](/places/dalesman-country-inn-sedbergh/) - the Sedbergh pub if you want a meal rather than drinks
           - [Eating and drinking in Garsdale](/eating-and-drinking-in-garsdale/) - our wider round-up
           - [Dog-friendly holiday cottages in Garsdale](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) - if you're bringing the dog
