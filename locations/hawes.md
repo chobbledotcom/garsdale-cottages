@@ -29,7 +29,9 @@ blocks:
     content: |-
           ## Eating, Drinking and Supplies in Hawes
 
-          For eating and drinking, the [White Hart](/places/white-hart-inn-hawes/) is a 16th-century former coaching inn on the cobbled main street and directly on the Pennine Way, and [The Chippie](/places/the-chippie/) on Market Place is one of the better fish and chip shops in the Dales, with [Caffe Curva](/places/caff-curva/) next door for coffee and cake.
+          For eating and drinking, the [White Hart](/places/white-hart-inn-hawes/) is a 16th-century former coaching inn on the cobbled main street and directly on the Pennine Way, the [Board Inn](/places/board-inn-hawes/) also does meals and drinks, and [The Chippie](/places/the-chippie/) on Market Place is one of the better fish and chip shops in the Dales, with [Caffe Curva](/places/caff-curva/) next door for coffee and cake.
+
+          The White Hart, the Board Inn and Caffe Curva are all [dog friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/), as is the [Green Dragon](/places/green-dragon-inn-hardraw/) at Hardraw just outside town, so Hawes is a straightforward place to bring the dog for the day.
 
           [SPAR Hawes](/places/spar-hawes/) covers groceries and has the town's reliable cash machine, and [Dale Head Community Garage](/places/dalehead-garage-hawes/) at Town Head is the petrol station - the first community-run filling station in the country, with fuel around the clock.
     figure_src: /images/places/white-hart-inn-hawes.jpg
@@ -83,5 +85,6 @@ blocks:
           - [Askrigg](/places/askrigg-village/) - Herriot country, further down Wensleydale
           - [Dent](/places/dent-village/) - over the Coal Road from Garsdale
           - [Eating and Drinking in Garsdale](/eating-and-drinking-in-garsdale/) - our wider round-up
+          - [Dog Friendly Holiday Cottages in Garsdale](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) - including the dog friendly pubs in Hawes
           - [Things To Do](/things-to-do/) - the full round-up
 ---

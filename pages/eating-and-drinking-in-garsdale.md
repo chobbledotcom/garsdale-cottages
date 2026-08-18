@@ -30,7 +30,7 @@ blocks:
   - type: split-image
     content: |-
           ## [The Cross Keys at Cautley](/places/cross-keys-temperance-inn-cautley/)
-          A 500-year-old National Trust temperance inn (no alcohol, though guests are welcome to bring their own). The food is good and the setting at the foot of [Cautley Spout](/places/cautley-spout/) is beautiful — a natural fit for a [wellness or retreat break](/wellness-retreats/).
+          A 500-year-old National Trust temperance inn (no alcohol, though guests are welcome to bring their own). The food is good and the setting at the foot of [Cautley Spout](/places/cautley-spout/) is beautiful - a natural fit for a [wellness or retreat break](/wellness-retreats/).
     figure_src: /images/eating-and-drinking/cross-keys-inn.jpg
     figure_alt: The Cross Keys Temperance Inn below Yarlside at Cautley
     reverse: false
@@ -45,6 +45,14 @@ blocks:
     content: |-
           ## More Nearby Pubs and Restaurants
           **Sedbergh** and **Hawes** both offer a wider range of pubs, restaurants and cafes. See our [Things To Do](/things-to-do/) page for more recommendations.
+  - type: markdown
+    content: |-
+          ## Dog Friendly Pubs Near Garsdale
+          All three of our [dog friendly holiday cottages](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) take dogs, so it is worth knowing which pubs and cafes near Garsdale will take them too. This is what we know at the moment, listed by village. Opening hours and food service change with the season in the Yorkshire Dales, so ring ahead if you are driving over for a meal rather than just a drink.
+          In **[Sedbergh](/locations/sedbergh/)**, six miles west, the [Black Bull](/places/black-bull-inn-sedbergh/) and the [Red Lion](/places/red-lion-sedbergh/) both do meals and drinks, the [Thirsty Rambler](/places/thirsty-rambler-sedbergh/) does drinks, and the [Half and Half](/places/half-and-half-sedbergh/) does drinks with occasional food nights. The [Dalesman Country Inn](/places/dalesman-country-inn-sedbergh/) in the same town is not dog friendly, so plan around that one.
+          In **[Hawes](/locations/hawes/)**, nine miles east, the [White Hart](/places/white-hart-inn-hawes/) and the [Board Inn](/places/board-inn-hawes/) both do meals and drinks, and [Caffe Curva](/places/caff-curva/) on Market Place does daytime food.
+          At **Cautley**, the [Cross Keys temperance inn](/places/cross-keys-temperance-inn-cautley/) will allow dogs into the lounge area but not into the tabled restaurant area, which is the one exception worth remembering on the list.
+          At **Hardraw**, the [Green Dragon](/places/green-dragon-inn-hardraw/) does meals and drinks and takes dogs, and [Hardraw Force](/places/hardraw-force/) is behind the pub.
   - type: split-image
     content: |-
           ## [Wensleydale Creamery at Hawes](/places/wensleydale-creamery-hawes/)
@@ -61,8 +69,9 @@ blocks:
     content: |-
           ## Cumbrian Food Traditions
           Garsdale sits in Cumbria, and the county has a number of distinctive food traditions well worth seeking out during your stay.
-          **Cumberland Sausage** is the region's most famous product. In 2011 it was granted Protected Geographical Indication status — to carry the PGI mark, the sausage must be produced in Cumbria with at least 80% meat content, chopped rather than minced, and flavoured predominantly with pepper. It appears on most pub and cafe menus across the area and is an excellent choice for a barbecue at the cottage.
-          **Kendal Mint Cake** was first made in 1869 by Joseph Wiper in a small factory in Kendal. Prized for its energy-giving properties, it was included in the supplies for the 1953 Everest expedition and several polar expeditions. It remains a favourite with walkers and climbers and can be bought from shops in Kendal and Sedbergh.
+          **Cumberland Sausage** is the region's most famous product. In 2011 it was granted Protected Geographical Indication status - to carry the PGI mark, the sausage must be produced in Cumbria with at least 80% meat content, chopped rather than minced, and flavoured predominantly with pepper. It appears on most pub and cafe menus across the area and is an excellent choice for a barbecue at the cottage.
+          **Kendal Mint Cake** was first made in 1869 by Joseph Wiper in a small factory in Kendal, and by most accounts he made it by accident. He had married into the Thompson family of Kendal confectioners, and the story is that he left a boiled solution for glacier mints standing overnight, came back in the morning and found it had gone cloudy and set solid. It is based on a traditional recipe known variously as mint cake and peppermint tablet. Wiper emigrated to Canada in 1912 and his great-nephew Robert Wiper took the business on, and it was Robert who marketed Kendal Mint Cake as an energy snack for expeditions, including Sir Ernest Shackleton's Imperial Trans-Antarctic Expedition, which is largely what made it famous with mountaineers and hikers. Prized for its energy-giving properties, it was included in the supplies for the 1953 Everest expedition and several polar expeditions, and it remains a favourite with walkers and climbers.
+          Three companies still make Kendal Mint Cake. Quiggin's is the oldest survivor, a family that had been making confectionery on the Isle of Man since 1840 until Daniel Quiggin moved to Kendal in 1880 and set the mint cake company up there. Romney's started in 1918 using an old recipe, selling in Kendal and sending the rest out by train to the north west, and in 1987 it bought Wiper's Mint Cake from Harry Wiper, who had inherited the firm in 1960 when his father Robert died. All of it can be bought from shops in [Kendal](/locations/kendal/) and Sedbergh, and there is more on the history on our [Kendal](/locations/kendal/) page.
           **Damsons** are grown in the Lyth Valley south of Kendal. The orchards are a mass of white blossom in April and the fruit ripens in September, when it appears in local shops and roadside stalls. Damson gin, made from the fruit blended with London gin, is a popular local tipple.
           **Cumberland Rum Butter** is a traditional recipe of lightly spiced butter with dark rum, usually served with Christmas pudding and mince pies. Historically it was also given with oatcakes to visitors who called to see a new baby.
           Beyond Wensleydale, the region produces a range of cheeses including Kendal Crumbly, a tangy crumbly cheese good with a ploughman's lunch, Eden Valley Organic Brie made with Cumbrian organic milk, and Cumberland Farmhouse, a strong hard cheese that pairs well with a glass of wine.
@@ -78,11 +87,11 @@ blocks:
           ## References
           
           - [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) ([wensleydale.co.uk](https://www.wensleydale.co.uk/))
-          - [Hardraw Force](/places/hardraw-force/) — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hardraw_Force))
+          - [Hardraw Force](/places/hardraw-force/) - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hardraw_Force))
           - [Cross Keys Temperance Inn](/places/cross-keys-temperance-inn-cautley/), Cautley ([cautleyspout.co.uk](https://www.cautleyspout.co.uk/))
           - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
           - Little White Bus, Hawes ([littlewhitebus.co.uk](https://www.littlewhitebus.co.uk/))
-          - Cumberland Sausage PGI — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cumberland_sausage))
-          - Kendal Mint Cake — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Kendal_Mint_Cake))
+          - Cumberland Sausage PGI - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cumberland_sausage))
+          - Kendal Mint Cake - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Kendal_Mint_Cake))
           - Lyth Valley Damsons ([lythdamsons.org.uk](https://www.lythdamsons.org.uk/))
 ---

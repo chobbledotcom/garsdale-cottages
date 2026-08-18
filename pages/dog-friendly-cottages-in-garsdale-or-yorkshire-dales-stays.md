@@ -62,6 +62,16 @@ blocks:
           
           ### Places to Eat & Drink
           
+          These are the dog friendly pubs and cafes we know of within easy reach of the dale, and what each of them does. Opening hours and food service times move about with the season up here, so it is worth ringing ahead if you are driving over specially.
+          
+          **[Sedbergh](/locations/sedbergh/)**, about six miles west and roughly fifteen minutes from the holiday cottages, has four of them. The [Black Bull](/places/black-bull-inn-sedbergh/) and the [Red Lion](/places/red-lion-sedbergh/) both serve meals and drinks, the [Thirsty Rambler](/places/thirsty-rambler-sedbergh/) does drinks, and the [Half and Half](/places/half-and-half-sedbergh/) does drinks with occasional food nights.
+          
+          **[Hawes](/locations/hawes/)**, nine miles east in upper Wensleydale, has the [White Hart](/places/white-hart-inn-hawes/) and the [Board Inn](/places/board-inn-hawes/) for meals and drinks, with [Caffè Curva](/places/caff-curva/) on Market Place for daytime food.
+          
+          **Cautley**, on the road out of Sedbergh towards Kirkby Stephen, has the [Cross Keys temperance inn](/places/cross-keys-temperance-inn-cautley/). It allows dogs into the lounge area but not into the tabled restaurant area, so ask for the lounge when you come in and you will be fine.
+          
+          **Hardraw**, just outside Hawes, has the [Green Dragon](/places/green-dragon-inn-hardraw/) for meals and drinks, and [Hardraw Force](/places/hardraw-force/) is reached through the pub grounds, which makes it an easy afternoon with the dog.
+          
           One nearby pub that is not dog friendly is [The Dalesman Country Inn](/places/dalesman-country-inn-sedbergh/) in Sedbergh, so plan around that one if you are bringing your dog.
           
           Read our full roundup on [Eating & Drinking in Garsdale](/eating-and-drinking-in-garsdale/).
@@ -69,18 +79,30 @@ blocks:
           - icon: hugeicons:restaurant-01
             text: The Black Bull Inn, Sedbergh
             url: /places/black-bull-inn-sedbergh/
+          - icon: hugeicons:kitchen-utensils
+            text: The Red Lion, Sedbergh
+            url: /places/red-lion-sedbergh/
+          - icon: hugeicons:walking
+            text: The Thirsty Rambler, Sedbergh
+            url: /places/thirsty-rambler-sedbergh/
+          - icon: hugeicons:music-note-01
+            text: The Half and Half, Sedbergh
+            url: /places/half-and-half-sedbergh/
           - icon: hugeicons:restaurant-03
             text: The White Hart Inn, Hawes
             url: /places/white-hart-inn-hawes/
+          - icon: hugeicons:house-01
+            text: The Board Inn, Hawes
+            url: /places/board-inn-hawes/
           - icon: hugeicons:coffee-02
-            text: The Half and Half, Sedbergh
-            url: /places/half-and-half-sedbergh/
-          - icon: hugeicons:home-01
-            text: The Green Dragon Inn, Hardraw
-            url: /places/green-dragon-inn-hardraw/
+            text: Caffè Curva, Hawes
+            url: /places/caff-curva/
           - icon: hugeicons:tea
             text: The Cross Keys Temperance Inn, Cautley
             url: /places/cross-keys-temperance-inn-cautley/
+          - icon: hugeicons:home-01
+            text: The Green Dragon Inn, Hardraw
+            url: /places/green-dragon-inn-hardraw/
     reverse: false
   - type: split-icon-links
     content: |-

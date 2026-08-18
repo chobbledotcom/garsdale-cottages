@@ -21,7 +21,9 @@ blocks:
 
           Sedbergh has a good range of independent shops for a town its size, including [Powells the greengrocer](/places/powells-sedbergh/), [the Meat Hook butcher](/places/the-meat-hook-sedbergh/), craft and gift shops, hardware and charity shops, and a [SPAR with the Post Office counter](/places/spar-sedbergh/) for groceries. There is a small weekly [market on Wednesday mornings](/places/sedbergh-market/), with artisan markets each month through the summer.
 
-          Eating out runs from the [Black Bull](/places/black-bull-inn-sedbergh/) - a 17th-century inn whose kitchen has made it a destination in its own right - to the [Dalesman](/places/dalesman-country-inn-sedbergh/) coaching inn, the [Half and Half](/places/half-and-half-sedbergh/) bar with its monthly acoustic nights, and takeaways including [Sedbergh Pizza](/places/sedbergh-pizza/) and [the Haddock Paddock](/places/the-haddock-paddock/).
+          Eating out runs from the [Black Bull](/places/black-bull-inn-sedbergh/) - a 17th-century inn whose kitchen has made it a destination in its own right - to the [Red Lion](/places/red-lion-sedbergh/) for meals and drinks, the [Dalesman](/places/dalesman-country-inn-sedbergh/) coaching inn, the [Half and Half](/places/half-and-half-sedbergh/) bar with its monthly acoustic nights, the [Thirsty Rambler](/places/thirsty-rambler-sedbergh/) for a drink, and takeaways including [Sedbergh Pizza](/places/sedbergh-pizza/) and [the Haddock Paddock](/places/the-haddock-paddock/).
+
+          If you have the dog with you, four of the town's pubs are [dog friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) - the Black Bull and the Red Lion for meals and drinks, the Thirsty Rambler for drinks, and the Half and Half for drinks with occasional food nights. The Dalesman is the one that does not take dogs.
     figure_src: /images/places/sedbergh-market.jpg
     figure_alt: Main Street in Sedbergh, where the Wednesday market is held
     reverse: false
@@ -87,6 +89,7 @@ blocks:
           - [About Garsdale](/locations/garsdale/) - the dale itself
           - [Hawes](/locations/hawes/) - the other market town within easy reach, east along the A684
           - [Eating and Drinking in Garsdale](/eating-and-drinking-in-garsdale/) - our wider round-up
+          - [Dog Friendly Holiday Cottages in Garsdale](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) - including the dog friendly pubs in Sedbergh
           - [Walks](/walks/) - walking routes from the dale
           - [Things To Do](/things-to-do/) - the full round-up
 ---

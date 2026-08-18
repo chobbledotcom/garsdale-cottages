@@ -96,6 +96,11 @@ blocks:
           *   [Doi Intanon](/places/doi-intanon-ambleside/) Thai restaurant in Ambleside
           *   The [White Hare Cafe](/places/white-hare-cafe-kirkby-stephen/) in Kirkby Stephen - also has an acoustic night once a month
           *   [Half and Half](/places/half-and-half-sedbergh/) in Sedbergh - has a variety of events and a music night once a month
+          *   The [Red Lion](/places/red-lion-sedbergh/) in Sedbergh - meals and drinks, and dog friendly
+          *   The [Thirsty Rambler](/places/thirsty-rambler-sedbergh/) in Sedbergh - drinks, and dog friendly
+          *   The [Board Inn](/places/board-inn-hawes/) in Hawes - meals and drinks, and dog friendly
+          
+          If you are bringing the dog, our [dog friendly holiday cottages](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) page lists which of the local pubs and cafes will take them, village by village.
   - type: markdown
     content: |-
           ## Places We Go

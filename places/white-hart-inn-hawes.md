@@ -7,7 +7,7 @@ redirect_from:
   - /guide/your-local-area-guide-to-getting-about-walking-sho/the-white-hart-inn-hawes/
 layout: base
 meta_title: The White Hart, Hawes | Pubs Near Garsdale and Sedbergh
-meta_description: The White Hart, Hawes, a pub near Garsdale and Sedbergh in the Yorkshire Dales.
+meta_description: The White Hart, Hawes, a dog friendly pub near Garsdale and Sedbergh in the Yorkshire Dales serving meals and drinks, about nine miles east of our holiday cottages.
 google_place_id: ChIJG2g7OkBsfEgR3xW76Pb4JjQ
 google:
   name: The White Hart Inn, Hawes
@@ -40,7 +40,7 @@ blocks:
     content: "# The White Hart Inn, Hawes"
   - type: split-html
     reverse: true
-    content: The White Hart is a pub in Hawes, the small market town in upper Wensleydale roughly nine miles east of Garsdale. Hawes is well worth a visit in its own right - with cafes, pubs, restaurants, craft and art shops, antiques and clothing - and the White Hart is one of the [dog-friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) pub options in town. Combine it with a visit on Tuesday morning, when the small market takes place and there are often craft fairs in the market hall, or with the Dales Countryside Museum housed in the former railway station, the Wensleydale Creamery's cheese experience and shop, or W.R. Outhwaite & Son, the traditional rope makers on the high street. The White Hart fits somewhere in a full day in Hawes that can also take in Aysgarth Falls to the east or Hardraw Force to the south, depending on the direction of return.
+    content: The White Hart is a pub in Hawes, the small market town in upper Wensleydale roughly nine miles east of Garsdale. Hawes is well worth a visit in its own right - with cafes, pubs, restaurants, craft and art shops, antiques and clothing - and the White Hart is one of the [dog-friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) pub options in town, serving both meals and drinks, alongside the [Board Inn](/places/board-inn-hawes/) and [Caffè Curva](/places/caff-curva/) for daytime food. Combine it with a visit on Tuesday morning, when the small market takes place and there are often craft fairs in the market hall, or with the Dales Countryside Museum housed in the former railway station, the Wensleydale Creamery's cheese experience and shop, or W.R. Outhwaite & Son, the traditional rope makers on the high street. The White Hart fits somewhere in a full day in Hawes that can also take in Aysgarth Falls to the east or Hardraw Force to the south, depending on the direction of return.
     figure_html: "{% include \"business-details.html\", place_slug: \"white-hart-inn-hawes\" %}"
   - type: split-image
     content: |-
@@ -65,6 +65,7 @@ blocks:
     content: |-
           ## See Also
           
+          - [The Board Inn, Hawes](/places/board-inn-hawes/) - the other dog friendly pub in town, meals and drinks
           - [The Green Dragon Inn, Hardraw](/places/green-dragon-inn-hardraw/) - the other pub near Hawes with Hardraw Force behind it
           - [Hardraw Force and Aysgill Force walks](/places/hardraw-force/) - waterfall walks from Hawes
           - [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - in Hawes, worth pairing with a pub lunch

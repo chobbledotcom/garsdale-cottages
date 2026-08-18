@@ -7,7 +7,7 @@ redirect_from:
   - /guide/your-local-area-guide-to-getting-about-walking-sho/the-green-dragon-inn/
 layout: base
 meta_title: The Green Dragon at Hardraw | Pubs Near Garsdale and Sedbergh
-meta_description: The Green Dragon at Hardraw, a pub near Garsdale and Sedbergh in the Yorkshire Dales.
+meta_description: The Green Dragon at Hardraw, a dog friendly pub near Garsdale and Sedbergh in the Yorkshire Dales serving meals and drinks, with Hardraw Force reached through the pub grounds.
 google_place_id: ChIJv01a5Q1sfEgRTTCAxKR1vSc
 google:
   name: The Green Dragon Inn at Hardraw
@@ -67,7 +67,8 @@ blocks:
           ## See Also
           
           - [Hardraw Force and Aysgill Force walks](/places/hardraw-force/) - the waterfall walk this pub sits on
-          - [The White Hart Inn, Hawes](/places/white-hart-inn-hawes/) - the other good pub nearby, in Hawes itself
+          - [The White Hart Inn, Hawes](/places/white-hart-inn-hawes/) - the other good pub nearby, in Hawes itself, also dog friendly
+          - [The Board Inn, Hawes](/places/board-inn-hawes/) - dog friendly pub in Hawes doing meals and drinks
           - [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - in Hawes
           - [Eating and drinking in Garsdale](/eating-and-drinking-in-garsdale/) - our wider round-up
           - [Dog-friendly holiday cottages in Garsdale](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) - if you're bringing the dog

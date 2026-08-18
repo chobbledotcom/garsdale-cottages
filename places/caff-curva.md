@@ -35,6 +35,7 @@ blocks:
           ## See Also
           
           - [The White Hart Inn, Hawes](/places/white-hart-inn-hawes/) - pub and restaurant in Hawes, also dog friendly
+          - [The Board Inn, Hawes](/places/board-inn-hawes/) - dog friendly pub in Hawes doing meals and drinks
           - [The Green Dragon Inn, Hardraw](/places/green-dragon-inn-hardraw/) - the pub behind Hardraw Force, just down the valley
           - [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - in Hawes
           - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes
