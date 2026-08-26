@@ -6,7 +6,7 @@
 	"sticky_mobile_nav": true,
 	"horizontal_nav": true,
 	"template_repo_url": "https://github.com/chobbledotcom/chobble-template",
-	"chobble_link": "https://chobble.com/examples/garsdale-cottages/",
+	"chobble_link": "https://www.chobble.com/examples/garsdale-cottages/",
 	"products": {
 		"item_widths": "240,480,640",
 		"item_list_aspect_ratio": "4/3"
@@ -41,5 +41,5 @@
 		"property/contact-links.html",
 		"property/contact.html"
 	],
-	"homepage_footer_markdown": "Site by [chobble.com](https://chobble.com)"
+	"homepage_footer_markdown": "Site by [chobble.com](https://www.chobble.com)"
 }
