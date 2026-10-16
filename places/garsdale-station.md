@@ -22,14 +22,15 @@ google:
   location:
       lat: 54.3214262
       lng: -2.3262689
+  plus_code: "8MCF+HF Sedbergh, United Kingdom"
   rating: 4.3
-  reviews_count: 22
+  reviews_count: 24
   image_url: /images/places/garsdale-station.jpg
   url: https://www.google.com/maps/search/?api=1&query=Garsdale&query_place_id=ChIJ2-jUp1NvfEgRPRvnE3qU-1g
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:20:26.368Z"
-last_fetched: "2026-08-16T11:20:32.028Z"
+  scraped_at: "2026-10-16T18:26:50.428Z"
+last_fetched: "2026-10-16T18:26:56.287Z"
 blocks:
   - type: markdown
     content: "# Garsdale Station"
@@ -39,19 +40,19 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"garsdale-station\" %}"
   - type: split-image
     content: |-
-      ## Dandrymire Viaduct and Mount Zion Chapel
-
-      Nearby, the [Dandrymire Viaduct](/places/dandrymire-viaduct/) (also known as the Moorcock Viaduct) carries the railway across the head of the dale and is visible from [Mount Zion Chapel](/places/mount-zion-chapel-garsdale-head/). With its 12 arches it stands 50 feet high and stretches 227 yards - a spectacular feat of Victorian engineering, and one of the notable features of the Settle-Carlisle line, which also carries regular steam-hauled services. Mount Zion Chapel itself was built in the same year as the railway by the very contractors building the line, and its foundation stone was laid on the day of the first passenger train.
+          ## Dandrymire Viaduct and Mount Zion Chapel
+          
+          Nearby, the [Dandrymire Viaduct](/places/dandrymire-viaduct/) (also known as the Moorcock Viaduct) carries the railway across the head of the dale and is visible from [Mount Zion Chapel](/places/mount-zion-chapel-garsdale-head/). With its 12 arches it stands 50 feet high and stretches 227 yards - a spectacular feat of Victorian engineering, and one of the notable features of the Settle-Carlisle line, which also carries regular steam-hauled services. Mount Zion Chapel itself was built in the same year as the railway by the very contractors building the line, and its foundation stone was laid on the day of the first passenger train.
     figure_src: /images/places-of-interest/snow-capped-fells.jpeg
     figure_alt: Railway viaduct in the Yorkshire Dales
     reverse: false
   - type: split-image
     content: |-
-      ## Getting There and the Line Today
-
-      The station is reached via the Coal Road from Garsdale village, which continues over to [Dent station](/places/dent-station/), and there is a car park at the station. From Sedbergh, the nearest town, it is roughly a ten-minute drive up the A684 to the Garsdale village turn-off. The [Little White Bus](https://www.littlewhitebus.co.uk/) runs a shuttle service between Garsdale station and Hawes, timed to meet certain trains, so check their website for current timetables.
-
-      The line runs 73 miles through some of the most dramatic scenery in England, crossing the famous [Ribblehead Viaduct](/places/ribblehead-viaduct/) and climbing to over 1,100 feet. Regular services run from Leeds to Carlisle, and it is one of the great railway journeys of the north. Visit [settle-carlisle.co.uk](https://settle-carlisle.co.uk/) for timetables and information, and [read the full story of Ruswarp](/ruswarp-and-the-settle-carlisle/). Arriving by rail is the gentlest way to start a stay - see our [Wellness Retreats](/wellness-retreats/) page for more on slow travel into the dale.
+          ## Getting There and the Line Today
+          
+          The station is reached via the Coal Road from Garsdale village, which continues over to [Dent station](/places/dent-station/), and there is a car park at the station. From Sedbergh, the nearest town, it is roughly a ten-minute drive up the A684 to the Garsdale village turn-off. The [Little White Bus](https://www.littlewhitebus.co.uk/) runs a shuttle service between Garsdale station and Hawes, timed to meet certain trains, so check their website for current timetables.
+          
+          The line runs 73 miles through some of the most dramatic scenery in England, crossing the famous [Ribblehead Viaduct](/places/ribblehead-viaduct/) and climbing to over 1,100 feet. Regular services run from Leeds to Carlisle, and it is one of the great railway journeys of the north. Visit [settle-carlisle.co.uk](https://settle-carlisle.co.uk/) for timetables and information, and [read the full story of Ruswarp](/ruswarp-and-the-settle-carlisle/). Arriving by rail is the gentlest way to start a stay - see our [Wellness Retreats](/wellness-retreats/) page for more on slow travel into the dale.
     figure_src: /images/guide-pages/garsdale-train-station-garsdale-head.jpeg
     figure_alt: Garsdale Train Station at Garsdale Head
     reverse: true

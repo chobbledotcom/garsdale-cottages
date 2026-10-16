@@ -76,6 +76,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Sedbergh%20Tourist%20Information&query_place_id=ChIJVS0MMothfEgRNcj492tx1SI
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:00:26.797Z"
-last_fetched: "2026-08-16T23:00:39.229Z"
+  scraped_at: "2026-10-16T18:36:35.285Z"
+last_fetched: "2026-10-16T18:36:41.039Z"
 ---

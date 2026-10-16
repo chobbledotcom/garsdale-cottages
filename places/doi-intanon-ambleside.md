@@ -14,15 +14,14 @@ google:
       - Thai restaurant
   address: Market Pl, Ambleside LA22 9BU, United Kingdom
   phone: +44 15394 32119
-  phone_unformatted: 441539432119
+  phone_unformatted: +441539432119
   website: http://doiintanon.co.uk/
   location:
       lat: 54.431837
       lng: -2.961834
   plus_code: C2JQ+P7 Ambleside, United Kingdom
   rating: 4.6
-  reviews_count: 885
-  price: £20–40
+  reviews_count: 908
   opening_hours:
       - day: Monday
         hours: "5 to 9:30 PM"
@@ -42,8 +41,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Doi%20Intanon%2C%20Thai%20Restaurant&query_place_id=ChIJu08kF_DqfEgRyjC2QW9_cNM
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:19:14.378Z"
-last_fetched: "2026-08-16T11:19:20.342Z"
+  scraped_at: "2026-10-16T18:25:56.038Z"
+last_fetched: "2026-10-16T18:26:01.903Z"
 blocks:
   - type: markdown
     content: "# Doi Intanon, Ambleside"

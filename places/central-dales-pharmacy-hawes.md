@@ -53,7 +53,7 @@ google:
       lng: -2.1977022
   plus_code: "8R32+GW Hawes, United Kingdom"
   rating: 5
-  reviews_count: 6
+  reviews_count: 7
   opening_hours:
       - day: Monday
         hours: "9 AM to 5:30 PM"
@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Central%20Dales%20Pharmacy&query_place_id=ChIJyRaaD0BsfEgRx392hJ2n1JE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T22:46:42.955Z"
-last_fetched: "2026-08-16T22:46:48.937Z"
+  scraped_at: "2026-10-16T18:22:08.141Z"
+last_fetched: "2026-10-16T18:22:13.927Z"
 ---

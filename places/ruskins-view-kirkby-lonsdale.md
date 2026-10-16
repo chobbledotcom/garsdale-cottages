@@ -20,14 +20,14 @@ google:
       lat: 54.2046094
       lng: -2.5973007
   plus_code: "6C33+R3 Carnforth, United Kingdom"
-  rating: 4.7
-  reviews_count: 37
+  rating: 4.8
+  reviews_count: 40
   image_url: /images/places/ruskins-view-kirkby-lonsdale.jpg
   url: https://www.google.com/maps/search/?api=1&query=Ruskin's%20View&query_place_id=ChIJY106eQCHfEgR7ufslQiRl8E
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:25:17.240Z"
-last_fetched: "2026-08-16T11:25:22.973Z"
+  scraped_at: "2026-10-16T18:34:29.110Z"
+last_fetched: "2026-10-16T18:34:34.863Z"
 blocks:
   - type: markdown
     content: "# Ruskin's View, Kirkby Lonsdale"

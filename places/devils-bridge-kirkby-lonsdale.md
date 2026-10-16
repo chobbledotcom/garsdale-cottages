@@ -18,8 +18,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Devil's%20Brg&query_place_id=ChIJBbOFjK2HfEgRjOxENvX4EFU
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:18:47.855Z"
-last_fetched: "2026-08-16T11:18:53.926Z"
+  scraped_at: "2026-10-16T18:25:42.600Z"
+last_fetched: "2026-10-16T18:25:48.398Z"
 blocks:
   - type: markdown
     content: "# Devil's Bridge, Kirkby Lonsdale"

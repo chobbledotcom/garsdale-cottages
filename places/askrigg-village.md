@@ -22,8 +22,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Askrigg&query_place_id=ChIJNc9PFBcTfEgR5ezrObsuQhc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T13:35:58.813Z"
-last_fetched: "2026-08-16T13:36:05.454Z"
+  scraped_at: "2026-10-16T18:18:49.434Z"
+last_fetched: "2026-10-16T18:18:55.546Z"
 blocks:
   - type: markdown
     content: "# Askrigg"
@@ -33,18 +33,18 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"askrigg-village\" %}"
   - type: split-image
     content: |-
-      ## Darrowby, St Oswald's and the Village Green
-
-      Askrigg works well as a stop on a Wensleydale day out, easily combined with [Hawes](/locations/hawes/), the [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) or a walk to [Aysgarth Falls](/places/aysgarth-falls/). The village green, St Oswald's Church and the stone terraces around them are what film crews used for the fictional Darrowby in *All Creatures Great and Small*.
-
-      The village sits just off the A684, and the road continues east from here towards Aysgarth and lower Wensleydale, with [Muker](/places/muker-village/) and upper Swaledale reachable over the tops to the south.
+          ## Darrowby, St Oswald's and the Village Green
+          
+          Askrigg works well as a stop on a Wensleydale day out, easily combined with [Hawes](/locations/hawes/), the [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) or a walk to [Aysgarth Falls](/places/aysgarth-falls/). The village green, St Oswald's Church and the stone terraces around them are what film crews used for the fictional Darrowby in *All Creatures Great and Small*.
+          
+          The village sits just off the A684, and the road continues east from here towards Aysgarth and lower Wensleydale, with [Muker](/places/muker-village/) and upper Swaledale reachable over the tops to the south.
     figure_src: /images/places/aysgarth-falls.jpg
     figure_alt: The visitor centre and picnic tables at Aysgarth Falls in Wensleydale
     reverse: false
   - type: features
     intro_content: |-
           ## The Top Things to Do Around Askrigg
-
+          
           The top place we found online in Askrigg itself, with the best of upper Wensleydale alongside.
     items:
           - icon: hugeicons:church
@@ -67,11 +67,11 @@ blocks:
             description: The medieval fortress at Castle Bolton, where Mary Queen of Scots was once held prisoner - see [Bolton Castle](/places/bolton-castle/).
   - type: split-image
     content: |-
-      ## Semerwater and Raydale
-
-      [Semerwater](/places/semerwater/) sits in the small dale of Raydale just west of Askrigg, and it is the closest lake to Garsdale - one of only two remaining natural glacial lakes in the Yorkshire Dales, the other being Malham Tarn. There are footpaths and walks from and around the lake with fantastic views over the water and the hills behind, and a small stretch of shore where boats can launch.
-
-      The lake is the subject of a local folk tale - the usual drowned-village story, this time cursed by a poor man refused food and shelter. Semerwater, Askrigg and [Hawes](/locations/hawes/) make a natural Wensleydale circuit from the dale, with [Bolton Castle](/places/bolton-castle/) at Castle Bolton an easy addition.
+          ## Semerwater and Raydale
+          
+          [Semerwater](/places/semerwater/) sits in the small dale of Raydale just west of Askrigg, and it is the closest lake to Garsdale - one of only two remaining natural glacial lakes in the Yorkshire Dales, the other being Malham Tarn. There are footpaths and walks from and around the lake with fantastic views over the water and the hills behind, and a small stretch of shore where boats can launch.
+          
+          The lake is the subject of a local folk tale - the usual drowned-village story, this time cursed by a poor man refused food and shelter. Semerwater, Askrigg and [Hawes](/locations/hawes/) make a natural Wensleydale circuit from the dale, with [Bolton Castle](/places/bolton-castle/) at Castle Bolton an easy addition.
     figure_src: /images/places/semerwater.jpg
     figure_alt: Semerwater in Raydale, the closest natural lake to Garsdale
     reverse: true
@@ -79,12 +79,12 @@ blocks:
     collection: properties
     intro_content: |-
           ## Holiday Cottages Near Askrigg village
-
+          
           We have three self-catering [holiday cottages](/properties/) in Garsdale, on the western side of Wensleydale about forty minutes from Askrigg, that you can use as a base for visiting Herriot country and the rest of upper Wensleydale. Book direct with the local owners for the best rates.
   - type: markdown
     content: |-
           ## See Also
-
+          
           - [Hawes](/locations/hawes/) - the market town on the way through Wensleydale
           - [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) - the cheese experience at Hawes
           - [Semerwater](/places/semerwater/) - the closest lake to Garsdale, in Raydale beside Askrigg

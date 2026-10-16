@@ -14,20 +14,20 @@ google:
       - Hiking area
   address: Snaizeholme Rd, Hawes DL8 3NB, United Kingdom
   phone: +44 1969 666210
-  phone_unformatted: 441969666210
+  phone_unformatted: +441969666210
   website: https://www.yorkshiredales.org.uk/things-to-do/get-outdoors/red-squirrel-trail/
   location:
       lat: 54.2790771
       lng: -2.2666563
   plus_code: "7PHM+J8 Hawes, United Kingdom"
   rating: 4.7
-  reviews_count: 68
+  reviews_count: 76
   image_url: /images/places/snaizeholme-red-squirrel-trail.jpg
   url: https://www.google.com/maps/search/?api=1&query=Snaizeholme%20Red%20Squirrel%20Trail&query_place_id=ChIJ1TJZ_RNvfEgRNB0tScogfGI
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:26:14.141Z"
-last_fetched: "2026-08-16T11:26:19.792Z"
+  scraped_at: "2026-10-16T18:38:00.573Z"
+last_fetched: "2026-10-16T18:38:06.911Z"
 blocks:
   - type: markdown
     content: "# Snaizeholme [Red Squirrel](/red-squirrels-in-garsdale/) Trail"

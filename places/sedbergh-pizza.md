@@ -38,21 +38,20 @@ blocks:
           - [Roger Pot](/properties/roger-pot/) - our cottage in Garsdale, about fifteen minutes up the dale
 google_place_id: ChIJ27TQ8A9hfEgReoqdaDA8GJ4
 google:
-  name: Sedbergh eats ltd
+  name: Sedbergh Pizza
   category_name: Fast food restaurant
   categories:
       - Fast food restaurant
-  address: "73 Main St, Sedbergh LA10 5AB, United Kingdom"
+  address: "40 Main St, Sedbergh LA10 5BL, United Kingdom"
   phone: +44 15396 28262
   phone_unformatted: +441539628262
   website: https://sedberghpizza.com/
   location:
-      lat: 54.3237306
-      lng: -2.527827
+      lat: 54.32373
+      lng: -2.5278246
   plus_code: "8FFC+FV Sedbergh, United Kingdom"
-  rating: 4.5
-  reviews_count: 68
-  price: £10–20
+  rating: 4.4
+  reviews_count: 74
   opening_hours:
       - day: Monday
         hours: "2 to 10 PM"
@@ -69,9 +68,9 @@ google:
       - day: Sunday
         hours: "12 to 10 PM"
   image_url: /images/places/sedbergh-pizza.jpg
-  url: https://www.google.com/maps/search/?api=1&query=Sedbergh%20eats%20ltd&query_place_id=ChIJ27TQ8A9hfEgReoqdaDA8GJ4
+  url: https://www.google.com/maps/search/?api=1&query=Sedbergh%20Pizza&query_place_id=ChIJ27TQ8A9hfEgReoqdaDA8GJ4
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T22:59:28.658Z"
-last_fetched: "2026-08-16T22:59:34.481Z"
+  scraped_at: "2026-10-16T18:35:48.830Z"
+last_fetched: "2026-10-16T18:35:54.753Z"
 ---

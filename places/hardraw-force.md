@@ -17,14 +17,14 @@ google:
       - Tourist attraction
   address: Hardraw, Leyburn DL8 3LZ, United Kingdom
   phone: +44 1969 667572
-  phone_unformatted: 441969667572
+  phone_unformatted: +441969667572
   website: http://www.hardrawforce.com/heritage.html
   location:
       lat: 54.3194702
       lng: -2.2019236
   plus_code: "8Q9X+Q6 Hardraw, Hawes, UK"
   rating: 4.5
-  reviews_count: 1596
+  reviews_count: 1628
   opening_hours:
       - day: Monday
         hours: "10 AM to 4:30 PM"
@@ -44,8 +44,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Hardraw%20Force&query_place_id=ChIJU4cpOkJtfEgR95tiJUe-irc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:21:34.184Z"
-last_fetched: "2026-08-16T11:21:39.852Z"
+  scraped_at: "2026-10-16T18:28:14.912Z"
+last_fetched: "2026-10-16T18:28:20.578Z"
 blocks:
   - type: markdown
     content: "# Hardraw Force"
@@ -55,16 +55,16 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"hardraw-force\" %}"
   - type: split-image
     content: |-
-      ## The Hawes Waterfalls Walk
-
-      This walk from Hawes visits three of the Yorkshire Dales' waterfalls - Hardraw Force, [Cotter Force](/places/cotter-force/) and [Aysgill Force](/places/aysgill-force/) - following the River Ure and the Pennine Way through Wensleydale. Hardraw Force is England's highest single-drop waterfall, a reputed 100-foot drop that you reach through the grounds of the [Green Dragon Inn](/places/green-dragon-inn-hardraw/) at Hardraw. Aysgill Force is a narrower, quieter fall further up the valley, reached via a path from Gayle.
-
-      The route uses the Pennine Way and other public footpaths, starting and ending in Hawes, which has the [White Hart Inn](/places/white-hart-inn-hawes/), [The Chippie](/places/the-chippie/) and [Caffe Curva](/places/caff-curva/) for food and drink before or after. The [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) and the [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) are both in Hawes if you want to make a full day of it. Hawes is about 30 minutes' drive from Garsdale.
-
-      - **Start point:** Hawes (Market Place, DL8 3QX)
-      - **Distance:** 7 miles/11.3km, around 5 hours, moderate
-      - **Parking:** Market Place or [SPAR Hawes](/places/spar-hawes/) car park
-      - **Route description:** [Countryfile - Hawes, Aysgill Force and Hardraw Force](https://www.countryfile.com/go-outdoors/walks/hawes-aysgill-force-and-hardraw-force-north-yorkshire)
+          ## The Hawes Waterfalls Walk
+          
+          This walk from Hawes visits three of the Yorkshire Dales' waterfalls - Hardraw Force, [Cotter Force](/places/cotter-force/) and [Aysgill Force](/places/aysgill-force/) - following the River Ure and the Pennine Way through Wensleydale. Hardraw Force is England's highest single-drop waterfall, a reputed 100-foot drop that you reach through the grounds of the [Green Dragon Inn](/places/green-dragon-inn-hardraw/) at Hardraw. Aysgill Force is a narrower, quieter fall further up the valley, reached via a path from Gayle.
+          
+          The route uses the Pennine Way and other public footpaths, starting and ending in Hawes, which has the [White Hart Inn](/places/white-hart-inn-hawes/), [The Chippie](/places/the-chippie/) and [Caffe Curva](/places/caff-curva/) for food and drink before or after. The [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) and the [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) are both in Hawes if you want to make a full day of it. Hawes is about 30 minutes' drive from Garsdale.
+          
+          - **Start point:** Hawes (Market Place, DL8 3QX)
+          - **Distance:** 7 miles/11.3km, around 5 hours, moderate
+          - **Parking:** Market Place or [SPAR Hawes](/places/spar-hawes/) car park
+          - **Route description:** [Countryfile - Hawes, Aysgill Force and Hardraw Force](https://www.countryfile.com/go-outdoors/walks/hawes-aysgill-force-and-hardraw-force-north-yorkshire)
     figure_src: /images/guide-pages/hardraw-force-waterfall-rainbow.jpg
     figure_alt: Hardraw Force waterfall with rainbow
   - type: items

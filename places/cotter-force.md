@@ -21,8 +21,8 @@ google:
       lat: 54.3228729
       lng: -2.2346503
   plus_code: "8QF8+44 Hawes, United Kingdom"
-  rating: 4.8
-  reviews_count: 260
+  rating: 4.7
+  reviews_count: 279
   opening_hours:
       - day: Monday
         hours: Open 24 hours
@@ -42,8 +42,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Cotter%20Force&query_place_id=ChIJlZlya6lufEgRpxqbzK3MI4Q
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:16:43.895Z"
-last_fetched: "2026-08-16T11:16:49.753Z"
+  scraped_at: "2026-10-16T18:22:41.047Z"
+last_fetched: "2026-10-16T18:22:46.939Z"
 blocks:
   - type: markdown
     content: "# Cotter Force"

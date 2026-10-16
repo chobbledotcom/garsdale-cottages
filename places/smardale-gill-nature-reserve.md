@@ -22,13 +22,13 @@ google:
       lng: -2.3983143
   plus_code: FJ92+XM Kirkby Stephen, United Kingdom
   rating: 4.6
-  reviews_count: 27
+  reviews_count: 30
   image_url: /images/places/smardale-gill-nature-reserve.jpg
   url: https://www.google.com/maps/search/?api=1&query=Smardale%20Gill%20Nature%20Reserve%20Parking&query_place_id=ChIJaT_rW9FdfEgRwWIiupHRvNg
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:25:58.092Z"
-last_fetched: "2026-08-16T11:26:03.779Z"
+  scraped_at: "2026-10-16T18:37:28.998Z"
+last_fetched: "2026-10-16T18:37:34.789Z"
 blocks:
   - type: markdown
     content: "# Smardale Gill Nature Reserve"
@@ -38,14 +38,14 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"smardale-gill-nature-reserve\" %}"
   - type: split-image
     content: |-
-      ## The Smardale Beck Walk
-
-      This walk follows a disused railway line through a secluded gorge in the Yorkshire Dales National Park, crossing the Smardale Gill Viaduct - built in 1861, rising almost 30 metres on 14 stone arches above Smardale Beck. The route is along the old trackbed, so it is level and well-graded, making it a good option for a steady walk without much climbing. The walk starts from the parking area at Smardale and follows the old line to the viaduct, then continues along the beck before returning. It is about 30 minutes' drive from Garsdale, and the nearest town is Kirkby Stephen, which has pubs, cafes and shops. The [Market Square in Kirkby Lonsdale](/places/market-square-kirkby-lonsdale/) is a different Kirkby - closer to Garsdale - but Smardale is worth the drive.
-
-      - **Start point:** Smardale Gill car park
-      - **Distance:** 7 miles/11.3km, around 4 hours, moderate
-      - **Parking:** Smardale NNR car park
-      - **Route description:** [Countryfile - Smardale Gill walk](https://www.countryfile.com/go-outdoors/walks/smardale-gill-cumbria)
+          ## The Smardale Beck Walk
+          
+          This walk follows a disused railway line through a secluded gorge in the Yorkshire Dales National Park, crossing the Smardale Gill Viaduct - built in 1861, rising almost 30 metres on 14 stone arches above Smardale Beck. The route is along the old trackbed, so it is level and well-graded, making it a good option for a steady walk without much climbing. The walk starts from the parking area at Smardale and follows the old line to the viaduct, then continues along the beck before returning. It is about 30 minutes' drive from Garsdale, and the nearest town is Kirkby Stephen, which has pubs, cafes and shops. The [Market Square in Kirkby Lonsdale](/places/market-square-kirkby-lonsdale/) is a different Kirkby - closer to Garsdale - but Smardale is worth the drive.
+          
+          - **Start point:** Smardale Gill car park
+          - **Distance:** 7 miles/11.3km, around 4 hours, moderate
+          - **Parking:** Smardale NNR car park
+          - **Route description:** [Countryfile - Smardale Gill walk](https://www.countryfile.com/go-outdoors/walks/smardale-gill-cumbria)
     figure_src: /images/guide-pages/smardale-viaduct-green-valley.jpg
     figure_alt: Smardale Gill Viaduct above Smardale Beck
   - type: items

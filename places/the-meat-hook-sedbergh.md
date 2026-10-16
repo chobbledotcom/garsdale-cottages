@@ -56,7 +56,7 @@ google:
       lng: -2.5279464
   plus_code: "8FFC+8R Sedbergh, United Kingdom"
   rating: 5
-  reviews_count: 33
+  reviews_count: 35
   opening_hours:
       - day: Monday
         hours: Closed
@@ -76,6 +76,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Meat%20Hook%20Sedbergh&query_place_id=ChIJQ3fE2PlhfEgR9VCEN6IP6TE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:04:08.239Z"
-last_fetched: "2026-08-16T23:04:14.089Z"
+  scraped_at: "2026-10-16T18:40:40.952Z"
+last_fetched: "2026-10-16T18:40:46.805Z"
 ---

@@ -52,8 +52,8 @@ google:
       lat: 54.3241276
       lng: -2.5255781
   plus_code: "8FFF+MQ Sedbergh, United Kingdom"
-  rating: 4.5
-  reviews_count: 33
+  rating: 4.4
+  reviews_count: 37
   opening_hours:
       - day: Monday
         hours: Open 24 hours
@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Joss%20Lane%20Car%20Park&query_place_id=ChIJT9M5qtNhfEgRZIcoQOfFcYg
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T22:53:22.923Z"
-last_fetched: "2026-08-16T22:53:28.847Z"
+  scraped_at: "2026-10-16T18:29:56.325Z"
+last_fetched: "2026-10-16T18:30:02.193Z"
 ---

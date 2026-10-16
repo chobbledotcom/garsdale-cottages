@@ -54,6 +54,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Sedbergh&query_place_id=ChIJVUC3v_VhfEgR4-kZb4ykM40
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T22:59:11.894Z"
-last_fetched: "2026-08-16T22:59:18.387Z"
+  scraped_at: "2026-10-16T18:35:26.925Z"
+last_fetched: "2026-10-16T18:35:42.193Z"
 ---

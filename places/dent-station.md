@@ -19,14 +19,15 @@ google:
   location:
       lat: 54.2824095
       lng: -2.3636722
+  plus_code: "7JJP+XG Sedbergh, United Kingdom"
   rating: 4.6
-  reviews_count: 20
+  reviews_count: 21
   image_url: /images/places/dent-station.jpg
   url: https://www.google.com/maps/search/?api=1&query=Dent&query_place_id=ChIJZQHT_KBlfEgRoHDr3UxYUTs
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:18:13.634Z"
-last_fetched: "2026-08-16T11:18:19.767Z"
+  scraped_at: "2026-10-16T18:24:59.281Z"
+last_fetched: "2026-10-16T18:25:05.219Z"
 blocks:
   - type: markdown
     content: "# Dent Station"

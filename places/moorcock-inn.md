@@ -19,20 +19,20 @@ google:
       - Tea house
   address: Garsdale Head, Sedbergh LA10 5PU, United Kingdom
   phone: +44 7960 930047
-  phone_unformatted: 447960930047
+  phone_unformatted: +447960930047
   website: https://www.the-moorcock.co.uk/
   location:
       lat: 54.3293708
       lng: -2.3126659
   plus_code: "8MHP+PW Sedbergh, United Kingdom"
   rating: 4.4
-  reviews_count: 269
+  reviews_count: 271
   image_url: /images/places/moorcock-inn.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Moorcock%20Inn&query_place_id=ChIJmWSyVjVkfEgRaqK9eGtY7Lo
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:02:41.640Z"
-last_fetched: "2026-08-16T11:02:56.366Z"
+  scraped_at: "2026-10-16T18:31:33.793Z"
+last_fetched: "2026-10-16T18:31:39.608Z"
 blocks:
   - type: markdown
     content: "# The Moorcock Inn"

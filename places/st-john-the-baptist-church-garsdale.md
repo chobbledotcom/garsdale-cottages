@@ -14,7 +14,7 @@ google:
       - Church
   address: Garsdale, Sedbergh LA10 5PG, United Kingdom
   phone: +44 15396 20018
-  phone_unformatted: 441539620018
+  phone_unformatted: +441539620018
   website: https://www.achurchnearyou.com/garsdale-st-john-the-baptist/
   location:
       lat: 54.3009029
@@ -26,8 +26,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=St%20John%20the%20Baptist%2C%20Garsdale&query_place_id=ChIJmb22gEpkfEgRT1NdRp8sfbY
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:27:11.168Z"
-last_fetched: "2026-08-16T11:27:17.148Z"
+  scraped_at: "2026-10-16T18:39:14.622Z"
+last_fetched: "2026-10-16T18:39:20.365Z"
 blocks:
   - type: markdown
     content: "# St John the Baptist Church, Garsdale"

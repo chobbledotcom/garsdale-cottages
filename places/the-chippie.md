@@ -57,7 +57,7 @@ google:
       lng: -2.2001064
   plus_code: "8Q3X+MX Hawes, United Kingdom"
   rating: 4.7
-  reviews_count: 1349
+  reviews_count: 1385
   opening_hours:
       - day: Monday
         hours: Closed
@@ -77,6 +77,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Chippie&query_place_id=ChIJrZ8kOkBsfEgROg83CY-GOQU
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:02:56.940Z"
-last_fetched: "2026-08-16T23:03:02.929Z"
+  scraped_at: "2026-10-16T18:39:43.888Z"
+last_fetched: "2026-10-16T18:39:49.552Z"
 ---

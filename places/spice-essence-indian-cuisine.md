@@ -41,9 +41,9 @@ blocks:
 google_place_id: ChIJz_ZdxkyGfEgRekDfz4ggko8
 google:
   name: Spice Essence Indian Bangla Restaurant
-  category_name: Restaurant
+  category_name: Bangladeshi restaurant
   categories:
-      - Restaurant
+      - Bangladeshi restaurant
   address: Main St, Kirkby Lonsdale, Carnforth LA6 2AJ, United Kingdom
   phone: +44 15242 72725
   phone_unformatted: +441524272725
@@ -53,8 +53,7 @@ google:
       lng: -2.5973246
   plus_code: "6C33+23 Carnforth, United Kingdom"
   rating: 4.3
-  reviews_count: 129
-  price: £20–30
+  reviews_count: 131
   opening_hours:
       - day: Monday
         hours: Closed
@@ -74,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Spice%20Essence%20Indian%20Bangla%20Restaurant&query_place_id=ChIJz_ZdxkyGfEgRekDfz4ggko8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:02:35.264Z"
-last_fetched: "2026-08-16T23:02:41.191Z"
+  scraped_at: "2026-10-16T18:38:48.823Z"
+last_fetched: "2026-10-16T18:38:54.574Z"
 ---

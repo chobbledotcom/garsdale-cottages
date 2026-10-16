@@ -39,7 +39,7 @@ blocks:
           - [Mobile coverage](/guide/wifi-internetmobile-details/mobile-coverage/) - our guide to mobile signal in the area
 google_place_id: ChIJpxcAS-iNfEgRDGIJQkGkJ9s
 google:
-  name: Vodafone
+  name: VodafoneThree
   category_name: Cell phone store
   categories:
       - Cell phone store
@@ -59,7 +59,7 @@ google:
       lng: -2.746979
   plus_code: "87H3+H6 Kendal, United Kingdom"
   rating: 3.9
-  reviews_count: 49
+  reviews_count: 50
   opening_hours:
       - day: Monday
         hours: "9 AM to 5:30 PM"
@@ -76,9 +76,9 @@ google:
       - day: Sunday
         hours: Closed
   image_url: /images/places/vodafone.jpg
-  url: https://www.google.com/maps/search/?api=1&query=Vodafone&query_place_id=ChIJpxcAS-iNfEgRDGIJQkGkJ9s
+  url: https://www.google.com/maps/search/?api=1&query=VodafoneThree&query_place_id=ChIJpxcAS-iNfEgRDGIJQkGkJ9s
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:05:23.366Z"
-last_fetched: "2026-08-16T23:05:29.413Z"
+  scraped_at: "2026-10-16T18:41:33.608Z"
+last_fetched: "2026-10-16T18:41:39.448Z"
 ---

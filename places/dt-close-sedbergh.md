@@ -53,8 +53,8 @@ google:
       lat: 54.3204295
       lng: -2.5418975
   plus_code: "8FC5+56 Sedbergh, United Kingdom"
-  rating: 4.9
-  reviews_count: 50
+  rating: 4.8
+  reviews_count: 52
   opening_hours:
       - day: Monday
         hours: "8 AM to 6 PM"
@@ -74,6 +74,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Close%20D%20T&query_place_id=ChIJUTCJdvhhfEgRhO9IfPYUjlc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T22:51:39.415Z"
-last_fetched: "2026-08-16T22:51:45.228Z"
+  scraped_at: "2026-10-16T18:26:12.011Z"
+last_fetched: "2026-10-16T18:26:17.734Z"
 ---

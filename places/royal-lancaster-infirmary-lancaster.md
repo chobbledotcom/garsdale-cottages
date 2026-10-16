@@ -53,11 +53,11 @@ google:
       lng: -2.8000969
   plus_code: "25RX+XX Lancaster, United Kingdom"
   rating: 3.6
-  reviews_count: 333
+  reviews_count: 342
   image_url: /images/places/royal-lancaster-infirmary-lancaster.jpg
   url: https://www.google.com/maps/search/?api=1&query=Royal%20Lancaster%20Infirmary&query_place_id=ChIJe1vXBH1ie0gRkf8dC6MK6lM
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T22:58:33.932Z"
-last_fetched: "2026-08-16T22:58:39.766Z"
+  scraped_at: "2026-10-16T18:34:08.809Z"
+last_fetched: "2026-10-16T18:34:14.545Z"
 ---

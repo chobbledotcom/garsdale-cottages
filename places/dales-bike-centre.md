@@ -57,12 +57,12 @@ google:
       lng: -1.9305501
   plus_code: "93M9+WQ Fremington, Richmond, UK"
   rating: 4.8
-  reviews_count: 681
-  price: €94
+  reviews_count: 696
+  price: $89
   image_url: /images/places/dales-bike-centre.jpg
   url: https://www.google.com/maps/search/?api=1&query=Dales%20Bike%20Centre&query_place_id=ChIJdwIExJkXfEgRF-TUOgpI7j8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T22:49:25.219Z"
-last_fetched: "2026-08-16T22:49:31.502Z"
+  scraped_at: "2026-10-16T18:24:02.731Z"
+last_fetched: "2026-10-16T18:24:08.538Z"
 ---

@@ -16,14 +16,14 @@ google:
       - Tourist attraction
   address: Aysgarth Falls National Park Centre, Church Bank, Centre, Aysgarth, Leyburn DL8 3TH, United Kingdom
   phone: +44 1969 662910
-  phone_unformatted: 441969662910
+  phone_unformatted: +441969662910
   website: https://www.yorkshiredales.org.uk/places/aysgarth_falls_national_park_centre/
   location:
       lat: 54.294547
       lng: -1.9834121
   plus_code: "72V8+RJ Leyburn, United Kingdom"
   rating: 4.7
-  reviews_count: 7260
+  reviews_count: 7354
   opening_hours:
       - day: Monday
         hours: "10 AM to 5 PM"
@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Aysgarth%20Falls%20Yorkshire%20Dales%20National%20Park%20Visitor%20Centre&query_place_id=ChIJ_au8eHMRfEgRVBnPn1h1HTk
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:13:41.622Z"
-last_fetched: "2026-08-16T11:13:47.250Z"
+  scraped_at: "2026-10-16T18:19:10.044Z"
+last_fetched: "2026-10-16T18:19:15.975Z"
 blocks:
   - type: markdown
     content: "# Aysgarth Falls"

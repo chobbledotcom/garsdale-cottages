@@ -14,7 +14,7 @@ google:
       - Manufacturer
   address: "6 Burtersett Rd, Hawes DL8 3NT, United Kingdom"
   phone: +44 1969 667487
-  phone_unformatted: 441969667487
+  phone_unformatted: +441969667487
   location:
       lat: 54.3039662
       lng: -2.1933765
@@ -23,8 +23,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Outhwaites%20Ltd%20(Ropemakers%20not%20open%20to%20the%20public)&query_place_id=ChIJQUN2QeJtfEgRg1djcRWi3IU
   permanently_closed: true
   temporarily_closed: false
-  scraped_at: "2026-08-16T13:38:20.158Z"
-last_fetched: "2026-08-16T13:38:26.402Z"
+  scraped_at: "2026-10-16T18:43:18.483Z"
+last_fetched: "2026-10-16T18:43:24.523Z"
 blocks:
   - type: markdown
     content: "# W.R. Outhwaite & Son, Hawes"

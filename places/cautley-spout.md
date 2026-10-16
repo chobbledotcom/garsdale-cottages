@@ -21,7 +21,7 @@ google:
       lng: -2.493006
   plus_code: "9GC4+WQ Sedbergh, United Kingdom"
   rating: 4.9
-  reviews_count: 306
+  reviews_count: 312
   opening_hours:
       - day: Monday
         hours: Open 24 hours
@@ -41,8 +41,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Cautley%20Spout&query_place_id=ChIJpxAFCPtgfEgRAPgqcs3b6ws
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:16:25.948Z"
-last_fetched: "2026-08-16T11:16:31.891Z"
+  scraped_at: "2026-10-16T18:21:48.739Z"
+last_fetched: "2026-10-16T18:21:54.420Z"
 blocks:
   - type: markdown
     content: "# Cautley Spout"

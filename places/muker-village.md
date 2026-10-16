@@ -21,8 +21,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Muker&query_place_id=ChIJSS3aUO9qfEgRIzEVkIYjSgI
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:23:49.835Z"
-last_fetched: "2026-08-16T11:23:55.965Z"
+  scraped_at: "2026-10-16T18:32:01.706Z"
+last_fetched: "2026-10-16T18:32:08.147Z"
 blocks:
   - type: markdown
     content: "# Muker Village"
@@ -32,14 +32,14 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"muker-village\" %}"
   - type: split-image
     content: |-
-      ## The Muker Walk
-
-      Muker's landscape is largely unchanged from the late 18th and early 19th century - the field barns and drystone walls radiate out from the village in the pattern that has been there for two hundred years - and its species-rich hay meadows burst into colour in late spring and early summer. This circular route starts at Muker and follows the River Swale east to the village of Gunnerside, returning across the fells. Swaledale is a lush green valley with a patchwork of tiny fields and barns, and it has never been one of the more popular tourist dales, which is part of its appeal. Muker is about 45 minutes' drive from Garsdale, over the tops into Swaledale. The [Keld to Tan Hill Inn walk](/places/keld-to-tan-hill-inn/) - Britain's highest pub - is reachable on a longer walk from Keld, further up the dale.
-
-      - **Start point:** Muker village
-      - **Distance:** 6.8 miles/11km, around 4 hours, moderate
-      - **Parking:** Muker village car park
-      - **Route description:** [Countryfile - Muker walk](https://www.countryfile.com/go-outdoors/walks/walk-muker-swaledale-north-yorkshire)
+          ## The Muker Walk
+          
+          Muker's landscape is largely unchanged from the late 18th and early 19th century - the field barns and drystone walls radiate out from the village in the pattern that has been there for two hundred years - and its species-rich hay meadows burst into colour in late spring and early summer. This circular route starts at Muker and follows the River Swale east to the village of Gunnerside, returning across the fells. Swaledale is a lush green valley with a patchwork of tiny fields and barns, and it has never been one of the more popular tourist dales, which is part of its appeal. Muker is about 45 minutes' drive from Garsdale, over the tops into Swaledale. The [Keld to Tan Hill Inn walk](/places/keld-to-tan-hill-inn/) - Britain's highest pub - is reachable on a longer walk from Keld, further up the dale.
+          
+          - **Start point:** Muker village
+          - **Distance:** 6.8 miles/11km, around 4 hours, moderate
+          - **Parking:** Muker village car park
+          - **Route description:** [Countryfile - Muker walk](https://www.countryfile.com/go-outdoors/walks/walk-muker-swaledale-north-yorkshire)
     figure_src: /images/guide-pages/muker-wildflower-meadow-barn.jpg
     figure_alt: Muker wildflower meadow and barn
   - type: items

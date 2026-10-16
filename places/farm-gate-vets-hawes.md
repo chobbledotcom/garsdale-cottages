@@ -16,14 +16,14 @@ google:
       - Veterinarian
   address: "14 Long Ln, Sedbergh LA10 5AH, United Kingdom"
   phone: +44 15396 20335
-  phone_unformatted: 441539620335
+  phone_unformatted: +441539620335
   website: http://www.farmgatevets.com/contact/Sedbergh.aspx
   location:
       lat: 54.3233585
       lng: -2.5233229
   plus_code: "8FFG+8M Sedbergh, United Kingdom"
   rating: 4.8
-  reviews_count: 39
+  reviews_count: 40
   opening_hours:
       - day: Monday
         hours: "8:30 AM to 5 PM"
@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Farm%20Gate%20Vets&query_place_id=ChIJofPHBIthfEgRQwDrripEM2I
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T13:38:45.611Z"
-last_fetched: "2026-08-16T13:38:51.629Z"
+  scraped_at: "2026-10-16T18:26:37.405Z"
+last_fetched: "2026-10-16T18:26:43.197Z"
 blocks:
   - type: markdown
     content: "# Farm Gate Vets, Hawes"
@@ -54,14 +54,14 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"farm-gate-vets-hawes\" %}"
   - type: split-image
     content: |-
-      Farm Gate Vets is a veterinary practice with a branch on Long Lane in Sedbergh, and it is the nearest practice to Garsdale if you are bringing a dog or other pet on holiday and need a vet. The Sedbergh branch is the companion animal side of the practice - farm animals are handled from their Lancaster and Crooklands branches - and the surgery here has a full theatre, ultrasound scanning and radiography capabilities, kennelling for hospitalised inpatients, and daily consulting hours by appointment.
-
-      The practice offers 24-hour emergency cover, and contact for urgent calls, booking appointments and clinical queries should be made by telephone rather than email. It sits at 14 Long Lane, a short walk from the main street in Sedbergh, about fifteen minutes' drive from [Roger Pot](/properties/roger-pot/) in Garsdale.
-
-      - **Address:** 14 Long Lane, Sedbergh, Cumbria, LA10 5AH
-      - **Phone:** 015396 20335
-      - **Email:** [Info@farmgatevets.com](mailto:Info@farmgatevets.com)
-      - **Website:** [farmgatevets.com](http://www.farmgatevets.com/)
+          Farm Gate Vets is a veterinary practice with a branch on Long Lane in Sedbergh, and it is the nearest practice to Garsdale if you are bringing a dog or other pet on holiday and need a vet. The Sedbergh branch is the companion animal side of the practice - farm animals are handled from their Lancaster and Crooklands branches - and the surgery here has a full theatre, ultrasound scanning and radiography capabilities, kennelling for hospitalised inpatients, and daily consulting hours by appointment.
+          
+          The practice offers 24-hour emergency cover, and contact for urgent calls, booking appointments and clinical queries should be made by telephone rather than email. It sits at 14 Long Lane, a short walk from the main street in Sedbergh, about fifteen minutes' drive from [Roger Pot](/properties/roger-pot/) in Garsdale.
+          
+          - **Address:** 14 Long Lane, Sedbergh, Cumbria, LA10 5AH
+          - **Phone:** 015396 20335
+          - **Email:** [Info@farmgatevets.com](mailto:Info@farmgatevets.com)
+          - **Website:** [farmgatevets.com](http://www.farmgatevets.com/)
     figure_src: /images/guide-pages/farm-gate-vets.jpeg
     figure_alt: Farm Gate Vets
   - type: items
@@ -82,6 +82,5 @@ blocks:
           - [The White Hart, Hawes](/places/white-hart-inn-hawes/)
           - [Wensleydale Creamery at Hawes](/places/wensleydale-creamery-hawes/)
           - [Dog Friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) Stays
-
 is_business: true
 ---

@@ -14,20 +14,20 @@ google:
       - Inn
   address: Sedbergh LA10 5RG, United Kingdom
   phone: +44 15396 25282
-  phone_unformatted: 441539625282
+  phone_unformatted: +441539625282
   website: http://www.thesportsmansinn.com/
   location:
       lat: 54.2720543
       lng: -2.3575168
   plus_code: "7JCR+RX Sedbergh, United Kingdom"
   rating: 4
-  reviews_count: 83
+  reviews_count: 84
   image_url: /images/places/sportsmans-inn-cowgill.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Sportsman's%20Inn&query_place_id=ChIJyRnsqAdlfEgRFOMVTBreIlc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:26:52.398Z"
-last_fetched: "2026-08-16T11:26:58.489Z"
+  scraped_at: "2026-10-16T18:39:01.890Z"
+last_fetched: "2026-10-16T18:39:07.716Z"
 blocks:
   - type: markdown
     content: "# The Sportsman's Inn, Cowgill"

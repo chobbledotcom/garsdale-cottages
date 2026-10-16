@@ -23,14 +23,14 @@ google:
       - Visitor center
   address: Gayle Ln, Wensleydale, Hawes DL8 3RN, United Kingdom
   phone: +44 1969 667664
-  phone_unformatted: 441969667664
+  phone_unformatted: +441969667664
   website: http://www.wensleydale.co.uk/
   location:
       lat: 54.3018763
       lng: -2.2009213
   plus_code: "8Q2X+QJ Hawes, United Kingdom"
   rating: 4.6
-  reviews_count: 1980
+  reviews_count: 2167
   opening_hours:
       - day: Monday
         hours: "9 AM to 5 PM"
@@ -50,8 +50,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Wensleydale%20Creamery&query_place_id=ChIJ7c49qT9sfEgRKbtbplFwV18
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:28:31.393Z"
-last_fetched: "2026-08-16T11:28:37.428Z"
+  scraped_at: "2026-10-16T18:42:06.236Z"
+last_fetched: "2026-10-16T18:42:12.763Z"
 blocks:
   - type: markdown
     content: "# Wensleydale Creamery, Hawes"
@@ -61,13 +61,13 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"wensleydale-creamery-hawes\" %}"
   - type: split-image
     content: |-
-      The Wensleydale Creamery visitor centre in Hawes is the home of Yorkshire Wensleydale cheese, and the only place in Wensleydale still making the traditional cheese. The factory on this site dates from the early twentieth century, and by 1990 it was the last Wensleydale cheesemaker left in the dale. It is now an award-winning, independent traditional cheese-maker and specialist blender, and the visitor centre is built around watching the cheese being made.
-
-      The Yorkshire Wensleydale Cheese Experience includes a cheesemaking demonstration and a look at the history of the trade, from farmhouse production to the modern creamery. The cheese and gift shop stocks over twenty varieties of award-winning artisan cheese alongside accompaniments, and there is a coffee shop and restaurant serving cheese-inspired refreshments. There is a large dedicated car park on site, and the creamery is a short walk from the centre of Hawes.
-
-      - **Address:** Gayle Lane, Hawes, Wensleydale, North Yorkshire, DL8 3RN
-      - **Website:** [wensleydale.co.uk](https://www.wensleydale.co.uk/)
-      - **Email:** [creamery@wensleydale.co.uk](mailto:creamery@wensleydale.co.uk)
+          The Wensleydale Creamery visitor centre in Hawes is the home of Yorkshire Wensleydale cheese, and the only place in Wensleydale still making the traditional cheese. The factory on this site dates from the early twentieth century, and by 1990 it was the last Wensleydale cheesemaker left in the dale. It is now an award-winning, independent traditional cheese-maker and specialist blender, and the visitor centre is built around watching the cheese being made.
+          
+          The Yorkshire Wensleydale Cheese Experience includes a cheesemaking demonstration and a look at the history of the trade, from farmhouse production to the modern creamery. The cheese and gift shop stocks over twenty varieties of award-winning artisan cheese alongside accompaniments, and there is a coffee shop and restaurant serving cheese-inspired refreshments. There is a large dedicated car park on site, and the creamery is a short walk from the centre of Hawes.
+          
+          - **Address:** Gayle Lane, Hawes, Wensleydale, North Yorkshire, DL8 3RN
+          - **Website:** [wensleydale.co.uk](https://www.wensleydale.co.uk/)
+          - **Email:** [creamery@wensleydale.co.uk](mailto:creamery@wensleydale.co.uk)
     figure_src: /images/guide-pages/wensleydale-creamery-visitor-centre.jpeg
     figure_alt: Wensleydale Creamery Visitor Centre
   - type: items
@@ -88,6 +88,5 @@ blocks:
           - [W.R. Outhwaite & Son, Hawes](/places/wr-outhwaite-and-son-hawes/)
           - [Bolton Castle](/places/bolton-castle/)
           - [Aysgarth Falls](/places/aysgarth-falls/)
-
 is_business: true
 ---

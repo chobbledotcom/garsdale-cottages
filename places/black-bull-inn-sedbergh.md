@@ -16,21 +16,21 @@ google:
       - Inn
   address: "44 Main St, Sedbergh LA10 5BL, United Kingdom"
   phone: +44 15396 20264
-  phone_unformatted: 441539620264
+  phone_unformatted: +441539620264
   website: http://www.theblackbullsedbergh.co.uk/
   location:
       lat: 54.323758
       lng: -2.527537
   plus_code: "8FFC+GX Sedbergh, United Kingdom"
   rating: 4.4
-  reviews_count: 578
-  price: $163
+  reviews_count: 590
+  price: $157
   image_url: /images/places/black-bull-inn-sedbergh.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Black%20Bull%20Inn&query_place_id=ChIJp6ua5_RhfEgRhQCSFu_Krek
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:14:30.815Z"
-last_fetched: "2026-08-16T11:14:36.946Z"
+  scraped_at: "2026-10-16T18:19:46.835Z"
+last_fetched: "2026-10-16T18:19:52.500Z"
 blocks:
   - type: markdown
     content: "# The Black Bull Inn, Sedbergh"
@@ -40,18 +40,18 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"black-bull-inn-sedbergh\" %}"
   - type: split-image
     content: |-
-      The Black Bull is a 17th-century coaching inn on Main Street in Sedbergh, set at the foot of the Howgill Fells on the western edge of the Yorkshire Dales National Park. James Ratcliffe and Nina Matsunaga run it together, and Nina's cooking has turned the place into a destination in its own right. She's German-born to Japanese parents, and her food is seasonal British produce - whole animals from the farm, fish from both coasts, game and foraged produce - influenced by her Japanese heritage and German upbringing. She sources mainly from what the inn calls the "Neck of Britain", running across Cumbria, Yorkshire, Lancashire and Northumbria. It draws people from a fair distance, which you wouldn't expect in a small Dales market town.
-
-      As well as the main restaurant and bar, the inn has 18 bedrooms, three of them dog friendly, and a separate fine-dining room called Tsuchi, where Nina runs a tasting menu built on the same seasonal British produce. There's also the Three Hares Café, tucked away in The Stables in the courtyard, serving all-day food from breakfast through to lunch - toasties, scotch eggs, homemade soups, cakes and coffee. The bar keeps its pub identity - wood-burning stoves, red-banquette seating, wooden floors - so you can come in for a drink without booking a table.
-
-      Sedbergh itself is a small historic market town within easy reach of the M6, and a useful stop if you're staying up the dale in Garsdale - about fifteen minutes' drive from [Roger Pot](/properties/roger-pot/). The Wednesday [Sedbergh market](/places/sedbergh-market/) runs in town too.
-
-      - **Address:** 44 Main Street, Sedbergh, Cumbria, LA10 5BL
-      - **Phone:** 015396 20264
-      - **Website:** [theblackbullsedbergh.co.uk](https://www.theblackbullsedbergh.co.uk/)
-      - **Email (rooms and tables):** [bookings@theblackbullsedbergh.co.uk](mailto:bookings@theblackbullsedbergh.co.uk)
-      - **Instagram:** [@theblackbullsedbergh](https://www.instagram.com/theblackbullsedbergh/)
-      - **Facebook:** [facebook.com/blkbullsedbergh](https://www.facebook.com/blkbullsedbergh)
+          The Black Bull is a 17th-century coaching inn on Main Street in Sedbergh, set at the foot of the Howgill Fells on the western edge of the Yorkshire Dales National Park. James Ratcliffe and Nina Matsunaga run it together, and Nina's cooking has turned the place into a destination in its own right. She's German-born to Japanese parents, and her food is seasonal British produce - whole animals from the farm, fish from both coasts, game and foraged produce - influenced by her Japanese heritage and German upbringing. She sources mainly from what the inn calls the "Neck of Britain", running across Cumbria, Yorkshire, Lancashire and Northumbria. It draws people from a fair distance, which you wouldn't expect in a small Dales market town.
+          
+          As well as the main restaurant and bar, the inn has 18 bedrooms, three of them dog friendly, and a separate fine-dining room called Tsuchi, where Nina runs a tasting menu built on the same seasonal British produce. There's also the Three Hares Café, tucked away in The Stables in the courtyard, serving all-day food from breakfast through to lunch - toasties, scotch eggs, homemade soups, cakes and coffee. The bar keeps its pub identity - wood-burning stoves, red-banquette seating, wooden floors - so you can come in for a drink without booking a table.
+          
+          Sedbergh itself is a small historic market town within easy reach of the M6, and a useful stop if you're staying up the dale in Garsdale - about fifteen minutes' drive from [Roger Pot](/properties/roger-pot/). The Wednesday [Sedbergh market](/places/sedbergh-market/) runs in town too.
+          
+          - **Address:** 44 Main Street, Sedbergh, Cumbria, LA10 5BL
+          - **Phone:** 015396 20264
+          - **Website:** [theblackbullsedbergh.co.uk](https://www.theblackbullsedbergh.co.uk/)
+          - **Email (rooms and tables):** [bookings@theblackbullsedbergh.co.uk](mailto:bookings@theblackbullsedbergh.co.uk)
+          - **Instagram:** [@theblackbullsedbergh](https://www.instagram.com/theblackbullsedbergh/)
+          - **Facebook:** [facebook.com/blkbullsedbergh](https://www.facebook.com/blkbullsedbergh)
     figure_src: /images/guide-pages/the-black-bull-inn.jpeg
     figure_alt: The Black Bull Inn
   - type: items
@@ -74,6 +74,5 @@ blocks:
           - [The Half and Half, Sedbergh](/places/half-and-half-sedbergh/)
           - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
           - [Things To Do](/things-to-do/)
-
 is_business: true
 ---

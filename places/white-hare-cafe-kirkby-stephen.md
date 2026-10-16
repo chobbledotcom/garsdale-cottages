@@ -15,15 +15,14 @@ google:
       - Breakfast restaurant
       - Tea house
   address: "40 Market St, Kirkby Stephen CA17 4QW, United Kingdom"
-  phone: +44 17683 71397
-  phone_unformatted: 441768371397
+  phone: +44 7504 503868
+  phone_unformatted: +447504503868
   location:
       lat: 54.472595
       lng: -2.3488117
   plus_code: FMF2+2F Kirkby Stephen, United Kingdom
   rating: 4.9
-  reviews_count: 480
-  price: £1–10
+  reviews_count: 489
   opening_hours:
       - day: Monday
         hours: Closed
@@ -43,8 +42,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20White%20Hare%20Cafe&query_place_id=ChIJ7172TMtcfEgRMc_-MJb9PWY
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:28:47.884Z"
-last_fetched: "2026-08-16T11:28:53.579Z"
+  scraped_at: "2026-10-16T18:42:32.744Z"
+last_fetched: "2026-10-16T18:42:38.533Z"
 blocks:
   - type: markdown
     content: "# White Hare Cafe, Kirkby Stephen"

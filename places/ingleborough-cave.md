@@ -20,35 +20,35 @@ google:
       - Tour agency
   address: Ingleborough Cave, Clapham, Lancaster LA2 8EE, United Kingdom
   phone: +44 15242 51242
-  phone_unformatted: 441524251242
+  phone_unformatted: +441524251242
   website: http://www.ingleboroughcave.co.uk/
   location:
       lat: 54.1351971
       lng: -2.3774873
   plus_code: "4JPF+32 Lancaster, United Kingdom"
   rating: 4.7
-  reviews_count: 1066
+  reviews_count: 1095
   opening_hours:
       - day: Monday
-        hours: "10 AM to 5 PM"
+        hours: "10 AM to 4 PM"
       - day: Tuesday
-        hours: "10 AM to 5 PM"
+        hours: "10 AM to 4 PM"
       - day: Wednesday
-        hours: "10 AM to 5 PM"
+        hours: "10 AM to 4 PM"
       - day: Thursday
-        hours: "10 AM to 5 PM"
+        hours: "10 AM to 4 PM"
       - day: Friday
-        hours: "10 AM to 5 PM"
+        hours: "10 AM to 4 PM"
       - day: Saturday
-        hours: "10 AM to 5 PM"
+        hours: "10 AM to 4 PM"
       - day: Sunday
-        hours: "10 AM to 5 PM"
+        hours: "10 AM to 4 PM"
   image_url: /images/places/ingleborough-cave.jpg
   url: https://www.google.com/maps/search/?api=1&query=Ingleborough%20Cave&query_place_id=ChIJ50IjHER-fEgRaY-wIxVL_P8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:22:11.904Z"
-last_fetched: "2026-08-16T11:22:17.565Z"
+  scraped_at: "2026-10-16T18:28:58.136Z"
+last_fetched: "2026-10-16T18:29:03.953Z"
 blocks:
   - type: markdown
     content: "# Ingleborough Cave"
@@ -58,13 +58,13 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"ingleborough-cave\" %}"
   - type: split-image
     content: |-
-      Ingleborough Cave is a show cave on the south side of Ingleborough, just above the village of Clapham in the Yorkshire Dales National Park. It was first discovered and explored in 1837 by Victorian cavers, and has been open to the public ever since, making it one of the oldest show caves in the country. The cave is family-friendly with electric floodlighting along the path, and the tour takes you through chambers with stalactites, stalagmites, flowstone and an underground lake, with guides explaining the geology and the history of exploration.
-
-      Your ticket includes access via the Ingleborough Estate Nature Trail, a pretty signed walk from the village car park in Clapham up to the cave entrance through woods and alongside a stream, so the visit is a decent walk in its own right. The cave offers dog-friendly visits on selected days if you are bringing your dog. Clapham sits just off the A65 Leeds to Kendal road, and is about forty minutes' drive from Garsdale, so it pairs well with a day trip to the Three Peaks area.
-
-      - **Address:** Ingleborough Cave, Clapham, North Yorkshire, LA2 8EE
-      - **Website:** [ingleboroughcave.co.uk](https://ingleboroughcave.co.uk/)
-      - **Note:** the postal address (LA2 8EE) is not the sat nav address - follow signs to the Yorkshire Dales National car park in Clapham village
+          Ingleborough Cave is a show cave on the south side of Ingleborough, just above the village of Clapham in the Yorkshire Dales National Park. It was first discovered and explored in 1837 by Victorian cavers, and has been open to the public ever since, making it one of the oldest show caves in the country. The cave is family-friendly with electric floodlighting along the path, and the tour takes you through chambers with stalactites, stalagmites, flowstone and an underground lake, with guides explaining the geology and the history of exploration.
+          
+          Your ticket includes access via the Ingleborough Estate Nature Trail, a pretty signed walk from the village car park in Clapham up to the cave entrance through woods and alongside a stream, so the visit is a decent walk in its own right. The cave offers dog-friendly visits on selected days if you are bringing your dog. Clapham sits just off the A65 Leeds to Kendal road, and is about forty minutes' drive from Garsdale, so it pairs well with a day trip to the Three Peaks area.
+          
+          - **Address:** Ingleborough Cave, Clapham, North Yorkshire, LA2 8EE
+          - **Website:** [ingleboroughcave.co.uk](https://ingleboroughcave.co.uk/)
+          - **Note:** the postal address (LA2 8EE) is not the sat nav address - follow signs to the Yorkshire Dales National car park in Clapham village
     figure_src: /images/guide-pages/ingleborough-cave.jpeg
     figure_alt: Ingleborough Cave
   - type: items
@@ -86,6 +86,5 @@ blocks:
           - [Tom Croft Cave](/places/tom-croft-cave/)
           - [Dovecote Cave](/places/dovecote-cave/)
           - [Caves and Geology](/caves-and-geological-features/)
-
 is_business: false
 ---

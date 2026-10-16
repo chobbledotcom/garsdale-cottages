@@ -41,16 +41,16 @@ google:
   category_name: Convenience store
   categories:
       - Convenience store
-  address: Market Pl, Main Street, Scarborough DL8 3QX, United Kingdom
+  address: SPAR Store, Main Street, Hawes DL8 3QX, United Kingdom
   phone: +44 1969 667232
   phone_unformatted: +441969667232
   website: https://www.spar.co.uk/store-locator/hal18060-spar-hawes
   location:
-      lat: 54.3039975
-      lng: -2.1988823
-  plus_code: "8R32+HC Hawes, United Kingdom"
+      lat: 54.3039576
+      lng: -2.1988471
+  plus_code: "8R32+HF Hawes, United Kingdom"
   rating: 3.8
-  reviews_count: 38
+  reviews_count: 40
   opening_hours:
       - day: Monday
         hours: "7:30 AM to 6 PM"
@@ -61,7 +61,7 @@ google:
       - day: Thursday
         hours: "7:30 AM to 6 PM"
       - day: Friday
-        hours: "7:30 AM to 6 PM"
+        hours: "8 AM to 6 PM"
       - day: Saturday
         hours: "7:30 AM to 6 PM"
       - day: Sunday
@@ -70,6 +70,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=SPAR%20Hawes&query_place_id=ChIJf-MjDEBsfEgRK53O2_PNg-M
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:01:39.597Z"
-last_fetched: "2026-08-16T23:01:45.969Z"
+  scraped_at: "2026-10-16T18:38:14.607Z"
+last_fetched: "2026-10-16T18:38:20.581Z"
 ---

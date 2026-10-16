@@ -67,11 +67,11 @@ google:
       lat: 54.3678055
       lng: -2.5133333
   rating: 4.8
-  reviews_count: 43
+  reviews_count: 44
   image_url: /images/places/howgill-fells.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Calf&query_place_id=ChIJS1z_TlJgfEgRYJWt9J_5DB0
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:09:14.905Z"
-last_fetched: "2026-08-16T23:09:21.186Z"
+  scraped_at: "2026-10-16T18:28:44.775Z"
+last_fetched: "2026-10-16T18:28:50.461Z"
 ---

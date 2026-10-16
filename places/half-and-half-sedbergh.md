@@ -16,14 +16,13 @@ google:
       - Bar
   address: "30 Main St, Sedbergh LA10 5BL, United Kingdom"
   phone: +44 7946 533225
-  phone_unformatted: 447946533225
+  phone_unformatted: +447946533225
   location:
       lat: 54.3236758
       lng: -2.5284065
   plus_code: "8FFC+FJ Sedbergh, United Kingdom"
   rating: 4.9
-  reviews_count: 16
-  price: £10–20
+  reviews_count: 15
   opening_hours:
       - day: Monday
         hours: Closed
@@ -43,8 +42,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Half%20and%20Half%20Sedbergh&query_place_id=ChIJP86ZLoZhfEgRAM0d1Q1t2As
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:21:17.777Z"
-last_fetched: "2026-08-16T11:21:23.508Z"
+  scraped_at: "2026-10-16T18:27:55.121Z"
+last_fetched: "2026-10-16T18:28:01.147Z"
 blocks:
   - type: markdown
     content: "# The Half and Half, Sedbergh"
@@ -54,15 +53,15 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"half-and-half-sedbergh\" %}"
   - type: split-image
     content: |-
-      The Half and Half is a bar on Main Street in Sedbergh, around fifteen minutes' drive from Garsdale, serving wines from around the world alongside local craft beers, gins and ciders from the Lakes and Dales. If you can't decide what to drink, they do a beer bat - a third each of three different ales - and wine flights, so you can taste before you commit. It is dog and family friendly with a welcoming log fire, a mini-library and free pool, and it has a steady programme of live music nights, DJ nights, pub quizzes and the occasional pop-up artisan pizza night in partnership with local kitchens, so it is livelier than your average Dales bar.
-
-      There is no parking on site, so park in town and walk to the door, which is the same advice as for the other Main Street pubs. It is a CAMRA-listed bar, and the acoustic night once a month is worth looking out for if you are staying the week.
-
-      - **Address:** 30 Main Street, Sedbergh, Cumbria, LA10 5BL
-      - **Phone:** 07946 533225
-      - **Email:** [halfandhalfsedbergh@gmail.com](mailto:halfandhalfsedbergh@gmail.com)
-      - **Instagram:** [@halfandhalfsedbergh](https://www.instagram.com/halfandhalfsedbergh/)
-      - **Facebook:** [facebook.com - Half and Half Sedbergh](https://www.facebook.com/p/Half-Half-Sedbergh-61569846653491/)
+          The Half and Half is a bar on Main Street in Sedbergh, around fifteen minutes' drive from Garsdale, serving wines from around the world alongside local craft beers, gins and ciders from the Lakes and Dales. If you can't decide what to drink, they do a beer bat - a third each of three different ales - and wine flights, so you can taste before you commit. It is dog and family friendly with a welcoming log fire, a mini-library and free pool, and it has a steady programme of live music nights, DJ nights, pub quizzes and the occasional pop-up artisan pizza night in partnership with local kitchens, so it is livelier than your average Dales bar.
+          
+          There is no parking on site, so park in town and walk to the door, which is the same advice as for the other Main Street pubs. It is a CAMRA-listed bar, and the acoustic night once a month is worth looking out for if you are staying the week.
+          
+          - **Address:** 30 Main Street, Sedbergh, Cumbria, LA10 5BL
+          - **Phone:** 07946 533225
+          - **Email:** [halfandhalfsedbergh@gmail.com](mailto:halfandhalfsedbergh@gmail.com)
+          - **Instagram:** [@halfandhalfsedbergh](https://www.instagram.com/halfandhalfsedbergh/)
+          - **Facebook:** [facebook.com - Half and Half Sedbergh](https://www.facebook.com/p/Half-Half-Sedbergh-61569846653491/)
     figure_src: /images/guide-pages/the-half-and-half-sedbergh.jpeg
     figure_alt: The Half and Half
   - type: items
@@ -86,6 +85,5 @@ blocks:
           - [Spar, Sedbergh](/places/spar-sedbergh/)
           - [Farfield Mill, Sedbergh](/places/farfield-mill-sedbergh/)
           - [Things To Do](/things-to-do/)
-
 is_business: true
 ---

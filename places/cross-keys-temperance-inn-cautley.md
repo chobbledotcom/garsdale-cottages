@@ -17,20 +17,20 @@ google:
       - Restaurant
   address: Cautley, Sedbergh LA10 5NE, United Kingdom
   phone: +44 15396 20284
-  phone_unformatted: 441539620284
+  phone_unformatted: +441539620284
   website: http://www.cautleyspout.co.uk/
   location:
       lat: 54.3665639
       lng: -2.4664333
   plus_code: "9G8M+JC Sedbergh, United Kingdom"
   rating: 4.6
-  reviews_count: 213
+  reviews_count: 217
   image_url: /images/places/cross-keys-temperance-inn-cautley.jpg
   url: https://www.google.com/maps/search/?api=1&query=Cross%20Keys%20Temperance%20Inn&query_place_id=ChIJ3aldqthgfEgRzwk7v7f8Za4
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:17:01.352Z"
-last_fetched: "2026-08-16T11:17:07.736Z"
+  scraped_at: "2026-10-16T18:23:06.305Z"
+last_fetched: "2026-10-16T18:23:11.860Z"
 blocks:
   - type: markdown
     content: "# The Cross Keys Temperance Inn, Cautley"
@@ -40,15 +40,15 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"cross-keys-temperance-inn-cautley\" %}"
   - type: split-image
     content: |-
-      The Cross Keys is a National Trust temperance inn at Cautley, a few miles out of Sedbergh towards the Howgills, close to Cautley Spout - the highest waterfall in England by total drop. It has been a temperance inn since 1902, when Mrs Edith Adelaide Bunney bought the place and removed the liquor license, and no alcohol has been served here since. What you get instead is a book cafe selling second-hand books on history, local history and nature, and a small farmhouse-style restaurant doing daytime meals and snacks with evening meals available too, for which booking is essential.
-
-      There are two rooms for bed and breakfast if you want to stay. The inn sits at the foot of Cautley Spout in the heart of the Howgills, and the walk up to the waterfall is one of the more dramatic in the area - the Cautley Spout cascade drops around 650 feet down the fellside above the inn. National Trust ownership means the building itself is looked after, and the flagged floors and thick walls are what you'd expect from a place this old.
-
-      The Cross Keys is [dog friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) with one condition worth knowing before you set off, which is that dogs are allowed in the lounge area but not in the tabled restaurant area. If you are walking up to Cautley Spout with the dog and want lunch afterwards, ask for the lounge when you come in. It is worth knowing before you turn up, because that split catches people out.
-
-      - **Address:** Cross Keys Inn, Cautley, Sedbergh, Cumbria, LA10 5NE
-      - **Website:** [cautleyspout.co.uk](https://www.cautleyspout.co.uk/)
-      - **Facebook:** [facebook.com - Cross keys Cautley](https://www.facebook.com/p/Cross-keys-Cautley-61578293271486/)
+          The Cross Keys is a National Trust temperance inn at Cautley, a few miles out of Sedbergh towards the Howgills, close to Cautley Spout - the highest waterfall in England by total drop. It has been a temperance inn since 1902, when Mrs Edith Adelaide Bunney bought the place and removed the liquor license, and no alcohol has been served here since. What you get instead is a book cafe selling second-hand books on history, local history and nature, and a small farmhouse-style restaurant doing daytime meals and snacks with evening meals available too, for which booking is essential.
+          
+          There are two rooms for bed and breakfast if you want to stay. The inn sits at the foot of Cautley Spout in the heart of the Howgills, and the walk up to the waterfall is one of the more dramatic in the area - the Cautley Spout cascade drops around 650 feet down the fellside above the inn. National Trust ownership means the building itself is looked after, and the flagged floors and thick walls are what you'd expect from a place this old.
+          
+          The Cross Keys is [dog friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) with one condition worth knowing before you set off, which is that dogs are allowed in the lounge area but not in the tabled restaurant area. If you are walking up to Cautley Spout with the dog and want lunch afterwards, ask for the lounge when you come in. It is worth knowing before you turn up, because that split catches people out.
+          
+          - **Address:** Cross Keys Inn, Cautley, Sedbergh, Cumbria, LA10 5NE
+          - **Website:** [cautleyspout.co.uk](https://www.cautleyspout.co.uk/)
+          - **Facebook:** [facebook.com - Cross keys Cautley](https://www.facebook.com/p/Cross-keys-Cautley-61578293271486/)
     figure_src: /images/guide-pages/cross-keys-temperance-inn.jpeg
     figure_alt: Cross Keys Temperance Inn
   - type: items
@@ -72,6 +72,5 @@ blocks:
           - [The Green Dragon at Hardraw](/places/green-dragon-inn-hardraw/)
           - [Cotter Force](/places/cotter-force/)
           - [Wellness](/wellness-retreats/) Retreats
-
 is_business: true
 ---

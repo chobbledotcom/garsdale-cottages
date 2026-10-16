@@ -66,11 +66,11 @@ google:
       lat: 54.1664116
       lng: -2.3978198
   rating: 4.8
-  reviews_count: 351
+  reviews_count: 354
   image_url: /images/places/ingleborough.jpg
   url: https://www.google.com/maps/search/?api=1&query=Ingleborough&query_place_id=ChIJ6w1_PMF7fEgRMB3QmySfU1k
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T22:52:48.404Z"
-last_fetched: "2026-08-16T22:52:54.156Z"
+  scraped_at: "2026-10-16T18:29:12.354Z"
+last_fetched: "2026-10-16T18:29:17.984Z"
 ---

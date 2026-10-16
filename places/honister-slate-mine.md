@@ -23,14 +23,14 @@ google:
       - Tourist attraction
   address: Honister Pass, Keswick CA12 5XN, United Kingdom
   phone: +44 17687 77230
-  phone_unformatted: 441768777230
+  phone_unformatted: +441768777230
   website: https://honister.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB
   location:
       lat: 54.5112702
       lng: -3.199314
   plus_code: GR62+G7 Keswick, United Kingdom
   rating: 4.7
-  reviews_count: 1309
+  reviews_count: 1470
   opening_hours:
       - day: Monday
         hours: "8:30 AM to 5 PM"
@@ -50,8 +50,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Honister%20Slate%20Mine&query_place_id=ChIJCXjj2VHEfEgRhzr314q0cR8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:21:50.225Z"
-last_fetched: "2026-08-16T11:21:55.883Z"
+  scraped_at: "2026-10-16T18:28:29.430Z"
+last_fetched: "2026-10-16T18:28:35.220Z"
 blocks:
   - type: markdown
     content: "# Honister Slate Mine"

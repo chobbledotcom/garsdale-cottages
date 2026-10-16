@@ -60,8 +60,7 @@ google:
       lng: -2.5282517
   plus_code: "8FFC+FM Sedbergh, United Kingdom"
   rating: 4.7
-  reviews_count: 256
-  price: £10–20
+  reviews_count: 262
   opening_hours:
       - day: Monday
         hours: "9 AM to 4 PM"
@@ -81,6 +80,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Smatt's%20Duo&query_place_id=ChIJp6ua5_RhfEgRw1I8-384410
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:01:20.061Z"
-last_fetched: "2026-08-16T23:01:25.932Z"
+  scraped_at: "2026-10-16T18:37:42.878Z"
+last_fetched: "2026-10-16T18:37:48.524Z"
 ---

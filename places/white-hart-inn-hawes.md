@@ -20,21 +20,21 @@ google:
       - Pub
   address: Main St, Hawes DL8 3QL, United Kingdom
   phone: +44 1969 667214
-  phone_unformatted: 441969667214
+  phone_unformatted: +441969667214
   website: https://www.whiteharthawes.co.uk/
   location:
       lat: 54.3038883
       lng: -2.1969692
   plus_code: "8R33+H6 Hawes, United Kingdom"
   rating: 4.6
-  reviews_count: 1131
-  price: $136
+  reviews_count: 1160
+  price: $139
   image_url: /images/places/white-hart-inn-hawes.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20White%20Hart%20Inn%2C%20Hawes&query_place_id=ChIJG2g7OkBsfEgR3xW76Pb4JjQ
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:29:04.805Z"
-last_fetched: "2026-08-16T11:29:10.576Z"
+  scraped_at: "2026-10-16T18:42:46.021Z"
+last_fetched: "2026-10-16T18:42:51.882Z"
 blocks:
   - type: markdown
     content: "# The White Hart Inn, Hawes"
@@ -44,15 +44,15 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"white-hart-inn-hawes\" %}"
   - type: split-image
     content: |-
-      The White Hart is a 16th-century former coaching inn on the cobbled main street in Hawes, directly on the Pennine Way in Upper Wensleydale. It's a freehouse with a good range of local and guest cask ales, and the food is relaxed, home-cooked stuff served across three dining areas, one of which is kept dog-free. It is very dog friendly in the other two. The bar has an open fire and the kitchen turns out breakfast, lunch and evening meals.
-
-      There are four simple guest rooms with en-suite facilities, free WiFi throughout, and the front rooms look out over the old cobbled street and St Margaret's Church. There is no parking on site - the note from the guide still stands, park in the market place or main street and walk to the door. Motorbikes and cycles can be arranged with the inn.
-
-      - **Address:** Main Street, Hawes, North Yorkshire, DL8 3QL
-      - **Phone:** 01969 667214
-      - **Website:** [whiteharthawes.co.uk](https://www.whiteharthawes.co.uk/)
-      - **Instagram:** [@whiteharthawes](https://www.instagram.com/whiteharthawes/)
-      - **Facebook:** [facebook.com/whiteharthawes](https://www.facebook.com/whiteharthawes)
+          The White Hart is a 16th-century former coaching inn on the cobbled main street in Hawes, directly on the Pennine Way in Upper Wensleydale. It's a freehouse with a good range of local and guest cask ales, and the food is relaxed, home-cooked stuff served across three dining areas, one of which is kept dog-free. It is very dog friendly in the other two. The bar has an open fire and the kitchen turns out breakfast, lunch and evening meals.
+          
+          There are four simple guest rooms with en-suite facilities, free WiFi throughout, and the front rooms look out over the old cobbled street and St Margaret's Church. There is no parking on site - the note from the guide still stands, park in the market place or main street and walk to the door. Motorbikes and cycles can be arranged with the inn.
+          
+          - **Address:** Main Street, Hawes, North Yorkshire, DL8 3QL
+          - **Phone:** 01969 667214
+          - **Website:** [whiteharthawes.co.uk](https://www.whiteharthawes.co.uk/)
+          - **Instagram:** [@whiteharthawes](https://www.instagram.com/whiteharthawes/)
+          - **Facebook:** [facebook.com/whiteharthawes](https://www.facebook.com/whiteharthawes)
     figure_src: /images/guide-pages/the-white-hart-inn-hawes.jpeg
     figure_alt: The White Hart Inn, Hawes
   - type: items
@@ -77,6 +77,5 @@ blocks:
           - [W.R. Outhwaite & Son, Hawes](/places/wr-outhwaite-and-son-hawes/)
           - [Hardraw Force](/places/hardraw-force/)
           - [Things To Do](/things-to-do/)
-
 is_business: true
 ---

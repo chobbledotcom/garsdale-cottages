@@ -55,7 +55,7 @@ google:
       lng: -2.2018213
   plus_code: "8Q3X+J7 Hawes, United Kingdom"
   rating: 4.4
-  reviews_count: 206
+  reviews_count: 208
   opening_hours:
       - day: Monday
         hours: Open 24 hours
@@ -75,6 +75,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Dale%20Head%20Garage&query_place_id=ChIJ-02C0D9sfEgRinmFNggKrIQ
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T22:48:15.631Z"
-last_fetched: "2026-08-16T22:48:21.404Z"
+  scraped_at: "2026-10-16T18:23:49.955Z"
+last_fetched: "2026-10-16T18:23:55.654Z"
 ---

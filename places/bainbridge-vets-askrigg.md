@@ -16,14 +16,14 @@ google:
       - Veterinarian
   address: Station Surgery, Askrigg, Leyburn DL8 3BJ, United Kingdom
   phone: +44 1969 650263
-  phone_unformatted: 441969650263
+  phone_unformatted: +441969650263
   website: http://www.bainbridgevets.co.uk/
   location:
       lat: 54.3131294
       lng: -2.0891938
   plus_code: "8W76+78 Leyburn, United Kingdom"
   rating: 4.9
-  reviews_count: 50
+  reviews_count: 52
   opening_hours:
       - day: Monday
         hours: "8:30 AM to 6 PM"
@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Bainbridge%20Vets&query_place_id=ChIJ9T9mwEkTfEgRlUNM56FEKwo
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:14:14.170Z"
-last_fetched: "2026-08-16T11:14:19.875Z"
+  scraped_at: "2026-10-16T18:19:32.676Z"
+last_fetched: "2026-10-16T18:19:38.488Z"
 blocks:
   - type: markdown
     content: "# Bainbridge Vets, Askrigg"
@@ -54,14 +54,14 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"bainbridge-vets-askrigg\" %}"
   - type: split-image
     content: |-
-      Bainbridge Vets is a long-established Dales veterinary practice at Station Surgery in Askrigg, covering both farm and companion animals with a mixed, all-species service. It is a practice that values continuity of care - you can ring and request a specific vet, and they make themselves available on the phone to discuss cases before deciding whether an animal needs to come in. The Askrigg site has two spacious consulting rooms, hospitalisation, diagnostic imaging and operating facilities.
-
-      The practice runs its own 24-hour emergency service for genuine emergencies, so if you are bringing your dog on holiday and something goes wrong in the middle of the night, this is where you call. Note that the postal address says Leyburn, but the surgery is in Askrigg itself, about thirteen miles east of Leyburn on the A684 - follow the signs to Askrigg, not to Leyburn town centre. Askrigg is in Wensleydale, roughly forty minutes' drive from Garsdale.
-
-      - **Address:** Station Surgery, Askrigg, Leyburn, North Yorkshire, DL8 3BJ
-      - **Phone:** 01969 650263 (24 hours)
-      - **Email:** [reception@bainbridgevets.co.uk](mailto:reception@bainbridgevets.co.uk)
-      - **Website:** [bainbridgevets.co.uk](https://bainbridgevets.co.uk/)
+          Bainbridge Vets is a long-established Dales veterinary practice at Station Surgery in Askrigg, covering both farm and companion animals with a mixed, all-species service. It is a practice that values continuity of care - you can ring and request a specific vet, and they make themselves available on the phone to discuss cases before deciding whether an animal needs to come in. The Askrigg site has two spacious consulting rooms, hospitalisation, diagnostic imaging and operating facilities.
+          
+          The practice runs its own 24-hour emergency service for genuine emergencies, so if you are bringing your dog on holiday and something goes wrong in the middle of the night, this is where you call. Note that the postal address says Leyburn, but the surgery is in Askrigg itself, about thirteen miles east of Leyburn on the A684 - follow the signs to Askrigg, not to Leyburn town centre. Askrigg is in Wensleydale, roughly forty minutes' drive from Garsdale.
+          
+          - **Address:** Station Surgery, Askrigg, Leyburn, North Yorkshire, DL8 3BJ
+          - **Phone:** 01969 650263 (24 hours)
+          - **Email:** [reception@bainbridgevets.co.uk](mailto:reception@bainbridgevets.co.uk)
+          - **Website:** [bainbridgevets.co.uk](https://bainbridgevets.co.uk/)
     figure_src: /images/guide-pages/bainbridge-vets-askrigg.jpeg
     figure_alt: Bainbridge Vets, Askrigg
   - type: items
@@ -80,6 +80,5 @@ blocks:
           - [Muker and Upper Swaledale](/places/muker-village/) - the dale east of Hawes, towards Askrigg
           - [Askrigg village](/places/askrigg-village/)
           - [Dog Friendly](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) Stays
-
 is_business: true
 ---

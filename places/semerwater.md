@@ -19,13 +19,13 @@ google:
       lat: 54.2802351
       lng: -2.1243701
   rating: 4.6
-  reviews_count: 115
+  reviews_count: 116
   image_url: /images/places/semerwater.jpg
   url: https://www.google.com/maps/search/?api=1&query=Semerwater&query_place_id=ChIJSbM1AyltfEgRZFHfBjorT8U
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:25:33.124Z"
-last_fetched: "2026-08-16T11:25:38.810Z"
+  scraped_at: "2026-10-16T18:36:53.407Z"
+last_fetched: "2026-10-16T18:36:59.091Z"
 blocks:
   - type: markdown
     content: "# Semerwater"

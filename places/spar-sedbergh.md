@@ -16,14 +16,14 @@ google:
       - Convenience store
   address: Station Rd, Sedbergh LA10 5DL, United Kingdom
   phone: +44 15396 22522
-  phone_unformatted: 441539622522
+  phone_unformatted: +441539622522
   website: https://www.spar.co.uk/store-locator/hal26987-spar-sedbergh
   location:
       lat: 54.3229223
       lng: -2.5348778
   plus_code: "8FF8+52 Sedbergh, United Kingdom"
   rating: 4.3
-  reviews_count: 47
+  reviews_count: 55
   opening_hours:
       - day: Monday
         hours: "7 AM to 10 PM"
@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=SPAR%20Sedbergh&query_place_id=ChIJDYuJUPZhfEgRkRKIEWLs4VE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:26:30.385Z"
-last_fetched: "2026-08-16T11:26:36.038Z"
+  scraped_at: "2026-10-16T18:38:29.062Z"
+last_fetched: "2026-10-16T18:38:34.732Z"
 blocks:
   - type: markdown
     content: "# Spar, Sedbergh"
@@ -54,11 +54,11 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"spar-sedbergh\" %}"
   - type: split-image
     content: |-
-      SPAR Sedbergh is a small supermarket on Station Road, on the outskirts of Sedbergh town centre, and it is the nearest grocery shop if you are self-catering and need to stock up. It sells the usual convenience-store range - bread, milk, eggs, basic groceries, newspapers and a few household bits - and it has a cash machine. The shop is a few minutes' walk from Main Street, or a couple of minutes in the car, and there is parking on site.
-
-      For a bigger shop, Kendal has the nearest large supermarkets, about twenty-five minutes' drive away. For local produce - meat, bread, veg - [The Meat Hook](/places/the-meat-hook-sedbergh/) butcher and the Wednesday [Sedbergh market](/places/sedbergh-market/) are the better bet if you are cooking properly.
-
-      - **Address:** Station Road, Sedbergh, Cumbria, LA10 5AB
+          SPAR Sedbergh is a small supermarket on Station Road, on the outskirts of Sedbergh town centre, and it is the nearest grocery shop if you are self-catering and need to stock up. It sells the usual convenience-store range - bread, milk, eggs, basic groceries, newspapers and a few household bits - and it has a cash machine. The shop is a few minutes' walk from Main Street, or a couple of minutes in the car, and there is parking on site.
+          
+          For a bigger shop, Kendal has the nearest large supermarkets, about twenty-five minutes' drive away. For local produce - meat, bread, veg - [The Meat Hook](/places/the-meat-hook-sedbergh/) butcher and the Wednesday [Sedbergh market](/places/sedbergh-market/) are the better bet if you are cooking properly.
+          
+          - **Address:** Station Road, Sedbergh, Cumbria, LA10 5AB
     figure_src: /images/guide-pages/spar-sedbergh.jpeg
     figure_alt: SPAR Sedbergh
   - type: items
@@ -80,6 +80,5 @@ blocks:
           - [The Half and Half, Sedbergh](/places/half-and-half-sedbergh/)
           - [Getting Here](/getting-here/)
           - [Things To Do](/things-to-do/)
-
 is_business: true
 ---

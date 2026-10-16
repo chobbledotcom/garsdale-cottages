@@ -22,8 +22,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Dent&query_place_id=ChIJQ3ZPdIJjfEgR5p9d2wzy8EM
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:18:30.211Z"
-last_fetched: "2026-08-16T11:18:36.866Z"
+  scraped_at: "2026-10-16T18:25:24.611Z"
+last_fetched: "2026-10-16T18:25:34.221Z"
 blocks:
   - type: markdown
     content: "# Dent Village"
@@ -33,41 +33,41 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"dent-village\" %}"
   - type: split-image
     content: |-
-      ## Getting There over the Coal Road
-
-      It is reached from Garsdale by driving over what is locally called the Coal Road - a scenic high route that passes [Garsdale Station](/places/garsdale-station/) and [Dent Station](/places/dent-station/), which is said to be the highest main line station in England and sits on the [Settle-Carlisle line](/places/garsdale-station/) some distance from the village itself.
-
-      The road climbs steeply out of Garsdale and can be a difficult crossing in snow, so in winter it is worth checking before you set off and going round through Sedbergh instead if the tops look bad. The Coal Road crosses open moorland before it drops down into Dentdale, and Dent Station itself sits at over 1,150 feet, which gives some idea of how high the crossing gets.
+          ## Getting There over the Coal Road
+          
+          It is reached from Garsdale by driving over what is locally called the Coal Road - a scenic high route that passes [Garsdale Station](/places/garsdale-station/) and [Dent Station](/places/dent-station/), which is said to be the highest main line station in England and sits on the [Settle-Carlisle line](/places/garsdale-station/) some distance from the village itself.
+          
+          The road climbs steeply out of Garsdale and can be a difficult crossing in snow, so in winter it is worth checking before you set off and going round through Sedbergh instead if the tops look bad. The Coal Road crosses open moorland before it drops down into Dentdale, and Dent Station itself sits at over 1,150 feet, which gives some idea of how high the crossing gets.
     figure_src: /images/places/dent-station.jpg
     figure_alt: Dent Station on the Settle-Carlisle line, the highest main line station in England
     reverse: false
   - type: split-image
     content: |-
-      ## Adam Sedgwick and the Dent Knitters
-
-      Dent's most famous son is Adam Sedgwick, born here in 1785, the son of the village vicar who went on to become one of the founders of modern geology - a memorial fountain carved from Shap granite stands in the high street. The [Sedgwick Geological Trail](/the-sedgwick-geological-trail/) at Danny Bridge, just back down the dale towards Garsdale, takes its name and its regional context from his work on the Dent Fault.
-
-      The village is also famous for its knitters, who in earlier centuries made stockings to supplement their farming income, and the [Dent Village Heritage Centre and Museum](https://www.dentvillage.com/) tells the story.
+          ## Adam Sedgwick and the Dent Knitters
+          
+          Dent's most famous son is Adam Sedgwick, born here in 1785, the son of the village vicar who went on to become one of the founders of modern geology - a memorial fountain carved from Shap granite stands in the high street. The [Sedgwick Geological Trail](/the-sedgwick-geological-trail/) at Danny Bridge, just back down the dale towards Garsdale, takes its name and its regional context from his work on the Dent Fault.
+          
+          The village is also famous for its knitters, who in earlier centuries made stockings to supplement their farming income, and the [Dent Village Heritage Centre and Museum](https://www.dentvillage.com/) tells the story.
     figure_src: /images/places/stone-close-tea-room-dent.jpg
     figure_alt: Stone Close tea room on the cobbled street in Dent village
     reverse: true
   - type: split-image
     content: |-
-      ## The Dentdale Walk
-
-      Dentdale itself is a U-shaped glacial valley running east from the village, and it contains some of Britain's surviving upland hay meadows - traditionally farmed to allow wildlife to thrive, and blanketed in wildflowers in spring and summer. This short circular walk starts from the narrow, cobbled streets of Dent village, climbs to Gawthorp with views across the dale, then returns along the banks of the River Dee, following a section of the Dales Way through riverside pastures and hay meadows. The walk is easy enough for families, and the hay meadows are at their best in June and July.
-
-      - **Start point:** Dent village
-      - **Distance:** 2.5 miles/4km, around 1.5 hours, easy
-      - **Parking:** Dent village car park
-      - **Route description:** [Countryfile - Dentdale walk](https://www.countryfile.com/go-outdoors/walks/dentdale)
+          ## The Dentdale Walk
+          
+          Dentdale itself is a U-shaped glacial valley running east from the village, and it contains some of Britain's surviving upland hay meadows - traditionally farmed to allow wildlife to thrive, and blanketed in wildflowers in spring and summer. This short circular walk starts from the narrow, cobbled streets of Dent village, climbs to Gawthorp with views across the dale, then returns along the banks of the River Dee, following a section of the Dales Way through riverside pastures and hay meadows. The walk is easy enough for families, and the hay meadows are at their best in June and July.
+          
+          - **Start point:** Dent village
+          - **Distance:** 2.5 miles/4km, around 1.5 hours, easy
+          - **Parking:** Dent village car park
+          - **Route description:** [Countryfile - Dentdale walk](https://www.countryfile.com/go-outdoors/walks/dentdale)
     figure_src: /images/guide-pages/dentdale-rolling-hills-sunset.jpg
     figure_alt: The rolling hills of Dentdale at sunset
     reverse: false
   - type: features
     intro_content: |-
           ## The Top Things to Do Around Dent
-
+          
           The top places we found online in and around Dent.
     items:
           - icon: hugeicons:location-04
@@ -92,12 +92,12 @@ blocks:
     collection: properties
     intro_content: |-
           ## Holiday Cottages Near Dent village
-
+          
           We have three self-catering [holiday cottages](/properties/) in Garsdale, the next dale west of Dentdale, that you can use as a base for visiting the cobbled village and the rest of Dentdale. Book direct with the local owners for the best rates.
   - type: markdown
     content: |-
           ## See Also
-
+          
           - [About Garsdale](/locations/garsdale/) - our dale
           - [Sedbergh](/locations/sedbergh/) - Dent is on the far side of the dale from Sedbergh
           - [Dent Station](/places/dent-station/)
@@ -107,9 +107,9 @@ blocks:
           - [The Sedgwick Geological Trail](/the-sedgwick-geological-trail/) - the Dent Fault at Danny Bridge
           - [Walks from Garsdale](/walks/)
           - [Things To Do](/things-to-do/) - the full round-up
-
+          
           ## References
-
+          
           - Dentdale - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dentdale))
           - Dales Way - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dales_Way))
           - Dent Village Heritage Centre and Museum ([dentvillage.com](https://www.dentvillage.com/))

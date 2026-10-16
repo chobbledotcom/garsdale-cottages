@@ -50,12 +50,12 @@ google:
       lat: 54.3207432
       lng: -2.5281173
   plus_code: "8FCC+7Q Sedbergh, United Kingdom"
-  rating: 4
-  reviews_count: 4
+  rating: 3.6
+  reviews_count: 5
   image_url: /images/places/sedbergh-school-swimming-pool.jpg
   url: https://www.google.com/maps/search/?api=1&query=Sedbergh%20School%20Swimming%20Pool&query_place_id=ChIJrVHuZPVhfEgRmOnhCaJmg0w
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:00:06.309Z"
-last_fetched: "2026-08-16T23:00:12.598Z"
+  scraped_at: "2026-10-16T18:36:21.415Z"
+last_fetched: "2026-10-16T18:36:27.252Z"
 ---

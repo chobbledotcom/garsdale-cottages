@@ -16,20 +16,20 @@ google:
       - Historical landmark
   address: Levens Hall, Kendal LA8 0PD, United Kingdom
   phone: +44 15395 60321
-  phone_unformatted: 441539560321
+  phone_unformatted: +441539560321
   website: http://www.levenshall.co.uk/
   location:
       lat: 54.2590324
       lng: -2.7762677
   plus_code: "765F+JF Kendal, United Kingdom"
   rating: 4.7
-  reviews_count: 1921
+  reviews_count: 1984
   image_url: /images/places/levens-hall.jpg
   url: https://www.google.com/maps/search/?api=1&query=Levens%20Hall&query_place_id=ChIJATGBQCWQfEgRzZPryWHgNWk
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:23:12.219Z"
-last_fetched: "2026-08-16T11:23:18.047Z"
+  scraped_at: "2026-10-16T18:31:05.863Z"
+last_fetched: "2026-10-16T18:31:12.064Z"
 blocks:
   - type: markdown
     content: "# Levens Hall"

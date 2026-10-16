@@ -18,13 +18,13 @@ google:
       - Wedding service
   address: "52 Main St, Sedbergh LA10 5BL, United Kingdom"
   phone: +44 15396 20304
-  phone_unformatted: 441539620304
+  phone_unformatted: +441539620304
   location:
       lat: 54.3237899
       lng: -2.5270354
   plus_code: "8FFF+G5 Sedbergh, United Kingdom"
   rating: 4.9
-  reviews_count: 23
+  reviews_count: 24
   opening_hours:
       - day: Monday
         hours: "7 AM to 5 PM"
@@ -44,8 +44,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Powells%20Fruit%20Merchants&query_place_id=ChIJp6ua5_RhfEgRPLwpQKPdY_c
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:24:41.612Z"
-last_fetched: "2026-08-16T11:24:47.293Z"
+  scraped_at: "2026-10-16T18:33:09.649Z"
+last_fetched: "2026-10-16T18:33:15.427Z"
 blocks:
   - type: markdown
     content: "# Powells, Sedbergh"
@@ -55,13 +55,13 @@ blocks:
     figure_html: "{% include \"business-details.html\", place_slug: \"powells-sedbergh\" %}"
   - type: split-image
     content: |-
-      Powell's is a greengrocer on Main Street in Sedbergh, run by Martin Powell, selling British and imported fruit and vegetables, fresh salads and produce from local growers. It also supplies the catering trade and does prepared vegetables for caterers, so the produce turns over quickly and is fresh. It is exactly the shop you want in a small Dales town if you are self-catering and want to cook.
-
-      It sits at 52 Main Street, alongside the [Black Bull](/places/black-bull-inn-sedbergh/) and the [Meat Hook](/places/the-meat-hook-sedbergh/) butcher, so you can pick up fruit, veg and local meat in the same walk.
-
-      - **Address:** 52 Main Street, Sedbergh, Cumbria, LA10 5BL
-      - **Phone:** 015396 20304
-      - **Listed on:** [Visit Sedbergh - Powell's greengrocer](https://www.sedbergh.org.uk/locations/powells/)
+          Powell's is a greengrocer on Main Street in Sedbergh, run by Martin Powell, selling British and imported fruit and vegetables, fresh salads and produce from local growers. It also supplies the catering trade and does prepared vegetables for caterers, so the produce turns over quickly and is fresh. It is exactly the shop you want in a small Dales town if you are self-catering and want to cook.
+          
+          It sits at 52 Main Street, alongside the [Black Bull](/places/black-bull-inn-sedbergh/) and the [Meat Hook](/places/the-meat-hook-sedbergh/) butcher, so you can pick up fruit, veg and local meat in the same walk.
+          
+          - **Address:** 52 Main Street, Sedbergh, Cumbria, LA10 5BL
+          - **Phone:** 015396 20304
+          - **Listed on:** [Visit Sedbergh - Powell's greengrocer](https://www.sedbergh.org.uk/locations/powells/)
     figure_src: /images/guide-pages/powells-fruit-merchants.jpeg
     figure_alt: Powells Fruit Merchants
   - type: items
@@ -85,6 +85,5 @@ blocks:
           - [The Half and Half, Sedbergh](/places/half-and-half-sedbergh/)
           - [Getting Here](/getting-here/)
           - [Things To Do](/things-to-do/)
-
 is_business: true
 ---

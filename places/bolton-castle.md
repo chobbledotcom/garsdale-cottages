@@ -17,19 +17,20 @@ google:
       - Tourist attraction
   address: Nr, Leyburn DL8 4ET, United Kingdom
   phone: +44 1969 623981
-  phone_unformatted: 441969623981
+  phone_unformatted: +441969623981
   website: http://boltoncastle.co.uk/
   location:
       lat: 54.3221224
       lng: -1.9495446
   plus_code: "83C2+R5 Leyburn, United Kingdom"
-  reviews_count: 2674
+  rating: 4.6
+  reviews_count: 2721
   image_url: /images/places/bolton-castle.jpg
   url: https://www.google.com/maps/search/?api=1&query=Bolton%20Castle&query_place_id=ChIJgYM229AQfEgRp8rLR8soNY8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:15:16.716Z"
-last_fetched: "2026-08-16T11:15:23.578Z"
+  scraped_at: "2026-10-16T18:20:53.436Z"
+last_fetched: "2026-10-16T18:20:59.276Z"
 blocks:
   - type: markdown
     content: "# Bolton Castle"

@@ -14,35 +14,35 @@ google:
       - Tourist attraction
   address: The Forbidden Corner, Middleham, Leyburn DL8 4TJ, United Kingdom
   phone: +44 1969 640638
-  phone_unformatted: 441969640638
+  phone_unformatted: +441969640638
   website: http://www.theforbiddencorner.co.uk/
   location:
       lat: 54.2760323
       lng: -1.8554826
   plus_code: "74GV+CR Leyburn, United Kingdom"
   rating: 4.7
-  reviews_count: 5704
+  reviews_count: 5872
   opening_hours:
       - day: Monday
-        hours: "12 to 7:30 PM"
+        hours: "12 to 6 PM"
       - day: Tuesday
-        hours: "12 to 7:30 PM"
+        hours: "12 to 6 PM"
       - day: Wednesday
-        hours: "12 to 7:30 PM"
+        hours: "12 to 6 PM"
       - day: Thursday
-        hours: "12 to 7:30 PM"
+        hours: "12 to 6 PM"
       - day: Friday
-        hours: "12 to 7:30 PM"
+        hours: "12 to 6 PM"
       - day: Saturday
-        hours: "12 to 7:30 PM"
+        hours: "12 to 6 PM"
       - day: Sunday
         hours: "10 AM to 6 PM"
   image_url: /images/places/the-forbidden-corner-middleham.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Forbidden%20Corner&query_place_id=ChIJp9sn_eQafEgRg6IBQOf4d-c
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:27:43.652Z"
-last_fetched: "2026-08-16T11:27:49.472Z"
+  scraped_at: "2026-10-16T18:39:56.272Z"
+last_fetched: "2026-10-16T18:40:02.126Z"
 blocks:
   - type: markdown
     content: "# The Forbidden Corner, Middleham"

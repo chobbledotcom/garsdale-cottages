@@ -57,6 +57,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Three%20Peaks%20Outdoor%20Leisure&query_place_id=ChIJl9sinjZtfEgR9xFHDhFAHPE
   permanently_closed: true
   temporarily_closed: false
-  scraped_at: "2026-08-16T23:04:25.490Z"
-last_fetched: "2026-08-16T23:04:31.413Z"
+  scraped_at: "2026-10-16T18:41:15.956Z"
+last_fetched: "2026-10-16T18:41:21.586Z"
 ---

@@ -15,20 +15,20 @@ google:
       - Cafe
   address: Main St, Dent, Sedbergh LA10 5QL, United Kingdom
   phone: +44 15396 25231
-  phone_unformatted: 441539625231
+  phone_unformatted: +441539625231
   website: http://www.stoneclose.com/
   location:
       lat: 54.278249
       lng: -2.455197
   plus_code: "7GHV+7W Sedbergh, United Kingdom"
   rating: 4.8
-  reviews_count: 181
+  reviews_count: 185
   image_url: /images/places/stone-close-tea-room-dent.jpg
   url: https://www.google.com/maps/search/?api=1&query=Stone%20Close%20Tea%20Room%20and%20B%26B&query_place_id=ChIJkaje-HdjfEgRWgN0H3AtXU8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:27:27.781Z"
-last_fetched: "2026-08-16T11:27:33.487Z"
+  scraped_at: "2026-10-16T18:39:27.721Z"
+last_fetched: "2026-10-16T18:39:33.290Z"
 blocks:
   - type: markdown
     content: "# Stone Close Tea Room, Dent"

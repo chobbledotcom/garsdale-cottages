@@ -15,14 +15,14 @@ google:
       - Tourist attraction
   address: Garsdale Rd, Sedbergh LA10 5LW, United Kingdom
   phone: +44 15396 21958
-  phone_unformatted: 441539621958
+  phone_unformatted: +441539621958
   website: http://www.farfieldmill.org/
   location:
       lat: 54.321862
       lng: -2.498113
   plus_code: "8GC2+PQ Sedbergh, United Kingdom"
   rating: 4.6
-  reviews_count: 627
+  reviews_count: 645
   opening_hours:
       - day: Monday
         hours: "10:30 AM to 4 PM"
@@ -42,8 +42,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Farfield%20Mill&query_place_id=ChIJzzUxIYBhfEgRQFxUBq0tK8E
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-08-16T11:19:48.713Z"
-last_fetched: "2026-08-16T11:19:54.238Z"
+  scraped_at: "2026-10-16T18:26:24.579Z"
+last_fetched: "2026-10-16T18:26:30.420Z"
 blocks:
   - type: markdown
     content: "# Farfield Mill, Sedbergh"
