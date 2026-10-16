@@ -10,11 +10,11 @@ eleventyNavigation:
   key: Contact
   order: 7
 blocks:
-- type: contact-form
+- type: markdown
   dark: false
-  content: Hi and thanks for looking at Garsdale Cottages. For enquiries, information
-    about booking your stay or any questions about the area, please get in touch using
-    the form or the contact details below.
+  content: 'Hi and thanks for looking at Garsdale Cottages. For enquiries, information
+    about booking your stay or any questions about the area, please get in touch
+    using the contact details below.'
 - type: features
   dark: false
   items:
@@ -24,12 +24,18 @@ blocks:
     name: The Old Cart House
   - icon: hugeicons:home-01
     description: For enquiries and bookings contact the property owners directly via
-      the property page, call Paul 0n 07342200780 or email [pbenson434@gmail.com](mailto:pbenson434@gmail.com)
+      the property page, call Paul on 07342200780 or email [pbenson434@gmail.com](mailto:pbenson434@gmail.com)
     name: Roger Pot
+  - icon: hugeicons:home-01
+    description: 'For enquiries and bookings contact the property owner. Email: [collisphil@gmail.com](mailto:collisphil@gmail.com)'
+    name: Farrier's Cottage
   center: false
   intro_content: '## Contact Details
 
     '
+- type: markdown
+  dark: false
+  content: 'For website enquiries, contact Stef at [chobble](https://chobble.com/contact).'
 - type: markdown
   dark: false
   content: '## Property Owners
