@@ -31,7 +31,7 @@ jobs:
       - name: Check for changes
         id: verify-changed-files
         run: |
-          if [ -n "$(git status --porcelain places/)" ]; then
+          if [ -n "$(git status --porcelain places/ images/places/)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -42,7 +42,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add places/
+          git add places/ images/places/
           git commit -m "Auto-update: refresh Google Maps place details"
           git pull --rebase
           git push
