@@ -11,28 +11,25 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Fetch Google Reviews
         env:
-          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
-        run: |
-          node scripts/fetch-google-reviews.js
+          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+        run: bun run fetch-google-reviews
 
       - name: Check for changes
         id: verify-changed-files
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          if [ -n "$(git status --porcelain reviews/)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -45,4 +42,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add reviews/
           git commit -m "Auto-update: Fetch new Google reviews"
+          git pull --rebase
           git push

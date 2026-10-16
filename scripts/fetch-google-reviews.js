@@ -22,7 +22,7 @@ const formatFilename = (name, date) => {
 };
 
 const fetchReviews = async (placeId, opts = {}) => {
-  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_TOKEN}`;
+  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_KEY}`;
 
   console.log("Fetching all available reviews...");
 
@@ -79,8 +79,8 @@ ${review.content}
 };
 
 const main = async () => {
-  if (!process.env.APIFY_API_TOKEN) {
-    console.error("Error: APIFY_API_TOKEN required in .env file");
+  if (!process.env.APIFY_API_KEY) {
+    console.error("Error: APIFY_API_KEY required in .env file");
     console.error("Get token: https://console.apify.com/account/integrations");
     process.exit(1);
   }
