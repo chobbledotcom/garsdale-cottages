@@ -3,7 +3,6 @@ export const buildDir = ".build";
 
 export const templateExcludes = [
   ".git",
-  ".direnv",
   ".devenv",
   "node_modules",
   "*.md",
