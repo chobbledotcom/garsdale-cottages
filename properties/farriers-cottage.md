@@ -8,6 +8,7 @@ bedrooms: 3
 bathrooms: 2
 sleeps: 6
 formspark_id: w3Ph3fwZJ
+google_place_id: ChIJ63JK7DVkfEgR5_1XGO60lE4
 features:
 - Off road parking for 2 cars
 - Woodburning stove in sitting room

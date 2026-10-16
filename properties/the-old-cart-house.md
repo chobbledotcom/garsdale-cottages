@@ -7,6 +7,7 @@ featured: false
 freetobook_id: '50739'
 freetobook_token: R5E73eM95Xl5BGJW0D8OQTzkbMSRLi46YKg0Le5ybvAhmE4UGjs0VI991DOB6
 formspark_id: oyms4Y7Kr
+google_place_id: ChIJQfpvVDVkfEgR8vZLcKxpWbI
 bedrooms: 1
 bathrooms: 1
 sleeps: 2
