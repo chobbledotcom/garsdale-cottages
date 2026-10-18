@@ -90,8 +90,8 @@ review_link:
   href: /properties/the-old-cart-house/leave-review/
 meta_title: The Old Cart House | Holiday Cottage near Sedbergh, Garsdale
 meta_description: The Old Cart House - a charming detached holiday cottage near Sedbergh
-  in Garsdale, Yorkshire Dales. Cosy retreat for couples with countryside views. Book
-  direct.
+  in Garsdale, Yorkshire Dales. Cosy retreat for couples with countryside views. One-night
+  stays welcome and you can book online - book direct.
 locations:
 - locations/dent.md
 blocks:
@@ -158,6 +158,14 @@ blocks:
     within reach for a day trip, with Ambleside about 45 minutes’ drive.
 
 
+    A lot of holiday cottages in Cumbria ask for two or three nights, at weekends
+    and in the school holidays especially, so a one-night stay can be hard to come
+    by round here. Jack and Loraine are happy to take bookings for a single night,
+    and you can do the whole thing online - pick your dates in the availability calendar
+    on this page and it takes one-night stays the same as any other booking. If you’d
+    rather speak to someone first, their numbers are at the foot of the page.
+
+
     **Book direct through this site and you deal directly with the property owners,
     Jack and Loraine — no agency fees, no booking commissions, and the personal service
     that comes from speaking to people who know the cottage and the area inside out.**
@@ -168,6 +176,8 @@ blocks:
 
     ## At a glance
 
+
+    - One-night stays welcome - book online on this page
 
     - One king-size bedroom with en-suite with wide walk-in shower with fold-out
     shower seat, basin and WC
