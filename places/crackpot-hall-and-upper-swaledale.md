@@ -53,7 +53,7 @@ google:
       lng: -2.145759
   plus_code: CV33+6M Muker, Richmond, UK
   rating: 4.7
-  reviews_count: 37
+  reviews_count: 38
   opening_hours:
       - day: Monday
         hours: Open 24 hours
@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Crackpot%20Hall%20-%20Beldi%20Hill%20Lead%20Mine&query_place_id=ChIJzymgX7tqfEgRK4B7RmAti3k
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:22:53.531Z"
-last_fetched: "2026-10-16T18:22:59.301Z"
+  scraped_at: "2026-10-26T16:10:21.197Z"
+last_fetched: "2026-10-26T16:10:27.144Z"
 ---

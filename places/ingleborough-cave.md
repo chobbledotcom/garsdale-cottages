@@ -27,7 +27,7 @@ google:
       lng: -2.3774873
   plus_code: "4JPF+32 Lancaster, United Kingdom"
   rating: 4.7
-  reviews_count: 1095
+  reviews_count: 1097
   opening_hours:
       - day: Monday
         hours: "10 AM to 4 PM"
@@ -47,8 +47,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Ingleborough%20Cave&query_place_id=ChIJ50IjHER-fEgRaY-wIxVL_P8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:28:58.136Z"
-last_fetched: "2026-10-16T18:29:03.953Z"
+  scraped_at: "2026-10-26T16:17:52.560Z"
+last_fetched: "2026-10-26T16:17:58.043Z"
 blocks:
   - type: markdown
     content: "# Ingleborough Cave"

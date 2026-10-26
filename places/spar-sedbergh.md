@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=SPAR%20Sedbergh&query_place_id=ChIJDYuJUPZhfEgRkRKIEWLs4VE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:38:29.062Z"
-last_fetched: "2026-10-16T18:38:34.732Z"
+  scraped_at: "2026-10-26T16:29:09.523Z"
+last_fetched: "2026-10-26T16:29:14.998Z"
 blocks:
   - type: markdown
     content: "# Spar, Sedbergh"

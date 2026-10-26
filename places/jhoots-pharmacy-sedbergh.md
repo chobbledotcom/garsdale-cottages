@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Allied%20Pharmacy%20-%20Sedbergh&query_place_id=ChIJdXItGZBhfEgRIAPTyrd9w1U
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:29:40.637Z"
-last_fetched: "2026-10-16T18:29:46.509Z"
+  scraped_at: "2026-10-26T16:18:59.898Z"
+last_fetched: "2026-10-26T16:19:05.548Z"
 ---

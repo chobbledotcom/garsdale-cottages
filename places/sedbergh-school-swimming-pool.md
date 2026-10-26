@@ -56,6 +56,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Sedbergh%20School%20Swimming%20Pool&query_place_id=ChIJrVHuZPVhfEgRmOnhCaJmg0w
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:36:21.415Z"
-last_fetched: "2026-10-16T18:36:27.252Z"
+  scraped_at: "2026-10-26T16:26:04.935Z"
+last_fetched: "2026-10-26T16:26:10.598Z"
 ---

@@ -55,7 +55,7 @@ google:
       lng: -2.732387
   plus_code: "8749+J2 Kendal, United Kingdom"
   rating: 4.6
-  reviews_count: 256
+  reviews_count: 254
   opening_hours:
       - day: Monday
         hours: "8 AM to 10 PM"
@@ -75,6 +75,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Westmorland%20General%20Hospital&query_place_id=ChIJQwNByHGOfEgRxfep6i7zJg4
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:42:19.867Z"
-last_fetched: "2026-10-16T18:42:25.532Z"
+  scraped_at: "2026-10-26T16:33:03.140Z"
+last_fetched: "2026-10-26T16:33:08.786Z"
 ---

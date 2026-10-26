@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Collinge%20Opticians&query_place_id=ChIJ669yvEyGfEgRARtgkHOWGrU
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:22:27.502Z"
-last_fetched: "2026-10-16T18:22:33.428Z"
+  scraped_at: "2026-10-26T16:09:45.364Z"
+last_fetched: "2026-10-26T16:09:51.011Z"
 ---

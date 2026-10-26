@@ -22,8 +22,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Pendragon%20Castle&query_place_id=ChIJczHSI6xCfEgRDtevOKZgbqc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:32:52.075Z"
-last_fetched: "2026-10-16T18:33:01.014Z"
+  scraped_at: "2026-10-26T16:22:51.210Z"
+last_fetched: "2026-10-26T16:22:58.124Z"
 blocks:
   - type: markdown
     content: "# Pendragon Castle"

@@ -29,8 +29,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Cross%20Keys%20Temperance%20Inn&query_place_id=ChIJ3aldqthgfEgRzwk7v7f8Za4
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:23:06.305Z"
-last_fetched: "2026-10-16T18:23:11.860Z"
+  scraped_at: "2026-10-26T16:10:33.858Z"
+last_fetched: "2026-10-26T16:10:39.404Z"
 blocks:
   - type: markdown
     content: "# The Cross Keys Temperance Inn, Cautley"

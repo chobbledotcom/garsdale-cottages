@@ -21,8 +21,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Muker&query_place_id=ChIJSS3aUO9qfEgRIzEVkIYjSgI
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:32:01.706Z"
-last_fetched: "2026-10-16T18:32:08.147Z"
+  scraped_at: "2026-10-26T16:21:46.404Z"
+last_fetched: "2026-10-26T16:22:10.618Z"
 blocks:
   - type: markdown
     content: "# Muker Village"

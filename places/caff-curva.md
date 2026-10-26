@@ -57,7 +57,8 @@ google:
       lng: -2.1975851
   plus_code: "8R32+JX Hawes, United Kingdom"
   rating: 4.6
-  reviews_count: 533
+  reviews_count: 534
+  price: £10–20
   opening_hours:
       - day: Monday
         hours: "9 AM to 3 PM"
@@ -77,6 +78,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Caff%C3%A8%20Curva&query_place_id=ChIJeRpfEEBsfEgRXeEYmujk7Ps
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:21:36.022Z"
-last_fetched: "2026-10-16T18:21:41.864Z"
+  scraped_at: "2026-10-26T16:08:40.071Z"
+last_fetched: "2026-10-26T16:08:45.702Z"
 ---

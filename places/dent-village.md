@@ -22,8 +22,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Dent&query_place_id=ChIJQ3ZPdIJjfEgR5p9d2wzy8EM
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:25:24.611Z"
-last_fetched: "2026-10-16T18:25:34.221Z"
+  scraped_at: "2026-10-26T16:12:57.132Z"
+last_fetched: "2026-10-26T16:13:14.370Z"
 blocks:
   - type: markdown
     content: "# Dent Village"

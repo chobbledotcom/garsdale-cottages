@@ -23,7 +23,7 @@ google:
       lng: -1.9834121
   plus_code: "72V8+RJ Leyburn, United Kingdom"
   rating: 4.7
-  reviews_count: 7354
+  reviews_count: 7363
   opening_hours:
       - day: Monday
         hours: "10 AM to 5 PM"
@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Aysgarth%20Falls%20Yorkshire%20Dales%20National%20Park%20Visitor%20Centre&query_place_id=ChIJ_au8eHMRfEgRVBnPn1h1HTk
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:19:10.044Z"
-last_fetched: "2026-10-16T18:19:15.975Z"
+  scraped_at: "2026-10-26T16:05:25.231Z"
+last_fetched: "2026-10-26T16:05:30.976Z"
 blocks:
   - type: markdown
     content: "# Aysgarth Falls"

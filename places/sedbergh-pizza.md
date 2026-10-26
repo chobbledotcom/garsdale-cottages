@@ -52,6 +52,7 @@ google:
   plus_code: "8FFC+FV Sedbergh, United Kingdom"
   rating: 4.4
   reviews_count: 74
+  price: £10–20
   opening_hours:
       - day: Monday
         hours: "2 to 10 PM"
@@ -71,6 +72,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Sedbergh%20Pizza&query_place_id=ChIJ27TQ8A9hfEgReoqdaDA8GJ4
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:35:48.830Z"
-last_fetched: "2026-10-16T18:35:54.753Z"
+  scraped_at: "2026-10-26T16:25:32.949Z"
+last_fetched: "2026-10-26T16:25:38.735Z"
 ---

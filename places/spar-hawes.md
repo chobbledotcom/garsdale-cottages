@@ -70,6 +70,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=SPAR%20Hawes&query_place_id=ChIJf-MjDEBsfEgRK53O2_PNg-M
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:38:14.607Z"
-last_fetched: "2026-10-16T18:38:20.581Z"
+  scraped_at: "2026-10-26T16:28:58.776Z"
+last_fetched: "2026-10-26T16:29:04.650Z"
 ---

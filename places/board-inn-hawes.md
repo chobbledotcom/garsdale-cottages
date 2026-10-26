@@ -62,11 +62,11 @@ google:
   plus_code: "8R32+P9 Hawes, United Kingdom"
   rating: 4.3
   reviews_count: 464
-  price: $84
+  price: £198
   image_url: /images/places/board-inn-hawes.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Board%20Inn&query_place_id=ChIJyRaaD0BsfEgR7qx5uGoZ3P0
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:20:20.373Z"
-last_fetched: "2026-10-16T18:20:26.134Z"
+  scraped_at: "2026-10-26T16:07:02.188Z"
+last_fetched: "2026-10-26T16:07:07.695Z"
 ---

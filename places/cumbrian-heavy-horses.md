@@ -56,11 +56,11 @@ google:
       lng: -3.2746339
   plus_code: "7P5G+Q4 Millom, United Kingdom"
   rating: 4.9
-  reviews_count: 388
+  reviews_count: 394
   image_url: /images/places/cumbrian-heavy-horses.jpg
   url: https://www.google.com/maps/search/?api=1&query=Cumbrian%20Heavy%20Horses&query_place_id=ChIJ6xW5pqGxfEgR53W6fOWWtr0
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:23:25.793Z"
-last_fetched: "2026-10-16T18:23:31.508Z"
+  scraped_at: "2026-10-26T16:10:44.280Z"
+last_fetched: "2026-10-26T16:10:49.954Z"
 ---

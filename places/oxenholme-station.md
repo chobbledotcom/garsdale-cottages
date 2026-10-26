@@ -21,13 +21,13 @@ google:
       lng: -2.7214321
   plus_code: "874H+3C Kendal, United Kingdom"
   rating: 4.2
-  reviews_count: 169
+  reviews_count: 172
   image_url: /images/places/oxenholme-station.jpg
   url: https://www.google.com/maps/search/?api=1&query=Oxenholme&query_place_id=ChIJnbdwrWSOfEgRAASeAxGf-Q4
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:32:32.828Z"
-last_fetched: "2026-10-16T18:32:38.553Z"
+  scraped_at: "2026-10-26T16:22:39.897Z"
+last_fetched: "2026-10-26T16:22:45.414Z"
 blocks:
   - type: markdown
     content: "# Oxenholme Station"

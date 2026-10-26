@@ -62,6 +62,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Sedbergh%20Golf%20Club&query_place_id=ChIJ8ZX4HQVifEgR9saSAY_nqXk
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:34:42.426Z"
-last_fetched: "2026-10-16T18:34:48.202Z"
+  scraped_at: "2026-10-26T16:24:48.381Z"
+last_fetched: "2026-10-26T16:24:53.910Z"
 ---

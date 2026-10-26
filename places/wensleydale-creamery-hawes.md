@@ -30,7 +30,7 @@ google:
       lng: -2.2009213
   plus_code: "8Q2X+QJ Hawes, United Kingdom"
   rating: 4.6
-  reviews_count: 2167
+  reviews_count: 2190
   opening_hours:
       - day: Monday
         hours: "9 AM to 5 PM"
@@ -50,8 +50,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Wensleydale%20Creamery&query_place_id=ChIJ7c49qT9sfEgRKbtbplFwV18
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:42:06.236Z"
-last_fetched: "2026-10-16T18:42:12.763Z"
+  scraped_at: "2026-10-26T16:32:42.979Z"
+last_fetched: "2026-10-26T16:32:49.597Z"
 blocks:
   - type: markdown
     content: "# Wensleydale Creamery, Hawes"

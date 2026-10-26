@@ -41,8 +41,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Cautley%20Spout&query_place_id=ChIJpxAFCPtgfEgRAPgqcs3b6ws
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:21:48.739Z"
-last_fetched: "2026-10-16T18:21:54.420Z"
+  scraped_at: "2026-10-26T16:08:51.390Z"
+last_fetched: "2026-10-26T16:08:57.055Z"
 blocks:
   - type: markdown
     content: "# Cautley Spout"

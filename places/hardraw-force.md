@@ -24,7 +24,7 @@ google:
       lng: -2.2019236
   plus_code: "8Q9X+Q6 Hardraw, Hawes, UK"
   rating: 4.5
-  reviews_count: 1628
+  reviews_count: 1629
   opening_hours:
       - day: Monday
         hours: "10 AM to 4:30 PM"
@@ -44,8 +44,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Hardraw%20Force&query_place_id=ChIJU4cpOkJtfEgR95tiJUe-irc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:28:14.912Z"
-last_fetched: "2026-10-16T18:28:20.578Z"
+  scraped_at: "2026-10-26T16:17:02.705Z"
+last_fetched: "2026-10-26T16:17:08.354Z"
 blocks:
   - type: markdown
     content: "# Hardraw Force"

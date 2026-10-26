@@ -23,6 +23,7 @@ google:
   plus_code: "8FFC+FJ Sedbergh, United Kingdom"
   rating: 4.9
   reviews_count: 15
+  price: £10–20
   opening_hours:
       - day: Monday
         hours: Closed
@@ -42,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Half%20and%20Half%20Sedbergh&query_place_id=ChIJP86ZLoZhfEgRAM0d1Q1t2As
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:27:55.121Z"
-last_fetched: "2026-10-16T18:28:01.147Z"
+  scraped_at: "2026-10-26T16:16:52.224Z"
+last_fetched: "2026-10-26T16:16:57.914Z"
 blocks:
   - type: markdown
     content: "# The Half and Half, Sedbergh"

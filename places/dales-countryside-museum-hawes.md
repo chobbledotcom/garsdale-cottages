@@ -24,7 +24,7 @@ google:
       lng: -2.1922861
   plus_code: "8R35+R3 Hawes, United Kingdom"
   rating: 4.5
-  reviews_count: 1276
+  reviews_count: 1277
   opening_hours:
       - day: Monday
         hours: "10 AM to 5 PM"
@@ -44,8 +44,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Dales%20Countryside%20Museum&query_place_id=ChIJnZHI-EFsfEgR5PJ4PLEysew
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:24:22.382Z"
-last_fetched: "2026-10-16T18:24:28.115Z"
+  scraped_at: "2026-10-26T16:11:51.565Z"
+last_fetched: "2026-10-26T16:11:57.124Z"
 blocks:
   - type: markdown
     content: "# Dales Countryside Museum, Hawes"

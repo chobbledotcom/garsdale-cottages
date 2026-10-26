@@ -27,14 +27,14 @@ google:
       lng: -2.1969692
   plus_code: "8R33+H6 Hawes, United Kingdom"
   rating: 4.6
-  reviews_count: 1160
-  price: $139
+  reviews_count: 1163
+  price: $130
   image_url: /images/places/white-hart-inn-hawes.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20White%20Hart%20Inn%2C%20Hawes&query_place_id=ChIJG2g7OkBsfEgR3xW76Pb4JjQ
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:42:46.021Z"
-last_fetched: "2026-10-16T18:42:51.882Z"
+  scraped_at: "2026-10-26T16:33:25.621Z"
+last_fetched: "2026-10-26T16:33:31.191Z"
 blocks:
   - type: markdown
     content: "# The White Hart Inn, Hawes"

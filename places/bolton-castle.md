@@ -24,13 +24,13 @@ google:
       lng: -1.9495446
   plus_code: "83C2+R5 Leyburn, United Kingdom"
   rating: 4.6
-  reviews_count: 2721
+  reviews_count: 2727
   image_url: /images/places/bolton-castle.jpg
   url: https://www.google.com/maps/search/?api=1&query=Bolton%20Castle&query_place_id=ChIJgYM229AQfEgRp8rLR8soNY8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:20:53.436Z"
-last_fetched: "2026-10-16T18:20:59.276Z"
+  scraped_at: "2026-10-26T16:07:13.129Z"
+last_fetched: "2026-10-26T16:07:18.821Z"
 blocks:
   - type: markdown
     content: "# Bolton Castle"

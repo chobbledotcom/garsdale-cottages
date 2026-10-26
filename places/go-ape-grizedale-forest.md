@@ -22,7 +22,7 @@ google:
       lng: -3.0244933
   plus_code: "8XRG+76 Ambleside, United Kingdom"
   rating: 4.8
-  reviews_count: 1541
+  reviews_count: 1544
   opening_hours:
       - day: Monday
         hours: "10 AM to 2 PM"
@@ -42,8 +42,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Go%20Ape%20Grizedale&query_place_id=ChIJY8wqk0C-fEgR12e5pFxe8Z8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:27:07.497Z"
-last_fetched: "2026-10-16T18:27:13.468Z"
+  scraped_at: "2026-10-26T16:15:25.727Z"
+last_fetched: "2026-10-26T16:15:31.315Z"
 blocks:
   - type: markdown
     content: "# Go Ape, Grizedale Forest"

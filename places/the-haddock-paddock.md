@@ -57,10 +57,11 @@ google:
   plus_code: "8FFF+FC Sedbergh, United Kingdom"
   rating: 4.5
   reviews_count: 134
+  price: £1–10
   image_url: /images/places/the-haddock-paddock.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Haddock%20Paddock&query_place_id=ChIJUyn60fRhfEgRZKC_qEXsNkU
   permanently_closed: false
   temporarily_closed: true
-  scraped_at: "2026-10-16T18:40:09.881Z"
-last_fetched: "2026-10-16T18:40:15.720Z"
+  scraped_at: "2026-10-26T16:30:47.534Z"
+last_fetched: "2026-10-26T16:30:53.130Z"
 ---

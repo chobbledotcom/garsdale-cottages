@@ -22,13 +22,13 @@ google:
       lng: -2.455197
   plus_code: "7GHV+7W Sedbergh, United Kingdom"
   rating: 4.8
-  reviews_count: 185
+  reviews_count: 187
   image_url: /images/places/stone-close-tea-room-dent.jpg
   url: https://www.google.com/maps/search/?api=1&query=Stone%20Close%20Tea%20Room%20and%20B%26B&query_place_id=ChIJkaje-HdjfEgRWgN0H3AtXU8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:39:27.721Z"
-last_fetched: "2026-10-16T18:39:33.290Z"
+  scraped_at: "2026-10-26T16:29:52.752Z"
+last_fetched: "2026-10-26T16:29:58.362Z"
 blocks:
   - type: markdown
     content: "# Stone Close Tea Room, Dent"

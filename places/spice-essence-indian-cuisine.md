@@ -54,6 +54,7 @@ google:
   plus_code: "6C33+23 Carnforth, United Kingdom"
   rating: 4.3
   reviews_count: 131
+  price: £10–50
   opening_hours:
       - day: Monday
         hours: Closed
@@ -73,6 +74,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Spice%20Essence%20Indian%20Bangla%20Restaurant&query_place_id=ChIJz_ZdxkyGfEgRekDfz4ggko8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:38:48.823Z"
-last_fetched: "2026-10-16T18:38:54.574Z"
+  scraped_at: "2026-10-26T16:29:19.926Z"
+last_fetched: "2026-10-26T16:29:25.727Z"
 ---

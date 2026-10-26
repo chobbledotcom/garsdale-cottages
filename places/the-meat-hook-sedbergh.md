@@ -76,6 +76,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Meat%20Hook%20Sedbergh&query_place_id=ChIJQ3fE2PlhfEgR9VCEN6IP6TE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-16T18:40:40.952Z"
-last_fetched: "2026-10-16T18:40:46.805Z"
+  scraped_at: "2026-10-26T16:31:19.420Z"
+last_fetched: "2026-10-26T16:31:25.057Z"
 ---
