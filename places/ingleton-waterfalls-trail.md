@@ -9,6 +9,7 @@ meta_description: Ingleton Waterfalls Trail near Garsdale and Sedbergh in the Yo
 google_place_id: ChIJkZeL3z58fEgRGQO_l2r5970
 google:
   name: Ingleton Waterfalls Trail
+  address: Carnforth LA6 3JH, UK
   phone: ""
   phone_unformatted: ""
   location:
@@ -18,8 +19,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Ingleton%20Waterfalls%20Trail&query_place_id=ChIJkZeL3z58fEgRGQO_l2r5970
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:18:35.161Z"
-last_fetched: "2026-10-26T16:18:46.984Z"
+  scraped_at: "2026-11-02T19:36:36.521Z"
+last_fetched: "2026-11-02T19:36:42.833Z"
 blocks:
   - type: markdown
     content: "# Ingleton Waterfalls Trail"

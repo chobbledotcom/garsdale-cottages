@@ -49,9 +49,9 @@ google:
   phone_unformatted: +441539620270
   website: https://alliedpharmacies.com/pharmacy/allied-pharmacy-sedbergh
   location:
-      lat: 54.323602
-      lng: -2.527492
-  plus_code: "8FFF+C2 Sedbergh, United Kingdom"
+      lat: 54.3237286
+      lng: -2.5272274
+  plus_code: "8FFF+F4 Sedbergh, United Kingdom"
   rating: 5
   reviews_count: 1
   opening_hours:
@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Allied%20Pharmacy%20-%20Sedbergh&query_place_id=ChIJdXItGZBhfEgRIAPTyrd9w1U
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:18:59.898Z"
-last_fetched: "2026-10-26T16:19:05.548Z"
+  scraped_at: "2026-11-02T19:36:49.039Z"
+last_fetched: "2026-11-02T19:36:54.769Z"
 ---

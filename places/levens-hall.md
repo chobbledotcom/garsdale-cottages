@@ -23,13 +23,13 @@ google:
       lng: -2.7762677
   plus_code: "765F+JF Kendal, United Kingdom"
   rating: 4.7
-  reviews_count: 1991
+  reviews_count: 1997
   image_url: /images/places/levens-hall.jpg
   url: https://www.google.com/maps/search/?api=1&query=Levens%20Hall&query_place_id=ChIJATGBQCWQfEgRzZPryWHgNWk
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:20:23.283Z"
-last_fetched: "2026-10-26T16:20:28.994Z"
+  scraped_at: "2026-11-02T19:37:53.918Z"
+last_fetched: "2026-11-02T19:37:59.515Z"
 blocks:
   - type: markdown
     content: "# Levens Hall"

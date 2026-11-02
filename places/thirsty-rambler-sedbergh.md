@@ -62,7 +62,7 @@ google:
       lng: -2.5293462
   plus_code: "8FFC+C7 Sedbergh, United Kingdom"
   rating: 4.7
-  reviews_count: 49
+  reviews_count: 50
   price: £1–10
   opening_hours:
       - day: Monday
@@ -83,6 +83,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Thirsty%20Rambler&query_place_id=ChIJjd38X2thfEgR35PFIXc_HyQ
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:31:30.106Z"
-last_fetched: "2026-10-26T16:31:35.640Z"
+  scraped_at: "2026-11-02T19:46:01.833Z"
+last_fetched: "2026-11-02T19:46:07.533Z"
 ---

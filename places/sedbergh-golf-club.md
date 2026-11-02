@@ -57,11 +57,11 @@ google:
       lng: -2.5367206
   plus_code: "8F67+M8 Sedbergh, United Kingdom"
   rating: 4.7
-  reviews_count: 163
+  reviews_count: 164
   image_url: /images/places/sedbergh-golf-club.jpg
   url: https://www.google.com/maps/search/?api=1&query=Sedbergh%20Golf%20Club&query_place_id=ChIJ8ZX4HQVifEgR9saSAY_nqXk
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:24:48.381Z"
-last_fetched: "2026-10-26T16:24:53.910Z"
+  scraped_at: "2026-11-02T19:40:52.964Z"
+last_fetched: "2026-11-02T19:40:58.725Z"
 ---

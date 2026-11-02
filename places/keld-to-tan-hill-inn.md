@@ -61,12 +61,12 @@ google:
       lng: -2.1603148
   plus_code: FR4Q+6V West Stonesdale, Richmond, UK
   rating: 4.4
-  reviews_count: 5662
-  price: $177
+  reviews_count: 5671
+  price: $134
   image_url: /images/places/keld-to-tan-hill-inn.jpg
   url: https://www.google.com/maps/search/?api=1&query=Tan%20Hill%20Inn&query_place_id=ChIJSQ1KdpBqfEgR9qITmBq8Mjk
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:19:25.456Z"
-last_fetched: "2026-10-26T16:19:30.965Z"
+  scraped_at: "2026-11-02T19:37:18.708Z"
+last_fetched: "2026-11-02T19:37:24.408Z"
 ---

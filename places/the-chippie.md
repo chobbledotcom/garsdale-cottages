@@ -57,27 +57,27 @@ google:
       lng: -2.2001064
   plus_code: "8Q3X+MX Hawes, United Kingdom"
   rating: 4.7
-  reviews_count: 1390
+  reviews_count: 1393
   price: £10–20
   opening_hours:
       - day: Monday
         hours: Closed
       - day: Tuesday
-        hours: "11:30 AM to 2 PM, 5 to 8 PM"
+        hours: "11:30 AM to 2 PM"
       - day: Wednesday
-        hours: "11:30 AM to 2 PM, 5 to 8 PM"
+        hours: "5 to 7:30 PM"
       - day: Thursday
-        hours: "11:30 AM to 2 PM, 5 to 8 PM"
+        hours: "5 to 7:30 PM"
       - day: Friday
         hours: "11:30 AM to 2 PM, 5 to 8 PM"
       - day: Saturday
         hours: "11:30 AM to 2 PM, 5 to 8 PM"
       - day: Sunday
-        hours: "11:30 AM to 6 PM"
+        hours: "11:30 AM to 2 PM"
   image_url: /images/places/the-chippie.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Chippie&query_place_id=ChIJrZ8kOkBsfEgROg83CY-GOQU
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:30:05.820Z"
-last_fetched: "2026-10-26T16:30:11.379Z"
+  scraped_at: "2026-11-02T19:44:42.059Z"
+last_fetched: "2026-11-02T19:44:47.627Z"
 ---

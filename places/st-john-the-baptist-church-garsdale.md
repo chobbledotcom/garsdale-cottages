@@ -26,8 +26,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=St%20John%20the%20Baptist%2C%20Garsdale&query_place_id=ChIJmb22gEpkfEgRT1NdRp8sfbY
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:29:40.368Z"
-last_fetched: "2026-10-26T16:29:46.121Z"
+  scraped_at: "2026-11-02T19:44:08.540Z"
+last_fetched: "2026-11-02T19:44:14.205Z"
 blocks:
   - type: markdown
     content: "# St John the Baptist Church, Garsdale"

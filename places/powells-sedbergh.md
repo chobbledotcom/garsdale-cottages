@@ -44,8 +44,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Powells%20Fruit%20Merchants&query_place_id=ChIJp6ua5_RhfEgRPLwpQKPdY_c
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:23:11.816Z"
-last_fetched: "2026-10-26T16:23:17.561Z"
+  scraped_at: "2026-11-02T19:39:34.891Z"
+last_fetched: "2026-11-02T19:39:40.500Z"
 blocks:
   - type: markdown
     content: "# Powells, Sedbergh"

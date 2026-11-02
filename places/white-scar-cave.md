@@ -23,18 +23,18 @@ google:
       lng: -2.4417634
   plus_code: "5H85+67 Carnforth, United Kingdom"
   rating: 4.7
-  reviews_count: 3363
+  reviews_count: 3370
   opening_hours:
       - day: Monday
-        hours: "10 AM to 3 PM"
+        hours: "11 AM to 1 PM"
       - day: Tuesday
-        hours: "10 AM to 3 PM"
+        hours: "11 AM to 1 PM"
       - day: Wednesday
-        hours: "10 AM to 3 PM"
+        hours: "11 AM to 1 PM"
       - day: Thursday
-        hours: "10 AM to 3 PM"
+        hours: "11 AM to 1 PM"
       - day: Friday
-        hours: "10 AM to 3 PM"
+        hours: "11 AM to 1 PM"
       - day: Saturday
         hours: "10 AM to 3 PM"
       - day: Sunday
@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=White%20Scar%20Cave&query_place_id=ChIJS_af7lN6fEgRPJt1XABMznA
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:33:42.806Z"
-last_fetched: "2026-10-26T16:33:48.446Z"
+  scraped_at: "2026-11-02T19:47:49.764Z"
+last_fetched: "2026-11-02T19:47:55.363Z"
 blocks:
   - type: markdown
     content: "# White Scar Cave"

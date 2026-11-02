@@ -22,13 +22,13 @@ google:
       lng: -2.9638787
   plus_code: C2JP+QC Ambleside, United Kingdom
   rating: 4.6
-  reviews_count: 2241
+  reviews_count: 2244
   image_url: /images/places/zeffirellis-ambleside.jpg
   url: https://www.google.com/maps/search/?api=1&query=Zeffirellis&query_place_id=ChIJ07782e_qfEgRW5_-tSuTNPI
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:34:13.494Z"
-last_fetched: "2026-10-26T16:34:19.002Z"
+  scraped_at: "2026-11-02T19:48:19.242Z"
+last_fetched: "2026-11-02T19:48:24.871Z"
 blocks:
   - type: markdown
     content: "# Zeffirellis, Ambleside"

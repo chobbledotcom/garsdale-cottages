@@ -9,6 +9,7 @@ meta_description: Devils Bridge, Kirkby Lonsdale near Garsdale and Sedbergh in t
 google_place_id: ChIJBbOFjK2HfEgRjOxENvX4EFU
 google:
   name: Devil's Brg
+  address: Carnforth LA6 2DA, UK
   phone: ""
   phone_unformatted: ""
   location:
@@ -17,8 +18,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Devil's%20Brg&query_place_id=ChIJBbOFjK2HfEgRjOxENvX4EFU
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:13:18.765Z"
-last_fetched: "2026-10-26T16:13:24.636Z"
+  scraped_at: "2026-11-02T19:33:02.328Z"
+last_fetched: "2026-11-02T19:33:22.910Z"
 blocks:
   - type: markdown
     content: "# Devil's Bridge, Kirkby Lonsdale"

@@ -23,7 +23,7 @@ google:
       lng: -2.0891938
   plus_code: "8W76+78 Leyburn, United Kingdom"
   rating: 4.9
-  reviews_count: 52
+  reviews_count: 53
   opening_hours:
       - day: Monday
         hours: "8:30 AM to 6 PM"
@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Bainbridge%20Vets&query_place_id=ChIJ9T9mwEkTfEgRlUNM56FEKwo
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:05:39.779Z"
-last_fetched: "2026-10-26T16:05:45.659Z"
+  scraped_at: "2026-11-02T19:26:33.262Z"
+last_fetched: "2026-11-02T19:26:38.818Z"
 blocks:
   - type: markdown
     content: "# Bainbridge Vets, Askrigg"

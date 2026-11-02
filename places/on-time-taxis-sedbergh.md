@@ -60,6 +60,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=On%20Time%20Taxis%20Sedbergh&query_place_id=ChIJw635FOeNfEgRucSZU8mDomk
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:22:27.373Z"
-last_fetched: "2026-10-26T16:22:32.890Z"
+  scraped_at: "2026-11-02T19:39:02.591Z"
+last_fetched: "2026-11-02T19:39:08.160Z"
 ---

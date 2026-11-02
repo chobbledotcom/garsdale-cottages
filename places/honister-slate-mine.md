@@ -30,7 +30,7 @@ google:
       lng: -3.199314
   plus_code: GR62+G7 Keswick, United Kingdom
   rating: 4.7
-  reviews_count: 1479
+  reviews_count: 1493
   opening_hours:
       - day: Monday
         hours: "8:30 AM to 5 PM"
@@ -50,8 +50,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Honister%20Slate%20Mine&query_place_id=ChIJCXjj2VHEfEgRhzr314q0cR8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:17:31.477Z"
-last_fetched: "2026-10-26T16:17:37.080Z"
+  scraped_at: "2026-11-02T19:35:42.510Z"
+last_fetched: "2026-11-02T19:35:48.085Z"
 blocks:
   - type: markdown
     content: "# Honister Slate Mine"

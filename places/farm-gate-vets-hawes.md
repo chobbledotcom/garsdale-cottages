@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Farm%20Gate%20Vets&query_place_id=ChIJofPHBIthfEgRQwDrripEM2I
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:14:41.314Z"
-last_fetched: "2026-10-26T16:14:46.928Z"
+  scraped_at: "2026-11-02T19:34:11.489Z"
+last_fetched: "2026-11-02T19:34:17.028Z"
 blocks:
   - type: markdown
     content: "# Farm Gate Vets, Hawes"

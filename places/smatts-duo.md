@@ -81,6 +81,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Smatt's%20Duo&query_place_id=ChIJp6ua5_RhfEgRw1I8-384410
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:28:18.690Z"
-last_fetched: "2026-10-26T16:28:24.310Z"
+  scraped_at: "2026-11-02T19:42:54.645Z"
+last_fetched: "2026-11-02T19:43:00.290Z"
 ---

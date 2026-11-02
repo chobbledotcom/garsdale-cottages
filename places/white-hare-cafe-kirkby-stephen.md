@@ -22,7 +22,7 @@ google:
       lng: -2.3488117
   plus_code: FMF2+2F Kirkby Stephen, United Kingdom
   rating: 4.9
-  reviews_count: 490
+  reviews_count: 491
   price: £1–10
   opening_hours:
       - day: Monday
@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20White%20Hare%20Cafe&query_place_id=ChIJ7172TMtcfEgRMc_-MJb9PWY
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:33:14.370Z"
-last_fetched: "2026-10-26T16:33:20.141Z"
+  scraped_at: "2026-11-02T19:47:19.688Z"
+last_fetched: "2026-11-02T19:47:25.457Z"
 blocks:
   - type: markdown
     content: "# White Hare Cafe, Kirkby Stephen"

@@ -74,6 +74,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Close%20D%20T&query_place_id=ChIJUTCJdvhhfEgRhO9IfPYUjlc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:14:19.187Z"
-last_fetched: "2026-10-26T16:14:24.764Z"
+  scraped_at: "2026-11-02T19:33:42.465Z"
+last_fetched: "2026-11-02T19:33:48.100Z"
 ---

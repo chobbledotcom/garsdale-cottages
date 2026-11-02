@@ -21,13 +21,13 @@ google:
       lng: -2.2666563
   plus_code: "7PHM+J8 Hawes, United Kingdom"
   rating: 4.7
-  reviews_count: 77
+  reviews_count: 79
   image_url: /images/places/snaizeholme-red-squirrel-trail.jpg
   url: https://www.google.com/maps/search/?api=1&query=Snaizeholme%20Red%20Squirrel%20Trail&query_place_id=ChIJ1TJZ_RNvfEgRNB0tScogfGI
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:28:29.530Z"
-last_fetched: "2026-10-26T16:28:35.031Z"
+  scraped_at: "2026-11-02T19:43:07.046Z"
+last_fetched: "2026-11-02T19:43:12.596Z"
 blocks:
   - type: markdown
     content: "# Snaizeholme [Red Squirrel](/red-squirrels-in-garsdale/) Trail"

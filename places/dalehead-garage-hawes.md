@@ -75,6 +75,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Dale%20Head%20Garage&query_place_id=ChIJ-02C0D9sfEgRinmFNggKrIQ
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:10:54.919Z"
-last_fetched: "2026-10-26T16:11:00.741Z"
+  scraped_at: "2026-11-02T19:30:48.143Z"
+last_fetched: "2026-11-02T19:30:53.854Z"
 ---

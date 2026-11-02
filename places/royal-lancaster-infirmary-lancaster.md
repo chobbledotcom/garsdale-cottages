@@ -54,10 +54,25 @@ google:
   plus_code: "25RX+XX Lancaster, United Kingdom"
   rating: 3.6
   reviews_count: 332
+  opening_hours:
+      - day: Monday
+        hours: Open 24 hours
+      - day: Tuesday
+        hours: Open 24 hours
+      - day: Wednesday
+        hours: Open 24 hours
+      - day: Thursday
+        hours: Open 24 hours
+      - day: Friday
+        hours: Open 24 hours
+      - day: Saturday
+        hours: Open 24 hours
+      - day: Sunday
+        hours: Open 24 hours
   image_url: /images/places/royal-lancaster-infirmary-lancaster.jpg
   url: https://www.google.com/maps/search/?api=1&query=Royal%20Lancaster%20Infirmary&query_place_id=ChIJe1vXBH1ie0gRkf8dC6MK6lM
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-10-26T16:24:25.218Z"
-last_fetched: "2026-10-26T16:24:30.985Z"
+  scraped_at: "2026-11-02T19:40:28.855Z"
+last_fetched: "2026-11-02T19:40:34.511Z"
 ---
