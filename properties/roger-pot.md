@@ -153,8 +153,9 @@ blocks:
     booking fee or commission is added on the direct route.** Roger Pot is owned
     and run by Paul and Karen, who live on site in the adjacent barn, and it is
     one of three cottages in the Garsdale Cottages cooperative. For availability
-    and the current price for your dates, use the availability link on this page
-    or contact them directly. Paul will confirm availability and the price for your dates before you book.
+    and the current price for your dates, use the booking widget on this page and
+    book online. The Check Availability / Book Online control opens the widget,
+    which shows the price for your dates before you book.
 
 
     ## Touch Stay property Guide

@@ -148,11 +148,11 @@ blocks:
             description: Need to wipe down muddy paws after a rainy hike? Find out where hosepipes and towels are kept in our [Cleaning Equipment Guide](/guide/about-the-accommodation/cleaning-equipment/).
   - type: cta
     button:
-          text: Contact the Owners
-          href: /contact/
+          text: View the Cottages
+          href: /properties/
     content: |-
           ## Enquire About a Dog-Friendly Stay
-          For a dog-friendly stay in Garsdale, contact the cottage owner with your dates, the number of guests and how many dogs you are bringing. The owners aim to reply within 72 hours.
+          For a dog-friendly stay in Garsdale, book online on the Roger Pot and The Old Cart House pages, or use the enquiry form for Farrier's Cottage. For a Farrier's Cottage enquiry, include your dates, the number of guests and how many dogs you are bringing. The owners aim to reply to enquiries within 72 hours.
   - type: icon-links
     intro_content: "## Before You Book"
     items:

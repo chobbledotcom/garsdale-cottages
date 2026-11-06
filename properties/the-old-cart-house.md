@@ -170,8 +170,9 @@ blocks:
     the cottage. No agency booking fee or commission is added on the direct route.**
     They renovated Rose Cottage next door before converting The Old Cart House,
     and the cottage is one of three in the Garsdale Cottages cooperative. For
-    availability and the current price for your dates, use the availability
-    calendar on this page or contact them directly. Jack or Loraine will confirm availability and the price for your dates before you book.
+    availability and the current price for your dates, use the booking widget on
+    this page and book online. The Check Availability / Book Online control opens
+    the widget, which shows the price for your dates before you book.
 
 
     ## At a glance

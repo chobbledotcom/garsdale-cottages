@@ -84,7 +84,7 @@ blocks:
           href: /properties/
     content: |-
           ## Stay in Garsdale
-          Book direct with local cottage owners and contact them about availability and the current price for your dates.
+          Book direct with local cottage owners - check each cottage page for availability, current prices and booking details.
   - type: markdown
     content: |-
           ## References

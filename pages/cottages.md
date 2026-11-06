@@ -50,7 +50,7 @@ blocks:
 
           All three can be booked together for up to 14 guests. Each cottage is owned separately, so a group booking needs availability coordinating between the owners, who are neighbours and friends.
 
-          Rates change too often to quote a figure here. Use the availability link on each cottage page, or contact the owner, for the dates you have in mind. The owners aim to reply within 72 hours.
+          Rates change too often to quote a figure here. Roger Pot and The Old Cart House show availability and current prices in the booking widget on their cottage pages, where you can book online. Farrier's Cottage takes enquiries through its contact form. The owners aim to reply to enquiries within 72 hours.
   - type: features
     items:
           - icon: hugeicons:discount-tag-02
@@ -63,7 +63,7 @@ blocks:
             description: The owners know the cottages and the area around Sedbergh and the Yorkshire Dales.
             name: Local Knowledge
           - icon: hugeicons:agreement-02
-            description: Booking and payment go through the owner or their own booking page.
+            description: Book online on the cottage page, or enquire directly with the owner.
             name: Direct Booking
           - icon: hugeicons:message-01
             description: Ask about access, facilities, pets or the area and get an answer from the owner.

@@ -44,7 +44,7 @@ blocks:
             description: The owners know the cottages and the area.
             name: Local Knowledge
           - icon: hugeicons:agreement-02
-            description: Booking and payment go through the owner or their own booking page.
+            description: Book online on the cottage page, or enquire directly with the owner.
             name: Direct Booking
           - icon: hugeicons:message-01
             description: Ask about access, facilities, pets or the area and get an answer from the owner.
