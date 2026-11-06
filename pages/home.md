@@ -35,7 +35,7 @@ blocks:
     dark: false
     items:
           - icon: hugeicons:discount-tag-02
-            description: No agency booking fee or commission is added; you deal with the owner.
+            description: No agency booking fee or commission is added on the direct route; you deal with the owner.
             name: No Agency Fees
           - icon: hugeicons:customer-service
             description: The owner answers questions about their own cottage.
@@ -56,7 +56,7 @@ blocks:
     intro_content: |-
           ### Why book direct with Garsdale Cottages?
 
-           Booking direct means you deal with the cottage owner rather than a large agency. No agency booking fee or commission is added.
+           Booking direct means you deal with the cottage owner rather than a large agency. No agency booking fee or commission is added on the direct route.
 
           ### How do I book a Garsdale cottage?
 

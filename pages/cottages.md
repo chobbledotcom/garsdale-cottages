@@ -48,7 +48,7 @@ blocks:
           | The Old Cart House | 2 | 1 | 1 | 1 pet: dog or cat | Roadside for 1 car | Electric fire |
           | Farrier's Cottage | 6 | 3 | 2 | 1 pet | Off-road for 2 cars | Woodburning stove |
 
-          All three can be booked together for up to 14 guests. Each cottage is owned separately, so a group booking needs availability coordinating between the owners, who are neighbours and friends.
+          All three can be booked together for up to 14 guests. Each cottage is owned separately, so a group booking needs availability coordinating between the owners, who are neighbours in the dale.
 
           Families and larger groups need one of the six-berth cottages, Roger Pot or Farrier's Cottage. Our [family friendly holidays in Garsdale](/family-friendly-holidays-in-garsdale/) page covers days out with children and what to expect from each cottage.
 
@@ -56,7 +56,7 @@ blocks:
   - type: features
     items:
           - icon: hugeicons:discount-tag-02
-            description: No agency booking fee or commission is added; you deal with the owner.
+            description: No agency booking fee or commission is added on the direct route; you deal with the owner.
             name: No Agency Fees
           - icon: hugeicons:customer-service
             description: The owner answers questions about their own cottage.
@@ -75,7 +75,7 @@ blocks:
             name: Independent Owners
     intro_content: |-
           ## Why Book Direct?
-          Each cottage is let directly by its owner. No agency booking fee or commission is added.
+          Each cottage is let directly by its owner on this site. No agency booking fee or commission is added on the direct route.
 
   - type: cta
     button:
