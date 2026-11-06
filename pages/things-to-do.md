@@ -152,6 +152,8 @@ blocks:
 
           There are a number of child friendly activities within travelling distance:
 
+          Our [family friendly holidays in Garsdale](/family-friendly-holidays-in-garsdale/) page has the full round-up for children, including the cottages that sleep six for a larger family or two families sharing.
+
           The [Forbidden Corner](/places/the-forbidden-corner-middleham/) ([theforbiddencorner.co.uk](https://www.theforbiddencorner.co.uk/)) in Middleham, Leyburn is a delightful experience for children and has been featured on CBBC shows.
 
           Ingleton has the [White Scar Cave](/places/white-scar-cave/) ([whitescarcave.co.uk](https://whitescarcave.co.uk/)) which is the longest show cave in Britain and has guided tours taking about 80 minutes.

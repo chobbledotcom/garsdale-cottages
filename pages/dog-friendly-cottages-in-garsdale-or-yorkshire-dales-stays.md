@@ -23,7 +23,7 @@ blocks:
 
           At Garsdale Cottages, the three cottages are owned separately and let directly by their owners. Roger Pot is a holiday cottage that sleeps six and has an enclosed garden. The Old Cart House sleeps two and has a patio garden. Farrier's Cottage sleeps six and has a utility room off the garden.
 
-          Browse all three on our [Properties page](/properties/); each cottage page has its own availability or enquiry link.
+          Browse all three on our [Properties page](/properties/); each cottage page has its own availability or enquiry link. If you are bringing children as well as the dog, our [family friendly holidays in Garsdale](/family-friendly-holidays-in-garsdale/) page covers days out with children and the cottages that sleep six.
   - type: split-image
     content: |-
           ## Doorstep Dog Walks & Countryside Trails

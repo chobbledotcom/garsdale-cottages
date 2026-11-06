@@ -50,6 +50,8 @@ blocks:
 
           All three can be booked together for up to 14 guests. Each cottage is owned separately, so a group booking needs availability coordinating between the owners, who are neighbours and friends.
 
+          Families and larger groups need one of the six-berth cottages, Roger Pot or Farrier's Cottage. Our [family friendly holidays in Garsdale](/family-friendly-holidays-in-garsdale/) page covers days out with children and what to expect from each cottage.
+
           Rates change too often to quote a figure here. Roger Pot and The Old Cart House show availability and current prices in the booking widget on their cottage pages, where you can book online. Farrier's Cottage takes enquiries through its contact form. The owners aim to reply to enquiries within 72 hours.
   - type: features
     items:

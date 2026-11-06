@@ -230,6 +230,36 @@ blocks:
     it is sourced from a nearby well and cannot realistically be guaranteed. We therefore
     supply bottled water for you to use for drinking and cooking if you prefer. Top
     ups are available free of charge during your stay'
+- type: markdown
+  compact: true
+  content: |-
+    ## Family Holidays at Roger Pot
+
+    Roger Pot is a family friendly holiday cottage in Garsdale that sleeps six across
+    three bedrooms, which is enough for a larger family or two families sharing. There
+    is a super-king bedroom with an en-suite shower room, a double, and a twin that
+    the owner can set up as a super-king if you ask in advance, so the beds can be
+    arranged around the ages of the children in the party.
+
+    A highchair is available, the utility room has a washer/dryer for wet walking gear
+    and muddy clothes, and the enclosed side garden gives children somewhere to play
+    within sight of the house. Guests have access to the owner''s four acres and a
+    stretch of the River Clough for paddling or fishing, and children need supervising
+    at all times by the water.
+
+    The farm track is worth knowing about before you arrive. It is 400 metres of single
+    width track with two or three gates, and it is steep and uneven in places because
+    of the drainage channels. A normal car manages it, but very low profile cars are
+    better left on the road. Because the track is single width, the owner runs a texting
+    system so that guests and the owners know when someone is coming up or down.
+
+    There are family days out within easy reach, including [White Scar Cave](/places/white-scar-cave/),
+    the [Forbidden Corner](/places/the-forbidden-corner-middleham/), the [Dales Countryside
+    Museum](/places/dales-countryside-museum-hawes/) at Hawes and the [Settle-Carlisle
+    railway](/places/garsdale-station/) from Garsdale Station. Our [family friendly
+    holidays in Garsdale](/family-friendly-holidays-in-garsdale/) page has the full
+    list of things to do with children, and details of [Farrier''s Cottage](/properties/farriers-cottage/),
+    the other three bedroom cottage here, which also sleeps six for a larger group.
 - type: link-button
   compact: true
   text: Check Availability / Book Online

@@ -215,6 +215,23 @@ blocks:
     of the property, so dogs must be kept under control. This is sheep farming country
     - dogs must be kept on a lead when out walking.'
 - type: markdown
+  compact: true
+  content: |-
+    ## Families and Larger Groups
+
+    Farrier''s Cottage sleeps six across three bedrooms, so it suits a family, two
+    families travelling together or a group of friends. There is a travel cot and
+    a highchair available, a ground floor shower room as well as the bathroom upstairs,
+    and somewhere dry to put the bikes. The front garden is lawned with furniture,
+    but it is not enclosed and a public right of way crosses the front of the house,
+    so small children need watching.
+
+    [Roger Pot](/properties/roger-pot/) is the other three bedroom cottage and also
+    sleeps six. Between the three cottages there is room for up to fourteen guests,
+    though each cottage is owned separately and a group booking needs coordinating
+    between the owners. Our [family friendly holidays in Garsdale](/family-friendly-holidays-in-garsdale/)
+    page covers days out with children and what each cottage is like for a larger group.
+- type: markdown
   content: 'Enquiries are by email. We aim to reply within 72 hours.'
 - type: link-button
   compact: true
