@@ -39,3 +39,19 @@ Set these GitHub secrets for your repo:
 ## Local Development
 
 Run `./bin/build` to build locally. The output appears in `result/`.
+
+## Reviews
+
+Reviews are markdown files in `reviews/`, linked to a property through the
+`property` frontmatter field. The scrapers read listing identifiers from each
+property file:
+
+- `google_place_id` for Google Maps reviews
+- `booking_url` for Booking.com reviews
+- `airbnb_url` for Airbnb reviews
+- `freetobook_id` and `freetobook_token` for Freetobook reviews
+
+Run `bun run fetch-google-reviews` for Google, or
+`bun run fetch-platform-reviews` for Booking.com, Airbnb and Freetobook. Each
+individual platform also has its own script: `fetch-booking-reviews`,
+`fetch-airbnb-reviews` and `fetch-freetobook-reviews`.

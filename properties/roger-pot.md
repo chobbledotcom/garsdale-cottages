@@ -11,6 +11,8 @@ freetobook_id: '50805'
 freetobook_token: 5IWTgrO9GsqetF0H2oPAJlv6xrxYrP4ADqVWy22spAQzG9KIDMXwrLXBPpQpm
 formspark_id: Eu9OyTsei
 google_place_id: ChIJ_Uz84JllfEgRXXvQD1RnauE
+booking_url: https://www.booking.com/hotel/gb/roger-pot-gardale.en-gb.html
+airbnb_url: https://www.airbnb.co.uk/rooms/1222376800203988963
 features:
 - Off road parking
 - Wood burning stove in lounge

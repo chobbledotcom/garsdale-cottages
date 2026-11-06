@@ -1,0 +1,56 @@
+name: Fetch Platform Reviews
+
+on:
+  schedule:
+    # Run every Monday at 09:23 UTC, after the Google reviews job
+    - cron: '23 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  fetch-reviews:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.4.0'
+
+      - name: Fetch Booking.com reviews
+        env:
+          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+        run: bun run fetch-booking-reviews
+
+      - name: Fetch Airbnb reviews
+        env:
+          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+        run: bun run fetch-airbnb-reviews
+
+      - name: Fetch Freetobook reviews
+        run: bun run fetch-freetobook-reviews
+
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain reviews/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add reviews/
+          git commit -m "Auto-update: Fetch new platform reviews"
+          git pull --rebase
+          git push

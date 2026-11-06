@@ -9,6 +9,8 @@ bathrooms: 2
 sleeps: 6
 formspark_id: w3Ph3fwZJ
 google_place_id: ChIJ63JK7DVkfEgR5_1XGO60lE4
+booking_url: https://www.booking.com/hotel/gb/farriers-cottage-sedbergh.en-gb.html
+airbnb_url: https://www.airbnb.co.uk/rooms/1543563591496084717
 features:
 - Off road parking for 2 cars
 - Woodburning stove in sitting room
@@ -68,6 +70,9 @@ meta_description: Farrier's Cottage - a three bedroom stone cottage in Garsdale,
   Dales, sleeping six. Woodburning stove, views across the dale, dog friendly. Near
   Sedbergh and Hawes.
 order: 2
+review_link:
+  text: Leave a Review
+  href: /properties/farriers-cottage/leave-review/
 locations:
 - locations/garsdale.md
 blocks:
@@ -218,6 +223,14 @@ blocks:
   variant: primary
 - type: property-features
   compact: true
+- type: link-button
+  compact: true
+  text: Leave a Review
+  href: /properties/farriers-cottage/leave-review/
+  variant: secondary
+- type: reviews
+  compact: true
+  current_item: true
 - type: property-contact-section
   compact: true
 ---

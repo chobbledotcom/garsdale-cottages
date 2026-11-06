@@ -8,6 +8,8 @@ freetobook_id: '50739'
 freetobook_token: R5E73eM95Xl5BGJW0D8OQTzkbMSRLi46YKg0Le5ybvAhmE4UGjs0VI991DOB6
 formspark_id: oyms4Y7Kr
 google_place_id: ChIJQfpvVDVkfEgR8vZLcKxpWbI
+booking_url: https://www.booking.com/hotel/gb/the-old-cart-house-pet-friendly-cottage-in-garsdale-near-sedbergh.en-gb.html
+airbnb_url: https://www.airbnb.co.uk/rooms/1558566917313928069
 bedrooms: 1
 bathrooms: 1
 sleeps: 2
