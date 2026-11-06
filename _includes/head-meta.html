@@ -1,0 +1,84 @@
+<meta charset="UTF-8">
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+  {{- socialMeta.title | escape -}}
+</title>
+
+{%- if socialMeta.description -%}
+  <meta
+    name="description"
+    content="{{ socialMeta.description | escape }}"
+  >
+{%- endif -%}
+
+<meta
+  name="generator"
+  content="{{ eleventy.generator }}"
+>
+
+{%- if no_index -%}
+  <meta
+    name="robots"
+    content="noindex,nofollow"
+  >
+{%- else -%}
+  <link
+    rel="canonical"
+    href="{{ socialMeta.url | escape }}"
+  >
+  {%- include "head-hreflang.html" -%}
+{%- endif -%}
+
+{%- comment -%}
+  The stock template takes its share image from socialMeta.image, which can be
+  the generated placeholder thumbnail. Prefer a real page image: front-matter
+  image, the cottage header image, or the Google place photo, and only fall
+  back to the site share card when none exists.
+{%- endcomment -%}
+{%- assign share_image = image | default: header_image | default: google.image_url -%}
+{%- if share_image == nil and blocks -%}
+  {%- for block in blocks -%}
+    {%- if share_image == nil and block.image -%}
+      {%- if block.type == "image-background" or block.type == "hero" -%}
+        {%- assign share_image = block.image -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- assign share_image = share_image | default: "/assets/social-share.jpg" -%}
+{%- unless share_image contains "://" -%}
+  {%- assign share_image = site.url | append: share_image -%}
+{%- endunless -%}
+
+<meta property="og:locale" content="{{ pageLanguage.og_locale }}">
+{%- for alternate in languages -%}
+  {%- unless alternate.code == pageLanguage.code -%}
+    {%- if pageTranslation[alternate.code] -%}
+      <meta property="og:locale:alternate" content="{{ alternate.og_locale }}">
+    {%- endif -%}
+  {%- endunless -%}
+{%- endfor -%}
+<meta property="og:type" content="{{ socialMeta.type | escape }}">
+<meta property="og:title" content="{{ socialMeta.title | escape }}">
+{%- if socialMeta.description -%}
+  <meta property="og:description" content="{{ socialMeta.description | escape }}">
+{%- endif -%}
+<meta property="og:url" content="{{ socialMeta.url | escape }}">
+<meta property="og:site_name" content="{{ site.name | escape }}">
+<meta property="og:image" content="{{ share_image | escape }}">
+<meta property="og:image:alt" content="{{ socialMeta.title | escape }}">
+
+<meta
+  name="twitter:card"
+  content="summary_large_image"
+>
+<meta name="twitter:title" content="{{ socialMeta.title | escape }}">
+{%- if socialMeta.description -%}
+  <meta name="twitter:description" content="{{ socialMeta.description | escape }}">
+{%- endif -%}
+<meta name="twitter:image" content="{{ share_image | escape }}">

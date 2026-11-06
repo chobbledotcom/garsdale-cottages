@@ -12,9 +12,9 @@ blocks:
     # Making a booking
 
 
-    Its all very simple. Simply chose one of our wonderful properties, complete the
-    attached Booking form and transfer the required deposit as required. Final payment
-    will be required XXX weeks before arrival
+    Choose the cottage, check availability with the owner and complete the booking
+    form. The owner will confirm the deposit and the date for the final payment
+    when you book. Please read the terms below before you pay the deposit.
 
 
     # Booking Terms and Conditions

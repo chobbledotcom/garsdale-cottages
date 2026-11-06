@@ -1,9 +1,48 @@
-{% assign path = page.url | slice: 0, 11 %}
-{% unless path == "/properties" %}
-  <a
-    href="/properties/"
-    class="btn btn--primary book-now"
-  >
-    Book Now
-  </a>
-{% endunless %}
+<script>
+  // GoatCounter events for the booking journey. These are cookieless page
+  // events, not personal data: availability opens, contact-page visits,
+  // email/phone clicks and enquiry form submissions.
+  function trackEvent(name, title) {
+    if (window.goatcounter && window.goatcounter.count) {
+      window.goatcounter.count({ path: name, title: title, event: true });
+    }
+  }
+
+  document.addEventListener(
+    "toggle",
+    function (event) {
+      var details = event.target;
+      if (
+        details.tagName === "DETAILS" &&
+        details.open &&
+        details.closest("#freetobook")
+      ) {
+        trackEvent("availability-click", "Availability click");
+      }
+    },
+    true,
+  );
+
+  document.addEventListener("click", function (event) {
+    var link = event.target.closest("a");
+    if (!link) return;
+
+    var href = link.getAttribute("href") || "";
+
+    if (href.indexOf("mailto:") === 0) {
+      trackEvent("email-click", "Email click");
+    } else if (href.indexOf("tel:") === 0) {
+      trackEvent("phone-click", "Phone click");
+    } else if (
+      href.indexOf("/contact") === 0 ||
+      (href.indexOf("/properties/") === 0 && href.indexOf("/contact/") !== -1)
+    ) {
+      trackEvent("contact-click", "Contact page click");
+    }
+  });
+
+  document.addEventListener("submit", function (event) {
+    if (!event.target.matches(".contact-form")) return;
+    trackEvent("enquiry-submit", "Enquiry form submit");
+  });
+</script>

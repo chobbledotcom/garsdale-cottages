@@ -1,6 +1,6 @@
 ---
 name: The Old Cart House
-subtitle: A cosy one-bedroom cottage perfect for couples and small families
+subtitle: A detached one-bedroom stone cottage sleeping two
 thumbnail: /images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg
 header_image: /images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg
 featured: false
@@ -100,7 +100,7 @@ blocks:
   content: |-
     # The Old Cart House
 
-    ## A cosy one-bedroom cottage perfect for couples and small families
+    ## A detached one-bedroom stone cottage sleeping two
 - type: freetobook
   compact: true
 - type: property-gallery
@@ -166,12 +166,12 @@ blocks:
     rather speak to someone first, their numbers are at the foot of the page.
 
 
-    **Book direct through this site and you deal directly with the property owners,
-    Jack and Loraine — no agency fees, no booking commissions, and the personal service
-    that comes from speaking to people who know the cottage and the area inside out.**
-    When you book through sites like Booking.com or Sykes, they take a significant
-    cut of the price, which either inflates what you pay or reduces what the owner
-    receives. Booking here means a better deal for everyone.
+    **Book direct through this site and you deal with Jack and Loraine, who own
+    the cottage. No agency booking fee or commission is added on the direct route.**
+    They renovated Rose Cottage next door before converting The Old Cart House,
+    and the cottage is one of three in the Garsdale Cottages cooperative. For
+    availability and the current price for your dates, use the availability
+    calendar on this page or contact them directly. Jack or Loraine will confirm availability and the price for your dates before you book.
 
 
     ## At a glance

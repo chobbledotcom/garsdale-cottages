@@ -1,33 +1,35 @@
 ---
-name: Dog-Friendly Holiday Cottages in Garsdale and the Yorkshire Dales
+name: Dog-Friendly Holiday Cottages in Garsdale and near Sedbergh
 subtitle: Dog Friendly Cottage
-meta_title: Dog-Friendly Cottages in Garsdale | Yorkshire Dales Stays
-meta_description: Discover pet-friendly holiday cottages in Garsdale. Enjoy doorstep walks, cozy open fires, and local dog-friendly pubs in the Yorkshire Dales. Book your stay!
+meta_title: Dog-Friendly Cottages in Garsdale, Sedbergh, Yorkshire Dales
+meta_description: Pet-friendly holiday cottages in Garsdale, near Sedbergh in the Yorkshire Dales. Doorstep walks, dog-friendly pubs, cottages sleeping 2 to 6. Book direct.
 blocks:
   - type: image-background
     parallax: true
     image: /images/places-of-interest/valley-view.jpeg
     image_alt: The Garsdale valley, with patchwork fields, stone walls and the fells beyond
-    content: "# Dog-Friendly Holiday Cottages in Garsdale & the Yorkshire Dales"
+    content: "# Dog-Friendly Holiday Cottages in Garsdale, near Sedbergh in the Yorkshire Dales"
   - type: markdown
     content: |-
-          Bring your dog with you. All three of our self-catering holiday cottages in Garsdale are dog friendly, and the dale gives you tranquil woodland, riverside trails and rolling Dales countryside straight from the door. Garsdale is a quiet valley between Sedbergh and Hawes, in the Yorkshire Dales National Park, and it makes an ideal base for a walking holiday with your pet.
-          
-          You get doorstep access to endless trail networks, cozy nights by the fire after a long hike, and peaceful surroundings where your dog is genuinely welcomed, not just tolerated.
+          All three of our pet-friendly, self-catering holiday cottages in Garsdale are dog friendly. [Roger Pot](/properties/roger-pot/) takes up to two dogs, [The Old Cart House](/properties/the-old-cart-house/) takes one well-behaved pet, either a dog or a cat, and [Farrier's Cottage](/properties/farriers-cottage/) takes one pet. Garsdale is a quiet valley between Sedbergh and Hawes in the Yorkshire Dales National Park, with woodland, riverside and fell walks from the door.
+
+          The three dog-friendly cottages are self-catering accommodation in the Yorkshire Dales National Park, owned separately and let directly by their owners. Each cottage page lists its own pet rules, facilities and contact details. The ground can be wet for much of the year, and this is sheep farming country, so dogs need to be on a lead near stock.
+
+          Roger Pot takes up to two well-behaved dogs and they must not be left unattended. The Old Cart House accepts dogs and cats; its garden is not fully enclosed, so pets should not be left unsupervised. Farrier's Cottage takes one well-behaved pet; its garden is not enclosed and a public right of way crosses the front.
   - type: items
     collection: properties
     intro_content: |-
           ## Dog Friendly Self-Catering Cottages in Garsdale
-          
-          At Garsdale Cottages we know that a true family holiday isn't complete without your dog, so all three of our pet-friendly properties take one well-behaved pet, and [Roger Pot](/properties/roger-pot/) will take two. Roger Pot is a cozy, traditional holiday cottage in the middle of the dale, good for relaxing with your dog after a day exploring the valley. [The Old Cart House](/properties/the-old-cart-house/) is spacious and characterful self-catering accommodation with fantastic access to nearby fell and woodland paths. [Farrier's Cottage](/properties/farriers-cottage/) sleeps six and has a utility room off the garden, which is where the mud stops when you come back in.
-          
-          Browse all available stays on our [Properties page](/properties/) or search dates on our [Booking Search page](/search/).
+
+          At Garsdale Cottages, the three cottages are owned separately and let directly by their owners. Roger Pot is a holiday cottage that sleeps six and has an enclosed garden. The Old Cart House sleeps two and has a patio garden. Farrier's Cottage sleeps six and has a utility room off the garden.
+
+          Browse all three on our [Properties page](/properties/); each cottage page has its own availability or enquiry link.
   - type: split-image
     content: |-
           ## Doorstep Dog Walks & Countryside Trails
-          
-          Garsdale is a paradise for dogs who love to explore. From gentle valley rambles to challenging fell hikes, you won't need to travel far to find good routes, and most of them start within a few minutes of the cottage doors.
-          
+
+          Garsdale has valley, riverside and fell walks, and most routes start within a few minutes of the cottage doors. From gentle valley walks to longer fell routes, you do not need to drive far to find a walk.
+
           The ground can be wet for a fair bit of the year, so bring a towel and something to dry a soaked dog with. This is sheep farming country, so dogs need to be on a lead anywhere near stock.
     figure_src: /images/paul-and-karen/woman-with-dog-in-snow.jpg
     figure_alt: A walker and her dog on a snowy track beside a dry stone wall
@@ -41,7 +43,7 @@ blocks:
             description: Our curated list of local routes, straight from your front door - see [Garsdale Valley Walks](/walks/) for the full set.
           - icon: hugeicons:mountain
             name: The Howgill Fells
-            description: Dramatic, grassy ridges offering open space and spectacular views near Sedbergh. Read more about [The Howgill Fells](/places/howgill-fells/).
+            description: Grassy ridges with open views near Sedbergh. Read more about [The Howgill Fells](/places/howgill-fells/).
           - icon: hugeicons:droplet
             name: Waterfall Walks around Hawes
             description: Take a scenic walk visiting [Aysgill Force](/places/aysgill-force/) and [Hardraw Force](/places/hardraw-force/), both an easy drive from the dale.
@@ -57,23 +59,23 @@ blocks:
   - type: split-icon-links
     content: |-
           ## Dog-Friendly Pubs, Cafes & Local Services
-          
+
           After a day on the fells, relax at one of the many welcoming local spots where dogs are welcome inside, and often get a biscuit.
-          
+
           ### Places to Eat & Drink
-          
+
           These are the dog friendly pubs and cafes we know of within easy reach of the dale, and what each of them does. Opening hours and food service times move about with the season up here, so it is worth ringing ahead if you are driving over specially.
-          
+
           **[Sedbergh](/locations/sedbergh/)**, about six miles west and roughly fifteen minutes from the holiday cottages, has four of them. The [Black Bull](/places/black-bull-inn-sedbergh/) and the [Red Lion](/places/red-lion-sedbergh/) both serve meals and drinks, the [Thirsty Rambler](/places/thirsty-rambler-sedbergh/) does drinks, and the [Half and Half](/places/half-and-half-sedbergh/) does drinks with occasional food nights.
-          
+
           **[Hawes](/locations/hawes/)**, nine miles east in upper Wensleydale, has the [White Hart](/places/white-hart-inn-hawes/) and the [Board Inn](/places/board-inn-hawes/) for meals and drinks, with [Caffè Curva](/places/caff-curva/) on Market Place for daytime food.
-          
+
           **Cautley**, on the road out of Sedbergh towards Kirkby Stephen, has the [Cross Keys temperance inn](/places/cross-keys-temperance-inn-cautley/). It allows dogs into the lounge area but not into the tabled restaurant area, so ask for the lounge when you come in and you will be fine.
-          
+
           **Hardraw**, just outside Hawes, has the [Green Dragon](/places/green-dragon-inn-hardraw/) for meals and drinks, and [Hardraw Force](/places/hardraw-force/) is reached through the pub grounds, which makes it an easy afternoon with the dog.
-          
+
           One nearby pub that is not dog friendly is [The Dalesman Country Inn](/places/dalesman-country-inn-sedbergh/) in Sedbergh, so plan around that one if you are bringing your dog.
-          
+
           Read our full roundup on [Eating & Drinking in Garsdale](/eating-and-drinking-in-garsdale/).
     figure_items:
           - icon: hugeicons:restaurant-01
@@ -107,7 +109,7 @@ blocks:
   - type: split-icon-links
     content: |-
           ## Essential Pet Services Nearby
-          
+
           For peace of mind during your holiday, local veterinary practices are within easy reach should you ever need them. Both are east of the dale in Wensleydale, one in Hawes and one further on at Askrigg, and it is worth putting the numbers in your phone before you set off on a walk.
     figure_items:
           - icon: hugeicons:stethoscope
@@ -120,7 +122,7 @@ blocks:
   - type: split-image
     content: |-
           ## Pet Friendly Etiquette & Safety
-          
+
           To help us keep our cottages welcoming for future pets and protect local livestock, we kindly ask guests to review our house rules before arrival.
     figure_src: /images/places-of-interest/sheep-with-sheepdog.jpeg
     figure_alt: A flock of sheep and lambs being moved along a Garsdale roadside by working sheepdogs
@@ -146,11 +148,11 @@ blocks:
             description: Need to wipe down muddy paws after a rainy hike? Find out where hosepipes and towels are kept in our [Cleaning Equipment Guide](/guide/about-the-accommodation/cleaning-equipment/).
   - type: cta
     button:
-          text: View Our Cottages
-          href: /properties/
+          text: Contact the Owners
+          href: /contact/
     content: |-
-          ## Ready for a Dog-Friendly Escape?
-          Plan your holiday in Garsdale today and give your pet the outdoor adventure they deserve. Book direct with local cottage owners for better prices and personal service.
+          ## Enquire About a Dog-Friendly Stay
+          For a dog-friendly stay in Garsdale, contact the cottage owner with your dates, the number of guests and how many dogs you are bringing. The owners aim to reply within 72 hours.
   - type: icon-links
     intro_content: "## Before You Book"
     items:

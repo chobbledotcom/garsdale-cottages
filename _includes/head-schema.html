@@ -1,0 +1,146 @@
+{%- comment -%}
+  Garsdale-specific structured data.
+
+  The stock template describes every non-product/event/news page as a generic
+  WebPage, and its Organization defaults still carry example data. That is
+  wrong for a holiday-cottage site: the homepage is an organisation, a
+  property page is a VacationRental, and a place page is a restaurant, pub,
+  station and so on. Keep this override local to Garsdale; the reusable
+  property/place schema belongs upstream in chobble-template later.
+{%- endcomment -%}
+
+{%- unless no_index -%}
+  {%- assign canonical = page.url | canonicalUrl -%}
+  {%- assign page_name = meta_title | default: name | default: title | default: site.name -%}
+  {%- assign page_desc = meta_description | default: description | default: subtitle | default: site.name -%}
+  {%- assign page_image = header_image | default: google.image_url | default: "/assets/social-share.jpg" -%}
+  {%- assign is_property = false -%}
+  {%- assign is_place = false -%}
+  {%- if tags and tags contains "properties" and sleeps and bedrooms and header_image -%}{%- assign is_property = true -%}{%- endif -%}
+  {%- if page.url contains "/places/" and google_place_id -%}{%- assign is_place = true -%}{%- endif -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": {{ site.name | jsonify }},
+      "url": {{ site.url | jsonify }},
+      "description": {{ "A cooperative of three self-catering holiday cottages in Garsdale, near Sedbergh in the Yorkshire Dales National Park." | jsonify }},
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Garsdale",
+        "addressRegion": "Cumbria",
+        "addressCountry": "GB"
+      },
+      "sameAs": [
+        {{ "https://www.facebook.com/garsdalecottages" | jsonify }}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": {{ site.url | jsonify }},
+      "name": {{ site.name | jsonify }},
+      "inLanguage": "en-GB",
+      "publisher": {
+        "@id": "{{ site.url }}/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": {{ canonical | append: "#webpage" | jsonify }},
+      "url": {{ canonical | jsonify }},
+      "name": {{ page_name | jsonify }},
+      "description": {{ page_desc | jsonify }},
+      "isPartOf": {
+        "@id": "{{ site.url }}/#website"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": {{ site.url | append: page_image | jsonify }}
+      }
+    }{% if is_property %},
+    {
+      "@type": "VacationRental",
+      "@id": {{ canonical | append: "#vacation-rental" | jsonify }},
+      "name": {{ name | jsonify }},
+      "description": {{ page_desc | jsonify }},
+      "url": {{ canonical | jsonify }},
+      "image": [
+        {{ site.url | append: header_image | jsonify }}
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Garsdale",
+        "addressRegion": "Cumbria",
+        "addressCountry": "GB"
+      },
+      "brand": {
+        "@id": "{{ site.url }}/#organization"
+      },
+      "petsAllowed": true,
+      "containsPlace": {
+        "@type": "Accommodation",
+        "occupancy": {
+          "@type": "QuantitativeValue",
+          "maxValue": {{ sleeps }}
+        },
+        "numberOfBedrooms": {{ bedrooms }},
+        "numberOfBathroomsTotal": {{ bathrooms }}
+      },
+      "sameAs": [
+        {{ "https://www.google.com/maps/place/?q=place_id:" | append: google_place_id | jsonify }}
+      ]
+    }{% elsif is_place %},
+    {
+      "@type": {% if category == "Attraction" or category == "Activity" or category == "Waterfall" or category == "Cave" or category == "Castle" or category == "Garden" %}"TouristAttraction"{% elsif category == "Pub" %}"BarOrPub"{% elsif category == "Restaurant" %}"Restaurant"{% elsif category == "Cafe" %}"CafeOrCoffeeShop"{% elsif category == "Shop" %}"Store"{% elsif category == "Station" %}"TrainStation"{% elsif category == "Museum" %}"Museum"{% else %}"LocalBusiness"{% endif %},
+      "@id": {{ canonical | append: "#place" | jsonify }},
+      "name": {{ name | default: google.name | jsonify }},
+      "description": {{ page_desc | jsonify }},
+      "url": {{ canonical | jsonify }},
+      "image": {{ site.url | append: page_image | jsonify }}{% if google.address %},
+      "address": {{ google.address | jsonify }}{% endif %}{% if google.location %},
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": {{ google.location.lat }},
+        "longitude": {{ google.location.lng }}
+      }{% endif %}{% if google.phone %},
+      "telephone": {{ google.phone | jsonify }}{% endif %}{% if google.url %},
+      "sameAs": [
+        {{ google.url | jsonify }}{% if google.website %},
+        {{ google.website | jsonify }}{% endif %}
+      ]{% endif %}
+    }{% elsif page.url == "/" %},
+    {
+      "@type": "ItemList",
+      "@id": "{{ site.url }}/#cottages",
+      "name": "Garsdale Cottages",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "{{ site.url }}/properties/roger-pot/",
+          "name": "Roger Pot"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "{{ site.url }}/properties/the-old-cart-house/",
+          "name": "The Old Cart House"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "{{ site.url }}/properties/farriers-cottage/",
+          "name": "Farrier's Cottage"
+        }
+      ]
+    }{% endif %}
+  ]
+}
+</script>
+{%- endunless -%}

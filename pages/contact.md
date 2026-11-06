@@ -14,7 +14,7 @@ blocks:
   dark: false
   content: 'Hi and thanks for looking at Garsdale Cottages. For enquiries, information
     about booking your stay or any questions about the area, please get in touch
-    using the contact details below.'
+    using the contact details below. The owners aim to reply within 72 hours.'
 - type: features
   dark: false
   items:

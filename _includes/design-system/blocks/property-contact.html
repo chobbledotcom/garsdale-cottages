@@ -1,0 +1,14 @@
+{%- comment -%}
+  Property-contact block with the response-time note. The stock block renders
+  the form only; Garsdale owners reply within 72 hours, so say so here rather
+  than repeating it in every property page.
+{%- endcomment -%}
+
+<div class="container">
+  <h1>Contact {{ item.data.name }}</h1>
+  <p>We aim to reply within 72 hours.</p>
+  {%- assign form_target_override = "https://submit-form.com/" | append: item.data.formspark_id -%}
+  {%- include "contact-form.html" -%}
+  {%- assign form_target_override = nil -%}
+  <a href="/{{ strings.property_permalink_dir }}/{{ item.fileSlug }}/" class="btn btn--primary">Back to {{ item.data.name }}</a>
+</div>

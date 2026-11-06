@@ -1,6 +1,6 @@
 ---
 name: Roger Pot
-subtitle: A three bedroom property ideal for families
+subtitle: A detached three bedroom stone cottage sleeping six
 thumbnail: /images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg
 header_image: /images/properties/roger-pot/stone-house-with-white-doors-and-windows-gravel-pathway-ston.jpeg
 featured: false
@@ -97,7 +97,7 @@ blocks:
   content: |-
     # Roger Pot
 
-    ## A three bedroom property ideal for families
+    ## A detached three bedroom stone cottage sleeping six
 - type: freetobook
   compact: true
 - type: property-gallery
@@ -149,12 +149,12 @@ blocks:
     — one of England''s most scenic railways, with connections to Leeds and Carlisle.
 
 
-    **Book direct through this site and you deal directly with the property owner
-    — no agency fees, no booking commissions, and the personal service that comes
-    from speaking to someone who knows the property and the area inside out.** When
-    you book through sites like Booking.com or Sykes, they take a significant cut
-    of the price, which either inflates what you pay or reduces what the owner receives.
-    Booking here means a better deal for everyone.
+    **Book direct through this site and you deal with the property owner. No agency
+    booking fee or commission is added on the direct route.** Roger Pot is owned
+    and run by Paul and Karen, who live on site in the adjacent barn, and it is
+    one of three cottages in the Garsdale Cottages cooperative. For availability
+    and the current price for your dates, use the availability link on this page
+    or contact them directly. Paul will confirm availability and the price for your dates before you book.
 
 
     ## Touch Stay property Guide

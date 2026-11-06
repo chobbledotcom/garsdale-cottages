@@ -77,6 +77,8 @@ blocks:
     # Farrier's Cottage
 
     ## A three bedroom stone cottage dating back to 1675
+
+    For enquiries, [contact the owner](/properties/farriers-cottage/contact/); we aim to reply within 72 hours.
 - type: property-gallery
   compact: true
 - type: markdown
@@ -153,12 +155,11 @@ blocks:
     miles away.
 
 
-    **Book direct through this site and you deal directly with the property owner -
-    no agency fees, no booking commissions, and the personal service that comes from
-    speaking to someone who knows the cottage and the area inside out.** When you book
-    through sites like Booking.com or Sykes, they take a significant cut of the price,
-    which either inflates what you pay or reduces what the owner receives. Booking
-    here means a better deal for everyone.
+    **Book direct through this site and you deal with Phil, who owns the cottage.
+    No agency booking fee or commission is added on the direct route.** Phil
+    handles enquiries for Farrier''s Cottage directly, and the cottage is one of
+    three in the Garsdale Cottages cooperative. For availability and the current
+    price for your dates, use the enquiry form on this page. Phil will confirm availability and the price for your dates before you book.
 
 
     ## At a glance
@@ -208,10 +209,12 @@ blocks:
     - Note: the garden is not enclosed and a public right of way crosses the front
     of the property, so dogs must be kept under control. This is sheep farming country
     - dogs must be kept on a lead when out walking.'
+- type: markdown
+  content: 'Enquiries are by email. We aim to reply within 72 hours.'
 - type: link-button
   compact: true
   text: Enquire About Farrier's Cottage
-  href: /contact/
+  href: /properties/farriers-cottage/contact/
   variant: primary
 - type: property-features
   compact: true

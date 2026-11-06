@@ -1,0 +1,20 @@
+{%- comment -%}
+  Inline contact section with the Garsdale response-time note. The stock
+  partial renders the form only; all three owners reply within 72 hours, so
+  say so on property pages.
+{%- endcomment -%}
+
+{%- if formspark_id and formspark_id != "" -%}
+  {%- assign form_target_override = "https://submit-form.com/" | append: formspark_id -%}
+{%- endif -%}
+{%- assign _effective_form_target = form_target_override | default: config.form_target -%}
+{%- if _effective_form_target and _effective_form_target != "" -%}
+  <div>
+    <h2>Get in Touch</h2>
+    {%- if tags and tags contains "properties" -%}
+      <p>We aim to reply within 72 hours.</p>
+    {%- endif -%}
+    {%- include "contact-form.html" -%}
+  </div>
+{%- endif -%}
+{%- assign form_target_override = nil -%}

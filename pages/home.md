@@ -2,8 +2,8 @@
 name: Garsdale Cottages
 header_text: Garsdale Cottages
 subtitle: Holiday cottages near Sedbergh in the Yorkshire Dales - book direct with property owners
-meta_title: Garsdale Cottages | Holidaying near Sedbergh, Yorkshire
-meta_description: Holiday cottages near Sedbergh in the Yorkshire Dales. Book direct with owners - Roger Pot (sleeps 6) and The Old Cart House (sleeps 2). No agency fees.
+meta_title: Garsdale Cottages | Holiday Cottages, Sedbergh, Yorkshire Dales
+meta_description: Holiday cottages in Garsdale near Sedbergh, Yorkshire Dales. Book direct - Roger Pot (sleeps 6) and The Old Cart House (sleeps 2), plus Farrier's Cottage. No agency fees.
 layout: base
 permalink: /
 eleventyNavigation:
@@ -23,43 +23,44 @@ blocks:
     masonry: false
     intro_content: |-
           Garsdale Cottages offers three self-catering holiday cottages in Garsdale, close to Sedbergh and Hawes in the Yorkshire Dales National Park.
-          
+
           ### Book a Yorkshire Dales cottage directly with the owner
           Choose from three stone-built cottages in peaceful Garsdale: The Old Cart House, Roger Pot and Farrier's Cottage.
           **[The Old Cart House](/properties/the-old-cart-house/)** is a detached one-bedroom stone cottage with a king-size bedroom, en-suite shower room, open-plan living space, electric fire and rear patio garden.
           **[Roger Pot](/properties/roger-pot/)** is a detached three-bedroom stone cottage set up a rural farm track, around 6.3 miles from Sedbergh and 9 miles from Hawes.
           **[Farrier's Cottage](/properties/farriers-cottage/)** is a semi-detached three-bedroom stone cottage that began life in 1675 as the blacksmith's cottage and workshop. It sleeps six and sits around 7 miles from Sedbergh and 9 miles from Hawes.
+          All three cottages are in Garsdale, within the Yorkshire Dales National Park. Roger Pot and Farrier's Cottage sleep six; The Old Cart House sleeps two. Each cottage page lists its bedrooms, bathrooms, pets, parking and facilities.
           &nbsp;
   - type: features
     dark: false
     items:
           - icon: hugeicons:discount-tag-02
-            description: No agency fees or booking commissions - you pay less, we receive more. Everyone wins.
-            name: Better Prices
+            description: No agency booking fee or commission is added; you deal with the owner.
+            name: No Agency Fees
           - icon: hugeicons:customer-service
-            description: Deal directly with the cottage owners who know their properties inside out.
-            name: Personal Service
+            description: The owner answers questions about their own cottage.
+            name: Owner Contact
           - icon: hugeicons:compass
-            description: Get insider tips on walks, pubs, hidden gems and the best the Yorkshire Dales has to offer.
+            description: The owners know the cottages and the area.
             name: Local Knowledge
           - icon: hugeicons:agreement-02
-            description: Book with confidence directly through us - straightforward, simple, personal.
-            name: No Middlemen
+            description: Booking and payment go through the owner or their own booking page.
+            name: Direct Booking
           - icon: hugeicons:message-01
-            description: Ask about access, facilities or special requirements and get answers from someone who knows the cottage.
-            name: Straight Answers
+            description: Ask about access, facilities, pets or the area and get an answer from the owner.
+            name: Access Questions
           - icon: hugeicons:home-01
-            description: Your booking supports the people who care for the cottages and live in the local area.
-            name: Support Local Owners
+            description: Each cottage is owned and run by its own owner.
+            name: Independent Owners
     center: false
     intro_content: |-
           ### Why book direct with Garsdale Cottages?
-          
-           Booking direct means you deal with the cottage owners rather than a large agency. There are no agency booking fees or commission charges. 
-          
+
+           Booking direct means you deal with the cottage owner rather than a large agency. No agency booking fee or commission is added.
+
           ### How do I book a Garsdale cottage?
-          
-           Check availability online and book your Garsdale cottage directly with the owner. 
+
+           Check availability online and book your Garsdale cottage directly with the owner.
   - type: image-cards
     dark: false
     items:
@@ -72,15 +73,15 @@ blocks:
             link: /garsdale-wildlife/
             name: Wildlife
           - image: /images/places-of-interest/snowy-howgill-fells.jpeg
-            description: Howgill Fells, Dales Way, Pennine Bridleway - miles of spectacular walks from the doorstep.
+            description: Howgill Fells, Dales Way and Pennine Bridleway walks from the doorstep.
             link: /walks/
-            name: Walking Paradise
+            name: Walks from the Door
           - image: /images/scenery/garsdale-in-winter.jpeg
             description: One of England's most scenic railways, with Garsdale station just minutes away.
             link: /places/garsdale-station/
             name: Settle-Carlisle Railway
           - image: /images/scenery/moon-over-langstone-fell.jpeg
-            description: No street lighting and minimal light pollution make clear nights ideal for seeing stars and the Milky Way.
+            description: No street lighting and minimal light pollution; on a clear night the Milky Way is visible.
             link: /dark-skies-in-garsdale/
             name: Dark Skies
           - image: /images/old-garsdale/historical-village-view.png
