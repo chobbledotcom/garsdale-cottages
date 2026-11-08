@@ -119,7 +119,7 @@ blocks:
     content: |-
           ## Eating Out with Children
 
-          The pubs and cafes within easy reach are listed in full on our [eating and drinking page](/eating-and-drinking-in-garsdale/). The nearest is the [Moorcock Inn](/places/moorcock-inn/) at Garsdale Head, at the top of the dale. Others within an easy drive are the [Green Dragon](/places/green-dragon-inn-hardraw/) at Hardraw, which serves food and has a music night on Wednesdays, the [White Hart](/places/white-hart-inn-hawes/) and the [Board Inn](/places/board-inn-hawes/) in Hawes, and the [Red Lion](/places/red-lion-sedbergh/) in Sedbergh. The [Cross Keys](/places/cross-keys-temperance-inn-cautley/) at Cautley is a temperance inn, so there is no alcohol, and [Stone Close tea room](/places/stone-close-tea-room-dent/) in Dent is a good stop after a day out.
+          The pubs, cafes and tea rooms within easy reach are listed in full on our [eating and drinking page](/eating-and-drinking-in-garsdale/). The nearest place to eat is the [Moorcock Inn](/places/moorcock-inn/) at Garsdale Head, at the top of the dale, which is now a licensed tea room rather than a pub and does cakes, sandwiches and ice cream. Others within an easy drive are the [Green Dragon](/places/green-dragon-inn-hardraw/) at Hardraw, which serves food and has a music night on Wednesdays, the [White Hart](/places/white-hart-inn-hawes/) and the [Board Inn](/places/board-inn-hawes/) in Hawes, and the [Red Lion](/places/red-lion-sedbergh/) in Sedbergh. The [Cross Keys](/places/cross-keys-temperance-inn-cautley/) at Cautley is a temperance inn, so there is no alcohol, and [Stone Close tea room](/places/stone-close-tea-room-dent/) in Dent is a good stop after a day out.
 
           Food service times move about with the season round here, so it is worth ringing ahead if you are driving over specially with hungry children in the car.
   - type: cta
@@ -171,7 +171,7 @@ blocks:
           - [Powells, Sedbergh](https://www.sedbergh.org.uk/locations/powells/) and [Spar, Sedbergh](/places/spar-sedbergh/)
           - [Sedgwick Geological Trail](https://www.kgg.org.uk/sedgwick.html)
           - Local caves: [Tom Croft Cave](/places/tom-croft-cave/) and [Dovecote Cave](/places/dovecote-cave/)
-          - Local pubs: [Moorcock Inn](/places/moorcock-inn/), [White Hart](/places/white-hart-inn-hawes/), [Board Inn](/places/board-inn-hawes/) and [Red Lion](/places/red-lion-sedbergh/)
+          - Local pubs and tea rooms: [Moorcock Inn](/places/moorcock-inn/) (tea room), [White Hart](/places/white-hart-inn-hawes/), [Board Inn](/places/board-inn-hawes/) and [Red Lion](/places/red-lion-sedbergh/)
           - [Cotter Force](https://www.yorkshiredales.org.uk/places/cotter_force/) and [Semerwater](https://www.yorkshiredales.org.uk/places/semer_water/) - Yorkshire Dales National Park
           - [Cautley Spout](https://www.yorkshiredales.org.uk/places/cautley_spout/) and [the Cautley walk](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/)
           - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))

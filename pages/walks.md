@@ -26,7 +26,7 @@ blocks:
           Travelling towards Hawes there is a parking area for a short walk to [Cotter Force](/places/cotter-force/), which has a good flat pathway beside the river leading to the waterfalls.
           A longer waterfall walk is to [Cautley Spout](/places/cautley-spout/) in Cautley. This walk starts by the [Cross Keys Temperance Inn](/places/cross-keys-temperance-inn-cautley/) and the bridge crossing the river.
           For a walk from Garsdale village, follow the bridleway beside Dandra Garth through the woods and gate and this will take you to the pathway which, eventually, would lead to Cowgill, Dent (or take a right and follow the path over Rise Hill to the Langstone Fell. The ground can be boggy if it has been raining so caution is needed and good boots, but the views from here are fantastic.
-          Another walk is following the pathway behind the old Moorcock pub. Once you have crossed the bridge follow the path up the hillside and at the top is the Pennine Bridleway. Take left to head in the Kirkby Stephen direction and right is in the Cotter Force direction. Both are great walks with lovely scenery and often grouse can be heard, and sometimes seen, in the heather.
+          Another walk is following the pathway behind the Moorcock Inn at Garsdale Head. Once you have crossed the bridge follow the path up the hillside and at the top is the Pennine Bridleway. Take left to head in the Kirkby Stephen direction and right is in the Cotter Force direction. Both are great walks with lovely scenery and often grouse can be heard, and sometimes seen, in the heather.
           The **Rise Hill Ridge** walk follows the Coal Road up from Garsdale village towards Langstone Fell, with outstanding views in every direction. On a clear day you can see the Howgill Fells, Baugh Fell and across into Dentdale.
           **Cotterdale Force** is a waterfall in the quiet valley of Cotterdale, between Garsdale Head and Hawes. It was sketched by the painter J.M.W. Turner and is a lovely, uncrowded walk.
           A traditional annual walk into [Grisedale](/grisedale/) is organised from [Mount Zion Chapel](/places/mount-zion-chapel-garsdale-head/), usually in July or August, followed by tea back at the chapel. During summer months, evening walks are also organised from the [Village Hall](/garsdale-village-hall-and-community/), sometimes followed by a ploughman's supper or barbecue.
@@ -35,7 +35,7 @@ blocks:
           ## From the Doorstep
           There are a number of marked footpaths in Garsdale so guests can take a walk directly from any of the properties without needing their car.
           For the adventurous, there is a pathway across the moors to Dent. This would start following the pathway by Dandra Garth.
-          There are also walks around nearby Grisedale and behind the old Moorcock pub there is a pathway leading to the Pennine Bridleway with walks in the direction of Kirkby Stephen and the opposite direction towards [Cotter Force](/places/cotter-force/).
+          There are also walks around nearby Grisedale and behind the Moorcock Inn at Garsdale Head there is a pathway leading to the Pennine Bridleway with walks in the direction of Kirkby Stephen and the opposite direction towards [Cotter Force](/places/cotter-force/).
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell
     reverse: false

@@ -4,7 +4,7 @@ header_text: Eating and Drinking
 layout: base
 subtitle: Pubs, food and drink in and around Garsdale
 meta_title: Eating and Drinking in Garsdale | Pubs and Food
-meta_description: Pubs, restaurants and local food near Garsdale in the Yorkshire Dales, including the Moorcock Inn, the Green Dragon and Wensleydale cheese.
+meta_description: Pubs, tea rooms, restaurants and local food near Garsdale in the Yorkshire Dales, including the Moorcock Inn, the Green Dragon and Wensleydale cheese.
 blocks:
   - type: image-background
     parallax: true
@@ -12,13 +12,13 @@ blocks:
     image_alt: Artisan market stalls on a Sedbergh street near Garsdale
     content: "# Eating and Drinking"
   - type: markdown
-    content: There is no pub in Garsdale itself, though there used to be. Garsdale Hall, near the centre of the dale close to St John's Church, was formerly a coaching inn called the George and Dragon, recorded as such in the 1851 census. At the top of the dale, Junction Cottage at Garsdale Head was once the Junction Inn. Both are now in private use. The dale's remoteness from pubs is part of its character, but there are good options within a short drive.
+    content: There is no pub in Garsdale itself, though there used to be. Garsdale Hall, near the centre of the dale close to St John's Church, was formerly a coaching inn called the George and Dragon, recorded as such in the 1851 census. At the top of the dale, Junction Cottage at Garsdale Head was once the Junction Inn. Both are now in private use. The Moorcock at Garsdale Head was the nearest pub and is now a licensed tea room. The dale's remoteness from pubs is part of its character, but there are good options within a short drive.
   - type: split-image
     content: |-
           ## [The Moorcock Inn](/places/moorcock-inn/)
-          The Moorcock sits right at the head of the dale, at the junction of the A684 and B6259. It serves food and has accommodation, and is the closest thing Garsdale has to a local. The [Dandrymire Viaduct](/places/dandrymire-viaduct/) is visible from the pub and only a short walk away. For those arriving by train at [Garsdale Station](/places/garsdale-station/), the Little White Bus runs a shuttle timed to meet arriving trains.
+          The Moorcock sits right at the head of the dale, at the junction of the A684 and B6259. It is no longer a pub, and it is now a licensed tea room with bed and breakfast rooms and a one-bedroom self-catering let. It is the closest thing Garsdale has to a local. The tea room does ice cream, cakes, snacks and sandwiches, with home-cooked food and local ales, and dogs are welcome. Opening times are at the owners' discretion and it can close early in quiet periods and in winter, so ring 07960 930047 before making a special trip. The [Dandrymire Viaduct](/places/dandrymire-viaduct/) is visible from the building and only a short walk away. For those arriving by train at [Garsdale Station](/places/garsdale-station/), the Little White Bus runs a shuttle timed to meet arriving trains.
     figure_src: /images/eating-and-drinking/moorcock-inn.jpg
-    figure_alt: The Moorcock Inn, a whitewashed pub at Garsdale Head
+    figure_alt: The whitewashed Moorcock Inn at Garsdale Head
     reverse: false
   - type: split-image
     content: |-
@@ -53,6 +53,7 @@ blocks:
           In **[Hawes](/locations/hawes/)**, nine miles east, the [White Hart](/places/white-hart-inn-hawes/) and the [Board Inn](/places/board-inn-hawes/) both do meals and drinks, and [Caffe Curva](/places/caff-curva/) on Market Place does daytime food.
           At **Cautley**, the [Cross Keys temperance inn](/places/cross-keys-temperance-inn-cautley/) will allow dogs into the lounge area but not into the tabled restaurant area, which is the one exception worth remembering on the list.
           At **Hardraw**, the [Green Dragon](/places/green-dragon-inn-hardraw/) does meals and drinks and takes dogs, and [Hardraw Force](/places/hardraw-force/) is behind the pub.
+          At **Garsdale Head**, the [Moorcock Inn](/places/moorcock-inn/) is now a licensed tea room rather than a pub. It takes dogs and has outside seating.
   - type: split-image
     content: |-
           ## [Wensleydale Creamery at Hawes](/places/wensleydale-creamery-hawes/)

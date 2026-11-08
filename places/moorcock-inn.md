@@ -1,11 +1,11 @@
 ---
 name: The Moorcock Inn
 search: Moorcock Inn, Garsdale Head, Sedbergh, UK
-category: Pub
+category: Cafe
 permalink: /places/moorcock-inn/
 layout: base
-meta_title: The Moorcock Inn | Pubs Near Garsdale and Sedbergh
-meta_description: The Moorcock Inn, a pub near Garsdale and Sedbergh in the Yorkshire Dales.
+meta_title: The Moorcock Inn | Tea Room Near Garsdale and Sedbergh
+meta_description: The Moorcock Inn at Garsdale Head is a licensed tea room and B&B near Garsdale and Sedbergh in the Yorkshire Dales.
 google_place_id: ChIJmWSyVjVkfEgRaqK9eGtY7Lo
 google:
   name: The Moorcock Inn
@@ -38,7 +38,7 @@ blocks:
     content: "# The Moorcock Inn"
   - type: split-html
     reverse: true
-    content: The Moorcock sits right at the head of the dale, at the junction of the A684 and B6259, just into Richmondshire - on the gateway to both the Yorkshire Dales and the Lake District. It serves food and has accommodation, making it a useful base whether you are after a relaxing retreat or a walking holiday. Pub quiz nights have been a regular fixture on Tuesday evenings, and it is the closest thing Garsdale has to a local. The Dandrymire Viaduct (also known as the Moorcock Viaduct) is visible from the pub and only a short walk away - with twelve arches, standing fifty feet high and 227 yards long, it is a spectacular sight and carries the [Settle-Carlisle line](/places/garsdale-station/), including regular steam-hauled services. For those arriving by train at Garsdale Station, the Little White Bus runs a shuttle timed to meet arriving trains and will take you to the Moorcock and into Hawes; a taxi service is also available from the B&B next door, taking up to eight passengers.
+    content: The Moorcock sits right at the head of the dale at Garsdale Head, at the junction of the A684 and B6259, in Cumbria and at the gateway to both the Yorkshire Dales and the Lake District. It used to be a pub, and it is now a licensed tea room with bed and breakfast rooms and a one-bedroom self-catering let, making it a useful base whether you are after a relaxing retreat or a walking holiday. The tea room serves ice cream, cakes, snacks and sandwiches, with home-cooked food and a fridge stocked with local ales. There is a cake shed as well, and dogs are welcome. Opening times are at the owners' discretion, and it can close early in quiet periods and through the winter months, so it is worth ringing ahead on 07960 930047 if you are driving over specially. It is the closest thing Garsdale has to a local. The Dandrymire Viaduct (also known as the Moorcock Viaduct) is visible from the building and only a short walk away - with twelve arches, standing fifty feet high and 227 yards long, it is a spectacular sight and carries the [Settle-Carlisle line](/places/garsdale-station/), including regular steam-hauled services. For those arriving by train at Garsdale Station, about a mile away, the Little White Bus runs a shuttle timed to meet arriving trains and will take you to the Moorcock and into Hawes; a taxi service is also available from the B&B next door, taking up to eight passengers. The Lady Anne's Way and the Pennine Bridleway are close by, the market town of Hawes with the Wensleydale Creamery is six miles away, and the Lake District is around forty minutes by car.
     figure_html: "{% include \"business-details.html\", place_slug: \"moorcock-inn\" %}"
   - type: items
     collection: properties

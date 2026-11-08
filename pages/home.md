@@ -136,7 +136,7 @@ blocks:
             link: /garsdale-house-names-and-local-places/
             name: House Names and Local Places
           - image: /images/places-of-interest/rainbow-over-dale.jpeg
-            description: Pubs, restaurants and local food near Garsdale, including the Moorcock Inn, the Green Dragon and Wensleydale cheese.
+            description: Pubs, tea rooms, restaurants and local food near Garsdale, including the Moorcock Inn, the Green Dragon and Wensleydale cheese.
             link: /eating-and-drinking-in-garsdale/
             name: Eating and Drinking
           - image: /images/wildlife/lamb.jpeg

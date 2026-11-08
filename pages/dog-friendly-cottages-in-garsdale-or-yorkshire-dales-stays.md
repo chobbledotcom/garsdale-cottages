@@ -72,6 +72,8 @@ blocks:
 
           **Cautley**, on the road out of Sedbergh towards Kirkby Stephen, has the [Cross Keys temperance inn](/places/cross-keys-temperance-inn-cautley/). It allows dogs into the lounge area but not into the tabled restaurant area, so ask for the lounge when you come in and you will be fine.
 
+          **Garsdale Head**, at the top of the dale, has the [Moorcock Inn](/places/moorcock-inn/), which is now a licensed tea room rather than a pub. It takes dogs, does cakes, sandwiches and ice cream, and has outside seating.
+
           **Hardraw**, just outside Hawes, has the [Green Dragon](/places/green-dragon-inn-hardraw/) for meals and drinks, and [Hardraw Force](/places/hardraw-force/) is reached through the pub grounds, which makes it an easy afternoon with the dog.
 
           One nearby pub that is not dog friendly is [The Dalesman Country Inn](/places/dalesman-country-inn-sedbergh/) in Sedbergh, so plan around that one if you are bringing your dog.
