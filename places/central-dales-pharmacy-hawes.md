@@ -38,7 +38,7 @@ blocks:
           - [Caffe Curva](/places/caff-curva/) - cafe on Market Place
           - [The White Hart Inn, Hawes](/places/white-hart-inn-hawes/) - pub and restaurant on the main street
           - [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - in the old railway station
-          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes
+          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes, now permanently closed
 google_place_id: ChIJyRaaD0BsfEgRx392hJ2n1JE
 google:
   name: Central Dales Pharmacy

@@ -9,22 +9,18 @@ const fs = require("node:fs");
 const path = require("node:path");
 const https = require("node:https");
 
-const args = process.argv.slice(2);
-let inputFile = null;
-let outputDir = "assets/icons/touchstay";
+const { parseArgv } = require("./cli-utils.js");
 
-// Parse arguments
-for (let i = 0; i < args.length; i++) {
-	if (args[i] === "--output-dir" && args[i + 1]) {
-		outputDir = args[++i];
-	} else if (!args[i].startsWith("-")) {
-		inputFile = args[i];
-	}
-}
+const args = process.argv.slice(2);
+const parsed = parseArgv(args, { value: { "--output-dir": "outputDir" } });
+const inputFile = parsed.positionals.at(-1) ?? null;
+const outputDir = parsed.outputDir ?? "assets/icons/touchstay";
 
 if (!inputFile) {
-	console.error("Usage: node scripts/download-touchstay-icons.js <input.json> [--output-dir <dir>]");
-	process.exit(1);
+  console.error(
+    "Usage: node scripts/download-touchstay-icons.js <input.json> [--output-dir <dir>]",
+  );
+  process.exit(1);
 }
 
 // Read and parse input file
@@ -36,7 +32,7 @@ const svgUrls = new Set();
 const str = JSON.stringify(data);
 const matches = str.match(/https[^"]+\.svg[^"]*/g) || [];
 for (const url of matches) {
-	svgUrls.add(url.replace(/\\u0026/g, "&"));
+  svgUrls.add(url.replace(/\\u0026/g, "&"));
 }
 
 console.log(`Found ${svgUrls.size} unique SVG URLs\n`);
@@ -46,55 +42,59 @@ fs.mkdirSync(outputDir, { recursive: true });
 
 // Download function
 function downloadSvg(url) {
-	return new Promise((resolve, reject) => {
-		const cleanUrl = url.split("?")[0]; // Remove query params for filename
-		const filename = path.basename(cleanUrl);
+  return new Promise((resolve, reject) => {
+    const cleanUrl = url.split("?")[0]; // Remove query params for filename
+    const filename = path.basename(cleanUrl);
 
-		https.get(url, (response) => {
-			if (response.statusCode === 301 || response.statusCode === 302) {
-				// Follow redirect
-				downloadSvg(response.headers.location).then(resolve).catch(reject);
-				return;
-			}
+    https
+      .get(url, (response) => {
+        if (response.statusCode === 301 || response.statusCode === 302) {
+          // Follow redirect
+          downloadSvg(response.headers.location).then(resolve).catch(reject);
+          return;
+        }
 
-			if (response.statusCode !== 200) {
-				reject(new Error(`HTTP ${response.statusCode} for ${url}`));
-				return;
-			}
+        if (response.statusCode !== 200) {
+          reject(new Error(`HTTP ${response.statusCode} for ${url}`));
+          return;
+        }
 
-			let data = "";
-			response.on("data", (chunk) => { data += chunk; });
-			response.on("end", () => {
-				resolve({ filename, data });
-			});
-			response.on("error", reject);
-		}).on("error", reject);
-	});
+        let data = "";
+        response.on("data", (chunk) => {
+          data += chunk;
+        });
+        response.on("end", () => {
+          resolve({ filename, data });
+        });
+        response.on("error", reject);
+      })
+      .on("error", reject);
+  });
 }
 
 // Download all SVGs
 async function downloadAll() {
-	const urls = [...svgUrls];
-	let success = 0;
-	let failed = 0;
+  const urls = [...svgUrls];
+  let success = 0;
+  let failed = 0;
 
-	for (const url of urls) {
-		try {
-			const { filename, data } = await downloadSvg(url);
-			const outputPath = path.join(outputDir, filename);
-			fs.writeFileSync(outputPath, data);
-			console.log(`✓ Downloaded: ${filename}`);
-			success++;
-		} catch (error) {
-			console.error(`✗ Failed: ${url} - ${error.message}`);
-			failed++;
-		}
-	}
+  for (const url of urls) {
+    try {
+      const { filename, data } = await downloadSvg(url);
+      const outputPath = path.join(outputDir, filename);
+      fs.writeFileSync(outputPath, data);
+      console.log(`✓ Downloaded: ${filename}`);
+      success++;
+    } catch (error) {
+      console.error(`✗ Failed: ${url} - ${error.message}`);
+      failed++;
+    }
+  }
 
-	console.log(`\n✓ Successfully downloaded ${success} icons`);
-	if (failed > 0) {
-		console.log(`✗ Failed to download ${failed} icons`);
-	}
+  console.log(`\n✓ Successfully downloaded ${success} icons`);
+  if (failed > 0) {
+    console.log(`✗ Failed to download ${failed} icons`);
+  }
 }
 
 downloadAll();

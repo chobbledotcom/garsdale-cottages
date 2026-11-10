@@ -13,8 +13,10 @@
  *   node scripts/parse-touchstay-guide.js touchstay.json --output-dir .
  */
 
-const { readFileSync, writeFileSync, mkdirSync, existsSync } = require("fs");
-const { join } = require("path");
+const fs = require("node:fs");
+const { join } = require("node:path");
+const { parseArgv, wantsHelp } = require("./cli-utils.js");
+const { slugify } = require("./text-utils.js");
 
 // Icon mapping from TouchStay category icons to local icons
 const ICON_MAP = {
@@ -45,19 +47,6 @@ const MAP_ICON_MAP = {
   train: "train.svg",
   taxi: "taxi.svg",
 };
-
-/**
- * Convert a string to a URL-friendly slug
- */
-function slugify(text) {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, "") // Remove special characters
-    .replace(/\s+/g, "-") // Replace spaces with hyphens
-    .replace(/-+/g, "-") // Replace multiple hyphens with single
-    .replace(/^-|-$/g, "") // Remove leading/trailing hyphens
-    .substring(0, 50); // Limit length
-}
 
 /**
  * Convert HTML to Markdown
@@ -155,7 +144,7 @@ function escapeYaml(str) {
   if (!str) return "";
   // If the string contains special characters, wrap in quotes
   if (
-    /[:#\[\]{}|>&*!?,\n]/.test(str) ||
+    /[:#[\]{}|>&*!?,\n]/.test(str) ||
     str.includes('"') ||
     str.includes("'")
   ) {
@@ -165,38 +154,104 @@ function escapeYaml(str) {
 }
 
 /**
+ * Format one item of a front matter array
+ */
+function formatFrontMatterItem(item) {
+  if (typeof item !== "object") {
+    return `  - ${escapeYaml(String(item))}\n`;
+  }
+
+  return Object.entries(item).reduce(
+    (acc, [key, value], index) =>
+      `${acc}${index === 0 ? "" : "    "}${key}: ${escapeYaml(String(value))}\n`,
+    "  - ",
+  );
+}
+
+/**
+ * Format one key/value pair of front matter
+ */
+function frontMatterEntry(key, value) {
+  if (value === null || value === undefined) return "";
+  if (!Array.isArray(value)) return `${key}: ${escapeYaml(String(value))}\n`;
+
+  return `${key}:\n${value.map(formatFrontMatterItem).join("")}`;
+}
+
+/**
  * Generate YAML front matter from an object
  */
 function generateFrontMatter(data) {
-  let yaml = "---\n";
+  const entries = Object.entries(data)
+    .map(([key, value]) => frontMatterEntry(key, value))
+    .join("");
 
-  for (const [key, value] of Object.entries(data)) {
-    if (value === null || value === undefined) continue;
+  return `---\n${entries}---\n`;
+}
 
-    if (Array.isArray(value)) {
-      yaml += `${key}:\n`;
-      for (const item of value) {
-        if (typeof item === "object") {
-          yaml += "  - ";
-          const entries = Object.entries(item);
-          entries.forEach(([k, v], idx) => {
-            if (idx === 0) {
-              yaml += `${k}: ${escapeYaml(String(v))}\n`;
-            } else {
-              yaml += `    ${k}: ${escapeYaml(String(v))}\n`;
-            }
-          });
-        } else {
-          yaml += `  - ${escapeYaml(String(item))}\n`;
-        }
-      }
-    } else {
-      yaml += `${key}: ${escapeYaml(String(value))}\n`;
+/**
+ * Build a guide category entry
+ */
+function buildCategory(categoryData, categoryIndex) {
+  const title =
+    categoryData.title_translations?.en || `Category ${categoryIndex + 1}`;
+
+  return {
+    slug: slugify(title),
+    frontMatter: {
+      title: title,
+      subtitle: `${title} information and guides`,
+      order: categoryIndex + 1,
+      icon: ICON_MAP[categoryData.icon] || DEFAULT_ICON,
+    },
+    content: `# ${title}\n\nExplore the guides in this section to learn more.`,
+  };
+}
+
+/**
+ * Build a guide page entry for one topic
+ */
+function buildPage(topic, category, sectionTitle, order) {
+  const translations = topic.translations?.en || {};
+  const topicTitle = translations.title || "Untitled Topic";
+  const description = translations.description || "";
+
+  const frontMatter = {
+    title: topicTitle,
+    subtitle:
+      sectionTitle === topicTitle ? category.frontMatter.title : sectionTitle,
+    "guide-category": category.slug,
+    order: order,
+  };
+
+  if (topic.photo) {
+    frontMatter.featured_image = topic.photo;
+  }
+
+  return {
+    slug: `${category.slug}-${slugify(topicTitle)}`,
+    frontMatter,
+    content:
+      htmlToMarkdown(description) || `# ${topicTitle}\n\nContent coming soon.`,
+  };
+}
+
+/**
+ * Build the pages for every subcategory of a category
+ */
+function buildCategoryPages(categoryData, category) {
+  const pages = [];
+
+  for (const subcategory of categoryData.subcategories || []) {
+    const sectionTitle =
+      subcategory.title_translations?.en || "Untitled Section";
+
+    for (const topic of subcategory.topics || []) {
+      pages.push(buildPage(topic, category, sectionTitle, pages.length + 1));
     }
   }
 
-  yaml += "---\n";
-  return yaml;
+  return pages;
 }
 
 /**
@@ -208,87 +263,21 @@ function parseTouchStayGuide(jsonData) {
 
   const infoContent = jsonData.content?.info_content || [];
 
-  infoContent.forEach((category, categoryIndex) => {
-    const categoryTitle =
-      category.title_translations?.en || `Category ${categoryIndex + 1}`;
-    const categorySlug = slugify(categoryTitle);
-    const categoryIcon = ICON_MAP[category.icon] || DEFAULT_ICON;
-
-    // Create category
-    categories.push({
-      slug: categorySlug,
-      frontMatter: {
-        title: categoryTitle,
-        subtitle: `${categoryTitle} information and guides`,
-        order: categoryIndex + 1,
-        icon: categoryIcon,
-      },
-      content: `# ${categoryTitle}\n\nExplore the guides in this section to learn more.`,
-    });
-
-    // Process subcategories and their topics
-    const subcategories = category.subcategories || [];
-    let pageOrder = 1;
-
-    subcategories.forEach((subcategory) => {
-      const subcategoryTitle =
-        subcategory.title_translations?.en || "Untitled Section";
-      const topics = subcategory.topics || [];
-
-      topics.forEach((topic) => {
-        const translations = topic.translations?.en || {};
-        const topicTitle = translations.title || "Untitled Topic";
-        const topicDescription = translations.description || "";
-        const topicSlug = slugify(topicTitle);
-
-        // Generate subtitle from subcategory if different from topic
-        let subtitle = subcategoryTitle;
-        if (subcategoryTitle === topicTitle) {
-          subtitle = categoryTitle;
-        }
-
-        // Convert description HTML to markdown
-        const markdownContent = htmlToMarkdown(topicDescription);
-
-        // Build front matter
-        const frontMatter = {
-          title: topicTitle,
-          subtitle: subtitle,
-          "guide-category": categorySlug,
-          order: pageOrder,
-        };
-
-        // Add photo if present
-        if (topic.photo) {
-          frontMatter.featured_image = topic.photo;
-        }
-
-        // Only add FAQs if there are any (empty array causes YAML issues)
-        // frontMatter.faqs = [];
-
-        pages.push({
-          slug: `${categorySlug}-${topicSlug}`,
-          frontMatter,
-          content: markdownContent || `# ${topicTitle}\n\nContent coming soon.`,
-        });
-
-        pageOrder++;
-      });
-    });
-  });
+  for (const [categoryIndex, categoryData] of infoContent.entries()) {
+    const category = buildCategory(categoryData, categoryIndex);
+    categories.push(category);
+    pages.push(...buildCategoryPages(categoryData, category));
+  }
 
   return { categories, pages };
 }
 
 /**
- * Extract map places from TouchStay JSON
+ * Build the icon type lookup from map.icons
  */
-function extractMapPlaces(jsonData) {
-  const places = [];
+function buildIconTypes(icons) {
   const iconTypes = {};
 
-  // Build icon type lookup from map.icons
-  const icons = jsonData.map?.icons || [];
   for (const icon of icons) {
     iconTypes[icon.type] = {
       label: icon.translations?.en || icon.type,
@@ -299,30 +288,74 @@ function extractMapPlaces(jsonData) {
     };
   }
 
-  // Extract info markers
+  return iconTypes;
+}
+
+/**
+ * English translations of a TouchStay entity, or an empty object
+ */
+function translationsEn(entity) {
+  const translations = entity.translations;
+  if (!translations) return {};
+  return translations.en || {};
+}
+
+/**
+ * Label for a map marker type
+ */
+function markerLabel(markerType, iconTypes) {
+  const iconType = iconTypes[markerType] || {};
+  return iconType.label || markerType;
+}
+
+/**
+ * Local icon path for a map marker type
+ */
+function markerIcon(markerType, iconTypes) {
+  const iconType = iconTypes[markerType] || {};
+  return iconType.localIcon || `icons/touchstay/${markerType}.svg`;
+}
+
+/**
+ * Coordinates for a map place
+ */
+function markerLocation(marker) {
+  const location = marker.location || {};
+  return { lat: location.lat, lng: location.lng };
+}
+
+/**
+ * Build one map place from a marker
+ */
+function buildMapPlace(marker, iconTypes) {
+  const translations = translationsEn(marker);
+  const markerType = marker.marker_type || "other";
+  const icon = marker.icon || {};
+
+  return {
+    id: marker.id,
+    title: translations.title || "Untitled",
+    description: translations.description || "",
+    category: markerType,
+    categoryLabel: markerLabel(markerType, iconTypes),
+    location: markerLocation(marker),
+    directionsUrl: marker.get_directions_url || null,
+    icon: markerIcon(markerType, iconTypes),
+    iconUrl: icon.url || null,
+  };
+}
+
+/**
+ * Extract map places from TouchStay JSON
+ */
+function extractMapPlaces(jsonData) {
+  const iconTypes = buildIconTypes(jsonData.map?.icons || []);
   const markers = jsonData.map?.info_markers || [];
-  for (const marker of markers) {
-    const translations = marker.translations?.en || {};
-    const markerType = marker.marker_type || "other";
 
-    places.push({
-      id: marker.id,
-      title: translations.title || "Untitled",
-      description: translations.description || "",
-      category: markerType,
-      categoryLabel: iconTypes[markerType]?.label || markerType,
-      location: {
-        lat: marker.location?.lat,
-        lng: marker.location?.lng,
-      },
-      directionsUrl: marker.get_directions_url || null,
-      icon:
-        iconTypes[markerType]?.localIcon || `icons/touchstay/${markerType}.svg`,
-      iconUrl: marker.icon?.url || null,
-    });
-  }
-
-  return { places, iconTypes };
+  return {
+    places: markers.map((marker) => buildMapPlace(marker, iconTypes)),
+    iconTypes,
+  };
 }
 
 /**
@@ -332,8 +365,8 @@ function writeMapPlaces(places, iconTypes, outputDir) {
   const dataDir = join(outputDir, "_data");
 
   // Ensure directory exists
-  if (!existsSync(dataDir)) {
-    mkdirSync(dataDir, { recursive: true });
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });
   }
 
   const outputData = {
@@ -346,7 +379,7 @@ function writeMapPlaces(places, iconTypes, outputDir) {
   };
 
   const filepath = join(dataDir, "map_places.json");
-  writeFileSync(filepath, JSON.stringify(outputData, null, 2), "utf8");
+  fs.writeFileSync(filepath, JSON.stringify(outputData, null, 2), "utf8");
   console.log(`✓ Created map places: ${filepath} (${places.length} places)`);
 
   return filepath;
@@ -360,11 +393,11 @@ function writeGuideFiles(categories, pages, outputDir) {
   const pagesDir = join(outputDir, "guide-pages");
 
   // Ensure directories exist
-  if (!existsSync(categoriesDir)) {
-    mkdirSync(categoriesDir, { recursive: true });
+  if (!fs.existsSync(categoriesDir)) {
+    fs.mkdirSync(categoriesDir, { recursive: true });
   }
-  if (!existsSync(pagesDir)) {
-    mkdirSync(pagesDir, { recursive: true });
+  if (!fs.existsSync(pagesDir)) {
+    fs.mkdirSync(pagesDir, { recursive: true });
   }
 
   // Write categories
@@ -378,7 +411,7 @@ function writeGuideFiles(categories, pages, outputDir) {
       category.content +
       "\n";
 
-    writeFileSync(filepath, content, "utf8");
+    fs.writeFileSync(filepath, content, "utf8");
     writtenCategories.push(filepath);
     console.log(`✓ Created category: ${filename}`);
   }
@@ -388,10 +421,9 @@ function writeGuideFiles(categories, pages, outputDir) {
   for (const page of pages) {
     const filename = `${page.slug}.md`;
     const filepath = join(pagesDir, filename);
-    const content =
-      generateFrontMatter(page.frontMatter) + "\n" + page.content + "\n";
+    const content = `${generateFrontMatter(page.frontMatter)}\n${page.content}\n`;
 
-    writeFileSync(filepath, content, "utf8");
+    fs.writeFileSync(filepath, content, "utf8");
     writtenPages.push(filepath);
     console.log(`✓ Created page: ${filename}`);
   }
@@ -400,12 +432,39 @@ function writeGuideFiles(categories, pages, outputDir) {
 }
 
 /**
+ * Read and parse the TouchStay JSON input file
+ */
+function readGuideJson(inputFile) {
+  console.log(`Reading input file: ${inputFile}`);
+  try {
+    return JSON.parse(fs.readFileSync(inputFile, "utf8"));
+  } catch (error) {
+    console.error(`Error reading input file: ${error.message}`);
+    process.exit(1);
+  }
+}
+
+/**
+ * Report what a run would create without writing anything
+ */
+function printDryRun(categories, pages, places) {
+  console.log("\n--- DRY RUN ---");
+  console.log("\nCategories that would be created:");
+  for (const category of categories) console.log(`  - ${category.slug}.md`);
+  console.log("\nPages that would be created:");
+  for (const page of pages) console.log(`  - ${page.slug}.md`);
+  console.log("\nMap places that would be exported:");
+  console.log(`  - _data/map_places.json (${places.length} places)`);
+  console.log("\nNo files were written (dry run mode)");
+}
+
+/**
  * Main execution
  */
 function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || args.includes("--help") || args.includes("-h")) {
+  if (wantsHelp(args)) {
     console.log(`
 TouchStay Guide Parser
 
@@ -426,28 +485,14 @@ Example:
   }
 
   const inputFile = args[0];
-  let outputDir = ".";
-  let dryRun = false;
+  const parsed = parseArgv(args.slice(1), {
+    value: { "--output-dir": "outputDir" },
+    boolean: { "--dry-run": "dryRun" },
+  });
+  const outputDir = parsed.outputDir ?? ".";
+  const dryRun = Boolean(parsed.dryRun);
 
-  // Parse arguments
-  for (let i = 1; i < args.length; i++) {
-    if (args[i] === "--output-dir" && args[i + 1]) {
-      outputDir = args[++i];
-    } else if (args[i] === "--dry-run") {
-      dryRun = true;
-    }
-  }
-
-  // Read input file
-  console.log(`Reading input file: ${inputFile}`);
-  let jsonData;
-  try {
-    const rawData = readFileSync(inputFile, "utf8");
-    jsonData = JSON.parse(rawData);
-  } catch (error) {
-    console.error(`Error reading input file: ${error.message}`);
-    process.exit(1);
-  }
+  const jsonData = readGuideJson(inputFile);
 
   // Parse the data
   console.log("\nParsing TouchStay guide data...");
@@ -460,28 +505,22 @@ Example:
   console.log(`Found ${places.length} map places`);
 
   if (dryRun) {
-    console.log("\n--- DRY RUN ---");
-    console.log("\nCategories that would be created:");
-    categories.forEach((c) => console.log(`  - ${c.slug}.md`));
-    console.log("\nPages that would be created:");
-    pages.forEach((p) => console.log(`  - ${p.slug}.md`));
-    console.log("\nMap places that would be exported:");
-    console.log(`  - _data/map_places.json (${places.length} places)`);
-    console.log("\nNo files were written (dry run mode)");
-  } else {
-    console.log(`\nWriting files to: ${outputDir}`);
-    const { writtenCategories, writtenPages } = writeGuideFiles(
-      categories,
-      pages,
-      outputDir,
-    );
-    writeMapPlaces(places, iconTypes, outputDir);
-
-    console.log(
-      `\n✓ Successfully created ${writtenCategories.length} categories`,
-    );
-    console.log(`✓ Successfully created ${writtenPages.length} pages`);
+    printDryRun(categories, pages, places);
+    return;
   }
+
+  console.log(`\nWriting files to: ${outputDir}`);
+  const { writtenCategories, writtenPages } = writeGuideFiles(
+    categories,
+    pages,
+    outputDir,
+  );
+  writeMapPlaces(places, iconTypes, outputDir);
+
+  console.log(
+    `\n✓ Successfully created ${writtenCategories.length} categories`,
+  );
+  console.log(`✓ Successfully created ${writtenPages.length} pages`);
 }
 
 main();

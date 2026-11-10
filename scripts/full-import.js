@@ -24,11 +24,13 @@ const {
   existsSync,
   unlinkSync,
   readdirSync,
-} = require("fs");
-const { join, basename } = require("path");
-const https = require("https");
-const http = require("http");
-const { URL } = require("url");
+} = require("node:fs");
+const { join } = require("node:path");
+const https = require("node:https");
+const http = require("node:http");
+const { URL } = require("node:url");
+const { parseArgv, wantsHelp } = require("./cli-utils.js");
+const { sleep, slugify } = require("./text-utils.js");
 
 // =============================================================================
 // CONFIGURATION
@@ -52,26 +54,6 @@ const CONFIG = {
 // =============================================================================
 
 /**
- * Convert a string to a URL-friendly slug
- */
-function slugify(text) {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, "")
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "")
-    .substring(0, 50);
-}
-
-/**
- * Sleep for a given number of milliseconds
- */
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-/**
  * Extract filename from a Sykes image URL
  * e.g., https://images-cdn.sykesassets.co.uk/images/property_images/976x732/1167031/sc_1736159243_1167031_44.jpeg?access=...
  * -> 1167031_sc_1736159243_1167031_44.jpeg
@@ -87,7 +69,7 @@ function extractImageFilename(url) {
 
     // Prefix with property ID for uniqueness
     return `${propertyId}_${filename}`;
-  } catch (e) {
+  } catch (_e) {
     // Fallback: use a hash of the URL
     const hash = url.split("?")[0].split("/").pop();
     return hash || "image.jpg";
@@ -131,9 +113,7 @@ async function downloadWithRetry(url, options = {}) {
       const result = await downloadUrl(url, headers, asBuffer);
       return result;
     } catch (error) {
-      console.log(
-        `  Attempt ${attempt}/${retries} failed: ${error.message}`
-      );
+      console.log(`  Attempt ${attempt}/${retries} failed: ${error.message}`);
       if (attempt < retries) {
         const delay = retryDelay * attempt;
         console.log(`  Retrying in ${delay}ms...`);
@@ -163,7 +143,11 @@ function downloadUrl(url, headers, asBuffer = false) {
 
     const req = protocol.request(options, (res) => {
       // Handle redirects
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+      if (
+        res.statusCode >= 300 &&
+        res.statusCode < 400 &&
+        res.headers.location
+      ) {
         const redirectUrl = new URL(res.headers.location, url).href;
         downloadUrl(redirectUrl, headers, asBuffer).then(resolve).catch(reject);
         return;
@@ -225,36 +209,32 @@ async function downloadHtmlPage(url, outputDir = ".") {
 // =============================================================================
 
 /**
+ * Review files belonging to a property slug
+ * @param {string} reviewsDir - Reviews directory
+ * @param {string} slug - The property slug
+ * @returns {string[]}
+ */
+function findReviewFiles(reviewsDir, slug) {
+  if (!existsSync(reviewsDir)) return [];
+
+  return readdirSync(reviewsDir)
+    .filter((file) => file.startsWith(`${slug}-`) && file.endsWith(".md"))
+    .map((file) => join(reviewsDir, file));
+}
+
+/**
  * Find all files related to a property by slug
  * @param {string} slug - The property slug
  * @param {string} outputDir - Base directory
  * @returns {{propertyFile: string|null, reviewFiles: string[]}}
  */
 function findExistingPropertyFiles(slug, outputDir = ".") {
-  const result = {
-    propertyFile: null,
-    reviewFiles: [],
+  const propertyPath = join(outputDir, CONFIG.propertiesDir, `${slug}.md`);
+
+  return {
+    propertyFile: existsSync(propertyPath) ? propertyPath : null,
+    reviewFiles: findReviewFiles(join(outputDir, CONFIG.reviewsDir), slug),
   };
-
-  // Check for property file
-  const propertiesDir = join(outputDir, CONFIG.propertiesDir);
-  const propertyPath = join(propertiesDir, `${slug}.md`);
-  if (existsSync(propertyPath)) {
-    result.propertyFile = propertyPath;
-  }
-
-  // Find review files that start with the property slug
-  const reviewsDir = join(outputDir, CONFIG.reviewsDir);
-  if (existsSync(reviewsDir)) {
-    const reviewFiles = readdirSync(reviewsDir);
-    for (const file of reviewFiles) {
-      if (file.startsWith(`${slug}-`) && file.endsWith(".md")) {
-        result.reviewFiles.push(join(reviewsDir, file));
-      }
-    }
-  }
-
-  return result;
 }
 
 /**
@@ -354,6 +334,25 @@ async function downloadImage(url, outputDir = ".") {
 }
 
 /**
+ * Record one download result in the run summaries
+ */
+function recordDownload(result, url, urlToLocalMap, successful, failed) {
+  if (!result.success) {
+    failed.push(result);
+    return;
+  }
+
+  successful.push(result);
+  urlToLocalMap.set(url, result.relativePath);
+
+  // Also map the base URL (without query params) to handle alt-tags
+  const baseUrl = url.split("?")[0];
+  if (baseUrl !== url) {
+    urlToLocalMap.set(baseUrl, result.relativePath);
+  }
+}
+
+/**
  * Download all images for a property
  * @param {string[]} urls - Array of image URLs
  * @param {string} outputDir - Base directory
@@ -372,19 +371,7 @@ async function downloadAllImages(urls, outputDir = ".", onProgress = null) {
     }
 
     const result = await downloadImage(url, outputDir);
-
-    if (result.success) {
-      successful.push(result);
-      urlToLocalMap.set(url, result.relativePath);
-
-      // Also map the base URL (without query params) to handle alt-tags
-      const baseUrl = url.split("?")[0];
-      if (baseUrl !== url) {
-        urlToLocalMap.set(baseUrl, result.relativePath);
-      }
-    } else {
-      failed.push(result);
-    }
+    recordDownload(result, url, urlToLocalMap, successful, failed);
 
     // Small delay between downloads to be polite
     if (i < urls.length - 1) {
@@ -430,6 +417,51 @@ function updatePropertyImagePaths(filePath, urlToLocalMap) {
 }
 
 /**
+ * Read and parse alt-tags.json
+ * @returns {{data?: object, error?: string}}
+ */
+function readAltTags(altTagsPath) {
+  if (!existsSync(altTagsPath)) return { error: "file not found" };
+
+  try {
+    return { data: JSON.parse(readFileSync(altTagsPath, "utf8")) };
+  } catch {
+    return { error: "parse error" };
+  }
+}
+
+/**
+ * New local path for an alt-tag entry, or null when it is unchanged
+ */
+function remapAltPath(image, urlToLocalMap) {
+  const baseUrl = image.path.split("?")[0];
+
+  if (urlToLocalMap.has(image.path)) return urlToLocalMap.get(image.path);
+  if (urlToLocalMap.has(baseUrl)) return urlToLocalMap.get(baseUrl);
+  return null;
+}
+
+/**
+ * Repoint alt-tag entries at their new local paths
+ * @returns {number} number of entries changed
+ */
+function remapAltTags(data, urlToLocalMap) {
+  let replacements = 0;
+
+  for (const img of data.images) {
+    if (!img.path) continue;
+
+    const newPath = remapAltPath(img, urlToLocalMap);
+    if (!newPath) continue;
+
+    img.path = newPath;
+    replacements++;
+  }
+
+  return replacements;
+}
+
+/**
  * Update alt-tags.json to use local image paths
  * @param {string} outputDir - Base directory
  * @param {Map} urlToLocalMap - Map of remote URLs to local paths
@@ -437,41 +469,22 @@ function updatePropertyImagePaths(filePath, urlToLocalMap) {
  */
 function updateAltTagsPaths(outputDir, urlToLocalMap) {
   const altTagsPath = join(outputDir, CONFIG.dataDir, "alt-tags.json");
-
-  if (!existsSync(altTagsPath)) {
-    return { updated: false, replacements: 0, reason: "file not found" };
+  const loaded = readAltTags(altTagsPath);
+  if (loaded.error) {
+    return { updated: false, replacements: 0, reason: loaded.error };
   }
 
-  let data;
-  try {
-    data = JSON.parse(readFileSync(altTagsPath, "utf8"));
-  } catch (e) {
-    return { updated: false, replacements: 0, reason: "parse error" };
-  }
-
-  if (!data.images || !Array.isArray(data.images)) {
+  if (!Array.isArray(loaded.data.images)) {
     return { updated: false, replacements: 0, reason: "no images array" };
   }
 
-  let replacements = 0;
-
-  for (const img of data.images) {
-    if (!img.path) continue;
-
-    // Try to find a matching URL in our map
-    const baseUrl = img.path.split("?")[0];
-
-    if (urlToLocalMap.has(img.path)) {
-      img.path = urlToLocalMap.get(img.path);
-      replacements++;
-    } else if (urlToLocalMap.has(baseUrl)) {
-      img.path = urlToLocalMap.get(baseUrl);
-      replacements++;
-    }
-  }
-
+  const replacements = remapAltTags(loaded.data, urlToLocalMap);
   if (replacements > 0) {
-    writeFileSync(altTagsPath, JSON.stringify(data, null, 2) + "\n", "utf8");
+    writeFileSync(
+      altTagsPath,
+      `${JSON.stringify(loaded.data, null, 2)}\n`,
+      "utf8",
+    );
   }
 
   return { updated: replacements > 0, replacements };
@@ -482,14 +495,37 @@ function updateAltTagsPaths(outputDir, urlToLocalMap) {
 // =============================================================================
 
 /**
+ * Build the result of an importer run from its exit code and output
+ */
+function importRunResult(code, stdout, stderr) {
+  if (code !== 0) {
+    return {
+      success: false,
+      slug: null,
+      output: `${stdout}\n${stderr}`,
+      exitCode: code,
+    };
+  }
+
+  // Extract slug from output
+  const slugMatch = stdout.match(/Created: .*\/([^/]+)\.md/);
+
+  return {
+    success: true,
+    slug: slugMatch ? slugMatch[1] : null,
+    output: stdout,
+  };
+}
+
+/**
  * Run the existing Sykes importer on an HTML file
  * @param {string} htmlPath - Path to the HTML file
  * @param {string} outputDir - Output directory
  * @returns {Promise<{success: boolean, slug: string, output: string}>}
  */
 async function runSykesImporter(htmlPath, outputDir = ".") {
-  const { spawn } = require("child_process");
-  const scriptPath = join(__dirname, "import-sykes-property.js");
+  const { spawn } = require("node:child_process");
+  const scriptPath = join(import.meta.dirname, "import-sykes-property.js");
 
   return new Promise((resolve, reject) => {
     const args = ["--file", htmlPath];
@@ -514,24 +550,7 @@ async function runSykesImporter(htmlPath, outputDir = ".") {
     });
 
     proc.on("close", (code) => {
-      if (code === 0) {
-        // Extract slug from output
-        const slugMatch = stdout.match(/Created: .*\/([^/]+)\.md/);
-        const slug = slugMatch ? slugMatch[1] : null;
-
-        resolve({
-          success: true,
-          slug,
-          output: stdout,
-        });
-      } else {
-        resolve({
-          success: false,
-          slug: null,
-          output: stdout + "\n" + stderr,
-          exitCode: code,
-        });
-      }
+      resolve(importRunResult(code, stdout, stderr));
     });
 
     proc.on("error", (err) => {
@@ -547,7 +566,7 @@ async function runSykesImporter(htmlPath, outputDir = ".") {
 function extractSlugFromHtml(html) {
   // Try og:title first
   const ogMatch = html.match(
-    /<meta\s+(?:property=["']og:title["']\s+content=["']([^"']+)["']|content=["']([^"']+)["']\s+property=["']og:title["'])/i
+    /<meta\s+(?:property=["']og:title["']\s+content=["']([^"']+)["']|content=["']([^"']+)["']\s+property=["']og:title["'])/i,
   );
   if (ogMatch) {
     const title = ogMatch[1] || ogMatch[2];
@@ -568,6 +587,192 @@ function extractSlugFromHtml(html) {
 // =============================================================================
 
 /**
+ * Load the property HTML from a local file or the given URL
+ */
+async function loadHtml({ url, localFile, outputDir }) {
+  if (localFile) {
+    console.log(`Reading from local file: ${localFile}`);
+    const html = readFileSync(localFile, "utf8");
+    console.log(`  Read ${html.length} bytes\n`);
+    return { html, htmlFilePath: localFile };
+  }
+
+  if (!url) {
+    console.error("Error: Must provide a URL or --file <path>");
+    process.exit(1);
+  }
+
+  console.log("Step 1: Downloading HTML page...");
+  try {
+    const result = await downloadHtmlPage(url, outputDir);
+    console.log();
+    return { html: result.html, htmlFilePath: result.filePath };
+  } catch (error) {
+    console.error(`  Failed to download: ${error.message}`);
+    console.log(
+      "\nTip: If the download is blocked, save the page manually and use --file",
+    );
+    process.exit(1);
+  }
+}
+
+/**
+ * Delete any existing files for the property slug
+ */
+function clearExistingProperty(slug, outputDir, dryRun) {
+  console.log("\nStep 3: Checking for existing property...");
+  const existingFiles = findExistingPropertyFiles(slug, outputDir);
+
+  const found =
+    existingFiles.propertyFile || existingFiles.reviewFiles.length > 0;
+  if (!found) {
+    console.log("  No existing property found");
+    return;
+  }
+
+  console.log(`  Found existing property file: ${existingFiles.propertyFile}`);
+  console.log(
+    `  Found ${existingFiles.reviewFiles.length} existing review files`,
+  );
+
+  if (dryRun) {
+    console.log("  [DRY RUN] Would delete these files");
+    return;
+  }
+
+  const deleted = deleteExistingProperty(slug, outputDir);
+  console.log(`  Deleted ${deleted.deleted.length} files`);
+}
+
+/**
+ * Run the Sykes importer, or report what would be run
+ */
+async function importProperty(htmlFilePath, outputDir, dryRun) {
+  console.log("\nStep 4: Running Sykes importer...");
+  if (dryRun) {
+    console.log("  [DRY RUN] Would run importer on:", htmlFilePath);
+    return;
+  }
+
+  const importResult = await runSykesImporter(htmlFilePath, outputDir);
+  if (!importResult.success) {
+    console.error("  Import failed:");
+    console.error(importResult.output);
+    process.exit(1);
+  }
+
+  console.log("  Import successful");
+  console.log(
+    "  Output:",
+    importResult.output.split("\n").slice(-5).join("\n  "),
+  );
+}
+
+/**
+ * Deduplicate image URLs by their query-free base URL
+ */
+function uniqueImageUrls(matches) {
+  const seen = new Set();
+  const urls = [];
+
+  for (const match of matches) {
+    const url = match.replace(/["\]>]+$/, "");
+    const baseUrl = url.split("?")[0];
+    if (seen.has(baseUrl)) continue;
+    seen.add(baseUrl);
+    urls.push(url);
+  }
+
+  return urls;
+}
+
+/**
+ * Collect image URLs from the created property file, or from the HTML in dry runs
+ */
+function collectImageUrls(html, propertyPath, dryRun) {
+  console.log("\nStep 5: Extracting image URLs...");
+
+  if (!dryRun) {
+    const urls = extractImagesFromProperty(propertyPath);
+    console.log(`  Found ${urls.length} images in property file`);
+    return urls;
+  }
+
+  // In dry run, parse from HTML instead
+  const urlPattern = /https?:\/\/images-cdn\.sykesassets\.co\.uk[^\s"'>\]]+/g;
+  const urls = uniqueImageUrls(html.match(urlPattern) || []);
+  console.log(`  [DRY RUN] Found ${urls.length} images in HTML`);
+  return urls;
+}
+
+/**
+ * Report what a dry-run download would do
+ */
+function printDryRunImages(imageUrls) {
+  console.log(
+    `  [DRY RUN] Would download ${imageUrls.length} images to /${CONFIG.imagesDir}/`,
+  );
+  console.log("  Sample filenames:");
+  for (const url of imageUrls.slice(0, 3)) {
+    console.log(`    - ${extractImageFilename(url)}`);
+  }
+  if (imageUrls.length > 3) {
+    console.log(`    ... and ${imageUrls.length - 3} more`);
+  }
+}
+
+/**
+ * Download the images and repoint the property and alt-tags at them
+ */
+async function downloadImages(imageUrls, propertyPath, outputDir) {
+  const downloadResult = await downloadAllImages(
+    imageUrls,
+    outputDir,
+    (current, total, url) => {
+      const filename = extractImageFilename(url);
+      process.stdout.write(
+        `\r  Downloading ${current}/${total}: ${filename.substring(0, 40)}...`,
+      );
+    },
+  );
+  console.log(); // New line after progress
+
+  console.log(`  Downloaded: ${downloadResult.successful.length}`);
+  if (downloadResult.failed.length > 0) {
+    console.log(`  Failed: ${downloadResult.failed.length}`);
+    for (const fail of downloadResult.failed) {
+      console.log(`    - ${fail.filename}: ${fail.error}`);
+    }
+  }
+
+  // Step 7: Update property markdown with local paths
+  console.log("\nStep 7: Updating property with local image paths...");
+  const propertyUpdate = updatePropertyImagePaths(
+    propertyPath,
+    downloadResult.urlToLocalMap,
+  );
+  console.log(
+    `  Updated ${propertyUpdate.replacements} image references in property`,
+  );
+
+  // Step 8: Update alt-tags.json with local paths
+  console.log("\nStep 8: Updating alt-tags.json...");
+  const altTagsUpdate = updateAltTagsPaths(
+    outputDir,
+    downloadResult.urlToLocalMap,
+  );
+  if (altTagsUpdate.updated) {
+    console.log(
+      `  Updated ${altTagsUpdate.replacements} paths in alt-tags.json`,
+    );
+    return;
+  }
+  console.log(
+    `  No updates needed (${altTagsUpdate.reason || "no matching paths"})`,
+  );
+}
+
+/**
  * Run the full import process
  */
 async function fullImport(options) {
@@ -582,30 +787,7 @@ async function fullImport(options) {
   console.log("\n=== Full Property Import ===\n");
 
   // Step 1: Get the HTML content
-  let html;
-  let htmlFilePath;
-
-  if (localFile) {
-    console.log(`Reading from local file: ${localFile}`);
-    html = readFileSync(localFile, "utf8");
-    htmlFilePath = localFile;
-    console.log(`  Read ${html.length} bytes\n`);
-  } else if (url) {
-    console.log("Step 1: Downloading HTML page...");
-    try {
-      const result = await downloadHtmlPage(url, outputDir);
-      html = result.html;
-      htmlFilePath = result.filePath;
-    } catch (error) {
-      console.error(`  Failed to download: ${error.message}`);
-      console.log("\nTip: If the download is blocked, save the page manually and use --file");
-      process.exit(1);
-    }
-    console.log();
-  } else {
-    console.error("Error: Must provide a URL or --file <path>");
-    process.exit(1);
-  }
+  const { html, htmlFilePath } = await loadHtml({ url, localFile, outputDir });
 
   // Step 2: Determine the property slug
   const slug = extractSlugFromHtml(html);
@@ -616,61 +798,14 @@ async function fullImport(options) {
   console.log(`Step 2: Property slug: ${slug}`);
 
   // Step 3: Check for and delete existing property
-  console.log("\nStep 3: Checking for existing property...");
-  const existingFiles = findExistingPropertyFiles(slug, outputDir);
-
-  if (existingFiles.propertyFile || existingFiles.reviewFiles.length > 0) {
-    console.log(`  Found existing property file: ${existingFiles.propertyFile}`);
-    console.log(`  Found ${existingFiles.reviewFiles.length} existing review files`);
-
-    if (dryRun) {
-      console.log("  [DRY RUN] Would delete these files");
-    } else {
-      const deleted = deleteExistingProperty(slug, outputDir);
-      console.log(`  Deleted ${deleted.deleted.length} files`);
-    }
-  } else {
-    console.log("  No existing property found");
-  }
+  clearExistingProperty(slug, outputDir, dryRun);
 
   // Step 4: Run the Sykes importer
-  console.log("\nStep 4: Running Sykes importer...");
-  if (dryRun) {
-    console.log("  [DRY RUN] Would run importer on:", htmlFilePath);
-  } else {
-    const importResult = await runSykesImporter(htmlFilePath, outputDir);
-    if (!importResult.success) {
-      console.error("  Import failed:");
-      console.error(importResult.output);
-      process.exit(1);
-    }
-    console.log("  Import successful");
-    console.log("  Output:", importResult.output.split("\n").slice(-5).join("\n  "));
-  }
+  await importProperty(htmlFilePath, outputDir, dryRun);
 
   // Step 5: Extract image URLs from the created property
-  console.log("\nStep 5: Extracting image URLs...");
   const propertyPath = join(outputDir, CONFIG.propertiesDir, `${slug}.md`);
-
-  let imageUrls = [];
-  if (dryRun) {
-    // In dry run, parse from HTML instead
-    const urlPattern = /https?:\/\/images-cdn\.sykesassets\.co\.uk[^\s"'>\]]+/g;
-    const matches = html.match(urlPattern) || [];
-    const seen = new Set();
-    for (const url of matches) {
-      const cleanUrl = url.replace(/["\]>]+$/, "");
-      const baseUrl = cleanUrl.split("?")[0];
-      if (!seen.has(baseUrl)) {
-        seen.add(baseUrl);
-        imageUrls.push(cleanUrl);
-      }
-    }
-    console.log(`  [DRY RUN] Found ${imageUrls.length} images in HTML`);
-  } else {
-    imageUrls = extractImagesFromProperty(propertyPath);
-    console.log(`  Found ${imageUrls.length} images in property file`);
-  }
+  const imageUrls = collectImageUrls(html, propertyPath, dryRun);
 
   if (imageUrls.length === 0) {
     console.log("  No images to download");
@@ -687,51 +822,9 @@ async function fullImport(options) {
   }
 
   if (dryRun) {
-    console.log(`  [DRY RUN] Would download ${imageUrls.length} images to /${CONFIG.imagesDir}/`);
-    console.log("  Sample filenames:");
-    for (const url of imageUrls.slice(0, 3)) {
-      console.log(`    - ${extractImageFilename(url)}`);
-    }
-    if (imageUrls.length > 3) {
-      console.log(`    ... and ${imageUrls.length - 3} more`);
-    }
+    printDryRunImages(imageUrls);
   } else {
-    const downloadResult = await downloadAllImages(
-      imageUrls,
-      outputDir,
-      (current, total, url) => {
-        const filename = extractImageFilename(url);
-        process.stdout.write(
-          `\r  Downloading ${current}/${total}: ${filename.substring(0, 40)}...`
-        );
-      }
-    );
-    console.log(); // New line after progress
-
-    console.log(`  Downloaded: ${downloadResult.successful.length}`);
-    if (downloadResult.failed.length > 0) {
-      console.log(`  Failed: ${downloadResult.failed.length}`);
-      for (const fail of downloadResult.failed) {
-        console.log(`    - ${fail.filename}: ${fail.error}`);
-      }
-    }
-
-    // Step 7: Update property markdown with local paths
-    console.log("\nStep 7: Updating property with local image paths...");
-    const propertyUpdate = updatePropertyImagePaths(
-      propertyPath,
-      downloadResult.urlToLocalMap
-    );
-    console.log(`  Updated ${propertyUpdate.replacements} image references in property`);
-
-    // Step 8: Update alt-tags.json with local paths
-    console.log("\nStep 8: Updating alt-tags.json...");
-    const altTagsUpdate = updateAltTagsPaths(outputDir, downloadResult.urlToLocalMap);
-    if (altTagsUpdate.updated) {
-      console.log(`  Updated ${altTagsUpdate.replacements} paths in alt-tags.json`);
-    } else {
-      console.log(`  No updates needed (${altTagsUpdate.reason || "no matching paths"})`);
-    }
+    await downloadImages(imageUrls, propertyPath, outputDir);
   }
 
   console.log("\n=== Import Complete ===\n");
@@ -744,7 +837,7 @@ async function fullImport(options) {
 async function main() {
   const args = process.argv.slice(2);
 
-  if (args.length === 0 || args.includes("--help") || args.includes("-h")) {
+  if (wantsHelp(args)) {
     console.log(`
 Full Property Import Script
 
@@ -775,30 +868,17 @@ Tip: If the download is blocked, save the page manually in your browser and use 
     process.exit(0);
   }
 
-  let url = null;
-  let localFile = null;
-  let dryRun = false;
-  let skipImages = false;
-
-  // Parse arguments
-  for (let i = 0; i < args.length; i++) {
-    if (args[i] === "--dry-run") {
-      dryRun = true;
-    } else if (args[i] === "--skip-images") {
-      skipImages = true;
-    } else if (args[i] === "--file" && args[i + 1]) {
-      localFile = args[++i];
-    } else if (!args[i].startsWith("-")) {
-      url = args[i];
-    }
-  }
+  const parsed = parseArgv(args, {
+    value: { "--file": "localFile" },
+    boolean: { "--dry-run": "dryRun", "--skip-images": "skipImages" },
+  });
 
   await fullImport({
-    url,
-    localFile,
+    url: parsed.positionals.at(-1) ?? null,
+    localFile: parsed.localFile ?? null,
     outputDir: ".",
-    dryRun,
-    skipImages,
+    dryRun: Boolean(parsed.dryRun),
+    skipImages: Boolean(parsed.skipImages),
   });
 }
 

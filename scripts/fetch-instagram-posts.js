@@ -1,6 +1,8 @@
 #!/usr/bin/env bun
 
 import { join } from "node:path";
+import { apifyActorUrl, postApifyDataset } from "./apify-utils.js";
+import { runCli } from "./cli-utils.js";
 import { exists, fs, loadEnv, path, readJson, write } from "./utils.js";
 
 await loadEnv();
@@ -22,24 +24,15 @@ const extractUsername = (instagramUrl) => {
 };
 
 const fetchPosts = async (profileUrl) => {
-  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_KEY}`;
+  const url = apifyActorUrl(CONFIG.actorId);
 
   console.log(`Fetching posts for ${profileUrl}...`);
 
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      directUrls: [profileUrl],
-      resultsType: "posts",
-      resultsLimit: CONFIG.resultsLimit,
-    }),
+  const results = await postApifyDataset(url, {
+    directUrls: [profileUrl],
+    resultsType: "posts",
+    resultsLimit: CONFIG.resultsLimit,
   });
-
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
-
-  const results = await res.json();
-  if (!Array.isArray(results)) throw new Error("Invalid API response format");
 
   return results
     .filter((p) => p.timestamp && p.displayUrl && p.url)
@@ -110,9 +103,4 @@ const main = async () => {
   );
 };
 
-if (import.meta.main) {
-  main().catch((err) => {
-    console.error("Error:", err.message);
-    process.exit(1);
-  });
-}
+if (import.meta.main) runCli(main);

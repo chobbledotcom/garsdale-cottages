@@ -75,7 +75,7 @@ blocks:
     content: |-
           ## See Also
           
-          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop, a short walk from the museum
+          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop, a short walk from the museum, now permanently closed
           - [Wensleydale Creamery visitor centre](/places/wensleydale-creamery-hawes/) - the cheese experience, also in Hawes
           - [The White Hart Inn, Hawes](/places/white-hart-inn-hawes/) - pub and restaurant in the centre of town
           - [Spar Hawes](/places/spar-hawes/) - shops on the main street if you need supplies

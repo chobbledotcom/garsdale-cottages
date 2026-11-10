@@ -29,10 +29,9 @@ const {
   existsSync,
   unlinkSync,
   readdirSync,
-  renameSync,
   copyFileSync,
-} = require("fs");
-const { join, basename, dirname, extname } = require("path");
+} = require("node:fs");
+const { join, basename, dirname, extname } = require("node:path");
 
 // =============================================================================
 // CONFIGURATION
@@ -58,7 +57,7 @@ function slugify(text, maxLength = 60) {
   if (!text) return null;
 
   // Remove common location suffixes that appear in all alt texts
-  let cleaned = text
+  const cleaned = text
     .replace(/\s+at\s+The\s+Old\s+Cart\s+House.*$/i, "")
     .replace(/\s+in\s+Garsdale.*$/i, "")
     .replace(/\s+near\s+Sedbergh.*$/i, "");
@@ -76,46 +75,40 @@ function slugify(text, maxLength = 60) {
  * Parse YAML front matter from markdown file
  * Simple parser that handles the fields we need
  */
+const ARRAY_ITEM_RE = /^\s+-\s+/;
+const KEY_VALUE_RE = /^(\w+):\s*(.*)$/;
+const unquote = (value) => value.replace(/^["']|["']$/g, "");
+
+/**
+ * Apply one front matter line to the parse state
+ */
+function applyYamlLine(state, line) {
+  if (ARRAY_ITEM_RE.test(line)) {
+    if (state.key && state.inArray) {
+      state.result[state.key].push(unquote(line.replace(ARRAY_ITEM_RE, "")));
+    }
+    return;
+  }
+
+  const keyMatch = line.match(KEY_VALUE_RE);
+  if (!keyMatch) return;
+
+  state.key = keyMatch[1];
+  const value = unquote(keyMatch[2]);
+  state.result[state.key] = value === "" ? [] : value;
+  state.inArray = value === "";
+}
+
 function parseYamlFrontMatter(content) {
   const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!match) return null;
 
-  const yaml = match[1];
-  const result = {};
-
-  // Parse simple key: value pairs and arrays
-  const lines = yaml.split("\n");
-  let currentKey = null;
-  let inArray = false;
-
-  for (const line of lines) {
-    // Check for array item
-    if (line.match(/^\s+-\s+/)) {
-      if (currentKey && inArray) {
-        const value = line.replace(/^\s+-\s+/, "").replace(/^["']|["']$/g, "");
-        result[currentKey].push(value);
-      }
-      continue;
-    }
-
-    // Check for key: value
-    const keyMatch = line.match(/^(\w+):\s*(.*)$/);
-    if (keyMatch) {
-      currentKey = keyMatch[1];
-      const value = keyMatch[2].replace(/^["']|["']$/g, "");
-
-      if (value === "") {
-        // This could be an array
-        result[currentKey] = [];
-        inArray = true;
-      } else {
-        result[currentKey] = value;
-        inArray = false;
-      }
-    }
+  const state = { result: {}, key: null, inArray: false };
+  for (const line of match[1].split("\n")) {
+    applyYamlLine(state, line);
   }
 
-  return result;
+  return state.result;
 }
 
 /**
@@ -159,59 +152,66 @@ function makeUniqueFilename(baseName, ext, existingNames) {
 // =============================================================================
 
 /**
+ * Image paths referenced by one property's front matter
+ */
+function imagesFor(frontMatter) {
+  const images = new Set();
+
+  if (frontMatter.thumbnail) {
+    images.add(frontMatter.thumbnail);
+  }
+
+  if (frontMatter.header_image) {
+    images.add(frontMatter.header_image);
+  }
+
+  if (Array.isArray(frontMatter.gallery)) {
+    for (const img of frontMatter.gallery) {
+      images.add(img);
+    }
+  }
+
+  return images;
+}
+
+/**
+ * Record the image references of one property file
+ */
+function collectFileImages(file, propertiesDir, imageToProperty) {
+  const filePath = join(propertiesDir, file);
+  const frontMatter = parseYamlFrontMatter(readFileSync(filePath, "utf-8"));
+  if (!frontMatter) return;
+
+  const propertySlug = getPropertySlug(file);
+  const images = imagesFor(frontMatter);
+
+  for (const img of images) {
+    imageToProperty.set(img, propertySlug);
+  }
+
+  console.log(
+    `  Found ${images.size} unique images in ${file} (${propertySlug})`,
+  );
+}
+
+/**
  * Collect all image references from property files
  */
 function collectImageReferences() {
   const propertiesDir = CONFIG.propertiesDir;
   const imageToProperty = new Map(); // imagePath -> propertySlug
-  const propertyImages = new Map(); // propertySlug -> Set of imagePaths
 
   if (!existsSync(propertiesDir)) {
     console.error(`Properties directory not found: ${propertiesDir}`);
-    return { imageToProperty, propertyImages };
+    return { imageToProperty };
   }
 
   const files = readdirSync(propertiesDir).filter((f) => f.endsWith(".md"));
-
   for (const file of files) {
-    const filePath = join(propertiesDir, file);
-    const content = readFileSync(filePath, "utf-8");
-    const frontMatter = parseYamlFrontMatter(content);
-
-    if (!frontMatter) continue;
-
-    const propertySlug = getPropertySlug(file);
-    const images = new Set();
-
-    // Collect thumbnail
-    if (frontMatter.thumbnail) {
-      images.add(frontMatter.thumbnail);
-    }
-
-    // Collect header_image
-    if (frontMatter.header_image) {
-      images.add(frontMatter.header_image);
-    }
-
-    // Collect gallery images
-    if (Array.isArray(frontMatter.gallery)) {
-      for (const img of frontMatter.gallery) {
-        images.add(img);
-      }
-    }
-
-    propertyImages.set(propertySlug, images);
-
-    for (const img of images) {
-      imageToProperty.set(img, propertySlug);
-    }
-
-    console.log(
-      `  Found ${images.size} unique images in ${file} (${propertySlug})`
-    );
+    collectFileImages(file, propertiesDir, imageToProperty);
   }
 
-  return { imageToProperty, propertyImages };
+  return { imageToProperty };
 }
 
 /**
@@ -263,6 +263,18 @@ function getExistingImages() {
 }
 
 /**
+ * Base filename for an image: slugified alt text, or the original filename
+ */
+function baseNameFor(imagePath, ext, alt) {
+  if (alt) {
+    const baseSlug = slugify(alt);
+    if (baseSlug) return baseSlug;
+  }
+
+  return basename(imagePath, ext);
+}
+
+/**
  * Build the mapping of old paths to new paths
  */
 function buildPathMapping(imageToProperty, altTags) {
@@ -270,7 +282,6 @@ function buildPathMapping(imageToProperty, altTags) {
   const usedNames = new Map(); // propertySlug -> Set of used filenames
 
   for (const [imagePath, propertySlug] of imageToProperty) {
-    const alt = altTags.get(imagePath);
     const ext = extname(imagePath) || ".jpeg";
 
     // Initialize used names set for this property
@@ -278,159 +289,170 @@ function buildPathMapping(imageToProperty, altTags) {
       usedNames.set(propertySlug, new Set());
     }
 
-    let newFilename;
+    const newFilename = makeUniqueFilename(
+      baseNameFor(imagePath, ext, altTags.get(imagePath)),
+      ext,
+      usedNames.get(propertySlug),
+    );
 
-    if (alt) {
-      // Use slugified alt text
-      const baseSlug = slugify(alt);
-      if (baseSlug) {
-        newFilename = makeUniqueFilename(
-          baseSlug,
-          ext,
-          usedNames.get(propertySlug)
-        );
-      } else {
-        // Fallback if slugify returns empty
-        const originalFilename = basename(imagePath, ext);
-        newFilename = makeUniqueFilename(
-          originalFilename,
-          ext,
-          usedNames.get(propertySlug)
-        );
-      }
-    } else {
-      // No alt text - use original filename
-      const originalFilename = basename(imagePath, ext);
-      newFilename = makeUniqueFilename(
-        originalFilename,
-        ext,
-        usedNames.get(propertySlug)
-      );
-    }
-
-    const newPath = `/images/properties/${propertySlug}/${newFilename}`;
-    pathMapping[imagePath] = newPath;
+    pathMapping[imagePath] =
+      `/images/properties/${propertySlug}/${newFilename}`;
   }
 
   return pathMapping;
 }
 
 /**
- * Apply the changes
+ * Create the per-property image directories
  */
-function applyChanges(pathMapping, imageToProperty, dryRun) {
-  const propertiesDir = CONFIG.propertiesDir;
-  const imagesDir = CONFIG.imagesDir;
-
-  // 1. Create property image directories
+function createImageDirs(imageToProperty, dryRun) {
   const propertyDirs = new Set(Object.values(imageToProperty));
+
   for (const propertySlug of propertyDirs) {
     const dirPath = join(CONFIG.propertiesImagesDir, propertySlug);
-    if (!existsSync(dirPath)) {
-      if (dryRun) {
-        console.log(`  Would create directory: ${dirPath}`);
-      } else {
-        mkdirSync(dirPath, { recursive: true });
-        console.log(`  Created directory: ${dirPath}`);
-      }
+    if (existsSync(dirPath)) continue;
+
+    if (dryRun) {
+      console.log(`  Would create directory: ${dirPath}`);
+      continue;
     }
+
+    mkdirSync(dirPath, { recursive: true });
+    console.log(`  Created directory: ${dirPath}`);
+  }
+}
+
+/**
+ * Move one image, reporting whether it was found
+ */
+function moveImage(oldPath, newPath, dryRun) {
+  const oldFilePath = join(".", oldPath);
+  const newFilePath = join(".", newPath);
+
+  if (!existsSync(oldFilePath)) {
+    console.log(`  Warning: Source file not found: ${oldFilePath}`);
+    return false;
   }
 
-  // 2. Move/rename image files
+  if (dryRun) {
+    console.log(`  Would move: ${oldPath} -> ${newPath}`);
+    return true;
+  }
+
+  // Ensure destination directory exists
+  mkdirSync(dirname(newFilePath), { recursive: true });
+  // Copy then delete (safer than rename across filesystems)
+  copyFileSync(oldFilePath, newFilePath);
+  unlinkSync(oldFilePath);
+  console.log(`  Moved: ${basename(oldPath)} -> ${newPath}`);
+  return true;
+}
+
+/**
+ * Move and rename every image in the mapping
+ */
+function moveImages(pathMapping, dryRun) {
   console.log("\nMoving and renaming images...");
   let movedCount = 0;
+
   for (const [oldPath, newPath] of Object.entries(pathMapping)) {
-    // Convert web paths to filesystem paths
-    const oldFilePath = join(".", oldPath);
-    const newFilePath = join(".", newPath);
-
-    if (existsSync(oldFilePath)) {
-      if (dryRun) {
-        console.log(`  Would move: ${oldPath} -> ${newPath}`);
-      } else {
-        // Ensure destination directory exists
-        mkdirSync(dirname(newFilePath), { recursive: true });
-        // Copy then delete (safer than rename across filesystems)
-        copyFileSync(oldFilePath, newFilePath);
-        unlinkSync(oldFilePath);
-        console.log(`  Moved: ${basename(oldPath)} -> ${newPath}`);
-      }
-      movedCount++;
-    } else {
-      console.log(`  Warning: Source file not found: ${oldFilePath}`);
-    }
+    if (moveImage(oldPath, newPath, dryRun)) movedCount++;
   }
-  console.log(`  Total: ${movedCount} images ${dryRun ? "would be " : ""}moved`);
 
-  // 3. Update property markdown files
+  console.log(
+    `  Total: ${movedCount} images ${dryRun ? "would be " : ""}moved`,
+  );
+}
+
+/**
+ * Rewrite image paths in the property markdown files
+ */
+function updatePropertyFiles(pathMapping, dryRun) {
   console.log("\nUpdating property files...");
-  const propertyFiles = readdirSync(propertiesDir).filter((f) =>
-    f.endsWith(".md")
+  const propertyFiles = readdirSync(CONFIG.propertiesDir).filter((f) =>
+    f.endsWith(".md"),
   );
 
   for (const file of propertyFiles) {
-    const filePath = join(propertiesDir, file);
+    const filePath = join(CONFIG.propertiesDir, file);
     const content = readFileSync(filePath, "utf-8");
     const updatedContent = updateMarkdownImagePaths(content, pathMapping);
-
-    if (content !== updatedContent) {
-      if (dryRun) {
-        console.log(`  Would update: ${file}`);
-      } else {
-        writeFileSync(filePath, updatedContent);
-        console.log(`  Updated: ${file}`);
-      }
-    }
-  }
-
-  // 4. Update alt-tags.json
-  console.log("\nUpdating alt-tags.json...");
-  const altTagsPath = CONFIG.altTagsFile;
-  if (existsSync(altTagsPath)) {
-    const altData = JSON.parse(readFileSync(altTagsPath, "utf-8"));
-    const seenPaths = new Set();
-    const updatedImages = [];
-
-    for (const item of altData.images || []) {
-      const newPath = pathMapping[item.path] || item.path;
-
-      // Skip duplicates
-      if (seenPaths.has(newPath)) continue;
-      seenPaths.add(newPath);
-
-      updatedImages.push({
-        path: newPath,
-        alt: item.alt,
-      });
-    }
-
-    const updatedAltData = { images: updatedImages };
+    if (content === updatedContent) continue;
 
     if (dryRun) {
-      console.log(
-        `  Would update alt-tags.json (${updatedImages.length} unique entries)`
-      );
-    } else {
-      writeFileSync(altTagsPath, JSON.stringify(updatedAltData, null, 2) + "\n");
-      console.log(
-        `  Updated alt-tags.json (${updatedImages.length} unique entries)`
-      );
+      console.log(`  Would update: ${file}`);
+      continue;
     }
+
+    writeFileSync(filePath, updatedContent);
+    console.log(`  Updated: ${file}`);
   }
+}
+
+/**
+ * Repoint alt tag entries at their new paths, dropping duplicates
+ */
+function remapAltImages(altData, pathMapping) {
+  const seenPaths = new Set();
+  const updatedImages = [];
+
+  for (const item of altData.images || []) {
+    const newPath = pathMapping[item.path] || item.path;
+
+    // Skip duplicates
+    if (seenPaths.has(newPath)) continue;
+    seenPaths.add(newPath);
+
+    updatedImages.push({
+      path: newPath,
+      alt: item.alt,
+    });
+  }
+
+  return updatedImages;
+}
+
+/**
+ * Rewrite image paths in alt-tags.json
+ */
+function updateAltTagsFile(pathMapping, dryRun) {
+  console.log("\nUpdating alt-tags.json...");
+  const altTagsPath = CONFIG.altTagsFile;
+  if (!existsSync(altTagsPath)) return;
+
+  const altData = JSON.parse(readFileSync(altTagsPath, "utf-8"));
+  const updatedImages = remapAltImages(altData, pathMapping);
+
+  if (!dryRun) {
+    writeFileSync(
+      altTagsPath,
+      `${JSON.stringify({ images: updatedImages }, null, 2)}\n`,
+    );
+  }
+
+  const prefix = dryRun ? "  Would update" : "  Updated";
+  console.log(
+    `${prefix} alt-tags.json (${updatedImages.length} unique entries)`,
+  );
+}
+
+/**
+ * Apply the changes
+ */
+function applyChanges(pathMapping, imageToProperty, dryRun) {
+  createImageDirs(imageToProperty, dryRun);
+  moveImages(pathMapping, dryRun);
+  updatePropertyFiles(pathMapping, dryRun);
+  updateAltTagsFile(pathMapping, dryRun);
 }
 
 /**
  * Delete unused images
  */
 function deleteUnusedImages(usedImages, dryRun) {
-  const existingImages = getExistingImages();
-  const unusedImages = [];
-
-  for (const img of existingImages) {
-    if (!usedImages.has(img)) {
-      unusedImages.push(img);
-    }
-  }
+  const unusedImages = [...getExistingImages()].filter(
+    (img) => !usedImages.has(img),
+  );
 
   if (unusedImages.length === 0) {
     console.log("\nNo unused images to delete.");
@@ -439,13 +461,13 @@ function deleteUnusedImages(usedImages, dryRun) {
 
   console.log(`\nDeleting ${unusedImages.length} unused images...`);
   for (const img of unusedImages) {
-    const filePath = join(".", img);
     if (dryRun) {
       console.log(`  Would delete: ${img}`);
-    } else {
-      unlinkSync(filePath);
-      console.log(`  Deleted: ${img}`);
+      continue;
     }
+
+    unlinkSync(join(".", img));
+    console.log(`  Deleted: ${img}`);
   }
 }
 
@@ -484,7 +506,7 @@ Options:
 
   // Step 1: Collect all image references from property files
   console.log("\nStep 1: Scanning property files for image references...");
-  const { imageToProperty, propertyImages } = collectImageReferences();
+  const { imageToProperty } = collectImageReferences();
 
   if (imageToProperty.size === 0) {
     console.log("No images found in property files. Exiting.");
@@ -501,7 +523,9 @@ Options:
   // Step 3: Build path mapping
   console.log("\nStep 3: Building path mapping...");
   const pathMapping = buildPathMapping(imageToProperty, altTags);
-  console.log(`  Created mappings for ${Object.keys(pathMapping).length} images`);
+  console.log(
+    `  Created mappings for ${Object.keys(pathMapping).length} images`,
+  );
 
   // Show some examples
   console.log("\n  Sample mappings:");
@@ -521,7 +545,7 @@ Options:
   deleteUnusedImages(usedImages, dryRun);
 
   // Summary
-  console.log("\n" + "=".repeat(60));
+  console.log(`\n${"=".repeat(60)}`);
   if (dryRun) {
     console.log("DRY RUN COMPLETE - No changes were made");
     console.log("Run without --dry-run to apply changes");

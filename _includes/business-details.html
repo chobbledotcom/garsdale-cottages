@@ -48,7 +48,7 @@ Renders nothing if the place has no cached `google` data.
         <p class="business-details__subtitle">{{ g.category_name }}</p>
       {%- endif %}
 
-      {%- if g.rating %}
+      {%- if g.rating and g.permanently_closed != true %}
         <p class="business-details__rating">
           <span class="business-details__stars" aria-hidden="true">★</span>
           <span class="business-details__score">{{ g.rating }}</span>
@@ -66,7 +66,7 @@ Renders nothing if the place has no cached `google` data.
           </div>
         {%- endif %}
 
-        {%- if g.phone and g.phone != "" %}
+        {%- if g.phone and g.phone != "" and g.permanently_closed != true %}
           <div class="business-details__row">
             <dt>Phone</dt>
             <dd><a href="tel:{{ g.phone_unformatted | default: g.phone }}">{{ g.phone }}</a></dd>

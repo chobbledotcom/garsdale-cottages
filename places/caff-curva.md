@@ -38,7 +38,7 @@ blocks:
           - [The Board Inn, Hawes](/places/board-inn-hawes/) - dog friendly pub in Hawes doing meals and drinks
           - [The Green Dragon Inn, Hardraw](/places/green-dragon-inn-hardraw/) - the pub behind Hardraw Force, just down the valley
           - [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - in Hawes
-          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes
+          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes, now permanently closed
           - [Eating and drinking in Garsdale](/eating-and-drinking-in-garsdale/) - our wider round-up
           - [Dog-friendly holiday cottages in Garsdale](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) - if you're bringing the dog
 google_place_id: ChIJeRpfEEBsfEgRXeEYmujk7Ps

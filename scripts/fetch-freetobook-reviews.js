@@ -1,5 +1,6 @@
 #!/usr/bin/env bun
 
+import { runCli } from "./cli-utils.js";
 import {
   clampRating,
   cleanBody,
@@ -153,9 +154,4 @@ const main = async () => {
   console.log(`\nSaved ${saved} new Freetobook review(s) (${total} fetched)`);
 };
 
-if (import.meta.main) {
-  main().catch((err) => {
-    console.error(`Error: ${err.message}`);
-    process.exit(1);
-  });
-}
+if (import.meta.main) runCli(main);

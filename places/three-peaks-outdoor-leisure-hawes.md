@@ -4,8 +4,8 @@ search: Three Peaks Outdoor Leisure, Hawes, UK
 category: Shop
 permalink: /places/three-peaks-outdoor-leisure-hawes/
 layout: base
-meta_title: Three Peaks Outdoor Leisure, Hawes | Outdoor Shops Near Garsdale
-meta_description: Three Peaks Outdoor Leisure was an independent outdoor clothing and equipment shop in Hawes, trading since 1989 at the heart of the Yorkshire Dales near Garsdale - currently listed as closed.
+meta_title: Three Peaks Outdoor Leisure, Hawes - Permanently Closed | Outdoor Shops Near Garsdale
+meta_description: Three Peaks Outdoor Leisure was an independent outdoor clothing and equipment shop in Hawes, trading since 1989 at the heart of the Yorkshire Dales near Garsdale - the shop has now closed permanently.
 redirect_from:
   - /guide/your-local-area-guide-to-getting-about-walking-sho/three-peaks-outdoor-leisure-hawes/
 is_business: true
@@ -14,21 +14,21 @@ blocks:
     content: "# Three Peaks Outdoor Leisure, Hawes"
   - type: split-html
     content: |-
-          Three Peaks Outdoor Leisure was an independent outdoor clothing, footwear and accessory shop in Hawes, at the heart of the Yorkshire Dales National Park. It traded from 1989 and built a solid reputation for quality gear and sound advice, which counts for a fair bit when the weather turns on the fells. The stock was the kit you actually need for walking the Dales - boots, waterproofs, base layers and accessories - rather than fashion outdoor wear, and the staff knew the area and would steer you right. Google currently lists the shop as permanently closed, so check before making a special trip - if it has gone, the nearest outdoor shops of the same sort are in Kendal, and the [Sleepy Elephant](/places/sleepy-elephant-sedbergh/) in Sedbergh sells walking boots.
+          Three Peaks Outdoor Leisure in Hawes has closed permanently, so there is no point planning a trip into Hawes to buy boots there. It was an independent outdoor clothing, footwear and accessory shop at the heart of the Yorkshire Dales National Park, and it traded from 1989 for more than thirty years. It built a solid reputation for quality gear and sound advice, which counted for a fair bit when the weather turned on the fells. The stock was the kit you actually need for walking the Dales - boots, waterproofs, base layers and accessories - rather than fashion outdoor wear, and the staff knew the area and would steer you right. Google lists the shop as permanently closed. If you need new boots or a waterproof, the nearest outdoor shops of the same sort are in Kendal, and the [Sleepy Elephant](/places/sleepy-elephant-sedbergh/) in Sedbergh sells walking boots.
           
-          It sits at Town Foot on the edge of Hawes, a short walk from the market place and the [Dales Countryside Museum](/places/dales-countryside-museum-hawes/).
+          The shop sat at Town Foot on the edge of Hawes, a short walk from the market place and the [Dales Countryside Museum](/places/dales-countryside-museum-hawes/), which made it easy to fit into a day in town.
           
           ## Details
           
+          - **Status:** Permanently closed
           - **Address:** Riverside House, Town Foot, Hawes, North Yorkshire
-          - **Phone:** 01969 667443
     figure_html: "{% include \"business-details.html\", place_slug: \"three-peaks-outdoor-leisure-hawes\" %}"
   - type: items
     collection: properties
     intro_content: |-
           ## Stay Near Three Peaks Outdoor Leisure, Hawes
           
-          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Three Peaks Outdoor Leisure, Hawes.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Hawes, a short drive from the old Three Peaks Outdoor Leisure shop.
   - type: markdown
     content: |-
           ## See Also

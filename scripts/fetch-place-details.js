@@ -2,6 +2,8 @@
 
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { apifyActorUrl, requireApifyKey } from "./apify-utils.js";
+import { runCli } from "./cli-utils.js";
 import { exists, loadEnv, path, write } from "./utils.js";
 
 await loadEnv();
@@ -37,75 +39,112 @@ const parseFile = (text) => {
 };
 
 const KEYWORDS = new Set([
-  "true", "false", "null", "yes", "no", "on", "off", "~",
-  "True", "False", "Null", "Yes", "No", "On", "Off", "None", "TRUE", "FALSE",
+  "true",
+  "false",
+  "null",
+  "yes",
+  "no",
+  "on",
+  "off",
+  "~",
+  "True",
+  "False",
+  "Null",
+  "Yes",
+  "No",
+  "On",
+  "Off",
+  "None",
+  "TRUE",
+  "FALSE",
 ]);
 
-const isPlainSafeStr = (s) => {
-  if (s === "") return false;
-  if (/^[\s\-?:,[\]{}#&*!|>'"%@`]/.test(s)) return false;
-  if (/\s+$/.test(s)) return false;
-  if (/\n/.test(s)) return false;
-  if (/: |:\s*$/.test(s)) return false;
-  if (/\s#/.test(s)) return false;
-  if (KEYWORDS.has(s)) return false;
-  if (/^-?\d/.test(s)) return false;
-  return true;
+const UNSAFE_PLAIN_STR_PATTERNS = [
+  /^[\s\-?:,[\]{}#&*!|>'"%@`]/,
+  /\s+$/,
+  /\n/,
+  /: |:\s*$/,
+  /\s#/,
+  /^-?\d/,
+];
+
+const isPlainSafeStr = (s) =>
+  s !== "" &&
+  !KEYWORDS.has(s) &&
+  !UNSAFE_PLAIN_STR_PATTERNS.some((re) => re.test(s));
+
+const SCALAR_EMITTERS = {
+  boolean: (v) => (v ? "true" : "false"),
+  number: (v) => (Number.isFinite(v) ? String(v) : "null"),
+  string: (v) => (isPlainSafeStr(v) ? v : JSON.stringify(v)),
 };
 
 const emitScalar = (v) => {
   if (v === null || v === undefined) return "null";
-  if (typeof v === "boolean") return v ? "true" : "false";
-  if (typeof v === "number") return Number.isFinite(v) ? String(v) : "null";
-  if (typeof v === "string") {
-    return isPlainSafeStr(v) ? v : JSON.stringify(v);
-  }
-  throw new Error(`Cannot emit scalar of type ${typeof v}`);
+
+  const emitter = SCALAR_EMITTERS[typeof v];
+  if (!emitter) throw new Error(`Cannot emit scalar of type ${typeof v}`);
+
+  return emitter(v);
 };
 
 const pad = (n) => "  ".repeat(n);
 
+const isPlainObject = (v) =>
+  typeof v === "object" && v !== null && !Array.isArray(v);
+
+const emitArrayItem = (item, indent) => {
+  if (!isPlainObject(item)) {
+    return [`${pad(indent + 1)}- ${emitScalar(item)}`];
+  }
+
+  const sub = emitObject(item, indent + 2);
+  return [
+    `${pad(indent + 1)}- ${sub[0]}`,
+    ...sub.slice(1).map((line) => `${pad(indent + 2)}${line}`),
+  ];
+};
+
+const emitArrayLines = (key, items, indent) => {
+  if (items.length === 0) return [`${key}: []`];
+
+  const lines = [`${key}:`];
+  for (const item of items) lines.push(...emitArrayItem(item, indent));
+  return lines;
+};
+
+const emitNestedLines = (key, value, indent) => {
+  const sub = emitObject(value, indent + 1);
+  if (sub.length === 0) return [`${key}: {}`];
+
+  return [`${key}:`, ...sub.map((line) => `${pad(indent + 1)}${line}`)];
+};
+
+const emitStringLines = (key, value, indent) => {
+  if (!value.includes("\n")) return [`${key}: ${emitScalar(value)}`];
+
+  return [
+    `${key}: |-`,
+    ...value.split("\n").map((line) => `${pad(indent + 1)}${line}`),
+  ];
+};
+
+const emitValueLines = (key, value, indent) => {
+  if (value === null || value === undefined) return [`${key}: null`];
+  if (Array.isArray(value)) return emitArrayLines(key, value, indent);
+  if (typeof value === "object") return emitNestedLines(key, value, indent);
+  if (typeof value === "string") return emitStringLines(key, value, indent);
+
+  return [`${key}: ${emitScalar(value)}`];
+};
+
 const emitObject = (obj, indent) => {
   const lines = [];
-  for (const [k, v] of Object.entries(obj)) {
-    if (v === null || v === undefined) {
-      lines.push(`${k}: null`);
-    } else if (Array.isArray(v)) {
-      if (v.length === 0) {
-        lines.push(`${k}: []`);
-        continue;
-      }
-      lines.push(`${k}:`);
-      for (const item of v) {
-        if (item !== null && typeof item === "object" && !Array.isArray(item)) {
-          const sub = emitObject(item, indent + 2);
-          lines.push(`${pad(indent + 1)}- ${sub[0]}`);
-          for (let i = 1; i < sub.length; i++) {
-            lines.push(`${pad(indent + 2)}${sub[i]}`);
-          }
-        } else {
-          lines.push(`${pad(indent + 1)}- ${emitScalar(item)}`);
-        }
-      }
-    } else if (typeof v === "object") {
-      const sub = emitObject(v, indent + 1);
-      if (sub.length === 0) {
-        lines.push(`${k}: {}`);
-        continue;
-      }
-      lines.push(`${k}:`);
-      for (const line of sub) lines.push(`${pad(indent + 1)}${line}`);
-    } else {
-      if (typeof v === "string" && v.includes("\n")) {
-        lines.push(`${k}: |-`);
-        for (const line of v.split("\n")) {
-          lines.push(`${pad(indent + 1)}${line}`);
-        }
-      } else {
-        lines.push(`${k}: ${emitScalar(v)}`);
-      }
-    }
+
+  for (const [key, value] of Object.entries(obj)) {
+    lines.push(...emitValueLines(key, value, indent));
   }
+
   return lines;
 };
 
@@ -126,7 +165,7 @@ const readPlaces = () => {
 };
 
 const callApify = async (searchString) => {
-  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_KEY}&timeout=${CONFIG.requestTimeoutSec}`;
+  const url = apifyActorUrl(CONFIG.actorId, CONFIG.requestTimeoutSec);
 
   const res = await fetch(url, {
     method: "POST",
@@ -163,167 +202,238 @@ const upgradeImageUrl = (imageUrl, longestEdge = 1600) => {
 const downloadImage = async (imageUrl, slug) => {
   if (!imageUrl || imageUrl.startsWith("/images/")) return imageUrl;
   const hiresUrl = upgradeImageUrl(imageUrl);
-  const ext = hiresUrl.match(/\.(jpg|jpeg|png|webp)(\?|$)/i)?.[1]?.toLowerCase() || "jpg";
+  const ext =
+    hiresUrl.match(/\.(jpg|jpeg|png|webp)(\?|$)/i)?.[1]?.toLowerCase() || "jpg";
   const localPath = `/images/places/${slug}.${ext}`;
   const fullPath = join(CONFIG.imagesDir, `${slug}.${ext}`);
   mkdirSync(CONFIG.imagesDir, { recursive: true });
 
   const res = await fetch(hiresUrl);
   if (!res.ok) {
-    throw new Error(`Image download failed for ${slug}: HTTP ${res.status} (${imageUrl})`);
+    throw new Error(
+      `Image download failed for ${slug}: HTTP ${res.status} (${imageUrl})`,
+    );
   }
 
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.byteLength === 0) {
-    throw new Error(`Image download failed for ${slug}: empty response (${imageUrl})`);
+    throw new Error(
+      `Image download failed for ${slug}: empty response (${imageUrl})`,
+    );
   }
   writeFileSync(fullPath, buf);
   console.log(`  image: ${slug}.${ext}`);
   return localPath;
 };
 
-const buildGoogleData = (p) => {
-  const out = {
-    name: p.title ?? null,
-    category_name: p.categoryName ?? null,
-    categories: Array.isArray(p.categories) && p.categories.length ? p.categories : null,
-    address: p.address ?? null,
-    phone: p.phone ?? null,
-    phone_unformatted: p.phoneUnformatted ?? null,
-    website: p.website ?? null,
-    location: p.location && typeof p.location === "object" ? p.location : null,
-    plus_code: p.plusCode ?? null,
-    rating: typeof p.totalScore === "number" ? p.totalScore : null,
-    reviews_count: typeof p.reviewsCount === "number" ? p.reviewsCount : null,
-    price: p.price ?? null,
-    opening_hours: Array.isArray(p.openingHours) && p.openingHours.length ? p.openingHours : null,
-    image_url: p.imageUrl ?? null,
-    url: p.url ?? null,
-    permanently_closed: p.permanentlyClosed === true,
-    temporarily_closed: p.temporarilyClosed === true,
-    scraped_at: p.scrapedAt ?? null,
-  };
+const valueOrNull = (v) => (v === undefined ? null : v);
+const listOrNull = (v) => (Array.isArray(v) && v.length ? v : null);
+const numberOrNull = (v) => (typeof v === "number" ? v : null);
+const objectOrNull = (v) => (v && typeof v === "object" ? v : null);
 
-  for (const key of Object.keys(out)) {
-    const v = out[key];
-    if (v === null || v === undefined) delete out[key];
-    else if (Array.isArray(v) && v.length === 0) delete out[key];
-    else if (typeof v === "object" && !Array.isArray(v) && Object.keys(v).length === 0) {
-      delete out[key];
-    }
-  }
-  return out;
+const isEmptyValue = (v) => {
+  if (v === null || v === undefined) return true;
+  if (Array.isArray(v)) return v.length === 0;
+  if (typeof v === "object") return Object.keys(v).length === 0;
+  return false;
 };
 
-const refreshPlace = async (place) => {
+const buildGoogleData = (p) => {
+  const out = {
+    name: valueOrNull(p.title),
+    category_name: valueOrNull(p.categoryName),
+    categories: listOrNull(p.categories),
+    address: valueOrNull(p.address),
+    phone: valueOrNull(p.phone),
+    phone_unformatted: valueOrNull(p.phoneUnformatted),
+    website: valueOrNull(p.website),
+    location: objectOrNull(p.location),
+    plus_code: valueOrNull(p.plusCode),
+    rating: numberOrNull(p.totalScore),
+    reviews_count: numberOrNull(p.reviewsCount),
+    price: valueOrNull(p.price),
+    opening_hours: listOrNull(p.openingHours),
+    image_url: valueOrNull(p.imageUrl),
+    url: valueOrNull(p.url),
+    permanently_closed: p.permanentlyClosed === true,
+    temporarily_closed: p.temporarilyClosed === true,
+    scraped_at: valueOrNull(p.scrapedAt),
+  };
+
+  return Object.fromEntries(
+    Object.entries(out).filter(([, value]) => !isEmptyValue(value)),
+  );
+};
+
+/**
+ * True when the stored data is recent enough to skip
+ */
+const freshnessSkip = (place) => {
   const data = place.data;
-  const hasSearch = typeof data.search === "string" && data.search.trim();
-  const hasPlaceId = typeof data.google_place_id === "string" && data.google_place_id.trim();
+  if (force || !data.last_fetched) return false;
 
-  if (!force && data.last_fetched) {
-    const ageDays = (Date.now() - new Date(data.last_fetched).getTime()) / 86_400_000;
-    if (ageDays < CONFIG.maxAgeDays) {
-      console.log(`  skip  ${place.slug}  (fetched ${ageDays.toFixed(1)}d ago; --force to override)`);
-      return { status: "skipped" };
-    }
-  }
+  const ageDays =
+    (Date.now() - new Date(data.last_fetched).getTime()) / 86_400_000;
+  if (!(ageDays < CONFIG.maxAgeDays)) return false;
 
-  let result;
-  let discoveredPlaceId = null;
+  console.log(
+    `  skip  ${place.slug}  (fetched ${ageDays.toFixed(1)}d ago; --force to override)`,
+  );
+  return true;
+};
+
+/**
+ * Ask Apify for the place data, or report why it cannot be fetched
+ */
+const fetchPlaceData = async (place) => {
+  const data = place.data;
+  const hasPlaceId =
+    typeof data.google_place_id === "string" && data.google_place_id.trim();
 
   if (hasPlaceId) {
     console.log(`  fetch ${place.slug}  (by google_place_id)`);
-    result = await callApify(`place_id:${data.google_place_id}`);
-  } else if (hasSearch && !isCI) {
+    return { result: await callApify(`place_id:${data.google_place_id}`) };
+  }
+
+  const hasSearch = typeof data.search === "string" && data.search.trim();
+  if (hasSearch && !isCI) {
     console.log(`  search ${place.slug}  (no place_id; local discovery)`);
-    result = await callApify(data.search);
-    if (result?.placeId) discoveredPlaceId = result.placeId;
-  } else {
-    const reason = isCI ? "search disabled on CI" : "no search query";
-    console.log(`  skip  ${place.slug}  (no google_place_id; ${reason})`);
-    return { status: "skipped" };
+    const result = await callApify(data.search);
+    return { result, discoveredPlaceId: result?.placeId ?? null };
   }
 
-  if (!result) {
-    console.log(`  empty ${place.slug}  (no results returned)`);
-    return { status: "skipped" };
-  }
+  const reason = isCI ? "search disabled on CI" : "no search query";
+  console.log(`  skip  ${place.slug}  (no google_place_id; ${reason})`);
+  return { skipped: true };
+};
 
+/**
+ * Log line describing a successful refresh
+ */
+const placeLabel = (slug, result, discoveredPlaceId) => {
+  if (discoveredPlaceId) {
+    return `  ok    ${slug}  (discovered google_place_id=${discoveredPlaceId}; name="${result.title}")`;
+  }
+  return `  ok    ${slug}  (${result.reviewsCount ?? "?"} reviews, ${result.totalScore ?? "?"}★)`;
+};
+
+/**
+ * Write the fetched place data back to the property file
+ */
+const savePlaceDetails = async (place, result, discoveredPlaceId) => {
+  const data = place.data;
   if (discoveredPlaceId) data.google_place_id = discoveredPlaceId;
+
   const googleData = buildGoogleData(result);
   const localImage = await downloadImage(googleData.image_url, place.slug);
   if (localImage) {
     googleData.image_url = localImage;
   }
+
   data.google = googleData;
   data.last_fetched = new Date().toISOString();
 
   await write(place.filepath, stringifyFrontmatter(data, place.body));
 
-  const label = discoveredPlaceId
-    ? `  ok    ${place.slug}  (discovered google_place_id=${discoveredPlaceId}; name="${result.title}")`
-    : `  ok    ${place.slug}  (${result.reviewsCount ?? "?"} reviews, ${result.totalScore ?? "?"}★)`;
-  console.log(label);
+  console.log(placeLabel(place.slug, result, discoveredPlaceId));
   return { status: "fetched", discovered: Boolean(discoveredPlaceId) };
 };
 
-const main = async () => {
-  if (!process.env.APIFY_API_KEY) {
-    console.error("Error: APIFY_API_KEY required (set in .env locally, or as a GitHub secret on CI)");
-    console.error("Get one at: https://console.apify.com/account/integrations");
+const refreshPlace = async (place) => {
+  if (freshnessSkip(place)) return { status: "skipped" };
+
+  const fetched = await fetchPlaceData(place);
+  if (fetched.skipped) return { status: "skipped" };
+
+  if (!fetched.result) {
+    console.log(`  empty ${place.slug}  (no results returned)`);
+    return { status: "skipped" };
+  }
+
+  return savePlaceDetails(place, fetched.result, fetched.discoveredPlaceId);
+};
+
+/**
+ * Keep only the requested place when --only was passed
+ */
+const selectPlaces = (places) => {
+  if (!onlyArg) return places;
+
+  const selected = places.filter((p) => p.slug === onlyArg);
+  if (selected.length === 0) {
+    console.error(
+      `No place with slug "${onlyArg}" found in ${CONFIG.placesDir}`,
+    );
     process.exit(1);
   }
 
-  let places = readPlaces();
+  return selected;
+};
+
+/**
+ * Refresh one place, turning a failure into a failed status
+ */
+const refreshOne = async (place) => {
+  try {
+    return await refreshPlace(place);
+  } catch (err) {
+    console.error(`  FAIL  ${place.slug}: ${err.message}`);
+    return { status: "failed" };
+  }
+};
+
+/**
+ * Fold one refresh result into the run statistics
+ */
+const countStatus = (stats, res) => {
+  if (res.status !== "fetched") {
+    if (res.status === "failed") stats.failed++;
+    else stats.skipped++;
+    return;
+  }
+
+  stats.fetched++;
+  if (res.discovered) stats.discovered++;
+};
+
+/**
+ * Refresh every place, collecting run statistics
+ */
+const refreshAll = async (places) => {
+  const stats = { fetched: 0, discovered: 0, skipped: 0, failed: 0 };
+
+  for (const place of places) {
+    const res = await refreshOne(place);
+    countStatus(stats, res);
+    await sleep(CONFIG.politeDelayMs);
+  }
+
+  return stats;
+};
+
+const main = async () => {
+  requireApifyKey();
+
+  const places = readPlaces();
   if (places.length === 0) {
     console.log(`No place files found in ${CONFIG.placesDir}`);
     return;
   }
 
-  if (onlyArg) {
-    places = places.filter((p) => p.slug === onlyArg);
-    if (places.length === 0) {
-      console.error(`No place with slug "${onlyArg}" found in ${CONFIG.placesDir}`);
-      process.exit(1);
-    }
-  }
+  const selected = selectPlaces(places);
 
   console.log(
-    `Refreshing ${places.length} place(s) — ${isCI ? "CI mode (existing ids only)" : "local mode (search discovery allowed)"}${force ? " — --force" : ""}\n`,
+    `Refreshing ${selected.length} place(s) — ${isCI ? "CI mode (existing ids only)" : "local mode (search discovery allowed)"}${force ? " — --force" : ""}\n`,
   );
 
-  let fetched = 0;
-  let discovered = 0;
-  let skipped = 0;
-  let failed = 0;
-
-  for (const place of places) {
-    try {
-      const res = await refreshPlace(place);
-      if (res.status === "fetched") {
-        fetched++;
-        if (res.discovered) discovered++;
-      } else {
-        skipped++;
-      }
-    } catch (err) {
-      console.error(`  FAIL  ${place.slug}: ${err.message}`);
-      failed++;
-    }
-    await sleep(CONFIG.politeDelayMs);
-  }
+  const stats = await refreshAll(selected);
 
   console.log(
-    `\nDone. fetched=${fetched} (of which ${discovered} new place_ids), skipped=${skipped}, failed=${failed}`,
+    `\nDone. fetched=${stats.fetched} (of which ${stats.discovered} new place_ids), skipped=${stats.skipped}, failed=${stats.failed}`,
   );
-  if (failed > 0) process.exit(1);
+  if (stats.failed > 0) process.exit(1);
 };
 
-if (import.meta.main) {
-  main().catch((err) => {
-    console.error("Error:", err.message);
-    process.exit(1);
-  });
-}
+if (import.meta.main) runCli(main);
 
-export { parseFile, stringifyFrontmatter, buildGoogleData, readPlaces };
+export { buildGoogleData, parseFile, readPlaces, stringifyFrontmatter };
