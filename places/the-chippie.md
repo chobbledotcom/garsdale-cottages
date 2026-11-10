@@ -38,7 +38,7 @@ blocks:
           - [Caffe Curva](/places/caff-curva/) - cafe on Market Place, for coffee and cake
           - [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - the old railway station, a short walk away
           - [Wensleydale Creamery visitor centre](/places/wensleydale-creamery-hawes/) - the cheese experience, also in Hawes
-          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes
+          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes, now permanently closed
           - [Eating and drinking in Garsdale](/eating-and-drinking-in-garsdale/) - our wider round-up
 google_place_id: ChIJrZ8kOkBsfEgROg83CY-GOQU
 google:

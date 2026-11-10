@@ -82,7 +82,7 @@ blocks:
           
           - [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - in the old railway station, a short walk away
           - [The White Hart Inn, Hawes](/places/white-hart-inn-hawes/) - pub and restaurant in the centre of town
-          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes
+          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes, now permanently closed
           - [Hardraw Force and Aysgill Force walks](/places/hardraw-force/) - waterfall walks from Hawes
           - [Things to do in Garsdale and the Dales](/things-to-do/) - our wider round-up of attractions
           - [W.R. Outhwaite & Son, Hawes](/places/wr-outhwaite-and-son-hawes/)

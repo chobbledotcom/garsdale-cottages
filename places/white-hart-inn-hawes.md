@@ -70,7 +70,7 @@ blocks:
           - [Hardraw Force and Aysgill Force walks](/places/hardraw-force/) - waterfall walks from Hawes
           - [Dales Countryside Museum](/places/dales-countryside-museum-hawes/) - in Hawes, worth pairing with a pub lunch
           - [Wensleydale Creamery visitor centre](/places/wensleydale-creamery-hawes/) - also in Hawes
-          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes if you forgot your boots
+          - [Three Peaks Outdoor Leisure](/places/three-peaks-outdoor-leisure-hawes/) - gear shop in Hawes, now permanently closed
           - [Eating and drinking in Garsdale](/eating-and-drinking-in-garsdale/) - our wider round-up
           - [Dog-friendly holiday cottages in Garsdale](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) - if you're bringing the dog
           - [Wensleydale Creamery at Hawes](/places/wensleydale-creamery-hawes/)
