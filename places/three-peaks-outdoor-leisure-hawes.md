@@ -14,7 +14,7 @@ blocks:
     content: "# Three Peaks Outdoor Leisure, Hawes"
   - type: split-html
     content: |-
-          Three Peaks Outdoor Leisure in Hawes has closed permanently, so there is no point planning a trip into Hawes to buy boots there. It was an independent outdoor clothing, footwear and accessory shop at the heart of the Yorkshire Dales National Park, and it traded from 1989 for more than thirty years. It built a solid reputation for quality gear and sound advice, which counted for a fair bit when the weather turned on the fells. The stock was the kit you actually need for walking the Dales - boots, waterproofs, base layers and accessories - rather than fashion outdoor wear, and the staff knew the area and would steer you right. Google lists the shop as permanently closed, and the phone number below is the one it used while it was trading rather than a number anyone answers now. If you need new boots or a waterproof, the nearest outdoor shops of the same sort are in Kendal, and the [Sleepy Elephant](/places/sleepy-elephant-sedbergh/) in Sedbergh sells walking boots.
+          Three Peaks Outdoor Leisure in Hawes has closed permanently, so there is no point planning a trip into Hawes to buy boots there. It was an independent outdoor clothing, footwear and accessory shop at the heart of the Yorkshire Dales National Park, and it traded from 1989 for more than thirty years. It built a solid reputation for quality gear and sound advice, which counted for a fair bit when the weather turned on the fells. The stock was the kit you actually need for walking the Dales - boots, waterproofs, base layers and accessories - rather than fashion outdoor wear, and the staff knew the area and would steer you right. Google lists the shop as permanently closed. If you need new boots or a waterproof, the nearest outdoor shops of the same sort are in Kendal, and the [Sleepy Elephant](/places/sleepy-elephant-sedbergh/) in Sedbergh sells walking boots.
           
           The shop sat at Town Foot on the edge of Hawes, a short walk from the market place and the [Dales Countryside Museum](/places/dales-countryside-museum-hawes/), which made it easy to fit into a day in town.
           
@@ -22,7 +22,6 @@ blocks:
           
           - **Status:** Permanently closed
           - **Address:** Riverside House, Town Foot, Hawes, North Yorkshire
-          - **Phone:** 01969 667443 (the shop's number while it was trading)
     figure_html: "{% include \"business-details.html\", place_slug: \"three-peaks-outdoor-leisure-hawes\" %}"
   - type: items
     collection: properties
