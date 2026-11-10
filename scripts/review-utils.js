@@ -1,5 +1,6 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { apifyActorUrl, postApifyDataset } from "./apify-utils.js";
 import { fs, path, write } from "./utils.js";
 
 const REVIEWS_DIR = path("reviews");
@@ -222,15 +223,5 @@ export const runApifyActor = async (actorId, input) => {
     );
   }
 
-  const url = `https://api.apify.com/v2/acts/${actorId}/run-sync-get-dataset-items?token=${token}&timeout=600`;
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(input),
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
-
-  const results = await res.json();
-  if (!Array.isArray(results)) throw new Error("Invalid API response format");
-  return results;
+  return postApifyDataset(apifyActorUrl(actorId, 600), input);
 };

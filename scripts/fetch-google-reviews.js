@@ -2,6 +2,12 @@
 
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import {
+  apifyActorUrl,
+  postApifyDataset,
+  requireApifyKey,
+} from "./apify-utils.js";
+import { runCli } from "./cli-utils.js";
 import { exists, fs, loadEnv, path, write } from "./utils.js";
 
 await loadEnv();
@@ -28,8 +34,7 @@ const readProperties = () =>
     })
     .filter(Boolean);
 
-const emitStr = (s) =>
-  /^[\w .,'&()-]+$/.test(s) ? s : JSON.stringify(s);
+const emitStr = (s) => (/^[\w .,'&()-]+$/.test(s) ? s : JSON.stringify(s));
 
 const formatFilename = (slug, name, date) => {
   const safeName = name
@@ -41,25 +46,16 @@ const formatFilename = (slug, name, date) => {
 };
 
 const fetchReviews = async (placeId) => {
-  const url = `https://api.apify.com/v2/acts/${CONFIG.actorId}/run-sync-get-dataset-items?token=${process.env.APIFY_API_KEY}`;
+  const url = apifyActorUrl(CONFIG.actorId);
 
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      startUrls: [
-        { url: `https://www.google.com/maps/place/?q=place_id:${placeId}` },
-      ],
-      maxReviews: CONFIG.maxReviews,
-      reviewsSort: "newest",
-      language: "en",
-    }),
+  const results = await postApifyDataset(url, {
+    startUrls: [
+      { url: `https://www.google.com/maps/place/?q=place_id:${placeId}` },
+    ],
+    maxReviews: CONFIG.maxReviews,
+    reviewsSort: "newest",
+    language: "en",
   });
-
-  if (!res.ok) throw new Error(`HTTP ${res.status}: ${await res.text()}`);
-
-  const results = await res.json();
-  if (!Array.isArray(results)) throw new Error("Invalid API response format");
 
   return results
     .flatMap((item) => item.reviews || [])
@@ -95,16 +91,22 @@ const saveReview = async (slug, review) => {
   return true;
 };
 
-const main = async () => {
-  if (!process.env.APIFY_API_KEY) {
-    console.error("Error: APIFY_API_KEY required (set in .env locally, or as a GitHub secret on CI)");
-    console.error("Get one at: https://console.apify.com/account/integrations");
-    process.exit(1);
+const saveAllReviews = async (slug, reviews) => {
+  let saved = 0;
+  for (const review of reviews) {
+    if (await saveReview(slug, review)) saved += 1;
   }
+  return saved;
+};
+
+const main = async () => {
+  requireApifyKey();
 
   const properties = readProperties();
   if (properties.length === 0) {
-    console.log(`No properties with google_place_id in ${CONFIG.propertiesDir}`);
+    console.log(
+      `No properties with google_place_id in ${CONFIG.propertiesDir}`,
+    );
     return;
   }
 
@@ -119,10 +121,7 @@ const main = async () => {
       `${slug}: found ${reviews.length} review(s) for place ${placeId}`,
     );
     totalReviews += reviews.length;
-
-    for (const review of reviews) {
-      if (await saveReview(slug, review)) totalSaved += 1;
-    }
+    totalSaved += await saveAllReviews(slug, reviews);
   }
 
   console.log(
@@ -130,9 +129,4 @@ const main = async () => {
   );
 };
 
-if (import.meta.main) {
-  main().catch((err) => {
-    console.error(`Error: ${err.message}`);
-    process.exit(1);
-  });
-}
+if (import.meta.main) runCli(main);

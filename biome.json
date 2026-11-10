@@ -1,8 +1,17 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.3.11/schema.json",
   "files": {
-    "includes": ["scripts/**/*.js"],
-    "ignoreUnknown": true
+    "includes": [
+      "scripts/**/*.js",
+      "!**/chobble-template/**",
+      "!**/node_modules/**"
+    ],
+    "ignoreUnknown": true,
+    "experimentalScannerIgnores": [
+      "chobble-template",
+      "node_modules",
+      ".build"
+    ]
   },
   "formatter": {
     "indentStyle": "space",
