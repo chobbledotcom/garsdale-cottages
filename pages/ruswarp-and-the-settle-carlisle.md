@@ -13,6 +13,12 @@ blocks:
     content: "# Ruswarp and the Settle-Carlisle"
   - type: markdown
     content: At [Garsdale station](/places/garsdale-station/), high on the Settle-Carlisle line at the top of the dale and roughly six miles east of Sedbergh, a bronze statue of a Border Collie sits on the platform, gazing northwards towards the hills. This is Ruswarp (pronounced Russup), and his story is one of the most moving tales connected to this corner of the Dales.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages Near Garsdale Station
+
+          Our three self-catering [holiday cottages](/properties/) are in Garsdale, a short drive down the dale from Garsdale Station, so you can come by train on the Settle-Carlisle line and say hello to Ruswarp on the way in. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## The Fight to Save the Line

@@ -20,6 +20,12 @@ blocks:
           ## Things To Do Near Garsdale
           From wildlife watching to market towns, waterfalls to rainy day retreats
           Garsdale is set in the Yorkshire Dales National Park in the county of Cumbria. It is an ideal setting for walking and there are walks directly from the hamlet with many marked footpaths. For detailed walking routes, see our [Walks](/walks/) page.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages in Garsdale
+
+          We have three self-catering [holiday cottages](/properties/) in Garsdale, between Sedbergh and Hawes in the Yorkshire Dales National Park, and most of what is on this page is within half an hour's drive of them. Book direct with the owners for the best rates.
   - type: features
     items:
       - icon: hugeicons:bird

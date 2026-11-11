@@ -15,6 +15,12 @@ blocks:
     content: "# The History of Garsdale"
   - type: markdown
     content: Garsdale has been shaped by centuries of farming, faith and resilience. The dale sits on the western slopes of the Pennines, in the Yorkshire Dales National Park, with Baugh Fell to the north and Rise Hill to the south. It is the valley of the Clough River, which rises on the north eastern slopes of Baugh Fell and runs through Grisedale as Grisedale Beck before becoming the Clough River at Garsdale Head, then makes its way down the dale to meet the River Rawthey near Sedbergh. Though it feels timeless, the dale has seen remarkable change.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages in Garsdale
+
+          Our three self-catering [holiday cottages](/properties/) are in the dale itself, between Sedbergh and Hawes in the Yorkshire Dales National Park, and a good deal of the history on this page, from St John's church to the Settle-Carlisle viaducts, is a short drive or a walk away. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## Early History

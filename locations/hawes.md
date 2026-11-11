@@ -15,6 +15,12 @@ blocks:
   - type: markdown
     content: |-
           Hawes is the main town of upper Wensleydale, about nine miles east of Garsdale along the A684 - fifteen to twenty minutes' drive, or reachable in combination with a walk via [Hardraw Force](/places/hardraw-force/). At 850 feet above sea level it is England's highest market town, and it well deserves a visit. There are many cafes, pubs and restaurants as well as craft and art shops, antiques and clothing, and a small [market on Tuesday mornings](/places/the-market-house-hawes/) with craft fairs in the indoor Market House.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages Near Hawes
+
+          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about nine miles west of Hawes. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## Cheese, Museums and Rope Makers
@@ -71,12 +77,6 @@ blocks:
           - icon: hugeicons:location-04
             name: Semerwater
             description: The natural lake in Raydale over the tops, and a good pairing with a day in the town - see [Semerwater](/places/semerwater/).
-  - type: items
-    collection: properties
-    intro_content: |-
-          ## Holiday Cottages Near Hawes
-
-          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about nine miles west of Hawes. Book direct with the owners for the best rates.
   - type: markdown
     content: |-
           ## See Also

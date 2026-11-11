@@ -15,6 +15,12 @@ blocks:
   - type: markdown
     content: |-
           Kirkby Stephen is an old market town on the upper Eden, around a twenty-minute drive from Garsdale over the A684. It has a good range of shops, cafes and pubs, and makes a useful change from the nearer towns of Sedbergh and Hawes - the [White Hare Cafe](/places/white-hare-cafe-kirkby-stephen/) on the main street has an acoustic night once a month, open to musicians, singers and poets who want to attend and take part.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages Near Kirkby Stephen
+
+          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about twenty minutes west of Kirkby Stephen. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## On the Settle-Carlisle Line
@@ -59,12 +65,6 @@ blocks:
           - icon: hugeicons:castle
             name: Brough Castle
             description: The ruins sit between Garsdale and Kirkby Stephen, with a well-reviewed ice cream parlour alongside - see [Brough Castle](/places/brough-castle/).
-  - type: items
-    collection: properties
-    intro_content: |-
-          ## Holiday Cottages Near Kirkby Stephen
-
-          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about twenty minutes west of Kirkby Stephen. Book direct with the owners for the best rates.
   - type: markdown
     content: |-
           ## See Also

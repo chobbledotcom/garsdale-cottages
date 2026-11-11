@@ -20,6 +20,12 @@ blocks:
           A quiet valley within the Yorkshire Dales National Park
           Garsdale is a quiet valley within the Yorkshire Dales National Park with a scattering of farms and farm cottages. The area is mainly sheep farming with woodlands, hills and the river Clough running through it, with many streams and becks leading to the river.
           There are great expanses of wild moorland, hills to climb, woodlands and countryside footpaths to follow including the Pennine Way.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Our Holiday Cottages in Garsdale
+
+          There are three self-catering [holiday cottages](/properties/) here in Garsdale - Roger Pot, Farrier's Cottage and The Old Cart House - about six miles up the dale from Sedbergh in the Yorkshire Dales National Park. Book direct with the owners for the best rates.
   - type: features
     items:
           - icon: hugeicons:mountain

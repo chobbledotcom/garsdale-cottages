@@ -17,6 +17,12 @@ blocks:
     content: |-
           One of the most unusual walks in the area follows the River Clough from Danny Bridge, tracing the dramatic Dent Fault through a landscape that tells a story stretching back nearly 300 million years.
           
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages Near the Sedgwick Trail
+
+          Our three self-catering [holiday cottages](/properties/) are in Garsdale, a few miles along the A684 from Danny Bridge where the Sedgwick Trail starts. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## The Walk

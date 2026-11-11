@@ -13,6 +13,12 @@ blocks:
     content: "# Grisedale: The Dale That Died"
   - type: markdown
     content: Just north of Garsdale, between Sedbergh and Hawes in the Yorkshire Dales, lies Grisedale, a small, wild tributary valley that earned a dramatic nickname in the 1970s. A walk up into Grisedale is one of the most atmospheric things you can do from Garsdale, particularly in the early evening when short-eared owls hunt the moorland.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages Near Grisedale
+
+          Our three self-catering [holiday cottages](/properties/) are in Garsdale, a short drive down the dale from Garsdale Head and the foot of Grisedale. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## A Dale That Nearly Disappeared

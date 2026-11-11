@@ -17,6 +17,12 @@ blocks:
     content: |-
           Farming is the backbone of Garsdale. The dale has been worked by farmers for centuries, and the landscape you see today, the patchwork of stone-walled fields, the barns, the open fell above, has been shaped almost entirely by their hands.
           
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages on a Farming Dale
+
+          Our three self-catering [holiday cottages](/properties/) sit among the farms of Garsdale in the Yorkshire Dales, so the sheep, the hay meadows and the stone barns on this page are what you will be walking past from the door. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## Sheep Farming

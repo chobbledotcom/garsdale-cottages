@@ -17,6 +17,12 @@ blocks:
     content: |-
           Garsdale has its own traditional dialect, rooted in Old Norse and shaped by centuries of relative isolation. Some of these words have fallen out of everyday use, but many are still heard in conversation around the dale and over towards Sedbergh and Dent, where the same Norse inheritance shows up in the place names and the way older residents still speak. Visitors may encounter a few of them, and knowing what they mean adds to the pleasure of being here.
           
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages in Garsdale
+
+          If you would like to hear a few of these words in use, our three self-catering [holiday cottages](/properties/) are in Garsdale itself, between Sedbergh and Dent on one side and Hawes on the other. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## A Selection of Garsdale Words

@@ -13,6 +13,12 @@ blocks:
     content: "# Village Hall and Community"
   - type: markdown
     content: Garsdale is a small community of around two hundred people, but it has a strong sense of togetherness. The village hall is the social heart of the dale and the last remaining community meeting place.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages in Garsdale
+
+          Our three self-catering [holiday cottages](/properties/) are in Garsdale, a short drive from the village hall, and if a quiz night or bonfire happens to fall during your stay it is worth going along. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## The Village Hall

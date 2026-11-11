@@ -13,6 +13,12 @@ blocks:
     content: "# Churches and Chapels"
   - type: markdown
     content: The number of places of worship tucked into this quiet dale is striking. At one time or another, Garsdale has had an Anglican church, Quaker meeting houses, and several Methodist chapels, reflecting the deep currents of faith and independent thinking that have run through the community for centuries.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages Near the Churches of Garsdale
+
+          Our three self-catering [holiday cottages](/properties/) are in Garsdale, between Sedbergh and Hawes in the Yorkshire Dales, and St John the Baptist church and the chapels on this page are all a short drive or a walk away along the dale. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## St John the Baptist

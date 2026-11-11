@@ -17,6 +17,12 @@ blocks:
     content: |-
           Garsdale's combination of upland moorland, river valley, ancient woodland and hay meadows creates a surprisingly rich variety of habitats within a small area. Sitting between Sedbergh and Hawes in the Yorkshire Dales National Park, the dale has a low human population, minimal traffic and an absence of light pollution that make it a place where wildlife is easily encountered.
           
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages in Garsdale
+
+          Our three self-catering [holiday cottages](/properties/) are in Garsdale, and red squirrels, roe deer and brown hares are all seen from or near them, with red squirrels sometimes coming to the garden feeders. Book direct with the owners for the best rates.
   - type: features
     items:
           - icon: hugeicons:leaf-04

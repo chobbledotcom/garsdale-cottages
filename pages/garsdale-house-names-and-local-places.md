@@ -20,6 +20,12 @@ blocks:
           
           The old Garsdale community website described the dale in a useful local way: the road-signed centre includes The Street, while the other main centre of population is Garsdale Head, still often known as Hawes Junction after the former Wensleydale branch of the Settle-Carlisle railway. To locals, the whole stretch from Garsdale Foot to [Mount Zion Chapel](/places/mount-zion-chapel-garsdale-head/) is simply Garsdale.
           
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages in Garsdale
+
+          Roger Pot, one of the old house names on the list below, is now one of our three self-catering [holiday cottages](/properties/) in Garsdale, along with Farrier's Cottage and The Old Cart House. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## A House-by-House Landscape

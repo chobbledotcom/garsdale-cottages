@@ -13,6 +13,12 @@ blocks:
     content: "# Eating and Drinking"
   - type: markdown
     content: There is no pub in Garsdale itself, though there used to be. Garsdale Hall, near the centre of the dale close to St John's Church, was formerly a coaching inn called the George and Dragon, recorded as such in the 1851 census. At the top of the dale, Junction Cottage at Garsdale Head was once the Junction Inn. Both are now in private use. The Moorcock at Garsdale Head was the nearest pub and is now a licensed tea room. The dale's remoteness from pubs is part of its character, but there are good options within a short drive.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Self-Catering Holiday Cottages in Garsdale
+
+          With no pub in the dale, it helps that our three self-catering [holiday cottages](/properties/) in Garsdale all have their own kitchens for the nights you would rather not drive, and Sedbergh and Hawes are each within about twenty minutes for the nights you would. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## [The Moorcock Inn](/places/moorcock-inn/)

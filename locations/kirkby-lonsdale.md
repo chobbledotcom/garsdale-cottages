@@ -15,6 +15,12 @@ blocks:
   - type: markdown
     content: |-
           Kirkby Lonsdale is a lovely town on the southern edge of the Yorkshire Dales National Park, around thirty minutes' drive from Garsdale over the tops. It has some great shops - a bakery, clothes shops, craft and gift shops - and several good pubs and restaurants, including [Spice Essence](/places/spice-essence-indian-cuisine/) for an Indian meal and [Water Lily](/places/water-lily-chinese-kirkby-lonsdale/) for Chinese, both within a short walk of the square.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages Near Kirkby Lonsdale
+
+          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about half an hour north of Kirkby Lonsdale. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## Market Square, Devils Bridge and Ruskins View
@@ -56,12 +62,6 @@ blocks:
           - icon: hugeicons:information-circle
             name: "The Vault: A Story Bank"
             description: A small visitor attraction and community archive telling the town's stories, just off the square.
-  - type: items
-    collection: properties
-    intro_content: |-
-          ## Holiday Cottages Near Kirkby Lonsdale
-
-          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about half an hour north of Kirkby Lonsdale. Book direct with the owners for the best rates.
   - type: markdown
     content: |-
           ## See Also

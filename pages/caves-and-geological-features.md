@@ -13,6 +13,12 @@ blocks:
     content: "# Caves and Geology"
   - type: markdown
     content: The geology around Garsdale is among the most interesting in England, with ancient faults, limestone caves and dramatic rock formations all within easy reach.
+  - type: items
+    collection: properties
+    intro_content: |-
+          ## Holiday Cottages Near the Caves of Garsdale
+
+          Our three self-catering [holiday cottages](/properties/) are in Garsdale itself, so Tom Croft Cave, Dovecote Cave and the Dent Fault are a short trip from the door, and White Scar Cave at Ingleton is well under an hour's drive. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## Local Caves
