@@ -11,6 +11,9 @@ concurrency:
 
 jobs:
   build:
+    permissions:
+      contents: read
+      deployments: write
     uses: chobbledotcom/chobble-client/.github/workflows/shared-build-and-deploy.yml@main
     with:
       runs-on: ubicloud-standard-4
