@@ -16,5 +16,6 @@ jobs:
       deployments: write
     uses: chobbledotcom/chobble-client/.github/workflows/shared-build-and-deploy.yml@main
     with:
+      template-ref: 9a3d6b3f400018c1589ef9a2bebf56fe930980ce # last v1 commit
       runs-on: ubicloud-standard-4
     secrets: inherit
