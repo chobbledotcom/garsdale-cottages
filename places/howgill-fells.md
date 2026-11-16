@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Calf&query_place_id=ChIJS1z_TlJgfEgRYJWt9J_5DB0
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:35:52.246Z"
-last_fetched: "2026-11-02T19:35:57.870Z"
+  scraped_at: "2026-11-16T19:38:30.897Z"
+last_fetched: "2026-11-16T19:38:36.734Z"
 ---

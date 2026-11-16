@@ -24,7 +24,7 @@ google:
       lng: -2.3232892
   plus_code: GMCG+PM Kirkby Stephen, United Kingdom
   rating: 4.5
-  reviews_count: 1048
+  reviews_count: 1051
   opening_hours:
       - day: Monday
         hours: "10 AM to 5 PM"
@@ -44,8 +44,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Brough%20Castle&query_place_id=ChIJXdeFv_ssekgRQ7yogzDz7Bk
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:28:25.118Z"
-last_fetched: "2026-11-02T19:28:30.717Z"
+  scraped_at: "2026-11-16T19:32:42.415Z"
+last_fetched: "2026-11-16T19:32:48.324Z"
 blocks:
   - type: markdown
     content: "# Brough Castle"

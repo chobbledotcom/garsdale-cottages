@@ -51,7 +51,7 @@ google:
       lng: -2.8654257
   plus_code: "34FM+PR Morecambe, United Kingdom"
   rating: 4.5
-  reviews_count: 637
+  reviews_count: 638
   opening_hours:
       - day: Monday
         hours: Open 24 hours
@@ -71,6 +71,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Morecambe%20Beach&query_place_id=ChIJ379sq0mffEgRh7j3g7dbap0
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:38:37.206Z"
-last_fetched: "2026-11-02T19:38:42.758Z"
+  scraped_at: "2026-11-16T19:40:48.762Z"
+last_fetched: "2026-11-16T19:40:54.697Z"
 ---

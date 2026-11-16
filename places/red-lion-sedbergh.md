@@ -63,8 +63,8 @@ google:
       lng: -2.5279965
   plus_code: "8FFC+9R Sedbergh, United Kingdom"
   rating: 4.3
-  reviews_count: 457
-  price: £98
+  reviews_count: 458
+  price: $106
   opening_hours:
       - day: Monday
         hours: "12 to 10 PM"
@@ -84,6 +84,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Red%20Lion&query_place_id=ChIJkagK4fRhfEgRgQ0qEFa1LWU
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:39:53.335Z"
-last_fetched: "2026-11-02T19:39:58.946Z"
+  scraped_at: "2026-11-16T19:42:08.874Z"
+last_fetched: "2026-11-16T19:42:14.495Z"
 ---

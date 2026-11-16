@@ -66,6 +66,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Malham%20Tarn&query_place_id=ChIJa68M9qR1fEgRqdZt_aR1fEg
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:38:05.506Z"
-last_fetched: "2026-11-02T19:38:11.185Z"
+  scraped_at: "2026-11-16T19:40:24.180Z"
+last_fetched: "2026-11-16T19:40:30.136Z"
 ---

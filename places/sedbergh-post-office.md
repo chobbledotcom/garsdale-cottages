@@ -54,7 +54,7 @@ google:
       lng: -2.5348778
   plus_code: "8FF8+52 Sedbergh, United Kingdom"
   rating: 4.3
-  reviews_count: 55
+  reviews_count: 56
   opening_hours:
       - day: Monday
         hours: "7 AM to 10 PM"
@@ -74,6 +74,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=SPAR%20Sedbergh&query_place_id=ChIJDYuJUPZhfEgRkRKIEWLs4VE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:41:46.473Z"
-last_fetched: "2026-11-02T19:41:52.060Z"
+  scraped_at: "2026-11-16T19:43:34.987Z"
+last_fetched: "2026-11-16T19:43:40.727Z"
 ---

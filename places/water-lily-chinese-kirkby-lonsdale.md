@@ -76,6 +76,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Water%20Lily&query_place_id=ChIJgd7L0EyGfEgRornEx7kO_Gs
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:46:44.586Z"
-last_fetched: "2026-11-02T19:46:50.155Z"
+  scraped_at: "2026-11-16T19:48:12.081Z"
+last_fetched: "2026-11-16T19:48:17.857Z"
 ---

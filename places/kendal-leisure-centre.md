@@ -83,6 +83,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Kendal%20Leisure%20Centre&query_place_id=ChIJi3zFjXWOfEgRnbMEhbbKmOg
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:37:42.425Z"
-last_fetched: "2026-11-02T19:37:47.925Z"
+  scraped_at: "2026-11-16T19:39:59.930Z"
+last_fetched: "2026-11-16T19:40:05.588Z"
 ---

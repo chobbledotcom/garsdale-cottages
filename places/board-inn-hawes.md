@@ -66,6 +66,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Board%20Inn&query_place_id=ChIJyRaaD0BsfEgR7qx5uGoZ3P0
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:27:45.865Z"
-last_fetched: "2026-11-02T19:27:51.485Z"
+  scraped_at: "2026-11-16T19:32:06.384Z"
+last_fetched: "2026-11-16T19:32:12.161Z"
 ---

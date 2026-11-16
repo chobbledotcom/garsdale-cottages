@@ -23,8 +23,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Outhwaites%20Ltd%20(Ropemakers%20not%20open%20to%20the%20public)&query_place_id=ChIJQUN2QeJtfEgRg1djcRWi3IU
   permanently_closed: true
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:48:06.407Z"
-last_fetched: "2026-11-02T19:48:12.503Z"
+  scraped_at: "2026-11-16T19:49:39.896Z"
+last_fetched: "2026-11-16T19:49:46.367Z"
 blocks:
   - type: markdown
     content: "# W.R. Outhwaite & Son, Hawes"

@@ -24,13 +24,13 @@ google:
       lng: -2.4664333
   plus_code: "9G8M+JC Sedbergh, United Kingdom"
   rating: 4.6
-  reviews_count: 217
+  reviews_count: 219
   image_url: /images/places/cross-keys-temperance-inn-cautley.jpg
   url: https://www.google.com/maps/search/?api=1&query=Cross%20Keys%20Temperance%20Inn&query_place_id=ChIJ3aldqthgfEgRzwk7v7f8Za4
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:29:55.339Z"
-last_fetched: "2026-11-02T19:30:00.763Z"
+  scraped_at: "2026-11-16T19:34:10.496Z"
+last_fetched: "2026-11-16T19:34:16.196Z"
 blocks:
   - type: markdown
     content: "# The Cross Keys Temperance Inn, Cautley"

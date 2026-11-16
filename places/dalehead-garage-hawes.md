@@ -48,8 +48,8 @@ google:
   categories:
       - Gas station
   address: Town Head, Hawes DL8 3RG, United Kingdom
-  phone: +44 7735 892025
-  phone_unformatted: +447735892025
+  phone: +44 1969 667400
+  phone_unformatted: +441969667400
   location:
       lat: 54.3040043
       lng: -2.2018213
@@ -75,6 +75,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Dale%20Head%20Garage&query_place_id=ChIJ-02C0D9sfEgRinmFNggKrIQ
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:30:48.143Z"
-last_fetched: "2026-11-02T19:30:53.854Z"
+  scraped_at: "2026-11-16T19:34:33.701Z"
+last_fetched: "2026-11-16T19:34:39.488Z"
 ---

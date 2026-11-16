@@ -21,7 +21,7 @@ google:
       lng: -1.8554826
   plus_code: "74GV+CR Leyburn, United Kingdom"
   rating: 4.7
-  reviews_count: 5895
+  reviews_count: 5913
   opening_hours:
       - day: Monday
         hours: Closed
@@ -34,15 +34,15 @@ google:
       - day: Friday
         hours: Closed
       - day: Saturday
-        hours: "12 to 4:30 PM"
+        hours: "12 to 4 PM"
       - day: Sunday
-        hours: "10 AM to 4:30 PM"
+        hours: "10 AM to 4 PM"
   image_url: /images/places/the-forbidden-corner-middleham.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Forbidden%20Corner&query_place_id=ChIJp9sn_eQafEgRg6IBQOf4d-c
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:44:54.217Z"
-last_fetched: "2026-11-02T19:44:59.998Z"
+  scraped_at: "2026-11-16T19:46:45.728Z"
+last_fetched: "2026-11-16T19:46:51.429Z"
 blocks:
   - type: markdown
     content: "# The Forbidden Corner, Middleham"

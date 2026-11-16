@@ -27,14 +27,14 @@ google:
       lng: -2.2048897
   plus_code: "8Q8W+H2 Hawes, United Kingdom"
   rating: 4.3
-  reviews_count: 1500
-  price: $73
+  reviews_count: 1511
+  price: $87
   image_url: /images/places/green-dragon-inn-hardraw.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Green%20Dragon%20Inn%20at%20Hardraw&query_place_id=ChIJv01a5Q1sfEgRTTCAxKR1vSc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:35:04.616Z"
-last_fetched: "2026-11-02T19:35:10.516Z"
+  scraped_at: "2026-11-16T19:37:34.710Z"
+last_fetched: "2026-11-16T19:37:40.574Z"
 blocks:
   - type: markdown
     content: "# The Green Dragon Inn, Hardraw"

@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Royal%20Lancaster%20Infirmary&query_place_id=ChIJe1vXBH1ie0gRkf8dC6MK6lM
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:40:28.855Z"
-last_fetched: "2026-11-02T19:40:34.511Z"
+  scraped_at: "2026-11-16T19:42:40.982Z"
+last_fetched: "2026-11-16T19:42:46.655Z"
 ---

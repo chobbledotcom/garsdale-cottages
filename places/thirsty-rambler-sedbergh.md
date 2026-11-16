@@ -83,6 +83,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Thirsty%20Rambler&query_place_id=ChIJjd38X2thfEgR35PFIXc_HyQ
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:46:01.833Z"
-last_fetched: "2026-11-02T19:46:07.533Z"
+  scraped_at: "2026-11-16T19:47:31.637Z"
+last_fetched: "2026-11-16T19:47:37.368Z"
 ---

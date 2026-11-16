@@ -26,8 +26,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Sportsman's%20Inn&query_place_id=ChIJyRnsqAdlfEgRFOMVTBreIlc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:43:56.579Z"
-last_fetched: "2026-11-02T19:44:02.271Z"
+  scraped_at: "2026-11-16T19:45:48.588Z"
+last_fetched: "2026-11-16T19:45:54.246Z"
 blocks:
   - type: markdown
     content: "# The Sportsman's Inn, Cowgill"

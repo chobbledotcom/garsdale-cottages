@@ -23,7 +23,7 @@ google:
       lng: -2.5233229
   plus_code: "8FFG+8M Sedbergh, United Kingdom"
   rating: 4.8
-  reviews_count: 40
+  reviews_count: 41
   opening_hours:
       - day: Monday
         hours: "8:30 AM to 5 PM"
@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Farm%20Gate%20Vets&query_place_id=ChIJofPHBIthfEgRQwDrripEM2I
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:34:11.489Z"
-last_fetched: "2026-11-02T19:34:17.028Z"
+  scraped_at: "2026-11-16T19:36:40.854Z"
+last_fetched: "2026-11-16T19:36:46.477Z"
 blocks:
   - type: markdown
     content: "# Farm Gate Vets, Hawes"

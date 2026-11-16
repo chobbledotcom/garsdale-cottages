@@ -21,13 +21,13 @@ google:
       lng: -2.3704005
   plus_code: "6J6H+5R Carnforth, United Kingdom"
   rating: 4.9
-  reviews_count: 178
+  reviews_count: 182
   image_url: /images/places/ribblehead-viaduct.jpg
   url: https://www.google.com/maps/search/?api=1&query=Ribblehead%20Viaduct&query_place_id=ChIJiStM0w17fEgR3BljuAMg5Rc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:40:12.246Z"
-last_fetched: "2026-11-02T19:40:17.846Z"
+  scraped_at: "2026-11-16T19:42:20.159Z"
+last_fetched: "2026-11-16T19:42:26.044Z"
 blocks:
   - type: markdown
     content: "# Ribblehead Viaduct"

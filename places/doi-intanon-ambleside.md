@@ -21,7 +21,7 @@ google:
       lng: -2.961834
   plus_code: C2JQ+P7 Ambleside, United Kingdom
   rating: 4.6
-  reviews_count: 911
+  reviews_count: 918
   price: £20–50
   opening_hours:
       - day: Monday
@@ -42,8 +42,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Doi%20Intanon%2C%20Thai%20Restaurant&query_place_id=ChIJu08kF_DqfEgRyjC2QW9_cNM
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-02T19:33:29.759Z"
-last_fetched: "2026-11-02T19:33:35.421Z"
+  scraped_at: "2026-11-16T19:36:05.559Z"
+last_fetched: "2026-11-16T19:36:11.240Z"
 blocks:
   - type: markdown
     content: "# Doi Intanon, Ambleside"
