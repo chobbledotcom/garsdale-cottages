@@ -95,6 +95,27 @@ blocks:
   - type: image-cards
     dark: false
     items:
+          - image: /images/places-of-interest/snowy-howgill-fells.jpeg
+            description: Walk from Sedbergh onto Winder and The Calf, or visit Cautley Spout at the eastern edge of the fells.
+            link: /places/howgill-fells/
+            name: Howgill Fells
+          - image: /images/places/go-ape-grizedale-forest.jpg
+            description: Plan a Lake District day out from Garsdale, with lakeside towns, woodland walks and a return to the Yorkshire Dales.
+            link: /places/lake-district/
+            name: Lake District
+          - image: /images/places/kendal-castle.jpg
+            description: Explore Cumbria beyond the Lakes, from Kendal Castle and Sedbergh's bookshops to quiet valleys and railway journeys.
+            link: /places/cumbria/
+            name: Cumbria
+    image_aspect_ratio: "4/3"
+    intro_content: |-
+          ## The Howgills, Lake District and Cumbria
+          Garsdale is in [Cumbria](/places/cumbria/), within the Yorkshire Dales National Park, with the [Howgill Fells](/places/howgill-fells/) above nearby Sedbergh. The [Lake District](/places/lake-district/) is a separate national park to the west, close enough for a day out; Garsdale is not inside it.
+
+          If you are travelling north or south on the motorway, read [20 Minutes from the M6](/20-minutes-from-the-m6/) for the junction 37 route, cottage choices and what to check before arranging a stopover.
+  - type: image-cards
+    dark: false
+    items:
           - image: /images/places-of-interest/sheep-with-sheepdog.jpeg
             description: Walking, wildlife watching, visiting market towns, rainy day activities and family adventures.
             link: /things-to-do/

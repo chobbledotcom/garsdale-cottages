@@ -341,3 +341,236 @@ article#content {
   background: transparent;
   color: inherit;
 }
+
+/* Quiet contour lines sit behind content, never over photographs. */
+body.design-system main section:not(.dark):not(:has(> .hero)) {
+  background-image: url("/assets/dales-contours.svg");
+  background-size: 720px 480px;
+}
+
+body.design-system > .site-footer {
+  --color-text: #f0ead2;
+  --color-text-muted: #d1d3bc;
+  --color-link: #f0ead2;
+  --color-link-hover: #ffffff;
+  --color-card-bg: #2c3815;
+
+  padding: clamp(2rem, 5vw, 4rem) 1.5rem 1.5rem;
+  border-top: 3px solid var(--light-brown);
+  background: #202a12;
+  color: var(--color-text);
+  text-align: left;
+
+  .footer-inner {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+
+  a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 5px;
+  }
+
+  .footer-feed {
+    padding: 0 0 clamp(2rem, 5vw, 4rem);
+    margin-bottom: clamp(2rem, 5vw, 4rem);
+    border-bottom: 1px solid rgb(240 234 210 / 20%);
+  }
+
+  .footer-feed-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    margin-bottom: 1.5rem;
+
+    h2 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+    }
+
+    > a {
+      flex-shrink: 0;
+    }
+  }
+
+  .footer-eyebrow {
+    margin-bottom: 0.5rem;
+    color: var(--color-text-muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .footer-posts {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.25rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    > li {
+      display: flex;
+      min-width: 0;
+    }
+  }
+
+  .footer-post {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgb(240 234 210 / 16%);
+    border-radius: 6px;
+    background: var(--color-card-bg);
+    text-decoration: none;
+
+    &:hover {
+      border-color: var(--light-brown);
+      text-decoration: none;
+    }
+
+    .image-wrapper,
+    picture,
+    img {
+      display: block;
+      width: 100%;
+      max-width: none;
+      margin: 0;
+    }
+
+    img {
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+  }
+
+  .footer-post-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.1rem;
+
+    time {
+      color: var(--color-text-muted);
+      font-size: 0.75rem;
+    }
+
+    p {
+      display: -webkit-box;
+      overflow: hidden;
+      margin: 0;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      overflow-wrap: anywhere;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+    }
+  }
+
+  .footer-post-link {
+    margin-top: auto;
+    padding-top: 0.25rem;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    gap: clamp(2rem, 5vw, 4rem);
+  }
+
+  .footer-brand-name {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-family: var(--font-family-heading);
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+
+  .footer-brand p {
+    max-width: 24rem;
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+  }
+
+  .footer-links {
+    display: block;
+    padding: 0;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    font-size: 0.9rem;
+
+    ul {
+      display: grid;
+      gap: 0.65rem;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+    }
+  }
+
+  .footer-heading {
+    margin-bottom: 1.25rem;
+    font-family: var(--font-family-body);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+    padding-top: 1.5rem;
+    margin-top: 2.5rem;
+    border-top: 1px solid rgb(240 234 210 / 20%);
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  @media (max-width: 960px) {
+    .footer-posts {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .footer-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .footer-brand {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .footer-posts,
+    .footer-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .footer-bottom {
+      flex-direction: column;
+      padding-bottom: 4rem;
+    }
+  }
+}

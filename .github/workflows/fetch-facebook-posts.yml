@@ -1,0 +1,56 @@
+name: Fetch Facebook Posts
+
+on:
+  schedule:
+    # Run every Monday at 09:46 UTC, after the reviews jobs
+    - cron: '46 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  fetch-posts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.4.0'
+
+      - name: Fetch Facebook posts
+        env:
+          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+        run: bun run fetch-facebook-posts
+
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain social-posts/ images/facebook-posts/)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add social-posts/ images/facebook-posts/
+          git commit -m "Auto-update: Fetch new Facebook posts" -- social-posts/ images/facebook-posts/
+          git pull --rebase
+          git push
+
+      # GITHUB_TOKEN pushes do not trigger the normal push workflow.
+      - name: Rebuild and deploy updated feed
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run build-and-deploy.yml --ref main

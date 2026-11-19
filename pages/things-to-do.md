@@ -123,6 +123,8 @@ blocks:
 
           **Ambleside** is about 45 minutes drive but is lovely to visit, has some great eating places, particularly we enjoy [Zeffirellis](/places/zeffirellis-ambleside/), which has the cinema and vegetarian restaurant and always good food.
 
+          For a fuller day in the [Lake District](/places/lake-district/), allow extra time for summer traffic and parking rather than treating that driving estimate as a promise. Garsdale is outside the Lake District, in the Yorkshire Dales National Park. Our [Cumbria guide](/places/cumbria/) also covers nearer outings around Kendal, Sedbergh and the Howgill Fells, including ways to combine an outdoor visit with somewhere indoors.
+
           We also enjoy travelling over the **Buttertubs Pass** from Hawes to Thwaite, this is a very high wild road with fantastic views of the hills and valleys. From Thwaite we would go to [Muker](/places/muker-village/) which is beside the river Swale and there are some beautiful walks from the village. There are also some lovely cafes for lunch.
   - type: markdown
     content: |-

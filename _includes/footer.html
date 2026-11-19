@@ -1,0 +1,38 @@
+<footer class="site-footer" data-pagefind-ignore>
+  <div class="footer-inner">
+    {%- assign facebook_posts = "social-posts" | loadSocials -%}
+    {%- if facebook_posts.size > 0 -%}
+      <section class="footer-feed" aria-labelledby="footer-feed-heading">
+        <div class="footer-feed-heading">
+          <div>
+            <p class="footer-eyebrow">From the dale</p>
+            <h2 id="footer-feed-heading">Latest from Garsdale Cottages</h2>
+          </div>
+          <a href="{{ site.socials.Facebook }}">Follow us on Facebook <span aria-hidden="true">↗</span></a>
+        </div>
+        <ul class="footer-posts" role="list">
+          {%- for post in facebook_posts limit: 4 -%}
+            <li>
+              <a class="footer-post" href="{{ post.url | escape }}">
+                {%- if post.data.thumbnail -%}
+                  {% image post.data.thumbnail, "", "280,560", "", "(max-width: 600px) 90vw, (max-width: 960px) 45vw, 280px", "4/3", "lazy" %}
+                {%- endif -%}
+                <div class="footer-post-body">
+                  <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %B %Y" }}</time>
+                  <p>{{ post.data.title | escape }}</p>
+                  <span class="footer-post-link">Read on Facebook <span aria-hidden="true">↗</span></span>
+                </div>
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+    {%- endif -%}
+    {%- render_snippet "footer-content" -%}
+    {%- if languages.size > 1 -%}
+      <ul class="language-links" role="list">
+        {%- include "language-switcher.html" -%}
+      </ul>
+    {%- endif -%}
+  </div>
+</footer>

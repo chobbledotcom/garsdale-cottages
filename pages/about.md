@@ -52,6 +52,8 @@ blocks:
           ## Location
           Garsdale sits along the A684 about 6 miles from Sedbergh and 9 miles from Hawes. It is in Cumbria within the Yorkshire Dales National Park close to the border of Richmondshire in North Yorkshire.
           Garsdale is an ideal location for walking, cycling, bird watching or just having time to enjoy the peace and tranquility and the beautiful countryside.
+
+          Our [Cumbria guide](/places/cumbria/) explains how Garsdale, Sedbergh and the Howgill Fells fit together, with nearby towns and attractions for a day out. The [Lake District](/places/lake-district/) lies further west and is a separate national park; Garsdale is outside the Lakes, though you can visit them during a stay here.
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell at moonrise
     reverse: false

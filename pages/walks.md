@@ -45,6 +45,12 @@ blocks:
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
     figure_alt: View over Langstone Fell
     reverse: false
+  - type: markdown
+    content: |-
+          ## Howgill Fells and Lake District Walks
+          The [Howgill Fells](/places/howgill-fells/) above Sedbergh offer longer hill days close to Garsdale, including Winder and The Calf. Our [Cumbria guide](/places/cumbria/) has suggestions for combining a walk with a town or village visit.
+
+          For walks further west, our [Lake District guide](/places/lake-district/) explains the journey and some places to start. Garsdale is in the Yorkshire Dales National Park, not the Lake District, so allow for the drive both ways and parking before choosing the length of your walk. Check a current route description, daylight and the relevant mountain forecast; rounded grassy hills still need navigation skills when cloud comes down.
   - type: bunny-video-background
     video_url: https://player.mediadelivery.net/embed/639870/c350ed74-85e5-41ea-a5c7-8757a1c5a266?autoplay=true&loop=true&muted=true&preload=true&responsive=true
     thumbnail_url: /images/places-of-interest/sheep-with-sheepdog.jpeg

@@ -25,6 +25,10 @@ blocks:
     content: |-
           ## By Car
           Sat nav postcode: **LA10 5PQ** for The Old Cart House and Roger Pot. Take junction 37 towards Sedbergh (5 miles). Through Sedbergh town centre following signs for Kirkby Stephen. 500 metres out of Sedbergh take a right (A684) towards Garsdale/Hawes. 5.5 miles and you enter Garsdale Village. The gateway for Roger Pot is on your left at the main road bridge and the Carthouse is a little further on the right, about 300 yards east of [St John the Baptist Church](/places/st-john-the-baptist-church-garsdale/).
+
+          Our [20 Minutes from the M6](/20-minutes-from-the-m6/) guide covers the junction 37 approach and stopover planning for journeys north or south. Around twenty minutes is an estimate in favourable conditions, not a guaranteed door-to-door time; traffic through Sedbergh, weather and the final cottage access can add time.
+
+          Garsdale is in [Cumbria](/places/cumbria/) within the Yorkshire Dales National Park, rather than inside the [Lake District](/places/lake-district/). Use your cottage owner's final directions, especially for Roger Pot's gated farm track, and check arrival arrangements before travelling.
     figure_src: /images/scenery/garsdale-in-winter.jpeg
     figure_alt: View across Garsdale in winter
     reverse: false

@@ -19,6 +19,7 @@
 		"fetch-freetobook-reviews": "bun scripts/fetch-freetobook-reviews.js",
 		"fetch-platform-reviews": "bun run fetch-booking-reviews && bun run fetch-airbnb-reviews && bun run fetch-freetobook-reviews",
 		"fetch-place-details": "bun scripts/fetch-place-details.js",
+		"fetch-facebook-posts": "bun scripts/fetch-facebook-posts.js",
 		"screenshot": "bun scripts/screenshot.js",
 		"clean": "rm -rf .build _site",
 		"test": "bun scripts/test.js",

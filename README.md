@@ -38,7 +38,28 @@ Set these GitHub secrets for your repo:
 
 ## Local Development
 
-Run `./bin/build` to build locally. The output appears in `result/`.
+Run `bun run build` to build locally. The output appears in `_site/`.
+
+## Local Area and Footer
+
+The local area map is at `/places/`; `/map/` redirects there through
+`redirect_from` in `pages/places.md`. Regional guides are at
+`/places/lake-district/` and `/places/cumbria/`, with the motorway stopover guide
+at `/20-minutes-from-the-m6/`. Garsdale is in the Yorkshire Dales, not the Lake
+District.
+
+Footer links and owner information live in `snippets/footer-content.md`.
+`_includes/footer.html` renders the latest four locally cached Facebook posts;
+the cards do not embed Facebook scripts or load images from its servers.
+Run `bun run fetch-facebook-posts` with `APIFY_API_KEY` in `.env` to refresh
+`social-posts/` and `images/facebook-posts/`. The scheduled workflow uses the
+same repository secret and dispatches a build after committing new posts.
+Rebuild after a local import.
+
+The Roger Pot exterior photograph is 1200 × 900 pixels, enlarged without AI
+using ImageMagick's Lanczos filter in linear RGB. Section contour artwork is
+in `assets/dales-contours.svg`; its presentation and the footer styles are in
+`css/theme.scss`.
 
 ## Reviews
 

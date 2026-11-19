@@ -86,10 +86,10 @@ contact_links:
 review_link:
   text: Leave a Review
   href: /properties/roger-pot/leave-review/
-meta_title: Roger Pot | Holiday Cottage near Sedbergh, Garsdale
-meta_description: 'Roger Pot - A beautiful, detached house resting in the countryside
-  of Garsdale near Sedbergh, Cumbria. Pet-friendly. Countryside views. Woodburning
-  stove. '
+meta_title: Roger Pot | Holiday Cottage near Sedbergh, Garsdale | Sleeps Six, Book Direct
+meta_description: 'Book direct at Roger Pot, a beautiful, detached house in the countryside
+  of Garsdale near Sedbergh, Cumbria. This pet-friendly holiday cottage sleeps six
+  with countryside views and a woodburning stove.'
 order: 0
 locations:
 - locations/garsdale.md

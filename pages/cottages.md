@@ -53,6 +53,8 @@ blocks:
           Families and larger groups need one of the six-berth cottages, Roger Pot or Farrier's Cottage. Our [family friendly holidays in Garsdale](/family-friendly-holidays-in-garsdale/) page covers days out with children and what to expect from each cottage.
 
           Rates change too often to quote a figure here. Roger Pot and The Old Cart House show availability and current prices in the booking widget on their cottage pages, where you can book online. Farrier's Cottage takes enquiries through its contact form. The owners aim to reply to enquiries within 72 hours.
+
+          These holiday cottages are in [Cumbria](/places/cumbria/), within the Yorkshire Dales National Park, with the [Howgill Fells](/places/howgill-fells/) above nearby Sedbergh. The [Lake District](/places/lake-district/) is a day-trip option to the west, not the cottages' location. If you are considering a break in a longer motorway journey, our [20 Minutes from the M6](/20-minutes-from-the-m6/) page explains the approach and why you need to check availability and minimum stays with the owner first.
   - type: features
     items:
           - icon: hugeicons:discount-tag-02
