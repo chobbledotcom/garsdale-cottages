@@ -5,8 +5,8 @@ redirect_from:
 header_text: Things To Do
 layout: base
 subtitle: Activities and attractions in the Yorkshire Dales
-meta_title: Things To Do near Sedbergh and Garsdale | Yorkshire Dales
-meta_description: Things to do near Sedbergh and Garsdale - walking, wildlife watching, visiting market towns, rainy day activities and family adventures in the Yorkshire Dales.
+meta_title: Things To Do in Garsdale, near Sedbergh | Yorkshire Dales
+meta_description: Things to do near Sedbergh and Garsdale in the Yorkshire Dales - Ribblehead Viaduct, Wensleydale Creamery, red squirrels, Howgill Fells and dog walks.
 eleventyNavigation:
   key: Things To Do
   order: 3
@@ -14,7 +14,7 @@ blocks:
   - type: image-background
     image: /images/paul-and-karen/helms-knott-from-gawthrop.jpg
     image_alt: View from Gawthrop towards Helms Knott in the Yorkshire Dales
-    content: "# Things To Do"
+    content: "# Things To Do in Garsdale, Sedbergh and the Yorkshire Dales"
   - type: markdown
     content: |-
           ## Things To Do Near Garsdale
@@ -46,6 +46,15 @@ blocks:
       - icon: hugeicons:kid
         description: "The [Forbidden Corner](/places/the-forbidden-corner-middleham/), [White Scar Cave](/places/white-scar-cave/), cheesemaking demonstrations and the [Ingleton Waterfalls Trail](/places/ingleton-waterfalls-trail/)."
         name: Family Friendly
+      - icon: hugeicons:train-01
+        description: "[Ribblehead Viaduct](/places/ribblehead-viaduct/), two stops down the Settle-Carlisle line from [Garsdale Station](/places/garsdale-station/), and the [Dandrymire Viaduct](/places/dandrymire-viaduct/) at the head of the dale."
+        name: Railways and Viaducts
+      - icon: hugeicons:mountain
+        description: "The [Howgill Fells](/places/howgill-fells/) above Sedbergh, from a short climb up Winder to the full ridge walk to The Calf."
+        name: Fell Walking
+      - icon: hugeicons:path
+        description: "All three of our cottages are dog friendly, and so are most of the walks, several pubs and the garden at the Wensleydale Creamery."
+        name: Dog Friendly Days Out
     intro_content: "## At a Glance"
   - type: split-image
     subtitle: Red squirrels, brown hares, upland birds and more
@@ -67,6 +76,13 @@ blocks:
     figure_src: /images/wildlife/robin.jpeg
     figure_alt: Robin on a branch
     reverse: true
+  - type: markdown
+    content: |-
+          ## Red Squirrels in Garsdale
+
+          Red squirrels are the thing a lot of our guests most want to see, and Garsdale is one of the better places in England to see them. The dale is part of the core area for red squirrels around Sedbergh, where the local volunteers have kept greys out for years, and reds turn up in the cottage gardens, in the woods by Dandra Garth and along the River Clough. Our [red squirrels in Garsdale](/red-squirrels-in-garsdale/) page has the best spots, the best times of year and how to report a sighting.
+
+          If they are not obliging round the cottages, the [Snaizeholme Red Squirrel Trail](/places/snaizeholme-red-squirrel-trail/) near Hawes has a public viewing area with feeders in the Widdale Red Squirrel Reserve. Parking there is very limited and has to be booked, so most people go on the Little White Bus from Hawes and walk in, which is about 2.5 miles there and back.
   - type: markdown
     content: |-
           ## The Nearby Towns
@@ -126,6 +142,28 @@ blocks:
           For a fuller day in the [Lake District](/places/lake-district/), allow extra time for summer traffic and parking rather than treating that driving estimate as a promise. Garsdale is outside the Lake District, in the Yorkshire Dales National Park. Our [Cumbria guide](/places/cumbria/) also covers nearer outings around Kendal, Sedbergh and the Howgill Fells, including ways to combine an outdoor visit with somewhere indoors.
 
           We also enjoy travelling over the **Buttertubs Pass** from Hawes to Thwaite, this is a very high wild road with fantastic views of the hills and valleys. From Thwaite we would go to [Muker](/places/muker-village/) which is beside the river Swale and there are some beautiful walks from the village. There are also some lovely cafes for lunch.
+  - type: markdown
+    content: |-
+          ## Ribblehead Viaduct and the Settle-Carlisle Railway
+
+          [Ribblehead Viaduct](/places/ribblehead-viaduct/) is probably the best known sight in this part of the Yorkshire Dales, with 24 stone arches carrying the Settle-Carlisle line 104 feet above Batty Moss, between Whernside and Ingleborough. It was built between 1870 and 1875 by navvies who lived with their families in shanty towns on the moor, and you can still make out the remains of the Batty Green camp near the track to the viaduct.
+
+          The nicest way to get there from our cottages is by train. [Garsdale Station](/places/garsdale-station/) is on the Settle-Carlisle line, and southbound trains stop at [Dent](/places/dent-station/), which is the highest main line station in England, and then cross Ribblehead Viaduct before pulling into Ribblehead station around a quarter of an hour later. From there it is a short walk to the foot of the arches, and the dog friendly Station Inn is across the road. By car it is around forty minutes via Hawes and the B6255, with free roadside parking near the viaduct. Closer to home, the [Dandrymire Viaduct](/places/dandrymire-viaduct/) crosses the head of Garsdale itself, and our [Ruswarp and the Settle-Carlisle](/ruswarp-and-the-settle-carlisle/) page tells the story of how the line was saved from closure in 1989.
+  - type: markdown
+    content: |-
+          ## Walking the Howgill Fells
+
+          The [Howgill Fells](/places/howgill-fells/) rise straight up behind Sedbergh, about fifteen minutes from Garsdale, and they are the closest real fell walking to our cottages. They are grassy, rounded and quiet, very different from the limestone in the rest of the Dales, and they are grazed by sheep and herds of semi-wild Fell ponies. The shortest worthwhile walk is up Winder from the centre of Sedbergh, around 3.4 miles there and back with views over to the Lake District, and the classic day is the 10.5 mile loop over Winder and Arant Haw to The Calf, the highest point at 676 metres. On the Cautley side, the walk from the [Cross Keys Temperance Inn](/places/cross-keys-temperance-inn-cautley/) to the foot of [Cautley Spout](/places/cautley-spout/) is mostly flat and suits most ages.
+  - type: markdown
+    content: |-
+          ## Wensleydale Creamery
+
+          The [Wensleydale Creamery](/places/wensleydale-creamery-hawes/) on Gayle Lane in Hawes is about nine miles east of the cottages, and it is the home of Yorkshire Wensleydale cheese. You can watch cheese being made, go round the cheese experience and taste your way along the counter in the shop, and there is a coffee shop and restaurant. The creamery was closed by Dairy Crest in 1992 and bought back by its own managers six months later, and Wallace and Gromit helped a lot after that. Dogs are not allowed inside the visitor centre apart from assistance dogs, but they are welcome in the coffee shop garden outside. It is a good one for a wet day, and it combines well with the Snaizeholme red squirrels or a drive on to Ribblehead.
+  - type: markdown
+    content: |-
+          ## Things To Do With Your Dog
+
+          All three of our holiday cottages in Garsdale are dog friendly, so a lot of what is on this page is planned around a dog. Most of the walking round here is dog friendly, from the riverside paths along the Clough to the Howgill Fells, as long as dogs are on a lead near sheep and lambs, which is most of the time. Ribblehead Viaduct is a good dog friendly day out, and dogs travel free on the train from Garsdale Station. In Sedbergh, the [Red Lion](/places/red-lion-sedbergh/) and the [Thirsty Rambler](/places/thirsty-rambler-sedbergh/) take dogs, as does the [Board Inn](/places/board-inn-hawes/) in Hawes and the Station Inn at Ribblehead. The places that do not take dogs inside are mostly the indoor attractions, such as the Wensleydale Creamery visitor centre and the show caves. Our [dog friendly holiday cottages](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) page has the full list of dog friendly pubs, vets and walks.
   - type: markdown
     content: |-
           ## Exploring the Dale
@@ -218,4 +256,7 @@ blocks:
           - [Dent village](/places/dent-village/) ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/dent/))
           - [Muker village](/places/muker-village/) ([yorkshire.com](https://www.yorkshire.com/muker))
           - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
+          - [Ribblehead Viaduct](/places/ribblehead-viaduct/) ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/ribblehead_viaduct/))
+          - [Snaizeholme Red Squirrel Trail](/places/snaizeholme-red-squirrel-trail/) ([yorkshire.com](https://www.yorkshire.com/walkshire/snaizeholme-red-squirrel-trail/))
+          - [Howgill Fells](/places/howgill-fells/) - Winder from Sedbergh ([sedbergh.org.uk](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/short-walks/walk-winder-from-sedbergh/))
 ---

@@ -56,6 +56,21 @@ blocks:
           - icon: hugeicons:route-01
             name: Cautley Spout
             description: A cascade down the eastern flank of the Howgill Fells, one of the longest waterfalls in England, with the walk starting by the bridge at [Cautley Spout](/places/cautley-spout/).
+  - type: markdown
+    content: |-
+          ## Dog Friendly Days Out in the Yorkshire Dales
+
+          Every one of our Garsdale holiday cottages is dog friendly, so most of our guests plan their days out around the dog. These are the trips we suggest most often, with what to expect when you get there.
+
+          **[Ribblehead Viaduct](/places/ribblehead-viaduct/)** is one of the best dog friendly days out in the Yorkshire Dales. Take the train two stops from [Garsdale Station](/places/garsdale-station/), as dogs travel free on Northern trains, and walk from Ribblehead station to the foot of the arches. It is open moor with sheep, so dogs stay on a lead, and the Station Inn across the road welcomes dogs inside and has a beer garden looking at the viaduct.
+
+          **The [Howgill Fells](/places/howgill-fells/)** above Sedbergh are short grass rather than rock, which is kinder on paws, and the climb up Winder from the middle of town is a good morning out. There are sheep and Fell ponies on the tops, so keep dogs on a lead near them.
+
+          **The [Wensleydale Creamery](/places/wensleydale-creamery-hawes/)** in Hawes only lets assistance dogs into the visitor centre, but dogs are welcome outside and in the coffee shop garden, where they will bring a bowl of water. One of you can sit out with the dog while the other buys the cheese.
+
+          **The [Snaizeholme Red Squirrel Trail](/places/snaizeholme-red-squirrel-trail/)** near Hawes is about 2.5 miles there and back from the Little White Bus drop-off. Dogs are fine on a lead on the walk in, but keep them close and quiet at the viewing area or the red squirrels will not come down to the feeders. Back at the cottages, reds sometimes visit the gardens, which is one more reason to keep the dog in when they are about.
+
+          For more ideas, our [things to do in Garsdale and the Yorkshire Dales](/things-to-do/) page covers the wider area, including which attractions take dogs.
   - type: split-icon-links
     content: |-
           ## Dog-Friendly Pubs, Cafes & Local Services
