@@ -39,9 +39,9 @@ blocks:
     reverse: true
   - type: features
     intro_content: |-
-          ## The Top Things to Do Around Sedbergh
+          ## The Top Things to Do in and Around Sedbergh
 
-          The top places we found online in and around Sedbergh.
+          The top places we found online in and around Sedbergh, plus a couple of our own. Sedbergh is also the easiest place to start for the Howgill Fells, and all three of our dog friendly holiday cottages in Garsdale are about fifteen minutes up the road.
     items:
           - icon: hugeicons:paint-board
             name: Farfield Mill
@@ -61,6 +61,12 @@ blocks:
           - icon: hugeicons:bridge
             name: Dent Head and Waterside Viaducts
             description: Two railway viaducts from the Settle-Carlisle era, reachable on foot from the Coal Road towards [Dent](/places/dent-village/) and popular with photographers.
+          - icon: hugeicons:mountain
+            name: Winder and the Howgill Fells
+            description: Winder is the fell straight behind the town, about 3.4 miles there and back from Main Street, and the ridge carries on to The Calf - see [Howgill Fells](/places/howgill-fells/).
+          - icon: hugeicons:bird
+            name: Red Squirrels
+            description: Sedbergh and Garsdale are a core area for red squirrels, looked after by the Sedbergh Red Squirrels volunteers - see [red squirrels in Garsdale](/red-squirrels-in-garsdale/).
   - type: features
     intro_content: |-
           ## Practicalities Worth Knowing
