@@ -10,9 +10,12 @@ meta_title: Lake District Day Trips from Garsdale | Holiday Cottages in Cumbria
 meta_description: Plan a Lake District day trip from our Garsdale holiday cottages in Cumbria. Visit Windermere, Ambleside and Grizedale, then return to the Yorkshire Dales.
 blocks:
   - type: image-background
-    image: /images/places/go-ape-grizedale-forest.jpg
-    image_alt: Woodland adventure course at Grizedale Forest in the Lake District
-    content: "# Lake District Day Trips from Garsdale"
+    image: /images/paul-and-karen/helms-knott-from-gawthrop.jpg
+    image_alt: Green fields and hills around Helms Knott, viewed from Gawthrop in the Yorkshire Dales
+    content: |-
+          # Lake District Day Trips from Garsdale
+
+          The photograph is from Paul and Karen's collection and shows Helms Knott from Gawthrop in the Yorkshire Dales, not the Lake District.
   - type: markdown
     content: |-
           ## Staying Near the Lake District

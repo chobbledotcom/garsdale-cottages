@@ -99,7 +99,7 @@ blocks:
             description: Walk from Sedbergh onto Winder and The Calf, or visit Cautley Spout at the eastern edge of the fells.
             link: /places/howgill-fells/
             name: Howgill Fells
-          - image: /images/places/go-ape-grizedale-forest.jpg
+          - image: /images/paul-and-karen/helms-knott-from-gawthrop.jpg
             description: Plan a Lake District day out from Garsdale, with lakeside towns, woodland walks and a return to the Yorkshire Dales.
             link: /places/lake-district/
             name: Lake District

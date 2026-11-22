@@ -47,6 +47,9 @@ The local area map is at `/places/`; `/map/` redirects there through
 `/places/lake-district/` and `/places/cumbria/`, with the motorway stopover guide
 at `/20-minutes-from-the-m6/`. Garsdale is in the Yorkshire Dales, not the Lake
 District.
+The Lake District page and homepage card use Paul and Karen's photograph of
+Helms Knott from Gawthrop, with the Dales location made explicit on the page,
+rather than a photograph from the Google Maps importer.
 
 Footer links and owner information live in `snippets/footer-content.md`.
 `_includes/footer.html` renders the latest four locally cached Facebook posts;
