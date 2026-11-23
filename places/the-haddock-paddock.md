@@ -62,6 +62,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Haddock%20Paddock&query_place_id=ChIJUyn60fRhfEgRZKC_qEXsNkU
   permanently_closed: false
   temporarily_closed: true
-  scraped_at: "2026-11-16T19:46:56.411Z"
-last_fetched: "2026-11-16T19:47:01.992Z"
+  scraped_at: "2026-11-23T21:30:06.676Z"
+last_fetched: "2026-11-23T21:30:12.503Z"
 ---

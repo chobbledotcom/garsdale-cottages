@@ -27,8 +27,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Stone%20Close%20Tea%20Room%20and%20B%26B&query_place_id=ChIJkaje-HdjfEgRWgN0H3AtXU8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:46:23.146Z"
-last_fetched: "2026-11-16T19:46:28.749Z"
+  scraped_at: "2026-11-23T21:29:31.028Z"
+last_fetched: "2026-11-23T21:29:36.901Z"
 blocks:
   - type: markdown
     content: "# Stone Close Tea Room, Dent"

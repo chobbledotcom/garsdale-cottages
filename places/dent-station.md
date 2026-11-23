@@ -26,8 +26,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Dent&query_place_id=ChIJZQHT_KBlfEgRoHDr3UxYUTs
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:35:31.436Z"
-last_fetched: "2026-11-16T19:35:37.302Z"
+  scraped_at: "2026-11-23T21:19:33.479Z"
+last_fetched: "2026-11-23T21:19:39.145Z"
 blocks:
   - type: markdown
     content: "# Dent Station"

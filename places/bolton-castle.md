@@ -29,8 +29,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Bolton%20Castle&query_place_id=ChIJgYM229AQfEgRp8rLR8soNY8
   permanently_closed: false
   temporarily_closed: true
-  scraped_at: "2026-11-16T19:32:17.663Z"
-last_fetched: "2026-11-16T19:32:23.716Z"
+  scraped_at: "2026-11-23T21:16:10.725Z"
+last_fetched: "2026-11-23T21:16:16.331Z"
 blocks:
   - type: markdown
     content: "# Bolton Castle"

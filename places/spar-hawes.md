@@ -50,7 +50,7 @@ google:
       lng: -2.1988471
   plus_code: "8R32+HF Hawes, United Kingdom"
   rating: 3.8
-  reviews_count: 40
+  reviews_count: 41
   opening_hours:
       - day: Monday
         hours: "7:30 AM to 6 PM"
@@ -70,6 +70,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=SPAR%20Hawes&query_place_id=ChIJf-MjDEBsfEgRK53O2_PNg-M
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:45:16.294Z"
-last_fetched: "2026-11-16T19:45:21.977Z"
+  scraped_at: "2026-11-23T21:28:30.819Z"
+last_fetched: "2026-11-23T21:28:36.467Z"
 ---

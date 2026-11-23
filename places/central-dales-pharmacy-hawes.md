@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Central%20Dales%20Pharmacy&query_place_id=ChIJyRaaD0BsfEgRx392hJ2n1JE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:33:23.558Z"
-last_fetched: "2026-11-16T19:33:29.317Z"
+  scraped_at: "2026-11-23T21:17:12.234Z"
+last_fetched: "2026-11-23T21:17:18.008Z"
 ---

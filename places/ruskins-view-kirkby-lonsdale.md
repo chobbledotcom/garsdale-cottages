@@ -26,8 +26,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Ruskin's%20View&query_place_id=ChIJY106eQCHfEgR7ufslQiRl8E
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:42:51.617Z"
-last_fetched: "2026-11-16T19:42:57.337Z"
+  scraped_at: "2026-11-23T21:26:16.918Z"
+last_fetched: "2026-11-23T21:26:22.577Z"
 blocks:
   - type: markdown
     content: "# Ruskin's View, Kirkby Lonsdale"

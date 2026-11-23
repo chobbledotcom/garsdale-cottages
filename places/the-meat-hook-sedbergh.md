@@ -52,9 +52,9 @@ google:
   phone: +44 15396 20431
   phone_unformatted: +441539620431
   location:
-      lat: 54.323301
-      lng: -2.5279464
-  plus_code: "8FFC+8R Sedbergh, United Kingdom"
+      lat: 54.3232258
+      lng: -2.5279019
+  plus_code: "8FFC+7R Sedbergh, United Kingdom"
   rating: 5
   reviews_count: 36
   opening_hours:
@@ -76,6 +76,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Meat%20Hook%20Sedbergh&query_place_id=ChIJQ3fE2PlhfEgR9VCEN6IP6TE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:47:20.466Z"
-last_fetched: "2026-11-16T19:47:26.251Z"
+  scraped_at: "2026-11-23T21:30:27.619Z"
+last_fetched: "2026-11-23T21:30:33.126Z"
 ---

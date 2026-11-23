@@ -75,6 +75,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Westmorland%20General%20Hospital&query_place_id=ChIJQwNByHGOfEgRxfep6i7zJg4
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:48:47.251Z"
-last_fetched: "2026-11-16T19:48:53.072Z"
+  scraped_at: "2026-11-23T21:31:40.064Z"
+last_fetched: "2026-11-23T21:31:45.714Z"
 ---

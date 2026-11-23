@@ -74,6 +74,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Spice%20Essence%20Indian%20Bangla%20Restaurant&query_place_id=ChIJz_ZdxkyGfEgRekDfz4ggko8
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:45:37.769Z"
-last_fetched: "2026-11-16T19:45:43.439Z"
+  scraped_at: "2026-11-23T21:28:55.773Z"
+last_fetched: "2026-11-23T21:29:01.627Z"
 ---

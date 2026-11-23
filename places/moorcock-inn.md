@@ -31,8 +31,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20Moorcock%20Inn&query_place_id=ChIJmWSyVjVkfEgRaqK9eGtY7Lo
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:40:37.234Z"
-last_fetched: "2026-11-16T19:40:42.892Z"
+  scraped_at: "2026-11-23T21:24:26.239Z"
+last_fetched: "2026-11-23T21:24:31.749Z"
 blocks:
   - type: markdown
     content: "# The Moorcock Inn"

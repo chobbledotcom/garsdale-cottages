@@ -42,8 +42,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Cotter%20Force&query_place_id=ChIJlZlya6lufEgRpxqbzK3MI4Q
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:33:47.124Z"
-last_fetched: "2026-11-16T19:33:52.997Z"
+  scraped_at: "2026-11-23T21:17:32.539Z"
+last_fetched: "2026-11-23T21:17:38.158Z"
 blocks:
   - type: markdown
     content: "# Cotter Force"

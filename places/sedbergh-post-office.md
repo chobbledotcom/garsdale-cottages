@@ -74,6 +74,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=SPAR%20Sedbergh&query_place_id=ChIJDYuJUPZhfEgRkRKIEWLs4VE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:43:34.987Z"
-last_fetched: "2026-11-16T19:43:40.727Z"
+  scraped_at: "2026-11-23T21:27:01.191Z"
+last_fetched: "2026-11-23T21:27:06.646Z"
 ---

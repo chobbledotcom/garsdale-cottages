@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Crackpot%20Hall%20-%20Beldi%20Hill%20Lead%20Mine&query_place_id=ChIJzymgX7tqfEgRK4B7RmAti3k
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:33:58.861Z"
-last_fetched: "2026-11-16T19:34:04.562Z"
+  scraped_at: "2026-11-23T21:17:43.031Z"
+last_fetched: "2026-11-23T21:17:48.656Z"
 ---

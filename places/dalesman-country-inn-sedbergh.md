@@ -24,13 +24,12 @@ google:
   plus_code: "8FFC+CC Sedbergh, United Kingdom"
   rating: 4.4
   reviews_count: 541
-  price: $110
   image_url: /images/places/dalesman-country-inn-sedbergh.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Dalesman%20Country%20Inn&query_place_id=ChIJvcw943djfEgRM3gu1II_k0M
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:35:17.264Z"
-last_fetched: "2026-11-16T19:35:22.822Z"
+  scraped_at: "2026-11-23T21:19:05.656Z"
+last_fetched: "2026-11-23T21:19:11.167Z"
 blocks:
   - type: markdown
     content: "# The Dalesman Country Inn, Sedbergh"

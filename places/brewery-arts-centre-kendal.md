@@ -28,7 +28,7 @@ google:
       lng: -2.7482023
   plus_code: "87F2+VP Kendal, United Kingdom"
   rating: 4.5
-  reviews_count: 1169
+  reviews_count: 1172
   opening_hours:
       - day: Monday
         hours: Closed
@@ -48,8 +48,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Brewery%20Arts&query_place_id=ChIJq21GNOaNfEgRUk_PADpF2LI
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:32:29.939Z"
-last_fetched: "2026-11-16T19:32:35.793Z"
+  scraped_at: "2026-11-23T21:16:24.419Z"
+last_fetched: "2026-11-23T21:16:30.343Z"
 blocks:
   - type: markdown
     content: "# Brewery Arts Centre, Kendal"

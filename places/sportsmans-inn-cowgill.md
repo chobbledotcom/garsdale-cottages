@@ -21,13 +21,13 @@ google:
       lng: -2.3575168
   plus_code: "7JCR+RX Sedbergh, United Kingdom"
   rating: 4
-  reviews_count: 84
+  reviews_count: 85
   image_url: /images/places/sportsmans-inn-cowgill.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Sportsman's%20Inn&query_place_id=ChIJyRnsqAdlfEgRFOMVTBreIlc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:45:48.588Z"
-last_fetched: "2026-11-16T19:45:54.246Z"
+  scraped_at: "2026-11-23T21:29:07.279Z"
+last_fetched: "2026-11-23T21:29:12.925Z"
 blocks:
   - type: markdown
     content: "# The Sportsman's Inn, Cowgill"

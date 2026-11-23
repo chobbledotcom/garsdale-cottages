@@ -22,8 +22,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Askrigg&query_place_id=ChIJNc9PFBcTfEgR5ezrObsuQhc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:31:04.831Z"
-last_fetched: "2026-11-16T19:31:11.289Z"
+  scraped_at: "2026-11-23T21:14:59.663Z"
+last_fetched: "2026-11-23T21:15:05.566Z"
 blocks:
   - type: markdown
     content: "# Askrigg"

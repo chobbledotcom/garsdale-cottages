@@ -27,8 +27,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Smardale%20Gill%20Nature%20Reserve%20Parking&query_place_id=ChIJaT_rW9FdfEgRwWIiupHRvNg
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:44:40.625Z"
-last_fetched: "2026-11-16T19:44:46.360Z"
+  scraped_at: "2026-11-23T21:27:58.014Z"
+last_fetched: "2026-11-23T21:28:03.684Z"
 blocks:
   - type: markdown
     content: "# Smardale Gill Nature Reserve"

@@ -19,8 +19,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Ingleton%20Waterfalls%20Trail&query_place_id=ChIJkZeL3z58fEgRGQO_l2r5970
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:39:03.127Z"
-last_fetched: "2026-11-16T19:39:09.488Z"
+  scraped_at: "2026-11-23T21:22:53.208Z"
+last_fetched: "2026-11-23T21:22:59.116Z"
 blocks:
   - type: markdown
     content: "# Ingleton Waterfalls Trail"

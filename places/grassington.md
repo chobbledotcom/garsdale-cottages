@@ -53,6 +53,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Grassington&query_place_id=ChIJmadXSgEKfEgR89yOx6ROeZc
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:37:22.743Z"
-last_fetched: "2026-11-16T19:37:29.844Z"
+  scraped_at: "2026-11-23T21:21:25.390Z"
+last_fetched: "2026-11-23T21:21:31.757Z"
 ---

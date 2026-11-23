@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=The%20White%20Hare%20Cafe&query_place_id=ChIJ7172TMtcfEgRMc_-MJb9PWY
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:48:57.759Z"
-last_fetched: "2026-11-16T19:49:03.849Z"
+  scraped_at: "2026-11-23T21:32:02.508Z"
+last_fetched: "2026-11-23T21:32:08.135Z"
 blocks:
   - type: markdown
     content: "# White Hare Cafe, Kirkby Stephen"

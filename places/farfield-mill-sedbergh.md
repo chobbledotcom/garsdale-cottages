@@ -22,7 +22,7 @@ google:
       lng: -2.498113
   plus_code: "8GC2+PQ Sedbergh, United Kingdom"
   rating: 4.6
-  reviews_count: 652
+  reviews_count: 653
   opening_hours:
       - day: Monday
         hours: "10:30 AM to 4 PM"
@@ -42,8 +42,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Farfield%20Mill&query_place_id=ChIJzzUxIYBhfEgRQFxUBq0tK8E
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:36:30.063Z"
-last_fetched: "2026-11-16T19:36:35.847Z"
+  scraped_at: "2026-11-23T21:20:33.825Z"
+last_fetched: "2026-11-23T21:20:39.363Z"
 blocks:
   - type: markdown
     content: "# Farfield Mill, Sedbergh"

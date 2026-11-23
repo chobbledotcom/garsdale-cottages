@@ -79,6 +79,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=VodafoneThree&query_place_id=ChIJpxcAS-iNfEgRDGIJQkGkJ9s
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:47:58.004Z"
-last_fetched: "2026-11-16T19:48:03.857Z"
+  scraped_at: "2026-11-23T21:31:03.471Z"
+last_fetched: "2026-11-23T21:31:09.351Z"
 ---

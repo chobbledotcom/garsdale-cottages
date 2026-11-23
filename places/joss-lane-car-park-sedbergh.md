@@ -73,6 +73,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Joss%20Lane%20Car%20Park&query_place_id=ChIJT9M5qtNhfEgRZIcoQOfFcYg
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:39:27.110Z"
-last_fetched: "2026-11-16T19:39:32.746Z"
+  scraped_at: "2026-11-23T21:23:13.954Z"
+last_fetched: "2026-11-23T21:23:19.553Z"
 ---

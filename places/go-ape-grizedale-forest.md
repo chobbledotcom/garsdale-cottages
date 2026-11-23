@@ -22,13 +22,13 @@ google:
       lng: -3.0244933
   plus_code: "8XRG+76 Ambleside, United Kingdom"
   rating: 4.8
-  reviews_count: 1553
+  reviews_count: 1554
   image_url: /images/places/go-ape-grizedale-forest.jpg
   url: https://www.google.com/maps/search/?api=1&query=Go%20Ape%20Grizedale&query_place_id=ChIJY8wqk0C-fEgR12e5pFxe8Z8
   permanently_closed: false
   temporarily_closed: true
-  scraped_at: "2026-11-16T19:37:05.859Z"
-last_fetched: "2026-11-16T19:37:11.809Z"
+  scraped_at: "2026-11-23T21:21:12.132Z"
+last_fetched: "2026-11-23T21:21:17.642Z"
 blocks:
   - type: markdown
     content: "# Go Ape, Grizedale Forest"

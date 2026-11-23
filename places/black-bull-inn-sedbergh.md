@@ -23,14 +23,13 @@ google:
       lng: -2.527537
   plus_code: "8FFC+GX Sedbergh, United Kingdom"
   rating: 4.4
-  reviews_count: 594
-  price: $130
+  reviews_count: 595
   image_url: /images/places/black-bull-inn-sedbergh.jpg
   url: https://www.google.com/maps/search/?api=1&query=The%20Black%20Bull%20Inn&query_place_id=ChIJp6ua5_RhfEgRhQCSFu_Krek
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:31:42.807Z"
-last_fetched: "2026-11-16T19:31:48.756Z"
+  scraped_at: "2026-11-23T21:15:37.185Z"
+last_fetched: "2026-11-23T21:15:42.659Z"
 blocks:
   - type: markdown
     content: "# The Black Bull Inn, Sedbergh"

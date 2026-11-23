@@ -24,8 +24,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Blades%20Farm&query_place_id=ChIJl5Xp4TdkfEgRSjjsrzz4mLM
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:31:55.304Z"
-last_fetched: "2026-11-16T19:32:00.716Z"
+  scraped_at: "2026-11-23T21:15:47.485Z"
+last_fetched: "2026-11-23T21:15:52.875Z"
 blocks:
   - type: markdown
     content: "# Blades Farm Campsite"

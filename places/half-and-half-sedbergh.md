@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Half%20and%20Half%20Sedbergh&query_place_id=ChIJP86ZLoZhfEgRAM0d1Q1t2As
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:37:46.404Z"
-last_fetched: "2026-11-16T19:37:52.451Z"
+  scraped_at: "2026-11-23T21:21:46.336Z"
+last_fetched: "2026-11-23T21:21:52.080Z"
 blocks:
   - type: markdown
     content: "# The Half and Half, Sedbergh"

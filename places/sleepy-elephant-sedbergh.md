@@ -75,6 +75,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Sleepy%20Elephant%20Books%20and%20Country%20Walking&query_place_id=ChIJ22Uk3fRhfEgRpSF4JpF5egE
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:44:29.220Z"
-last_fetched: "2026-11-16T19:44:35.051Z"
+  scraped_at: "2026-11-23T21:27:47.347Z"
+last_fetched: "2026-11-23T21:27:52.943Z"
 ---

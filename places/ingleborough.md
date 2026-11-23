@@ -72,6 +72,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Ingleborough&query_place_id=ChIJ6w1_PMF7fEgRMB3QmySfU1k
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:38:52.555Z"
-last_fetched: "2026-11-16T19:38:58.241Z"
+  scraped_at: "2026-11-23T21:22:43.161Z"
+last_fetched: "2026-11-23T21:22:48.648Z"
 ---

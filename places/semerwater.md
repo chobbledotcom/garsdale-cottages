@@ -24,8 +24,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Semerwater&query_place_id=ChIJSbM1AyltfEgRZFHfBjorT8U
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:44:09.088Z"
-last_fetched: "2026-11-16T19:44:14.719Z"
+  scraped_at: "2026-11-23T21:27:35.959Z"
+last_fetched: "2026-11-23T21:27:41.637Z"
 blocks:
   - type: markdown
     content: "# Semerwater"

@@ -22,8 +22,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Kendal%20Castle&query_place_id=ChIJM_Q4b9uNfEgRrV6LCqFVhFA
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:39:48.508Z"
-last_fetched: "2026-11-16T19:39:54.771Z"
+  scraped_at: "2026-11-23T21:23:36.417Z"
+last_fetched: "2026-11-23T21:23:42.247Z"
 blocks:
   - type: markdown
     content: "# Kendal Castle"

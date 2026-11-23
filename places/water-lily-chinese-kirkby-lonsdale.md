@@ -54,8 +54,8 @@ google:
       lat: 54.2016789
       lng: -2.5967904
   plus_code: "6C23+M7 Carnforth, United Kingdom"
-  rating: 3.5
-  reviews_count: 111
+  rating: 3.6
+  reviews_count: 112
   price: £10–20
   opening_hours:
       - day: Monday
@@ -76,6 +76,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Water%20Lily&query_place_id=ChIJgd7L0EyGfEgRornEx7kO_Gs
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:48:12.081Z"
-last_fetched: "2026-11-16T19:48:17.857Z"
+  scraped_at: "2026-11-23T21:31:14.084Z"
+last_fetched: "2026-11-23T21:31:19.607Z"
 ---

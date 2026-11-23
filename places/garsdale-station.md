@@ -29,8 +29,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Garsdale&query_place_id=ChIJ2-jUp1NvfEgRPRvnE3qU-1g
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:36:54.342Z"
-last_fetched: "2026-11-16T19:37:00.249Z"
+  scraped_at: "2026-11-23T21:21:01.469Z"
+last_fetched: "2026-11-23T21:21:07.217Z"
 blocks:
   - type: markdown
     content: "# Garsdale Station"

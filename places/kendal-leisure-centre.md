@@ -63,7 +63,7 @@ google:
       lng: -2.7385858
   plus_code: "8786+5H Kendal, United Kingdom"
   rating: 4.1
-  reviews_count: 482
+  reviews_count: 484
   opening_hours:
       - day: Monday
         hours: "6:30 AM to 9:30 PM"
@@ -83,6 +83,6 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Kendal%20Leisure%20Centre&query_place_id=ChIJi3zFjXWOfEgRnbMEhbbKmOg
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:39:59.930Z"
-last_fetched: "2026-11-16T19:40:05.588Z"
+  scraped_at: "2026-11-23T21:23:48.444Z"
+last_fetched: "2026-11-23T21:23:53.986Z"
 ---

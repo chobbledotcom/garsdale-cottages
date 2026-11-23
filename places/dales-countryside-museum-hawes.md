@@ -44,8 +44,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Dales%20Countryside%20Museum&query_place_id=ChIJnZHI-EFsfEgR5PJ4PLEysew
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:35:05.102Z"
-last_fetched: "2026-11-16T19:35:10.928Z"
+  scraped_at: "2026-11-23T21:18:54.382Z"
+last_fetched: "2026-11-23T21:19:00.055Z"
 blocks:
   - type: markdown
     content: "# Dales Countryside Museum, Hawes"

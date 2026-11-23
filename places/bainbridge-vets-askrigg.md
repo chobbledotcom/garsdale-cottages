@@ -43,8 +43,8 @@ google:
   url: https://www.google.com/maps/search/?api=1&query=Bainbridge%20Vets&query_place_id=ChIJ9T9mwEkTfEgRlUNM56FEKwo
   permanently_closed: false
   temporarily_closed: false
-  scraped_at: "2026-11-16T19:31:29.289Z"
-last_fetched: "2026-11-16T19:31:35.256Z"
+  scraped_at: "2026-11-23T21:15:25.910Z"
+last_fetched: "2026-11-23T21:15:31.458Z"
 blocks:
   - type: markdown
     content: "# Bainbridge Vets, Askrigg"
