@@ -25,5 +25,5 @@ blocks:
 
     - The wood burner has an extremely hot stove pipe. Do use the guard (stored behind
     the sofa) when small people and animals are around. Please don''t attempt to dry
-    things on or near the stove'
+    things on or near the stove (or indeed on any of the electric radiators!)'
 ---

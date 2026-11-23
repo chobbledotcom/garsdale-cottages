@@ -9,41 +9,7 @@ blocks:
   content: '# WiFi / Internet/Mobile details
 
 
-    # Wifi Internet details
-
-
-    There is free Wi-Fi in the property. The WiFi network name and password
-    are provided in your booking confirmation email, or you can contact us
-    before arrival and we will send them to you.
-
-
-    We provide this service for your enjoyment and convenience. However, please note
-    that you are responsible for its safe and appropriate use and compliance with
-    all laws. If there is any loss of service, please contact us.
-
-
-    We would be grateful if you could refrain from plugging any ethernet cables into
-    the router as this has been known to cause damage to the router
-
-
-    # Mobile Phone Coverage
-
-
-    Ofcom rate mobile coverage for voice and data as follows
-
-
-    EE - Limited for both voice and data
-
-
-    Three - Likely for voice, Limited for data
-
-
-    O2 - Likely for voice and data
-
-
-    Vodafone - Likely for voice and data
-
-
-    We have vodafone and find we have excellent coverage at 4G speed'
+    Explore the guides in this section to learn more. Ofcom''s mobile coverage
+    ratings for each network are on our [getting here](/getting-here/) page.'
 - type: guide-pages-list
 ---

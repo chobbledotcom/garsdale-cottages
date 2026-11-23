@@ -3,7 +3,7 @@ name: Booking Terms and Conditions
 subtitle: Booking with us
 guide-category: booking-with-us
 property: properties/roger-pot.md
-order: 1
+order: 2
 icon: hugeicons:agreement-02
 blocks:
 - type: guide-navigation
