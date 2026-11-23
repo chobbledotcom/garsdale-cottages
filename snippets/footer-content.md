@@ -29,6 +29,18 @@ name: Footer Content
       <li><a href="/getting-here/">Directions to Garsdale</a></li>
     </ul>
   </div>
+  <div class="footer-links" role="navigation" aria-label="Cottage breaks">
+    <h2 class="footer-heading">Cottage breaks</h2>
+    <ul role="list">
+      <li><a href="/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/">Dog friendly cottages</a></li>
+      <li><a href="/family-friendly-holidays-in-garsdale/">Family holidays in the Dales</a></li>
+      <li><a href="/romantic-cottages-for-couples/">Romantic cottages for couples</a></li>
+      <li><a href="/cottages-for-groups-of-friends/">Cottages for groups of friends</a></li>
+      <li><a href="/christmas-and-new-year-cottages/">Christmas and New Year cottages</a></li>
+      <li><a href="/winter-cottage-breaks/">Winter cottage breaks</a></li>
+      <li><a href="/last-minute-and-one-night-stays/">Last minute and one night stays</a></li>
+    </ul>
+  </div>
 </div>
 <div class="footer-bottom">
   <p>&copy; Garsdale Cottages</p>

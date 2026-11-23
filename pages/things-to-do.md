@@ -19,13 +19,13 @@ blocks:
     content: |-
           ## Things To Do Near Garsdale
           From wildlife watching to market towns, waterfalls to rainy day retreats
-          Garsdale is set in the Yorkshire Dales National Park in the county of Cumbria. It is an ideal setting for walking and there are walks directly from the hamlet with many marked footpaths. For detailed walking routes, see our [Walks](/walks/) page.
+          Garsdale is set in the Yorkshire Dales National Park in the county of Cumbria. It is good walking country, and there are walks directly from the hamlet on many marked footpaths. For detailed walking routes, see our [Walks](/walks/) page.
   - type: items
     collection: properties
     intro_content: |-
           ## Holiday Cottages in Garsdale
 
-          We have three self-catering [holiday cottages](/properties/) in Garsdale, between Sedbergh and Hawes in the Yorkshire Dales National Park, and most of what is on this page is within half an hour's drive of them. Book direct with the owners for the best rates.
+          We have three self-catering [holiday cottages](/properties/) in Garsdale, between Sedbergh and Hawes in the Yorkshire Dales National Park, and most of what is on this page is within half an hour's drive of them. Depending on who is coming, see our pages on [romantic cottages for couples](/romantic-cottages-for-couples/), [cottages for groups of friends](/cottages-for-groups-of-friends/), [family friendly holidays](/family-friendly-holidays-in-garsdale/) and [winter cottage breaks](/winter-cottage-breaks/). Book direct with the owners for the best rates.
   - type: features
     items:
       - icon: hugeicons:bird
@@ -99,9 +99,9 @@ blocks:
 
           **[Kendal](/locations/kendal/)** is the closest 'big town' with many shops, large supermarkets, cafes and eating places and a weekly market on Wednesday and Saturdays. It also has a castle and the [Brewery Arts Centre](/places/brewery-arts-centre-kendal/) ([breweryarts.co.uk](https://www.breweryarts.co.uk/)) has cinema, music, theatre and comedy events. Kendal is also home to the famous Kendal Mint Cake, first made in 1869 by Joseph Wiper. Prized for its energy-giving properties, it was carried on the 1953 Everest expedition and remains a favourite with walkers and climbers.
 
-          **[Askrigg](/places/askrigg-village/)** in Wensleydale is of particular interest to James Herriot fans — the village served as the setting for the TV series *All Creatures Great and Small*, filmed here in the 1970s and 1980s.
+          **[Askrigg](/places/askrigg-village/)** in Wensleydale is of particular interest to James Herriot fans, since the village was the setting for the TV series *All Creatures Great and Small*, filmed here in the 1970s and 1980s.
 
-          **[Farfield Mill](/places/farfield-mill-sedbergh/)** is on the road between Garsdale and Sedbergh and is an arts and heritage centre with exhibitions, craft work and a good cafe. A pleasant way to spend a few hours, particularly on a rainy day.
+          **[Farfield Mill](/places/farfield-mill-sedbergh/)** is on the road between Garsdale and Sedbergh and is an arts and heritage centre with exhibitions, craft work and a good cafe, and it is a pleasant way to spend a few hours, particularly on a rainy day.
 
           **[Semerwater](/places/semerwater/)** is the closest lake to Garsdale and is one of two remaining natural glacial lakes in the Yorkshire Dales. It is in the valley of Raydale, close to Countersett village. There are footpaths and walks from and around the lake with some fantastic views.
   - type: markdown
@@ -133,11 +133,11 @@ blocks:
 
           **[Cautley Spout](/places/cautley-spout/)** is another waterfall, again behind a temperance pub called the Cross Keys in Cautley ([cautleyspout.co.uk](https://www.cautleyspout.co.uk/)), which also has good food. Cautley is a longer walk and some inclines, but it can be seen without climbing too high, though you can climb to the top if you are enthusiastic. For some reason, on a number of our visits to Cautley Spout, the weather has changed mid walk and turned to rain or snow, so be prepared.
 
-          **[Cotter Force](/places/cotter-force/)** - another easy walk to a waterfall on the way to Hawes. There is a parking area nearby and the walk to the waterfall is flat and a tidy pathway.
+          **[Cotter Force](/places/cotter-force/)** is another easy walk to a waterfall on the way to Hawes. There is a parking area nearby, and the walk to the waterfall is flat, on a tidy path.
 
-          **[Dent](/places/dent-village/)** can be visited by driving over what is locally called the Coal Road, passing [Garsdale Station](/places/garsdale-station/). This is a very scenic route, passes [Dent Station](/places/dent-station/) and is a very quaint, pretty village, with some lovely cafes and walks.
+          **[Dent](/places/dent-village/)** can be visited by driving over what is locally called the Coal Road, passing [Garsdale Station](/places/garsdale-station/). The Coal Road is a scenic route that passes [Dent Station](/places/dent-station/), and Dent itself is a pretty village with some lovely cafes and walks.
 
-          **Ambleside** is about 45 minutes drive but is lovely to visit, has some great eating places, particularly we enjoy [Zeffirellis](/places/zeffirellis-ambleside/), which has the cinema and vegetarian restaurant and always good food.
+          **Ambleside** is roughly an hour's drive but is lovely to visit, has some great eating places, particularly we enjoy [Zeffirellis](/places/zeffirellis-ambleside/), which has the cinema and vegetarian restaurant and always good food.
 
           For a fuller day in the [Lake District](/places/lake-district/), allow extra time for summer traffic and parking rather than treating that driving estimate as a promise. Garsdale is outside the Lake District, in the Yorkshire Dales National Park. Our [Cumbria guide](/places/cumbria/) also covers nearer outings around Kendal, Sedbergh and the Howgill Fells, including ways to combine an outdoor visit with somewhere indoors.
 
@@ -169,18 +169,18 @@ blocks:
           ## Exploring the Dale
           There is plenty to discover in and around Garsdale itself without driving anywhere:
           
-          *   **Otters on the River Clough** -- otters have naturally recolonised the river. You are unlikely to see one, but look for spraints (otter droppings) on rocks at the waterside.
+          *   **Otters on the River Clough** - otters have naturally recolonised the river. You are unlikely to see one, but look for spraints (otter droppings) on rocks at the waterside.
           *   **Dark skies** - with no street lighting, the stargazing from Garsdale is remarkable. On a clear night, the Milky Way is visible to the naked eye. Baugh Fell, visible to the north, is a particularly good backdrop. See our [Dark Skies in Garsdale](/dark-skies-in-garsdale/) page for more on stargazing, and our [Wellness Retreats](/wellness-retreats/) page for slow, restorative breaks in the dale.
-          *   **Dry stone walls** -- Garsdale has a fine collection of walls, all visible from the road. Each has a distinctive style that identifies the waller who built it.
-          *   **[Garsdale dialect](/garsdale-dialect/)** -- the dale has its own traditional vocabulary, rooted in Old Norse. Ask a local what "thrang" or "heeaf" means.
-          *   **[Tom Croft Cave](/places/tom-croft-cave/) and [Dovecote Cave](/places/dovecote-cave/)** -- local caves to explore with a torch.
-          *   **[The Sedgwick Geological Trail](/the-sedgwick-geological-trail/)** -- a short walk along the River Clough at Danny Bridge tracing the ancient Dent Fault, named after the geologist Adam Sedgwick who was born in nearby Dent.
-          *   **[Grisedale](/grisedale/)** -- the neighbouring valley known as "The Dale that Died," which has quietly come back to life. A walk into Grisedale is one of the most atmospheric things you can do from here.
-          *   **[Churches and Chapels](/churches-and-chapels/)** -- Garsdale has an Anglican church, Quaker meeting houses and three Methodist chapels, reflecting centuries of faith and independent thinking.
-          *   **[The History of Garsdale](/garsdale-history/)** -- from Viking settlement and medieval monasteries to the Great Flood of 1889 and the building of the Settle-Carlisle railway.
-          *   **[House Names and Local Places](/garsdale-house-names-and-local-places/)** -- historic farm names, cottage names and local place names from Garsdale Foot to The Street, Hawes Junction and Grisedale.
-          *   **[Farming in Garsdale](/farming-in-garsdale/)** -- the dale is a working hill farming community with Swaledale sheep and a farming calendar that shapes the rhythm of life here.
-          *   **[The Village Hall](/garsdale-village-hall-and-community/)** -- the social heart of the dale, with community events throughout the year including quiz nights, beetle drives and bonfire celebrations.
+          *   **Dry stone walls** - Garsdale has a fine collection of walls, all visible from the road. Each has a distinctive style that identifies the waller who built it.
+          *   **[Garsdale dialect](/garsdale-dialect/)** - the dale has its own traditional vocabulary, rooted in Old Norse. Ask a local what "thrang" or "heeaf" means.
+          *   **[Tom Croft Cave](/places/tom-croft-cave/) and [Dovecote Cave](/places/dovecote-cave/)** - local caves to explore with a torch.
+          *   **[The Sedgwick Geological Trail](/the-sedgwick-geological-trail/)** - a short walk along the River Clough at Danny Bridge tracing the ancient Dent Fault, named after the geologist Adam Sedgwick who was born in nearby Dent.
+          *   **[Grisedale](/grisedale/)** - the neighbouring valley known as "The Dale that Died," which has quietly come back to life. A walk into Grisedale is one of the most atmospheric things you can do from here.
+          *   **[Churches and Chapels](/churches-and-chapels/)** - Garsdale has an Anglican church, Quaker meeting houses and three Methodist chapels, reflecting centuries of faith and independent thinking.
+          *   **[The History of Garsdale](/garsdale-history/)** - from Viking settlement and medieval monasteries to the Great Flood of 1889 and the building of the Settle-Carlisle railway.
+          *   **[House Names and Local Places](/garsdale-house-names-and-local-places/)** - historic farm names, cottage names and local place names from Garsdale Foot to The Street, Hawes Junction and Grisedale.
+          *   **[Farming in Garsdale](/farming-in-garsdale/)** - the dale is a working hill farming community with Swaledale sheep and a farming calendar that shapes the rhythm of life here.
+          *   **[The Village Hall](/garsdale-village-hall-and-community/)** - the social heart of the dale, with community events throughout the year including quiz nights, beetle drives and bonfire celebrations.
   - type: markdown
     content: |-
           ## Rainy Days
@@ -213,9 +213,9 @@ blocks:
     content: |-
           ## Waterfalls, Castles and Villages
 
-          There are many waterfalls nearby. Most are free to visit; [Hardraw Force](/places/hardraw-force/) ([hardrawforce.com](http://hardrawforce.com/waterfall.html)) has a small entrance fee but is a lovely walk — and film fans may recognise it as the setting for the famous waterfall scene in *Robin Hood: Prince of Thieves*. [Cautley Spout](/places/cautley-spout/) ([sedbergh.org.uk](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/)) and [Cotter Force](/places/cotter-force/) ([yorkshire.com](https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force)) are also well worth a visit, as are [Aysgarth Falls](/places/aysgarth-falls/) ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/aysgarth-falls/)) in Wensleydale — a must-see for anyone new to the area.
+          There are many waterfalls nearby. Most are free to visit; [Hardraw Force](/places/hardraw-force/) ([hardrawforce.com](http://hardrawforce.com/waterfall.html)) has a small entrance fee but is a lovely walk, and film fans may recognise it as the setting for the famous waterfall scene in *Robin Hood: Prince of Thieves*. [Cautley Spout](/places/cautley-spout/) ([sedbergh.org.uk](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-9-cautley-spout/)) and [Cotter Force](/places/cotter-force/) ([yorkshire.com](https://www.yorkshire.com/cotterdale/things-to-do/attractions/cotter-force)) are also well worth a visit, as are [Aysgarth Falls](/places/aysgarth-falls/) ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/places/aysgarth-falls/)) in Wensleydale, which are worth seeing if you are new to the area.
 
-          There are also a number of castles and National Trust properties as well as beautiful historic villages. [Bolton Castle](/places/bolton-castle/) ([boltoncastle.co.uk](https://boltoncastle.co.uk/)) is an impressive sight — particularly at night when it is lit up and visible from miles around — and by day it is well worth a visit as the site where Mary Queen of Scots was once held prisoner. [Pendragon Castle](/places/pendragon-castle/) ([visitcumbria.com](https://www.visitcumbria.com/evnp/pendragon-castle/)) in Mallerstang is said to have connections to King Arthur. [Brough Castle](/places/brough-castle/) ([english-heritage.org.uk](https://www.english-heritage.org.uk/visit/places/brough-castle/)) and [Kendal Castle](/places/kendal-castle/) ([visit-kendal.co.uk](https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/)) are all within easy driving distance and some are free to enter.
+          There are also a number of castles and National Trust properties as well as beautiful historic villages. [Bolton Castle](/places/bolton-castle/) ([boltoncastle.co.uk](https://boltoncastle.co.uk/)) is an impressive sight, particularly at night when it is lit up and visible from miles around, and by day it is well worth a visit as the site where Mary Queen of Scots was once held prisoner. [Pendragon Castle](/places/pendragon-castle/) ([visitcumbria.com](https://www.visitcumbria.com/evnp/pendragon-castle/)) in Mallerstang is said to have connections to King Arthur. [Brough Castle](/places/brough-castle/) ([english-heritage.org.uk](https://www.english-heritage.org.uk/visit/places/brough-castle/)) and [Kendal Castle](/places/kendal-castle/) ([visit-kendal.co.uk](https://visit-kendal.co.uk/see-and-do/kendal-castle-and-heritage/)) are all within easy driving distance and some are free to enter.
 
           [Levens Hall](/places/levens-hall/) ([levenshall.co.uk](https://www.levenshall.co.uk/)) and other National Trust properties in Cumbria ([visitcumbria.com](https://www.visitcumbria.com/national-trust-in-cumbria/)) are also within reach.
 

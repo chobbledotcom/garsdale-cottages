@@ -56,7 +56,7 @@ blocks:
     content: |-
           SPAR Sedbergh is a small supermarket on Station Road, on the outskirts of Sedbergh town centre, and it is the nearest grocery shop if you are self-catering and need to stock up. It sells the usual convenience-store range - bread, milk, eggs, basic groceries, newspapers and a few household bits - and it has a cash machine. The shop is a few minutes' walk from Main Street, or a couple of minutes in the car, and there is parking on site.
           
-          For a bigger shop, Kendal has the nearest large supermarkets, about twenty-five minutes' drive away. For local produce - meat, bread, veg - [The Meat Hook](/places/the-meat-hook-sedbergh/) butcher and the Wednesday [Sedbergh market](/places/sedbergh-market/) are the better bet if you are cooking properly.
+          For a bigger shop, Kendal has the nearest large supermarkets, about twenty-five minutes' drive away. For local produce - meat, bread, veg - [The Meat Hook](/places/the-meat-hook-sedbergh/) butcher and the Wednesday [Sedbergh market](/places/sedbergh-market/) are the better bet if you are cooking from scratch.
           
           - **Address:** Station Road, Sedbergh, Cumbria, LA10 5AB
     figure_src: /images/guide-pages/spar-sedbergh.jpeg

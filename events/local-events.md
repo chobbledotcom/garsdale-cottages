@@ -32,7 +32,9 @@ blocks:
     Throughout the year there are also regular exhibitions and events at **Farfield
     Mill**, the restored Victorian woollen mill on the edge of Sedbergh, and Sedbergh''s
     much-loved **Christmas late-night shopping** evening rounds off the calendar each
-    December.
+    December. If you are thinking of staying over the festive season, our [Christmas
+    and New Year cottages](/christmas-and-new-year-cottages/) page covers the cottages,
+    food shopping and what is on between Christmas and New Year.
 
     '
 - type: features

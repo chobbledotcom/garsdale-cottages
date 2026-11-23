@@ -481,7 +481,7 @@ body.design-system > .site-footer {
 
   .footer-grid {
     display: grid;
-    grid-template-columns: 1.3fr 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
     gap: clamp(2rem, 5vw, 4rem);
   }
 
@@ -554,7 +554,7 @@ body.design-system > .site-footer {
     }
 
     .footer-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
     .footer-brand {

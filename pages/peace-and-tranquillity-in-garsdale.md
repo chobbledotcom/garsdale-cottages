@@ -15,7 +15,7 @@ blocks:
 
   - type: markdown
     content: |-
-      Garsdale is a quiet, remote valley in the Yorkshire Dales National Park, running roughly seven miles between Sedbergh and Hawes, and peace and tranquillity are what it does best. The dale has no village centre to speak of - just stone cottages, farms and barns spread along the valley, with the River Clough running down the middle. There is no street lighting, no through traffic to speak of beyond the A684, and nothing open late. If you are looking for a quiet self-catering cottage holiday in the Yorkshire Dales, this is the sort of place you are looking for.
+      Garsdale is a quiet, remote valley in the Yorkshire Dales National Park, running roughly seven miles between Sedbergh and Hawes, and peace and tranquillity are what it does best. The dale has no village centre to speak of - just stone cottages, farms and barns spread along the valley, with the River Clough running down the middle. There is no street lighting, no through traffic to speak of beyond the A684, and nothing open late. If you are looking for a quiet self-catering cottage holiday in the Yorkshire Dales, our three holiday cottages in Garsdale are worth a look.
 
   - type: features
     intro_content: "## At a Glance"
@@ -78,6 +78,8 @@ blocks:
       ## See Also
 
       - [Dark Skies in Garsdale](/dark-skies-in-garsdale/) - the night side of the dale's tranquillity
+      - [Secluded Cottage with Views](/secluded-cottage-with-views/) - Roger Pot, up its own farm track
+      - [Winter Cottage Breaks](/winter-cottage-breaks/) - the dale at its quietest
       - [Wellness Retreats](/wellness-retreats/) - slow, restorative breaks
       - [About Garsdale](/locations/garsdale/) - the dale in detail
       - [Wildlife in Garsdale](/garsdale-wildlife/) - red squirrels, otters and over fifty bird species

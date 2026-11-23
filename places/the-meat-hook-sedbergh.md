@@ -16,7 +16,7 @@ blocks:
     content: |-
           The Meat Hook is a family-run traditional artisan butchers shop in Sedbergh, and it was Cumbrian Butcher of the Year in 2023, which tells you a fair bit about the quality. Provenance and quality are the whole point of the place - they sell a wide range of local meats including home-reared lamb, and they do weekly essentials packs if you are self-catering and want to stock the freezer for a few days. The butchery counter is old school, and the staff know their cuts.
           
-          It sits at 71 Giles Road in Sedbergh, a short walk from the main street, and is well worth a stop on the way to one of our [self-catering cottages](/properties/) if you want to cook properly while you are here.
+          It sits at 71 Giles Road in Sedbergh, a short walk from the main street, and is well worth a stop on the way to one of our [self-catering cottages](/properties/) if you want to cook from scratch while you are here.
           
           ## Details
           
@@ -31,7 +31,7 @@ blocks:
     intro_content: |-
           ## Stay Near The Meat Hook Sedbergh
           
-          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting The Meat Hook Sedbergh.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting The Meat Hook Sedbergh. If you are coming for Christmas, our [Christmas and New Year cottages](/christmas-and-new-year-cottages/) page has more on ordering ahead and shopping over the holidays.
   - type: markdown
     content: |-
           ## See Also

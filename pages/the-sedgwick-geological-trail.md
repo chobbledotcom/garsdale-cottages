@@ -66,11 +66,11 @@ blocks:
     content: |-
           ## References
           
-          - Adam Sedgwick — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
-          - Dent Fault — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dent_Fault))
-          - Cambrian period — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cambrian))
-          - Devonian period — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Devonian))
-          - Roderick Murchison — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Roderick_Murchison))
+          - Adam Sedgwick - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
+          - Dent Fault - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dent_Fault))
+          - Cambrian period - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cambrian))
+          - Devonian period - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Devonian))
+          - Roderick Murchison - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Roderick_Murchison))
           - Sedgwick Museum of Earth Sciences, Cambridge ([sedgwickmuseum.cam.ac.uk](https://sedgwickmuseum.cam.ac.uk/))
           
 ---

@@ -50,7 +50,7 @@ blocks:
     content: "# Aysgarth Falls"
   - type: split-html
     reverse: true
-    content: "Aysgarth Falls in Wensleydale are a series of broad limestone steps on the River Ure, a few miles east of Hawes. The falls are split into three sections - Upper, Middle and Lower - each with its own character, and the riverside walks between them are level and easy underfoot. The falls featured in the 1991 film *Robin Hood: Prince of Thieves*. A National Park Centre sits at the Upper Falls with parking, and the village of Aysgarth itself has pubs and tea rooms. A must-see for anyone new to the area, and a straightforward addition to a day out taking in Hawes, Bolton Castle or the upper dale."
+    content: "Aysgarth Falls in Wensleydale are a series of broad limestone steps on the River Ure, a few miles east of Hawes. The falls are split into three sections - Upper, Middle and Lower - each with its own character, and the riverside walks between them are level and easy underfoot. The falls featured in the 1991 film *Robin Hood: Prince of Thieves*. A National Park Centre sits at the Upper Falls with parking, and the village of Aysgarth itself has pubs and tea rooms. They are worth seeing if you are new to the area, and they fit easily into a day out taking in Hawes, Bolton Castle or the upper dale."
     figure_html: "{% include \"business-details.html\", place_slug: \"aysgarth-falls\" %}"
   - type: items
     collection: properties

@@ -2,7 +2,7 @@
 name: About Garsdale
 header_text: About Garsdale
 layout: base
-subtitle: A hidden gem in the Yorkshire Dales
+subtitle: A quiet valley in the Yorkshire Dales
 meta_title: About Garsdale near Sedbergh | Yorkshire Dales Holiday Cottages
 meta_description: Garsdale is a quiet valley near Sedbergh in the Yorkshire Dales National Park - a haven for red squirrels, upland birds and unspoilt countryside.
 eleventyNavigation:
@@ -25,7 +25,7 @@ blocks:
     intro_content: |-
           ## Our Holiday Cottages in Garsdale
 
-          There are three self-catering [holiday cottages](/properties/) here in Garsdale - Roger Pot, Farrier's Cottage and The Old Cart House - about six miles up the dale from Sedbergh in the Yorkshire Dales National Park. Book direct with the owners for the best rates.
+          There are three self-catering [holiday cottages](/properties/) here in Garsdale - Roger Pot, Farrier's Cottage and The Old Cart House - about six miles up the dale from Sedbergh in the Yorkshire Dales National Park. Paul bakes bread and cake for every guest at Roger Pot, and Jack and Loraine leave a basket of local treats for every guest at The Old Cart House, which our [welcome hamper](/cottages-with-a-welcome-hamper/) page describes. Book direct with the owners for the best rates.
   - type: features
     items:
           - icon: hugeicons:mountain
@@ -170,11 +170,11 @@ blocks:
           
           - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
           - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
-          - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
-          - Yorkshire Dales National Park — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Yorkshire_Dales_National_Park))
-          - Pennine Way — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Way))
+          - Garsdale, Cumbria - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+          - Yorkshire Dales National Park - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Yorkshire_Dales_National_Park))
+          - Pennine Way - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Way))
           - Red squirrel conservation in northern England ([rsne.org](https://rsne.org))
           - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
-          - Adam Sedgwick — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
+          - Adam Sedgwick - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
           - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
 ---

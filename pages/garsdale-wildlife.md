@@ -63,7 +63,7 @@ blocks:
   - type: split-image
     content: |-
           ## Birds
-          The birdlife here is exceptional. Over fifty species have been recorded in and around the cottages. Garden feeders attract nuthatches, great spotted woodpeckers, several species of tit, siskins, blackcaps, redpolls, robins and treecreepers. The river is home to herons, dippers, mallards and goosander, with rare kingfisher sightings that make for unforgettable moments.
+          The birdlife here is exceptional. Over fifty species have been recorded in and around the cottages. Garden feeders attract nuthatches, great spotted woodpeckers, several species of tit, siskins, blackcaps, redpolls, robins and treecreepers. The river is home to herons, dippers, mallards and goosander, and kingfishers have been seen on it, though only rarely.
           In spring, curlews arrive from the coast to nest on the moorland, and their evocative calls become the soundtrack to the dale. Cuckoos visit, swallows return, and short-eared owls can be seen hunting over Grisedale in the early evening. Winter brings large flocks of redwings and fieldfares.
           For more detail, see our [Bird Watching in Garsdale](/bird-watching-properties/) page.
           
@@ -88,7 +88,7 @@ blocks:
   - type: markdown
     content: |-
           ## Dark Skies
-          With no street lighting and very little light pollution, Garsdale offers remarkable stargazing. The area is Dark Sky friendly, and on a clear night the Milky Way is visible to the naked eye. Winter evenings, though cold, can be extraordinary. See our [Dark Skies in Garsdale](/dark-skies-in-garsdale/) page for more on what you can see, and our [Wellness Retreats](/wellness-retreats/) page for slow, restorative breaks under the dark sky.
+          With no street lighting and very little light pollution, Garsdale offers remarkable stargazing. The area is Dark Sky friendly, and on a clear night the Milky Way is visible to the naked eye. Winter evenings, though cold, can be extraordinary, and our [winter cottage breaks](/winter-cottage-breaks/) page covers the long nights, the woodburning stoves and walking in snow. See our [Dark Skies in Garsdale](/dark-skies-in-garsdale/) page for more on what you can see, and our [Wellness Retreats](/wellness-retreats/) page for slow, restorative breaks under the dark sky.
           
   - type: cta
     button:
@@ -104,8 +104,8 @@ blocks:
           - Red Squirrels Northern England ([rsne.org](https://rsne.org))
           - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))
           - Lune Rivers Trust ([luneriverstrust.org.uk](https://www.luneriverstrust.org.uk/))
-          - Red squirrel — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Red_squirrel))
-          - Eurasian otter — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Eurasian_otter))
-          - Yorkshire Dales National Park — Dark Skies ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/enjoy-the-dales/dark-skies/))
+          - Red squirrel - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Red_squirrel))
+          - Eurasian otter - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Eurasian_otter))
+          - Yorkshire Dales National Park - Dark Skies ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/enjoy-the-dales/dark-skies/))
           
 ---

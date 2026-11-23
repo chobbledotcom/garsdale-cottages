@@ -21,5 +21,5 @@ blocks:
     intro_content: |-
       ## Stay Near Home deliveries
       
-      Supermarket deliveries can be arranged to our three [holiday cottages](/properties/) in Garsdale.
+      Supermarket deliveries can be arranged to our three [holiday cottages](/properties/) in Garsdale. Paul at Roger Pot and Jack and Loraine at The Old Cart House leave every guest a [welcome hamper](/cottages-with-a-welcome-hamper/), and our [Christmas and New Year cottages](/christmas-and-new-year-cottages/) page has advice on booking delivery slots over the holidays.
 ---

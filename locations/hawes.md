@@ -20,7 +20,7 @@ blocks:
     intro_content: |-
           ## Holiday Cottages Near Hawes
 
-          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about nine miles west of Hawes. Book direct with the owners for the best rates.
+          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about nine miles west of Hawes. If you are walking the Pennine Way through Hawes and need a single night, our [last minute and one night stays](/last-minute-and-one-night-stays/) page explains how one-night bookings work at The Old Cart House. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## Cheese, Museums and Rope Makers

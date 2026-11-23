@@ -72,7 +72,7 @@ blocks:
     intro_content: |-
           ## Stay Near Hardraw Force
           
-          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Hardraw Force.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Hardraw Force. If you are coming as a couple, our [romantic cottages for couples](/romantic-cottages-for-couples/) page covers The Old Cart House and days out like this one.
   - type: markdown
     content: |-
           ## See Also

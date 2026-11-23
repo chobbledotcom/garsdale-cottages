@@ -47,10 +47,10 @@ blocks:
           
           ## References
           
-          - Ingleborough — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Ingleborough))
-          - Gaping Gill — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Gaping_Gill))
-          - White Scar Caves — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/White_Scar_Caves))
-          - Yorkshire Three Peaks — Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/things-to-do/get-outdoors/yorkshire-three-peaks/ingleborough-2/))
+          - Ingleborough - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Ingleborough))
+          - Gaping Gill - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Gaping_Gill))
+          - White Scar Caves - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/White_Scar_Caves))
+          - Yorkshire Three Peaks - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/things-to-do/get-outdoors/yorkshire-three-peaks/ingleborough-2/))
           - White Scar Cave, Ingleton ([whitescarcave.co.uk](https://www.whitescarcave.co.uk/))
           - Ingleborough Cave, Clapham ([ingleboroughcave.co.uk](https://ingleboroughcave.co.uk/))
 google_place_id: ChIJ6w1_PMF7fEgRMB3QmySfU1k

@@ -44,10 +44,10 @@ blocks:
           
           ## References
           
-          - Malham Tarn — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Malham_Tarn))
-          - Malham Cove — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Malham_Cove))
-          - Malham Tarn National Nature Reserve — National Trust ([nationaltrust.org.uk](https://www.nationaltrust.org.uk/visit/yorkshire/malham-tarn-and-moor))
-          - Gordale Scar — Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/things-to-do/see-and-do/gordale-scar/))
+          - Malham Tarn - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Malham_Tarn))
+          - Malham Cove - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Malham_Cove))
+          - Malham Tarn National Nature Reserve - National Trust ([nationaltrust.org.uk](https://www.nationaltrust.org.uk/visit/yorkshire/malham-tarn-and-moor))
+          - Gordale Scar - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/things-to-do/see-and-do/gordale-scar/))
 google_place_id: ChIJa68M9qR1fEgRqdZt_aR1fEg
 google:
   name: Malham Tarn

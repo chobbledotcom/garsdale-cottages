@@ -59,9 +59,9 @@ blocks:
     content: |-
       ## Stargazing From the Cottages
 
-      All three cottages - [Roger Pot](/properties/roger-pot/), [The Old Cart House](/properties/the-old-cart-house/) and [Farrier's Cottage](/properties/farriers-cottage/) - have gardens you can stargaze from, and the darkness is the same whether you stay at the western or eastern end of the dale. Roger Pot sits up its own farm track with open ground around it, and The Old Cart House has a rear patio garden; either way, the practicalities are the same. Wrap up properly, as a Dales night gets cold even in summer, take a blanket and a hot drink, and let your eyes adjust for ten minutes or so before you judge the sky.
+      All three cottages - [Roger Pot](/properties/roger-pot/), [The Old Cart House](/properties/the-old-cart-house/) and [Farrier's Cottage](/properties/farriers-cottage/) - have gardens you can stargaze from, and the darkness is the same whether you stay at the western or eastern end of the dale. Roger Pot sits up its own farm track with open ground around it (our [secluded cottage with views](/secluded-cottage-with-views/) page has more on its setting), and The Old Cart House has a rear patio garden; either way, the practicalities are the same. Wrap up warm, as a Dales night gets cold even in summer, take a blanket and a hot drink, and let your eyes adjust for ten minutes or so before you judge the sky.
 
-      The best nights are clear and moonless, and the nights are longest between October and March. A torch with a red light mode preserves your night vision if you need to walk about, but mostly you will not need light at all - [the dale is quiet and safe to stand out in](/peace-and-tranquillity-in-garsdale/), and the sky does the rest.
+      The best nights are clear and moonless, and the nights are longest between October and March, which our [winter cottage breaks](/winter-cottage-breaks/) page covers in more detail. A torch with a red light mode preserves your night vision if you need to walk about, but mostly you will not need light at all - [the dale is quiet and safe to stand out in](/peace-and-tranquillity-in-garsdale/), and the sky does the rest.
 
   - type: items
     collection: properties

@@ -9,11 +9,11 @@ blocks:
 - type: guide-navigation
 - type: guide-header
 - type: markdown
-  content: '**LPG heating** – The LPG boiler is no longer in use. The bolier should
+  content: '**LPG heating** - The LPG boiler is no longer in use. The bolier should
     not be touched please
 
 
-    **Lounge log fire heating and hot water** – the multifuel burner has a back boiler
+    **Lounge log fire heating and hot water** - the multifuel burner has a back boiler
     which heats water circulating through the house. If the fire is lit it will automatically
     heat the hot water and heat the house through underfloor heating on the ground
     floor and the panel radiators on the first floor. We will provide a basket of

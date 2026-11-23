@@ -15,7 +15,7 @@ blocks:
 
           The three dog-friendly cottages are self-catering accommodation in the Yorkshire Dales National Park, owned separately and let directly by their owners. Each cottage page lists its own pet rules, facilities and contact details. The ground can be wet for much of the year, and this is sheep farming country, so dogs need to be on a lead near stock.
 
-          Roger Pot takes up to two well-behaved dogs and they must not be left unattended. The Old Cart House accepts dogs and cats; its garden is not fully enclosed, so pets should not be left unsupervised. Farrier's Cottage takes one well-behaved pet; its garden is not enclosed and a public right of way crosses the front.
+          Roger Pot takes up to two well-behaved dogs and they must not be left unattended. There is no charge for dogs at Roger Pot, and the utility room has a hard floor that is easy to clean, so guests with dogs have found it a good place to settle them at night. The Old Cart House accepts dogs and cats; its garden is not fully enclosed, so pets should not be left unsupervised. Farrier's Cottage takes one well-behaved pet; its garden is not enclosed and a public right of way crosses the front.
   - type: items
     collection: properties
     intro_content: |-
@@ -162,7 +162,7 @@ blocks:
             description: Remember to bring towels for muddy paws, dog beds, and food bowls. Check our [Things to Bring Guide](/guide/before-you-leave-home/things-to-bring/) for details.
           - icon: hugeicons:cleaning-bucket
             name: Cleaning Equipment
-            description: Need to wipe down muddy paws after a rainy hike? Find out where hosepipes and towels are kept in our [Cleaning Equipment Guide](/guide/about-the-accommodation/cleaning-equipment/).
+            description: If muddy paws need wiping down after a wet walk on the fells, our [Cleaning Equipment Guide](/guide/about-the-accommodation/cleaning-equipment/) says where the hosepipes and towels are kept.
   - type: cta
     button:
           text: View the Cottages

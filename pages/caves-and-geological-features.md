@@ -56,7 +56,7 @@ blocks:
           - [White Scar Cave](/places/white-scar-cave/), Ingleton ([whitescarcave.co.uk](https://whitescarcave.co.uk/))
           - [Ingleborough Cave](/places/ingleborough-cave/), Clapham ([ingleboroughcave.co.uk](https://ingleboroughcave.co.uk/))
           - [Dales Countryside Museum, Hawes](/places/dales-countryside-museum-hawes/) ([dalescountrysidemuseum.org.uk](https://www.dalescountrysidemuseum.org.uk/))
-          - Dent Fault — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dent_Fault))
-          - Adam Sedgwick — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
-          - J. M. W. Turner — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/J._M._W._Turner))
+          - Dent Fault - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dent_Fault))
+          - Adam Sedgwick - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Adam_Sedgwick))
+          - J. M. W. Turner - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/J._M._W._Turner))
 ---

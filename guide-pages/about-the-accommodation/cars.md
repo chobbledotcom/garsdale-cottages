@@ -9,7 +9,7 @@ blocks:
 - type: guide-navigation
 - type: guide-header
 - type: markdown
-  content: "**Cars **– parking is limited on the site so please try to be mindful,\
+  content: "**Cars** - parking is limited on the site so please try to be mindful,\
     \ as we will be, to allow space for other to manoeuvre for entry and exit. You\
     \ will have also experienced the track up to the house so again please be mindful\
     \ that there are no turning places should you meet someone coming up or going\

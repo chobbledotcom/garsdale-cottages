@@ -58,7 +58,7 @@ blocks:
     intro_content: |-
           ## Stay Near Howgill Fells
           
-          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Howgill Fells.
+          We have three [holiday cottages](/properties/) in Garsdale you can use as a base for visiting Howgill Fells. Roger Pot and Farrier's Cottage each sleep six, and our [cottages for groups of friends](/cottages-for-groups-of-friends/) page covers them for walking groups.
   - type: markdown
     content: |-
           ## See Also
@@ -76,9 +76,9 @@ blocks:
           
           ## References
           
-          - The Calf, Howgill Fells — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Calf,_Howgill_Fells))
-          - Cautley Spout — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cautley_Spout))
-          - Howgill Fells — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Howgill_Fells))
+          - The Calf, Howgill Fells - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Calf,_Howgill_Fells))
+          - Cautley Spout - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Cautley_Spout))
+          - Howgill Fells - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Howgill_Fells))
           - Visit Sedbergh - Winder from Sedbergh ([sedbergh.org.uk](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/short-walks/walk-winder-from-sedbergh/))
           - Visit Sedbergh - Walk 1: Winder and the Calf ([sedbergh.org.uk](https://www.sedbergh.org.uk/activities/outdoor-activities/walking/visit-sedbergh-walks/walk-1-winder-and-the-calf/))
           - Cross Keys Temperance Inn, Cautley Spout ([cautleyspout.co.uk](https://www.cautleyspout.co.uk/))

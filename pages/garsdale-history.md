@@ -24,7 +24,7 @@ blocks:
   - type: split-image
     content: |-
           ## Early History
-          The manor of Garsdale was once held by St Agatha's Abbey at Easby, near Richmond, and leased to the powerful Scrope family of Castle Bolton. After Henry VIII dissolved the monasteries, the land passed through various hands until it was sold to five local yeomen in the early 1600s. By 1740, Braithwaite Otway of Ingmire Hall had consolidated the holdings and freed the tenants from their feudal obligations, allowing them to own and work their land independently.
+          The manor of Garsdale was once held by St Agatha's Abbey at Easby, near Richmond, and leased to the powerful Scrope family of Castle Bolton. After Henry VIII dissolved the monasteries, the land passed through various hands until it was sold to five local yeomen in the early 1600s. By 1740, Braithwaite Otway of Ingmire Hall had consolidated the holdings and freed the tenants from their feudal obligations, allowing them to own and work their land independently. Some of the buildings from those centuries are still standing, among them the blacksmith's cottage of 1675 that is now Farrier's Cottage, and our [character cottages](/character-cottages/) page covers it and The Old Cart House, a cart house and stable recorded in the 1845 survey.
           For centuries, Garsdale was part of the West Riding of Yorkshire, a chapelry within the ancient parish of Sedbergh in the Ewecross wapentake. It became its own civil parish in 1866, was part of Sedbergh Rural District from 1894 to 1974, and in 1974 the boundary changes brought it into the new county of Cumbria, though it remains firmly within the Yorkshire Dales National Park.
     figure_src: /images/old-garsdale/historical-white-cottages.png
     figure_alt: Historical photograph of white-painted cottages on a Garsdale lane
@@ -86,13 +86,13 @@ blocks:
     content: |-
           ## References
           
-          - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
-          - Easby Abbey — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Easby_Abbey))
-          - [Bolton Castle](/places/bolton-castle/) — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Bolton_Castle))
-          - Settle–Carlisle line — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
-          - William Wordsworth — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/William_Wordsworth))
-          - The Death of Grass by John Christopher — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/The_Death_of_Grass))
-          - Aspects of Love — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Aspects_of_Love))
+          - Garsdale, Cumbria - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+          - Easby Abbey - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Easby_Abbey))
+          - [Bolton Castle](/places/bolton-castle/) - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Bolton_Castle))
+          - Settle-Carlisle line - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
+          - William Wordsworth - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/William_Wordsworth))
+          - The Death of Grass by John Christopher - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/The_Death_of_Grass))
+          - Aspects of Love - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Aspects_of_Love))
           - Sedbergh and District History Society ([sedberghhistory.org](https://www.sedberghhistory.org/))
           - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
 ---

@@ -41,7 +41,7 @@ blocks:
     content: |-
           ## The Street and the Middle Dale
           
-          Around the middle of the dale, the old list records buildings and places including Low Smithy Chapel, School House, the Village Hall, Garsdale Hall, St John's Church, Roger Pot, Squirrel Cottage, The Hive, North View, Garsdale Street Chapel, Woodend, Rose Cottage, Pinfold Farm and Pinfold House.
+          Around the middle of the dale, the old list records buildings and places including Low Smithy Chapel, School House, the Village Hall, Garsdale Hall, St John's Church, Roger Pot, Squirrel Cottage, The Hive, North View, Garsdale Street Chapel, Woodend, Rose Cottage, Pinfold Farm and Pinfold House. Roger Pot on that list is now one of our holiday cottages, and our [character cottages](/character-cottages/) page covers it alongside Farrier's Cottage and The Old Cart House.
           
           This is the part of Garsdale where several strands of local history meet: the medieval church site, the former school, the village hall, chapel life, farming, and the road through the dale. It is also where visitors start to see how closely Garsdale's house names sit beside its religious and farming history.
           

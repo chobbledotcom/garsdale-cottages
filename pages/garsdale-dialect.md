@@ -27,27 +27,27 @@ blocks:
     content: |-
           ## A Selection of Garsdale Words
           
-          - **addle** -- to earn ("he addled a good wage")
-          - **bairn** or **barn** -- a child
-          - **brant** -- steep
-          - **cleg** -- a horse fly
-          - **fettle** -- working order, condition ("in good fettle")
-          - **ginnel** -- a narrow passage between buildings
-          - **heeaf** -- home; also the learnt area of fell that a sheep returns to graze
-          - **laik** -- to play
+          - **addle** - to earn ("he addled a good wage")
+          - **bairn** or **barn** - a child
+          - **brant** - steep
+          - **cleg** - a horse fly
+          - **fettle** - working order, condition ("in good fettle")
+          - **ginnel** - a narrow passage between buildings
+          - **heeaf** - home; also the learnt area of fell that a sheep returns to graze
+          - **laik** - to play
           
     figure_src: /images/wildlife/lamb.jpeg
     figure_alt: Lamb by a dry stone wall in Garsdale
     reverse: false
   - type: split-image
     content: |-
-          - **mowdy** -- a mole
-          - **neb** -- a beak, a nose, or the peak of a cap
-          - **smoot** -- a low door or gap in a wall for sheep to pass through
-          - **sneck** -- a door latch or fastener
-          - **syke** -- a small stream or drain
-          - **tewit** -- a lapwing (from the sound of its call)
-          - **thrang** -- busy, crowded
+          - **mowdy** - a mole
+          - **neb** - a beak, a nose, or the peak of a cap
+          - **smoot** - a low door or gap in a wall for sheep to pass through
+          - **sneck** - a door latch or fastener
+          - **syke** - a small stream or drain
+          - **tewit** - a lapwing (from the sound of its call)
+          - **thrang** - busy, crowded
           
     figure_src: /images/wildlife/lone-sheep.jpeg
     figure_alt: Swaledale sheep in snowy Garsdale
@@ -62,27 +62,27 @@ blocks:
           ## More Words from the Old Garsdale Glossary
           The old Garsdale community site preserved a longer local glossary. Some useful examples are:
           
-          - **appen** -- perhaps, maybe
-          - **as lief** -- would rather
-          - **bink** -- a bench or shelf
-          - **clag** -- mud, or to stick
-          - **clarty** -- dirty or muddy
-          - **dowly** -- dull, sad or lonely
-          - **gamp** -- an umbrella
-          - **gath** -- a small enclosure or paddock
-          - **greet** -- to cry
-          - **hask** -- rough or dry
-          - **heck** -- a gate or rack
-          - **hog** -- a young sheep
-          - **jannock** -- honest or fair
-          - **lew** -- sheltered
-          - **midden** -- a muck heap
-          - **plosh** -- a puddle
-          - **scrog** -- a stunted bush or tree
-          - **slape** -- slippery
-          - **stoop** -- a post or pillar
-          - **whemmle** -- to overturn
-          - **wick** -- alive or lively
+          - **appen** - perhaps, maybe
+          - **as lief** - would rather
+          - **bink** - a bench or shelf
+          - **clag** - mud, or to stick
+          - **clarty** - dirty or muddy
+          - **dowly** - dull, sad or lonely
+          - **gamp** - an umbrella
+          - **gath** - a small enclosure or paddock
+          - **greet** - to cry
+          - **hask** - rough or dry
+          - **heck** - a gate or rack
+          - **hog** - a young sheep
+          - **jannock** - honest or fair
+          - **lew** - sheltered
+          - **midden** - a muck heap
+          - **plosh** - a puddle
+          - **scrog** - a stunted bush or tree
+          - **slape** - slippery
+          - **stoop** - a post or pillar
+          - **whemmle** - to overturn
+          - **wick** - alive or lively
           
   - type: cta
     button:
@@ -95,10 +95,10 @@ blocks:
     content: |-
           ## References
           
-          - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
-          - Yorkshire dialect — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Yorkshire_dialect_and_accent))
-          - Old Norse influence on English — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Scandinavian_York#Language))
-          - Hefted stock — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hefted))
+          - Garsdale, Cumbria - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+          - Yorkshire dialect - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Yorkshire_dialect_and_accent))
+          - Old Norse influence on English - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Scandinavian_York#Language))
+          - Hefted stock - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Hefted))
           - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
           
 ---

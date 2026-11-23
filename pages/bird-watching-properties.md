@@ -17,7 +17,7 @@ blocks:
   - type: markdown
     content: |-
           ## A Bird Watcher's Paradise
-          Garsdale is a quiet valley in the Yorkshire Dales National Park where upland moors, ancient woodlands and the River Clough come together to create a remarkable range of habitats. With very little traffic and minimal background noise, the birdsong here is extraordinary. Whether you are a seasoned birder or simply enjoy watching wildlife, our three cottages put you right in the middle of it all.
+          Garsdale is a quiet valley in the Yorkshire Dales National Park where upland moors, ancient woodlands and the River Clough come together to create a remarkable range of habitats. With very little traffic and minimal background noise, the birdsong here is extraordinary. Our three holiday cottages are in the middle of it, which suits keen birders and people who just like watching the garden feeders equally well.
           
   - type: items
     collection: properties
@@ -44,7 +44,7 @@ blocks:
     subtitle: Herons, dippers and the elusive kingfisher
     content: |-
           ## River and Waterside Birds
-          The River Clough runs through Garsdale and attracts herons, dippers, mallards and goosander. If you are very lucky, you may catch a glimpse of a kingfisher - rare sightings that make for unforgettable moments.
+          The River Clough runs through Garsdale and attracts herons, dippers, mallards and goosander. If you are very lucky, you may catch a glimpse of a kingfisher, though they are rarely seen.
           Roger Pot sits just a short walk from the river, with on-site access through the owner's four acres of land, while The Old Cart House has the river running alongside the road nearby.
           
     figure_src: /images/wildlife/jay.jpeg
@@ -62,7 +62,7 @@ blocks:
           **Spring** brings the curlews arriving from the coast to nest, their distinctive calls echoing across the dale, along with cuckoos and the return of swallows.
           **Summer** sees swifts making their home in nearby Sedbergh, while spotted flycatchers and willow warblers visit the gardens.
           **Autumn** brings the departure of the swallows, and the owls can be heard calling from the trees as the evenings draw in.
-          **Winter** visitors arrive in numbers - redwings and fieldfares, while the robin's song carries through the cold air and the bird feeders become a hub of activity with siskins, redpolls and long-tailed tits.
+          **Winter** visitors arrive in numbers - redwings and fieldfares, while the robin's song carries through the cold air and the bird feeders become a hub of activity with siskins, redpolls and long-tailed tits. Our [winter cottage breaks](/winter-cottage-breaks/) page covers staying in the dale through the colder months.
           
     figure_src: /images/wildlife/winter-flock.jpeg
     figure_alt: Winter flock of birds in the Garsdale countryside
@@ -115,24 +115,24 @@ blocks:
           href: /contact/
     content: |-
           ## Book Your Birding Break
-          Ready to explore one of the Yorkshire Dales' best-kept birding secrets? Contact us directly.
+          Garsdale is one of the less well known places for bird watching in the Yorkshire Dales, and if you want to ask about the birds round the cottages before you book, contact us directly.
   - type: markdown
     content: |-
           ## References
           
-          - RSPB — Royal Society for the Protection of Birds ([rspb.org.uk](https://www.rspb.org.uk/))
-          - BTO — British Trust for Ornithology ([bto.org](https://www.bto.org/))
-          - Yorkshire Dales National Park — wildlife ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/about-the-dales/wildlife/))
-          - Red squirrel — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Red_squirrel))
-          - Eurasian curlew — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Eurasian_curlew))
-          - Short-eared owl — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Short-eared_owl))
+          - RSPB - Royal Society for the Protection of Birds ([rspb.org.uk](https://www.rspb.org.uk/))
+          - BTO - British Trust for Ornithology ([bto.org](https://www.bto.org/))
+          - Yorkshire Dales National Park - wildlife ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/about-the-dales/wildlife/))
+          - Red squirrel - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Red_squirrel))
+          - Eurasian curlew - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Eurasian_curlew))
+          - Short-eared owl - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Short-eared_owl))
           - Merlin Bird ID app ([merlin.allaboutbirds.org](https://merlin.allaboutbirds.org/))
           
   - type: markdown
     content: |-
-          Garsdale is perfect for those interested in wildlife and bird watching. Many garden birds can be seen every day, for example: blue tits, great tits,long tailed tits,wrens, robins, thrushes, blackbirds, dunnocks, gold finches and nuthatches are regular visitors to the garden. Great spotted woodpeckers will frequent the bird feeders .
+          Garsdale suits anyone interested in wildlife and bird watching. Many garden birds can be seen every day, and blue tits, great tits, long tailed tits, wrens, robins, thrushes, blackbirds, dunnocks, gold finches and nuthatches are all regular visitors to the garden. Great spotted woodpeckers will frequent the bird feeders.
           In Spring siskins, redpolls, blackcaps, goldcrests , spotted and pied flycatchers and occasionally redstarts will be seen around the village. Spring will also bring cuckoos, swallows, swifts and house martins. Curlews and oystercatchers will move to the moorland from the coast for nesting and this will then bring short eared owls searching for prey, scouring the moorland. A number of local properties have put up swift boxes to encourage swifts to nest and Sedbergh does have a small swift nesting colony during the summer.
-          Moorland ground nesting birds such as pheasants, grouse and partridges are all year round residents. A trip to Grisedale or Cotterdale nearby is ideal for birdwatching , particularly early evening as dusk is falling.
+          Moorland ground nesting birds such as pheasants, grouse and partridges are all year round residents. A trip to Grisedale or Cotterdale nearby is good for birdwatching, particularly in the early evening as dusk is falling.
           At dusk barn owls and tawny owls can be see flitting across the fields and can be heard calling at night. With the many barns and old farm buildings , there is an abundance of nesting sites.
           Winter migrant birds arrive in great flocks: redwings and fieldfares will be seen in the fields and woodlands.
           The river also is a home to herons, dippers, the occasional kingfisher but also mallards and goosander . Pied and yellow wagtails will feed on the gnats above the river .

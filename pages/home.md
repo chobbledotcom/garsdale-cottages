@@ -52,6 +52,12 @@ blocks:
           - icon: hugeicons:home-01
             description: Each cottage is owned and run by its own owner.
             name: Independent Owners
+          - icon: hugeicons:gift
+            description: "Paul bakes bread and cake for every guest at Roger Pot, and Jack and Loraine leave a basket of local treats for every guest at The Old Cart House. See our [welcome hamper](/cottages-with-a-welcome-hamper/) page."
+            name: Welcome Hamper
+          - icon: hugeicons:discount-tag-02
+            description: "Roger Pot takes up to two dogs with no charge for them. See our [dog friendly cottages](/dog-friendly-cottages-in-garsdale-or-yorkshire-dales-stays/) page."
+            name: No Charge for Dogs
     center: false
     intro_content: |-
           ### Why book direct with Garsdale Cottages?
@@ -191,8 +197,8 @@ blocks:
     image_aspect_ratio: "4/3"
     intro_content: |-
           ## Explore the Area
-          See what makes Garsdale and the Yorkshire Dales such a rewarding place to stay. This quiet valley offers far more than simply a base for your holiday, with open fells, peaceful rivers, market towns, wildlife, history and practical access to some of Yorkshire’s most distinctive landscapes. Whether you are planning gentle walks from the cottage door, full-day fell routes, family outings, scenic railway journeys or time spent enjoying the slower pace of the Dales, Garsdale provides an excellent setting for getting the most from your stay.
-          From red squirrels, otters and bird watching to the Settle-Carlisle Railway, [Garsdale Station](/places/garsdale-station/) and the story of Ruswarp, there is plenty here for guests who enjoy wildlife and local heritage. You can spend your days visiting Sedbergh and Hawes, exploring caves, waterfalls and geological landmarks such as the Dent Fault, walking the Sedgwick Geological Trail, or learning about Garsdale’s Viking roots, farming traditions, dialect, chapels and village life. With routes ranging from easy strolls to more challenging fell walks, plus welcoming pubs, local food and year-round attractions, Garsdale offers something for walkers, families, wildlife enthusiasts and anyone looking to experience the Yorkshire Dales in a practical, genuine way.
+          These guides cover the dale and the country round it, for anyone staying at our holiday cottages in Garsdale and the Yorkshire Dales. Garsdale is a quiet valley with open fells, the River Clough and other peaceful rivers, wildlife and a fair bit of history, with the market towns of Sedbergh and Hawes either side and some of Yorkshire’s most distinctive landscapes within a short drive. Some guests come for gentle walks from the cottage door and others for full-day fell routes, family outings or scenic railway journeys, and plenty come just to slow down for a few days at the pace of the Dales.
+          For wildlife there are red squirrels, otters and a good deal of bird watching, and for local heritage there is the Settle-Carlisle Railway, [Garsdale Station](/places/garsdale-station/) and the story of Ruswarp, the Border Collie who helped save the line. You can spend a day in Sedbergh or Hawes, go looking at caves, waterfalls and geological landmarks such as the Dent Fault, walk the Sedgwick Geological Trail, or read up on Garsdale’s Viking roots, farming traditions, dialect, chapels and village life. The routes go from easy strolls to more challenging fell walks, and there are welcoming pubs, local food and year-round attractions, so Garsdale works for walkers, families and wildlife enthusiasts as well as anyone who just wants a quiet few days in the Yorkshire Dales.
 
           Families planning a holiday in the Yorkshire Dales will find more on our [family friendly holidays in Garsdale](/family-friendly-holidays-in-garsdale/) page, which covers days out with children and the cottages that sleep six for a larger family or two families sharing.
 ---

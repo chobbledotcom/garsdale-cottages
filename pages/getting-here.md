@@ -55,7 +55,7 @@ blocks:
   - type: markdown
     content: |-
           ## Before You Arrive
-          As the closest shops are about 6 miles away in Sedbergh, we would suggest bringing groceries for the first day or two. A welcome basket is provided for guests with some regional produce. Please contact your property owner if you have any difficulties and we will assist as we can.
+          As the closest shops are about 6 miles away in Sedbergh, we would suggest bringing groceries for the first day or two. A welcome basket is provided for guests with some regional produce, and our [welcome hamper](/cottages-with-a-welcome-hamper/) page describes what guests have found in it. Please contact your property owner if you have any difficulties and we will assist as we can.
   - type: markdown
     content: |-
           ## Mobile Phone Coverage in Garsdale
@@ -73,12 +73,12 @@ blocks:
           href: /properties/
     content: |-
           ## Stay in Garsdale
-          Book direct with local cottage owners - check each cottage page for availability, current prices and booking details.
+          Book direct with local cottage owners - check each cottage page for availability, current prices and booking details. If you are breaking a long journey or booking at short notice, our [last minute and one night stays](/last-minute-and-one-night-stays/) page explains how one-night bookings work, and our [winter cottage breaks](/winter-cottage-breaks/) page covers the farm track and the roads in snow.
   - type: markdown
     content: |-
           ## References
           
           - Settle-Carlisle Railway timetables and information ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
-          - Settle–Carlisle line — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
-          - [Garsdale station](/places/garsdale-station/) — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale_railway_station))
+          - Settle-Carlisle line - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
+          - [Garsdale station](/places/garsdale-station/) - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale_railway_station))
 ---

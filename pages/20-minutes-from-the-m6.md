@@ -52,7 +52,7 @@ blocks:
 
           Confirm your booking and arrival arrangements before leaving the motorway. Bring groceries for your first evening, especially if reaching Garsdale after the shops in Sedbergh have closed, and download the directions because mobile coverage in the dale can be patchy. Check current traffic and weather, and allow enough time for an unhurried final approach after dark.
 
-          If you have time before continuing north or south, [Sedbergh](/locations/sedbergh/) has bookshops and cafes, [Farfield Mill](/places/farfield-mill-sedbergh/) is on the approach to the dale, and our [walks page](/walks/) covers local outings. The [Howgill Fells](/places/howgill-fells/) need more time and preparation than a short roadside stroll. For a longer break, the [Lake District](/places/lake-district/) is a day-trip option to the west; Garsdale itself is outside the Lakes.
+          If you have time before continuing north or south, [Sedbergh](/locations/sedbergh/) has bookshops and cafes, [Farfield Mill](/places/farfield-mill-sedbergh/) is on the approach to the dale, and our [walks page](/walks/) covers local outings. The [Howgill Fells](/places/howgill-fells/) need more time and preparation than a short roadside stroll. For a longer break, the [Lake District](/places/lake-district/) is a day-trip option to the west; Garsdale itself is outside the Lakes. Our [last minute and one night stays](/last-minute-and-one-night-stays/) page explains how one-night and short-notice bookings work at The Old Cart House.
   - type: cta
     button:
       text: Compare Cottages and Check Dates

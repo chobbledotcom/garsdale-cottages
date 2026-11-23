@@ -29,7 +29,7 @@ blocks:
     intro_content: |-
           ## Stay Near Central Dales Pharmacy, Hawes
           
-          Our three [holiday cottages](/properties/) in Garsdale are within easy reach of Central Dales Pharmacy, Hawes.
+          Our three [holiday cottages](/properties/) in Garsdale are within easy reach of Central Dales Pharmacy, Hawes. If you are bringing a baby, our [cottage for a couple with a baby](/cottage-for-a-couple-with-a-baby/) page lists the nearest pharmacies, shops and hospitals.
   - type: markdown
     content: |-
           ## See Also

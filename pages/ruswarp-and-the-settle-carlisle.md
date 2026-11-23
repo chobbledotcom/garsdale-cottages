@@ -53,8 +53,8 @@ blocks:
           ## References
           
           - Friends of the Settle-Carlisle Line ([foscl.org.uk](https://www.foscl.org.uk/))
-          - Ruswarp — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Ruswarp))
-          - Settle–Carlisle line — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
+          - Ruswarp - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Ruswarp))
+          - Settle-Carlisle line - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Settle%E2%80%93Carlisle_line))
           - Settle-Carlisle Railway ([settle-carlisle.co.uk](https://settle-carlisle.co.uk/))
-          - RSPCA — Royal Society for the Prevention of Cruelty to Animals ([rspca.org.uk](https://www.rspca.org.uk/))
+          - RSPCA - Royal Society for the Prevention of Cruelty to Animals ([rspca.org.uk](https://www.rspca.org.uk/))
 ---

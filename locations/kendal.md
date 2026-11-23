@@ -19,7 +19,7 @@ blocks:
     content: |-
           ## Arts, Health and Leisure
 
-          The town has a castle, and the [Brewery Arts Centre](/places/brewery-arts-centre-kendal/) has cinema, music, theatre and comedy events along with children's daytime sessions, which makes it the nearest proper arts venue to the dale.
+          The town has a castle, and the [Brewery Arts Centre](/places/brewery-arts-centre-kendal/) has cinema, music, theatre and comedy events along with children's daytime sessions, which makes it the nearest full-size arts venue to the dale.
 
           The [Westmorland General Hospital](/places/westmorland-general-hospital-kendal/) on Burton Road has an Urgent Treatment Centre for anything urgent but not life-threatening, and the [leisure centre](/places/kendal-leisure-centre/) has a 25-metre pool with lane swimming and family sessions - the nearest swimming to Garsdale. Bank branches, phone shops and the other services that have disappeared from the small towns are all still in Kendal.
     figure_src: /images/places/brewery-arts-centre-kendal.jpg
@@ -39,7 +39,7 @@ blocks:
     content: |-
           ## The History of Kendal Mint Cake
 
-          Kendal Mint Cake is based on an older recipe that went under several names, including mint cake and peppermint tablet, and the Kendal version of it came about by mistake. Joseph Wiper had married into the Thompson family, confectioners in Kendal, and in 1869 he is said to have left a boiled solution for glacier mints standing overnight. By the morning it had turned cloudy and gone solid, and what he found in the pan was the first batch of what became Kendal Mint Cake. Wiper started producing it properly, and several other Kendal confectioners followed him into it soon afterwards.
+          Kendal Mint Cake is based on an older recipe that went under several names, including mint cake and peppermint tablet, and the Kendal version of it came about by mistake. Joseph Wiper had married into the Thompson family, confectioners in Kendal, and in 1869 he is said to have left a boiled solution for glacier mints standing overnight. By the morning it had turned cloudy and gone solid, and what he found in the pan was the first batch of what became Kendal Mint Cake. Wiper started producing it on purpose, and several other Kendal confectioners followed him into it soon afterwards.
 
           Joseph Wiper emigrated to Canada in 1912 and his great-nephew Robert Wiper took over the family business. Robert is the one who turned it into the thing walkers know now, marketing Kendal Mint Cake as an energy snack for expeditions - among them Sir Ernest Shackleton's Imperial Trans-Antarctic Expedition - and that is largely what carried its name out to mountaineers and hikers around the world. It went up Everest with the 1953 expedition as well, and it is still sold in most of the outdoor shops between here and the Lakes, including the ones in Sedbergh and Hawes that our guests use.
 

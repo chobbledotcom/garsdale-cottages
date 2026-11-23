@@ -27,9 +27,9 @@ features:
 - Highchair available on request at time of booking
 - Washing machine available
 - Broadband / WiFi available throughout
-- Pet friendly. Dogs and cats are welcome but Jack and loraine ask that guests remail
-  in control of their pets at all times. The garden area is reasonably secure but  lively
-  dogs can escpe over the walls and gates if not under control.
+- Pet friendly. Dogs and cats are welcome but Jack and Loraine ask that guests remain
+  in control of their pets at all times. The garden is not fully enclosed and lively
+  dogs can get over the walls and gates, so pets cannot be left in the garden unsupervised.
 gallery:
 - /images/scenery/rose-cottage-and-the-cart-house.jpeg
 - /images/properties/the-old-cart-house/the-exterior-entrance-of-a-stone-house-with-a-green-door-and.jpeg
@@ -109,12 +109,12 @@ blocks:
   compact: true
 - type: markdown
   compact: true
-  content: 'Sedbergh 6.4 miles. Hawes 9 miles. Kendal 17 miles.
+  content: 'Sedbergh is 6.4 miles away, Hawes is 9 miles and Kendal is 17 miles.
 
 
     The Old Cart House is a detached stone cottage in [Garsdale](/about/), within
-    the Yorkshire Dales National Park. It was originally a cart house and stables
-    — there is an Ordnance Survey benchmark cut into the stonework from the 1845 survey,
+    the Yorkshire Dales National Park. It was originally a cart house and stables,
+    and there is an Ordnance Survey benchmark cut into the stonework from the 1845 survey,
     when it was listed as J Davis’ stable.
 
 
@@ -137,11 +137,11 @@ blocks:
     where you can eat outside.
 
 
-    [Walks start from the door](/walks/) — the Pennine Bridleway and Dales Way are
+    [Walks start from the door](/walks/), with the Pennine Bridleway and Dales Way
     both nearby, and there are marked footpaths through the dale. The riverbanks opposite
     the cottage are a good spot for [red squirrels](/red-squirrels-in-garsdale/),
     and you may also see roe deer, brown hares and a wide range of [birds](/garsdale-wildlife/).
-    On clear nights, the [dark skies](/about/) here are remarkable — no street lighting,
+    On clear nights, the [dark skies](/about/) here are remarkable, as there is no street lighting,
     and the Milky Way is visible to the naked eye.
 
 
@@ -155,9 +155,9 @@ blocks:
 
 
     The nearby [Sedgwick Geological Trail](/the-sedgwick-geological-trail/) at Danny
-    Bridge traces the ancient Dent Fault along the River Clough — named after the
+    Bridge traces the ancient Dent Fault along the River Clough, and it is named after the
     geologist Adam Sedgwick, who was born in nearby Dent. The Lake District is also
-    within reach for a day trip, with Ambleside about 45 minutes’ drive.
+    within reach for a day trip, with Ambleside roughly an hour’s drive.
 
 
     A lot of holiday cottages in Cumbria ask for two or three nights, at weekends
@@ -166,6 +166,13 @@ blocks:
     and you can do the whole thing online - pick your dates in the availability calendar
     on this page and it takes one-night stays the same as any other booking. If you’d
     rather speak to someone first, their numbers are at the foot of the page.
+
+
+    Jack and Loraine leave a welcome basket of local treats for every guest. Guests have
+    found local ale, biscuits, cereal, mint cake and homemade jam in it, with
+    tea, coffee and sugar for the morning, so it is worth bringing milk and whatever
+    else you want for breakfast. Our [welcome hamper](/cottages-with-a-welcome-hamper/)
+    page has more on the baskets at both cottages.
 
 
     **Book direct through this site and you deal with Jack and Loraine, who own
@@ -237,6 +244,14 @@ blocks:
     - Please Note: The garden is not fully enclosed, so dogs cannot be left unsupervised,
     As the property is located in a sheep farming area, dogs must be kept on a lead
     at all times while out walking.'
+- type: markdown
+  compact: true
+  content: |-
+    ## The Old Cart House for Couples, Short Stays and Babies
+
+    The Old Cart House sleeps two, and most of the people who stay are couples. Our [romantic cottages for couples](/romantic-cottages-for-couples/) page covers evenings in and out, days out and anniversaries, and our [character cottages](/character-cottages/) page tells the story of the building, from the 1845 survey to the reclaimed stable door.
+
+    Because Jack and Loraine take one-night stays, the cottage is also used by walkers, road-trippers and people breaking a long drive, and our [last minute and one night stays](/last-minute-and-one-night-stays/) page explains how short-notice bookings work. A couple with a baby or a child up to three can stay too, with a travel cot and highchair on request, and our [cottage for a couple with a baby](/cottage-for-a-couple-with-a-baby/) page has the details.
 - type: link-button
   compact: true
   text: Check Availability / Book Online

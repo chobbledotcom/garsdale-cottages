@@ -25,7 +25,7 @@ blocks:
           The Anglican church sits between The Street and Garsdale Hall, roughly six miles from Sedbergh. A chapel of ease to Dent was recorded here in the mid-1500s, and the present building dates from 1861, when it was rebuilt alongside the site of the medieval original. The church is always open to visitors and features a fine stained-glass east window by the renowned Victorian artist C.E. Kempe.
           The old Garsdale church history notes connect the site to St Agatha's Abbey at Easby and record Garsdale gaining the right to baptisms and burials in 1562, which helps explain why the church sits so centrally in the dale's story. The east window is attributed to C.E. Kempe and dated December 1896 by the Kempe Society.
           In 1799, William Wordsworth wrote to Samuel Taylor Coleridge describing a walk through Garsdale with his sister Dorothy, mentioning "we rested in a tempting inn, close by a lowly house of prayer in a charming little valley." The inn was Garsdale Hall (then the George and Dragon coaching inn) and the house of prayer was this church.
-          Each spring, an annual united lambing service is held here. Lambs are brought into the church for the occasion, which is as charming as it sounds.
+          Each spring, an annual united lambing service is held here. Lambs are brought into the church for the occasion, in a dale that is still mainly sheep farming country.
           Services rotate between the dale's churches. More information is available from the Western Dales Mission Community ([westerndales.org.uk](https://www.westerndales.org.uk/st-johns-garsdale)).
     figure_src: /images/wildlife/lamb.jpeg
     figure_alt: Lamb by a dry stone wall in Garsdale
@@ -65,11 +65,11 @@ blocks:
     content: |-
           ## References
           
-          - Western Dales Mission Community — St John's, Garsdale ([westerndales.org.uk](https://www.westerndales.org.uk/st-johns-garsdale))
-          - [Brigflatts Meeting House](/places/brigflatts-meeting-house/) — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Brigflatts_Meeting_House))
-          - George Fox — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/George_Fox))
-          - 1652 Country — Quaker heritage in the north-west ([discoveringquakers.org.uk](https://www.discoveringquakers.org.uk/blog/1652))
-          - C. E. Kempe — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Charles_Eamer_Kempe))
-          - Garsdale Street Chapel, Grade II listed — Historic England ([historicengland.org.uk](https://historicengland.org.uk/listing/the-list/list-entry/1087148))
+          - Western Dales Mission Community - St John's, Garsdale ([westerndales.org.uk](https://www.westerndales.org.uk/st-johns-garsdale))
+          - [Brigflatts Meeting House](/places/brigflatts-meeting-house/) - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Brigflatts_Meeting_House))
+          - George Fox - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/George_Fox))
+          - 1652 Country - Quaker heritage in the north-west ([discoveringquakers.org.uk](https://www.discoveringquakers.org.uk/blog/1652))
+          - C. E. Kempe - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Charles_Eamer_Kempe))
+          - Garsdale Street Chapel, Grade II listed - Historic England ([historicengland.org.uk](https://historicengland.org.uk/listing/the-list/list-entry/1087148))
           - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
 ---

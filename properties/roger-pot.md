@@ -106,7 +106,7 @@ blocks:
   compact: true
 - type: markdown
   compact: true
-  content: 'Sedbergh 6.3 miles. Hawes 9 miles.
+  content: 'Sedbergh is 6.3 miles away and Hawes is 9 miles.
 
 
     Roger Pot is a detached stone cottage set a quarter of a mile up a farm track
@@ -128,12 +128,12 @@ blocks:
 
     Outside, the enclosed garden has a table and chairs for eating outdoors. The property
     sits within 4 acres of land, and guests have access to a stretch of the river
-    for paddling or fishing. This is also good territory for spotting [red squirrels](/red-squirrels-in-garsdale/)
-    — one of England''s last strongholds for reds — as well as roe deer, brown hares
+    for paddling or fishing. This is also good territory for spotting [red squirrels](/red-squirrels-in-garsdale/),
+    since Garsdale is one of England''s last strongholds for reds, as well as roe deer, brown hares
     and a wide range of [birds](/garsdale-wildlife/).
 
 
-    There are [walks directly from the door](/walks/) — through the woodland by Dandra
+    There are [walks directly from the door](/walks/), through the woodland by Dandra
     Garth, over the moors towards Dent, or up to the Pennine Bridleway. [Grisedale](/grisedale/),
     the neighbouring valley known as "The Dale That Died," is one of the most atmospheric
     walks in the area.
@@ -147,8 +147,16 @@ blocks:
     castles, and family activities.
 
 
-    [Garsdale Station](/places/garsdale-station/) on the Settle-Carlisle line is nearby
-    — one of England''s most scenic railways, with connections to Leeds and Carlisle.
+    [Garsdale Station](/places/garsdale-station/) on the Settle-Carlisle line is a few minutes up
+    the dale, and it is one of England''s most scenic railways, with connections to Leeds and Carlisle.
+
+
+    Paul bakes for every guest, so there is a welcome hamper waiting when you arrive.
+    What is in it changes, but guests have found a loaf of his homemade bread, a parkin
+    or a ginger cake, milk, butter and eggs in the fridge and fresh flowers on the
+    dining table, and about half of Roger Pot''s guest reviews mention it. Our [welcome
+    hamper](/cottages-with-a-welcome-hamper/) page has more. Up to two well-behaved
+    dogs are welcome and there is no charge for them.
 
 
     **Book direct through this site and you deal with the property owner. No agency
@@ -207,6 +215,8 @@ blocks:
     - Maximum of two well-behaved dog welcome but must not be left unattended at any
     time
 
+    - No charge for dogs
+
     - Sorry, no smoking within the house
 
     - Shop Sedbergh 6.7 miles, pub 6.3 miles, river 0.1 miles
@@ -221,7 +231,7 @@ blocks:
     - As the track is single width, we run a simple texting system with guests to
     ensure we know when either party is travelling up the track.
 
-    - Guests have on-site river access for fishing, nestled within the owner''s 4
+    - Guests have on-site river access for fishing, within the owner''s 4
     acres of land; please supervise children at all times
 
     - The owners do live on site in an adjacent separate barn
@@ -260,6 +270,14 @@ blocks:
     holidays in Garsdale](/family-friendly-holidays-in-garsdale/) page has the full
     list of things to do with children, and details of [Farrier''s Cottage](/properties/farriers-cottage/),
     the other three bedroom cottage here, which also sleeps six for a larger group.
+- type: markdown
+  compact: true
+  content: |-
+    ## Roger Pot for Friends, Christmas and Quiet Breaks
+
+    With the twin made up as a super-king, Roger Pot has three double bedrooms, so it works for three couples or a group of friends as well as for a family, and our [cottages for groups of friends](/cottages-for-groups-of-friends/) page covers that in more detail. Guests who have stayed over Christmas and New Year have arrived to find the house decorated and the woodburning stove lit, and our [Christmas and New Year cottages](/christmas-and-new-year-cottages/) and [winter cottage breaks](/winter-cottage-breaks/) pages explain what a winter stay here is like, including the farm track in snow.
+
+    If what you are after is somewhere quiet with a view, our [secluded cottage with views](/secluded-cottage-with-views/) page is about Roger Pot's position up its own farm track, the four acres, the river and the horses.
 - type: link-button
   compact: true
   text: Check Availability / Book Online

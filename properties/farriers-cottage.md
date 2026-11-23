@@ -88,7 +88,7 @@ blocks:
   compact: true
 - type: markdown
   compact: true
-  content: 'Sedbergh 7 miles. Hawes 9 miles.
+  content: 'Sedbergh is 7 miles away and Hawes is 9 miles.
 
 
     Farrier''s Cottage is a semi-detached stone cottage in [Garsdale](/about/), in
@@ -98,8 +98,8 @@ blocks:
     floors, and windows that look straight out across the dale.
 
 
-    It sleeps six across three bedrooms, which makes it a good fit for a family, two
-    or three couples travelling together, or a group of walkers who want somewhere
+    It sleeps six across three bedrooms, which makes it a good fit for a family, [two
+    or three couples travelling together](/cottages-for-groups-of-friends/), or a group of walkers who want somewhere
     comfortable to come back to at the end of the day.
 
 
@@ -124,7 +124,8 @@ blocks:
     Upstairs are three bedrooms - a king-size double with an iron and brass bedstead
     and windows on two walls, a second double, and a twin room up under the old roof
     beams, with a rocking chair in the corner. The rooms are furnished with antiques
-    and look out over the fields and fells. The family bathroom is up here too, with
+    and look out over the fields and fells, and our [character cottages](/character-cottages/)
+    page has more on the history of the house. The family bathroom is up here too, with
     a bath and a shower over it.
 
 

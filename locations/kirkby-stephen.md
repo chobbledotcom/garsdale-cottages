@@ -20,7 +20,7 @@ blocks:
     intro_content: |-
           ## Holiday Cottages Near Kirkby Stephen
 
-          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about twenty minutes west of Kirkby Stephen. Book direct with the owners for the best rates.
+          Our three self-catering [holiday cottages](/properties/) sit in Garsdale, about twenty minutes west of Kirkby Stephen. If you are on the Coast to Coast and need a single night off the route, our [last minute and one night stays](/last-minute-and-one-night-stays/) page explains how one-night bookings work at The Old Cart House. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## On the Settle-Carlisle Line

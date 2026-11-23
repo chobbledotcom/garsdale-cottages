@@ -32,7 +32,7 @@ blocks:
     content: |-
           ## A Dale That Refused to Die
           The houses of Grisedale, each with a story of its own, include Blakemire, Mouse Syke, Chapel House, Beck House, Reachey, Aldershaw, Moor Rigg, East House and Fea Fow. A local history book, *Bell Pratt of Grisdale*, tells the story of a man born in the dale in 1910, covering farming life, army service, Methodist lay preaching and the farming year. It gives a real feel for what life in Grisedale was like.
-          In the years since the documentary, the dale has quietly come back to life. People seeking rural solitude have bought and restored the old farmhouses, drawn from all over Britain. Farming continues too. Joe Gibson's grandson Matthew still keeps Swaledale sheep at Mouse Syke, maintaining the family's connection to this remote place.
+          In the years since the documentary, the dale has quietly come back to life. People seeking rural solitude have bought and restored the old farmhouses, drawn from all over Britain, and farming carries on as well, with Joe Gibson's grandson Matthew still keeping Swaledale sheep at Mouse Syke, maintaining the family's connection to this remote place.
           Nearly fifty years after that documentary, Grisedale is perhaps better described as the dale that refused to die.
     figure_src: /images/paul-and-karen/helms-knott-from-gawthrop.jpg
     figure_alt: Evening light over the fells near Garsdale
@@ -53,8 +53,8 @@ blocks:
     content: |-
           ## References
           
-          - Grisedale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Grisedale))
-          - Jervaulx Abbey — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Jervaulx_Abbey))
-          - Easby Abbey — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Easby_Abbey))
-          - Barry Cockcroft — Yorkshire Television documentary maker ([en.wikipedia.org](https://en.wikipedia.org/wiki/Barry_Cockcroft))
+          - Grisedale, Cumbria - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Grisedale))
+          - Jervaulx Abbey - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Jervaulx_Abbey))
+          - Easby Abbey - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Easby_Abbey))
+          - Barry Cockcroft - Yorkshire Television documentary maker ([en.wikipedia.org](https://en.wikipedia.org/wiki/Barry_Cockcroft))
 ---

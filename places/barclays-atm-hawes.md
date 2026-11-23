@@ -15,7 +15,7 @@ blocks:
     content: |-
       The Barclays branch in Hawes closed in 2019, as part of the ongoing closure of rural bank branches across the Dales. The free cash machine that was at the branch is no longer there, but there are other cash options in Hawes. The ATM at [SPAR Hawes](/places/spar-hawes/) on Market Place is the most reliable free cash withdrawal in town, and Barclays customers can use the Post Office counter for basic banking.
       
-      For a proper Barclays branch, the nearest is in Kendal - roughly twenty-five minutes' drive from Hawes. The closure document published by Barclays at the time noted the nearest free cash machines as the BT Kiosk on Market Place in Hawes and at the Dalesman Country Inn on Main Street in Sedbergh.
+      For a staffed Barclays branch, the nearest is in Kendal - roughly twenty-five minutes' drive from Hawes. The closure document published by Barclays at the time noted the nearest free cash machines as the BT Kiosk on Market Place in Hawes and at the Dalesman Country Inn on Main Street in Sedbergh.
       
       ## Cash and banking in Hawes
       

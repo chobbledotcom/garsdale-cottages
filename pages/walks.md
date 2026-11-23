@@ -35,7 +35,7 @@ blocks:
     intro_content: |-
           ## Holiday Cottages for Walkers in Garsdale
 
-          Our three self-catering [holiday cottages](/properties/) are in Garsdale, with marked footpaths from the door of each of them, so a fair few of these walks need no car at all. Book direct with the owners for the best rates.
+          Our three self-catering [holiday cottages](/properties/) are in Garsdale, with marked footpaths from the door of each of them, so a fair few of these walks need no car at all. Roger Pot and Farrier's Cottage each sleep six, which suits a walking group, and our [cottages for groups of friends](/cottages-for-groups-of-friends/) page covers both. If you are on a long-distance path and need a single night, our [last minute and one night stays](/last-minute-and-one-night-stays/) page explains how one-night bookings work at The Old Cart House. Book direct with the owners for the best rates.
   - type: split-image
     content: |-
           ## From the Doorstep
@@ -62,10 +62,10 @@ blocks:
             description: Devised in 1973 by Alfred Wainwright, this 190-mile route crosses from St Bees to Robin Hood's Bay via the Lake District, the Yorkshire Dales and the North York Moors. It passes through Kirkby Stephen, a short drive from Garsdale, making it easy to sample a section. Allow 10 to 14 days for the full route.
             name: Coast to Coast
           - icon: hugeicons:mountain
-            description: The Pennine Way passes through Hawes, Muker and Keld which, all, in their own way are well worth a visit. A 15 minute drive to Hawes.
+            description: The Pennine Way passes through Hawes, Muker and Keld, which are all well worth a visit in their own way, and Hawes is a 15 minute drive from the cottages.
             name: The Pennine Way
           - icon: hugeicons:path
-            description: An 84-mile recreational footpath running from Ilkley to Bowness-on-Windermere. The route passes through Sedbergh — regarded by many as the ideal base camp — and on through Dent before crossing into the Yorkshire Dales National Park. Not considered a demanding walk, though there are a few steep sections in the Dales.
+            description: An 84-mile recreational footpath running from Ilkley to Bowness-on-Windermere. The route passes through Sedbergh, which a lot of Dales Way walkers stop in for the night, and on through Dent before crossing into the Yorkshire Dales National Park. Not considered a demanding walk, though there are a few steep sections in the Dales.
             name: The Dales Way
     intro_content: "## Long Distance Paths"
   - type: features
@@ -96,7 +96,7 @@ blocks:
   - type: markdown
     content: |-
           ## Checking the Weather
-          The weather up here changes quickly, and what it is doing in the valley is not always what it is doing on the tops. For local weather look to the Mountain Weather Information Service forecast for the Yorkshire Dales and North Pennines at [mwis.org.uk](https://www.mwis.org.uk/forecast/english-and-welsh/yorkshire-dales-and-north-pennines). If you are heading over to the lakes, certainly consider the Lake District forecast at [mwis.org.uk](https://www.mwis.org.uk/forecast/english-and-welsh/lake-district) as well.
+          The weather up here changes quickly, and what it is doing in the valley is not always what it is doing on the tops. For local weather look to the Mountain Weather Information Service forecast for the Yorkshire Dales and North Pennines at [mwis.org.uk](https://www.mwis.org.uk/forecast/english-and-welsh/yorkshire-dales-and-north-pennines). If you are heading over to the lakes, certainly consider the Lake District forecast at [mwis.org.uk](https://www.mwis.org.uk/forecast/english-and-welsh/lake-district) as well. Our [winter cottage breaks](/winter-cottage-breaks/) page has more on walking in snow and short daylight.
   - type: markdown
     content: |-
           ## Useful Links
@@ -126,8 +126,8 @@ blocks:
           - Hawes-Garsdale bridleway ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/progress-on-hawes-garsdale-bridleway/))
           - [Garsdale Station](/places/garsdale-station/) to The High Way ([nydwalks.co.uk](https://www.nydwalks.co.uk/post/garsdale-station-to-the-high-way-hellgill))
           - Semer Water walk ([where2walk.co.uk](https://where2walk.co.uk/walk/hidden-semer-water-walk/))
-          - Coast to Coast Walk — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Coast_to_Coast_Walk))
-          - Pennine Way — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Way))
-          - Dales Way — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dales_Way))
-          - Pennine Bridleway — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Bridleway))
+          - Coast to Coast Walk - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Coast_to_Coast_Walk))
+          - Pennine Way - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Way))
+          - Dales Way - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Dales_Way))
+          - Pennine Bridleway - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Pennine_Bridleway))
 ---

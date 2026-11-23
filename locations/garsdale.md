@@ -85,7 +85,7 @@ blocks:
     content: |-
           ## Staying Here
           
-          Staying in Garsdale is perfect for those who enjoy the countryside and the peace and calm of the area. It is an ideal spot for birdwatching, cycling and walking holidays, or for those who prefer countryside drives to villages, country pubs and gentle strolls, this too is here. A clear night can be wonderful with a perfect view of the stars, the area is Dark Sky friendly.
+          Staying in Garsdale suits people who enjoy the countryside and the peace and calm of the area. It is good country for birdwatching, cycling and walking holidays, and if you would rather take countryside drives out to villages, country pubs and gentle strolls, there is plenty of that too. The area is Dark Sky friendly, so a clear night can be wonderful, with a good view of the stars.
           
           For aeroplane enthusiasts there are occasional high speed Eurofighter Typhoon jet fly pasts, which can be loud but exciting to watch, if you are hill walking you may be able to look down on them as the fly along the valley. Along with these we see the occasional low flying Chinook helicopters and also what appear to be very elderly RAF planes too.
     figure_src: /images/scenery/moon-over-langstone-fell.jpeg
@@ -97,16 +97,16 @@ blocks:
     intro_content: |-
           ## Holiday Cottages in Garsdale
           
-          Our three self-catering holiday cottages in Garsdale - Roger Pot, The Old Cart House and Farrier's Cottage - sit within easy reach of both Sedbergh and Hawes, and you can book them direct through this site. Each is a proper stone cottage in the dales, with open countryside on the doorstep and the quiet that makes Garsdale worth the journey from Sedbergh.
+          Our three self-catering holiday cottages in Garsdale - Roger Pot, The Old Cart House and Farrier's Cottage - sit within easy reach of both Sedbergh and Hawes, and you can book them direct through this site. Each is a traditional stone cottage in the dales, with open countryside on the doorstep and the quiet that makes Garsdale worth the journey from Sedbergh. Our [character cottages](/character-cottages/) page covers the history of the buildings, from the 1675 blacksmith's cottage to the old cart house, and our [secluded cottage with views](/secluded-cottage-with-views/) page is about Roger Pot's spot up its own farm track.
           
           [Our Cottages](/properties/)
   - type: markdown
     content: |-
           ## References
           
-          - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
-          - Sedbergh — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Sedbergh))
-          - Garsdale railway station — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale_railway_station))
+          - Garsdale, Cumbria - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+          - Sedbergh - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Sedbergh))
+          - Garsdale railway station - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale_railway_station))
           - Yorkshire Dales National Park ([yorkshiredales.org.uk](https://www.yorkshiredales.org.uk/))
           - Farfield Mill arts and heritage centre, Sedbergh ([farfieldmill.org](https://www.farfieldmill.org/))
           - Sedbergh Red Squirrels ([sedberghredsquirrels.org.uk](https://sedberghredsquirrels.org.uk/))

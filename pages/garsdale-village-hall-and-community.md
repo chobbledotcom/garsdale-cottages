@@ -82,7 +82,7 @@ blocks:
     content: |-
           ## References
           
-          - Garsdale, Cumbria — Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
+          - Garsdale, Cumbria - Wikipedia ([en.wikipedia.org](https://en.wikipedia.org/wiki/Garsdale))
           - Garsdale Parish Council ([garsdaleparishcouncil.com](https://garsdaleparishcouncil.com/))
           - Sedbergh and District Community First Responders ([sedbergh.org.uk](https://www.sedbergh.org.uk/community/organisations/first-responders/))
           - Archived Garsdale community website, `www.garsdale.info` (offline local archive)
